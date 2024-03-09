@@ -1,0 +1,102 @@
+blog:
+  navigation_title: blog
+categories:
+  fun: vrije tijd
+  work: werk
+  contact_note: Bij voorkeur per email.
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  Gehost met <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> en het <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> thema.
+latest_posts: nieuwste bericht
+news: Nieuws
+selected_publications: Selectie van publicaties
+site_description: Een informatieve site over werk en hobby's. Gebaseerd op het ontwerp van [*folio](https://github.com/bogoli/-folio).
+archive_category:  Een archief van berichten op categorie
+archive_tag:  Een archief van berichten op trefwoord
+archive_year: Een archief van berichten per jaar
+related_posts:
+  description: "Deze verwante artikelen zijn misschien ook interessant:"
+  title: Verder lezen?
+references: Referenties
+months:
+  long:
+    january: januari
+    february: februari
+    march: maart
+    april: april
+    may: mei
+    june: juni
+    july: juli
+    august: augustus
+    september: september
+    october: oktober
+    november: november
+    december: december
+  short:
+    january: jan
+    february: feb
+    march: maa
+    april: apr
+    may: mei
+    june: jun
+    july: jul
+    august: aug
+    september: sep
+    october: okt
+    november: nov
+    december: dec
+no_news: Op dit moment geen nieuws...
+pagination:
+  newer: Nieuwer
+  older: Ouder
+  page: Scherm
+cv:
+  address: Adres
+  area: Buurt
+  awarder: Prijs van
+  awards: Prijzen
+  basics: Algemene informatie
+  certificates: Diploma's
+  city: Stad
+  countryCode: Landcode
+  courses: Cursussen
+  date: Data
+  education: Opleiding
+  email: Email
+  endDate: Einddatum
+  fluency: Vloeiend
+  highlights: Hoogtepunten
+  image: Beeld
+  institution: Instituut
+  interests: Interesses
+  issuer: Uitgever
+  keywords: Trefwoorden
+  label: Titel
+  language: Taal
+  languages: Talen
+  level: Niveau
+  location: Locatie
+  name: Naam
+  network: Netwerk
+  organization: Organisatie
+  phone: Telefoon
+  position: Positie
+  postalCode: Postcodel
+  profiles: Profielen
+  projects: Projecten
+  publications: Publicaties
+  publisher: Uitgever
+  reference: Referentie
+  references: Referenties
+  region: Regio
+  releaseDate: Datum van uitgave
+  score: Cijfer
+  skills: Vaardigheden
+  startDate: Begindatum
+  studyType: Soort studie
+  summary: Samenvatting
+  table_of_contents: Onderwerpen
+  title: Titel
+  url: URL
+  username: Gebruikersnaam
+  volunteer: Vrijwilliger
+  work: Werk

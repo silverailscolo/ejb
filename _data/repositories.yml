@@ -1,13 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - silverailscolo
 
 github_repos:
-  - george-gca/multi-language-al-folio
-  - alshedivat/al-folio
-  - twbs/bootstrap
+  - JMRI/JMRI
+  - JMRI/website
+  - home-assistant/home-assistant.io
+  - silverailscolo/casambi-bt
   - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax

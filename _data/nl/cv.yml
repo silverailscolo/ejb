@@ -1,0 +1,81 @@
+- title: Curriculum Vitae
+  type: map
+  contents:
+    - name: Volledige naam
+      value: Egbert Broerse
+    - name: Geboortejaar
+      value: 1963
+    - name: Talen
+      value: Engels, Duits, Frans
+
+- title: Opleiding
+  type: time_table
+  contents:
+    - title: ir.
+      institution: Technische Universiteit Delft
+      year: 1981-1988
+      description:
+        - Architectuur
+        - title: Afstudeerproject
+          contents:
+            - ISP8 Stadsontwerp & Milieu Wageningen Noordwest
+            - Ontwerp hoofdgebouw Universiteit Wageningen
+
+- title: Ervaring
+  type: time_table
+  contents:
+    - title: Professor de Física Teórica
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
+      description:
+        - Descrição 1.
+        - Descrição 2.
+        - title: Descrição 3.
+          contents:
+            - Sub-descrição 1.
+            - Sub-descrição 2.
+    - title: Professor Visitante
+      institution: California Institute of Technology, Pasadena, Califórnia, EUA
+      year: 1933
+      description:
+        - Descrição 1.
+        - Descrição 2.
+
+- title: Open Source projecten
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
+      year: 2023-atual
+      description: Uma variação do tema al-folio com suporte a múltiplos idiomas.
+
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-atual
+      description: Um tema Jekyll bonito, simples, limpo e responsivo para acadêmicos.
+
+- title: Prijzen
+  type: time_table
+  contents:
+    - year: 1990
+      items:
+        - winnaar Olynthos dubbel woonhuis (met Leendert Verboom)
+    - year: 1995
+      items:
+        - 1e prijs Schakelen & Schakeren (met Barbara van Dijk)
+
+- title: Wetenschappelijke interesses
+  type: nested_list
+  contents:
+    - title: Duurzaamheid
+      items:
+        - Deelname actieteams CB23
+        - Circulair renoveren en restaureren
+        - Biobased bouwen
+    - title: Architectuur
+      items:
+        - Vormgevingscoördinator
+        - Beeldkwaliteitplannen
+
+- title: Andere interesses
+  type: list
+  contents:
+    - <u>Hobby's:</u> Tuinieren, Woningonderhoud, Domotica, Programmeren
