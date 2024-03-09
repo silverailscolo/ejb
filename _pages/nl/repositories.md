@@ -1,14 +1,14 @@
 ---
 page_id: repositories
 layout: page
-permalink: /repositories/
-title: repositórios
-description: Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.
-nav: true
-nav_order: 4
+permalink: /computers/repositories
+title: Repositories
+description: GitHub open source groepen waar ik aan meewerk
+#Pas in `_data/repositories.yml` de lijsten voor `github_users` e `github_repos` aan om jouw GitHub repositories en favorieten hier te tonen.
+nav: false
 ---
 
-## Usuários do GitHub
+## GitHub gebruiker
 
 {% if site.data.repositories.github_users %}
 
@@ -36,7 +36,7 @@ nav_order: 4
 {% endif %}
 {% endif %}
 
-## Repositórios do GitHub
+## GitHub repositories
 
 {% if site.data.repositories.github_repos %}
 

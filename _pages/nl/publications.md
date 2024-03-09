@@ -1,9 +1,8 @@
 ---
 page_id: publications
 layout: page
-permalink: /publications/
-title: publicações
-description: publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.
+title: publicaties
+description: Publicaties op datum.
 nav: true
 nav_order: 2
 ---
