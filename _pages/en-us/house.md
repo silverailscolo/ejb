@@ -1,6 +1,7 @@
 ---
-id: housedropdown
+id: house
 layout: page
+permalink: /house/
 title: house
 nav: true
 nav_order: 5

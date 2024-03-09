@@ -7,4 +7,3 @@ nav: false
 ---
 
 About the origin of our house
-

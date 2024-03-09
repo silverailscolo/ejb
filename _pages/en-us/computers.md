@@ -2,6 +2,7 @@
 id: dropdown
 layout: page
 title: computers
+permalink: /computers/
 nav: true
 nav_order: 6
 dropdown: true
@@ -18,3 +19,5 @@ children:
   - title: GitHub Repositories
     permalink: /computers/repositories
 ---
+
+What to write here?

@@ -1,6 +1,7 @@
 ---
 id: dropdown
 layout: page
+permalink: /computers/
 title: computers
 nav: true
 nav_order: 6

@@ -7,4 +7,3 @@ nav: false
 ---
 
 Over de circulaire, biobased renovation/restauratie van ons huis (2021-2022)
-

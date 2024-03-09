@@ -6,7 +6,7 @@ date: 2013-07-23 20:38:32
 description: Nobel Prize scientist says drawing is essential
 tags: nobel art
 categories: science
-featured: true 
+featured: true
 ---
 
 <a href="http://www.ebroerse.nl/blog/wp-content/uploads/2013/07/Elizabeth-Blackburn-Sketches-of-Science-Nobel-Museum-Volker-Steger.jpg"><img class="alignnone size-medium wp-image-30" alt="Elizabeth-Blackburn-Sketches-of-Science-Nobel-Museum-Volker-Steger" src="http://www.ebroerse.nl/blog/wp-content/uploads/2013/07/Elizabeth-Blackburn-Sketches-of-Science-Nobel-Museum-Volker-Steger-199x300.jpg" width="199" height="300"></a>

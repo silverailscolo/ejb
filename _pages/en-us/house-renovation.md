@@ -7,4 +7,3 @@ nav: false
 ---
 
 About the circular biobased renovation of our house (2021-2022)
-
