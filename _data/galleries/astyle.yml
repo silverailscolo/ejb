@@ -1,0 +1,11 @@
+picture_path: car_a-style
+pictures:
+- filename: VS-2012-5900
+  original: VS-2012-5900-4242x2828.jpg
+  sizes:
+  - VS-2012-5900-2999x1999.jpg
+  thumbnail: VS-2012-5900-thumbnail.jpg
+- filename: VS-2012-5930
+  original: VS-2012-5930-2121x1414.jpg
+  sizes: []
+  thumbnail: VS-2012-5930-thumbnail.jpg

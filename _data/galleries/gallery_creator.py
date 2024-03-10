@@ -11,13 +11,13 @@ from os import listdir, rename
 from os.path import isfile, join
 
 # configuration
-output_file = "astyle.yml" # gallery name, change for each gallery
+output_file = "astyle.yml"  # gallery name, change for each gallery
 input_file = output_file
 image_path = "car_a-style" # starting from path (next)
 extensions= ['jpg', 'jpeg', 'png']
 
 # set correct path
-path = join("assets/img/", image_path) # opieters used "../../assets/photography/" # customized Egbert for iMac 2024
+path = join("../../assets/img/", image_path) # opieters used "../../assets/photography/" # customized Egbert for iMac 2024
 
 # extract image files
 print('Collecting files...')
@@ -77,7 +77,9 @@ for image_set in new_gallery:
 # try to load YAML data
 print('Checking existing YAML data...')
 if isfile(input_file):
-    input_gallery = yaml.load(open(input_file, 'r'))
+    with open(input_file, 'r') as file:
+        input_gallery = yaml.safe_load(file) # TODO send PR to opieters
+    #input_gallery = yaml.load(open(input_file, 'r')) # TypeError: load() missing 1 required positional argument: 'Loader'
 else:
     # create empty dummy file
     input_gallery = {"pictures": []}
