@@ -1,6 +1,7 @@
 ---
 layout: post
-language: nl
+lang: nl
+page-id: language
 title: Betekenis van tekenen
 date: 2013-07-23 20:38:32
 description: Tekenen is essentieel

@@ -1,6 +1,7 @@
 ---
 layout: post
-langauge: en-us
+lang: en-us
+page-id: lodoremine
 title: Lodore Mill and tram
 date: 2014-01-04 20:50:00
 description: Installed a model

@@ -1,6 +1,7 @@
 ---
 layout: post
-langauge: en-us
+lang: en-us
+page-id: cleanup
 title: Desk clean-up
 date: 2013-08-20 22:03:43
 description: Make room for your ideas

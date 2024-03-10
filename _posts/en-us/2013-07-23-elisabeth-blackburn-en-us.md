@@ -1,6 +1,7 @@
 ---
 layout: post
-langauge: en-us
+lang: en-us
+page-id: drawing
 title: The meaning of drawing
 date: 2013-07-23 20:38:32
 description: Nobel Prize scientist says drawing is essential
