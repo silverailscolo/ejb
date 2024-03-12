@@ -1,12 +1,12 @@
 -
- title: A Very Basic Example Gallery
- directory: san-francisco
- preview:
-  filename: VS-2012-5900
-  original: VS-2012-5900-6000x4000.jpg
-  sizes:
-  - VS-2012-5900-2999x1999.jpg
-  thumbnail: VS-2012-5900-thumbnail.jpg
+  title: A Very Basic Example Gallery
+  directory: astyle
+  preview:
+    filename: VS-2012-5900
+    original: VS-2012-5900-4242x2828.jpg
+    sizes:
+    - VS-2012-5900-2999x1999.jpg
+    thumbnail: VS-2012-5900-thumbnail.jpg
 #-
 # title: A More Complicated Example Gallery
 # directory: ghent-light-festival

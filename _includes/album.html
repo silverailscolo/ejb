@@ -1,0 +1,19 @@
+<div id="{{include.albumname}}">
+
+    {% for image in site.static_files %}
+        {% if image.path contains 'img-noresample' and image.path contains include.albumname %}
+            <a href="{{ image.path }}" data-sub-html="Caption" >
+                <img src="/thumbnails/{{ include.albumname }}/{{ image.name }}" />
+            </a> <!-- {{ image.path }} -->
+        {% endif %}
+    {% endfor %}
+
+</div>
+
+<script>
+    $(document).ready(function() {
+      $('#{{include.albumname}}').lightGallery({
+      thumbnail:true
+        });
+    });
+</script>

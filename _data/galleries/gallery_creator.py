@@ -13,11 +13,11 @@ from os.path import isfile, join
 # configuration
 output_file = "astyle.yml"  # gallery name, change for each gallery
 input_file = output_file
-image_path = "car_a-style" # starting from path (next)
+image_path = "astyle" # starting from path (next)
 extensions= ['jpg', 'jpeg', 'png']
 
 # set correct path
-path = join("../../assets/img/", image_path) # opieters used "../../assets/photography/" # customized Egbert for iMac 2024
+path = join("../../assets/img-noresample/", image_path) # opieters used "../../assets/photography/" # customized Egbert for iMac 2024
 
 # extract image files
 print('Collecting files...')

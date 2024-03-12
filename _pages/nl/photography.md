@@ -1,14 +1,17 @@
 ---
-layout: default
+layout: page
 title: Photography
 permalink: /photography/
+nav: true
 ---
 
 <h1>{{ page.title }}</h1>
 
-<p>Below are two example galleries. The first gallery illustrates basic usage.
-The second gallery illustrate how to include several image galleries into one
-entry to create more complex structures and tell better stories.</p>
+<p>Link naar een galerij-pagina: <a href="astyle.html">SF</a></p>
+
+<p>Hieronder staan 2 (1) galerijen. De eerste toont eenvoudige toepassing.
+In de tweede zijn meerdere fotogalerijen in één blok gecombineerd om meer complexe structuren 
+te maken en betere verhalen te vertellen.</p>
 
 {% assign count = 0 %}
 {% assign align = "left" %}
@@ -17,7 +20,7 @@ entry to create more complex structures and tell better stories.</p>
   <div class="half-width gallery-preview {{ align }}">
     <h1>{{ gallery.title }}</h1>
     <a href="/photography/{{ gallery.directory }}.html">
-      <img alt="{{ gallery.title }}" src="/assets/photography/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
+      <img alt="{{ gallery.title }}" src="/assets/img-noresample/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
     </a>
   </div>
 {% if count == 1 %}</div>{% endif %}
