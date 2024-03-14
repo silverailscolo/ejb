@@ -18,10 +18,6 @@ children:
   - title: divider
   - title: Tips
     permalink: /trains/tips
-support: [jquery, gallery]
 ---
 
 A short intro and TOC
-
-Or simply so:
-{% include album.html albumname="astyle" %}

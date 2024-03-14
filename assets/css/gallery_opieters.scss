@@ -21,7 +21,6 @@ figure > img { display: block; }
 .image-wrapper,
 .gallery-sizer {
   width: $default-width;
-  /** width: 50%; */
 }
 
 .image-gallery {
@@ -32,7 +31,7 @@ figure > img { display: block; }
     float: left;
     padding: 3px;
 
-    // hack required if no padding
+    /** hack required if no padding */
     .image {
       width: 100.1%;
       width: calc( 100% + 1px );
