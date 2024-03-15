@@ -1,17 +1,50 @@
-<div id="gallery-container{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="gallery-container d-flex align-items-center justify-content-center">
+<!-- this element is auto-generated -->
+<!-- adapted from opieters liquid. Update your sources by running _data/galleries/gallery_creator.py python preprocess script -->
+<div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}">
+  <div id="gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}" class="gallery-sizer"></div>
   {% for picture in include.gallery.pictures %}
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.original }}"
-    data-responsive="{% for size in picture.sizes %} {{ site.url}}{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ size }} {{ size | split: '-' | last | split: '.' | first | split: 'x' | first | strip }}{% unless forloop.last %},{% endunless %}{% endfor %}"
-    {% if picture.title %} data-sub-html="<div class='caption'><h4>{{ picture.title | escape }}</h4>{% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}</div>"{% endif %}>
-      <img class="img-fluid" alt="{{ picture.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}" />
-    </a>
+    <div class="image-wrapper">
+      <a href="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.original }}" class="image-ref"
+      {% if picture.title %} data-sub-html="<div class='lg-toolbar caption'><h4>{{ picture.title | escape }}</h4>{% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}</div>"{% endif %}>
+        <img alt="{{ picture.title }}" src="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}" />
+      </a>
+    </div>
   {% endfor %}
 </div>
 
+<script>
+  window.addEventListener('DOMContentLoaded',() =>{
+    lightGallery(document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
+      plugins: [lgThumbnail, lgZoom],
+      speed: 500,
+      selector: '.image-ref',
+      thumbnails: true,
+      thumbWidth: 60,
+      thumbHeight: "40px",
+      thumbMargin: 4,
+      mobileSettings: {
+        controls: false,
+        showCloseIcon: true,
+        download: false,
+        rotate: false,
+        thumbnail: false,
+      }
+    });
 
-<script type="module">
-  lightGallery(document.getElementById("gallery-container"), {
-    speed: 500,
-    plugins: [lgZoom]
+  // init isotope
+  var $grid{% if include.id_number %}{{ include.id_number }}{% endif %} = $('#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}');
+  $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.isotope({
+    percentPosition: true,
+    columnWidth: '#gallery-sizer{% if include.id_number %}-{{ include.id_number }}{% endif %}',
+    itemSelector: '.image-wrapper',
+    layoutMode: "masonry",
+    gutter: 5
   });
+
+  // layout Isotope after each image loads
+  $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.imagesLoaded().progress( function() {
+    $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.masonry();
+  });
+  });
+
 </script>

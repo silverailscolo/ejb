@@ -125,20 +125,13 @@
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
 
-<!-- JavaScripts -->
+<!-- JavaScripts moved here from footer -->
 {% include scripts/jquery.liquid %}
 
 <!-- Lightgallery -->
 {% if page.support contains 'gallery' %}
-  {% include scripts/lightgallery.liquid %}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-transitions.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-zoom.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-thumbnail.min.css">
-  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/{{ "assets/css/gallery.css" }}">
-{% endif %}
-
-<!-- Lightgallery rb plugin -->
-{% if page.support contains 'gallery' %}
+  <!-- Lightgallery.rb plugin. Takes care of css too -->
   {% gallery_includes %}
+  <!-- EBR added for Lightgallery TODO add source -->
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/{{ "assets/css/gallery.css" }}">
 {% endif %}

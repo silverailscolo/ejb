@@ -1,5 +1,5 @@
 ---
-id: dropdown
+id: dropdown1
 layout: page
 title: computers
 permalink: /computers/
