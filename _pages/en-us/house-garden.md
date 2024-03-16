@@ -11,7 +11,7 @@ About our garden
 
 Includes js popup
 
-<h2>TEST using lightGallery docs tagging</h2>
+<h2>Options for using lightGallery docs tagging</h2>
 A manual LightGallery directly on the page:
 
   <div id="thegallery">

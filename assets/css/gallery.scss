@@ -24,8 +24,24 @@ html {
 }
 
 .image-wrapper,
-.gallery-sizer {
+.gallery-sizer,
+.grid-item,
+.grid-item {
   width: $default-width;
+  height: 120px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.grid-item--height2 { height: 200px}
+.grid-item--height3 { height: 260px}
+.grid-item--height4 { height: 360px}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .image-gallery {

@@ -11,10 +11,18 @@ from os import listdir, rename
 from os.path import isfile, join
 
 # configuration
+galleryname = input("Naam van de gallery:")
+if galleryname == "":
+    print('Gestopt na lege naam')
+    exit
+
 extensions= ['jpg', 'jpeg', 'png']
-output_file = "astyle.yml"  # gallery name, change for each gallery
+output_file = galleryname + ".yml"  # user input for gallery name, change for each gallery
 input_file = output_file
-image_path = "astyle" # starting from path (next)
+image_path = input("Pad naar images in img-noresample (Return voor " + galleryname + "):")
+if image_path == "":
+    image_path = galleryname
+image_path = galleryname # starting from path (next)
 
 # set correct path
 path = join("../../assets/img-noresample/", image_path) # opieters used "../../assets/photography/" # customized Egbert for iMac 2024

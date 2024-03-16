@@ -8,7 +8,8 @@ support: [gallery]
 
 <h1>{{ page.title }}</h1>
 
-<p>Link to a gallery page: <a href="astyle.html">A-post</a></p>
+<p>Link to gallery <a href="astyle.html">A-post</a></p>
+<p>Link to gallery <a href="avenue2.html">Avenue2</a></p>
 
 <p>Below are two example galleries. The first gallery illustrates basic usage.
 The second gallery illustrate how to include several image galleries into one
