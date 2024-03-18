@@ -1,12 +1,14 @@
 ---
 layout: post
+lang: nl
 title: Um anúncio longo com detalhes
 date: 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Anúncios e notícias podem ser muito mais longos do que apenas postagens rápidas em uma linha. Na verdade, eles podem ter todos os recursos disponíveis para as postagens padrão do blog. Veja abaixo.
+Berichten kunnen ook langer zijn dan 1 regel.
+Je kan bijv. alle opties van blog posts gebruiken, zie onder.
 
 ---
 

@@ -1,25 +1,28 @@
 #!/usr/bin/env python
 
 # install imagesize: pip install imagesize pyyaml # DONE egbert 10-03-2024 on iMac
+# added xmp tags to output, user input for gallery
 
 __author__ = 'Olivier Pieters'
 __author_email__ = 'me@olivierpieters.be'
 __license__ = 'BSD-3-Clause'
 
 import yaml, imagesize
+from libxmp import consts
+from libxmp.utils import file_to_dict
 from os import listdir, rename
 from os.path import isfile, join
 
 # configuration
-galleryname = input("Naam van de gallery:")
+galleryname = input("Naam van de gallery: ")
 if galleryname == "":
     print('Gestopt na lege naam')
     exit
 
-extensions= ['jpg', 'jpeg', 'png']
+extensions= ['jpg', 'jpeg', 'png', 'webp']
 output_file = galleryname + ".yml"  # user input for gallery name, change for each gallery
 input_file = output_file
-image_path = input("Pad naar images in img-noresample (Return voor " + galleryname + "):")
+image_path = input("Pad naar images in /img-noresample/ (Return voor " + galleryname + "): ")
 if image_path == "":
     image_path = galleryname
 image_path = galleryname # starting from path (next)
@@ -48,6 +51,12 @@ files = new_files
 # helper objects to store gallery data
 new_gallery = {}
 thumbs = {}
+# default field values
+dc = []
+_title = "Photo"
+_caption = "by"
+_creator = "EJ Broerse"
+_rights = "CC BY-NC-SA 4.0"
 
 # group gallery data
 print('Grouping files...')
@@ -69,12 +78,14 @@ for image_set in new_gallery:
     min_width, min_height = imagesize.get(join(path, new_gallery[image_set][0]))
     original = new_gallery[image_set][0]
     thumbnail = new_gallery[image_set][0]
+
     for image in new_gallery[image_set]:
         width, height = imagesize.get(join(path, image))
         if (width*height) > (max_width*max_height):
             original = image
         if (width*height) < (min_width*min_height):
             thumbnail = image
+
     # delete original from list to avoid double entries
     del new_gallery[image_set][new_gallery[image_set].index(original)]
     originals[image_set] = original
@@ -86,7 +97,7 @@ for image_set in new_gallery:
 print('Checking existing YAML data...')
 if isfile(input_file):
     with open(input_file, 'r') as file:
-        input_gallery = yaml.safe_load(file) # TODO send PR to opieters
+        input_gallery = yaml.safe_load(file) # TODO send PR to opieters @github
     #input_gallery = yaml.load(open(input_file, 'r')) # TypeError: load() missing 1 required positional argument: 'Loader'
 else:
     # create empty dummy file
@@ -107,8 +118,39 @@ for pic in new_gallery:
                 i["thumbnail"] = thumbs[pic]
             found = True
     if not found:
+        # extract xmp from original, only for jpeg
+        # 'http://purl.org/dc/elements/1.1/': [
+        #   ('dc:creator[1]', 'EJ Broerse', {...}),
+        #   ('dc:description[1]', 'blauwe Golf', {...}),
+        #   ('dc:title[1]', 'Volkswagen Golf Plus', {...}),
+        if originals[pic][originals[pic].rfind('.')+1:] in ['jpg', 'jpeg']:
+            title = _title
+            caption = _caption
+            creator = _creator
+            rights = _rights
+            # print("File: " + join(path, originals[pic]))
+            xmp = file_to_dict( join(path, originals[pic]) )
+            if consts.XMP_NS_DC in xmp:
+                dc = xmp[consts.XMP_NS_DC]
+                # a list of all Dublin Core properties in xmp; each element in the list is a tuple
+            else:
+                print("No XMP tag, file skipped")
+            # print(dc) # debug
+            for dc_pair in dc:
+                if "/?xml:lang" not in dc_pair[0]: # skip 'dc:title[1]/?xml:lang'
+                    # print("name: " + dc_pair[0] + " val: " + dc_pair[1] +"\n")
+                    if "dc:title" in dc_pair[0] and dc_pair[1] != '':
+                        title = dc_pair[1]
+                    elif "dc:caption" in dc_pair[0] and dc_pair[1] != '':
+                        caption = dc_pair[1]
+                    elif "dc:creator" in dc_pair[0] and dc_pair[1] != '':
+                        creator = dc_pair[1]
+                    elif "dc:rights" in dc_pair[0] and dc_pair[1] != '':
+                        rights = dc_pair[1]
+
         # create new entry
-        old_gallery.append({"filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic]})
+        old_gallery.append({"filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
+                            "title": title, "caption": caption + ' ' + creator + '<br>' + rights})
 
 # check if path existing
 if "picture_path" not in input_gallery:

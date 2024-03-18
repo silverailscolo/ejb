@@ -7,7 +7,7 @@ date: 2014-01-19 20:39:59
 description: Sneeuwgallerij bij Silverton
 tags: Silverton Colorado
 categories: N-schaal treinen
-featured: true
+featured: false
 ---
 
 Last weekend a lot happend in Silverton (level 2). After finishing the scenery and ballasting the track towards Ironton, I noted that at the left we had a disturbing lack of detail. The project to scratchbuild a snowshed over the SN track had intimidated me for years. But as always, you only discover how much work is involved by starting on a job.

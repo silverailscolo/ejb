@@ -1,13 +1,15 @@
 ---
 layout: gallery
-title: A Very Basic Example
+lang: en-us
+title: Car A-post
 permalink: /photography/astyle
 support: [gallery]
 nav: false
 ---
 
-At the end of our wonderful three week road trip at the West Coast of the US, we
-spent about four days in the wonderful city of San Francisco. The city's well
-known for the Golden Gate Bridge and it's fog, but has so much more up its sleeve!
+Looking at cars, I always try to categorise the designer's solution to connect the front
+fender, the windshield and the side window, what's known as the A-post.
+
+Here are some cars I spotted and shot outside.
 
 {% include gallery_layout.liquid gallery=site.data.galleries.astyle %}

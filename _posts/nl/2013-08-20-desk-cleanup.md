@@ -7,7 +7,7 @@ date: 2013-08-20 22:03:43
 description: Maak ruimte voor ideeën
 tags: schoon
 categories: thuis
-featured: true
+featured: false
 ---
 
 With a lot of help from my son I managed to clean up my desk after years of neglect. Sorting some bolts and nuts, and putting the remainders of several 'open' projects in small plastic trays made room for a fresh look at the hobby.

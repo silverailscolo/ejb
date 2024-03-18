@@ -78,12 +78,18 @@ module Jekyll
       gallery << "const lgContainer = document.getElementById('inline-gallery-container');"
       gallery << "const inlineGallery = lightGallery(lgContainer, {"
       gallery << "    container: lgContainer,"
+      gallery << "    plugins: [lgZoom, lgThumbnail],"
       gallery << "    dynamic: true,"
       gallery << "    hash: false,"
       gallery << "    closable: false,"
       gallery << "    showMaximizeIcon: true,"
       gallery << "    appendSubHtmlTo: '.lg-item',"
       gallery << "    slideDelay: 100,"
+      gallery << "    speed: 500,"
+      gallery << "    thumbnails: true,"
+      gallery << "    thumbWidth: 60,"
+      gallery << "    thumbHeight: '40px',"
+      gallery << "    thumbMargin: 4,"
       gallery << "    dynamicEl: [ "
       lines.each_with_index do |line, i|
         next if line.empty?

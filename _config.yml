@@ -477,5 +477,7 @@ mini_magick:
 
 exiftag:
   sources:
-    - photos
-    - photos/other_source
+    - assets/img
+    - assets/img-noresample
+    - assets/img-noresample/astyle
+    - assets/img-noresample/avenue2

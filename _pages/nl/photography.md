@@ -9,7 +9,7 @@ nav: true
 
 <p>Link naar een galerij-pagina: <a href="astyle.html">SF</a></p>
 
-<p>Hieronder staan 2 (1) galerijen. De eerste toont eenvoudige toepassing.
+<p>Hieronder staan 2 galerijen. De eerste toont eenvoudige toepassing.
 In de tweede zijn meerdere fotogalerijen in één blok gecombineerd om meer complexe structuren 
 te maken en betere verhalen te vertellen.</p>
 
@@ -17,6 +17,7 @@ te maken en betere verhalen te vertellen.</p>
 {% assign align = "left" %}
 {% for gallery in site.data.galleries.overview %}
 {% if count == 0 %}<div class="row">{% endif %}
+
   <div class="half-width gallery-preview {{ align }}">
     <h1>{{ gallery.title }}</h1>
     <a href="/photography/{{ gallery.directory }}.html">
@@ -33,5 +34,6 @@ te maken en betere verhalen te vertellen.</p>
 {% endfor %}
 
 {% if count != 1 %}
+
 </div>
 {% endif %}

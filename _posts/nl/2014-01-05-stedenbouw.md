@@ -7,7 +7,7 @@ date: 2014-01-05 20:38:27
 description: Ondersteun deze aanpak
 tags: stedenbouw
 categories: wetenschap
-featured: true
+featured: false
 ---
 
 Tom Turner wrote a clear essay on the _history of urban planning and design_. The hierarchy of roads over housing over the garden needs reconsidering.

@@ -14,7 +14,7 @@ archive_category: an archive of posts in this category
 archive_tag: an archive of posts with this tag
 archive_year: an archive of posts from this year
 related_posts:
-  description: "Here are some more articles you might like to read next:"
+  description: "Here are some articles you might like to read next:"
   title: Enjoy Reading This Article?
 references: References
 months:
