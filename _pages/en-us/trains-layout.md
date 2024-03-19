@@ -14,6 +14,7 @@ See my <a href="https://ebroerse.nl/trains/">old site</a>
 and the <a href="https://ebroerse.nl/photo/index.php?/category/2">picture gallery</a>
 
 ### Inline opieters
+
 Gallery as inline include
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 
@@ -392,7 +393,7 @@ Dispatching threshold: 14 car trains</p>
 <p>Starting in the spring of 2004, I have switched to Digtrax DCC with a Zephyr command station. 10 Years ago, M&auml;rklin and Lenz started with DCC, but it was too expensive for me. I did build an electronic occupancy detector (works like a dream as of 2006, connected to the inputs of a <a href="#locoio">LocoIO</a>, by the way) and read all the manuals, but never bought any hardware. The regular DCC summaries in Model Railroader kept me informed on the latest developments, and later on the internet made this even easier. So in 2004 I ordered a DCC-stater pack from the USA.</p>
 
 <h4>Digitrax Zephyr</h4>
-<p>What attracted me in <a href="https://www.digitrax.com">Digitrax</a> were the price of the starter set and the elegance of the Loconet network system, that connected all signaling devices. Lenz also had an interface between DCC and a computer, but after the first edition for Macintosh there was no follow up and I gave up on that too.</p> 
+<p>What attracted me in <a href="https://www.digitrax.com">Digitrax</a> were the price of the starter set and the elegance of the Loconet network system, that connected all signaling devices. Lenz also had an interface between DCC and a computer, but after the first edition for Macintosh there was no follow up and I gave up on that too.</p>
 
 <h4>JMRI</h4>
 <a href="https://www.jmri.org"><img src="/assets/img/trains/logo-jmri.gif' alt='JMRI' width='160' height='136'></a>
@@ -513,7 +514,6 @@ Dispatching threshold: 14 car trains</p>
 <li><a href="https://www.trainweb.com/">TrainWeb community</a></li>
 <li><a href="https://www.progressiverailroading.com/">Progressive Railroading Magazine</a></li>
 </ul>
-
 
 <h2><a id="varia">Varia</a></h2>
 

@@ -17,6 +17,7 @@ entry to create more complex structures and tell better stories.</p>
 
 {% assign count = 0 %}
 {% assign align = "left" %}
+
 <div class="row">
 {% for gallery in site.data.galleries.overview %}
   <div class="half-width gallery-preview {{ align }}">
@@ -33,6 +34,7 @@ entry to create more complex structures and tell better stories.</p>
 {% endif %}
 {% endfor %}
 
-{% if count == 0 %}No galleries defined in _data/galleries/overview.yml{% endif %}
+{% if count == 0 %}No galleries defined in \_data/galleries/overview.yml{% endif %}
+
 </div>
 <!-- auto-generated up to here -->

@@ -17,10 +17,10 @@ sort_field: "title" # sorting of the galleries on the gallery index page
 thumbnail_size:
   x: 250
   y: 250
-front_thumb_size:     # best image thumb size for the gallery super-index page
+front_thumb_size: # best image thumb size for the gallery super-index page
   x: 150
   y: 500
-header_thumb_size:    # best image thumb for the header of a gallery index page
+header_thumb_size: # best image thumb for the header of a gallery index page
   x: 1900
   y: 170
 
@@ -52,5 +52,4 @@ galleries:
     header_image: paintings_header.jpg
     scale_method: crop_bottom
     paintings.jpg: Nevy
-
 #symlink: true # to avoid copying big files into the generated site folder - does not work with stripping EXIF

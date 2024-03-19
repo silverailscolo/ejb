@@ -52,7 +52,6 @@ See  <a href="https://www.ebroerse.nl/blog/archieven/195">blog post</a>
 
 <div class="w3-card w3-teal">Back to <a href="index.html">Railroading</a></div>
 
-
 <h2><a id="panel">JMRI Panel</a></h2>
 
 <p>My digital control panel was built using Panel Editor and is displayed on a compact LCD monitor by <a href="https://www.jmri.org/help/en/html/apps/PanelPro/index.shtml">JMRI PanelPro 2.4.1</a> on OSX 10.4.6, the last version supported by my MacMini hardware/Java combo.<br>

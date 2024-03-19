@@ -10,8 +10,8 @@ latest_posts: Nieuwste bericht
 news: Nieuws
 selected_publications: Selectie van publicaties
 site_description: Informatieve site over mijn werk en hobby's. Geen garanties!
-archive_category:  Archief met berichten op categorie
-archive_tag:  Archief met berichten op trefwoord
+archive_category: Archief met berichten op categorie
+archive_tag: Archief met berichten op trefwoord
 archive_year: Archief met berichten per jaar
 related_posts:
   description: "Deze artikelen zijn misschien ook interessant:"
