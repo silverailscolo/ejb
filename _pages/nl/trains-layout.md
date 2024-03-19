@@ -5,6 +5,9 @@ permalink: /trains/layout
 title: The layout
 description: N-scale Colorado ca 1950
 nav: false
+toc:
+  sidebar: left
+#  beginning: true # made from the headings
 ---
 
 Zie mijn <a href="https://ebroerse.nl/trains/">oude site</a>

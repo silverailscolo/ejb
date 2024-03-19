@@ -177,6 +177,8 @@ latest_posts:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+host: 0.0.0.0 # allow viewing in local network
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
@@ -214,6 +216,8 @@ exclude:
   - readme_preview/
   - UPGRADING.md
   - vendor
+  - bower_components
+  - bower.json
 keep_files:
   - CNAME
   - .nojekyll
@@ -242,6 +246,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope: # for opieters gallery
+      path: "photography"
+    values:
+      permalink: /:path/:basename:output_ext
 
 sass:
   sourcemap: never
@@ -458,3 +466,18 @@ jsonresume:
   - languages
   - interests
   - references
+
+mini_magick:
+  photoFolders:
+    source: assets/img-noresample
+    destination: thumbnails
+    resize: "150x150"
+    gravity: "center"
+    extent: "150x150"
+
+exiftag:
+  sources:
+    - assets/img
+    - assets/img-noresample
+    - assets/img-noresample/astyle
+    - assets/img-noresample/avenue2

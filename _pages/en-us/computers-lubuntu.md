@@ -7,9 +7,9 @@ description: Lubuntu (Linux) tips
 nav: false
 ---
 
-<h1 class="superkop">Lubuntu tips</h1>
+# Lubuntu tips
 
-<h2>Installing a Belkin WiFi PCMCIA card on Lubuntu 14.04</h2>
+## Installing a Belkin WiFi PCMCIA card on Lubuntu 14.04
 
 <p>Check the properties of your WiFi card by opening Utilities > Xterminal and typing:</p>
 <pre>sudo lspci</pre>
@@ -24,8 +24,9 @@ nav: false
 <pre>sudo apt-get install b43-fwcutter</pre>
 <p>Remove your wifi card from its slot and restart the computer.</p>
 
-<h4>Uninstall the default <strong>wl</strong> wireless driver</h4>
-<p><a href="https://help.ubuntu.com/12.04/serverguide/apt-get.html">apt-get</a> installs a package, apt-get remove deletes a package (with --purge it deletes the configurations as well).
+#### Uninstall the default _wl_ wireless driver
+
+<p><a href="https://help.ubuntu.com/community/AptGet/Howto">apt-get</a> installs a package, apt-get remove deletes a package (with --purge it deletes the configurations as well).
 Go to Utilities > Xterminal and type:</p>
 <pre>sudo apt-get remove --purge bcmwl-kernel-source</pre>
 <p>You might have to repeat this step after a system update, as the default bcmwl-kernel module gets installed again. Took me months to sort that one out.</p>
@@ -39,18 +40,21 @@ Go to Utilities > Xterminal and type:</p>
 <pre>blacklist wl</pre>
 <p>Save your edits by pressing Ctrl-O. Insert your wifi card in the slot.</p>
 
-<h4>Install the wifi icon</h4>
+#### Install the wifi icon
+
 <p>Go to desktop menu->Preferences->Default applications for LXSessions. Navigate to Core Applications and then to Network GUI. Type in </p><pre>nm-applet</pre>
 <p>and hit reload.<br>
 There is a known bug that displays 2 Network Manager icons in the tray. Don't worry, is my easiest fix.</p>
 
-<h4>Activate B43 driver</h4>
+#### Activate B43 driver
+
 <p>Depending on the release, the B43 (and other) packages can often be simply activated under the desktop menu > Preferences > Additional Drivers (the rightmost tab, in Dutch: Extra stuurprogramma's).<br>
 Click B43, enter password.<br>
 on our Acer laptop, no special action was necesary to activate the driver, but you should enable the Wifi hardware switch or both the internal and the PCMCIA card will be disabled.</p>
 
-<h3>Switching between drivers</h3>
-<p>If you card is supported by more than one driver then use the <a href="https://en.wikipedia.org/wiki/Modprobe">modprobe command</a> to select the appropriate driver. First unload all conflicting drivers (this includes removing the driver you're trying to install). Go to Utilities > Xterminal and type:</p>
+### Switching between drivers
+
+<p>If your card is supported by more than one driver then use the <a href="https://en.wikipedia.org/wiki/Modprobe">modprobe command</a> to select the appropriate driver. First unload all conflicting drivers (this includes removing the driver you're trying to install). Go to Utilities > Xterminal and type:</p>
 <pre>sudo modprobe -r b43 bcma</pre>
 <pre>sudo modprobe -r brcmsmac bcma</pre>
 <pre>sudo modprobe -r wl</pre>
@@ -65,5 +69,5 @@ Go to <em>Network connections</em> and delete any old Wifi connection.<br>
 Create a new connection, fill in your credentials, MAC of the network card (= eth1).<br>
 If your laptop also has an internal, built-in wireless card, be sure to pick the right adapter and ignore the other one.
 
-Hope this has been of help to you.<br>
+Hope this has been of help to you.
 Source of these instructions: <a href ="https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx">help.ubuntu.com</a> and <a href="https://launchpad.net/ubuntu/+source/b43-fwcutter">launchpad.net</a>.

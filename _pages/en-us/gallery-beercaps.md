@@ -1,0 +1,14 @@
+---
+layout: gallery
+lang: en-us
+title: Beer caps
+permalink: /photography/beercaps
+support: [gallery]
+nav: false
+---
+
+On every beer bottle is a cap, until you pop it off. Some caps are tiny pieces of art.
+
+Here are some caps I managed to save from the bin and scanned.
+
+{% include gallery_layout.liquid gallery=site.data.galleries.beercaps %}

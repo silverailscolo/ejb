@@ -25,7 +25,7 @@ nav: false
 <p>Remove your wifi card from its slot and restart the computer.</p>
 
 <h4>Uninstall the default <strong>wl</strong> wireless driver</h4>
-<p><a href="https://help.ubuntu.com/12.04/serverguide/apt-get.html">apt-get</a> installs a package, apt-get remove deletes a package (with --purge it deletes the configurations as well).
+<p><a href="https://help.ubuntu.com/community/AptGet/Howto">apt-get</a> installs a package, apt-get remove deletes a package (with --purge it deletes the configurations as well).
 Go to Utilities > Xterminal and type:</p>
 <pre>sudo apt-get remove --purge bcmwl-kernel-source</pre>
 <p>You might have to repeat this step after a system update, as the default bcmwl-kernel module gets installed again. Took me months to sort that one out.</p>

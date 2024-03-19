@@ -6,15 +6,15 @@ categories:
   contact_note: Bij voorkeur per email.
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Gehost met <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> en het <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> thema.
-latest_posts: nieuwste bericht
+latest_posts: Nieuwste bericht
 news: Nieuws
 selected_publications: Selectie van publicaties
-site_description: Een informatieve site over werk en hobby's. Gebaseerd op het ontwerp van [*folio](https://github.com/bogoli/-folio).
-archive_category:  Een archief van berichten op categorie
-archive_tag:  Een archief van berichten op trefwoord
-archive_year: Een archief van berichten per jaar
+site_description: Informatieve site over mijn werk en hobby's. Geen garanties!
+archive_category: Archief met berichten op categorie
+archive_tag: Archief met berichten op trefwoord
+archive_year: Archief met berichten per jaar
 related_posts:
-  description: "Deze verwante artikelen zijn misschien ook interessant:"
+  description: "Deze artikelen zijn misschien ook interessant:"
   title: Verder lezen?
 references: Referenties
 months:

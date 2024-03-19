@@ -6,8 +6,6 @@ categories:
 contact_note: You can even add a little note about which of these is the best way to reach you.
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 latest_posts: latest posts
 news: news
 selected_publications: selected publications
@@ -16,7 +14,7 @@ archive_category: an archive of posts in this category
 archive_tag: an archive of posts with this tag
 archive_year: an archive of posts from this year
 related_posts:
-  description: "Here are some more articles you might like to read next:"
+  description: "Here are some articles you might like to read next:"
   title: Enjoy Reading This Article?
 references: References
 months:

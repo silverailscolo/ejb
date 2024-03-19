@@ -1,6 +1,7 @@
 ---
 layout: post
-language: nl
+lang: nl
+page-id: lodoremine
 title: Lodore Mill en kabelbaan
 date: 2014-01-04 20:50:00
 description: Model geplaatst
@@ -9,7 +10,7 @@ categories: treinen mijnbouw
 featured: true
 ---
 
-Completed a weekend project: the mill is ready, spur and trees added.
+Een klein projectje voor het weekend: de mijn is geplaatst, met licht, rails en bomen.
 
 <a href="http://www.ebroerse.nl/blog/wp-content/uploads/2014/01/20140112-191109.jpg"><img class="alignnone size-full" src="http://www.ebroerse.nl/blog/wp-content/uploads/2014/01/20140112-191109.jpg" alt="20140112-191109.jpg" /></a>
 Learned a lot about the mines, aerial tram and mills around Silverton, by searching the web. I found a detailed historical study (no longer online as of 2023) on the Shenandoah-Dives, aka Mayflower Mill. Although I plan to include the Lodore mine/mill combo next to the Ironton spur, this is the best documented example. The tram terminal, where the buckets with ore from the mines up in the mountains were emptied, had a gabled roof.
