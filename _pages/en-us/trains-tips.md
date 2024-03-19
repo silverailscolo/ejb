@@ -20,11 +20,11 @@ See the <a href="https://ebroerse.nl/trains/#proto">old site</a>
 See  <a href="https://www.ebroerse.nl/blog/archieven/195">blog post</a>
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/IMG_6524.jpg"><img src='images/IMG_6524.jpg' alt='K-27' class='w3-image'></a>
+<figure><a href="/assets/img/trains/IMG_6524.jpg"><img src='/assets/img/trains/IMG_6524.jpg' alt='K-27' class='w3-image'></a>
 <figcaption class="kleiner">K-27 <a href="https://www.ebroerse.nl/blog/archieven/195">under construction</a> (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src='images/K27_image1.jpg' alt='Wheel disk sketch' class='w3-image'>
+<figure><img src='/assets/img/trains/K27_image1.jpg' alt='Wheel disk sketch' class='w3-image'>
 <figcaption class="kleiner">How the K-27wheels attach (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
@@ -33,7 +33,7 @@ See  <a href="https://www.ebroerse.nl/blog/archieven/195">blog post</a>
 
 <p>Using the Digitrax base mast as, well, the base we add the typical hood from styrene.</p>
 
-<figure><img src='images/DSCF2960_signal.jpg' alt='Digitrax Base Mast' class='w3-image'>
+<figure><img src='/assets/img/trains/DSCF2960_signal.jpg' alt='Digitrax Base Mast' class='w3-image'>
 <figcaption class="kleiner">Customized Digitrax Base Mast (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
@@ -41,16 +41,16 @@ See  <a href="https://www.ebroerse.nl/blog/archieven/195">blog post</a>
 
 <p>The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage. At <a href="https://www.conrad.nl">Conrad</a> I ordered a 53,5 x 45 x 23 mm StrapuBox, item 522600-89. Pictured below are the modifications to get the decoder inside. Put a label on the front with the decoder ID (I use DS52-X) plus the DCC adresses of both outputs and attach to the layout with 2 screws.</p>
 
-<figure><a href='images/IMG_0502-lo.jpg'><img src='images/IMG_0503-lo.jpg' alt='Now that is neat' class='w3-image'></a>
+<figure><a href='/assets/img/IMG_0502-lo.jpg'><img src='/assets/img/trains/IMG_0503-lo.jpg' alt='Now that is neat' class='w3-image'></a>
 <figcaption class="kleiner">A DS52 enclosed (click on image to view the instructions)</figcaption></figure>
 
 <h3><a id="invertor">Build an add-on logic invertor daughterboard for an HDL LocoIO</a></h3>
 
-<figure><a href="/assets/img/trains/DSCF0229_half.jpg"><img src='images/DSCF0229_th.jpg' alt='LocoIO daughterboard, click for larger image' class='w3-image'></a></figure>
+<figure><a href="/assets/img/trains/DSCF0229_half.jpg"><img src='/assets/img/trains/DSCF0229_th.jpg' alt='LocoIO daughterboard, click for larger image' class='w3-image'></a></figure>
 
 <p>To reduce the number of outputs required to connect a switch panel to Loconet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel, simply because I don't have switch feedback and if a switch isn't thrown, it's supposed to be closed. Built using a 18x15 hole piece of Euro-PCB experimenting board.</p>
 
-<div class="w3-card w3-teal">Back to <a href="index.html">Railroading</a></div>
+<div class="w3-card w3-teal">Back to <a href="trains.html">Railroading</a></div>
 
 <h2><a id="panel">JMRI Panel</a></h2>
 

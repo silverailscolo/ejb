@@ -4,7 +4,7 @@ layout: page
 title: computers
 permalink: /computers/
 nav: true
-nav_order: 6
+nav_order: 7
 dropdown: true
 children:
   - title: my Macs

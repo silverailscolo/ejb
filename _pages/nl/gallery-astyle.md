@@ -2,7 +2,8 @@
 layout: gallery
 lang: nl
 title: Car A-post
-permalink: /photography/astyle
+permalink: /gallery/astyle
+id: gallery-astyle
 support: [gallery]
 nav: false
 ---

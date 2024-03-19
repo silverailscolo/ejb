@@ -1,7 +1,8 @@
 ---
 layout: gallery
+lang: nl
 title: Avenue2
-permalink: /photography/avenue2
+permalink: /gallery/avenue2
 support: [gallery]
 nav: false
 ---

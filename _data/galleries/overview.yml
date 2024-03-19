@@ -1,6 +1,6 @@
 - title: Avenue2
   directory: avenue2
-  picture_path: avenue2 # /part1
+  #picture_path: avenue2 # /part1
   preview:
     filename: A2tunnelmondoverzicht
     original: A2tunnelmondoverzicht-540x359.jpg

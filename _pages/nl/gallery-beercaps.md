@@ -8,8 +8,9 @@ support: [gallery]
 nav: false
 ---
 
-On every beer bottle is a cap, until you pop it off. Some caps are tiny pieces of art.
+Op elke volle bierfles zat ooit een kroondop, totdat hij werd geopend.
+Sommige doppen zijn kleine kunstwerkjes.
 
-Here are some caps I managed to save from the bin and scanned.
+Hier zijn wat doppen die ik kon redden vor de prullebak en heb gescand.
 
 {% include gallery_layout.liquid gallery=site.data.galleries.beercaps %}

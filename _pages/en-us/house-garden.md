@@ -15,11 +15,11 @@ Includes js popup
 A manual LightGallery directly on the page:
 
   <div id="thegallery">
-    <a href="/assets/img-noresample/astyle/IMG_4115-960x720.jpg"
+    <a href="/assets/img-noresample/astyle/IMG_4115-960x720.jpg" 
 data-sub-html="Photo 1 by EJB" >
         <img alt="img1" src="/assets/img-noresample/astyle/IMG_4115-960x720.jpg" />
     </a>
-    <a href="/assets/img-noresample/astyle/IMG_4116-960x720.jpg"
+    <a href="/assets/img-noresample/astyle/IMG_4116-960x720.jpg" 
 data-sub-html="Photo 2 by EJB" >
         <img alt="img2" src="/assets/img-noresample/astyle/IMG_4116-960x720.jpg" />
     </a>
@@ -43,8 +43,9 @@ As an inline include
 
 <h2>Using lightgallery_tag.rb</h2>
 {% gallery %}
-  /assets/img-noresample/astyle/IMG_4115-960x720.jpg
-  /assets/img-noresample/astyle/IMG_4116-960x720.jpg
+  /assets/img-noresample/astyle/20140831202837-bd2786fa-120x120.jpg
+  /assets/img-noresample/astyle/20200305053035-847eb9cc-120x120.jpg
+  /assets/img-noresample/astyle/20200412152359-6752e1a4-120x120.jpg
 {% endgallery %}
 <!-- lightgallery_tag.rb auto thumbs -->
 

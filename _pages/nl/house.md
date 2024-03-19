@@ -4,7 +4,7 @@ layout: page
 permalink: /house/
 title: huis
 nav: true
-nav_order: 5
+nav_order: 6
 dropdown: true
 children:
   - title: tuin
