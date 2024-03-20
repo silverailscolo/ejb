@@ -90,7 +90,7 @@ module Jekyll
 #        end
         retxmp = xmp.dc.title
 
-        return ret + "; " + retxmp)
+        return ret + "; " + retxmp
         #return ret
       rescue StandardError => e  
         puts e.message 

@@ -6,6 +6,7 @@ title: "HDL LocoBooster installation issue fixed"
 date: "2018-05-23"
 categories:
   - "trains-treinen"
+  - "how-to"
 ---
 
 # Ervaring & Oplossing
