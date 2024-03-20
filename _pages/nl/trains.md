@@ -1,5 +1,5 @@
 ---
-id: dropdown
+id: trains
 layout: page
 title: trains
 permalink: /trains/

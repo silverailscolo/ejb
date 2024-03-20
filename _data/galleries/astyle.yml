@@ -1,24 +1,6 @@
 picture_path: astyle
 pictures:
   - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
-    filename: IMG_4115
-    original: IMG_4115-960x720.jpg
-    sizes:
-      - IMG_4115-479x359.webp
-      - IMG_4115-799x599.webp
-      - IMG_4115-959x719.webp
-    thumbnail: IMG_4115-479x359.webp
-    title: Volkswagen Golf Plus
-  - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
-    filename: IMG_4116
-    original: IMG_4116-960x720.jpg
-    sizes:
-      - IMG_4116-479x359.webp
-      - IMG_4116-799x599.webp
-      - IMG_4116-959x719.webp
-    thumbnail: IMG_4116-479x359.webp
-    title: Peugeot 405
-  - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
     filename: 20140831202837-bd2786fa
     original: 20140831202837-bd2786fa-576x432.jpg
     sizes:
@@ -27,7 +9,7 @@ pictures:
       - 20140831202837-bd2786fa-120x120.jpg
       - 20140831202837-bd2786fa-144x108.jpg
     thumbnail: 20140831202837-bd2786fa-144x108.jpg
-    title: Photo
+    title: Volkswagen Golf Plus
   - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
     filename: 20140831202839-1387031f
     original: 20140831202839-1387031f-576x432.jpg
@@ -36,7 +18,7 @@ pictures:
       - 20140831202839-1387031f-120x120.jpg
       - 20140831202839-1387031f-144x108.jpg
     thumbnail: 20140831202839-1387031f-144x108.jpg
-    title: Photo
+    title: Peugeot 405
   - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
     filename: 20150507213241-8a450c3e
     original: 20150507213241-8a450c3e-576x432.jpg

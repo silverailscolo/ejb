@@ -4,7 +4,7 @@ lang: en-us
 page-id: busytown
 title: "Busytown under Corona"
 date: "2020-05-02"
-categories: 
+categories:
   - "science-wetenschap"
 ---
 

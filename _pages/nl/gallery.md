@@ -8,8 +8,6 @@ nav_order: 1
 support: [gallery]
 ---
 
-<h1>{{ page.title }}</h1>
-
 <p>Galerij: <a href="astyle.html">A-stijl</a></p>
 <p>Galerij: <a href="avenue2.html">Avenue2</a></p>
 <p>Galerij: <a href="beercaps.html">Beer caps</a></p>

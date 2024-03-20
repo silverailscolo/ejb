@@ -8,9 +8,9 @@ nav_order: 1
 support: [gallery]
 ---
 
-<p>Link to gallery <a href="astyle.html">A-post</a></p>
-<p>Link to gallery <a href="avenue2.html">Avenue2</a></p>
-<p>Link to gallery <a href="beercaps.html">Beer caps</a></p>
+<p>Gallery <a href="astyle.html">A-post</a></p>
+<p>Gallery <a href="avenue2.html">Avenue2</a></p>
+<p>Gallery <a href="beercaps.html">Beer caps</a></p>
 
 <p>Below are two example galleries. The first gallery illustrates basic usage.
 The second gallery illustrate how to include several image galleries into one

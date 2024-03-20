@@ -4,9 +4,9 @@ lang: en-us
 page-id: lodoremine
 title: "Lodore Mill and tram"
 date: "2014-01-04"
-categories: 
+categories:
   - "trains-treinen"
-tags: 
+tags:
   - Colorado
   - mining
 ---

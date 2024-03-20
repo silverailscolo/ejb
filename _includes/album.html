@@ -28,8 +28,9 @@
     });
     imagesLoaded(document.getElementById("{{ include.albumname }}"), function() {
       new Masonry( document.getElementById("{{ include.albumname }}"), {
-        itemSelector: '.image-wrapper',
-        columnWidth: 320,
+        percentPosition: true,
+        itemSelector: '.image-ref',
+        layoutMode: "masonry",
         gutter: 5
       });
     });

@@ -9,7 +9,7 @@ tags:
   - N-scale
   - Colorado
   - Silverton
-categories: 
+categories:
   - trains
 featured: false
 ---

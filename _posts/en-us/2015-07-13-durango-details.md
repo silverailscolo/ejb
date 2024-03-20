@@ -4,7 +4,7 @@ lang: en-us
 page-id: durangodetails
 title: "Durango details"
 date: "2015-07-13"
-categories: 
+categories:
   - "trains-treinen"
 ---
 

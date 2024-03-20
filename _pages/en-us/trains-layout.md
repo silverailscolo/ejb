@@ -8,6 +8,7 @@ nav: false
 toc:
   sidebar: left
 #  beginning: true # made from the headings
+support: [gallery]
 ---
 
 See my <a href="https://ebroerse.nl/trains/">old site</a>
