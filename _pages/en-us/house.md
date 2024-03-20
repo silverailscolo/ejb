@@ -3,6 +3,7 @@ id: house
 layout: page
 permalink: /house/
 title: house
+lang: en-us
 nav: true
 nav_order: 6
 dropdown: true

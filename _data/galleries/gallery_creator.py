@@ -17,7 +17,7 @@ from os.path import isfile, join
 galleryname = input("Naam van de gallery: ")
 if galleryname == "":
     print('Gestopt na lege naam')
-    exit
+    exit()
 
 extensions= ['jpg', 'jpeg', 'png', 'webp']
 output_file = galleryname + ".yml"  # user input for gallery name, change for each gallery
@@ -53,10 +53,10 @@ new_gallery = {}
 thumbs = {}
 # default field values
 dc = []
-_title = "Photo"
-_caption = "by"
-_creator = "EJ Broerse"
-_rights = "CC BY-NC-SA 4.0"
+_title = title = "Photo"
+_caption = caption = "by"
+_creator = creator = "EJ Broerse"
+_rights = rights = "CC BY-NC-SA 4.0"
 
 # group gallery data
 print('Grouping files...')
@@ -135,7 +135,6 @@ for pic in new_gallery:
                 # a list of all Dublin Core properties in xmp; each element in the list is a tuple
             else:
                 print("No XMP tag, file skipped")
-            # print(dc) # debug
             for dc_pair in dc:
                 if "/?xml:lang" not in dc_pair[0]: # skip 'dc:title[1]/?xml:lang'
                     # print("name: " + dc_pair[0] + " val: " + dc_pair[1] +"\n")
@@ -149,8 +148,8 @@ for pic in new_gallery:
                         rights = dc_pair[1]
 
         # create new entry
-        old_gallery.append({"filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
-                            "title": title, "caption": caption + ' ' + creator + '<br>' + rights})
+        old_gallery.append({ "filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
+                            "title": title, "caption": caption + ' ' + creator + ' ' + rights })
 
 # check if path existing
 if "picture_path" not in input_gallery:

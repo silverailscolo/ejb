@@ -1,8 +1,9 @@
 ---
-id: dropdown1
+id: computers
 layout: page
 title: computers
 permalink: /computers/
+lang: en-us
 nav: true
 nav_order: 7
 dropdown: true

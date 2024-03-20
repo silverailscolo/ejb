@@ -1,9 +1,9 @@
 ---
 layout: gallery
-lang: nl
-title: Car A-post
+title: A-stijl van auto's
 permalink: /gallery/astyle
 id: gallery-astyle
+lang: nl
 support: [gallery]
 nav: false
 ---

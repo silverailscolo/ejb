@@ -3,6 +3,7 @@ layout: page
 title: gallery
 permalink: /gallery/
 id: gallery
+lang: en-us
 nav: true
 nav_order: 1
 support: [gallery]

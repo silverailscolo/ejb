@@ -3,6 +3,7 @@ page_id: cv
 layout: cv
 permalink: /cv/
 title: cv
+lang: en-us
 nav: true
 nav_order: 4
 cv_pdf: example_pdf.pdf

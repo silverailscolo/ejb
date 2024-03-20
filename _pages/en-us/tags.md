@@ -2,6 +2,7 @@
 id: tags
 layout: page
 title: Posts By Tags
+lang: en-us
 permalink: /blog/tags
 ---
 

@@ -3,7 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
-blog_name: Egbert's English blog
+lang: en-us
+blog_name: Egbert's blog
 description: personal blog
 nav: true
 nav_order: 0

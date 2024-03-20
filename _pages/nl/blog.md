@@ -5,6 +5,7 @@ permalink: /blog/
 title: blog
 blog_name: Egbert's NL blog
 description: persoonlijk blog
+lang: nl
 nav: true
 nav_order: 1
 pagination:

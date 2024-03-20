@@ -1,6 +1,6 @@
 ---
 layout: gallery
-lang: en-us
+lang: nl
 title: Beer caps
 permalink: /gallery/beercaps
 id: gallery-beercaps

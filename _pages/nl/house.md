@@ -3,6 +3,7 @@ id: house
 layout: page
 permalink: /house/
 title: huis
+lang: nl
 nav: true
 nav_order: 6
 dropdown: true

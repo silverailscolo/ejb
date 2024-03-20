@@ -3,6 +3,7 @@ page_id: mymacs
 layout: page
 permalink: /computers/mymacs
 title: My Macs
+lang: en-us
 nav: false
 toc:
   sidebar: left
@@ -178,21 +179,21 @@ HD: 233 Gb ATA</p>
 <h2><a id="software">Mac software</a></h2>
 <p>Software die ik het meest gebruik:</p>
 
-<p>Apple Pages, Numbers en Keynote <img src='/assets/img/mac/pagesdock.png' alt='Apple Apps in Dock' width='128' height='62'></p>
+<p>Apple Pages, Numbers en Keynote <img src='/assets/img/mac/pagesdock.png' alt='Apple Apps in Dock'></p>
 
 <p>Ik was rond 2000 een zeer actieve ontwikkelaar van <a href="https://arstechnica.com/gadgets/2019/05/25-years-of-hypercard-the-missing-link-to-the-web/">HyperCard</a>&trade; stacks.<br>
-Toe Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> de verkoop stopte, was Revolution een van de clonen, later omgedoopt in <a href="https://livecode.com/guides-documentation/"><img src='/assets/img/mac/LiveCode%20logo.png' alt='LiveCode Logo' width='42' height='42'> LiveCode</a>.</p>
-<p>Een andere kloon was <a href="https://www.supercard.us/got-hypercard.html"><img src='/assets/img/mac/supercard%20logo.png' alt='SuperCard logo' width='142' height='42'></a>, dat anno 2023 ook nog steeds wordt verkocht.</p>
+Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> de verkoop stopte, was Revolution een van de clonen, later omgedoopt in <a href="https://livecode.com/guides-documentation/"><img src='/assets/img/mac/LiveCode%20logo.png' alt='LiveCode Logo'> LiveCode</a>.</p>
+<p>Een andere kloon was <a href="https://www.supercard.us/got-hypercard.html"><img src='/assets/img/mac/supercard_logo.png' alt='SuperCard logo'></a>, dat anno 2023 ook nog steeds wordt verkocht.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m4">
-<figure><a href="javascript:location='macintosh.html';window.open('images/hc-index.gif','Index 1.5','height=371,width=525')"><img src="/assets/img/mac/hc-index.gif" alt="Card 1 of Stack Index" class='w3-image'></a>
+<figure><img src="/assets/img/mac/hc-index.gif" alt="Card 1 of Stack Index" class='w3-image'>
 <figcaption class="kleiner">Screenshot of Index v1.5<br>(click to zoom in)</figcaption></figure></div>
 <div class="w3-col s12 m4">
 <figure><img src="/assets/img/mac/hc-hypersite.gif" alt="Een blad per web-pagina" class='w3-image'>
 <figcaption class="kleiner">Screenshot of HyperSite v1.6</figcaption></figure></div>
 <div class="w3-col s12 m4">
-<figure><a href="javascript:location='macintosh.html';window.open('images/mac/RevHyperSite21.png','Hypersite 2.1','height=577,width=656')"><img src="/assets/img/mac/RevHyperSite21.png" alt="HyperSite v2.1" class='w3-image'></a>
+<figure><img src="/assets/img/mac/RevHyperSite21.png" alt="HyperSite v2.1" class='w3-image'>
 <figcaption class="kleiner">HyperSite v2 als Revolution-stack</figcaption></figure></div>
 </div>
 
@@ -201,4 +202,4 @@ Meer info over HyperSite vind je <a href="hypersite_intro.html">hier</a>.</p>
      
 <p><a href="links.html#Freehand">Freehand Studio</a><br>
 Bekijk enkele van mijn tekeningen in mijn <a href="architect/portfolio.html">Portfolio</a>, artistiek zowel als beroepsmatig.</p>
-<img src='/assets/img/mac/159x120_freehand.gif' alt='Freehand MX logo' width="159" height="121" class='w3-image'>
+<img src='/assets/img/mac/159x120_freehand.gif' alt='Freehand MX logo' class='w3-image'>

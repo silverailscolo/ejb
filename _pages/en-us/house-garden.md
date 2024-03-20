@@ -3,25 +3,25 @@ page_id: garden
 layout: page
 permalink: /house/garden
 title: Our garden
+lang: en-us
 nav: false
 support: [gallery]
 ---
 
 About our garden
-
-Includes js popup
+(includes js popup)
 
 <h2>Options for using lightGallery docs tagging</h2>
 A manual LightGallery directly on the page:
 
   <div id="thegallery">
-    <a href="/assets/img-noresample/astyle/20150507213243-8a8f3200-792x594.jpg" 
+    <a href="/assets/img-noresample/astyle/20140831202837-bd2786fa-576x432.jpg" 
 data-sub-html="Photo 1 by EJB" >
-        <img alt="img1" src="/assets/img-noresample/20150507213243-8a8f3200-144x108.jpg" />
+        <img alt="img1" data-sub-html="img1 title" src="/assets/img-noresample/astyle/20140831202837-bd2786fa-120x120.jpg" />
     </a>
     <a href="/assets/img-noresample/astyle/20150507213246-f23b3981-792x594.jpg" 
 data-sub-html="Photo 2 by EJB" >
-        <img alt="img2" src="/assets/img-noresample/20150507213246-f23b3981-144x108.jpg" />
+        <img alt="img2" data-sub-html="img2 title" src="/assets/img-noresample/astyle/20150507213246-f23b3981-120x120.jpg" />
     </a>
 </div>
 

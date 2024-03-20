@@ -1,8 +1,9 @@
 ---
+id: gallery
 layout: page
 title: galerij
 permalink: /gallery/
-id: gallery
+lang: nl
 nav: true
 nav_order: 1
 support: [gallery]

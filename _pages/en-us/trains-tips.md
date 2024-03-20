@@ -4,6 +4,7 @@ layout: page
 permalink: /trains/tips
 title: Modeling Tips
 description: Learned the hard way
+lang: en-us
 nav: false
 ---
 

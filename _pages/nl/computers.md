@@ -1,6 +1,7 @@
 ---
-id: dropdown
+id: computers
 layout: page
+lang: nl
 permalink: /computers/
 title: computers
 nav: true

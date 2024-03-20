@@ -3,6 +3,7 @@ id: trains
 layout: page
 title: trains
 permalink: /trains/
+lang: en-us
 nav: true
 nav_order: 5
 dropdown: true

@@ -4,6 +4,7 @@ layout: page
 title: projecten
 permalink: /projects/
 description: Een verzameling van mijn projecten.
+lang: nl
 nav: true
 nav_order: 3
 display_categories: [work, fun]

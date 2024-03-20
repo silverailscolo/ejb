@@ -1,6 +1,7 @@
 ---
 page_id: mactips
 layout: page
+lang: nl
 permalink: /computers/macintosh
 title: Mac tips
 description: Slimme tips voor macos
