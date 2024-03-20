@@ -4,9 +4,9 @@ lang: en-us
 page-id: rlw-k27
 title: "Assembling the RLW Nn3 K-27 kit"
 date: "2017-11-07"
-categories: 
+categories:
   - "trains-treinen"
-tags: 
+tags:
   - "rlw"
 ---
 

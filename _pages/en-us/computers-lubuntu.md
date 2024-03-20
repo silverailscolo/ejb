@@ -4,6 +4,7 @@ layout: page
 permalink: /computers/lubuntu
 title: lubuntu
 description: Lubuntu (Linux) tips
+lang: en-us
 nav: false
 ---
 

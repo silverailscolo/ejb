@@ -4,7 +4,7 @@ lang: en-us
 page-id: jmri
 title: "JMRI is more fluid"
 date: "2016-01-31"
-categories: 
+categories:
   - "trains-treinen"
 ---
 

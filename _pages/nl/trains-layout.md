@@ -4,6 +4,7 @@ layout: page
 permalink: /trains/layout
 title: The layout
 description: N-scale Colorado ca 1950
+lang: nl
 nav: false
 toc:
   sidebar: left

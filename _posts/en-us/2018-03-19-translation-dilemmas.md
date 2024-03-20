@@ -4,13 +4,13 @@ lang: en-us
 page-id: translation
 title: "Translation Dilemmas"
 date: "2018-03-19"
-categories: 
+categories:
   - "trains-treinen"
-tags: 
+tags:
   - "jmri"
 ---
 
-I'm glad to see users actively discussing how JMRI could perhaps better support their way of using it on their layout. As one of the people persons working on JMRI Localization in the last years, may I add a couple of points to this thread in order to prevent some disappointment and share the dilemmas involved?Exchanging ideas in our community can help improve JMRI. We will certainly hold different opinions on this subject. Let’s promise not to destroy other people’s efforts and take note of the policies regarding language that the likes of Apple and Microsoft adhere to. 
+I'm glad to see users actively discussing how JMRI could perhaps better support their way of using it on their layout. As one of the people persons working on JMRI Localization in the last years, may I add a couple of points to this thread in order to prevent some disappointment and share the dilemmas involved?Exchanging ideas in our community can help improve JMRI. We will certainly hold different opinions on this subject. Let’s promise not to destroy other people’s efforts and take note of the policies regarding language that the likes of Apple and Microsoft adhere to.
 
 We are talking about a couple of different dictionaries. To clarify, let’s distinguish:
 
@@ -30,9 +30,7 @@ As for the prototype, you would want the signal to display “Stoppen voor het s
 
 Still, as a French speaker you’re lucky to have JMRI Help screens available in French. But they won’t mention the country you model, just the French names for the menu options.
 
-
 **Notes**
-
 
 Ad 1: To me it seems most elegant to set that identical to the rest of the computer it's running on. So Print... is called Print... (or 'Druk af...' in Dutch). If somebody (you?) took the time to provide translations, any user can activate this as described. Try Japanese (but take care and use a new profile, as even the Language choices will display in Japanese!)
 

@@ -2,6 +2,7 @@
 page_id: about
 layout: about
 title: over
+lang: nl
 permalink: /
 subtitle: <a href='#'>Betrekkingen</a>, werk, hobby enz.
 

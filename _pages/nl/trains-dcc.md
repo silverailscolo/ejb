@@ -3,6 +3,7 @@ page_id: dcc
 layout: page
 permalink: /trains/dcc
 title: DCC
+lang: nl
 description: Digital Control
 nav: false
 ---

@@ -2,7 +2,8 @@
 layout: gallery
 lang: en-us
 title: Beer caps
-permalink: /photography/beercaps
+permalink: /gallery/beercaps
+id: gallery-beercaps
 support: [gallery]
 nav: false
 ---

@@ -1,8 +1,9 @@
 ---
 layout: gallery
+title: A-stijl van auto's
+permalink: /gallery/astyle
+id: gallery-astyle
 lang: nl
-title: Car A-post
-permalink: /photography/astyle
 support: [gallery]
 nav: false
 ---

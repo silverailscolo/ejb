@@ -4,6 +4,7 @@ layout: page
 permalink: /computers/macintosh
 title: Mac tips
 description: Mac Tips
+lang: en-us
 nav: false
 ---
 

@@ -3,6 +3,7 @@ page_id: renovation
 layout: page
 permalink: /house/renovation
 title: Ons huis renoveren
+lang: nl
 nav: false
 ---
 

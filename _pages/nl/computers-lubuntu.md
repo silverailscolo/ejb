@@ -1,6 +1,7 @@
 ---
 page_id: lubuntu
 layout: page
+lang: nl
 permalink: /computers/lubuntu
 title: lubuntu
 description: Lubuntu (Linux) tips

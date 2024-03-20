@@ -3,7 +3,8 @@ page_id: prototype
 layout: page
 permalink: /trains/prototype
 title: US Prototype
-description: The real stuff
+lang: nl
+description: Het echte werk
 nav: false
 ---
 

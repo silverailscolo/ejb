@@ -4,6 +4,7 @@ layout: page
 permalink: /computers/repositories
 title: Repositories
 description: GitHub open source groepen waar ik aan meewerk
+lang: nl
 #Pas in `_data/repositories.yml` de lijsten voor `github_users` e `github_repos` aan om jouw GitHub repositories en favorieten hier te tonen.
 nav: false
 ---

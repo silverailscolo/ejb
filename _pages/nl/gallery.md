@@ -1,13 +1,17 @@
 ---
+id: gallery
 layout: page
-title: Photography
-permalink: /photography/
+title: galerij
+permalink: /gallery/
+lang: nl
 nav: true
+nav_order: 1
+support: [gallery]
 ---
 
-<h1>{{ page.title }}</h1>
-
-<p>Link naar een galerij-pagina: <a href="astyle.html">SF</a></p>
+<p>Galerij: <a href="astyle.html">A-stijl</a></p>
+<p>Galerij: <a href="avenue2.html">Avenue2</a></p>
+<p>Galerij: <a href="beercaps.html">Beer caps</a></p>
 
 <p>Hieronder staan 2 galerijen. De eerste toont eenvoudige toepassing.
 In de tweede zijn meerdere fotogalerijen in één blok gecombineerd om meer complexe structuren 
@@ -20,7 +24,7 @@ te maken en betere verhalen te vertellen.</p>
 
   <div class="half-width gallery-preview {{ align }}">
     <h1>{{ gallery.title }}</h1>
-    <a href="/photography/{{ gallery.directory }}.html">
+    <a href="/gallery/{{ gallery.directory }}.html">
       <img alt="{{ gallery.title }}" src="/assets/img-noresample/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
     </a>
   </div>

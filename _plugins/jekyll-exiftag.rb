@@ -7,7 +7,7 @@
 #
 # {% exiftag tagname,[source],[file] %}
 #
-# Everything given as tagname is called on EXIFR::JPEG, so this could be model oder f_number.to_f (see https://github.com/remvee/exifr)
+# Everything given as tagname is called on EXIFR::JPEG, so this could be model or f_number.to_f (see https://github.com/remvee/exifr)
 # If you give a source, this source is used build the fullpath for the given file (you can also configure them in _config.yml, see below)
 # If the file is given, this is the file to get Exif Tags for, this can be alternatively defined in the YAML Front Matter as img: file
 #
@@ -24,7 +24,10 @@
 # These paths are relative to your sites root. Don't add leading and trailing slashes.
 #
 
+require 'exifr'
 require 'exifr/jpeg'
+require 'xmp'
+require 'open-uri'
 
 module Jekyll
   class ExifTag < Liquid::Tag
@@ -66,11 +69,29 @@ module Jekyll
           file_name = File.join(context.registers[:site].config['source'], source, img)
         end until File.exist?(file_name) or sources.count == 0
       end
+
       # try it and return empty string on failure
       begin
         exif = EXIFR::JPEG::new(file_name)
+        p "exif read: ".concat(exif) # debug
         ret = tag.split('.').inject(exif){|o,m| o.send(m)}
-        return ret
+
+        # add support for xmp tags
+        xmp = XMP.parse(exif)
+        # explore XMP data
+#        retxmp = ""
+#        xmp.namespaces.each do |namespace_name|
+#          namespace = xmp.send(namespace_name)
+#          retxmp = retxmp + " " + namespace + "{"
+#          namespace.attributes.each do |attr|
+#            retxmp = retxmp + "#{namespace_name}.#{attr}," + namespace.send(attr).inspect
+#          end
+#          retxmp = retxmp + "}"
+#        end
+        retxmp = xmp.dc.title
+
+        return ret + "; " + retxmp)
+        #return ret
       rescue StandardError => e  
         puts e.message 
         file_name

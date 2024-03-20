@@ -4,14 +4,13 @@ lang: nl
 page-id: locobooster
 title: "HDL LocoBooster installation issue fixed"
 date: "2018-05-23"
-categories: 
+categories:
   - "trains-treinen"
 ---
 
 # Ervaring & Oplossing
 
 Ik heb de [HDL LocoBooster](https://locohdl.synology.me) 3.8 gebouwd en aangesloten op mijn LocoNet.
-
 
 ## Probleem:
 

@@ -4,7 +4,8 @@ layout: page
 permalink: /trains/tips
 title: Modeling Tips
 description: Learned the hard way
+lang: nl
 nav: false
 ---
 
-See the <a href="https://ebroerse.nl/trains/#proto">old site</a>
+Zie de <a href="https://ebroerse.nl/trains/#proto">oude site</a>

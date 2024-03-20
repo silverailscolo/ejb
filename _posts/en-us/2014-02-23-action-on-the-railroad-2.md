@@ -8,12 +8,13 @@ description: Snowshed near Silverton
 tags:
   - N-scale
   - todo
-categories: 
+categories:
   - trains
 featured: false
 ---
 
 Summer 2013 - Winter 2014 projects:
+
 - [x] Mountains at the Bowman mine, High Line and Rockwood
 - [x] Add houses to Newport & fix electronic short 12/2013, see picture below
 - [ ] Dirt road and plots w/fences at Rockwood

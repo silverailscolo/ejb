@@ -1,10 +1,11 @@
 ---
-id: dropdown
+id: trains
 layout: page
-title: trains
+title: Treinen
+lang: nl
 permalink: /trains/
 nav: true
-nav_order: 4
+nav_order: 5
 dropdown: true
 children:
   - title: mijn baan

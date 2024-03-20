@@ -1,6 +1,6 @@
 - title: Avenue2
   directory: avenue2
-  picture_path: avenue2 # /part1
+  #picture_path: avenue2 # /part1
   preview:
     filename: A2tunnelmondoverzicht
     original: A2tunnelmondoverzicht-540x359.jpg
@@ -9,10 +9,10 @@
 - title: A-post
   directory: astyle
   preview:
-    filename: IMG_4116
-    original: IMG_4116-960x720.jpg
+    filename: 20200313150207-8952a33c
+    original: 20200313150207-8952a33c-1008x756.jpg
     sizes: []
-    thumbnail: IMG_4116-960x720.jpg
+    thumbnail: 20200313150207-8952a33c-144x108.jpg
 - title: Beer caps
   directory: beercaps
   preview:

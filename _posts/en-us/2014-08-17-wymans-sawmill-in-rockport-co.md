@@ -4,9 +4,9 @@ lang: en-us
 page-id: wymans
 title: "Wyman's sawmill"
 date: "2014-08-17"
-categories: 
+categories:
   - "trains-treinen"
-tags: 
+tags:
   - "industry"
   - "model"
   - "scratchbuilt"
@@ -19,12 +19,14 @@ layout design since more than five years, but the detailed drawings I had studie
 and over for the last 40 years contained so much detail that this clearly was not a
 beginner's model.
 
-![IMG_4144.JPG](/assets/img/blog/IMG_4144.jpg)]
+![Tacome power house](/assets/img/blog/IMG_4144.jpg)]
+
 <div class="caption">
 A look from the aisle, with Tacoma Power House in the back.
 </div>
 
-![IMG_4129.JPG](/assets/img/blog/IMG_4129.jpg)]
+![lumber shed model](/assets/img/blog/IMG_4129.jpg)]
+
 <div class="caption">
 The well stocked interior of the lumber shed.
 </div>

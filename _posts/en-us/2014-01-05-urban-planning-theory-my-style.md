@@ -4,9 +4,9 @@ lang: en-us
 page-id: planning
 title: "Urban planning theory, my style"
 date: "2014-01-05"
-categories: 
+categories:
   - "science-wetenschap"
-tags: 
+tags:
   - "stedenbouw"
   - "urban-design"
 ---

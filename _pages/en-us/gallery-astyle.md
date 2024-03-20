@@ -1,8 +1,9 @@
 ---
 layout: gallery
-lang: en-us
 title: Car A-post
-permalink: /photography/astyle
+permalink: /gallery/astyle
+id: gallery-astyle
+lang: en-us
 support: [gallery]
 nav: false
 ---
