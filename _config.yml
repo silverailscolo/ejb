@@ -2,13 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: ejb # the website title (if blank, full name will be used instead)
 first_name: Egbert
 middle_name:
 last_name: Broerse
 email: spam@ebroerse.nl
 keywords: jekyll, portfolio-website # add your own keywords or leave empty
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/)
 
 url: https://ebroerse.nl # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -201,6 +201,7 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
+  - _drafts/
   - FAQ.md
   - Gemfile
   - Gemfile.lock
@@ -239,6 +240,8 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  #- xmp
+  - open-uri
 
 # Sitemap settings
 defaults:

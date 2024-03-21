@@ -28,8 +28,10 @@ permalink: /blog/tags
       {% for post in site.tags[tag_name] %}
         <a href="{{ post.url | prepend: baseurl }}">
           {{ post.title }}
-        </a>
+        </a> |
       {% endfor %}
     </div>
+
 {% endfor %}
+
 </section>

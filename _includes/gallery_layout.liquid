@@ -2,10 +2,15 @@
 <!-- adapted from opieters liquid. Update your sources by running _data/galleries/gallery_creator.py python preprocess script -->
 <div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}">
   {% for picture in include.gallery.pictures %}
-      <a href="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.original }}" class="image-ref"
-      {% if picture.title %} data-sub-html="<div class='lg-toolbar caption'><h4>{{ picture.title | escape }}</h4>{% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}</div>"{% endif %}>
-        <img alt="{{ picture.title }}" src="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}" />
-      </a>
+    <a
+      href="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.original }}"
+      class="image-ref"
+      {% if picture.title %}
+        data-sub-html="<div class='lg-toolbar caption'><h4>{{ picture.title | escape }}</h4>{% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}</div>"
+      {% endif %}
+    >
+      <img alt="{{ picture.title }}" src="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}">
+    </a>
   {% endfor %}
 </div>
 
@@ -42,5 +47,4 @@
     $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.masonry();
   });
   });
-
 </script>

@@ -7,8 +7,8 @@ description: N-scale Colorado ca 1950
 lang: en-us
 nav: false
 toc:
+  #  beginning: true # made from the headings
   sidebar: left
-#  beginning: true # made from the headings
 support: [gallery]
 ---
 
@@ -16,7 +16,9 @@ See my <a href="https://ebroerse.nl/trains/">old site</a>
 and the <a href="https://ebroerse.nl/photo/index.php?/category/2">picture gallery</a>
 
 ## A tour of the layout
+
 <!-- Jimmy include -->
+
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 
 <figure><img src="/assets/img/trains/ATH-Challenger-RG-2006.jpg" alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' class='w3-image'></figure>
@@ -82,7 +84,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/newport2013_IMG_2497kl.jpg"><img src="/assets/img/trains/newport2013_IMG_2497kl.jpg" alt='Overview of Newport' class='w3-image'></a>
+<figure><img src="/assets/img/trains/newport2013_IMG_2497kl.jpg" alt='Overview of Newport' class='w3-image'>
 <figcaption class="kleiner">Coal dock and Trident Seafood factory at Newport, March 2013</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
@@ -134,6 +136,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 
 ## <a id="durenver">Level 1: Durenver, CO</a>
+
 <div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src="/assets/img/trains/trackplan_Durenver.png" alt='Durenver area track plan' class='w3-image'>
 <figcaption class="kleiner">Durenver area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
@@ -142,11 +145,11 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/S2400016-kl.jpg"><img src="/assets/img/trains/S2400016-kl.jpg" class='w3-image' alt="Staging yard and business area of Durango * Denver = Durenver"></a>
+<figure><img src="/assets/img/trains/S2400016-kl.jpg" class='w3-image' alt="Staging yard and business area of Durango * Denver = Durenver">
 <figcaption class="kleiner">Staging yard and business area of Durango*Denver=Durenver (mock up)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/IMG_0108_lo.jpg"><img src="/assets/img/trains/IMG_0108_lo.jpg" alt='background urban scene' class='w3-image'></a>
+<figure><img src="/assets/img/trains/IMG_0108_lo.jpg" alt='background urban scene' class='w3-image'>
 <figcaption class="kleiner">Durenver Yard, Jan. 2013</figcaption></figure>
 </div>
 </div>
@@ -183,7 +186,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 <div class="w3-row">
 <div class="w3-col s12 m6">
 <figure><img src="/assets/img/trains/IMG_1601_lo.jpg" alt='Durango yard turntable, April 2008' class='w3-image'>
-<figcaption class="kleiner">Fleishmann turntable, Shay and Goose in Atlas roundhouse, March 2008</figcaption></figure>
+<figcaption class="kleiner">Fleischmann turntable, Shay and Goose in Atlas roundhouse, March 2008</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
 <figure><img src="/assets/img/trains/IMG_7412_lo.jpg" alt='Malone Iron and Graden Mercantile, click to enlarge' class='w3-image'>
@@ -209,12 +212,13 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 <figcaption class="kleiner">Durango, looking across town to Animas River (2015)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/IMG_0638_lo.jpg"><img src="/assets/img/trains/IMG_0638_lo.jpg" alt='Trimble Hot Spring Hotel above the main line' class='w3-image'></a>
+<figure><img src="/assets/img/trains/IMG_0638_lo.jpg" alt='Trimble Hot Spring Hotel above the main line' class='w3-image'>
 <figcaption class="kleiner">Trimble Hotel above Hermosa Creek, a beautiful Bar-Mills kit (Feb. 2020)</figcaption></figure>
 </div>
 </div>
 
 ## <a id="rockwood">Level 2: Rockwood, CO</a>
+
 <div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src="/assets/img/trains/trackplan_Rockwood.png" alt='Rockwood area track plan' class='w3-image'>
 <figcaption class="kleiner">Rockwood area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
@@ -255,7 +259,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 
 <h5>Wyman's sawmill</h5>
-<p>During 2 rainy days in my summer vacation I finaly built the mill using plans from a 1976 Model Railroader magazine. The location in Rockport had been part of my layout design since more than five years, but the detailed drawings I had studied over and over for the last 40 years contained so much detail that this clearly was not a beginner's model.</p>
+<p>During 2 rainy days in my summer vacation I finally built the mill using plans from a 1976 Model Railroader magazine. The location in Rockport had been part of my layout design since more than five years, but the detailed drawings I had studied over and over for the last 40 years contained so much detail that this clearly was not a beginner's model.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -268,7 +272,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-<p>Windows are Grandt Line castings, some adapted by splitting and joining. All doors were hand made from styrene or stripwood. My son suspects me to enter the sawmill in some kind of modelling competition and perhaps I will some day.<!-- 17 AUG 2014 --></p>
+<p>Windows are Grandt Line castings, some adapted by splitting and joining. All doors were hand made from styrene or stripwood. My son suspects me to enter the sawmill in some kind of modelling competition, and perhaps I will some day.<!-- 17 AUG 2014 --></p>
 
 ## <a id="silverton">Level 3: Silverton, CO</a>
 
@@ -322,7 +326,7 @@ All credits for LDA go to Joe Fugate.</p>
 <li>Max. # of cars = 80% of (storage + staging + passing/2).</li>
 <li># of cars moved = 40% of (staging x 2 + passing + connecting)</li>
 <li># of trains = number of cars moved / min(average passing train length, average staging train length)</li>
-<li>Dispatching threshold = (3 x shortest passing siding + 2 x average passing siding + longest passing siding) / 6</li>
+<li>Dispatching threshold = (3 x shortest passing siding + 2 x average passing siding + the longest passing siding) / 6</li>
 </ul>
 
 <p>Room Area (sq ft): 110<br>
@@ -337,7 +341,8 @@ Dispatching threshold: 14 car trains</p>
 <p>It works nicely with <a href="https://www.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml">JMRI Operations</a> (Dec. 2012)</p>
 
 # <a id="rollingstock">Rolling stock</a>
-<p>In January 2007 I entered all my items in a dedicated database <a href="https://mcrichter.macbay.de/Seiten/Englisch/Macintosh/MacMoVe.htm">Mac-MoVe</a>. It's ashtonishing to get a good look at all the beautiful items one has collected (and payed for) over the years...</p>
+
+<p>In January 2007 I entered all my items in a dedicated database <a href="https://mcrichter.macbay.de/Seiten/Englisch/Macintosh/MacMoVe.htm">Mac-MoVe</a>. It's astonishing to get a good look at all the beautiful items one has collected (and paid for) over the years...</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -374,6 +379,7 @@ Dispatching threshold: 14 car trains</p>
 </div>
 
 # Model RR Links
+
 <ul>
 <li><a href="https://www.nscalesupply.com/">N Scale Supply: A fine shop shipping internationally</a></li>
 <li><a href="https://www.modelrailroader.com/">MODEL RAILROADER monthly magazine</a></li>

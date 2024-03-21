@@ -3,7 +3,7 @@ page_id: dcc
 layout: page
 permalink: /trains/dcc
 title: DCC
-description: Digital Control
+description: Digital Command Control
 lang: en-us
 nav: false
 toc:
@@ -11,6 +11,7 @@ toc:
 ---
 
 # <a id="dcc">DCC
+
 <img src="/assets/img/trains/dcclogo.gif" alt="DCC logo" style="float: right;"></a>
 
 <h4>What is Digital Command Control?</h4>
@@ -23,6 +24,7 @@ toc:
 ## JMRI
 
 <a href="https://www.jmri.org"><img src="/assets/img/trains/logo-jmri.gif' alt='JMRI' width='160' height='136'></a>
+
 <p>In 2003 I learned that <a href="https://www.jmri.org">JMRI</a> was developed as platform independent, Java based software for controlling a DCC layout. Between JMRI - which I tested on Mac OS 9.2 - and &trade;LocoNet, there was a thing called <a href="https://www.jmri.org/help/en/html/hardware/loconet/LocoBufferII.shtml">LocoBuffer</a>, that you could build yourself following the design by J. Jabour. Just as my Zephyr system arrived in the mail, the website on LocoBuffer disappeared from the web. After extensive browsing and reading, I learned that a company had develeoped a commercial follow up, christened the LocoBuffer-II. When I sent them an email asking for the conditions of overseas shipment, I was told that the European distributor was Rob Heikens, living just 60 kilometers away. Just before the summer holidays of 2004 I ordered this hardware interface, dragged one computer to the third floor and started up JMRI: It all worked perfectly and it was frightening to see an engine start and stop without physically touching the layout controls.</p>
 
 <p>Signaling is also handled by <a href="https://www.jmri.org/help/en/html/tools/signaling/index.shtml">JMRI Signal Masts</a> since Winter 2013, with a Digitrax SE8c board and Signal Mast Base kits, dressed like <a href="tips.html#signal">Rio Grande signals</a> with their distinct <em>Darth Vader</em> hoods.</p>
@@ -68,8 +70,6 @@ Go to my <a href="tips.html">Model Railroad How To's</a> next.
 
 ## DCC Links
 
-
 - <a href="https://jdb.psu.edu/nmra/dccsig.html">DCC SIG</a>
 - <a id="wiring-ds54" href="https://www.jmri.org/hardware/DigitraxPower/index.html">Wiring the Digitrax DS54</a>, be sure to keep it apart from the other loconet devices (read why in this excellent contribution by Bob Jacobson of JMRI fame)
 - <a id="locoio" href="https://locohdl.synology.me">LocoIO by Hans Deloof</a>
-

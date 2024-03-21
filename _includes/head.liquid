@@ -138,5 +138,16 @@
 
 <!-- Lightgallery -->
 {% if page.support contains 'artgallery' %}
-  <script src="assets/js/full.umd.cjs"></script>
+  <script src="/assets/js/full.umd.cjs"></script>
 {% endif %}
+
+<!-- Imagemapster (garden plan) -->
+{% if page.support contains 'mapster' %}
+  <script src="/assets/js/jquery.imagemapster.min.js">
+  // import imagemapster (local js JQuery extension to highlight map elements from map
+  </script>
+  <script src="/assets/js/mapster.js"></script>
+{% endif %}
+
+<!-- use w3- styling EBR -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">

@@ -11,10 +11,13 @@ toc:
 ---
 
 # <a id="installdecoder">How to install a DCC decoder</a>
+
 <p>Coming up</p>
 
 # <a id="buildk27">Build a RLW K-27 kit</a>
-See  <a href="https://www.ebroerse.nl/blog/archieven/195">blog post</a>
+
+See <a href="https://www.ebroerse.nl/blog/archieven/195">blog post</a>
+
 <div class="w3-row">
 <div class="w3-col s12 m6">
 <figure><a href="/assets/img/trains/IMG_6524.jpg"><img src='/assets/img/trains/IMG_6524.jpg' alt='K-27' class='w3-image'></a>
@@ -81,8 +84,9 @@ Some years later, signals were added on the layout as well as to the panel. All 
 <div class="row row-cols-2">
 
 {% for post in site.posts %}
-  {% assign cats = post.categories | jsonify %}
-  {% if cats contains "how-to" %}
+{% assign cats = post.categories | jsonify %}
+{% if cats contains "how-to" %}
+
   <div class="card-item col">
     <a href="{{ post.url | relative_url }}">
     <div class="card hoverable">
@@ -113,7 +117,9 @@ Some years later, signals were added on the layout as well as to the panel. All 
         </div>
       </a>
     </div>
-  {% endif %}
+
+{% endif %}
 {% endfor %}
+
 </div>
 </div>
