@@ -5,7 +5,7 @@ page-id: snow-shed
 title: Lawinegevaar geweken
 date: 2014-01-19 20:39:59
 description: Sneeuwgallerij bij Silverton
-tags: Silverton Colorado
+tags: silverton colorado
 categories: N-schaal treinen
 featured: false
 ---

@@ -7,8 +7,8 @@ date: "2014-03-04"
 description: Rockwood w/o wood
 tags:
   - N-scale
-  - Colorado
-  - Silverton
+  - colorado
+  - silverton
 categories:
   - trains
 featured: false

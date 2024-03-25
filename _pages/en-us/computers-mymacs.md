@@ -28,10 +28,9 @@ RAM: 1 - 4 [2] Mb<br>
 HD: geen!</p>
 <p>Geproduceerd: 1984 - 1986</p>
 <p>Een trouwe bekende, uit de tijd dat het OS + het tekstverwerkingsprogramma + je tekst nog samen op 1 floppy pasten. En hij start op in 15 seconden! Deed het tot 2007 trouwens nog steeds, bij onze jongste op de kamer.<br>
-Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">LowEndMac - MacPlus</a>, <br>
-<a href="https://www.d4.dion.ne.jp/~motohiko/mac128kdes.htm">Mac 128K</a> en<br>
+Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">LowEndMac - MacPlus</a> en<br>
 <a href="https://everymac.com/systems/apple/mac_classic/specs/mac_plus.html">EveryMac.com</a>.</p>
-<!-- link OK 1/8/99 resp. 3/4/2007 EB -->
+<!-- links OK 2024/03 EB -->
 
 ## <a id="pb100">PowerBook 100</a>
 
@@ -221,8 +220,4 @@ Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> d
 </div>
 
 <p>Mijn laatste programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen web site bij te houden. In 2006 overgezet naar Revolution, dat ook op Mac OSX draait.<br>
-Meer info over HyperSite vind je <a href="hypersite_intro.html">hier</a>.</p>
-     
-<p><a href="links.html#Freehand">Freehand Studio</a><br>
-Bekijk enkele van mijn tekeningen in mijn <a href="architect/portfolio.html">Portfolio</a>, artistiek zowel als beroepsmatig.</p>
-<img src='/assets/img/mac/159x120_freehand.gif' alt='Freehand MX logo' class='w3-image'>
+Meer info over HyperSite vind je <a href="/blog/2024/goodbye-hypersite/">hier</a>.</p>

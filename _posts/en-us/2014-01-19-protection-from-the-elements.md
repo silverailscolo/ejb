@@ -7,8 +7,8 @@ date: 2014-01-19 20:39:59
 description: Snowshed near Silverton
 tags:
   - N-scale
-  - Colorado
-  - Silverton
+  - colorado
+  - silverton
 categories:
   - trains
 featured: false

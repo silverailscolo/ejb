@@ -12,8 +12,8 @@ toc:
 <p>Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned - the MacPlus, IIcx, Powerbook 100, Powerbook Duo 230,  Performa 5400/180, a Strawberry iMac 233, a white iMac G5 and 2 aluminium Intel iMacs (CoreDuo and i5).<br>
 By the way, it's shocking what my first memory expansion cost in 1986, or the external SCSII Apple CD-rom player for that matter.</p>
 
-<figure><a href="https://32by32.com/"><img src='/assets/img/mac/32x32.png' alt='32by32 title bar' class='w3-image'></a>
-<figcaption class="kleiner">Check out <a href="https://32by32.com/">32by32</a>: a great retrospective of  Apple in the Eighties (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figure><img src='/assets/img/mac/32x32.png' alt='32by32 title bar' class='w3-image'>
+<figcaption class="kleiner">Credit: 32by32: a great retrospective of Apple in the Eighties (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Vanaf 1986 werk ik graag op de Apple Macintosh&trade;. Ik begon met een studentenversie van de compacte 9" MacPlus (MacWrite &amp; MacDraw), en later werkte ik op een IIcx, Powerbook 100, Powerbook Duo 230, Performa 5400/180 (alle gebruikt aangeschaft), een Aardbeiroze iMac 233 (uit de KPN winkel), een witte iMac G5 and 2 generaties aluminium Intel iMacs, CoreDuo en i5.<br>
 Achteraf schrikken hoe duur alles was van 1986 tot 2000, bijv. de externe SCSII Apple CD-rom player voor fl 1.000,-.</p>
@@ -28,10 +28,9 @@ RAM: 1 - 4 [2] Mb<br>
 HD: geen!</p>
 <p>Geproduceerd: 1984 - 1986</p>
 <p>Een trouwe bekende, uit de tijd dat het OS + het tekstverwerkingsprogramma + je tekst nog samen op 1 floppy pasten. En hij start op in 15 seconden! Deed het tot 2007 trouwens nog steeds, bij onze jongste op de kamer.<br>
-Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">LowEndMac - MacPlus</a>, <br>
-<a href="https://www.d4.dion.ne.jp/~motohiko/mac128kdes.htm">Mac 128K</a> en<br>
+Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">LowEndMac - MacPlus</a> en<br>
 <a href="https://everymac.com/systems/apple/mac_classic/specs/mac_plus.html">EveryMac.com</a>.</p>
-<!-- link OK 1/8/99 resp. 3/4/2007 EB -->
+<!-- links OK 2024/03 EB -->
 
 ## <a id="pb100">PowerBook 100</a>
 
@@ -220,9 +219,5 @@ Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> d
 <figcaption class="kleiner">HyperSite v2 als Revolution-stack</figcaption></figure></div>
 </div>
 
-<p>Mijn laatste programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen web site bij te houden. In 2006 overgezet naar Revolution, dat ook op Mac OSX draait.<br>
-Meer info over HyperSite vind je <a href="hypersite_intro.html">hier</a>.</p>
-     
-<p><a href="links.html#Freehand">Freehand Studio</a><br>
-Bekijk enkele van mijn tekeningen in mijn <a href="architect/portfolio.html">Portfolio</a>, artistiek zowel als beroepsmatig.</p>
-<img src='/assets/img/mac/159x120_freehand.gif' alt='Freehand MX logo' class='w3-image'>
+<p>Mijn laatste programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen website bij te houden. In 2006 overgezet naar Revolution, dat ook op Mac OSX draait.<br>
+Meer info over HyperSite vind je <a href="/blog/2024/goodbye-hypersite/">hier</a>.</p>

@@ -342,7 +342,8 @@ Dispatching threshold: 14 car trains</p>
 
 # <a id="rollingstock">Rolling stock</a>
 
-<p>In January 2007 I entered all my items in a dedicated database <a href="https://mcrichter.macbay.de/Seiten/Englisch/Macintosh/MacMoVe.htm">Mac-MoVe</a>. It's astonishing to get a good look at all the beautiful items one has collected (and paid for) over the years...</p>
+<p>In January 2007 I entered all my items in a dedicated database <a herf="https://www.mcrichter.de/Seiten/Deutsch/Programme/MoVe/MoVe.html">Mac-MoVe</a>. It was astonishing to get a good look at all the beautiful items one has collected (and paid for) over the years.</p>
+All Items were later added to <a href="https://webserver.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml#CarsEdit">JMRI Operations Car Roster</a>.
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -351,7 +352,7 @@ Dispatching threshold: 14 car trains</p>
 </div>
 <div class="w3-col s12 m6">
 <figure><img src="/assets/img/trains/rs3%20rio%20grande.gif" alt="Alco RS-3" class='w3-image'>
-<figcaption class="kleiner">Rio Grande Alco RS-3 #5203 freight engine, made by <a href="https://www.atlasrr.com/">Atlas</a>, converted to DCC in 2005.</figcaption></figure>
+<figcaption class="kleiner">Rio Grande Alco RS-3 #5203 freight engine, made by <a href="https://shop.atlasrr.com/default.aspx">Atlas</a>, converted to DCC in 2005.</figcaption></figure>
 </div>
 </div>
 
@@ -382,14 +383,14 @@ Dispatching threshold: 14 car trains</p>
 
 <ul>
 <li><a href="https://www.nscalesupply.com/">N Scale Supply: A fine shop shipping internationally</a></li>
-<li><a href="https://www.modelrailroader.com/">MODEL RAILROADER monthly magazine</a></li>
-<li><a href="https://www.nmra.org/national/sig/sig.html">NMRA SIG</a></li>
+<li><a href="https://www.trains.com/mrr/">MODEL RAILROADER monthly magazine</a></li>
+<li><a href="https://www.nmra.org/special-interest-groups">NMRA Special Interest Groups (SIGs)</a></li>
 <li><a href="https://ldsig.org/">Layout Design SIG</a>
   <ul>
-  <li><a href="https://macrodyn.com/ldsig/wiki/index.php?title=Category:Primer">Layout Design SIG Primer</a></li>
+  <li><a href="https://ldsig.net/o/ldsig/wiki/index_title_Category_Primer.html">Layout Design SIG Primer</a></li>
   </ul></li>
 <li><a href="https://www.opsig.org/">Operations SIG</a></li>
-<li><a href="https://rrpicturearchives.net/default.aspx">Railroad Picture Archives</a></li>
+<li><a href="https://www.railpictures.net/">RailPictures.Net</a></li>
 </ul>
 
 <!-- naar boven menuutje -->

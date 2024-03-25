@@ -16,7 +16,7 @@ toc:
 
 # <a id="buildk27">Build a RLW K-27 kit</a>
 
-See <a href="https://www.ebroerse.nl/blog/archieven/195">blog post</a>
+See <a href="/blog/2017/assembling-the-rlw-nn3-k-27-kit/">this blog post</a>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -53,7 +53,7 @@ See <a href="https://www.ebroerse.nl/blog/archieven/195">blog post</a>
 # <a id="panel">JMRI Panel</a>
 
 <p>My digital control panel was built using Panel Editor and is displayed on a compact LCD monitor by <a href="https://www.jmri.org/help/en/html/apps/PanelPro/index.shtml">JMRI PanelPro 2.4.1</a> on OSX 10.4.6, the last version supported by my MacMini hardware/Java combo.<br>
-The graphics match a generic (US-built) Entrance-Exit (NX) CTC machine, in use from 1950 until the mid nineties. However, most turnouts are operated with an Individual Function Switch (IFS); see the <a href="https://en.wikipedia.org/wiki/Signalling_control">Signaling Wiki</a>.</p>
+The graphics match a generic (US-built) Entrance-Exit (NX) CTC machine, in use from 1950 until the mid-nineties. However, most turnouts are operated with an Individual Function Switch (IFS); see the <a href="https://en.wikipedia.org/wiki/Signalling_control">Signaling Wiki</a>.</p>
 
 <figure><img src="/assets/img/trains/nx-tableau_eindhoven.jpg" alt="NX-panel Eindhoven, NL" class='w3-image'>
 <figcaption class="kleiner">The NX CTC machine in Eindhoven, The Netherlands (photo &copy; <a href="https://www.nicospilt.com/index_seinhuizen.htm">Nico Spilt</a>)</figcaption></figure>

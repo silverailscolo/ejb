@@ -6,14 +6,15 @@ title: Desk clean-up
 date: 2013-08-20 22:03:43
 description: Make room for your ideas
 categories:
-  - "trains-treinen"
+  - "trains"
 tags:
-  - "trains-home"
+  - "trains"
 featured: false
 ---
 
 With a lot of help from my son I managed to clean up my desk after years of neglect.
 Sorting some bolts and nuts, and putting the remainders of several 'open' projects in
 small plastic trays made room for a fresh look at the hobby.
-And I kitbashed the Newport Ice and Fish Company straight away. Thanks, C.!<br><br>
+And I kitbashed the Newport Ice and Fish Company straight away. Thanks, C.!
+
 ![Clean desk](/assets/img/blog/20130821-000320.jpg)

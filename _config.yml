@@ -471,16 +471,21 @@ jsonresume:
   - references
 
 mini_magick:
-  photoFolders:
+  imgnoresample:
     source: assets/img-noresample
     destination: thumbnails
     resize: "150x150"
     gravity: "center"
     extent: "150x150"
+  imgFolders:
+    source: assets/img/house/ms15
+    destination: thumbnails
+    resize: "100x100"
 
 exiftag:
   sources:
     - assets/img
+    - assets/img/house
     - assets/img/mac
     - assets/img/trains
     - assets/img-noresample

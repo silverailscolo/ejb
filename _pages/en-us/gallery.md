@@ -1,11 +1,11 @@
 ---
 layout: page
-title: gallery
+title: collections
 permalink: /gallery/
 id: gallery
 lang: en-us
 nav: true
-nav_order: 1
+nav_order: 4
 support: [gallery]
 ---
 
