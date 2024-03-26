@@ -1,16 +1,16 @@
 ---
 layout: page
-title: gallery
+title: collections
 permalink: /gallery/
 id: gallery
 lang: en-us
 nav: true
-nav_order: 1
+nav_order: 4
 support: [gallery]
 ---
 
-<p>Gallery <a href="astyle.html">A-post</a></p>
 <p>Gallery <a href="avenue2.html">Avenue2</a></p>
+<p>Gallery <a href="astyle.html">A-post</a></p>
 <p>Gallery <a href="beercaps.html">Beer caps</a></p>
 
 <p>Below are two example galleries. The first gallery illustrates basic usage.

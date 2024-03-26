@@ -21,12 +21,15 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'mini_racer'
+    gem "open-uri"
     gem 'unicode_utils'
     gem 'webrick'
+    #gem "xmp"
 end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
-    gem "mini_magick"
+    gem 'mini_magick'
+    gem 'nokogiri', '~> 1.11'
     #gem "rmagick"
 end

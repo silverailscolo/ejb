@@ -1122,25 +1122,25 @@ swiper-container {
 }
 
 // LightGallery tag.rb for readable counter over black background
-.lg-counter-current, .lg-counter-all {
+.lg-counter-current,
+.lg-counter-all {
   // Override al-folio span font color for LightGallery
   color: #999;
- }
+}
 
- /*****************************************************************************
+/*****************************************************************************
  * Gallery Lightbox by Olivier Pieters, added 2024
  *****************************************************************************/
 
- .lg-hide-items .lg-sub-html {
-   display: none;
- }
+.lg-hide-items .lg-sub-html {
+  display: none;
+}
 
- /*****************************************************************************
+/*****************************************************************************
  * Tag cloud by superdevresources.com, added 2024
  *****************************************************************************/
 
 .site-tag a {
-    display: inline-block;
-    margin-right: 12px;
+  display: inline-block;
+  margin-right: 12px;
 }
-

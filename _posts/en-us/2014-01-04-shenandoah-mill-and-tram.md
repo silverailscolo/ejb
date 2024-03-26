@@ -7,7 +7,7 @@ date: "2014-01-04"
 categories:
   - "trains-treinen"
 tags:
-  - Colorado
+  - colorado
   - mining
 ---
 

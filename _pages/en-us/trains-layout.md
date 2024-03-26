@@ -7,33 +7,29 @@ description: N-scale Colorado ca 1950
 lang: en-us
 nav: false
 toc:
+  #  beginning: true # made from the headings
   sidebar: left
-#  beginning: true # made from the headings
 support: [gallery]
 ---
 
 See my <a href="https://ebroerse.nl/trains/">old site</a>
 and the <a href="https://ebroerse.nl/photo/index.php?/category/2">picture gallery</a>
 
-### Inline opieters
+## A tour of the layout
 
-Gallery as inline include
+<!-- Jimmy include -->
+
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 
-# Trains &amp; stuff
+<figure><img src="/assets/img/trains/ATH-Challenger-RG-2006.jpg" alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' class='w3-image'></figure>
 
-<div class="normal-nc"><a href="#layout">D&amp;SNG RR</a> | <a href="#rollingstock">Rolling Stock</a> | <a href="#dcc">DCC</a> | <a href="#proto">Prototype</a> | <a href="#varia">Varia</a></div>
-
-<figure><img src="/assets/img/trains/ATH-Challenger-RG-2006.jpg" alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' width='669' height='126' class='w3-image'></figure>
-
-<h2>A versatile hobby</h2>
+# A versatile hobby
 
 <p>I've been modelling in N scale on and off for 30 years, starting with balsa wood and cardboard custom-building (and little pocket money to spend). In 1995 unpacked and tried a spaghetti layout after revisiting Durango for a 2nd time. Started again after moving, building the Durango to Silverton and hoping to make buildings and rolling stock look as real as possible.</p>
 <p>You guessed it: after a visit to the area I am modelling the former route of the Denver &amp; Rio Grande Railroad along the banks of the Animas River.<br>
 An American prototype narrow gauge mountain line starts to come alive on my N scale layout: The Durenver &amp; Silverton Narrow Gauge Railroad (get it? <em>Dur</em>ango + Den<em>ver</em>).</p>
 
-<p>Please tell me about any interesting newsgroups or websites on these topics.<br>
-Also view my <a href="https://www.ebroerse.nl/photo/index.php?/category/2">Photo Gallery</a>. I will try to post more images...</p>
+<p>Please tell me about any interesting newsgroups or websites on these topics.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -48,9 +44,9 @@ Also view my <a href="https://www.ebroerse.nl/photo/index.php?/category/2">Photo
 </div>
 </div>
 
-<h3><a id="layout">Modeling the D&amp;SNG RR</a></h3>
+# <a id="layout">Modeling the D&amp;SNG RR</a>
 
-<h5><a href="#newport">Newport</a> | <a href="#farmington">Farmington</a> | <a href="#durenver">Durenver</a> | <a href="#rockwood">Rockwood</a> | <a href="#silverton">Silverton</a> | <a href="#lda">Stats</a></h5>
+<a href="#newport">Newport</a> | <a href="#farmington">Farmington</a> | <a href="#durenver">Durenver</a> | <a href="#rockwood">Rockwood</a> | <a href="#silverton">Silverton</a>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -77,9 +73,10 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <p>Until the summer of the year 2000 there wasn't much room to spike down the tracks, but one day in 2018 the trains  crossed the miniature Rockies all the way up to the town of <a href="#silverton">Silverton</a>.</p>
 
-<h4><a id="newport">Level 0: Newport, OR</a></h4>
+## <a id="newport">Level 0: Newport, OR</a>
+
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains/trackplan_Newport.png" alt='Newport harbor area track plan' width='390' height='165' class='w3-image'>
+<figure><img src="/assets/img/trains/trackplan_Newport.png" alt='Newport harbor area track plan' class='w3-image'>
 <figcaption class="kleiner">Newport harbor area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 
@@ -87,7 +84,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/newport2013_IMG_2497kl.jpg"><img src="/assets/img/trains/newport2013_IMG_2497kl.jpg" alt='Overview of Newport' class='w3-image'></a>
+<figure><img src="/assets/img/trains/newport2013_IMG_2497kl.jpg" alt='Overview of Newport' class='w3-image'>
 <figcaption class="kleiner">Coal dock and Trident Seafood factory at Newport, March 2013</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
@@ -96,9 +93,10 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-<h4><a id="farmington">Level 0: Farmington and Thoreau, NM</a></h4>
+## <a id="farmington">Level 0: Farmington and Thoreau, NM</a>
+
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains/trackplan_Thoreau.png" alt='Farmington NM area track plan' width='390' height='165' class='w3-image'>
+<figure><img src="/assets/img/trains/trackplan_Thoreau.png" alt='Farmington NM area track plan' class='w3-image'>
 <figcaption class="kleiner">Farmington NM area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>The Farmington Branch has an interchange wth the Santa Fe in the desert town of Thoreau, which explains the big diesels of a Class I RR.</p>
@@ -137,20 +135,21 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-<h4><a id="durenver">Level 1: Durenver, CO</a></h4>
+## <a id="durenver">Level 1: Durenver, CO</a>
+
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains/trackplan_Durenver.png" alt='Durenver area track plan' width='390' height='165' class='w3-image'>
+<figure><img src="/assets/img/trains/trackplan_Durenver.png" alt='Durenver area track plan' class='w3-image'>
 <figcaption class="kleiner">Durenver area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>Durenver is the main town on the layout, a fictional combination of Durango town and depot located high in the Rockies with the Denver CO dense urban warehouses next to the yard.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/S2400016-kl.jpg"><img src="/assets/img/trains/S2400016-kl.jpg" class='w3-image' alt="Staging yard and business area of Durango * Denver = Durenver"></a>
+<figure><img src="/assets/img/trains/S2400016-kl.jpg" class='w3-image' alt="Staging yard and business area of Durango * Denver = Durenver">
 <figcaption class="kleiner">Staging yard and business area of Durango*Denver=Durenver (mock up)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/IMG_0108_lo.jpg"><img src="/assets/img/trains/IMG_0108_lo.jpg" alt='background urban scene' class='w3-image'></a>
+<figure><img src="/assets/img/trains/IMG_0108_lo.jpg" alt='background urban scene' class='w3-image'>
 <figcaption class="kleiner">Durenver Yard, Jan. 2013</figcaption></figure>
 </div>
 </div>
@@ -161,7 +160,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 <figcaption class="kleiner">The Ice House, a JL Innovative kit (May 2009)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/IMG_0109_lo.jpg"><img src="/assets/img/trains/IMG_0109_lo.jpg" alt='Denver Business District looking north' class='w3-image'></a>
+<figure><img src="/assets/img/trains/IMG_0109_lo.jpg" alt='Denver Business District looking north' class='w3-image'>
 <figcaption  class="kleiner">Overview of Durenver Yard (Jan. 2013)</figcaption></figure>
 </div>
 </div>
@@ -179,7 +178,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <h4><a id="durango">Level 1: Durango, CO D&amp;SNG Yard</a></h4>
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains/trackplan_Durango.png" alt='Durango area track plan' width='390' height='165' class='w3-image'>
+<figure><img src="/assets/img/trains/trackplan_Durango.png" alt='Durango area track plan' class='w3-image'>
 <figcaption class="kleiner">Durango area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>Central point on the layout is the historic depot and boom town of Durango, CO.</p>
@@ -187,10 +186,10 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 <div class="w3-row">
 <div class="w3-col s12 m6">
 <figure><img src="/assets/img/trains/IMG_1601_lo.jpg" alt='Durango yard turntable, April 2008' class='w3-image'>
-<figcaption class="kleiner">Fleishmann turntable, Shay and Goose in Atlas roundhouse, March 2008</figcaption></figure>
+<figcaption class="kleiner">Fleischmann turntable, Shay and Goose in Atlas roundhouse, March 2008</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/IMG_7412_lo.jpg"><img src="/assets/img/trains/IMG_7412_lo.jpg" alt='Malone Iron and Graden Mercantile, click to enlarge' class='w3-image'></a>
+<figure><img src="/assets/img/trains/IMG_7412_lo.jpg" alt='Malone Iron and Graden Mercantile, click to enlarge' class='w3-image'>
 <figcaption class="kleiner">Malone Iron and Graden Mercantile in the background, Dec. 2018</figcaption></figure>
 </div>
 </div>
@@ -213,14 +212,15 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 <figcaption class="kleiner">Durango, looking across town to Animas River (2015)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains/IMG_0638_lo.jpg"><img src="/assets/img/trains/IMG_0638_lo.jpg" alt='Trimble Hot Spring Hotel above the main line' class='w3-image'></a>
+<figure><img src="/assets/img/trains/IMG_0638_lo.jpg" alt='Trimble Hot Spring Hotel above the main line' class='w3-image'>
 <figcaption class="kleiner">Trimble Hotel above Hermosa Creek, a beautiful Bar-Mills kit (Feb. 2020)</figcaption></figure>
 </div>
 </div>
 
-<h4><a id="rockwood">Level 2: Rockwood, CO</a></h4>
+## <a id="rockwood">Level 2: Rockwood, CO</a>
+
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains/trackplan_Rockwood.png" alt='Rockwood area track plan' width='390' height='165' class='w3-image'>
+<figure><img src="/assets/img/trains/trackplan_Rockwood.png" alt='Rockwood area track plan' class='w3-image'>
 <figcaption class="kleiner">Rockwood area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>A small settlement halfway up near the High Line, just a couple of houses and a small depot plus lumber mill. A small steam operated narrow gauge segment brings in the logs.</p>
@@ -259,7 +259,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 
 <h5>Wyman's sawmill</h5>
-<p>During 2 rainy days in my summer vacation I finaly built the mill using plans from a 1976 Model Railroader magazine. The location in Rockport had been part of my layout design since more than five years, but the detailed drawings I had studied over and over for the last 40 years contained so much detail that this clearly was not a beginner's model.</p>
+<p>During 2 rainy days in my summer vacation I finally built the mill using plans from a 1976 Model Railroader magazine. The location in Rockport had been part of my layout design since more than five years, but the detailed drawings I had studied over and over for the last 40 years contained so much detail that this clearly was not a beginner's model.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -272,11 +272,12 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-<p>Windows are Grandt Line castings, some adapted by splitting and joining. All doors were hand made from styrene or stripwood. My son suspects me to enter the sawmill in some kind of modelling competition and perhaps I will some day.<!-- 17 AUG 2014 --></p>
+<p>Windows are Grandt Line castings, some adapted by splitting and joining. All doors were hand made from styrene or stripwood. My son suspects me to enter the sawmill in some kind of modelling competition, and perhaps I will some day.<!-- 17 AUG 2014 --></p>
 
-<h4><a id="silverton">Level 3: Silverton, CO</a></h4>
+## <a id="silverton">Level 3: Silverton, CO</a>
+
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains/trackplan_Silverton.png" alt='Silverton track plan' width='390' height='165' class='w3-image'>
+<figure><img src="/assets/img/trains/trackplan_Silverton.png" alt='Silverton track plan' class='w3-image'>
 <figcaption class="kleiner">Silverton track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>The final stop on the main line, interchange with SN RR to Ouray and SG&amp;N RR to Gladstone. We were there during a snow storm, so at this point the imagination takes over.</p>
@@ -306,7 +307,8 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-<h4><a id="lda">Layout Statistics</a></h4>
+# <a id="lda">Layout Statistics</a>
+
 <p>Layout Design Analysis, <a href="https://web.archive.org/web/20091123122232/http://siskiyou-railfan.net/e107_plugins/content/content.php?content.32.1 ">LDA</a> in short, provides insight into how well a model layout will operate given its size, complexity and amount of rolling stock.<br>
 LDA was developed by Joe Fugate, but the original web pages are no longer up. Link is to the Wayback Machine, checked Feb 2023.<br>
 All credits for LDA go to Joe Fugate.</p>
@@ -324,7 +326,7 @@ All credits for LDA go to Joe Fugate.</p>
 <li>Max. # of cars = 80% of (storage + staging + passing/2).</li>
 <li># of cars moved = 40% of (staging x 2 + passing + connecting)</li>
 <li># of trains = number of cars moved / min(average passing train length, average staging train length)</li>
-<li>Dispatching threshold = (3 x shortest passing siding + 2 x average passing siding + longest passing siding) / 6</li>
+<li>Dispatching threshold = (3 x shortest passing siding + 2 x average passing siding + the longest passing siding) / 6</li>
 </ul>
 
 <p>Room Area (sq ft): 110<br>
@@ -338,8 +340,10 @@ Dispatching threshold: 14 car trains</p>
 
 <p>It works nicely with <a href="https://www.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml">JMRI Operations</a> (Dec. 2012)</p>
 
-<h2><a id="rollingstock">Rolling stock</a></h2>
-<p>In January 2007 I entered all my items in a dedicated database <a href="https://mcrichter.macbay.de/Seiten/Englisch/Macintosh/MacMoVe.htm">Mac-MoVe</a>. It's ashtonishing to get a good look at all the beautiful items one has collected (and payed for) over the years...</p>
+# <a id="rollingstock">Rolling stock</a>
+
+<p>In January 2007 I entered all my items in a dedicated database <a herf="https://www.mcrichter.de/Seiten/Deutsch/Programme/MoVe/MoVe.html">Mac-MoVe</a>. It was astonishing to get a good look at all the beautiful items one has collected (and paid for) over the years.</p>
+All Items were later added to <a href="https://webserver.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml#CarsEdit">JMRI Operations Car Roster</a>.
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -348,7 +352,7 @@ Dispatching threshold: 14 car trains</p>
 </div>
 <div class="w3-col s12 m6">
 <figure><img src="/assets/img/trains/rs3%20rio%20grande.gif" alt="Alco RS-3" class='w3-image'>
-<figcaption class="kleiner">Rio Grande Alco RS-3 #5203 freight engine, made by <a href="https://www.atlasrr.com/">Atlas</a>, converted to DCC in 2005.</figcaption></figure>
+<figcaption class="kleiner">Rio Grande Alco RS-3 #5203 freight engine, made by <a href="https://shop.atlasrr.com/default.aspx">Atlas</a>, converted to DCC in 2005.</figcaption></figure>
 </div>
 </div>
 
@@ -371,85 +375,25 @@ Dispatching threshold: 14 car trains</p>
 </div>
 <div class="w3-col s12 m6">
 <figure><a href="https://archive.atlasrr.com/NLoco/arc-nh151644.htm"><img src="/assets/img/trains/Rio%20Grande%20H-15.gif" alt='De nieuwe Atlas H15-44' class='w3-image'></a>
-<figcaption class="kleiner">Rio Grande H15-44, made by <a href="https://www.atlasrr.com/">Atlas</a>.</figcaption></figure>
+<figcaption class="kleiner">Rio Grande H15-44, made by <a href="https://shop.atlasrr.com">Atlas</a>.</figcaption></figure>
 </div>
 </div>
 
-<h4>Model RR Links</h4>
+# Model RR Links
+
 <ul>
 <li><a href="https://www.nscalesupply.com/">N Scale Supply: A fine shop shipping internationally</a></li>
-<li><a href="https://www.modelrailroader.com/">MODEL RAILROADER monthly magazine</a></li>
-<li><a href="https://www.nmra.org/national/sig/sig.html">NMRA SIG</a></li>
+<li><a href="https://www.trains.com/mrr/">MODEL RAILROADER monthly magazine</a></li>
+<li><a href="https://www.nmra.org/special-interest-groups">NMRA Special Interest Groups (SIGs)</a></li>
 <li><a href="https://ldsig.org/">Layout Design SIG</a>
   <ul>
-  <li><a href="https://macrodyn.com/ldsig/wiki/index.php?title=Category:Primer">Layout Design SIG Primer</a></li>
+  <li><a href="https://ldsig.net/o/ldsig/wiki/index_title_Category_Primer.html">Layout Design SIG Primer</a></li>
   </ul></li>
 <li><a href="https://www.opsig.org/">Operations SIG</a></li>
-<li><a href="https://rrpicturearchives.net/default.aspx">Railroad Picture Archives</a></li>
-</ul>
-
-<h3><a id="dcc">DCC 
-<img src="/assets/img/trains/dcclogo.gif" width="50" height="50" alt="DCC logo" style="float: right;"></a></h3>
-
-<h4>What is Digital Command Control?</h4>
-<p>Starting in the spring of 2004, I have switched to Digtrax DCC with a Zephyr command station. 10 Years ago, M&auml;rklin and Lenz started with DCC, but it was too expensive for me. I did build an electronic occupancy detector (works like a dream as of 2006, connected to the inputs of a <a href="#locoio">LocoIO</a>, by the way) and read all the manuals, but never bought any hardware. The regular DCC summaries in Model Railroader kept me informed on the latest developments, and later on the internet made this even easier. So in 2004 I ordered a DCC-stater pack from the USA.</p>
-
-<h4>Digitrax Zephyr</h4>
-<p>What attracted me in <a href="https://www.digitrax.com">Digitrax</a> were the price of the starter set and the elegance of the Loconet network system, that connected all signaling devices. Lenz also had an interface between DCC and a computer, but after the first edition for Macintosh there was no follow up and I gave up on that too.</p>
-
-<h4>JMRI</h4>
-<a href="https://www.jmri.org"><img src="/assets/img/trains/logo-jmri.gif' alt='JMRI' width='160' height='136'></a>
-<p>In 2003 I learned that <a href="https://www.jmri.org">JMRI</a> was developed as platform independent, Java based software for controlling a DCC layout. Between JMRI - which I tested on Mac OS 9.2 - and &trade;LocoNet, there was a thing called <a href="https://www.jmri.org/help/en/html/hardware/loconet/LocoBufferII.shtml">LocoBuffer</a>, that you could build yourself following the design by J. Jabour. Just as my Zephyr system arrived in the mail, the website on LocoBuffer disappeared from the web. After extensive browsing and reading, I learned that a company had develeoped a commercial follow up, christened the LocoBuffer-II. When I sent them an email asking for the conditions of overseas shipment, I was told that the European distributor was Rob Heikens, living just 60 kilometers away. Just before the summer holidays of 2004 I ordered this hardware interface, dragged one computer to the third floor and started up JMRI: It all worked perfectly and it was frightening to see an engine start and stop without physically touching the layout controls.</p>
-
-<p>Signaling is also handled by <a href="https://www.jmri.org/help/en/html/tools/signaling/index.shtml">JMRI Signal Masts</a> since Winter 2013, with a Digitrax SE8c board and Signal Mast Base kits, dressed like <a href="howto.html#signal">Rio Grande signals</a> with their distinct <em>Darth Vader</em> hoods.</p>
-
-<figure><img src="/assets/img/trains/DSCF2960_signal.jpg" alt='Customized Digitrax Signal Base Mast for Rio Grande' class='w3-image'>
-<figcaption class="kleiner">Customized RG Mast (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
-
-<p>Panels along the layout are connected to JMRI and show occupancy of blocks, turnout positions as well as receive input to change them (<a href="howto.html#panel">more on JMRI PanelPro</a>).</p>
-
-<div class="w3-row">
-<div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains/110-1082_lo.jpg" alt='CTC in Silverton Tower' class='w3-image'>
-<figcaption class="kleiner">The Silverton control panel (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
-</div>
-<div class="w3-col s12 m6">
-<figure>
-<img src="/assets/img/trains/IMG_3536_D_SNGRR%20panel.jpg" alt='Hardware panels on the D&S RR' class='w3-image'>
-<figcaption class="kleiner">Hardware panels on the D&amp;S RR (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
-</figure>
-</div>
-</div>
-
-<h4>Wiring</h4>
-
-<p>I tried a mixed DCC/conventional DC wiring scheme. hoping to manage the switches via Loconet whilst running the engines on either a DCC or regular DC throttle. It gave me some time to put a decoder in the engines that have enough room for one. But 10 years in I changed to full DCC as keeping one system running already is daunting enough. Even the Atlas (Tomix) track cleaning car - with vacuum cleaner! - had room for a TCS decoder, and a flashing light on top.</p>
-
-<figure><img src="/assets/img/trains/S2400212-kl.jpg" alt='Feeder bus, viewed from beneath the layout' class='w3-image'>
-<figcaption>Feeder bus under the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
-
-<p>Although it doesn't make wiring as simple as DCC can be, I decided to run 7 bus wires around the whole layout:</p>
-<ol>
-<li>permanent DCC - for driving stationary decoders</li>
-<li>switched DCC/DC/off - for feeders to the tracks, with a switch on the panel for ever one of 4 districts</li>
-<li>a common return wire for wires 1-2</li>
-<li>6 Volts DC - for electronic circuits and non-DCC occupancy detectors</li>
-<li>12 Volts auxiliary power - for all devices except DS54 stationary decoders (see <a href="#wiring-ds54">note</a>)</li>
-<li>23 Volts capacitive discharge current - for hitting those Peco switch motors and double turnouts</li>
-<li>a common return wire for wires 4-6</li>
-</ol>
-<p>I used standard home wiring (2,5 mm<sup>2</sup>/AWG 12) for the bus. It's cheap and prevents voltage drop along the length of the pike, which may be tiny compared the the average american N scale layout, but is big enough to spend another 10 years on building and enjoying.</p>
-
-<p>Go to my model railroad <a href="trains-tips.html">How To's</a></p>
-
-<h4>DCC Links</h4>
-<ul>
-<li><a href="https://jdb.psu.edu/nmra/dccsig.html">DCC SIG</a></li>
-<li><a id="wiring-ds54" href="https://www.jmri.org/hardware/DigitraxPower/index.html">Wiring the Digitrax DS54</a>, be sure to keep it apart from the other loconet devices (read why in this excellent contribution by Bob Jacobson of JMRI fame)</li>
-<li><a id="locoio" href="https://locohdl.synology.me">LocoIO by Hans Deloof</a></li>
+<li><a href="https://www.railpictures.net/">RailPictures.Net</a></li>
 </ul>
 
 <!-- naar boven menuutje -->
 <div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px;">
-<a href="#top"><img src="/assets/img/uptop.png" alt='Naar boven' width='32' height='49'></a>
+<a href="#top"><img src="/assets/img/uptop.png" alt='To top of page'></a>
 </div>

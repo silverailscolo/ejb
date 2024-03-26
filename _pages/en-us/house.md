@@ -16,4 +16,7 @@ children:
   - title: divider
   - title: history
     permalink: /house/history
+  - title: divider
+  - title: first house
+    permalink: /house/ms15
 ---

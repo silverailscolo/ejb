@@ -19,3 +19,20 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/regular",
   "flag-icons/flag-icons"
 ;
+
+/* mobile friendly EBR */
+img, embed, object, video {
+   max-width: 200%;
+   height: auto;
+   border-style: none;
+}
+
+/* breedte uit stijl hiervoor uitschakelen */
+.vrijebreedte {
+  width: auto;
+}
+
+/* kleinere letter */
+.kleiner .smaller figcaption {
+  font-size: 60%;
+}

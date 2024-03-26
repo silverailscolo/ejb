@@ -10,7 +10,7 @@ categories:
 
 As a Christmas holiday project, I contributed to the JMRI manual and translations.
 Fun, but it feels like lots of eyes are watching you (8,000 users worldwide!). JMRI
-is developed using [Java](https://java.net/) and [GitHub](https://github.com/) as its Version Control System (VCS).
+is developed using [Java](http://www.oracle.com/technetwork/java/index.html) with [GitHub](https://github.com/) as its Version Control System (VCS).
 Genius!
 
 ![GitDsktopPR](/assets/img/blog/GitDsktopPR-99x150.png)

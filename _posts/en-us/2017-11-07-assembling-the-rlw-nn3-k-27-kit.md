@@ -6,6 +6,7 @@ title: "Assembling the RLW Nn3 K-27 kit"
 date: "2017-11-07"
 categories:
   - "trains-treinen"
+  - "how-to"
 tags:
   - "rlw"
 ---

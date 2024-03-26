@@ -10,7 +10,7 @@
 # Everything given as tagname is called on EXIFR::JPEG, so this could be model or f_number.to_f (see https://github.com/remvee/exifr)
 # If you give a source, this source is used build the fullpath for the given file (you can also configure them in _config.yml, see below)
 # If the file is given, this is the file to get Exif Tags for, this can be alternatively defined in the YAML Front Matter as img: file
-#
+# Used for Jimmy Xiao's Lightgallery shows.
 #
 # Configuration:
 #
@@ -26,8 +26,8 @@
 
 require 'exifr'
 require 'exifr/jpeg'
-require 'xmp'
 require 'open-uri'
+#require 'xmp'
 
 module Jekyll
   class ExifTag < Liquid::Tag
@@ -77,7 +77,7 @@ module Jekyll
         ret = tag.split('.').inject(exif){|o,m| o.send(m)}
 
         # add support for xmp tags
-        xmp = XMP.parse(exif)
+#        xmp = XMP.parse(exif)
         # explore XMP data
 #        retxmp = ""
 #        xmp.namespaces.each do |namespace_name|
@@ -88,10 +88,10 @@ module Jekyll
 #          end
 #          retxmp = retxmp + "}"
 #        end
-        retxmp = xmp.dc.title
+#        retxmp = xmp.dc.title
 
-        return ret + "; " + retxmp)
-        #return ret
+#        return retxmp
+        return ret
       rescue StandardError => e  
         puts e.message 
         file_name

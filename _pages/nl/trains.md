@@ -1,7 +1,7 @@
 ---
 id: trains
 layout: page
-title: Treinen
+title: treinen
 lang: nl
 permalink: /trains/
 nav: true

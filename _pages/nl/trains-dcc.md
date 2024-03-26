@@ -4,7 +4,7 @@ layout: page
 permalink: /trains/dcc
 title: DCC
 lang: nl
-description: Digital Control
+description: Digital Command Control
 nav: false
 ---
 
