@@ -10,7 +10,7 @@ tags:
   - "urban-design"
 ---
 
-Tom Turner wrote a clear <a href="https://www.gardenvisit.com/history_theory/library_online_ebooks/architecture_city_as_landscape">essay on the history of urban planning and design</a>.
+Tom Turner wrote a clear [essay](https://www.gardenvisit.com/history_theory/library_online_ebooks/architecture_city_as_landscape") on the history of urban planning and design.
 The hierarchy of roads over housing over the garden needs reconsidering. The seductive
 use of maps and words by politicians and designers may lead one to believe there is a
 right and a wrong way of laying out squares and roads. But Turner makes a case for less

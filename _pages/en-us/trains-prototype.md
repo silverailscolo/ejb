@@ -63,10 +63,9 @@ See the <a href="https://ebroerse.nl/trains/#proto">old site</a>
 </ul></li>
 <li><a href="https://www.durangotrain.com/">Durango - Silverton Narrow Gauge Railroad</a></li>
 <li><a href="https://www.durangotrain.com/blog/">Durango - Silverton NG Blog</a></li>
-<li><a href="https://www.drgw.org/">Rio Grande Modeling &amp; Historical Society</a>
+<li><a href="http://rgmhs.org/">Rio Grande Modeling &amp; Historical Society</a>
 <ul>
-<li><a href="https://www.drgw.org/drgw/steam/">Denver &amp; Rio Grande Western Steam Locomotives</a></li>
-<li><a href="https://www.drgw.org/raw_data/">Rio Grande Source Data Project</a></li>
+<li><a href="https://www.drgw.net/info/Steam">Denver &amp; Rio Grande Western Steam Locomotives</a></li>
 </ul></li>
 <li><a href="https://www.rockymtnrrclub.org/">Rocky Mountain RR Club</a></li>
 <li><a href="https://www.freiwald.com/">Railroad &amp; Co.</a></li>

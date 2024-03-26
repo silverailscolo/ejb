@@ -10,7 +10,7 @@ categories: wetenschap
 featured: false
 ---
 
-Tom Turner wrote a clear essay on the <href="https://www.gardenvisit.com/history_theory/library_online_ebooks/architecture_city_as_landscape">_history of urban planning and design_</a>. The hierarchy of roads over housing over the garden needs reconsidering.
+Tom Turner wrote a clear [essay](https://www.gardenvisit.com/history_theory/library_online_ebooks/architecture_city_as_landscape") on the _history of urban planning and design_. The hierarchy of roads over housing over the garden needs reconsidering.
 The seductive use of maps and words by politicians and designers may lead one to believe there is a right and a wrong way of laying out squares and roads. But Turner makes a case for less binary or-or monofunction and more diffuse categories.
 Bottom-up initiatives may aid us as designers. Still, I find the structuring of spaces as put forward by Edmund Bacon an inspiring method.
 For sale <a href="https://www.taylorfrancis.com/books/mono/10.4324/9781315024868/city-landscape-tom-turner">here</a>

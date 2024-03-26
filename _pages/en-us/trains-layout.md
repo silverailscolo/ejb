@@ -375,7 +375,7 @@ All Items were later added to <a href="https://webserver.jmri.org/help/en/packag
 </div>
 <div class="w3-col s12 m6">
 <figure><a href="https://archive.atlasrr.com/NLoco/arc-nh151644.htm"><img src="/assets/img/trains/Rio%20Grande%20H-15.gif" alt='De nieuwe Atlas H15-44' class='w3-image'></a>
-<figcaption class="kleiner">Rio Grande H15-44, made by <a href="https://www.atlasrr.com/">Atlas</a>.</figcaption></figure>
+<figcaption class="kleiner">Rio Grande H15-44, made by <a href="https://shop.atlasrr.com">Atlas</a>.</figcaption></figure>
 </div>
 </div>
 
