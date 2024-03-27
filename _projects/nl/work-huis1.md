@@ -1,6 +1,7 @@
 ---
 page_id: project_8
 layout: page
+lang: nl
 title: Woonhuis 1
 description: Inbreidingsplan nieuwbouw
 img: assets/img/architect/huis1/huis1.jpg
@@ -9,6 +10,7 @@ category: work
 ---
 
 Ontwerp woonhuis #1 te Nijmegen, 1994 - 1995 (opgeleverd 7/1995).
+
 <div class="w3-row">
 <div class="w3-col s12 m6">
 <figure><img src='/assets/img/architect/huis1/huis1.jpg' alt='Voorgevel woonhuis #1' class='w3-image'>

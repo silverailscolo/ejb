@@ -1,6 +1,7 @@
 ---
 page_id: project_9
 layout: page
+lang: nl
 title: N31 Harlingen
 description: Kunstwerken (bruggen en zo)
 img: assets/img/3.jpg

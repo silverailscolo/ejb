@@ -1,10 +1,11 @@
 ---
-page_id: project_2
+page_id: a2-maastricht
 layout: page
 title: A2 Maastricht
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2
+lang: en-us
 category: work
 ---
 

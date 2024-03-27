@@ -78,7 +78,7 @@ Some years later, signals were added on the layout as well as to the panel. All 
 <figure><img src="/assets/img/trains/IMG_3536_D_SNGRR%20panel.jpg" alt="DSRR physical panel" class='w3-image'>
 <figcaption class="kleiner">One of the Control Panels on the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<div class="w3-card w3-teal">Back to <a href="trains-layout.html">Railroading</a></div>
+<div class="w3-card w3-teal">Back to <a href="layout.html">Railroading</a></div>
 
 <div class="container featured-posts">
 <div class="row row-cols-2">

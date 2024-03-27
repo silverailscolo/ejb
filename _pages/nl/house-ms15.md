@@ -2,15 +2,15 @@
 page_id: ms15joblist
 layout: page
 permalink: /house/ms15
-title: Our first house
-lang: en-us
+title: ons 1e huis
+lang: nl
 nav: false
 support: [gallery]
 toc:
   sidebar: left
 ---
 
-# Introduction
+# Inleiding
 
 <p>Most of my spare time during the last 10 years was spent on redecorating our 100 years old house. We're ready by now, but maintenance is waiting for us! Still, it's a great pastime and - as an architect by profession - it's a joy to be able to create all those fine details and custom finishings which we couldn't afford to let a professional carpenter make for us. The first 5 years I was a regular visitor of our local building supply stores, called ['Gamma'](https://www.gamma.com) and 'Woody'. But for the more serious projects, you better skip the lot and go to a fully stocked wholesale company instead. Some memorable items:</p>
 
@@ -20,7 +20,7 @@ toc:
 
 In the fall of 1997 I reconstructed the roof from scratch; only the walls remained. The roof overhang in front of the doors is a real joy, for we can sit outside in summer even if it rains a bit.
 
-### Square light
+### Vierkante lichten
 
 <img src="/assets/img/house/ms15/plafond.gif" alt="plafond met nieuwe rozet">
 

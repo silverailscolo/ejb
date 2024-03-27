@@ -1,6 +1,7 @@
 ---
 page_id: project_7
 layout: page
+lang: nl
 title: BR11 Dwingeloo
 description: Restauratie circulair
 img: assets/img/3.jpg

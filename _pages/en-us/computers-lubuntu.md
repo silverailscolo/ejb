@@ -27,8 +27,9 @@ nav: false
 
 #### Uninstall the default _wl_ wireless driver
 
-<p><a href="https://help.ubuntu.com/community/AptGet/Howto">apt-get</a> installs a package, apt-get remove deletes a package (with --purge it deletes the configurations as well).
-Go to Utilities > Xterminal and type:</p>
+[apt-get](https://help.ubuntu.com/community/AptGet/Howto) installs a package, apt-get remove deletes a package (with --purge it deletes the configurations as well).
+Go to Utilities > Xterminal and type:
+
 <pre>sudo apt-get remove --purge bcmwl-kernel-source</pre>
 <p>You might have to repeat this step after a system update, as the default bcmwl-kernel module gets installed again. Took me months to sort that one out.</p>
 <p>Continue with the following command:</p>
@@ -71,4 +72,4 @@ Create a new connection, fill in your credentials, MAC of the network card (= et
 If your laptop also has an internal, built-in wireless card, be sure to pick the right adapter and ignore the other one.
 
 Hope this has been of help to you.
-Source of these instructions: <a href ="https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx">help.ubuntu.com</a> and <a href="https://launchpad.net/ubuntu/+source/b43-fwcutter">launchpad.net</a>.
+Source of these instructions: [help.ubuntu.com](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx) and [launchpad.net](https://launchpad.net/ubuntu/+source/b43-fwcutter).

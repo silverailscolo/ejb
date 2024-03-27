@@ -15,7 +15,6 @@ To archive an application that I created and ported over the years, here is the 
 
 <h1>Wat is HyperSite en hoe werkt het?</h1>
 
-
 <p>HyperSite is een stack die helpt om je eigen website te onderhouden. Want een provider vinden en een paar html-pagina's samenstellen kan iedereen, maar het kost veel meer moeite om elke week "even" de nieuws-pagina plus de datum bij te werken enz.</p>
 
 <p>Maar toch, als je je site niet bijhoudt, vinden je bezoekers er al snel niets meer aan en laten ze je site links liggen. Dat is zonde van de moeite, want met deze HyperCard stack is het eenvoudig om een redelijk complete site bij te houden.<br>

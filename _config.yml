@@ -240,7 +240,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  #- xmp
   - open-uri
 
 # Sitemap settings
@@ -250,7 +249,7 @@ defaults:
     values:
       sitemap: false
   - scope: # for opieters gallery
-      path: "photography"
+      path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
 
@@ -475,10 +474,8 @@ mini_magick:
     source: assets/img-noresample
     destination: thumbnails
     resize: "150x150"
-    gravity: "center"
-    extent: "150x150"
-  imgFolders:
-    source: assets/img/house/ms15
+  img:
+    source: assets/img
     destination: thumbnails
     resize: "100x100"
 
@@ -486,6 +483,7 @@ exiftag:
   sources:
     - assets/img
     - assets/img/house
+    - assets/img/house/ms15/attic
     - assets/img/mac
     - assets/img/trains
     - assets/img-noresample

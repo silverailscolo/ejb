@@ -25,12 +25,12 @@ toc:
 
 <p>In 2003 I learned that <a href="https://www.jmri.org">JMRI</a> was developed as platform independent, Java based software for controlling a DCC layout. Between JMRI - which I tested on Mac OS 9.2 - and &trade;LocoNet, there was a thing called <a href="https://www.jmri.org/help/en/html/hardware/loconet/LocoBufferII.shtml">LocoBuffer</a>, that you could build yourself following the design by J. Jabour. Just as my Zephyr system arrived in the mail, the website on LocoBuffer disappeared from the web. After extensive browsing and reading, I learned that a company had develeoped a commercial follow up, christened the LocoBuffer-II. When I sent them an email asking for the conditions of overseas shipment, I was told that the European distributor was Rob Heikens, living just 60 kilometers away. Just before the summer holidays of 2004 I ordered this hardware interface, dragged one computer to the third floor and started up JMRI: It all worked perfectly and it was frightening to see an engine start and stop without physically touching the layout controls.</p>
 
-<p>Signaling is also handled by <a href="https://www.jmri.org/help/en/html/tools/signaling/index.shtml">JMRI Signal Masts</a> since Winter 2013, with a Digitrax SE8c board and Signal Mast Base kits, dressed like <a href="trains-tips.html#signal">Rio Grande signals</a> with their distinct <em>Darth Vader</em> hoods.</p>
+<p>Signaling is also handled by <a href="https://www.jmri.org/help/en/html/tools/signaling/index.shtml">JMRI Signal Masts</a> since Winter 2013, with a Digitrax SE8c board and Signal Mast Base kits, dressed like <a href="tips.html#signal">Rio Grande signals</a> with their distinct <em>Darth Vader</em> hoods.</p>
 
 <figure><img src="/assets/img/trains/DSCF2960_signal.jpg" alt='Customized Digitrax Signal Base Mast for Rio Grande' class='w3-image'>
 <figcaption class="kleiner">Customized RG Mast (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<p>Panels along the layout are connected to JMRI and show occupancy of blocks, turnout positions as well as receive input to change them (<a href="trains-tips.html#panel">more on JMRI PanelPro</a>).</p>
+<p>Panels along the layout are connected to JMRI and show occupancy of blocks, turnout positions as well as receive input to change them (<a href="tips.html#panel">more on JMRI PanelPro</a>).</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -64,7 +64,7 @@ toc:
 </ol>
 <p>I used standard home wiring (2,5 mm<sup>2</sup>/AWG 12) for the bus. It's cheap and prevents voltage drop along the length of the pike, which may be tiny compared the the average american N scale layout, but is big enough to spend another 10 years on building and enjoying.</p>
 
-Go to my <a href="trains-tips.html">Model Railroad How To's</a> next.
+Go to my <a href="tips.html">Model Railroad How To's</a> next.
 
 ## DCC Links
 
