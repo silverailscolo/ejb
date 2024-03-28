@@ -24,10 +24,9 @@
 # These paths are relative to your sites root. Don't add leading and trailing slashes.
 #
 
-require 'exifr'
-require 'exifr/jpeg'
-require 'open-uri'
-#require 'xmp'
+#require 'exifr'
+#require 'exifr/jpeg'
+require 'exif'
 
 module Jekyll
   class ExifTag < Liquid::Tag
@@ -72,25 +71,14 @@ module Jekyll
 
       # try it and return empty string on failure
       begin
-        exif = EXIFR::JPEG::new(file_name)
-        p "exif read: ".concat(exif) # debug
-        ret = tag.split('.').inject(exif){|o,m| o.send(m)}
+        data = Exif::Data.new(File.open(file_name)) # load from file
+        # docs: ret = data.model         # => "NIKON D600"
+        ret = tag.split('.').inject(data){|o,m| o.send(m)}
 
-        # add support for xmp tags
-#        xmp = XMP.parse(exif)
-        # explore XMP data
-#        retxmp = ""
-#        xmp.namespaces.each do |namespace_name|
-#          namespace = xmp.send(namespace_name)
-#          retxmp = retxmp + " " + namespace + "{"
-#          namespace.attributes.each do |attr|
-#            retxmp = retxmp + "#{namespace_name}.#{attr}," + namespace.send(attr).inspect
-#          end
-#          retxmp = retxmp + "}"
-#        end
-#        retxmp = xmp.dc.title
+        # exif = EXIFR::JPEG::new(file_name)
+        # ret = tag.split('.').inject(exif){|o,m| o.send(m)}
+        puts "EXIF tag " + tag.split('.') + " read: " + ret # debug
 
-#        return retxmp
         return ret
       rescue StandardError => e  
         puts e.message 

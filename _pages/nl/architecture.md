@@ -11,7 +11,7 @@ support: [gallery]
 
 Welkom op de site van Egbert Broerse, architect.<br>
 Als architect en als stedenbouwkundige sta ik ingeschreven in het <a href="https://www.architectenregister.nl/vind-een-architect/?searchTerm=Broerse&searchFilter=5">architectenregister</a>.<br>
-Ik ben bereikbaar via email link (dot)  egbert (at) mac (dot) com
+Ik ben bereikbaar via email link (dot) egbert (at) mac (dot) com
 
 ## Visie
 
@@ -22,8 +22,8 @@ Goed gebruik maken van bestaande ruimtes en gebouwen is een belangrijke stap om 
 
 <p>De bouwindustrie gebruikt voor de productie van veel materialen nog steeds heel veel (fossiele) energie en stoot veel CO2 uit. Grondstoffen die niet in een mensenleven "aangroeien", raken uitgeput.<br>
 Een alternatief zijn <em>biobased</em> materialen, bijv. vlas als isolatiemateriaal. Een andere oplossing is circulair bouwen, dus de kringloop starten met gebruikte materialen en er voor zorgen dat een bouwwerk zo te demonteren is dat grote elementen elders opnieuw gebruikt kunnen worden. Biobased is op molecuulniveau ook circulair.</p>
-<p>Wil je meer weten over circulair bouwen, begin dan bij <a href="https://platformcb23.nl/downloads/">Leidraad Platform CB'23</a> en lees hun leidraad-uitgaves (o.a. Begrippen, Circulair Ontwerpen, Paspoorten).</p>
-<p>Advies: regel genoeg opslagruimte, ook voor een renovatie in de binnenstad (huur een loods). Werk circulair, verzamel recyclebare resten <em>schoon</em> en lever ze in bij bij de producent, bijv. <a href="https://www.bureauleiding.nl">Buizen Inzamel Systeem (BIS)</a> voor elektrabuizen.<br>
+<p>Wil je meer weten over circulair bouwen, begin dan bij <a href="https://platformcb23.nl/">Leidraad Platform CB'23</a> en lees hun leidraad-uitgaves (o.a. Begrippen, Circulair Ontwerpen, Paspoorten).</p>
+<p>Advies: regel genoeg opslagruimte, ook voor een renovatie in de binnenstad (huur een loods). Werk circulair, verzamel recyclebare resten <em>schoon</em> en lever ze in bij de producent, bijv. <a href="https://www.bureauleiding.nl">Buizen Inzamel Systeem (BIS)</a> voor elektrabuizen.<br>
 Neem tijd om op zoek te gaan bij <a href="https://www.cirkelstad.nl/circulaire-productencatalogus-2-0/">circulaire hubs</a> in de regio. Biedt jouw overgebleven materialen ook aan via zo'n hub.</p>
 
 <figure><img src='/assets/img/architect/n31/N31princDkruisend_lo.jpg' alt='Schets Landschap N31' class='w3-image' >

@@ -12,7 +12,7 @@ toc:
 <p>Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned - the MacPlus, IIcx, Powerbook 100, Powerbook Duo 230,  Performa 5400/180, a Strawberry iMac 233, a white iMac G5 and 2 aluminium Intel iMacs (CoreDuo and i5).<br>
 By the way, it's shocking what my first memory expansion cost in 1986, or the external SCSII Apple CD-rom player for that matter.</p>
 
-<figure><a href="https://32by32.com/"><img src='/assets/img/mac/32x32.png' alt='32by32 title bar' class='w3-image'></a>
+<figure><img src='/assets/img/mac/32x32.png' alt='32by32 title bar' class='w3-image'>
 <figcaption class="kleiner">Check out <a href="https://32by32.com/">32by32</a>: a great retrospective of  Apple in the Eighties (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Vanaf 1986 werk ik graag op de Apple Macintosh&trade;. Ik begon met een studentenversie van de compacte 9" MacPlus (MacWrite &amp; MacDraw), en later werkte ik op een IIcx, Powerbook 100, Powerbook Duo 230, Performa 5400/180 (alle gebruikt aangeschaft), een Aardbeiroze iMac 233 (uit de KPN winkel), een witte iMac G5 and 2 generaties aluminium Intel iMacs, CoreDuo en i5.<br>

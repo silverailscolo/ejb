@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem "exifr"
+    gem "exif"
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
@@ -21,15 +21,11 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'mini_racer'
-    gem "open-uri"
     gem 'unicode_utils'
     gem 'webrick'
-    #gem "xmp"
 end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
     gem 'mini_magick'
-    gem 'nokogiri', '~> 1.11'
-    #gem "rmagick"
 end

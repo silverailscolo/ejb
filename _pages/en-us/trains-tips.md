@@ -46,7 +46,7 @@ See <a href="/blog/2017/assembling-the-rlw-nn3-k-27-kit/">this blog post</a>
 
 # <a id="invertor">Build an add-on logic invertor daughterboard for an HDL LocoIO</a>
 
-<figure><a href="/assets/img/trains/DSCF0229_half.jpg"><img src='/assets/img/trains/DSCF0229_th.jpg' alt='LocoIO daughterboard, click for larger image' class='w3-image'></a></figure>
+<figure><img src='/assets/img/trains/DSCF0229_half.jpg' alt='LocoIO daughterboard, click for larger image' class='w3-image'></figure>
 
 <p>To reduce the number of outputs required to connect a switch panel to Loconet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel, simply because I don't have switch feedback and if a switch isn't thrown, it's supposed to be closed. Built using a 18x15 hole piece of Euro-PCB experimenting board.</p>
 
@@ -78,7 +78,7 @@ Some years later, signals were added on the layout as well as to the panel. All 
 <figure><img src="/assets/img/trains/IMG_3536_D_SNGRR%20panel.jpg" alt="DSRR physical panel" class='w3-image'>
 <figcaption class="kleiner">One of the Control Panels on the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<div class="w3-card w3-teal">Back to <a href="trains-layout.html">Railroading</a></div>
+<div class="w3-card w3-teal">Back to <a href="layout.html">Railroading</a></div>
 
 <div class="container featured-posts">
 <div class="row row-cols-2">
