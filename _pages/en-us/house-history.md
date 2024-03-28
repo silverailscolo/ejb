@@ -8,7 +8,7 @@ nav: false
 support: [gallery]
 ---
 
-About the origin of our house
+About the origin of our house(s)
 
 ## Options for using lightGallery docs tagging
 
@@ -27,12 +27,14 @@ data-sub-html="Photo 2 by EJB" >
 
 <script>
   lightGallery(document.getElementById("thegallery"), {
+    plugins: [lgThumbnail, lgZoom, lgAutoplay, lgFullscreen],
     speed: 500,
-    plugins: [lgThumbnail, lgZoom],
     thumbnails: true,
     thumbWidth: 60,
     thumbHeight: "40px",
     thumbMargin: 4,
+    showMaximizeIcon: true,
+    appendSubHtmlTo: '.lg-item',
   });
 </script>
 <!-- end of manual lg block -->
@@ -50,4 +52,4 @@ As an inline include
 <!-- lightgallery_tag.rb auto thumbs -->
 
 <h2>Or simply so (by Jimmy Xiao)</h2>
-{% include album.html albumname="astyle" %}
+{% include album.html albumname="ms15" %}

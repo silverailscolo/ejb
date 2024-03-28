@@ -1,11 +1,15 @@
 ---
 ---
 
-/** Style for opieters Lightgallery pages - as of 2024/03 */
+/** Style for opieters Lightgallery pages - adapted Egbert 2024/03 */
 
 .image-ref {
-  margin-bottom: 10px;
-  width: 50%;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.caption {
+  color: var(--global-bg-color);
 }
 
 $on-palm: 600px;

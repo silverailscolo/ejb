@@ -6,7 +6,7 @@
       href="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.original }}"
       class="image-ref"
       {% if picture.title %}
-        data-sub-html="<div class='lg-toolbar caption'><h4>{{ picture.title | escape }}</h4>{% if picture.caption %}<p>{{ picture.caption | escape }}</p>{% endif %}</div>"
+        data-sub-html="<div class='lg-toolbar caption'>{{ picture.title | escape }}{% if picture.caption %} {{ picture.caption | escape }}{% endif %}</div>"
       {% endif %}
     >
       <img alt="{{ picture.title }}" src="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}">
@@ -17,13 +17,14 @@
 <script>
   window.addEventListener('DOMContentLoaded',() =>{
     lightGallery(document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
-      plugins: [lgThumbnail, lgZoom],
+      plugins: [lgThumbnail, lgZoom, lgAutoplay, lgFullscreen],
       speed: 500,
       selector: '.image-ref',
       thumbnails: true,
       thumbWidth: 60,
       thumbHeight: "40px",
       thumbMargin: 4,
+      showMaximizeIcon: true,
       mobileSettings: {
         controls: false,
         showCloseIcon: true,

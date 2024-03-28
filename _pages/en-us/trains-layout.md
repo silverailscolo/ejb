@@ -12,17 +12,17 @@ toc:
 support: [gallery]
 ---
 
-## A tour of the layout
+<figure><img src="/assets/img/trains2/ATH-Challenger-RG-2006.jpg" alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' class='w3-image'></figure>
 
-<!-- simply so (by Jimmy Xiao) -->
+# A tour of the (former) layout
 
+Trains2
+<!-- simply so (by Jimmy_Xiao) -->
 {% include album.html albumname="trains2" %}
 
+Trains
 <!-- opieters include -->
-
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
-
-<figure><img src="/assets/img/trains2/ATH-Challenger-RG-2006.jpg" alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' class='w3-image'></figure>
 
 # A versatile hobby
 
@@ -34,7 +34,7 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/a2y016-kl.jpg" alt='Visiting Durango Yard (1995)' class="w3-image">
+<figure><img src="/assets/img/trains2/a2y016.jpg" alt='Visiting Durango Yard (1995)' class="w3-image">
 <figcaption class="kleiner">Visiting Durango Yard (1995) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
@@ -104,11 +104,11 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/135-3583_IMG-kl.jpg" alt='Frame voor Farmington' class='w3-image'>
+<figure><img src="/assets/img/trains2/135-3583_IMG.jpg" alt='Frame voor Farmington' class='w3-image'>
 <figcaption class="kleiner">Working on the benchwork and subroadbed at the ATSF-interchange in Thoreau (2005)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/134-3479_IMG-kl.jpg" alt='Overview of bottom level' class='w3-image'>
+<figure><img src="/assets/img/trains2/134-3479_IMG.jpg" alt='Overview of bottom level' class='w3-image'>
 <figcaption class="kleiner">Bare construction, 2005</figcaption></figure>
 </div>
 </div>
@@ -213,7 +213,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 <figcaption class="kleiner">Durango, looking across town to Animas River (2015)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_0638_lo.jpg" alt='Trimble Hot Spring Hotel above the main line' class='w3-image'>
+<figure><img src="/assets/img-noresample/trains/20200220205404-11d123d4-240x180.jpg" alt='Trimble Hot Spring Hotel above the main line' class='w3-image'>
 <figcaption class="kleiner">Trimble Hotel above Hermosa Creek, a beautiful Bar-Mills kit (Feb. 2020)</figcaption></figure>
 </div>
 </div>
@@ -243,18 +243,18 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 <figcaption class="kleiner">Bowman Mine and Needleton tank spur (April 2014)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains2/DSC0869_lo.jpg"><img src="/assets/img/trains2/DSC0869_lo.jpg" alt='Rockwood' class='w3-image'></a>
+<figure><img src="/assets/img/trains2/DSC0869.jpg" alt='Rockwood' class='w3-image'>
 <figcaption class="kleiner">Mainline north through Rockwood</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains2/DSC0868_smallRockwood.jpg"><img src="/assets/img/trains2/DSC0868_smallRockwood.jpg" alt='Rockwood and High Line' class='w3-image'></a>
+<figure><img src="/assets/img/trains2/DSC0868_Rockwood.jpg" alt='Rockwood and High Line' class='w3-image'>
 <figcaption class="kleiner">The town of Rockwood with the High Line overhead</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/DSCF292-kl.jpeg" alt='Durango special #269' class='w3-image'>
+<figure><img src="/assets/img/trains2/DSCF2925.jpg" alt='Durango special #269' class='w3-image'>
 <figcaption class="kleiner">First train from Durango to Silverton! (Nov. 2012)</figcaption></figure>
 </div>
 </div>
@@ -371,8 +371,8 @@ All Items were later added to <a href="https://webserver.jmri.org/help/en/packag
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/pa-riograndeAA.gif" alt='PA-1' class='w3-image'>
-<figcaption class="kleiner">Rio Grande PA-1 by <a href="https://www.con-cor.com">Con-Cor</a>.</figcaption></figure>
+<figure><img src="/assets/img/trains2/IMG_9726_AlcoPA1Kato.jpg" alt='PA-1' class='w3-image'>
+<figcaption class="kleiner">Rio Grande PA-1 by <a href="https://katousa.com/n-pa-index/">Kato</a>.</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
 <figure><a href="https://archive.atlasrr.com/NLoco/arc-nh151644.htm"><img src="/assets/img/trains2/Rio%20Grande%20H-15.gif" alt='De nieuwe Atlas H15-44' class='w3-image'></a>
@@ -384,7 +384,7 @@ All Items were later added to <a href="https://webserver.jmri.org/help/en/packag
 
 <ul>
 <li><a href="https://www.nscalesupply.com/">N Scale Supply: A fine shop shipping internationally</a></li>
-<li><a href="https://www.trains.com/mrr/">MODEL RAILROADER monthly magazine</a></li>
+<li><a href="https://www.trains.com/mrr/">Model Railroader monthly magazine</a></li>
 <li><a href="https://www.nmra.org/special-interest-groups">NMRA Special Interest Groups (SIGs)</a></li>
 <li><a href="https://ldsig.org/">Layout Design SIG</a>
   <ul>

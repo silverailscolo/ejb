@@ -8,6 +8,6 @@
     "isotope-layout": "^3.0.6",
     "jquery": "^3.7.1",
     "lightgallery": "^2.7.2",
-    "open-uri": "^0.4.3"
+    "exif": "^2.2.4"
   }
 }
