@@ -6,10 +6,10 @@ title: The layout
 description: N-scale Colorado ca 1950
 lang: en-us
 encoding: utf-8
+support: [gallery]
 nav: false
 toc:
   sidebar: left
-support: [gallery]
 ---
 
 <figure><img src="/assets/img/trains2/ATH-Challenger-RG-2006.jpg" alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' class='w3-image'></figure>
@@ -17,11 +17,15 @@ support: [gallery]
 # A tour of the (former) layout
 
 Trains2
+
 <!-- simply so (by Jimmy_Xiao) -->
+
 {% include album.html albumname="trains2" %}
 
 Trains
+
 <!-- opieters include -->
+
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 
 # A versatile hobby

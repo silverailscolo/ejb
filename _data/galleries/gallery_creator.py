@@ -56,10 +56,12 @@ dc = []
 _title = "Photo"
 _caption = "by"
 _creator = "EJ Broerse"
+_keywords = ""
 _rights = "CC BY-NC-SA 4.0"
 title = _title
 caption = _caption
 creator = _creator
+keywords = _keywords
 rights = _rights
 
 # group gallery data
@@ -154,7 +156,7 @@ for pic in new_gallery:
             caption = dc_pair[1]
           else:
             caption = _caption
-          if "dc:creator" in dc_pair[0] and dc_pair[1] != '':
+          if "dc:keywords" in dc_pair[0] and dc_pair[1] != '':
             creator = dc_pair[1]
           else:
             creator = _creator
@@ -166,11 +168,12 @@ for pic in new_gallery:
   # create new entry
   #print("New entry. title = " + title)
   old_gallery.append({ "filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
-                      "title": title, "caption": caption + ' ' + creator + ' ' + rights })
+                      "title": title, "caption": caption + ' ' + keywords + ' ' + rights })
   # reset vars
   title = _title
   caption = _caption
   creator = _creator
+  keywords = _keywords
   rights = _rights
   #print("vars reset. title = " + title)
 

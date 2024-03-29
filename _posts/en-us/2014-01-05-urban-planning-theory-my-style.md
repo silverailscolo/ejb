@@ -15,7 +15,9 @@ The hierarchy of roads over housing over the garden needs reconsidering. The sed
 use of maps and words by politicians and designers may lead one to believe there is a
 right and a wrong way of laying out squares and roads. But Turner makes a case for less
 binary or-or mono-function and more diffuse categories. Bottom-up initiatives may aid us
-as designers. Still, I find the structuring of spaces as put forward by Edmund Bacon an
+as designers. Hands-on design is to be preferred over clean-hands off-site design.
+
+Still, I find the structuring of spaces as put forward by Edmund Bacon an
 inspiring method.
 
 For sale [here](https://www.taylorfrancis.com/books/mono/10.4324/9781315024868/city-landscape-tom-turner).

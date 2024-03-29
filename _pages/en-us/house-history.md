@@ -52,4 +52,4 @@ As an inline include
 <!-- lightgallery_tag.rb auto thumbs -->
 
 <h2>Or simply so (by Jimmy Xiao)</h2>
-{% include album.html albumname="ms15" %}
+{% include album.html albumname="astyle" %}
