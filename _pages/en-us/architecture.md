@@ -41,7 +41,7 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 <p>Om mijn ervaring met circulair bouwen te delen, schrijf ik in het Actieteam mee aan de <em>Leidraad Circulair Ontwerpen</em> van <a href="https://platformcb23.nl">Platform CB'23</a>.</p>
 
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src='/assets/img/architect/BR11/BR11_Bouwbord.png' alt='Bouwbord 2021' class='w3-image' >
+<figure><img src={{ "/assets/img/architect/BR11/BR11_Bouwbord.png" | relative+url }} alt='Bouwbord 2021' class='w3-image' >
 <figcaption class="kleiner">Bouwpartners restauratie 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <figure><img src='/assets/img/architect/BR11/IMG_1041.jpg' alt='Project 2021-2022: Voorgevel woonhuis BR11, aug 2021' class='w3-image'>
