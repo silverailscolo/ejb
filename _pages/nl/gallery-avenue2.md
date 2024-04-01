@@ -17,7 +17,7 @@ Beelden van mijn werk aan de A2 Maastricht vormgeving en uitvoeringsbegeleiding
 ## Inline met de lightgallery_tag.rb plugin
 
 {% gallery %}
-/assets/img/trains/DSC0868_Rockwood.jpg
-/assets/img/trains/IMG_7412_lo.jpg
-/assets/img/trains/trackplan_Thoreau.png
+/assets/img/trains2/DSC0868_Rockwood.jpg
+/assets/img/trains2/IMG_7412_lo.jpg
+/assets/img/trains2/trackplan_Thoreau.png
 {% endgallery %}

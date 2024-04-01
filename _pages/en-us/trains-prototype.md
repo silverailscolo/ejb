@@ -15,11 +15,11 @@ See the <a href="https://ebroerse.nl/trains/#proto">old site</a>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/a2y012.jpg" alt='Live steam in Durango, Spring 1995' class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/trains2/a2y012.jpg" | relative_url }}' alt='Live steam in Durango, Spring 1995' class='w3-image'></figure>
 </div>
 <div class="w3-col s12 m6">
 <figure>
-<img src="/assets/img/trains2/a2y013.jpg" alt='Silverton Depot, Winter 1990' class='w3-image'>
+<img src='{{ "/assets/img/trains2/a2y013.jpg" | relative_url }}' alt='Silverton Depot, Winter 1990' class='w3-image'>
 <figcaption class="kleiner">A picture of the restored steam engine in operation on the Durango Silverton train, taken during our holiday to the USA in the spring of 1995.</figcaption>
 </figure>
 </div>
@@ -55,7 +55,7 @@ See the <a href="https://ebroerse.nl/trains/#proto">old site</a>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Rail_terminology">Rail glossary</a>, to look up the meaning of all those special words</li>
 <li>Chasing the Narrow Gauge part I &amp; II, by Robert W. Richardson, published by Heimburger House (no longer in business as of 2024)<br>
-<img src="/assets/img/trains2/RioGrandeVol2.jpg" alt='Chasing the Narrow Gauge, part II: buy this great book' class='w3-image'>
+<img src='{{ "/assets/img/trains2/RioGrandeVol2.jpg" | relative_url }}' alt='Chasing the Narrow Gauge, part II: buy this great book' class='w3-image'>
 </li>
 <li><a href="https://nn3.tripod.com/index.htm">Rio Grande Southern</a>
 <ul>

@@ -24,7 +24,7 @@ support: [gallery]
   <div class="half-width gallery-preview {{ align }}">
     <h1>{{ gallery.title }}</h1>
     <a href="{{ gallery.directory }}.html">
-      <img alt="{{ gallery.title }}" src="/assets/img-noresample/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
+      <img alt="{{ gallery.title }}" src="{{ site.baseurl }}/assets/img-noresample/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
     </a>
   </div>
 

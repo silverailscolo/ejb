@@ -2,27 +2,27 @@
 page_id: ms15joblist
 layout: page
 permalink: /house/ms15
-title: ons 1e huis
-lang: nl
+title: Our first house
+lang: en-us
 nav: false
 support: [gallery]
 toc:
   sidebar: left
 ---
 
-# Inleiding
+# Introduction
 
 <p>Most of my spare time during the last 10 years was spent on redecorating our 100 years old house. We're ready by now, but maintenance is waiting for us! Still, it's a great pastime and - as an architect by profession - it's a joy to be able to create all those fine details and custom finishings which we couldn't afford to let a professional carpenter make for us. The first 5 years I was a regular visitor of our local building supply stores, called ['Gamma'](https://www.gamma.com) and 'Woody'. But for the more serious projects, you better skip the lot and go to a fully stocked wholesale company instead. Some memorable items:</p>
 
 ### Our garden shed
 
-<img src="/assets/img/house/ms15/schuur.gif" alt="closed garden shed open up">
+<img src='{{ "/assets/img/house/ms15/schuur.gif" | relative_url }}' alt="closed garden shed open up">
 
 In the fall of 1997 I reconstructed the roof from scratch; only the walls remained. The roof overhang in front of the doors is a real joy, for we can sit outside in summer even if it rains a bit.
 
-### Vierkante lichten
+### Square light
 
-<img src="/assets/img/house/ms15/plafond.gif" alt="plafond met nieuwe rozet">
+<img src='{{ "/assets/img/house/ms15/plafond.gif" | relative_url }}' alt="plafond met nieuwe rozet">
 
 As the rear of the house was not authentic, I made it into something special by adding 4 glass bricks that shed the morning sunlight onto the ceiling of the living room.
 
@@ -138,10 +138,10 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 07-09-'97                                 | deel v/d schuur gesloopt (Pa) &amp; bielsen in container                                                                                                                                                                                  |
 | 10-09-'97                                 | voegen repar. achtergevel tegelijk met 2 buren (aann.; rolsteiger past precies): weer waterdicht                                                                                                                                          |
 | 13-09-'97                                 | meeste (grote) terrastegels in container gedumpt; overal bergen zand                                                                                                                                                                      |
-| 20-09-'97                                 | ACOdrain geplaatst in toek. terras + elektra/water vanuit kelder &gt; schuur/tuin (zie <a href="/assets/img/house/ms15/riool1.gif">schets</a>)                                                                                            |
+| 20-09-'97                                 | ACOdrain geplaatst in toek. terras + elektra/water vanuit kelder &gt; schuur/tuin (zie <a href='{{ "/assets/img/house/ms15/riool1.gif" | relative_url }}'>schets</a>)                                                                                            |
 | 01-10-'97                                 | plinten w.k. gemonteerd, want Tjeerd trok aan de folieranden. 1,5 jr. zonder gedaan!                                                                                                                                                      |
 | 13-10-'97                                 | riolering + schrobput ingegraven in tuin                                                                                                                                                                                                  |
-| <a id="schuur_01">18-10 tot 24-10-'97</a> | in 1 weekend het hele dak schuur gesloopt en exact herbouwd (met Bert, zie <a href="/assets/img/house/ms15/schuur_f.gif">schets</a>): noklood, goten, spanten, beschot, Ventifol, pannen 'Tuile du Nord' (stel oude bijgekocht in Ameide) |
+| <a id="schuur_01">18-10 tot 24-10-'97</a> | in 1 weekend het hele dak schuur gesloopt en exact herbouwd (met Bert, zie <a href='{{ "/assets/img/house/ms15/schuur_f.gif" | relative_url }}'>schets</a>): noklood, goten, spanten, beschot, Ventifol, pannen 'Tuile du Nord' (stel oude bijgekocht in Ameide) |
 | 11-'97                                    | dubbele glasdeur voor schuur + oude grenen voordeur laten logen. 'Zolang' in de gang gezet. Gemonteerd op 10-05-'98 resp. <a href="#laatste">P.M.</a>                                                                                     |
 | 20-11-'97                                 | 17 oude trapspijlen + 2 rechte leuningen gekocht in Breukelen                                                                                                                                                                             |
 | 14-12-'97                                 | binnendeur keuken afgehangen en slot ingebouwd                                                                                                                                                                                            |
@@ -158,7 +158,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 14-02-'98                       | spiegel w.k. gekocht en opgehangen                                                                                                        |
 | 15-03-'98                       | trappaal 1<sup>e</sup> vastgezet en gerepareerd met vuller                                                                                |
 | 20 tot 24-3-'98                 | schilder geweest trap b.g.                                                                                                                |
-| 10-04-'98                       | <a href="/assets/img/house/ms15/terras.gif">terras</a> bestraat met 1.000 waalform. betonstenen geelbont (vele handen maakten licht werk) |
+| 10-04-'98                       | <a href='{{ "/assets/img/house/ms15/terras.gif" | relative_url }}'>terras</a> bestraat met 1.000 waalform. betonstenen geelbont (vele handen maakten licht werk) |
 | 30-04-'98                       | beton storten als fundering voor dorpel schuur                                                                                            |
 | 02-05-'98                       | opmetselen met klinkers en stellen Holonite dorpel + neuten [dat is leuk, metselen]                                                       |
 | 03-05-'98                       | de oude betontegels gelegd in de schuur [past precies] en onder het afdak [zwaar]                                                         |
@@ -187,46 +187,46 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 1999
 
-| Date             | Action                                                                                                                                                                                         |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 02-01-'99        | zolder achterkamer gat naar buren dichtgemetseld (alle stenen uit de tuin!)                                                                                                                    |
-| 05-01-'99        | achterwand keuken afgeleverd, maar wel in spiegelbeeld! Optimaat Hilversum maakt een nieuwe (wordt vervolgd)                                                                                   |
-| 09 tot 12-01-'99 | WC b.g. schoongehakt en tegels 15x15 wit gezet (al 3 jaar in huis!)                                                                                                                            |
-| 27-02-'99        | <a id="keukenwand">achterwand</a> keuken gemonteerd (precies 3 jaar zonder!)                                                                                                                   |
-|                  | <img src="/assets/img/house/ms15/keuk_li.jpg" width="160" height="120" alt="Keukenwand links"> <img src="/assets/img/house/ms15/keuk_re.jpg" width="160" height="120" alt="Keukenwand rechts"> |
-| 16-06-'99        | zolder, WC, overloop, keuken en schuur gestuct; mooi vakwerk!                                                                                                                                  |
-| 03 tot 04-07-'99 | plavuizen gelegd in hal en WC (met Jeroen; bijna 4 jaar in huis!)                                                                                                                              |
-| 25-07-'99        | zolderkamer (dakkapel) leeg en gesausd (l.blauw)                                                                                                                                               |
-| 03-08-'99        | plavuizen in hal gevoegd en in de was gezet                                                                                                                                                    |
-| 03-08-'99        | vloer zolderkamer ge&euml;galiseerd                                                                                                                                                            |
-| 08-08-'99        | zolderkamer afgeschilderd, koof gemaakt en tapijt gelegd                                                                                                                                       |
-| 22-09-'99        | 2 nieuwe dakramen geplaatst en dakpannen vervangen (Tip: handelaar in Ameide heeft allerlei types te koop)                                                                                     |
-| 29-10-'99        | hoekfonteintje in de WC gemonteerd (al 4 jaar in huis! lastige aansluiting op maat laten maken bij fa. Six)                                                                                    |
-| 14-11-'99        | houten schouw (jaren '30) geschilderd en in w.k. voor geplaatst: sfeervol                                                                                                                      |
+| Date             | Action                                                                                                       |
+| ---------------- |--------------------------------------------------------------------------------------------------------------|
+| 02-01-'99        | zolder achterkamer gat naar buren dichtgemetseld (alle stenen uit de tuin!)                                  |
+| 05-01-'99        | achterwand keuken afgeleverd, maar wel in spiegelbeeld! Optimaat Hilversum maakt een nieuwe (wordt vervolgd) |
+| 09 tot 12-01-'99 | WC b.g. schoongehakt en tegels 15x15 wit gezet (al 3 jaar in huis!)                                          |
+| 27-02-'99        | <a id="keukenwand">achterwand</a> keuken gemonteerd (precies 3 jaar zonder!)                                 |
+|                  | <img src='{{ "/assets/img/house/ms15/keuk_li.jpg"                                                            | relative_url }}' alt="Keukenwand links"> <img src='{{ "/assets/img/house/ms15/keuk_re.jpg" | relative_url }}' alt="Keukenwand rechts"> |
+| 16-06-'99        | zolder, WC, overloop, keuken en schuur gestuct; mooi vakwerk!                                                |
+| 03 tot 04-07-'99 | plavuizen gelegd in hal en WC (met Jeroen; bijna 4 jaar in huis!)                                            |
+| 25-07-'99        | zolderkamer (dakkapel) leeg en gesausd (l.blauw)                                                             |
+| 03-08-'99        | plavuizen in hal gevoegd en in de was gezet                                                                  |
+| 03-08-'99        | vloer zolderkamer ge&euml;galiseerd                                                                          |
+| 08-08-'99        | zolderkamer afgeschilderd, koof gemaakt en tapijt gelegd                                                     |
+| 22-09-'99        | 2 nieuwe dakramen geplaatst en dakpannen vervangen (Tip: handelaar in Ameide heeft allerlei types te koop)   |
+| 29-10-'99        | hoekfonteintje in de WC gemonteerd (al 4 jaar in huis! lastige aansluiting op maat laten maken bij fa. Six)  |
+| 14-11-'99        | houten schouw (jaren '30) geschilderd en in w.k. voor geplaatst: sfeervol                                    |
 
 ## 2000
 
-| Date      | Action                                                                                                                                                                                                                  |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                                                                                                                                         |
-| 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                                                                                                                                            |
-| 12-02-'00 | zolderkamer voor ge&iuml;soleerd en verder afgetimmerd                                                                                                                                                                  |
-| 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>                                                                                                                           |
-|           | (...)                                                                                                                                                                                                                   |
-| 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                                                                                                                                              |
-| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <input type="button" name="knop_1" value="Convectorput" onclick="window.open('/assets/img/house/convector001105.jpg', 'new_window', 'width=320,height=240,resizable=no')"/> |
-| 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                                                                                                                                        |
+| Date      | Action                                                                                              |
+|-----------|-----------------------------------------------------------------------------------------------------|
+| 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                     |
+| 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                        |
+| 12-02-'00 | zolderkamer voor ge&iuml;soleerd en verder afgetimmerd                                              |
+| 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>       |
+|           | (...)                                                                                               |
+| 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                          |
+| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/convector001105.jpg" | relatve_url }}'> |
+| 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                    |
 
 ## 2001
 
 | Date                    | Action                                                                                                                                                                                                                                                                                                                           |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 14-01-'01               | meterkast in de hal gemaakt: de kubus herbergt de buggy; de alu streamlinevorm verwijst als 'hightech' naar de vernieuwing in huis en maakt zich los van het historische gebouw... <br><img src="/assets/img/house/ms15/meterkast01.jpg" alt="ontwerp meterkastbekleding">                                                       |
-|                         | <img src="/assets/img/house/ms15/meterkast02.jpg" alt="mmoderne meterkastbekleding">                                                                                                                                                                                                                                             |
+| 14-01-'01               | meterkast in de hal gemaakt: de kubus herbergt de buggy; de alu streamlinevorm verwijst als 'hightech' naar de vernieuwing in huis en maakt zich los van het historische gebouw... <br><img src='{{ "/assets/img/house/ms15/meterkast01.jpg" | relative_url }}' alt="ontwerp meterkastbekleding">                                                       |
+|                         | <img src='{{ "/assets/img/house/ms15/meterkast02.jpg" | relative_url }}' alt="moderne meterkastbekleding">                                                                                                                                                                                                                                             |
 | 03-03-'01               | in werkkamer extra leidingen onder grond aangelegd en opnieuw ingericht (4 Billies en tapijt)                                                                                                                                                                                                                                    |
 | 20-08-'01               | in slaapkamer radiator vervangen door lamellen-designradiator rechts van venster. Lichtdichte gordijnen opgehangen en hekwerk laten maken in smederij, in afwachting van Frans balkon.                                                                                                                                           |
 | 10-10-'01 tot 25-05-'02 | Achterpui b.g. en raam slk. laten vervangen in oude stijl                                                                                                                                                                                                                                                                        |
-|                         | <img src="/assets/img/house/ms15/achtergevel-detail1-lo.jpg" alt="detail achtergevel">                                                                                                                                                                                                                                           |
+|                         | <img src='{{ "/assets/img/house/ms15/achtergevel-detail1-lo.jpg" | relative_url }}' alt="detail achtergevel">                                                                                                                                                                                                                                           |
 |                         | Het duurde al met al vreselijk lang, want de aannemers - in elk geval de onze, Sleper - sterven kennelijk van het werk en o, o wat is het moeilijk om een vakman te krijgen die er iets moois van wil maken! Tip: maak een goede tekening en schrijf alles op wat je afspreekt. Het helpt, kijk [hier](/blog/2022/windowmisery/) |
 | 10-10-'01 tot 25-05-'02 | de schilder deed de buitenkant                                                                                                                                                                                                                                                                                                   |
 
@@ -248,11 +248,11 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 2004
 
-| Date      | Action                                                                                                                                                                                     |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                                                                                                                                                      |
-| 23-05-'04 | slang boiler gesprongen (en gehoosd)                                                                                                                                                       |
-| 26-05-'04 | slaapkamer als nieuw <input type="button" name="knop_1" value="eindresultaat" onclick="window.open('/assets/img/house/kast2004.jpg', 'new_window', 'width=315,height=175,resizable=no')"/> |
+| Date      | Action                                                                                                                      |
+|-----------|-----------------------------------------------------------------------------------------------------------------------------|
+| 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                                                                                       |
+| 23-05-'04 | slang boiler gesprongen (en gehoosd)                                                                                        |
+| 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/kast2004.jpg" | relative_url }}'> |
 
 ## 2005
 
@@ -277,7 +277,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | Date       | Action                                                                 |
 | ---------- | ---------------------------------------------------------------------- |
 | 01-06-2012 | koekkoek                                                               |
-|            | <img src="/assets/img/house/koekkoek.gif" alt="schets koekoek kelder"> |
+|            | <img src='{{ "/assets/img/house/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
 
 ## What's next?
 
