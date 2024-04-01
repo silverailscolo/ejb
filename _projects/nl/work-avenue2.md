@@ -3,7 +3,7 @@ page_id: a2-maastricht
 layout: page
 title: A2 Maastricht
 description: um projeto com imagem de fundo e comentários do giscus
-img: assets/img/3.jpg
+img: assets/img/architect/avenue2/7691.jpg
 importance: 2
 lang: nl
 category: work
