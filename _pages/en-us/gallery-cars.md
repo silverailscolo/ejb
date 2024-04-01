@@ -140,15 +140,16 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 ## 2017-2021: Greenwheels Up
 
 <p>Bleek dat we helemaal geen (eigen) auto nodig hadden! Genoeg andere vormen van mobiliteit beschikbaar, als je centraal woont.</p>
-<figure><img src='/assets/img-noresample/our_cars/IMG_2228_Greenwheels-565x395.jpg' alt='Volkswagen Up by Greenwheels' class='w3-image' >
+<figure><img src='assets/img-noresample/our_cars/IMG_2228_Greenwheels-565x395.jpg' alt='Volkswagen Up by Greenwheels' class='w3-image' >
 <figcaption class="kleiner">Volkswagen Up by Greenwheels (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 ## 2021: Nissan e-NV200 "Evalia"
 
-<p>After 3 years without owning a car, using a compapct GreenWheels now and then, we moved to the countryside and found a 2014 Nissan Evalia e-nv200 full electric minivan. It is based on the Nissan Leaf and has a characteristic, Tokyo styled body. It stands out of the crowd and allowed to move 3x3 banana boxes full of stuff on the second row alone when we moved house!</p>
-<figure><img src='/assets/img-noresample/our_cars/evalia2014-867x667.jpg' alt='Nissan Evalia EV' class='w3-image'>
+<p>After 3 years without owning a car, using a compact GreenWheels now and then, we moved to the countryside and found a 2014 Nissan Evalia e-nv200 full electric minivan. It is based on the Nissan Leaf and has a characteristic, Tokyo styled body. It stands out of the crowd and allowed to move 3x3 banana boxes full of stuff on the second row alone when we moved house!</p>
+<figure><img src='assets/img-noresample/our_cars/evalia2014-867x667.jpg' alt='Nissan Evalia EV' class='w3-image'>
 <figcaption class="kleiner">Nissan Evalia EV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 <p>To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from <a href="https://www.muxsan.com/Nederlands/index.html">Muxsan</a> in Delft installed in the rear.</p>
+
 <!-- naar boven menuutje -->
 <div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px">
 <a href="#top"><img src='/assets/img/uptop.png' alt='Naar boven'></a>
