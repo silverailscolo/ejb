@@ -42,7 +42,8 @@ Short history of the works / Korte geschiedenis van het werk
 </li><li>stucwerk f 770,- (stelpost)
 </li><li>keukendeur 52 mm dik met HR++ glas
 </li><li>inkl. SKG ** H&S (stelpost)
-</li><li>houten leuning + gehard glazen plaat als balustrade 1e verd. (stelpost)</li><ul>
+</li><li>houten leuning + gehard glazen plaat als balustrade 1e verd. (stelpost)</li>
+</ul>
 <div>bij acceptatie offerte zal SH stelposten alsnog offreren</div></td></tr>
 
 <tr><td>19 juni</td><td>principe-opdracht aan aannemer per brief bevestigd. Voorwaarden:

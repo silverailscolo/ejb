@@ -3,8 +3,8 @@
   <!-- uses _plugins/Jekyll-ExifTag.rb and exif .node_module -->
   {% for image in site.static_files %} {% if image.path contains 'img' and image.path contains include.albumname %} {% unless image.name contains
   '.webp' %} {% assign copy = {{ exiftag copyright, , {{ image.path }} }} %} {% assign title = {{ exiftag xp_title, , {{ image.path }} }} %}
-  <a href="{{ image.path }}" class="image-ref" data-sub-html="{{ title }} {{ copy }}">
-    <img src="{{ baseurl }}/thumbnails/{{ include.albumname }}/{{ image.name }}" alt="{{ title }}" />
+  <a href="{{ image.path | relative_url }}" class="image-ref" data-sub-html="{{ title }} {{ copy }}">
+    <img src="{{ '/thumbnails/{{ include.albumname }}/{{ image.name }}' | relative_url }}" alt="{{ title }}" />
   </a>
   {% endunless %}{% endif %}{% endfor %}
 </div>
