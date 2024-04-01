@@ -7,7 +7,7 @@ first_name: Egbert
 middle_name:
 last_name: Broerse
 email: spam@ebroerse.nl
-keywords: jekyll, portfolio-website # add your own keywords or leave empty
+keywords: architecture, house, trains # add your own keywords or leave empty
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/)
 
 url: https://silverailscolo.github.io # the base hostname & protocol for your site

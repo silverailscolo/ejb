@@ -4,7 +4,7 @@ layout: page
 lang: nl
 title: N31 Harlingen
 description: Kunstwerken (bruggen en zo)
-img: assets/img/3.jpg
+img: assets/img/architect/n31/N31KWWbakopPortfolio2016_lo.jpg
 importance: 2
 category: work
 ---
