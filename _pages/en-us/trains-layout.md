@@ -12,7 +12,7 @@ toc:
   sidebar: left
 ---
 
-<figure><img src="/assets/img/trains2/ATH-Challenger-RG-2006.jpg" alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/trains2/ATH-Challenger-RG-2006.jpg" | relative_url }}' alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' class='w3-image'></figure>
 
 # A tour of the (former) layout
 
@@ -38,12 +38,12 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/a2y016.jpg" alt='Visiting Durango Yard (1995)' class="w3-image">
+<figure><img src='{{ "/assets/img/trains2/a2y016.jpg" | relative_url }}' alt='Visiting Durango Yard (1995)' class="w3-image">
 <figcaption class="kleiner">Visiting Durango Yard (1995) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_0080_xing.jpg" alt='Durango town perspective' class="w3-image">
+<figure><img src='{{ "/assets/img/trains2/IMG_0080_xing.jpg" | relative_url }}' alt='Durango town perspective' class="w3-image">
 <figcaption class="kleiner">NG tracks, industries and mountains (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
@@ -55,13 +55,13 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/dsng%20map.gif" alt="RR map" class="w3-image">
+<figure><img src='{{ "/assets/img/trains2/dsng%20map.gif" | relative_url }}' alt="RR map" class="w3-image">
 <figcaption class="kleiner">A map of the track from Durango in the south to Silverton in the north.</figcaption>
 </figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/trackplan_full.png" alt='Track plan (level 1)' class="w3-image">
-<figcaption class="kleiner">D&amp;SNG Track Plan<br>(view the <a href="/assets/pdf/Trackplan%20D_S%20RR%202018.pdf">complete Track Plan</a> as a <a href="https://get.adobe.com/nl/reader/">PDF</a>).</figcaption>
+<figure><img src='{{ "/assets/img/trains2/trackplan_full.png" | relative_url }}' alt='Track plan (level 1)' class="w3-image">
+<figcaption class="kleiner">D&amp;SNG Track Plan<br>(view the <a href='{{ "/assets/pdf/Trackplan%20D_S%20RR%202018.pdf" | relative_url }}'>complete Track Plan</a> as a <a href="https://get.adobe.com/nl/reader/">PDF</a>).</figcaption>
 </figure>
 </div>
 </div>
@@ -81,7 +81,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 ## <a id="newport">Level 0: Newport, OR</a>
 
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains2/trackplan_Newport.png" alt='Newport harbor area track plan' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/trackplan_Newport.png" | relative_url }}' alt='Newport harbor area track plan' class='w3-image'>
 <figcaption class="kleiner">Newport harbor area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 
@@ -89,11 +89,11 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/newport2013_IMG_2497kl.jpg" alt='Overview of Newport' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/newport2013_IMG_2497kl.jpg" | relative_url }}' alt='Overview of Newport' class='w3-image'>
 <figcaption class="kleiner">Coal dock and Trident Seafood factory at Newport, March 2013</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/Newport_IMG_0136.jpg" alt='Newport Coal Dock' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/Newport_IMG_0136.jpg" | relative_url }}' alt='Newport Coal Dock' class='w3-image'>
 <figcaption class="kleiner">Newport Coal Dock (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
@@ -101,41 +101,41 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 ## <a id="farmington">Level 0: Farmington and Thoreau, NM</a>
 
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains2/trackplan_Thoreau.png" alt='Farmington NM area track plan' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/trackplan_Thoreau.png" | relative_url }}' alt='Farmington NM area track plan' class='w3-image'>
 <figcaption class="kleiner">Farmington NM area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>The Farmington Branch has an interchange wth the Santa Fe in the desert town of Thoreau, which explains the big diesels of a Class I RR.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/135-3583_IMG.jpg" alt='Frame voor Farmington' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/135-3583_IMG.jpg" | relative_url }}' alt='Frame voor Farmington' class='w3-image'>
 <figcaption class="kleiner">Working on the benchwork and subroadbed at the ATSF-interchange in Thoreau (2005)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/134-3479_IMG.jpg" alt='Overview of bottom level' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/134-3479_IMG.jpg" | relative_url }}' alt='Overview of bottom level' class='w3-image'>
 <figcaption class="kleiner">Bare construction, 2005</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/DSC0873_smallFarmington.jpg" alt='Stop for a snack in Farmington 2013' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/DSC0873_smallFarmington.jpg" | relative_url }}' alt='Stop for a snack in Farmington 2013' class='w3-image'>
 <figcaption class="kleiner">GE 44 ton switcher #42 and the Snack Stop are ready for travelers, 2013</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/Thoreau%20soda%20IMG_1473.jpg" alt='A short stop on Route 66' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/Thoreau%20soda%20IMG_1473.jpg" | relative_url }}' alt='A short stop on Route 66' class='w3-image'>
 <figcaption class="kleiner">Signals and snack stop added (Dec. 2012)</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/Farmington%20IMG_1480.jpg" alt='Sandstone cliffs' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/Farmington%20IMG_1480.jpg" | relative_url }}' alt='Sandstone cliffs' class='w3-image'>
 <figcaption class="kleiner">For reference: The landscape around Farmington NM (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/casaverdesol/7872521638/sizes/l/" property="cc:attributionName" rel="cc:attributionURL">Joel Deluxe</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_0656_lo.jpg" alt='Thoreau NM interchange' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_0656_lo.jpg" | relative_url }}' alt='Thoreau NM interchange' class='w3-image'>
 <figcaption class="kleiner">Thoreau water tower, Trimble in the background (Feb. 2020)</figcaption></figure>
 </div>
 </div>
@@ -143,81 +143,81 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 ## <a id="durenver">Level 1: Durenver, CO</a>
 
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains2/trackplan_Durenver.png" alt='Durenver area track plan' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/trackplan_Durenver.png" | relative_url }}' alt='Durenver area track plan' class='w3-image'>
 <figcaption class="kleiner">Durenver area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>Durenver is the main town on the layout, a fictional combination of Durango town and depot located high in the Rockies with the Denver CO dense urban warehouses next to the yard.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/S2400016-kl.jpg" class='w3-image' alt="Staging yard and business area of Durango * Denver = Durenver">
+<figure><img src='{{ "/assets/img/trains2/S2400016-kl.jpg" | relative_url }}' class='w3-image' alt="Staging yard and business area of Durango * Denver = Durenver">
 <figcaption class="kleiner">Staging yard and business area of Durango*Denver=Durenver (mock up)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_0108_lo.jpg" alt='background urban scene' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_0108_lo.jpg" | relative_url }}' alt='background urban scene' class='w3-image'>
 <figcaption class="kleiner">Durenver Yard, Jan. 2013</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_2393lo.jpg" alt='The Durango Ice and Brewing Co.' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_2393lo.jpg" | relative_url }}' alt='The Durango Ice and Brewing Co.' class='w3-image'>
 <figcaption class="kleiner">The Ice House, a JL Innovative kit (May 2009)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_0109_lo.jpg" alt='Denver Business District looking north' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_0109_lo.jpg" | relative_url }}' alt='Denver Business District looking north' class='w3-image'>
 <figcaption  class="kleiner">Overview of Durenver Yard (Jan. 2013)</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_5179_smallSpeeder.jpg" class='w3-image' alt='Speeder shed, ready the assist in the tunnel'>
+<figure><img src='{{ "/assets/img/trains2/IMG_5179_smallSpeeder.jpg" | relative_url }}' class='w3-image' alt='Speeder shed, ready the assist in the tunnel'>
 <figcaption class="kleiner">Speeder at the shed, ready the assist in the tunnel</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_2537_lo.jpg" alt='Underpass to cross the yard' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_2537_lo.jpg" | relative_url }}' alt='Underpass to cross the yard' class='w3-image'>
 <figcaption class="kleiner">To cross the yard, use the underpass.</figcaption></figure>
 </div>
 </div>
 
 <h4><a id="durango">Level 1: Durango, CO D&amp;SNG Yard</a></h4>
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains2/trackplan_Durango.png" alt='Durango area track plan' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/trackplan_Durango.png" | relative_url }}' alt='Durango area track plan' class='w3-image'>
 <figcaption class="kleiner">Durango area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>Central point on the layout is the historic depot and boom town of Durango, CO.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_1601_lo.jpg" alt='Durango yard turntable, April 2008' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_1601_lo.jpg" | relative_url }}' alt='Durango yard turntable, April 2008' class='w3-image'>
 <figcaption class="kleiner">Fleischmann turntable, Shay and Goose in Atlas roundhouse, March 2008</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_7412_lo.jpg" alt='Malone Iron and Graden Mercantile, click to enlarge' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_7412_lo.jpg" | relative_url }}' alt='Malone Iron and Graden Mercantile, click to enlarge' class='w3-image'>
 <figcaption class="kleiner">Malone Iron and Graden Mercantile in the background, Dec. 2018</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/Smelter%201892%20021528pu_small.jpg" alt='Durango Smelter in 1892 (American Heritage)' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/Smelter%201892%20021528pu_small.jpg" | relative_url }}' alt='Durango Smelter in 1892 (American Heritage)' class='w3-image'>
 <figcaption class="kleiner">Historic photograph of smelter (1892)</figcaption>
 </figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/DSCF0449_small.jpg" alt='Durango Smelter buildings, January 2010' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/DSCF0449_small.jpg" | relative_url }}' alt='Durango Smelter buildings, January 2010' class='w3-image'>
 <figcaption class="kleiner">All buildings ass'd and painted</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_5183-smallDurango.jpg" alt='Durango, looking towards the Depot (2015)' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_5183-smallDurango.jpg" | relative_url }}' alt='Durango, looking towards the Depot (2015)' class='w3-image'>
 <figcaption class="kleiner">Durango, looking across town to Animas River (2015)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img-noresample/trains/20200220205404-11d123d4-240x180.jpg" alt='Trimble Hot Spring Hotel above the main line' class='w3-image'>
+<figure><img src='{{ "/assets/img-noresample/trains/20200220205404-11d123d4-240x180.jpg" | relative_url }}' alt='Trimble Hot Spring Hotel above the main line' class='w3-image'>
 <figcaption class="kleiner">Trimble Hotel above Hermosa Creek, a beautiful Bar-Mills kit (Feb. 2020)</figcaption></figure>
 </div>
 </div>
@@ -225,40 +225,40 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 ## <a id="rockwood">Level 2: Rockwood, CO</a>
 
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains2/trackplan_Rockwood.png" alt='Rockwood area track plan' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/trackplan_Rockwood.png" | relative_url }}' alt='Rockwood area track plan' class='w3-image'>
 <figcaption class="kleiner">Rockwood area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>A small settlement halfway up near the High Line, just a couple of houses and a small depot plus lumber mill. A small steam operated narrow gauge segment brings in the logs.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/DSCF0459_lo.jpg" alt='First setup of Rockwood' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/DSCF0459_lo.jpg" | relative_url }}' alt='First setup of Rockwood' class='w3-image'>
 <figcaption class="kleiner">First test fitting of scenery elements</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/DSCF0964_lo.jpg" alt='Mine and lumber pond' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/DSCF0964_lo.jpg" | relative_url }}' alt='Mine and lumber pond' class='w3-image'>
 <figcaption  class="kleiner">Mine and timber pond (July 2010)</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains2/DSC0871_smallBowman.jpg"><img src="/assets/img/trains2/DSC0871_smallBowman.jpg" alt='Above Rockwood' class='w3-image'></a>
+<figure><img src='{{ "/assets/img/trains2/DSC0871_smallBowman.jpg" | relative_url }}' alt='Above Rockwood' class='w3-image'>
 <figcaption class="kleiner">Bowman Mine and Needleton tank spur (April 2014)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/DSC0869.jpg" alt='Rockwood' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/DSC0869.jpg" | relative_url }}' alt='Rockwood' class='w3-image'>
 <figcaption class="kleiner">Mainline north through Rockwood</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/DSC0868_Rockwood.jpg" alt='Rockwood and High Line' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/DSC0868_Rockwood.jpg" | relative_url }}' alt='Rockwood and High Line' class='w3-image'>
 <figcaption class="kleiner">The town of Rockwood with the High Line overhead</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/DSCF2925.jpg" alt='Durango special #269' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/DSCF2925.jpg" | relative_url }}' alt='Durango special #269' class='w3-image'>
 <figcaption class="kleiner">First train from Durango to Silverton! (Nov. 2012)</figcaption></figure>
 </div>
 </div>
@@ -268,11 +268,11 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains2/IMG_4144_small.jpg"><img src="/assets/img/trains2/IMG_4144_small.jpg" alt="Sawmill bird's eye" class='w3-image'></a>
+<figure><img src='{{ "/assets/img/trains2/IMG_4144_small.jpg" | relative_url }}' alt="Sawmill bird's eye" class='w3-image'>
 <figcaption class="kleiner">A look from the aisle, with Tacoma Power House in the back.</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains2/IMG_4129_small.jpg"><img src="/assets/img/trains2/IMG_4129_small.jpg" alt='Detail of lumber shed' class='w3-image'></a>
+<figure><img src='{{ "/assets/img/trains2/IMG_4129_small.jpg" | relative_url }}' alt='Detail of lumber shed' class='w3-image'>
 <figcaption class="kleiner">The well stocked interior of the lumber shed.</figcaption></figure>
 </div>
 </div>
@@ -282,7 +282,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 ## <a id="silverton">Level 3: Silverton, CO</a>
 
 <div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src="/assets/img/trains2/trackplan_Silverton.png" alt='Silverton track plan' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/trackplan_Silverton.png" | relative_url }}' alt='Silverton track plan' class='w3-image'>
 <figcaption class="kleiner">Silverton track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <p>The final stop on the main line, interchange with SN RR to Ouray and SG&amp;N RR to Gladstone. We were there during a snow storm, so at this point the imagination takes over.</p>
@@ -291,23 +291,23 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><a href="/assets/img/trains2/GreeneSt_1912.jpg"><img src="/assets/img/trains2/GreeneSt_1912.jpg" alt='Colorado Historical Archives' class='w3-image'></a>
+<figure><img src='{{ "/assets/img/trains2/GreeneSt_1912.jpg" | relative_url }}' alt='Colorado Historical Archives' class='w3-image'>
 <figcaption class="kleiner">Greene Street around 1912. Note the folk on the roof of Hesperus Coal.<br>
 &copy; 2000-2010 The Silverton Magazine (now offline)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_0641_lo.jpg" alt='Scratch built with interior' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_0641_lo.jpg" | relative_url }}' alt='Scratch built with interior' class='w3-image'>
 <figcaption class="kleiner">Silverton Depot and town (Jan. 2013)</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_0654_lo.jpg" alt="Silverton snow shed" class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_0654_lo.jpg" | relative_url }}' alt="Silverton snow shed" class='w3-image'>
 <figcaption class="kleiner">Silverton snow shed, hiding the reverse loop</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_0644_lo.jpg" alt='Silverton mountain (styrofoam)' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_0644_lo.jpg" | relative_url }}' alt='Silverton mountain (styrofoam)' class='w3-image'>
 <figcaption class="kleiner">Silverton Engine house and snow shed (Jan. 2010)</figcaption></figure>
 </div>
 </div>
@@ -352,34 +352,34 @@ All Items were later added to <a href="https://webserver.jmri.org/help/en/packag
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_2353lo.jpg" alt='Atlas Shay logging steam locomotive' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_2353lo.jpg" | relative_url }}' alt='Atlas Shay logging steam locomotive' class='w3-image'>
 <figcaption class="kleiner">Atlas Shay (reserved Sept. 2004, received Aug. 2005, DCC  + weathered Apr. 2009).</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/rs3%20rio%20grande.gif" alt="Alco RS-3" class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/rs3%20rio%20grande.gif" | relative_url }}' alt="Alco RS-3" class='w3-image'>
 <figcaption class="kleiner">Rio Grande Alco RS-3 #5203 freight engine, made by <a href="https://shop.atlasrr.com/default.aspx">Atlas</a>, converted to DCC in 2005.</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/110-1083.jpg" class='w3-image' alt="A nice team engine">
+<figure><img src='{{ "/assets/img/trains2/110-1083.jpg" | relative_url }}' class='w3-image' alt="A nice team engine">
 <figcaption class="kleiner">Baldwin F-1 steam engine by MDC (now <a href="https://www.athearn.com/Products/N/Default.aspx">Athearn)</a><br>
  passing the wye.</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_2380lo.jpg" alt='Silverton RR Nn3 2-6-0 (conversion by me) April 09' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_2380lo.jpg" | relative_url }}' alt='Silverton RR Nn3 2-6-0 (conversion by me) April 09' class='w3-image'>
 <figcaption class="kleiner">Republic Locomotive Works white metal conversion kit on top of a M&auml;rklin Z frame (I'm proud!)</figcaption></figure>
 </div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src="/assets/img/trains2/IMG_9726_AlcoPA1Kato.jpg" alt='PA-1' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/IMG_9726_AlcoPA1Kato.jpg" | relative_url }}' alt='PA-1' class='w3-image'>
 <figcaption class="kleiner">Rio Grande PA-1 by <a href="https://katousa.com/n-pa-index/">Kato</a>.</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><a href="https://archive.atlasrr.com/NLoco/arc-nh151644.htm"><img src="/assets/img/trains2/Rio%20Grande%20H-15.gif" alt='De nieuwe Atlas H15-44' class='w3-image'></a>
+<figure><a href="https://archive.atlasrr.com/NLoco/arc-nh151644.htm"><img src='{{ "/assets/img/trains2/Rio%20Grande%20H-15.gif" | relative_url }}' alt='De nieuwe Atlas H15-44' class='w3-image'></a>
 <figcaption class="kleiner">Rio Grande H15-44, made by <a href="https://shop.atlasrr.com">Atlas</a>.</figcaption></figure>
 </div>
 </div>
@@ -400,5 +400,5 @@ All Items were later added to <a href="https://webserver.jmri.org/help/en/packag
 
 <!-- naar boven menuutje -->
 <div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px;">
-<a href="#top"><img src="/assets/img/uptop.png" alt='To top of page'></a>
+<a href="#top"><img src='{{ "/assets/img/uptop.png" | relative_url }}' alt='To top of page'></a>
 </div>

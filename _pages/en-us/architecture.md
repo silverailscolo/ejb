@@ -67,6 +67,6 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 </div><!-- sluit row af -->
 
 <!-- groter plaatje -->
-<figure><a href="/assets/img/architect/studiebk/EBR_LUW_1988_entree.jpg"><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_entree.jpg" | relative_url }}' alt='Afstudeerontwerp E.J. Broerse 1988' class='w3-image'></a>
+<figure><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_entree.jpg" | relative_url }}' alt='Afstudeerontwerp E.J. Broerse 1988' class='w3-image'>
 <figcaption class="kleiner">Noordgevel (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div><!-- sluit tegel af -->

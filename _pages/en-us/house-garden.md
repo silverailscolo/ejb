@@ -18,7 +18,7 @@ About our garden
 
 ## Garden Plan
 
-<img id="tuin" src="/assets/img/tuin/Tuinplanten.png" usemap="#tuin_map" alt="Tuin Shapes">
+<img id="tuin" src='{{ "/assets/img/tuin/Tuinplanten.png" | relative_url }}' usemap="#tuin_map" alt="Tuin Shapes">
 
 <!-- imagemap gemaakt met online free tool https://imagemap.org -->
 <map name="tuin_map">
@@ -958,7 +958,7 @@ onMouseOver="showpop(event,94);" onMouseOut="hidepop(event);" onMouseUp="togglep
 
 <!-- popup div, contents updated via Javascript -->
 <div id="popup" class="popup" style="max-width: 80%; width: 180px; height: 200px;" onmouseup="togglepop(event, 122);">
-  <figure><img id="plant_image" src="/assets/img/tuin/122.jpg" alt="plant popup" style="max-width: 80%; width: 80%; height: 70%; overflow: hidden;">
+  <figure><img id="plant_image" src='{{ "/assets/img/tuin/122.jpg" | relative_url }}' alt="plant popup" style="max-width: 80%; width: 80%; height: 70%; overflow: hidden;">
 <figcaption id="popuptitle" class="kleiner">Plant name</figcaption></figure>
 </div>
 

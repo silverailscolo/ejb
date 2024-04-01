@@ -20,7 +20,7 @@ Achteraf schrikken hoe duur alles was van 1986 tot 2000, bijv. de externe SCSII 
 
 ## <a id="macplus">MacPlus 1Mb</a>
 
-<figure><img src="/assets/img/mac/macplus.gif" alt="MacPlus ED 1 MB uit 1987" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/macplus.gif" | relative_url }}' alt="MacPlus ED 1 MB uit 1987" class='w3-image'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68000 <br>
 scherm: ingebouwd 400 x 600, 9" zwart-wit<br>
@@ -34,7 +34,7 @@ Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">
 
 ## <a id="pb100">PowerBook 100</a>
 
-<figure><img src="/assets/img/mac/pb100.gif" alt="PowerBook 100, tweedehands gekocht in 1990" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/pb100.gif" | relative_url }}' alt="PowerBook 100, tweedehands gekocht in 1990" class='w3-image'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68000 <br>
 scherm: ingebouwd 400 x 600, zwart-wit<br>
@@ -61,7 +61,7 @@ Deze Mac draait geen MacOS 7.6, wel tot en met 7.5.5.<br>
 
 ## <a id="IIcx">Macintosh IIcx</a>
 
-<figure><img src="/assets/img/mac/IIcx.gif" alt="Mac IIcx, voor het eerst een uitbreidbare Mac!" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/IIcx.gif" | relative_url }}' alt="Mac IIcx, voor het eerst een uitbreidbare Mac!" class='w3-image'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68030 33MHz<br>
 scherm: extern, bijv. Apple RGB 13" (trinitron)<br>
@@ -85,7 +85,7 @@ Voor meer info: <a href="https://lowendmac.com/ii/macintosh-iicx.html">LowEndMac
 
 ## <a id="Duo230">PowerBook Duo230</a>
 
-<figure><img src="/assets/img/mac/duo.gif" alt="PowerBook Duo in zijn Dock" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/duo.gif" | relative_url }}' alt="PowerBook Duo in zijn Dock" class='w3-image'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68030 <br>
 scherm: ingebouwd 400 x 600, max. 16 grijstinten<br>
@@ -97,7 +97,7 @@ HD: 120 Mb SCSI</p>
 
 <p>Lekker lichte laptop, dankzij externe floppy drive. Na 5 jaar in de tas heen en weer slepen is de accu echter op en doet het toetsenbord wat raar. Maar ja, wat wil je, we hebben er de hele prijsvraag mee gemaakt in 1994.<br>
 Kortom: veel plezier gehad van een tweedehandsje.</p>
-<figure><img src="/assets/img/mac/duo-dock.gif" alt="vlak voor de dock hem inslikt"></figure>
+<figure><img src='{{ "/assets/img/mac/duo-dock.gif" | relative_url }}' alt="vlak voor de dock hem inslikt"></figure>
 <p>Heel slim detail: de Duo schuift als en videocassette in de dock, en daar zit een extra HD en coprocessor in, plus een slot om de laptop te beveiligen.</p>
 
 ### Tips:
@@ -209,13 +209,13 @@ Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> d
 
 <div class="w3-row">
 <div class="w3-col s12 m4">
-<figure><img src="/assets/img/mac/hc-index.gif" alt="Card 1 of Stack Index" class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/hc-index.gif" | relative_url }}' alt="Card 1 of Stack Index" class='w3-image'>
 <figcaption class="kleiner">Screenshot of Index v1.5<br>(click to zoom in)</figcaption></figure></div>
 <div class="w3-col s12 m4">
-<figure><img src="/assets/img/mac/hc-hypersite.gif" alt="Een blad per web-pagina" class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/hc-hypersite.gif" | relative_url }}' alt="Een blad per web-pagina" class='w3-image'>
 <figcaption class="kleiner">Screenshot of HyperSite v1.6</figcaption></figure></div>
 <div class="w3-col s12 m4">
-<figure><img src="/assets/img/mac/RevHyperSite21.png" alt="HyperSite v2.1" class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/RevHyperSite21.png" | relative_url }}' alt="HyperSite v2.1" class='w3-image'>
 <figcaption class="kleiner">HyperSite v2 als Revolution-stack</figcaption></figure></div>
 </div>
 

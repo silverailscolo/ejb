@@ -11,7 +11,7 @@ keywords: jekyll, portfolio-website # add your own keywords or leave empty
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/)
 
 url: https://silverailscolo.github.io # the base hostname & protocol for your site
-baseurl: "/ebroerse.nl/" # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: "/ebroerse.nl" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 

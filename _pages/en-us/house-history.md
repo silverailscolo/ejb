@@ -15,13 +15,13 @@ About the origin of our house(s)
 A manual LightGallery directly on the page:
 
   <div id="thegallery">
-    <a href="/assets/img-noresample/astyle/20140831202837-bd2786fa-576x432.jpg" 
+    <a href="{{ '/assets/img-noresample/astyle/20140831202837-bd2786fa-576x432.jpg' | relative_url }}" 
 data-sub-html="Photo 1 by EJB" >
-        <img alt="img1" data-sub-html="img1 title" src="/assets/img-noresample/astyle/20140831202837-bd2786fa-120x120.jpg" />
+        <img alt="img1" data-sub-html="img1 title" src="{{ '/assets/img-noresample/astyle/20140831202837-bd2786fa-120x120.jpg' | relative_url }}" />
     </a>
-    <a href="/assets/img-noresample/astyle/20150507213246-f23b3981-792x594.jpg" 
+    <a href="{{ '/assets/img-noresample/astyle/20150507213246-f23b3981-792x594.jpg' | relative_url }}" 
 data-sub-html="Photo 2 by EJB" >
-        <img alt="img2" data-sub-html="img2 title" src="/assets/img-noresample/astyle/20150507213246-f23b3981-120x120.jpg" />
+        <img alt="img2" data-sub-html="img2 title" src="{{ '/assets/img-noresample/astyle/20150507213246-f23b3981-120x120.jpg' | relative_url }}" />
     </a>
 </div>
 
@@ -45,9 +45,9 @@ As an inline include
 
 <h2>Using lightgallery_tag.rb</h2>
 {% gallery %}
-/assets/img-noresample/astyle/20140831202837-bd2786fa-576x432.jpg
-/assets/img-noresample/astyle/20200311235322-add97e5f-792x594.jpg
-/assets/img-noresample/astyle/20200323125151-c56f96cc-1008x582.jpg
+{{ "/assets/img-noresample/astyle/20140831202837-bd2786fa-576x432.jpg" | relative_url }}
+{{ "/assets/img-noresample/astyle/20200311235322-add97e5f-792x594.jpg" | relative_url }}
+{{ "/assets/img-noresample/astyle/20200323125151-c56f96cc-1008x582.jpg" | relative_url }}
 {% endgallery %}
 <!-- lightgallery_tag.rb auto thumbs -->
 

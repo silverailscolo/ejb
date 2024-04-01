@@ -25,7 +25,7 @@ te maken en betere verhalen te vertellen.</p>
   <div class="half-width gallery-preview {{ align }}">
     <h1>{{ gallery.title }}</h1>
     <a href="/gallery/{{ gallery.directory }}.html">
-      <img alt="{{ gallery.title }}" src="/assets/img-noresample/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
+      <img alt="{{ gallery.title }}" src="{{ '/assets/img-noresample/' | relative_url }}{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
     </a>
   </div>
 {% if count == 1 %}</div>{% endif %}
