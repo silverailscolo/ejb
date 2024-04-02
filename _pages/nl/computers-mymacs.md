@@ -28,7 +28,7 @@ RAM: 1 - 4 [2] Mb<br>
 HD: geen!</p>
 <p>Geproduceerd: 1984 - 1986</p>
 <p>Een trouwe bekende, uit de tijd dat het OS + het tekstverwerkingsprogramma + je tekst nog samen op 1 floppy pasten. En hij start op in 15 seconden! Deed het tot 2007 trouwens nog steeds, bij onze jongste op de kamer.<br>
-Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">LowEndMac - MacPlus</a> en<br>
+Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">LowEndMac - MacPlus</a> en 
 <a href="https://everymac.com/systems/apple/mac_classic/specs/mac_plus.html">EveryMac.com</a>.</p>
 <!-- links OK 2024/03 EB -->
 
@@ -111,7 +111,7 @@ Kortom: veel plezier gehad van een tweedehandsje.</p>
 
 ## <a id="Pf5400">Performa 5400/180</a>
 
-<figure><img src='/assets/img/mac/121-2157_performa.png' alt='MacPerforma 5400/180 all-in-one' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/121-2157_performa.png" | relative_url }}' alt='MacPerforma 5400/180 all-in-one' class='w3-image'>
 <figcaption class="kleiner">MacPerforma 5400/180 all-in-one (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 604e PowerPC, 180 MHz <br>
@@ -137,7 +137,7 @@ HD: 1,6 Gb IDE</p>
 
 ## <a id="iMac233">iMac 233 Strawberry</a>
 
-<figure><img src='/assets/img/mac/imac233_121-2162.png' alt='iMac 233 all-in-one' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/imac233_121-2162.png" | relative_url }}' alt='iMac 233 all-in-one' class='w3-image'>
 <figcaption class="kleiner">iMac 233 all-in-one (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Nog sneller en compact. In mei 2000 super, later leuk voor de jongens voor educatieve CD-roms. Vrolijke kleur en iTunes begon toen, heel klein...</p>
@@ -147,7 +147,7 @@ HD: 1,6 Gb IDE</p>
 
 ## <a id="imacg5">iMac G5 20"</a>
 
-<figure><img src='/assets/img/mac/iMacG5_Berkely.jpg' alt='iMac G5 20" (ambient sensor)' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/iMacG5_Berkely.jpg" | relative_url }}' alt='iMac G5 20" (ambient sensor)' class='w3-image'>
 <figcaption class="kleiner">iMac G5 (with notes) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/38455623@N05/3748913414" property="cc:attributionName" rel="cc:attributionURL">C. Berkely</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nd/2.0/">CC BY-ND</a>)</figcaption></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola G5, 2 GHz<br>
@@ -170,7 +170,7 @@ HD: 233 Gb ATA</p>
 
 ## <a id="macmini">MacMini G4</a>
 
-<figure><img src='/assets/img/mac/macMini_Imhoff.png' alt='macMini G4 1.4' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/macMini_Imhoff.png" | relative_url }}' alt='macMini G4 1.4' class='w3-image'>
 <figcaption class="kleiner">MacMini G4 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/kogakure/8716121/in/photostream/" property="cc:attributionName" rel="cc:attributionURL">Stefan Imhoff</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA</a>)</figcaption></figure>
 <p>Draait <a href="https://www.jmri.org/releasenotes/jmri2.14.1.shtml">JMRI v 2.14.1</a> met Java 1.8 in de treinenkamer. Tweedehands gekocht.</p>
 
@@ -179,7 +179,7 @@ HD: 233 Gb ATA</p>
 
 ## <a id="imaccoreduo">iMac Core 2 Duo 20" (2007)</a>
 
-<figure><img src='/assets/img/mac/apple_imac_intel_silver.jpg' alt='iMac CoreDuo 20" Mid-2007' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.jpg" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='w3-image'>
 <figcaption class="kleiner">iMac CoreDuo 20" Mid-2007 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.EveryMac.com" property="cc:attributionName" rel="cc:attributionURL">EveryMac.com</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Meer over de iMac Core 2 Duo op <a href="https://everymac.com/systems/apple/imac/specs/imac-core-2-duo-2.4-20-inch-aluminum-specs.html">EveryMac.com</a>.
@@ -201,10 +201,11 @@ HD: 233 Gb ATA</p>
 <h2><a id="software">Mac software</a></h2>
 <p>Software die ik het meest gebruik:</p>
 
-<p>Apple Pages, Numbers en Keynote <img src='/assets/img/mac/pagesdock.png' alt='Apple Apps in Dock'></p>
+<p>Apple Pages, Numbers en Keynote <img src='{{ "/assets/img/mac/pagesdock.png" | relative_url }}' alt='Apple Apps in Dock'></p>
 
 <p>Ik was rond 2000 een zeer actieve ontwikkelaar van <a href="https://arstechnica.com/gadgets/2019/05/25-years-of-hypercard-the-missing-link-to-the-web/">HyperCard</a>&trade; stacks.<br>
-Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> de verkoop stopte, was Revolution een van de clonen, later omgedoopt in <a href="https://livecode.com/guides-documentation/"><img src='/assets/img/mac/LiveCode%20logo.png' alt='LiveCode Logo'> LiveCode</a>.</p>
+Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> de verkoop stopte, was
+Revolution een van de clonen, later omgedoopt in <a href="https://livecode.com/guides-documentation/"><img src='{{ "/assets/img/mac/LiveCode%20logo.png" | relative_url }}' alt='LiveCode Logo'> LiveCode</a>.</p>
 <p>Een andere kloon was <a href="https://www.supercard.us/got-hypercard.html"><img src='/assets/img/mac/supercard_logo.png' alt='SuperCard logo'></a>, dat anno 2023 ook nog steeds wordt verkocht.</p>
 
 <div class="w3-row">
@@ -220,4 +221,4 @@ Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> d
 </div>
 
 <p>Mijn laatste programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen website bij te houden. In 2006 overgezet naar Revolution, dat ook op Mac OSX draait.<br>
-Meer info over HyperSite vind je <a href="/blog/2024/goodbye-hypersite/">hier</a>.</p>
+Meer info over HyperSite vind je <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>hier</a>.</p>

@@ -27,7 +27,7 @@ to break after bending 3 times.
 File and fit the fire box onto the rear of the Märklin frame, so it matches the
 dimensions provided in the instruction sheet, but do not affix it yet.
 
-![Wheels](/assets/img/blog/K27_image1-1.jpg "Wheels")
+![Wheels]({{ "/assets/img/blog/K27_image1-1.jpg" | relative_url }})
 
 Sketch of counterbalance attached to Märklin wheel\[/caption\]As stated in the
 instructions, getting the drivers operating is the heart of the kit assembly.
@@ -77,7 +77,7 @@ truck clear the firebox.
 
 Left over parts: I could not find where to use the 2 semicircular 3 mm wide steps/boxes.
 
-![K-27 Assembled](/assets/img/blog/img_6528-6.jpg "K-27 Assembled")
+![K-27 Assembled]({{ "/assets/img/blog/img_6528-6.jpg" | relative_url }})
 
 Assembled locomotive, seen from the left\[/caption\] Tender: Add two 1 mm thick
 styrene shims between the tender trucks and the sub frame to clear the wheels

@@ -11,7 +11,7 @@ categories:
   - "software"
 ---
 
-To archive an application that I created and ported over the years, here is the readme of Hypersite.
+To archive an application that I created and ported over the years, here is the final readme of Hypersite.
 
 <h1>Wat is HyperSite en hoe werkt het?</h1>
 
@@ -19,7 +19,7 @@ To archive an application that I created and ported over the years, here is the 
 
 <p>Maar toch, als je je site niet bijhoudt, vinden je bezoekers er al snel niets meer aan en laten ze je site links liggen. Dat is zonde van de moeite, want met deze HyperCard stack is het eenvoudig om een redelijk complete site bij te houden.<br>
 In 5 minuten even wat info aanvullen, een nieuwe achtergrond-afbeelding aan een pagina toevoegen en de zaak bekijken in je browser; het is zo gepiept.<br>
-(Zie <a href="#beperkingen">Beperkingen</a> voor wat  - nog - niet kan).</p>
+(Zie <a href="#beperkingen">Beperkingen</a> voor wat *niet* kan).</p>
 
 <div class="normal-nc">
 <a href="#principe">Principe</a> | <a href="#instructies">Instructies</a> | <a href="#historie">Ontstaansgeschiedenis</a> | <a href="#credits">Credits</a>
@@ -58,7 +58,7 @@ Klik op de button 'Start' rechtsboven op dit scherm om verder te gaan...</p>
 <li>de naam van een .GIF afbeelding die als 'bullet' voor elk van de 4 tekstblokken komt.</li>
 </ul>
 
-<p>2. Ga nu verder door links bovenaan op het eerste tabstrookje  te klikken. Vul de Naam en de Titel voor deze pagina in, en evt. een achtergrondafbeelding of -kleur. Typ per pagina de informatie die je wilt tonen in de tekstvakken 1 t/m 4. Een veld mag ook leeg blijven.<br>
+<p>2. Ga nu verder door links bovenaan op het eerste tabstrookje te klikken. Vul de Naam en de Titel voor deze pagina in, en evt. een achtergrondafbeelding of -kleur. Typ per pagina de informatie die je wilt tonen in de tekstvakken 1 t/m 4. Een veld mag ook leeg blijven.<br>
 Minimale HTML-kennis die noodzakelijk is: Na elke regel een regeleinde &lt;BR&gt; of rond de alinea de aanduiding &lt;P&gt;...&lt;/P&gt; invoegen, anders loopt alles straks achter elkaar door. </p>
 
 <p>3. Ken extra opmaak toe door stukjes te selecteren met de muis en dan op 1 van de 'buttons' in de 'toolbox' links onderaan te klikken. Voor verklaring en extra opties zie Toolbox.</p>
@@ -113,7 +113,7 @@ Een link  bestaat uit 2 delen, nl. het onderstreepte woord, dat in beeld komt, e
 
 <h4>Versies</h4>
 
-<p>0.6  Maart 1998 langzaam opgebouwd aan de hand van voorbeeld-code uit een commerci&euml;le HTML-editor.</p>
+<p>0.6 Maart 1998 langzaam opgebouwd aan de hand van voorbeeld-code uit een commerci&euml;le HTML-editor.</p>
 <p>Versie 0.7 deed eind mei '98 eindelijk wat ik ongeveer wilde, maar was nog niet zonder bugs. </p>
 <p>Versie 0.8 van juli 1998 kende enkele verbeteringen (fout in &lt;TR&gt; tag opgelost, snelheid ASCII-conversie, correct werkened tabstrookjes bovenaan het scherm) en wat bijkomende wensen n.a.v. mijn eigen ervaring met het programma (alle pagina's in 1 x omzetten met optie-toets, tabellen aanmaken binnen een veld).</p>
 <p>Versie 1.0 van oktober 1998 bevat extra opties, o.a. om wel of niet linksboven het menu te tonen (t.b.v. afwijkende opzet 1e pagina van een Site), om wel of niet rechtsboven een de vaste afbeelding + koptekst te tonen (idem). Voorts wat extra tools, o.a. HTML-commentaar. Verder nog wat kleine fouten en strikte HTML-regels opgelost.</p>

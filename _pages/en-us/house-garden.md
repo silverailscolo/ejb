@@ -16,7 +16,7 @@ About our garden
 
 <div class="w3-col s12 m5">
 
-## Garden Plan
+<h2>Garden Plan</h2>
 
 <img id="tuin" src='{{ "/assets/img/tuin/Tuinplanten.png" | relative_url }}' usemap="#tuin_map" alt="Tuin Shapes">
 

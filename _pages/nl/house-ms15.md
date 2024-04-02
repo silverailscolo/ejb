@@ -287,5 +287,5 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 <!-- naar boven menuutje -->
 <div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px">
-<a href="#top"><img src='/assets/img/uptop.png' alt='To top of page'></a>
+<a href="#top"><img src='{{ "/assets/img/uptop.png" | relative_url }}' alt='To top of page'></a>
 </div>

@@ -38,11 +38,11 @@ These are the cars we owned since 1991.
 <p>After numerous repairs at the local shop, we got a chance to buy my dad's 1991 gen 2 BX. On our way to Hungary!</p>
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src='/assets/img-noresample/our_cars/BX2_50461032637_e5e489ed56_c-680x328.jpg' alt='BX16 1991' class='w3-image' >
+<figure><img src='{{ "/assets/img-noresample/our_cars/BX2_50461032637_e5e489ed56_c-680x328.jpg" | relative_url }}' alt='BX16 1991' class='w3-image' >
 <figcaption class="kleiner">BX16 1991 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/83468718@N06/50460864611" property="cc:attributionName" rel="cc:attributionURL">R. van der Maar</a> under <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">CC BY</a>)</figcaption>
 </figure>
 </div>
-<div class="w3-col s12 m6"><figure><img src='/assets/img-noresample/our_cars/BX2_50460864611_6690298023_c-624x355.jpg' alt='BX achterzijde' class='w3-image' >
+<div class="w3-col s12 m6"><figure><img src='{{ "/assets/img-noresample/our_cars/BX2_50460864611_6690298023_c-624x355.jpg" | relative_url }}' alt='BX achterzijde' class='w3-image' >
 <figcaption class="kleiner">BX achterzijde (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/83468718@N06/50460864611" property="cc:attributionName" rel="cc:attributionURL">R. van der Maar</a> under <a rel="license" href="http://creativecommons.org/licenses/by/2.0/">CC BY</a>)</figcaption>
 </figure>
 </div>
@@ -64,24 +64,24 @@ These are the cars we owned since 1991.
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src='/assets/img-noresample/our_cars/Pontiac_transsport_concept-640x346.jpg' alt='1986 Trans Sport concept' class='w3-image'>
+<figure><img src='{{ "/assets/img-noresample/our_cars/Pontiac_transsport_concept-640x346.jpg" | relative_url }}' alt='1986 Trans Sport concept' class='w3-image'>
 <figcaption class="kleiner">1986 Trans Sport concept (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://commons.wikimedia.org/wiki/File:Pontiac_trans_sport_concept.jpg" property="cc:attributionName" rel="cc:attributionURL">BeeSee</a> under <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>)</figcaption>
 </figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src='/assets/img-noresample/our_cars/86pontiac_transsport_2-420x258.jpg' alt='Pontiac Trans Sport, 1986 Design Study' class='w3-image'>
+<figure><img src='{{ "/assets/img-noresample/our_cars/86pontiac_transsport_2-420x258.jpg" | relative_url }}' alt='Pontiac Trans Sport, 1986 Design Study' class='w3-image'>
 <figcaption class="kleiner">Pontiac Trans Sport, 1986 Design Study (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.carstyling.ru/en/car/1986_pontiac_transsport/" property="cc:attributionName" rel="cc:attributionURL">highperformancepontiac.com</a> under <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>)</figcaption>
 </figure></div>
 </div>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src='/assets/img-noresample/our_cars/S2400189_Transsport1_voorzijde-680x399.jpeg' alt='second car' class='w3-image'>
+<figure><img src='{{ "/assets/img-noresample/our_cars/S2400189_Transsport1_voorzijde-680x399.jpeg" | relative_url }}' alt='second car' class='w3-image'>
 <figcaption class="kleiner">Our flashy white Gen 1 Pontiac Trans Sport (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
 <div class="w3-col s12 m6">
-<figure><img src='/assets/img-noresample/our_cars/IMG_1846_TransSportLeft-604x250.jpeg' alt='TransSport achterzijde' class='w3-image' >
+<figure><img src='{{ "/assets/img-noresample/our_cars/IMG_1846_TransSportLeft-604x250.jpeg" | relative_url }}' alt='TransSport achterzijde' class='w3-image' >
 <figcaption class="kleiner">TransSport achterzijde (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
@@ -97,11 +97,11 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 <p>Just before the 2006 summer holidays, our 1994 Pontiac TransSport failed the Periodic Car Test. So we shopped around and found: <strong>a next generation TransSport</strong>, labeled Chevrolet in Europe since 1998.</p>
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src='/assets/img-noresample/our_cars/11182243-3biggen-640x480.jpg' alt='TransSport &lsquo;98 schuin van voren' class='w3-image'>
+<figure><img src='{{ "/assets/img-noresample/our_cars/11182243-3biggen-640x480.jpg" | relative_url }}' alt='TransSport &lsquo;98 schuin van voren' class='w3-image'>
 <figcaption class="kleiner">TransSport 98 (front) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure></div>
 <div class="w3-col s12 m6">
-<figure><img src='/assets/img-noresample/our_cars/11182243-4biggen-640x480.jpg' alt='TransSport &lsquo;98 dashboard' class='w3-image'>
+<figure><img src='{{ "/assets/img-noresample/our_cars/11182243-4biggen-640x480.jpg" | relative_url }}' alt='TransSport &lsquo;98 dashboard' class='w3-image'>
 <figcaption class="kleiner">TransSport 98 (interior) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure></div>
 </div>
@@ -123,12 +123,12 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 <p>After the fuel lines started to leak, we decided to buy a new car. Seating for 6 led to the last 2005 edition of the same Chevrolet model, equipped with Versatrak all wheel drive.<p>
 <div class="w3-row">
 <div class="w3-col s12 m6">
-<figure><img src='/assets/img-noresample/our_cars/IMG_6377_Transport3-565x370.jpg' alt='TransSport voorzijde' class='w3-image' >
+<figure><img src='{{ "/assets/img-noresample/our_cars/IMG_6377_Transport3-565x370.jpg" | relative_url }}' alt='TransSport voorzijde' class='w3-image' >
 <figcaption class="kleiner">TransSport voorzijde (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="w3-col s12 m6">
 <figure>
-<img src='/assets/img-noresample/our_cars/transsport2013_IMG_2452kl-542x301.jpg' alt='2005 Transsport' class='w3-image'>
+<img src='{{ "/assets/img-noresample/our_cars/transsport2013_IMG_2452kl-542x301.jpg" | relative_url }}' alt='2005 Transsport' class='w3-image'>
 <figcaption class="kleiner">TransSport 2005 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
@@ -140,17 +140,17 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 ## 2017-2021: Greenwheels Up
 
 <p>Bleek dat we helemaal geen (eigen) auto nodig hadden! Genoeg andere vormen van mobiliteit beschikbaar, als je centraal woont.</p>
-<figure><img src='assets/img-noresample/our_cars/IMG_2228_Greenwheels-565x395.jpg' alt='Volkswagen Up by Greenwheels' class='w3-image' >
+<figure><img src='{{ "/assets/img-noresample/our_cars/IMG_2228_Greenwheels-565x395.jpg" | relative_url }}' alt='Volkswagen Up by Greenwheels' class='w3-image' >
 <figcaption class="kleiner">Volkswagen Up by Greenwheels (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 ## 2021: Nissan e-NV200 "Evalia"
 
 <p>After 3 years without owning a car, using a compact GreenWheels now and then, we moved to the countryside and found a 2014 Nissan Evalia e-nv200 full electric minivan. It is based on the Nissan Leaf and has a characteristic, Tokyo styled body. It stands out of the crowd and allowed to move 3x3 banana boxes full of stuff on the second row alone when we moved house!</p>
-<figure><img src='assets/img-noresample/our_cars/evalia2014-867x667.jpg' alt='Nissan Evalia EV' class='w3-image'>
+<figure><img src='{{ "/assets/img-noresample/our_cars/evalia2014-867x667.jpg" | relative_url }}' alt='Nissan Evalia EV' class='w3-image'>
 <figcaption class="kleiner">Nissan Evalia EV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 <p>To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from <a href="https://www.muxsan.com/Nederlands/index.html">Muxsan</a> in Delft installed in the rear.</p>
 
 <!-- naar boven menuutje -->
 <div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px">
-<a href="#top"><img src='/assets/img/uptop.png' alt='Naar boven'></a>
+<a href="#top"><img src='{{ "/assets/img/uptop.png" | relative_url }}' alt='Naar boven'></a>
 </div>

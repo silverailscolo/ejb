@@ -100,3 +100,5 @@ cv:
   username: Username
   volunteer: Volunteer
   work: Work
+projects:
+  nextProject: Next Project

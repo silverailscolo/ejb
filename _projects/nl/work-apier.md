@@ -1,10 +1,10 @@
 ---
 page_id: project_8
-layout: page
+layout: project
 lang: nl
 title: A-Pier Schiphol
 description: Realisatie in modules
-img: /assets/img/architect/piermodulesupport.jpg
+img: assets/img/architect/piermodulesupport.jpg
 importance: 2
 category: work
 ---

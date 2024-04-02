@@ -36,4 +36,4 @@ Summer 2013 - Winter 2014 projects:
 
 So there's lots to be done, but I've made a lot of progress!
 
-![Newport harbor](/assets/img/blog/20130823-004239.jpg "Newport harbor")
+![Newport harbor]({{ "/assets/img/blog/20130823-004239.jpg" | relative_url }})
