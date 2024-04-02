@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>101</key>
+	<dict>
+		<key>author</key>
+		<string>A. Walker</string>
+		<key>borrowedBy</key>
+		<string>J.H. Hazes</string>
+		<key>borrowedOn</key>
+		<date>1998-04-02T22:00:00Z</date>
+		<key>customCheckbox1</key>
+		<integer>0</integer>
+		<key>customCheckbox2</key>
+		<integer>0</integer>
+		<key>dateAdded</key>
+		<date>2009-04-18T19:24:36Z</date>
+		<key>dateEdited</key>
+		<date>2009-04-18T19:24:36Z</date>
+		<key>dimensions</key>
+		<string>13 x 20 x 2,7 cm</string>
+		<key>dueDate</key>
+		<date>2009-05-02T19:24:36Z</date>
+		<key>edition</key>
+		<string>4th</string>
+		<key>format</key>
+		<string>Paperback</string>
+		<key>genre</key>
+		<string>Romans</string>
+		<key>hasBeenSold</key>
+		<integer>0</integer>
+		<key>hasMovieLink</key>
+		<integer>0</integer>
+		<key>isbn</key>
+		<string>9062651623</string>
+		<key>myRating</key>
+		<integer>0</integer>
+		<key>onSale</key>
+		<integer>0</integer>
+		<key>pages</key>
+		<string>307</string>
+		<key>placePublished</key>
+		<string>Haarlem</string>
+		<key>price</key>
+		<string>ƒ 10,00</string>
+		<key>publisher</key>
+		<string>In de Knipscheer</string>
+		<key>releaseDate</key>
+		<date>1985-12-31T23:00:00Z</date>
+		<key>signed</key>
+		<integer>0</integer>
+		<key>status</key>
+		<integer>1</integer>
+		<key>title</key>dictauthor
+		<string>De kleur paars</string>
+		<key>uid</key>
+		<integer>407</integer>
+		<key>uploaded</key>
+		<integer>0</integer>
+		<key>url</key>
+		<string>http://www.bol.com/nl/p/boeken/de-kleur-paars/666828481/index.html</string>
+	</dict>
+	<key>102</key>
+	<dict>
+		<key>asin</key>
+		<string>2203334231</string>
+		<key>author</key>
+		<string>François Schuiten en Peeters</string>
+		<key>customCheckbox1</key>
+		<integer>0</integer>
+		<key>customCheckbox2</key>
+		<integer>0</integer>
+		<key>dateAdded</key>
+		<date>2007-03-12T22:06:49Z</date>
+		<key>dateEdited</key>
+		<date>2021-01-11T18:52:34Z</date>
+		<key>format</key>
+		<string>Paperback</string>
+		<key>genre</key>
+		<string>Comics &amp; Graphic Novels</string>
+		<key>hasBeenSold</key>
+		<integer>0</integer>
+		<key>hasMovieLink</key>
+		<integer>0</integer>
+		<key>isbn</key>
+		<string>2203334231</string>
+		<key>locale</key>
+		<string>US</string>
+		<key>lowestNewPrice</key>
+		<string>$28.75</string>
+		<key>myRating</key>
+		<integer>2</integer>
+		<key>onSale</key>
+		<integer>0</integer>
+		<key>pages</key>
+		<string>94</string>
+		<key>paid</key>
+		<string>hfl 19,90</string>
+		<key>price</key>
+		<string>hfl 19,90</string>
+		<key>publisher</key>
+		<string>Casterman</string>
+		<key>purchasedOn</key>
+		<date>1983-12-31T23:00:00Z</date>
+		<key>releaseDate</key>
+		<date>1983-12-31T23:00:00Z</date>
+		<key>signed</key>
+		<integer>0</integer>
+		<key>status</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>De koorts van/La fièvre d'Urbicande</string>
+		<key>uid</key>
+		<integer>206</integer>
+		<key>uploaded</key>
+		<integer>0</integer>
+		<key>url</key>
+		<string>http://www.amazon.com/gp/redirect.html%3FASIN=2203334231%26tag=ldvd-20%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/2203334231%253FSubscriptionId=0VJDVJ14KM0P0VXDCQ82</string>
+	</dict>
+	<key>103</key>
+	<dict>
+		<key>author</key>
+		<string>Simon Franke, Gert-Jan Hospers</string>
+		<key>comments</key>
+		<string>De creatieve stad, Life &amp; Death in nieuwbouwwijken, lit. Herbert Gans and</string>
+		<key>customCheckbox1</key>
+		<integer>0</integer>
+		<key>customCheckbox2</key>
+		<integer>0</integer>
+		<key>dateAdded</key>
+		<date>2009-12-07T20:21:21Z</date>
+		<key>dateEdited</key>
+		<date>2014-12-23T22:22:39Z</date>
+		<key>edition</key>
+		<string>1e</string>
+		<key>format</key>
+		<string>Paperback</string>
+		<key>genre</key>
+		<string>Architectuur, Stedenbouw</string>
+		<key>gift</key>
+		<string>Boekenbon 2009</string>
+		<key>hasBeenSold</key>
+		<integer>0</integer>
+		<key>hasMovieLink</key>
+		<integer>0</integer>
+		<key>isbn</key>
+		<string>9789085067856</string>
+		<key>lastRead</key>
+		<date>2010-07-15T16:26:30Z</date>
+		<key>lastUsed</key>
+		<array>
+			<dict>
+				<key>date</key>
+				<date>2010-07-14T22:00:00Z</date>
+			</dict>
+		</array>
+		<key>lentHistory</key>
+		<array>
+			<dict>
+				<key>date</key>
+				<date>2014-07-01T22:00:00Z</date>
+				<key>name</key>
+				<string>Esther van der Tuin</string>
+				<key>returned</key>
+				<date>2014-12-23T22:22:39Z</date>
+			</dict>
+		</array>
+		<key>myRating</key>
+		<integer>0</integer>
+		<key>onSale</key>
+		<integer>0</integer>
+		<key>pages</key>
+		<string>200</string>
+		<key>price</key>
+		<string>€ 24,50</string>
+		<key>publisher</key>
+		<string>SUN Trancity</string>
+		<key>releaseDate</key>
+		<date>2009-12-07T11:00:00Z</date>
+		<key>signed</key>
+		<integer>0</integer>
+		<key>status</key>
+		<integer>0</integer>
+		<key>summary</key>
+		<string>Zonder 'The Death and Life of Great American Cities' (1961) van Jane Jacobs was de twintigste eeuw een andere geweest, schreef architectuurcriticus Bernard Hulsman in 1998. In de essay-bundel 'De levende stad' nemen invloedrijke architecten, stedenbouwers, sociale wetenschappers en economen de standpunten van Jacobs onder de loep en vragen zich af wat hun betekenis is voor de Nederlandse stad van de eenentwintigste eeuw. Jacobs pleit voor wonen, werken en winkelen in één buurt, voor kleine huize...</string>
+		<key>title</key>
+		<string>De levende stad</string>
+		<key>uid</key>
+		<integer>486</integer>
+		<key>uploaded</key>
+		<integer>0</integer>
+		<key>url</key>
+		<string>http://www.bol.com/nl/p/boeken/de-levende-stad/1001004006847493/index.html</string>
+	</dict>
+</dict>
+</plist>

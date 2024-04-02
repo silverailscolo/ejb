@@ -11,7 +11,10 @@ support: [gallery]
 
 <p>Galerij: <a href="avenue2.html">Avenue2</a></p>
 <p>Galerij: <a href="astyle.html">A-stijl</a></p>
-<p>Galerij: <a href="beercaps.html">Beer caps</a></p>
+<p>Galerij: <a href="beercaps.html">Bierdoppen</a></p>
+<p>Galerij: <a href="our_cars.html">Onze auto's</a></p>
+
+<p>Al mijn <a href="{{ site.baseurl }}/books/">Boeken</a></p>
 
 <p>Hieronder staan 2 galerijen. De eerste toont eenvoudige toepassing.
 In de tweede zijn meerdere fotogalerijen in één blok gecombineerd om meer complexe structuren 

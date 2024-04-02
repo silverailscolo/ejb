@@ -1,6 +1,7 @@
 ---
 page_id: project_4
-layout: page
+layout: project
+lang: en-us
 title: project 4
 description: another without an image
 img:

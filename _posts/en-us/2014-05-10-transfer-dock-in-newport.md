@@ -17,4 +17,4 @@ today as two stalls instead of three to make it special (and fit the available s
 A perfect match for my water level and width. Desperately in need of a couple of short
 (27') flat cars, however. Even the coal car can't pass through the gallow.
 
-![20140510-220120.jpg](/assets/img/blog/20140510-220120.jpg)
+![The assembled float in Newport]({{ "/assets/img/blog/20140510-220120.jpg" | relative_url }})

@@ -23,4 +23,4 @@ inspiring method.
 For sale [here](https://www.taylorfrancis.com/books/mono/10.4324/9781315024868/city-landscape-tom-turner).
 Apple Podcast <a href="https://podcasts.apple.com/us/podcast/city-as-landscape-architecture/id1492008414">by Tom Turner</a>
 
-![20140105-213730.jpg](/assets/img/blog/20140105-213730.jpg)
+![20140105-213730.jpg]({{ "/assets/img/blog/20140105-213730.jpg" | relative_url }})

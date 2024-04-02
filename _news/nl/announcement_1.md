@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Een eenvoudig bericht.
+Een eenvoudig bericht. :smile:

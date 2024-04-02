@@ -1,8 +1,9 @@
 ---
 page_id: project_6
-layout: page
-title: projeto 6
-description: um projeto sem imagem
+layout: project
+lang: nl
+title: project 6
+description: een project zonder afb.
 img:
 importance: 4
 category: fun

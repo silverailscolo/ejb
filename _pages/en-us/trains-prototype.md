@@ -8,8 +8,6 @@ lang: en-us
 nav: false
 ---
 
-See the <a href="https://ebroerse.nl/trains/#proto">old site</a>
-
 <h3><a id="proto">Prototype</a></h3>
 <p>Listen carefully as the tiny train leaves the platform.</p>
 
@@ -26,6 +24,15 @@ See the <a href="https://ebroerse.nl/trains/#proto">old site</a>
 </div>
 
 <h4>Vintage railroad soundtracks</h4>
+
+<div class="w3-row">
+<div class="w3-col s12 m6">
+<img src='{{ "/assets/img/trains2/IMG_9735-front.jpg" | relative_url }}' alt='Highball LP sleeve, front' class='w3-image'>
+</div>
+<div class="w3-col s12 m6">
+<img src='{{ "/assets/img/trains2/IMG_9736-rear.jpg" | relative_url }}' alt='Highball LP sleeve, rear' class='w3-image'>
+</div>
+</div>
 
 <p>Index to Highball nostalgic railroad sounds (Fidelity in Motion album MF-4, 1972)</p>
 <ol>

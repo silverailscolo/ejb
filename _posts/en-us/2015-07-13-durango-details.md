@@ -11,8 +11,8 @@ categories:
 Summer vacation calls for some model railroading as well. That is, if it's raining like
 it was today. Here's a bird's eye view of Durango as of today:
 
-![Durenver Yard](/assets/img/blog/IMG_5180.jpg)
+![Durenver Yard]({{ "/assets/img/blog/IMG_5180.jpg" | relative_url }})
 
 I did some ballasting in the front area and track cleaning.
 
-More pics in the [Trains](/trains/layout.html).
+More pics on the [Layout page]({{ "/trains/layout.html" | relative_url }}).

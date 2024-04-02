@@ -36,3 +36,23 @@ img, embed, object, video {
 .kleiner .smaller figcaption {
   font-size: 60%;
 }
+
+/*
+** CUSTOM STYLES for Book reviews
+*/
+
+// Increase space around the book cover
+.book-cover {
+    margin: 2rem 0;
+}
+
+// Center image
+.book-cover img {
+    margin: 0 auto;
+}
+
+// Position cover caption
+.book-cover figcaption {
+    text-align: center;
+    margin-top: 1rem;
+}

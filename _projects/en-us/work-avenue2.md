@@ -1,82 +1,51 @@
 ---
 page_id: a2-maastricht
-layout: page
-title: A2 Maastricht
-description: a project with a background image and giscus comments
-img: /assets/img/3.jpg
-importance: 2
+layout: project
 lang: en-us
+title: A2 Maastricht
+description: Large civil construction + housing project
+img: assets/img/architect/avenue2/7691.jpg
+importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+A2 Maastricht
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Role: Spatial Design team lead, project architect 25 civil structures and 2 tunnel utility building enclosures
+Period: 2009 - 2017
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path='{{ "assets/img/1.jpg" | relative_url }}' title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path='{{ "assets/img/3.jpg" | relative_url }}' title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path='{{ "assets/img/5.jpg" | relative_url }}' title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="w3-card w3-center" style="max-width: 80%;">A2 Design Sketchbooks
+<div class="w3-row">
+<div class="w3-col s12 m6">
+<figure><img src='{{ "/assets/img/architect/avenue2/7691.jpg" | relative_url }}' alt='Tunnel Entrance South, A2 Maastricht' class='w3-image'>
+<figcaption class="kleiner">Source: Architect's Sketchbook Avenue2 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+<div class="w3-col s12 m6">
+<figure><img src='{{ "/assets/img/architect/avenue2/TMZ2016_IMG_5708.jpg" | relative_url }}' alt='As built' class='w3-image'>
+<figcaption class="kleiner">A2 Tunnel Entrance South (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path='{{ "assets/img/5.jpg" | relative_url }}' title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path='{{ "assets/img/6.jpg" | relative_url }}' title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path='{{ "assets/img/11.jpg" | relative_url }}' title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="w3-row">
+<div class="w3-col s12 m6">
+<figure><img src='{{ "/assets/img/architect/avenue2/DGZ201404_IMG_3788.jpg" | relative_url }}' alt='Detail corner Utility Building A2' class='w3-image'>
+<figcaption class="kleiner">Corner Detail (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="w3-col s12 m6">
+<figure><img src='{{ "/assets/img/architect/avenue2/DGZ201404_IMG_3797.jpg" | relative_url }}' alt='Overzicht Dienstengebouw Zuid, A2 Maastricht' class='w3-image'>
+<figcaption class="kleiner">Overview (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path='{{ "assets/img/6.jpg" | relative_url }}' title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path='{{ "assets/img/11.jpg" | relative_url }}' title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="w3-row">
+<div class="w3-col s12 m6">
+<figure><img src='{{ "/assets/img/architect/avenue2/A2tunnelmondoverzicht.jpg" | relative_url }}' alt='A2 tunnel toerit noord in aanbouw' class='w3-image'>
+<figcaption class="kleiner">A2 Tunnel Entrance North (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-```
+<div class="w3-col s12 m6">
+<figure><img src='{{ "/assets/img/architect/avenue2/av2_paververloop_IMG_3879.jpg" | relative_url }}' alt='Paver Groene Loper proefstuk verloop' class='w3-image'>
+<figcaption>Paver Green Tapestry demo (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
+</div>
 
-{% endraw %}
+</div><!-- end A2 sketchbook -->

@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 title: blog
 lang: en-us
-blog_name: Egbert's blog
+blog_name: Egbert's
 description: personal blog
 nav: true
 nav_order: 0

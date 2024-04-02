@@ -1,11 +1,11 @@
 ---
 page_id: a2-maastricht
-layout: page
+layout: project
+lang: nl
 title: A2 Maastricht
-description: um projeto com imagem de fundo e comentários do giscus
+description: Groot civiel- en bouwproject
 img: assets/img/architect/avenue2/7691.jpg
 importance: 2
-lang: nl
 category: work
 ---
 
