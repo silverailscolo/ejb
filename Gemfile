@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem "exif"
+    gem "exifr"
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'

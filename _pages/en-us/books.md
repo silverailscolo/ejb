@@ -1,11 +1,14 @@
 ---
 layout: books
-title: Books
+title: books
 permalink: /books/
 id: books
 lang: en-us
-list_title: Books I've read
+list_title: Books I've read &amp; owned
 nav: false
 ---
 
-My book reviews - click on a title to see the full review!
+<!-- simply so (by Jimmy_Xiao) -->
+{% include album.html albumname="covers" %}
+
+All my books - click on a title to see a review!

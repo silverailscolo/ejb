@@ -9,7 +9,7 @@ importance: 2
 category: work
 ---
 
-N31 Traverse Harlingen, projectarchitect ruimtelijke kwaliteit, vormgeving aquaduct, 4 viaducten en 2 km open bak &amp; inpassing (stedenbouw), 2014 - 2017
+Rol: projectarchitect ruimtelijke kwaliteit, vormgeving aquaduct, 4 viaducten en 2 km open bak &amp; inpassing (stedenbouw), 2014 - 2017
 
 <div class="w3-card w3-center" style="max-width: 80%;">N31 Ontwerpschetsboek
 <div class="w3-row">
@@ -19,7 +19,7 @@ N31 Traverse Harlingen, projectarchitect ruimtelijke kwaliteit, vormgeving aquad
 </div>
 <div class="w3-col s12 m6">
 <figure><img src='{{ "/assets/img/architect/n31/EBR_N31TechniekBasalt.png" | relative_url }}' alt='Vormgeving naar techniek: basalt realisatie' class='w3-image'>
-<figcaption>N31 Vormgeving naar techniek: basalt (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figcaption class="kleiner">N31 Vormgeving naar techniek: basalt (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
 
