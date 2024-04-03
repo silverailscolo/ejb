@@ -175,7 +175,7 @@ for pic in new_gallery:
   creator = _creator
   keywords = _keywords
   rights = _rights
-  #print("vars reset. title = " + title)
+  # print("vars reset. title = " + title)
 
 # check if path existing
 if "picture_path" not in input_gallery:

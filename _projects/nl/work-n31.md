@@ -9,7 +9,7 @@ importance: 2
 category: work
 ---
 
-N31 Traverse Harlingen, projectarchitect ruimtelijke kwaliteit, vormgeving aquaduct, 4 viaducten en 2 km open bak &amp; inpassing (stedenbouw), 2014 - 2017
+Rol: projectarchitect ruimtelijke kwaliteit, vormgeving aquaduct, 4 viaducten en 2 km open bak &amp; inpassing (stedenbouw), 2014 - 2017
 
 <div class="w3-card w3-center" style="max-width: 80%;">N31 Ontwerpschetsboek
 <div class="w3-row">

@@ -24,9 +24,8 @@
 # These paths are relative to your sites root. Don't add leading and trailing slashes.
 #
 
-#require 'exifr'
-#require 'exifr/jpeg'
-require 'exif'
+require 'exifr'
+require 'exifr/jpeg'
 
 module Jekyll
   class ExifTag < Liquid::Tag
@@ -71,12 +70,12 @@ module Jekyll
 
       # try it and return empty string on failure
       begin
-        data = Exif::Data.new(File.open(file_name)) # load from file
+        #data = Exif::Data.new(File.open(file_name)) # load from file
         # docs: ret = data.model         # => "NIKON D600"
-        ret = tag.split('.').inject(data){|o,m| o.send(m)}
+        #ret = tag.split('.').inject(data){|o,m| o.send(m)}
 
-        # exif = EXIFR::JPEG::new(file_name)
-        # ret = tag.split('.').inject(exif){|o,m| o.send(m)}
+        exif = EXIFR::JPEG::new(file_name)
+        ret = tag.split('.').inject(exif){|o,m| o.send(m)}
         puts "EXIF tag " + tag.split('.') + " read: " + ret # debug
 
         return ret

@@ -1,6 +1,7 @@
 ---
 
 layout: review
+lang: en-us
 date: 2018-08-28 12:25:13 +0700
 olid: OL7243520M
 title: "Strange Case of Dr Jekyll and Mr Hyde"

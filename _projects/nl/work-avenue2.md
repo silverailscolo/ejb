@@ -9,8 +9,6 @@ importance: 2
 category: work
 ---
 
-A2 Maastricht
-
 Rol: Ontwerpleider team ruimtelijk ontwerp, projectarchitect 25 kunstwerken en 2 dienstengebouwen
 Periode: 2009 - 2017
 

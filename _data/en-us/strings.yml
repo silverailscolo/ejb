@@ -102,3 +102,8 @@ cv:
   work: Work
 projects:
   nextProject: Next Project
+books:
+  written-by: Written by
+  read-on: Read on
+  cover-of: Cover of
+  cover-from: from
