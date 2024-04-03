@@ -107,3 +107,5 @@ books:
   read-on: Gelezen op
   cover-of: Kaft van
   cover-from: van
+  next-book: Volgende boek
+  prev-book: Vorige boek

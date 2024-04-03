@@ -1,5 +1,6 @@
 ---
 layout: default
+support: [gallery]
 ---
 
 {% if page.title %}
@@ -10,7 +11,7 @@ layout: default
 
 {% assign books=site.books %}
 {% if books.size > 0 %}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Latest reviews" }}</h2>
+    <h3 class="post-list-heading">{{ page.list_title | default: "Latest reviews" }}</h3>
     <ul class="post-list">
         {% for book in books reversed %}
             <li>

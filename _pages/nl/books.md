@@ -1,11 +1,14 @@
 ---
 layout: books
-title: Boeken
-list_title: Nieuwste recensies
+title: boeken
+list_title: In de boekenkast (gestaan)
 permalink: /books/
 id: books
 lang: nl
 nav: false
 ---
 
-Een lijst met al mijn boeken - klik op een titel om te lezen!
+<!-- simply so (by Jimmy_Xiao) -->
+{% include album.html albumname="covers" %}
+
+Al mijn boeken - klik op een titel om meer te lezen!

@@ -107,3 +107,5 @@ books:
   read-on: Read on
   cover-of: Cover of
   cover-from: from
+  next-book: Next Book
+  prev-book: Previous Book

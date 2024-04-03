@@ -35,6 +35,8 @@ fileIn.close()
 # print(pl["101"])
 
 for bookId in pl:
+    if bookId == "Version":
+        continue # skip the record in the xml file called "Version"
     summary = ""
     year = 0
     print("id == " + bookId + " ==")
