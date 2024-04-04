@@ -25,7 +25,7 @@ Mijn Command Station is een klassieke Digitrax Zephyr DCS50. Aan de 1e LocoNet a
 
 Ik heb geen zware verbindingsdraad aangesloten tussen de Zephyr Ground (Common) aansluiting en de LocoBooster Ground.
 
-![]({{ "/assets/img/blog/Zephyr-Rear-Panel-150x55.png" | relative_url }})
+![]({{ "/assets/img/blog/Zephyr-Rear-Panel.png" | relative_url }})
 
 Lees wel hierover ("same reference level”) maar Hans Deloof vermeldt het niet. Dit bleek ook niet nodig.
 

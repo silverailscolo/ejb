@@ -48,7 +48,7 @@ These are the cars we owned since 1991.
 </div>
 </div>
 
-## 1998: Citroen ZX Aura 
+## 1998: Citroen ZX Aura
 
 <figure><a title="Rudolf Stricker, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Citroen_ZX_front_20080118.jpg"><img alt="Citroen ZX front 20080118" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Citroen_ZX_front_20080118.jpg/512px-Citroen_ZX_front_20080118.jpg" class='w3-image'></a>
 <figcaption class="kleiner">Citroen ZX (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://commons.wikimedia.org/wiki/File:Citroen_ZX_front_20080118.jpg" property="cc:attributionName" rel="cc:attributionURL">R. Stricker</a> under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>)</figcaption>
@@ -120,6 +120,7 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 <p>In 2009 I finally got to install working rear parking sensors with a camera. That's handy!</p>
 
 ## 2013: Chevrolet Trans Sport #3
+
 <p>After the fuel lines started to leak, we decided to buy a new car. Seating for 6 led to the last 2005 edition of the same Chevrolet model, equipped with Versatrak all wheel drive.<p>
 <div class="w3-row">
 <div class="w3-col s12 m6">

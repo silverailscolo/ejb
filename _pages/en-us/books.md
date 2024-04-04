@@ -9,6 +9,7 @@ nav: false
 ---
 
 <!-- simply so (by Jimmy_Xiao) -->
+
 {% include album.html albumname="covers" %}
 
 All my books - click on a title to see a review!
