@@ -123,72 +123,72 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 <p><em>drukke tijd, zoon Tjeerd geboren</em></p>
 
-| Date                                      | Action                                                                                                                                                                                                                                    |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 30-01-'97                                 | schakelmat. binnen: alles 1 type, een (dure) doos vol!                                                                                                                                                                                    |
-| 13-02-'97                                 | linoleum gelegd kl. kamertje                                                                                                                                                                                                              |
-| 28-02-'97                                 | 2 dakdoorvoeren op dak gezet (aann.); verder zelf aangesl. en ventilatoren geplaatst                                                                                                                                                      |
-| 26-03-'97                                 | nieuw klasiek schuifraam Tjeerd geplaatst (aann.); zelf geschilderd (Moeder)                                                                                                                                                              |
-| 28-03-'97                                 | gestart aan zelfbouwen commode (MDF; zie schets)                                                                                                                                                                                          |
-| 31-03-'97 tot 04-04-'97                   | kamer Tjeerd behangen (stressbehang) <em>Tip</em>: Effen behang is heel moeilijk!                                                                                                                                                         |
-| 14-05-'97                                 | Tjeerd geboren, dus niet veel tijd...                                                                                                                                                                                                     |
-| 06-'97                                    | wandlampen in gang b.g. opgehangen (wit, al 1,5 jr. in huis!)                                                                                                                                                                             |
-| 30-08-'97                                 | progr. thermostaat gemonteerd                                                                                                                                                                                                             |
-| 02-09-'97                                 | nok dak gerep. + schoorstenen herbouwd-weggehaald zolder (aann.)                                                                                                                                                                          |
-| 07-09-'97                                 | deel v/d schuur gesloopt (Pa) &amp; bielsen in container                                                                                                                                                                                  |
-| 10-09-'97                                 | voegen repar. achtergevel tegelijk met 2 buren (aann.; rolsteiger past precies): weer waterdicht                                                                                                                                          |
-| 13-09-'97                                 | meeste (grote) terrastegels in container gedumpt; overal bergen zand                                                                                                                                                                      |
-| 20-09-'97                                 | ACOdrain geplaatst in toek. terras + elektra/water vanuit kelder &gt; schuur/tuin (zie <a href='{{ "/assets/img/house/ms15/riool1.gif" | relative_url }}'>schets</a>)                                                                                            |
-| 01-10-'97                                 | plinten w.k. gemonteerd, want Tjeerd trok aan de folieranden. 1,5 jr. zonder gedaan!                                                                                                                                                      |
-| 13-10-'97                                 | riolering + schrobput ingegraven in tuin                                                                                                                                                                                                  |
-| <a id="schuur_01">18-10 tot 24-10-'97</a> | in 1 weekend het hele dak schuur gesloopt en exact herbouwd (met Bert, zie <a href='{{ "/assets/img/house/ms15/schuur_f.gif" | relative_url }}'>schets</a>): noklood, goten, spanten, beschot, Ventifol, pannen 'Tuile du Nord' (stel oude bijgekocht in Ameide) |
-| 11-'97                                    | dubbele glasdeur voor schuur + oude grenen voordeur laten logen. 'Zolang' in de gang gezet. Gemonteerd op 10-05-'98 resp. <a href="#laatste">P.M.</a>                                                                                     |
-| 20-11-'97                                 | 17 oude trapspijlen + 2 rechte leuningen gekocht in Breukelen                                                                                                                                                                             |
-| 14-12-'97                                 | binnendeur keuken afgehangen en slot ingebouwd                                                                                                                                                                                            |
+| Date                                      | Action                                                                                                                                                |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 30-01-'97                                 | schakelmat. binnen: alles 1 type, een (dure) doos vol!                                                                                                |
+| 13-02-'97                                 | linoleum gelegd kl. kamertje                                                                                                                          |
+| 28-02-'97                                 | 2 dakdoorvoeren op dak gezet (aann.); verder zelf aangesl. en ventilatoren geplaatst                                                                  |
+| 26-03-'97                                 | nieuw klasiek schuifraam Tjeerd geplaatst (aann.); zelf geschilderd (Moeder)                                                                          |
+| 28-03-'97                                 | gestart aan zelfbouwen commode (MDF; zie schets)                                                                                                      |
+| 31-03-'97 tot 04-04-'97                   | kamer Tjeerd behangen (stressbehang) <em>Tip</em>: Effen behang is heel moeilijk!                                                                     |
+| 14-05-'97                                 | Tjeerd geboren, dus niet veel tijd...                                                                                                                 |
+| 06-'97                                    | wandlampen in gang b.g. opgehangen (wit, al 1,5 jr. in huis!)                                                                                         |
+| 30-08-'97                                 | progr. thermostaat gemonteerd                                                                                                                         |
+| 02-09-'97                                 | nok dak gerep. + schoorstenen herbouwd-weggehaald zolder (aann.)                                                                                      |
+| 07-09-'97                                 | deel v/d schuur gesloopt (Pa) &amp; bielsen in container                                                                                              |
+| 10-09-'97                                 | voegen repar. achtergevel tegelijk met 2 buren (aann.; rolsteiger past precies): weer waterdicht                                                      |
+| 13-09-'97                                 | meeste (grote) terrastegels in container gedumpt; overal bergen zand                                                                                  |
+| 20-09-'97                                 | ACOdrain geplaatst in toek. terras + elektra/water vanuit kelder &gt; schuur/tuin (zie <a href='{{ "/assets/img/house/ms15/riool1.gif"                | relative_url }}'>schets</a>)                                                                                                      |
+| 01-10-'97                                 | plinten w.k. gemonteerd, want Tjeerd trok aan de folieranden. 1,5 jr. zonder gedaan!                                                                  |
+| 13-10-'97                                 | riolering + schrobput ingegraven in tuin                                                                                                              |
+| <a id="schuur_01">18-10 tot 24-10-'97</a> | in 1 weekend het hele dak schuur gesloopt en exact herbouwd (met Bert, zie <a href='{{ "/assets/img/house/ms15/schuur_f.gif"                          | relative_url }}'>schets</a>): noklood, goten, spanten, beschot, Ventifol, pannen 'Tuile du Nord' (stel oude bijgekocht in Ameide) |
+| 11-'97                                    | dubbele glasdeur voor schuur + oude grenen voordeur laten logen. 'Zolang' in de gang gezet. Gemonteerd op 10-05-'98 resp. <a href="#laatste">P.M.</a> |
+| 20-11-'97                                 | 17 oude trapspijlen + 2 rechte leuningen gekocht in Breukelen                                                                                         |
+| 14-12-'97                                 | binnendeur keuken afgehangen en slot ingebouwd                                                                                                        |
 
 ## 1998
 
 <p><em>nog niet klaar...</em></p>
 
-| Date                            | Action                                                                                                                                    |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| 09-01-'98                       | \*\*\* sloten vervangen                                                                                                                   |
-| 26 tot 30-1-'98                 | trap b.g. naar 1<sup>e</sup> helemaal kaal gekrabd en trappaal + geloogde leuning gemonteerd (Vader, Moeder; zie schets)                  |
-| 08-02-'98                       | kozijnen hal met grenen profiellijsten aangeheeld                                                                                         |
-| 14-02-'98                       | spiegel w.k. gekocht en opgehangen                                                                                                        |
-| 15-03-'98                       | trappaal 1<sup>e</sup> vastgezet en gerepareerd met vuller                                                                                |
-| 20 tot 24-3-'98                 | schilder geweest trap b.g.                                                                                                                |
-| 10-04-'98                       | <a href='{{ "/assets/img/house/ms15/terras.gif" | relative_url }}'>terras</a> bestraat met 1.000 waalform. betonstenen geelbont (vele handen maakten licht werk) |
-| 30-04-'98                       | beton storten als fundering voor dorpel schuur                                                                                            |
-| 02-05-'98                       | opmetselen met klinkers en stellen Holonite dorpel + neuten [dat is leuk, metselen]                                                       |
-| 03-05-'98                       | de oude betontegels gelegd in de schuur [past precies] en onder het afdak [zwaar]                                                         |
-| 05 tot 10-05-'98                | kozijn schuur stellen en deuren passen                                                                                                    |
-| 12-05-'98                       | aftimmering schuur voltooid (blank grenen)                                                                                                |
-| 30-05-'98                       | de voorraad tegels uit (= voor) de hal naar de schuur verplaatst; ruimte!                                                                 |
-| 31-05-'98                       | tapijt gelegd in de hal en op de overloop                                                                                                 |
-| 13-06-'98                       | schilderen kozijnen hal                                                                                                                   |
-| 15-06-'97                       | dakraam voor gerepareerd met loodslab                                                                                                     |
-| 24-06-'98                       | hardstenen dorpel bij voordeur geplaatst op de oude                                                                                       |
-| <a id="klus_juli"></a>02-07-'98 | scheuren in gangvloer b.g. gerepareerd (kango)                                                                                            |
-| 02-07-'98                       | helder glas bovenlicht voordeur geplaatst (aann.)                                                                                         |
-| 04-07-'98                       | gelaagde ruitjes in schuurdeuren zelf gezet (de onderste 3 gelaagd; 1,5 kg stopverf)                                                      |
-| 05-07-'98                       | geloogde oude voordeur met PU-lijm stevig gemaakt, op maat gezaagd en voorzien van grenen 'wel' (buiig weer)                              |
-| 18-07-'98                       | van 'gekregen' hout een lange, lage kast annex ballustrade gemaakt op zolder; daar knapt het van op!                                      |
-| 21-07-'98                       | raamkoorden 1<sup>e</sup> vervangen na 2 jr!                                                                                              |
-|                                 | messing deurbeslag + sloten gekocht. <em>Tip</em>: 2 gelijksluitende sloten (1 sleutel) is iets duurder, maar wel handig.                 |
-| 26-09-'98                       | schuur afgelakt (zie <a href="#schuur_01">18-10-'97</a>)                                                                                  |
-| 27-09-'98                       | voordeur 1<sup>e</sup> keer gegrond                                                                                                       |
-| 28-10-'98                       | voordeur geschuurd en 2<sup>e</sup> keer gegrond                                                                                          |
-| 31-10-'98                       | hardstenen dorpel keukendeur geplaatst                                                                                                    |
-| 01-11-'98                       | voordeur 'slotklaar' gemaakt                                                                                                              |
-| <a id="voordeur">15-11-'98</a>  | voordeur afgehangen                                                                                                                       |
-| 23-11-'98                       | <em>we wonen hier precies 3 jaar!</em>                                                                                                    |
-| 28 tot 31-12-'98                | gang b.g. geplamuurd en afgelakt (eindelijk netjes binnenkomen!)                                                                          |
+| Date                            | Action                                                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| 09-01-'98                       | \*\*\* sloten vervangen                                                                                                   |
+| 26 tot 30-1-'98                 | trap b.g. naar 1<sup>e</sup> helemaal kaal gekrabd en trappaal + geloogde leuning gemonteerd (Vader, Moeder; zie schets)  |
+| 08-02-'98                       | kozijnen hal met grenen profiellijsten aangeheeld                                                                         |
+| 14-02-'98                       | spiegel w.k. gekocht en opgehangen                                                                                        |
+| 15-03-'98                       | trappaal 1<sup>e</sup> vastgezet en gerepareerd met vuller                                                                |
+| 20 tot 24-3-'98                 | schilder geweest trap b.g.                                                                                                |
+| 10-04-'98                       | <a href='{{ "/assets/img/house/ms15/terras.gif"                                                                           | relative_url }}'>terras</a> bestraat met 1.000 waalform. betonstenen geelbont (vele handen maakten licht werk) |
+| 30-04-'98                       | beton storten als fundering voor dorpel schuur                                                                            |
+| 02-05-'98                       | opmetselen met klinkers en stellen Holonite dorpel + neuten [dat is leuk, metselen]                                       |
+| 03-05-'98                       | de oude betontegels gelegd in de schuur [past precies] en onder het afdak [zwaar]                                         |
+| 05 tot 10-05-'98                | kozijn schuur stellen en deuren passen                                                                                    |
+| 12-05-'98                       | aftimmering schuur voltooid (blank grenen)                                                                                |
+| 30-05-'98                       | de voorraad tegels uit (= voor) de hal naar de schuur verplaatst; ruimte!                                                 |
+| 31-05-'98                       | tapijt gelegd in de hal en op de overloop                                                                                 |
+| 13-06-'98                       | schilderen kozijnen hal                                                                                                   |
+| 15-06-'97                       | dakraam voor gerepareerd met loodslab                                                                                     |
+| 24-06-'98                       | hardstenen dorpel bij voordeur geplaatst op de oude                                                                       |
+| <a id="klus_juli"></a>02-07-'98 | scheuren in gangvloer b.g. gerepareerd (kango)                                                                            |
+| 02-07-'98                       | helder glas bovenlicht voordeur geplaatst (aann.)                                                                         |
+| 04-07-'98                       | gelaagde ruitjes in schuurdeuren zelf gezet (de onderste 3 gelaagd; 1,5 kg stopverf)                                      |
+| 05-07-'98                       | geloogde oude voordeur met PU-lijm stevig gemaakt, op maat gezaagd en voorzien van grenen 'wel' (buiig weer)              |
+| 18-07-'98                       | van 'gekregen' hout een lange, lage kast annex ballustrade gemaakt op zolder; daar knapt het van op!                      |
+| 21-07-'98                       | raamkoorden 1<sup>e</sup> vervangen na 2 jr!                                                                              |
+|                                 | messing deurbeslag + sloten gekocht. <em>Tip</em>: 2 gelijksluitende sloten (1 sleutel) is iets duurder, maar wel handig. |
+| 26-09-'98                       | schuur afgelakt (zie <a href="#schuur_01">18-10-'97</a>)                                                                  |
+| 27-09-'98                       | voordeur 1<sup>e</sup> keer gegrond                                                                                       |
+| 28-10-'98                       | voordeur geschuurd en 2<sup>e</sup> keer gegrond                                                                          |
+| 31-10-'98                       | hardstenen dorpel keukendeur geplaatst                                                                                    |
+| 01-11-'98                       | voordeur 'slotklaar' gemaakt                                                                                              |
+| <a id="voordeur">15-11-'98</a>  | voordeur afgehangen                                                                                                       |
+| 23-11-'98                       | <em>we wonen hier precies 3 jaar!</em>                                                                                    |
+| 28 tot 31-12-'98                | gang b.g. geplamuurd en afgelakt (eindelijk netjes binnenkomen!)                                                          |
 
 ## 1999
 
 | Date             | Action                                                                                                       |
-| ---------------- |--------------------------------------------------------------------------------------------------------------|
+| ---------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ----------------------------------------- |
 | 02-01-'99        | zolder achterkamer gat naar buren dichtgemetseld (alle stenen uit de tuin!)                                  |
 | 05-01-'99        | achterwand keuken afgeleverd, maar wel in spiegelbeeld! Optimaat Hilversum maakt een nieuwe (wordt vervolgd) |
 | 09 tot 12-01-'99 | WC b.g. schoongehakt en tegels 15x15 wit gezet (al 3 jaar in huis!)                                          |
@@ -206,27 +206,27 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 2000
 
-| Date      | Action                                                                                              |
-|-----------|-----------------------------------------------------------------------------------------------------|
-| 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                     |
-| 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                        |
-| 12-02-'00 | zolderkamer voor ge&iuml;soleerd en verder afgetimmerd                                              |
-| 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>       |
-|           | (...)                                                                                               |
-| 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                          |
+| Date      | Action                                                                                           |
+| --------- | ------------------------------------------------------------------------------------------------ | ---------------- |
+| 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                  |
+| 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                     |
+| 12-02-'00 | zolderkamer voor ge&iuml;soleerd en verder afgetimmerd                                           |
+| 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>    |
+|           | (...)                                                                                            |
+| 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                       |
 | 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/convector001105.jpg" | relatve_url }}'> |
-| 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                    |
+| 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                 |
 
 ## 2001
 
 | Date                    | Action                                                                                                                                                                                                                                                                                                                           |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 14-01-'01               | meterkast in de hal gemaakt: de kubus herbergt de buggy; de alu streamlinevorm verwijst als 'hightech' naar de vernieuwing in huis en maakt zich los van het historische gebouw... <br><img src='{{ "/assets/img/house/ms15/meterkast01.jpg" | relative_url }}' alt="ontwerp meterkastbekleding">                                                       |
-|                         | <img src='{{ "/assets/img/house/ms15/meterkast02.jpg" | relative_url }}' alt="moderne meterkastbekleding">                                                                                                                                                                                                                                             |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 14-01-'01               | meterkast in de hal gemaakt: de kubus herbergt de buggy; de alu streamlinevorm verwijst als 'hightech' naar de vernieuwing in huis en maakt zich los van het historische gebouw... <br><img src='{{ "/assets/img/house/ms15/meterkast01.jpg"                                                                                     | relative_url }}' alt="ontwerp meterkastbekleding"> |
+|                         | <img src='{{ "/assets/img/house/ms15/meterkast02.jpg"                                                                                                                                                                                                                                                                            | relative_url }}' alt="moderne meterkastbekleding"> |
 | 03-03-'01               | in werkkamer extra leidingen onder grond aangelegd en opnieuw ingericht (4 Billies en tapijt)                                                                                                                                                                                                                                    |
 | 20-08-'01               | in slaapkamer radiator vervangen door lamellen-designradiator rechts van venster. Lichtdichte gordijnen opgehangen en hekwerk laten maken in smederij, in afwachting van Frans balkon.                                                                                                                                           |
 | 10-10-'01 tot 25-05-'02 | Achterpui b.g. en raam slk. laten vervangen in oude stijl                                                                                                                                                                                                                                                                        |
-|                         | <img src='{{ "/assets/img/house/ms15/achtergevel-detail1-lo.jpg" | relative_url }}' alt="detail achtergevel">                                                                                                                                                                                                                                           |
+|                         | <img src='{{ "/assets/img/house/ms15/achtergevel-detail1-lo.jpg"                                                                                                                                                                                                                                                                 | relative_url }}' alt="detail achtergevel">         |
 |                         | Het duurde al met al vreselijk lang, want de aannemers - in elk geval de onze, Sleper - sterven kennelijk van het werk en o, o wat is het moeilijk om een vakman te krijgen die er iets moois van wil maken! Tip: maak een goede tekening en schrijf alles op wat je afspreekt. Het helpt, kijk [hier](/blog/2022/windowmisery/) |
 | 10-10-'01 tot 25-05-'02 | de schilder deed de buitenkant                                                                                                                                                                                                                                                                                                   |
 
@@ -248,10 +248,10 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 2004
 
-| Date      | Action                                                                                                                      |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------|
-| 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                                                                                       |
-| 23-05-'04 | slang boiler gesprongen (en gehoosd)                                                                                        |
+| Date      | Action                                                             |
+| --------- | ------------------------------------------------------------------ | ----------------- |
+| 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                              |
+| 23-05-'04 | slang boiler gesprongen (en gehoosd)                               |
 | 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/kast2004.jpg" | relative_url }}'> |
 
 ## 2005
@@ -274,9 +274,9 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 2012
 
-| Date       | Action                                                                 |
-| ---------- | ---------------------------------------------------------------------- |
-| 01-06-2012 | koekkoek                                                               |
+| Date       | Action                                        |
+| ---------- | --------------------------------------------- | --------------------------------------------- |
+| 01-06-2012 | koekkoek                                      |
 |            | <img src='{{ "/assets/img/house/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
 
 ## What's next?

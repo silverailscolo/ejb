@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 <article>
   {{ content }}
 </article>
@@ -10,18 +9,18 @@ layout: page
   {% if page.next %}
     {% assign next = page.next %}
   {% else %}
-    {%comment%}
+    {% comment %}
       As the array index starts at zero we subtract 1 from the total count,
       we then get the last project index in the site.projects array
-    {%endcomment%}
+    {% endcomment %}
     {% assign last lastProjectIndex = site.projects | size | minus: 1 %}
     {% assign next = site.projects[lastProjectIndex] %}
   {% endif %}
   <div class="right">
     <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="{{ site.data[site.active_lang].strings.projects.nextProject }}: {{next.title}}">
       <div>
-        <h6> {{ site.data[site.active_lang].strings.projects.nextProject }} →</h6>
-        <h4> {{next.title}}</h4>
+        <h6>{{ site.data[site.active_lang].strings.projects.nextProject }} →</h6>
+        <h4>{{ next.title }}</h4>
       </div>
     </a>
   </div>
