@@ -13,6 +13,6 @@ Fun, but it feels like lots of eyes are watching you (8,000 users worldwide!). J
 is developed using [Java](http://www.oracle.com/technetwork/java/index.html) with [GitHub](https://github.com/) as its Version Control System (VCS).
 Genius!
 
-![GitDsktopPR]({{ "/assets/img/blog/GitDsktopPR-99x150.png" | relative_url }})
+![GitDsktopPR]({{ "/assets/img/blog/GitDsktopPR.png" | relative_url }})
 
 See: [JMRI.org](https://jmri.org/)

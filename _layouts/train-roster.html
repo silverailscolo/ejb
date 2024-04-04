@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% if page.title %}
+    <h1 class="page-heading">{{ page.title }}</h1>
+{% endif %}
+
+{{ content }}
+
+{% assign items=site.rollingstock %}
+{% if items.size > 0 %}
+    <h3 class="post-list-heading">{{ page.list_title | default: "My rolling stock" }}</h3>
+    <ul class="post-list">
+        {% for item in items reversed %}
+            <li>
+                <span class="post-meta">{{ item.roadName}}</span>
+                <h3>
+                    <a class="post-link" href="{{ item.id | relative_url }}">{{ item.roster-id }} — {{ item.roadNumber
+                      }} —
+                      {{ item.mfg }}</a>
+                </h3>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}

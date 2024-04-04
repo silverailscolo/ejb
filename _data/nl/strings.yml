@@ -5,7 +5,6 @@ categories:
   work: werk
   contact_note: Bij voorkeur per email.
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Gehost met <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> en het <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> thema.
 latest_posts: Nieuwste bericht
 news: Nieuws
 selected_publications: Selectie van publicaties
@@ -14,7 +13,7 @@ archive_category: Archief met berichten op categorie
 archive_tag: Archief met berichten op trefwoord
 archive_year: Archief met berichten per jaar
 related_posts:
-  description: "Deze artikelen zijn misschien ook interessant:"
+  description: "Deze stukjes zijn misschien ook interessant:"
   title: Verder lezen?
 references: Referenties
 months:
@@ -34,7 +33,7 @@ months:
   short:
     january: jan
     february: feb
-    march: maa
+    march: mrt
     april: apr
     may: mei
     june: jun
@@ -109,3 +108,9 @@ books:
   cover-from: van
   next-book: Volgende boek
   prev-book: Vorige boek
+rollingstock:
+  mfg: fabrikant
+  model: modelnr.
+  acquired: aangeschaft
+  next-item: Volgende item
+  prev-item: Vorige item

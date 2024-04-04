@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE roster-config SYSTEM "roster-config.dtd">
+<roster-config>
+  <!--Written by JMRI version 1.6.1 on Thu Sep 21 20:15:33 CEST 2006 $Id: XmlFile.java,v 1.20 2005/08/02 14:37:22 jacobsen Exp $-->
+  <roster>
+    <locomotive id="RG H15-44 151" fileName="RG_H15-44_151.xml" roadNumber="151" roadName="Denver &amp; Rio Grande Western" mfg="Atlas" owner="" model="52086" dccAddress="151" comment="acquired november 2003">
+      <decoder model="Four Function Dual Mode" family="Four Function Dual Mode" comment="factory installed" />
+    </locomotive>
+    <locomotive id="RG RDC-4 1001" fileName="RG_RDC-4_1001.xml" roadNumber="1001" roadName="Rio Grande" mfg="Kato" owner="" model="106-3008 set B/2" dccAddress="1001" comment="installed interior lighting 27 June 2005">
+      <decoder model="DN122K2" family="Basic CS" comment="N Scale Supply, installed 27 June 2005" />
+    </locomotive>
+    <locomotive id="RG RS3 5203" fileName="RG_RS3_5203.xml" roadNumber="5203" roadName="Rio Grande" mfg="Atlas" owner="" model="Alco RS-3" dccAddress="5203" comment="#42009 made in Japan 1995 with MT-couplers">
+      <decoder model="M1" family="TCS Mx series decoders" comment="zelf ingebouwd 8-12-2004" />
+    </locomotive>
+    <locomotive id="SF GP7 99" fileName="SF_GP7_99.xml" roadNumber="99" roadName="Santa Fe" mfg="Atlas" owner="" model="GP7" dccAddress="99" comment="preowned aq. 6/2004">
+      <decoder model="DZ143" family="Series 3 with FX3, silent, readback" comment="custom installed" />
+    </locomotive>
+  </roster>
+</roster-config>
+

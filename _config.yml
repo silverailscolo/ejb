@@ -165,6 +165,9 @@ collections:
   books:
     output: true
     permalink: /:collection/:title/
+  rollingstock:
+    output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
@@ -283,8 +286,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["design", "macintosh", "colorado", "house"] # these tags will be displayed on the front page of your blog
+display_categories: ["software"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -488,8 +491,13 @@ exiftag:
     - assets/img/house/ms15/attic
     - assets/img/mac
     - assets/img/trains2
+    - assets/img/trains2/roster
     - assets/img-noresample
     - assets/img-noresample/astyle
     - assets/img-noresample/avenue2
     - assets/img-noresample/beercaps
     - assets/img-noresample/trains
+
+readxml:
+  sources:
+    - assets/xml
