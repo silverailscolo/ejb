@@ -1,6 +1,6 @@
 ---
 layout: page
-title: architecture
+title: architectuur
 permalink: /architect/
 id: architecture
 lang: en-us
