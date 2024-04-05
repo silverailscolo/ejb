@@ -18,7 +18,7 @@ function showpop(e, num) {
       document.getElementById("popuptitle").innerHTML = "nog opzoeken";
     }
     // set image src
-    document.getElementById("plant_image").src = "/ebroerse.nl/assets/img/tuin/" + num + ".jpg" ; // add relative path
+    document.getElementById("plant_image").src = "/ebroerse.nl/assets/img/tuin/" + num + ".jpg"; // add relative path
     thing.style.visibility = "visible";
   }
   //console.log("stick: " + stick); // debug

@@ -37,6 +37,15 @@ img, embed, object, video {
   font-size: 60%;
 }
 
+/* position prev/next divs in collection index )roster, books, projects) */
+div.left {
+  align: left;
+}
+
+div.right {
+  align: right;
+}
+
 /*
 ** CUSTOM STYLES for Book reviews
 */

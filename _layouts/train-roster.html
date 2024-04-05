@@ -11,7 +11,12 @@ layout: default
   <li>
     <span class="post-meta">{{ item.roadName}}</span>
     <h3>
-      <a class="post-link" href="{{ item.id | relative_url }}">{{ item.roster-id }} — {{ item.roadNumber }} — {{ item.mfg }}</a>
+      <a class="post-link" href="{{ 'rollingstock/' | append: item.fileName | relative_url }}/">{{ item.roster-id }}
+        — {{
+      item.roadNumber
+      }} —
+        {{
+        item.mfg }}</a>
     </h3>
   </li>
   {% endfor %}

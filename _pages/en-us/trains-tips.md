@@ -16,7 +16,7 @@ toc:
 
 # <a id="buildk27">Build a RLW K-27 kit</a>
 
-See <a href="/blog/2017/assembling-the-rlw-nn3-k-27-kit/">this blog post</a>
+See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'>this blog post</a>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">

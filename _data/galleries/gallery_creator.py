@@ -7,7 +7,8 @@ __author__ = 'Olivier Pieters'
 __author_email__ = 'me@olivierpieters.be'
 __license__ = 'BSD-3-Clause'
 
-import yaml, imagesize
+import yaml
+import imagesize
 from libxmp import consts
 from libxmp.utils import file_to_dict
 from os import listdir, rename
@@ -41,7 +42,7 @@ new_files = []
 for f in files:
     if f[f.rfind('-')+1:f.rfind('.')] != 'thumbnail':
         newf = f[:f.rfind('-')] + "-%sx%s" % imagesize.get(join(path, f)) + f[f.rfind('.'):]
-        rename(join(path, f),join(path, newf))
+        rename(join(path, f), join(path, newf))
     else:
         newf = f
     new_files.append(newf)
@@ -118,70 +119,70 @@ old_gallery = input_gallery['pictures']
 # merge two data sets into one
 print('Merging YAML data...')
 for pic in new_gallery:
-  found = False
-  # try to find matching filename
-  for i in old_gallery:
-    if pic == i["filename"]:
-      i["sizes"] = new_gallery[pic]
-      # include thumbnail if present
-      if pic in thumbs:
-        i["thumbnail"] = thumbs[pic]
-      found = True
+    found = False
+    # try to find matching filename
+    for i in old_gallery:
+        if pic == i["filename"]:
+            i["sizes"] = new_gallery[pic]
+            # include thumbnail if present
+            if pic in thumbs:
+                i["thumbnail"] = thumbs[pic]
+            found = True
 
-  if not found:
-    # extract xmp from original, only for jpeg
-    # 'http://purl.org/dc/elements/1.1/': [
-    #   ('dc:creator[1]', 'EJ Broerse', {...}),
-    #   ('dc:description[1]', 'blauwe Golf', {...}),
-    #   ('dc:title[1]', 'Volkswagen Golf Plus', {...}),
-    if originals[pic][originals[pic].rfind('.')+1:] in ['jpg', 'jpeg']:
-      #print("File: " + join(path, originals[pic]))
+    if not found:
+        # extract xmp from original, only for jpeg
+        # 'http://purl.org/dc/elements/1.1/': [
+        #   ('dc:creator[1]', 'EJ Broerse', {...}),
+        #   ('dc:description[1]', 'blauwe Golf', {...}),
+        #   ('dc:title[1]', 'Volkswagen Golf Plus', {...}),
+        if originals[pic][originals[pic].rfind('.')+1:] in ['jpg', 'jpeg']:
+            #print("File: " + join(path, originals[pic]))
 
-      xmp = file_to_dict( join(path, originals[pic]) )
-      if consts.XMP_NS_DC in xmp:
-        dc = xmp[consts.XMP_NS_DC]
-        # a list of all Dublin Core properties in xmp; each element in the list is a tuple
-      else:
-        print("No XMP tag, file skipped")
+            xmp = file_to_dict( join(path, originals[pic]) )
+            if consts.XMP_NS_DC in xmp:
+                dc = xmp[consts.XMP_NS_DC]
+                # a list of all Dublin Core properties in xmp; each element in the list is a tuple
+            else:
+                print("No XMP tag, file skipped")
 
-      print("title = " + title)
-      for dc_pair in dc:
-        if "/?xml:lang" not in dc_pair[0]: # skip 'dc:title[1]/?xml:lang'
-          # print("name: " + dc_pair[0] + " val: " + dc_pair[1] +"\n")
-          if "dc:title" in dc_pair[0] and dc_pair[1] != '':
-            title = dc_pair[1]
-          else:
-            title = _title
-          if "dc:caption" in dc_pair[0] and dc_pair[1] != '':
-            caption = dc_pair[1]
-          else:
-            caption = _caption
-          if "dc:keywords" in dc_pair[0] and dc_pair[1] != '':
-            creator = dc_pair[1]
-          else:
-            creator = _creator
-          if "dc:rights" in dc_pair[0] and dc_pair[1] != '':
-            rights = dc_pair[1]
-          else:
-            rights = _rights
+            print("title = " + title)
+            for dc_pair in dc:
+                if "/?xml:lang" not in dc_pair[0]: # skip 'dc:title[1]/?xml:lang'
+                # print("name: " + dc_pair[0] + " val: " + dc_pair[1] +"\n")
+                    if "dc:title" in dc_pair[0] and dc_pair[1] != '':
+                        title = dc_pair[1]
+                    else:
+                        title = _title
+                    if "dc:caption" in dc_pair[0] and dc_pair[1] != '':
+                        caption = dc_pair[1]
+                    else:
+                        caption = _caption
+                    if "dc:keywords" in dc_pair[0] and dc_pair[1] != '':
+                        creator = dc_pair[1]
+                    else:
+                        creator = _creator
+                    if "dc:rights" in dc_pair[0] and dc_pair[1] != '':
+                        rights = dc_pair[1]
+                    else:
+                        rights = _rights
 
-  # create new entry
-  #print("New entry. title = " + title)
-  old_gallery.append({ "filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
+    # create new entry
+    #print("New entry. title = " + title)
+    old_gallery.append({ "filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
                       "title": title, "caption": caption + ' ' + keywords + ' ' + rights })
-  # reset vars
-  title = _title
-  caption = _caption
-  creator = _creator
-  keywords = _keywords
-  rights = _rights
-  # print("vars reset. title = " + title)
+    # reset vars
+    title = _title
+    caption = _caption
+    creator = _creator
+    keywords = _keywords
+    rights = _rights
+    # print("vars reset. title = " + title)
 
 # check if path existing
 if "picture_path" not in input_gallery:
-  input_gallery["picture_path"] = image_path
+    input_gallery["picture_path"] = image_path
 
 # write to output file
 print('Writing YAML data to file...')
 with open(output_file, 'w') as f:
-  f.write( yaml.dump(input_gallery, default_flow_style=False) )
+    f.write( yaml.dump(input_gallery, default_flow_style=False) )

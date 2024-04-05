@@ -6,7 +6,7 @@
 
 __author__ = 'Egbert Broerse'
 
-import json
+#import json
 import yaml
 from os.path import isfile, join
 import plistlib
@@ -28,10 +28,11 @@ defaultLanguage = 'nl'
 # set correct path
 path = join("../assets/xml/", bookpediaExportFileToRead)
 
-fileIn = open(path, "rb")
+#fileIn = open(path, "rb")
 # see https://github.com/python/cpython/blob/3.12/Lib/plistlib.py
-pl = plistlib.load(fileIn, fmt=None, dict_type=dict)
-fileIn.close()
+with open(path, 'rb') as f:
+    pl = plistlib.load(f, fmt=None, dict_type=dict)
+#fileIn.close()
 # print(pl["101"])
 
 for bookId in pl:

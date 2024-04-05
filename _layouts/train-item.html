@@ -11,42 +11,49 @@ layout: default
     </p>
   </header>
   <figure class="picture row-cols-1">
-    <img alt="{{ page.title }}" src="{{ site.baseurl }}/assets/img/trains2/roster/{{ page.roster-id }}.jpg" />
-    <figcaption><em>{{ page.mfg }} {{ page.roster-id }}</em></figcaption>
+    <img alt="{{ page.title }}" src="{{ site.baseurl }}/assets/img/trains2/roster/{{ page.fileName }}.jpg" />
+    <figcaption><em>{{ page.mfg }} - {{ page.roster-id }} ({{ page.fileName }}.jpg)</em></figcaption>
   </figure>
 
   <ul>
-    <li>Model: {{ page.model }}</li>
+    <li>Road name: {{ page.roadName }}</li>
     <li>DCC address: {{ page.dccAddress }}</li>
-    <li>Remarks: {{ page.comment }}</li>
+    <li>Decoder model: {{ page.decoder.model }}</li>
+    <li>Decoder remarks: {{ page.decoder.comment }}</li>
   </ul>
 
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
 
-  <section id="more-trains">
-    {% if page.previous %} {% assign previous = page.previous %} {% else %} {% assign previous = site.rollingstock[0] %} {% endif %}
-    <div class="left">
-      <a
-        class="equalize"
-        href="{{site.baseurl}}{{previous.url}}"
-        title="{{ site.data[site.active_lang].strings.rollingstock.prev-item }}: {{previous.id}}"
-      >
-        <div>
-          <h6>← {{ site.data[site.active_lang].strings.rollingstock.prev-item }}</h6>
-          <h4>{{page.previous.title}}</h4>
-        </div>
-      </a>
+  <section id="more">
+    <div class="w3-row">
+      <div class="w3-col s12 m6">
+      {% if page.previous %} {% assign previous = page.previous %} {% else %} {% assign previous = site.rollingstock[0] %} {% endif %}
+      <div class="left">
+        <a
+          class="equalize"
+          href="{{site.baseurl}}{{previous.url}}"
+          title="{{ site.data[site.active_lang].strings.rollingstock.prev-item }}: {{previous.id}}"
+        >
+          <div>
+            <h6>← {{ site.data[site.active_lang].strings.rollingstock.prev-item }}</h6>
+            <h4>{{ previous.title | upcase }}</h4>
+          </div>
+        </a>
+      </div>
     </div>
-    {% if page.next %} {% assign next = page.next %} {% else %} {%comment%} As the array index starts at zero we subtract 1 from the total count, we
-    then get the last item index in the site.rollingstock array {%endcomment%} {% assign last lastRosterIndex = site.rollingstock | size | minus: 1 %}
-    {% assign next = site.rollingstock[lastRosterIndex] %} {% endif %}
-    <div class="right">
-      <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="{{ site.data[site.active_lang].strings.rollingstock.next-item }}: {{next.id}}">
-        <div>
-          <h6>{{ site.data[site.active_lang].strings.rollingstock.next-item }} →</h6>
-          <h4>{{ next.title }}</h4>
-        </div>
-      </a>
+    <div class="w3-col s12 m6">
+      {% if page.next %} {% assign next = page.next %} {% else %} {%comment%} As the array index starts at zero we subtract 1 from the total count, we
+      then get the last item index in the site.rollingstock array {%endcomment%} {% assign last lastRosterIndex = site.rollingstock | size | minus: 1 %}
+      {% assign next = site.rollingstock[lastRosterIndex] %} {% endif %}
+      <div class="right">
+        <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="{{ site.data[site.active_lang].strings.rollingstock.next-item }}: {{next.id}}">
+          <div>
+            <h6>{{ site.data[site.active_lang].strings.rollingstock.next-item }} →</h6>
+            <h4>{{ next.title | upcase }}</h4>
+          </div>
+        </a>
+      </div>
+    </div>
     </div>
   </section>
 </article>
