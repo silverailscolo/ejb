@@ -70,9 +70,8 @@ module Jekyll
 
       # try it and return empty string on failure
       begin
-        #data = Exif::Data.new(File.open(file_name)) # load from file
-        # docs: ret = data.model         # => "NIKON D600"
-        #ret = tag.split('.').inject(data){|o,m| o.send(m)}
+        # only XMP segment (and disabled TIFF which is enabled by default)
+        #exif = await exifr.parse(file_name, {tiff: false, xmp: true})
 
         exif = EXIFR::JPEG::new(file_name)
         ret = tag.split('.').inject(exif){|o,m| o.send(m)}

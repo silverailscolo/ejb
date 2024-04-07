@@ -27,7 +27,7 @@ Wil je meer weten over circulair bouwen, begin dan bij [Leidraad Platform CB'23]
 
 Advies: regel genoeg opslagruimte, ook voor een renovatie in de binnenstad (huur een loods). Werk circulair, verzamel recyclebare resten <em>schoon</em> en lever ze in bij de producent, bijv. <a href="https://www.bureauleiding.nl">Buizen Inzamel Systeem (BIS)</a> voor elektrabuizen.
 
-Neem tijd om op zoek te gaan bij [circulaire hubs](https://www.cirkelstad.nl/circulaire-productencatalogus-2-0/) in de regio. Biedt jouw overgebleven materialen ook aan via zo'n hub.</p>
+Neem tijd om op zoek te gaan bij [circulaire hubs](https://www.cirkelstad.nl/circulaire-productencatalogus-2-0/) in de regio. Biedt jouw overgebleven materialen ook aan via zo'n hub.
 
 <figure><img src='{{ "/assets/img/architect/n31/N31princDkruisend_lo.jpg" | relative_url }}' alt='Schets Landschap N31' class='w3-image' >
 <figcaption class="kleiner">Landschap loopt door (N31) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>

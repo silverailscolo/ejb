@@ -7,7 +7,7 @@
 '@manufacturerID': '999'
 '@maxSpeed': '100'
 '@productID': ''
-dateUpdated: '2024-04-05T17:30:32.200+00:00'
+dateUpdated: '2024-04-05T17:36:48.735+00:00'
 dccAddress: '3'
 decoder:
   '@maxFnNum': '28'
@@ -27,6 +27,7 @@ locoaddress:
 mfg: Atlas
 model: 2-6-0
 owner: Egbert
+picture: DRG_2_6_0_shou.jpg
 roadName: Denver Rio Grande
 roadNumber: Shou-wa-nou
 roster-id: DRG 2-6-0 shou

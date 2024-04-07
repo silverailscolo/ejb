@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
+<roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
+  <!--Written by JMRI version 5.7.5+R4933de1fc8 on Sat Apr 06 15:07:52 CEST 2024-->
+  <roster>
+    <locomotive id="DRG 2-6-0 shou" fileName="DRG_2_6_0_shou.xml" roadNumber="Shou-wa-nou" roadName="Denver Rio Grande" mfg="Atlas" owner="Egbert" model="2-6-0" dccAddress="3" comment="Acquired ca 1995, metal shell and tender" developerID="-1" manufacturerID="999" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.735+00:00</dateUpdated>
+      <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="no decoder installed" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="DRGW 2-6-0 479" fileName="DRGW_2_6_0_479.xml" roadNumber="479" roadName="Denver Rio Grande Western" mfg="Athearn" owner="Egbert" model="2-6-0" dccAddress="479" comment="Great runner" developerID="-1" manufacturerID="99" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.735+00:00</dateUpdated>
+      <decoder model="Standard" family="Lenz Standard" comment="check type" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="479" longaddress="yes" />
+        <number>479</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="DRGW 2-8-0 516" fileName="DRGW_2_8_0_516.xml" roadNumber="516" roadName="Denver Rio Grande Western" mfg="Athearn" owner="Egbert" model="2-8-0" dccAddress="516" comment="Runs fine" developerID="-1" manufacturerID="99" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.736+00:00</dateUpdated>
+      <decoder model="Standard" family="Lenz Standard" comment="check type" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="516" longaddress="yes" />
+        <number>516</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="RG F7 5651" fileName="RG_F7_5651.xml" roadNumber="5651" roadName="Rio Grande" mfg="Micro Trains" owner="Egbert" model="F7" dccAddress="19" comment="" developerID="-1" manufacturerID="99" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.748+00:00</dateUpdated>
+      <decoder model="Standard" family="Lenz Standard" comment="check model" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="19" longaddress="no" />
+        <number>19</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="RG GE-44 42" fileName="RG_GE_44_42.xml" roadNumber="42" roadName="Rio Grande" mfg="Bachmann" owner="Egbert" model="bac81855" dccAddress="42" comment="Undecorated, painting to do" developerID="-1" manufacturerID="101" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.748+00:00</dateUpdated>
+      <decoder model="Z2" family="Sep 2018" comment="Factory installed" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="42" longaddress="no" />
+        <number>42</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="RG H15-44 151" fileName="RG_H15_44_151.xml" roadNumber="151" roadName="Denver &amp; Rio Grande Western" mfg="Atlas" owner="Egbert Broerse" model="52086" dccAddress="151" comment="acquired november 2003" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.749+00:00</dateUpdated>
+      <decoder model="Four Function Dual Mode" family="Four Function Dual Mode" comment="factory installed" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="151" longaddress="yes" />
+        <number>151</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="RG RDC-4 1001" fileName="RG_RDC_4_1001.xml" roadNumber="1001" roadName="Rio Grande" mfg="Kato" owner="Egbert Broerse" model="106-3008 set B/2" dccAddress="1001" comment="installed interior lighting 27 June 2005" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.749+00:00</dateUpdated>
+      <decoder model="DN122K2" family="Basic CS" comment="N Scale Supply, installed 27 June 2005" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1001" longaddress="yes" />
+        <number>1001</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="RG RS3 5203" fileName="RG_RS3_5203.xml" roadNumber="5203" roadName="Rio Grande" mfg="Atlas" owner="Egbert Broerse" model="Alco RS-3" dccAddress="5203" comment="#42009 made in Japan 1995 with MT-couplers" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.749+00:00</dateUpdated>
+      <decoder model="M1" family="TCS Mx series decoders" comment="zelf ingebouwd 8-12-2004" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="5203" longaddress="yes" />
+        <number>5203</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="SF GP7 99" fileName="SF_GP7_99.xml" roadNumber="99" roadName="Santa Fe" mfg="Atlas" owner="Egbert Broerse" model="GP7" dccAddress="99" comment="preowned aq. 6/2004" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.750+00:00</dateUpdated>
+      <decoder model="DZ143" family="Series 3 with FX3, silent, readback" comment="custom installed" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="99" longaddress="no" />
+        <number>99</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="SF PA-1 51" fileName="SF_PA_1_51.xml" roadNumber="51" roadName="Santa Fe" mfg="Con-Cor" owner="Egbert" model="PA-1" dccAddress="3" comment="Dummy A and B units" developerID="-1" manufacturerID="999" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-05T17:36:48.751+00:00</dateUpdated>
+      <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="no decoder installed" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="SRR_SHAY_269" fileName="SRR_SHAY_269.xml" roadNumber="269" roadName="Silverton Railroad" mfg="Atlas" owner="Egbert" model="Shay" dccAddress="269" comment="(reserved Sept. 2004, received Aug. 2005, DCC  + weathered Apr. 2009)" developerID="-1" manufacturerID="99" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2024-04-06T11:43:47.975+00:00</dateUpdated>
+      <decoder model="Standard" family="Lenz Standard" comment="Self installed decoder, check type = TCS" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="269" longaddress="yes" />
+        <number>269</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+  </roster>
+</roster-config>

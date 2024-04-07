@@ -7,7 +7,6 @@
 
 __author__ = 'Egbert Broerse'
 
-#import json
 import yaml
 import xmltodict
 from os.path import isfile, join
@@ -28,8 +27,14 @@ def rename_keys(d, keys):
 
 # set preferences
 jmriRosterFileToRead = "roster.xml"
-itemPicturePath = "../assets/img/trains2/roster"
-defaultLanguage = 'en-us'
+itemPicturePath = "../assets/img/trains2/roster/"
+defaultLanguage = 'nl'
+
+# configuration
+overwrite = input("Delete existing .md loco pages? (y/n) ")
+if overwrite != "y":
+    overwrite = "no"
+pagesCreated = 0
 
 # set correct path
 path = join("../assets/xml/", jmriRosterFileToRead)
@@ -50,8 +55,6 @@ for locoDict in python_dict['roster-config']['roster']['locomotive']:
     # Copy all keys
     # filter_fields = ["title", "author", "summary", "lastRead", "url", "isbn"]
     dict_result = locoDict # to filter: {key: key for key in locoDict if key in filter_fields}
-    # print(dict_result)
-    # rename keys for template
     #
     # layout: train-item > manually add to array
     # roster-id: "RG H15-44 151"
@@ -67,15 +70,15 @@ for locoDict in python_dict['roster-config']['roster']['locomotive']:
     # - model: "Four Function Dual Mode"
     # - family: "Four Function Dual Mode"
     # - comment: "factory installed"
-    # year: 2003
+    # year: 2003 < manually
     #
     # comment: > use as main body text below ---
+    #
+    # rename keys for template front matter
     translation = {'@id': 'roster-id', '@roadNumber': 'roadNumber', '@roadName': 'roadName', '@mfg': 'mfg',
                    '@dccAddress': 'dccAddress', '@model': 'model', '@family': 'family', '@comment': 'comment',
                    '@fileName': 'fileName', '@owner': 'owner'}
     dict_translated = rename_keys(dict_result, translation)
-    # print("LOCO TRANSLATED: ")
-    # print(dict_translated)
 
     yaml_elements = {}
     for key in dict_translated:
@@ -85,8 +88,6 @@ for locoDict in python_dict['roster-config']['roster']['locomotive']:
             yaml_elements['fileName'] = dict_translated['fileName'].replace(".xml", "")
         elif key == 'decoder':
             decoderDict = dict_translated[key]
-            # print("   DECODER_DICT:")
-            # print(decoderDict)
             yaml_elements[key] = rename_keys(decoderDict, translation)
         else:
             yaml_elements[key] = dict_translated[key]
@@ -94,23 +95,23 @@ for locoDict in python_dict['roster-config']['roster']['locomotive']:
                 year = dict_translated[key].year
 
     # try to load YAML data
-    output_file = "../_rollingstock/" + yaml_elements['fileName'] + ".md" # xml of car, no language TODO date?
+    output_file = "../_rollingstock/" + defaultLanguage + "/" + yaml_elements['fileName'] + ".md" # xml of car, no language TODO date?
     pictureFile = yaml_elements['fileName'] + ".jpg"  # cover image of engine/car
 
-    #if not isfile(output_file):
-    # first add in manual content
-    # yaml_elements['published'] = 'true'
-    yaml_elements['layout'] = 'train-item'
-    yaml_elements['lang'] = defaultLanguage
-    yaml_elements['year'] = year
-    if isfile(itemPicturePath + pictureFile):
-        yaml_elements['cover'] = pictureFile
-    # print(yaml_elements)
-    # write to output file
-    print('Writing YAML data to loco file', output_file)
-    with open(output_file, 'w') as f:
-        f.write(yaml.dump(yaml_elements, default_flow_style=False, explicit_start=True))
-        # write comment as second block in same file
-        f.write("---\n")
-        f.write(comment + "\n")
-print('Ready')
+    if overwrite == "y" or not isfile(output_file):
+        # first add in manual content
+        # yaml_elements['published'] = 'true'
+        yaml_elements['layout'] = 'train-item'
+        yaml_elements['lang'] = defaultLanguage
+        yaml_elements['year'] = year
+        if isfile(itemPicturePath + pictureFile):
+            yaml_elements['picture'] = pictureFile
+        # write to output file
+        print('Writing YAML data to loco file', output_file)
+        with open(output_file, 'w') as f:
+            f.write(yaml.dump(yaml_elements, default_flow_style=False, explicit_start=True))
+            # write comment as second block in same file
+            f.write("---\n")
+            f.write(comment + "\n")
+        pagesCreated += 1
+print(f"Ready. Created {pagesCreated} fresh loco pages.")

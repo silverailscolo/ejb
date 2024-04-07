@@ -3,7 +3,7 @@ page_id: mymacs
 layout: page
 permalink: /computers/mymacs
 title: My Macs
-description: The Macintosh computer I owned
+description: The Macintosh computers I owned
 lang: en-us
 nav: false
 toc:
@@ -13,10 +13,16 @@ toc:
 <p>Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned - the MacPlus, IIcx, Powerbook 100, Powerbook Duo 230,  Performa 5400/180, a Strawberry iMac 233, a white iMac G5 and 2 aluminium Intel iMacs (CoreDuo and i5).<br>
 By the way, it's shocking what my first memory expansion cost in 1986, or the external SCSII Apple CD-rom player for that matter.</p>
 
+Do you remember this?
+
+<figure><img src='{{ "/assets/img/mac/Macintosh_system_6.0.8.png" | relative_url }}' alt="System 6" class='w3-image'></figure>
+
 Look at [Apple Mac System 6](https://en.wikipedia.org/wiki/System_6) and [Apple Mac System 6](https://en.wikipedia.org/wiki/System_7) from the Eighties.
 
-<p>Vanaf 1986 werk ik graag op de Apple Macintosh&trade;. Ik begon met een studentenversie van de compacte 9" MacPlus (MacWrite &amp; MacDraw), en later werkte ik op een IIcx, Powerbook 100, Powerbook Duo 230, Performa 5400/180 (alle gebruikt aangeschaft), een Aardbeiroze iMac 233 (uit de KPN winkel), een witte iMac G5 and 2 generaties aluminium Intel iMacs, CoreDuo en i5.<br>
-Achteraf schrikken hoe duur alles was van 1986 tot 2000, bijv. de externe SCSI Apple CD-rom player voor ƒ 1.000,-.</p>
+There's also a fun online [Mac Museum](http://www.mac-museum.com) (in German)
+
+Vanaf 1986 werk ik graag op de Apple Macintosh&trade;. Ik begon met een studentenversie van de compacte 9" MacPlus (MacWrite &amp; MacDraw), en later werkte ik op een IIcx, Powerbook 100, Powerbook Duo 230, Performa 5400/180 (alle gebruikt aangeschaft), een Aardbeiroze iMac 233 (uit de KPN winkel), een witte iMac G5 and 2 generaties aluminium Intel iMacs, CoreDuo en i5.<br>
+Achteraf schrikken hoe duur alles was van 1986 tot 2000, bijv. de externe SCSI Apple CD-rom player voor ƒ 1.000,-.
 
 ## <a id="macplus">MacPlus 1Mb</a>
 
@@ -34,7 +40,7 @@ Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">
 
 ## <a id="pb100">PowerBook 100</a>
 
-<figure><img src='{{ "/assets/img/mac/pb100.gif" | relative_url }}' alt="PowerBook 100, tweedehands gekocht in 1990" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/powerbook100.png" | relative_url }}' alt="PowerBook 100, tweedehands gekocht in 1990" class='w3-image'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68000 <br>
 scherm: ingebouwd 400 x 600, zwart-wit<br>
@@ -85,7 +91,7 @@ Voor meer info: <a href="https://lowendmac.com/ii/macintosh-iicx.html">LowEndMac
 
 ## <a id="Duo230">PowerBook Duo230</a>
 
-<figure><img src='{{ "/assets/img/mac/duo.gif" | relative_url }}' alt="PowerBook Duo in zijn Dock" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/powerbook_duo_230.png" | relative_url }}' alt="PowerBook Duo in zijn Dock" class='w3-image'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68030 <br>
 scherm: ingebouwd 400 x 600, max. 16 grijstinten<br>
@@ -97,7 +103,11 @@ HD: 120 Mb SCSI</p>
 
 <p>Lekker lichte laptop, dankzij externe floppy drive. Na 5 jaar in de tas heen en weer slepen is de accu echter op en doet het toetsenbord wat raar. Maar ja, wat wil je, we hebben er de hele prijsvraag mee gemaakt in 1994.<br>
 Kortom: veel plezier gehad van een tweedehandsje.</p>
-<figure><img src='{{ "/assets/img/mac/duo-dock.gif" | relative_url }}' alt="vlak voor de dock hem inslikt"></figure>
+<figure><img src='{{ "/assets/img/mac/PowerBook_Duo_Dock_aventure-applecom.jpg" | relative_url }}' alt="vlak voor de dock hem inslikt">
+<figcaption class="kleiner">iMac 233 all-in-one (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.aventure-apple.com/blog/wp-content/uploads/2019/03/Apple_PowerBook_Duo_Dock_Macintosh.jpg" property="cc:attributionName" rel="cc:attributionURL">aventure-appl.com</a>
+under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
+
 <p>Heel slim detail: de Duo schuift als en videocassette in de dock, en daar zit een extra HD en coprocessor in, plus een slot om de laptop te beveiligen.</p>
 
 ### Tips:
@@ -111,7 +121,7 @@ Kortom: veel plezier gehad van een tweedehandsje.</p>
 
 ## <a id="Pf5400">Performa 5400/180</a>
 
-<figure><img src='{{ "/assets/img/mac/121-2157_performa.png" | relative_url }}' alt='MacPerforma 5400/180 all-in-one' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/performa5400.png" | relative_url }}' alt='MacPerforma 5400/180 all-in-one' class='w3-image'>
 <figcaption class="kleiner">MacPerforma 5400/180 all-in-one (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 604e PowerPC, 180 MHz <br>
@@ -201,12 +211,25 @@ HD: 233 Gb ATA</p>
 <h2><a id="software">Mac software</a></h2>
 <p>Software die ik het meest gebruik:</p>
 
-<p>Apple Pages, Numbers en Keynote <img src='/assets/img/mac/pagesdock.png' alt='Apple Apps in Dock'></p>
+<p>Apple Pages, Numbers en Keynote <img src='{{ "/assets/img/mac/pagesdock.png" | relative_url }}' alt='Apple Apps in Dock'></p>
 
-<p>Ik was rond 2000 een zeer actieve ontwikkelaar van <a href="https://arstechnica.com/gadgets/2019/05/25-years-of-hypercard-the-missing-link-to-the-web/">HyperCard</a>&trade; stacks.<br>
+<p>Ik was rond 2000 een actieve ontwikkelaar van
+<a href="https://arstechnica.com/gadgets/2019/05/25-years-of-hypercard-the-missing-link-to-the-web/">HyperCard</a>&trade; stacks.<br>
 Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> de verkoop stopte, was
-Revolution een van de clonen, later omgedoopt in <a href="https://livecode.com/guides-documentation/"><img src='{{ "/assets/img/mac/LiveCode%20logo.png" | relative_url }}' alt='LiveCode Logo'>LiveCode</a>.</p>
-<p>Een andere kloon was <a href="https://www.supercard.us/got-hypercard.html"><img src='/assets/img/mac/supercard_logo.png' alt='SuperCard logo'></a>, dat anno 2023 ook nog steeds wordt verkocht.</p>
+Revolution een van de clonen, later omgedoopt in <a href="https://livecode.com/guides-documentation/">LiveCode</a>.
+
+<div class="w3-row">
+<div class="w3-col s12 m6">
+<a href="https://livecode.com/guides-documentation/"><img src='{{ "/assets/img/mac/LiveCode_logo.png" | relative_url }}'
+alt='LiveCode Logo' style='max-width: 150px;'>LiveCode</a>.
+</div>
+<div class="w3-col s12 m6">
+<a href="https://www.supercard.us/got-hypercard.html"><img src='{{ "/assets/img/mac/supercard_logo.png" | relative_url }}'
+alt='SuperCard logo' style='max-width: 150px;'></a>
+</div>
+
+<p>Een andere kloon was
+<a href="https://www.supercard.us/got-hypercard.html">SuperCard</a>, dat anno 2024 ook nog steeds wordt verkocht.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m4">

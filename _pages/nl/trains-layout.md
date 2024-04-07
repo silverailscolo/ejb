@@ -11,5 +11,4 @@ toc:
 #  beginning: true # made from the headings
 ---
 
-Zie mijn <a href="https://ebroerse.nl/trains/">oude site</a>
-en de <a href="https://ebroerse.nl/photo/index.php?/category/2">fotogalerij</a>
+Zie de <a href="../../trains/layout.html">Engelse pagina</a>.

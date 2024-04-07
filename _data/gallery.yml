@@ -25,7 +25,7 @@ header_thumb_size: # best image thumb for the header of a gallery index page
   y: 170
 
 scale_method: crop # default for all galleries. could be fit or crop, crop_bottom, crop_right, crop_left, crop_top ('crop' crops around, others crop out the side indicated as a parameter
-strip_exif: true
+strip_exif: false
 size_limit: 1000 # maximum size, px in either dimension, to limit the images to
 
 # Visible watermark - Transparent image, from images/ folder, with grayscale used for hardlight compositing, lower bottom corner.

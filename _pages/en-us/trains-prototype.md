@@ -60,7 +60,7 @@ nav: false
 
 <h4>Proto Links</h4>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Rail_terminology">Rail glossary</a>, to look up the meaning of all those special words</li>
+<li><a href="https://en.m.wikipedia.org/wiki/Glossary_of_rail_transport_terms">Rail Terms Glossary</a>, to look up the meaning of all those special words</li>
 <li>Chasing the Narrow Gauge part I &amp; II, by Robert W. Richardson, published by Heimburger House (no longer in business as of 2024)<br>
 <img src='{{ "/assets/img/trains2/RioGrandeVol2.jpg" | relative_url }}' alt='Chasing the Narrow Gauge, part II: buy this great book' class='w3-image'>
 </li>
