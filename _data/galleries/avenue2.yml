@@ -2,8 +2,9 @@ picture_path: avenue2
 pictures:
   - filename: A2tunnelmondoverzicht
     original: A2tunnelmondoverzicht-540x359.jpg
-    sizes: []
-    thumbnail: A2tunnelmondoverzicht-540x359.jpg
+    sizes:
+      - A2tunnelmondoverzicht-120x80.jpg
+    thumbnail: A2tunnelmondoverzicht-120x80.jpg
   - filename: albertheijn201712_ft24263
     original: albertheijn201712_ft24263-2000x1534.jpg
     sizes: []

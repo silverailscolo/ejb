@@ -3,7 +3,7 @@ layout: page
 title: architectuur
 permalink: /architect/
 id: architecture
-lang: en-us
+lang: nl
 nav: true
 nav_order: 2
 support: [gallery]

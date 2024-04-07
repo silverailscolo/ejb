@@ -7,7 +7,7 @@
 '@manufacturerID': ''
 '@maxSpeed': '100'
 '@productID': ''
-dateUpdated: '2024-04-05T17:30:32.201+00:00'
+dateUpdated: '2024-04-05T17:36:48.750+00:00'
 dccAddress: '99'
 decoder:
   '@maxFnNum': '28'
@@ -31,6 +31,6 @@ roadName: Santa Fe
 roadNumber: '99'
 roster-id: SF GP7 99
 soundlabels: null
-year: 2004
+year: 2024
 ---
-preowned aq. 6/2004
+preowned aq. 6/2004.Given away as gift 2022.

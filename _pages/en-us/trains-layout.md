@@ -14,27 +14,20 @@ toc:
 
 <figure><img src='{{ "/assets/img/trains2/ATH-Challenger-RG-2006.jpg" | relative_url }}' alt='Rio Grande 4-6-6-4 Challenger steam locomotive side view' class='w3-image'></figure>
 
-# A tour of the (former) layout
+## A versatile hobby
 
-Trains2
+I've been modelling in N scale on and off for 30 years, starting with balsa wood and cardboard custom-building (and little pocket money to spend). In 1995 unpacked and tried a spaghetti layout after revisiting Durango for a 2nd time. Started again after moving, building the Durango to Silverton and hoping to make buildings and rolling stock look as real as possible.
+
+You guessed it: after a visit to the area I am modelling the former route of the Denver &amp; Rio Grande Railroad along the banks of the Animas River.<br>
+An American prototype narrow gauge mountain line starts to come alive on my N scale layout: The Durenver &amp; Silverton Narrow Gauge Railroad (get it? <em>Dur</em>ango + D<em>enver</em>).
+
+## A tour of the (former) layout
 
 <!-- simply so (by Jimmy_Xiao) -->
-
 {% include album.html albumname="trains2" %}
 
-Trains
-
 <!-- opieters include -->
-
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
-
-# A versatile hobby
-
-<p>I've been modelling in N scale on and off for 30 years, starting with balsa wood and cardboard custom-building (and little pocket money to spend). In 1995 unpacked and tried a spaghetti layout after revisiting Durango for a 2nd time. Started again after moving, building the Durango to Silverton and hoping to make buildings and rolling stock look as real as possible.</p>
-<p>You guessed it: after a visit to the area I am modelling the former route of the Denver &amp; Rio Grande Railroad along the banks of the Animas River.<br>
-An American prototype narrow gauge mountain line starts to come alive on my N scale layout: The Durenver &amp; Silverton Narrow Gauge Railroad (get it? <em>Dur</em>ango + Den<em>ver</em>).</p>
-
-<p>Please tell me about any interesting newsgroups or websites on these topics.</p>
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -49,7 +42,7 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 </div>
 </div>
 
-# <a id="layout">Modeling the D&amp;SNG RR</a>
+## <a id="layout">Modeling the D&amp;SNG RR</a>
 
 <a href="#newport">Newport</a> | <a href="#farmington">Farmington</a> | <a href="#durenver">Durenver</a> | <a href="#rockwood">Rockwood</a> | <a href="#silverton">Silverton</a>
 
@@ -61,31 +54,47 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 </div>
 <div class="w3-col s12 m6">
 <figure><img src='{{ "/assets/img/trains2/trackplan_full.png" | relative_url }}' alt='Track plan (level 1)' class="w3-image">
-<figcaption class="kleiner">D&amp;SNG Track Plan<br>(view the <a href='{{ "/assets/pdf/Trackplan%20D_S%20RR%202018.pdf" | relative_url }}'>complete Track Plan</a> as a <a href="https://get.adobe.com/nl/reader/">PDF</a>).</figcaption>
+<figcaption class="kleiner">D&amp;SNG Track Plan<br>(view the <a href='{{ "/assets/pdf/Trackplan%20D_S%20RR%202018.pdf" | relative_url }}'>complete Track Plan</a> as a PDF).</figcaption>
 </figure>
 </div>
 </div>
 
-<p>Name: Durenver &amp; Silverton Narrow Gauge RR<br>
-Theme: Colorado Rocky Mountain mining, logging, cattle &amp; passenger trains, interchange with SF at Thoreau NM and D&amp;RGW at Grand Junction CO<br>
-N/Nn3 Scale<br>
-Era: circa 1955<br>
-Minimum Radius: 10 in/25 cm<br>
-Turnouts: Atlas code 55/80 #7/#6, Peco streamline #8, Minitrix #4<br>
-Mainline Run: 100 ft/30 m = 4.8 scale km<br>
-Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
-<a href="#lda">LDA stats</a> below</p>
+Name
+: Durenver &amp; Silverton Narrow Gauge RR
 
-<p>Until the summer of the year 2000 there wasn't much room to spike down the tracks, but one day in 2018 the trains  crossed the miniature Rockies all the way up to the town of <a href="#silverton">Silverton</a>.</p>
+Theme
+: Colorado Rocky Mountain mining, logging, cattle &amp; passenger trains, interchange with SF at Thoreau NM and D&amp;RGW at Grand Junction CO
 
-## <a id="newport">Level 0: Newport, OR</a>
+Scale
+: N/Nn3 Scale
+
+Era
+: circa 1955
+
+Minimum Radius
+: 10 in/25 cm
+
+Turnouts
+: Atlas code 55/80 #7/#6, Peco streamline #8, Minitrix #4
+
+Mainline Run
+: 100 ft/30 m = 4.8 scale km
+
+Dimensions
+: 11 ft x 8 ft/3.5 m x 2.5 m
+
+See the <a href="#lda">LDA stats</a> below</p>
+
+Until the summer of the year 2000 there wasn't much room to spike down the tracks, but one day in 2018 the trains  crossed the miniature Rockies all the way up to the town of <a href="#silverton">Silverton</a>.
+
+### Level 0: Newport, OR {#newport}
 
 <div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Newport.png" | relative_url }}' alt='Newport harbor area track plan' class='w3-image'>
 <figcaption class="kleiner">Newport harbor area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 
-<p>There just had to be a port with a cannery and coal dock on the layout. I found a fitting prototype along the Tacoma Sound in Oregon, where some D&amp;S engines were sent during WWII, so the connection is clear (but the run is a lot shorter).</p>
+There just had to be a port with a cannery and coal dock on the layout. I found a fitting prototype along the Tacoma Sound in Oregon, where some D&amp;S engines were sent during WWII, so the connection is clear (but the run is a lot shorter).
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -98,7 +107,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-## <a id="farmington">Level 0: Farmington and Thoreau, NM</a>
+### Level 0: Farmington and Thoreau, NM {#farmington}
 
 <div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Thoreau.png" | relative_url }}' alt='Farmington NM area track plan' class='w3-image'>
@@ -140,13 +149,14 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-## <a id="durenver">Level 1: Durenver, CO</a>
+### Level 1: Durenver, CO {#durenver}
 
 <div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Durenver.png" | relative_url }}' alt='Durenver area track plan' class='w3-image'>
 <figcaption class="kleiner">Durenver area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<p>Durenver is the main town on the layout, a fictional combination of Durango town and depot located high in the Rockies with the Denver CO dense urban warehouses next to the yard.</p>
+
+Durenver is the main town on the layout, a fictional combination of Durango town and depot located high in the Rockies with the Denver CO dense urban warehouses next to the yard.
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -181,12 +191,14 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-<h4><a id="durango">Level 1: Durango, CO D&amp;SNG Yard</a></h4>
+### Level 1: Durango, CO D&amp;SNG Yard {#durango}
+
 <div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Durango.png" | relative_url }}' alt='Durango area track plan' class='w3-image'>
 <figcaption class="kleiner">Durango area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<p>Central point on the layout is the historic depot and boom town of Durango, CO.</p>
+
+Central point on the layout is the historic depot and boom town of Durango, CO.
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -222,7 +234,7 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-## <a id="rockwood">Level 2: Rockwood, CO</a>
+### Level 2: Rockwood, CO {#rockwood}
 
 <div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Rockwood.png" | relative_url }}' alt='Rockwood area track plan' class='w3-image'>
@@ -263,8 +275,9 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-<h5>Wyman's sawmill</h5>
-<p>During 2 rainy days in my summer vacation I finally built the mill using plans from a 1976 Model Railroader magazine. The location in Rockport had been part of my layout design since more than five years, but the detailed drawings I had studied over and over for the last 40 years contained so much detail that this clearly was not a beginner's model.</p>
+#### Wyman's sawmill
+
+During 2 rainy days in my summer vacation I finally built the mill using plans from a 1976 Model Railroader magazine. The location in Rockport had been part of my layout design since more than five years, but the detailed drawings I had studied over and over for the last 40 years contained so much detail that this clearly was not a beginner's model.
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -277,17 +290,18 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-<p>Windows are Grandt Line castings, some adapted by splitting and joining. All doors were hand made from styrene or stripwood. My son suspects me to enter the sawmill in some kind of modelling competition, and perhaps I will some day.<!-- 17 AUG 2014 --></p>
+Windows are Grandt Line castings, some adapted by splitting and joining. All doors were hand made from styrene or stripwood. My son suspects me to enter the sawmill in some kind of modelling competition, and perhaps I will some day.<!-- 17 AUG 2014 -->
 
-## <a id="silverton">Level 3: Silverton, CO</a>
+### Level 3: Silverton, CO {#silverton}
 
 <div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Silverton.png" | relative_url }}' alt='Silverton track plan' class='w3-image'>
 <figcaption class="kleiner">Silverton track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<p>The final stop on the main line, interchange with SN RR to Ouray and SG&amp;N RR to Gladstone. We were there during a snow storm, so at this point the imagination takes over.</p>
 
-<p>To climb from Rockwood to the High Line, I custom-built a helix in 2012.</p>
+The final stop on the main line, interchange with SN RR to Ouray and SG&amp;N RR to Gladstone. We were there during a snow storm, so at this point the imagination takes over.
+
+To climb from Rockwood to the High Line, I custom-built a helix in 2012.
 
 <div class="w3-row">
 <div class="w3-col s12 m6">
@@ -312,12 +326,14 @@ Dimensions: 11 ft x 8 ft/3.5 m x 2.5 m<br>
 </div>
 </div>
 
-# <a id="lda">Layout Statistics</a>
+## Layout Statistics {#lda}
 
-<p>Layout Design Analysis, <a href="https://web.archive.org/web/20091123122232/http://siskiyou-railfan.net/e107_plugins/content/content.php?content.32.1 ">LDA</a> in short, provides insight into how well a model layout will operate given its size, complexity and amount of rolling stock.<br>
+Layout Design Analysis, <a href="https://web.archive.org/web/20091123122232/http://siskiyou-railfan.net/e107_plugins/content/content.php?content.32.1 ">LDA</a> in short, provides insight into how well a model layout will operate given its size, complexity and amount of rolling stock.<br>
 LDA was developed by Joe Fugate, but the original web pages are no longer up. Link is to the Wayback Machine, checked Feb 2023.<br>
-All credits for LDA go to Joe Fugate.</p>
-<p>To summarize the input:</p>
+All credits for LDA go to Joe Fugate.
+
+To summarize the input:
+
 <ul>
 <li>Room and Layout area are self-explanatory, with the latter representing the total area taken up by just the layout "tabletop" itself.</li>
 <li>Number of turnouts is used to calculate the complexity and operational potential. Count a crossing as a turnout, and count a single slip switch or three-way turnout as 2 turnouts. Count a double slip switch as 3 turnouts.</li>
@@ -326,7 +342,9 @@ All credits for LDA go to Joe Fugate.</p>
 <li>Connecting track = total track - mainline - passing - storage - staging - service</li>
 <li>Staging train length (three values separated by slashes -- longest/average/shortest)</li>
 </ul>
-<p>Next, we do some math:</p>
+
+Next, we do some math:
+
 <ul>
 <li>Max. # of cars = 80% of (storage + staging + passing/2).</li>
 <li># of cars moved = 40% of (staging x 2 + passing + connecting)</li>
@@ -334,69 +352,65 @@ All credits for LDA go to Joe Fugate.</p>
 <li>Dispatching threshold = (3 x shortest passing siding + 2 x average passing siding + the longest passing siding) / 6</li>
 </ul>
 
-<p>Room Area (sq ft): 110<br>
-Layout Area (sq ft): 86 (78%)<br>
-Number Turnouts: 61<br>
-Total Track: 200 ft = 800 cars<br>
-Train Length (cars): 18/15/12<br>
-Maximum # Cars: 172<br>
-# Trains: 9<br>
-Dispatching threshold: 14 car trains</p>
+### LDA Results:
 
-<p>It works nicely with <a href="https://www.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml">JMRI Operations</a> (Dec. 2012)</p>
+Room Area (sq ft)
+: 110
 
-# <a id="rollingstock">Rolling stock</a>
+Layout Area (sq ft)
+: 86 (78%)
 
-<p>In January 2007 I entered all my items in a dedicated database <a href="https://www.mcrichter.de/Seiten/Deutsch/Programme/MoVe/MoVe.html">Mac-MoVe</a>. It was astonishing to get a good look at all the beautiful items one has collected (and paid for) over the years.</p>
+Number Turnouts
+: 61
+
+Total Track
+: 200 ft = 800 cars
+
+Train Length (cars)
+: 18/15/12
+
+Maximum Number of Cars
+: 172
+
+Number of Trains
+: 9
+
+Dispatching threshold
+: 14 car trains
+
+It works nicely with <a href="https://www.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml">JMRI Operations</a> (Dec. 2012)
+
+## Rolling stock
+
+Check out my <a href='{{ "/rollingstock/" | relative_url }}'>Rolling Stock Collection</a>.
+
+In January 2007 I entered all my items in a dedicated database <a href="https://www.mcrichter.de/Seiten/Deutsch/Programme/MoVe/MoVe.html">Mac-MoVe</a>. It was astonishing to get a good look at all the beautiful items one has collected (and paid for) over the years.</p>
 All Items were later added to <a href="https://webserver.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml#CarsEdit">JMRI Operations Car Roster</a>.
 
-<div class="w3-row">
-<div class="w3-col s12 m6">
-<figure><img src='{{ "/assets/img/trains2/IMG_2353lo.jpg" | relative_url }}' alt='Atlas Shay logging steam locomotive' class='w3-image'>
-<figcaption class="kleiner">Atlas Shay (reserved Sept. 2004, received Aug. 2005, DCC  + weathered Apr. 2009).</figcaption></figure>
-</div>
-<div class="w3-col s12 m6">
-<figure><img src='{{ "/assets/img/trains2/rs3%20rio%20grande.gif" | relative_url }}' alt="Alco RS-3" class='w3-image'>
-<figcaption class="kleiner">Rio Grande Alco RS-3 #5203 freight engine, made by <a href="https://shop.atlasrr.com/default.aspx">Atlas</a>, converted to DCC in 2005.</figcaption></figure>
-</div>
-</div>
-
-<div class="w3-row">
-<div class="w3-col s12 m6">
-<figure><img src='{{ "/assets/img/trains2/110-1083.jpg" | relative_url }}' class='w3-image' alt="A nice team engine">
-<figcaption class="kleiner">Baldwin F-1 steam engine by MDC (now <a href="https://www.athearn.com/Products/N/Default.aspx">Athearn)</a><br>
- passing the wye.</figcaption></figure>
-</div>
-<div class="w3-col s12 m6">
+<div class="w3-card w3-center" style="max-width: 80%;">
 <figure><img src='{{ "/assets/img/trains2/IMG_2380lo.jpg" | relative_url }}' alt='Silverton RR Nn3 2-6-0 (conversion by me) April 09' class='w3-image'>
-<figcaption class="kleiner">Republic Locomotive Works white metal conversion kit on top of a M&auml;rklin Z frame (I'm proud!)</figcaption></figure>
-</div>
-</div>
-
-<div class="w3-row">
-<div class="w3-col s12 m6">
-<figure><img src='{{ "/assets/img/trains2/IMG_9726_AlcoPA1Kato.jpg" | relative_url }}' alt='PA-1' class='w3-image'>
-<figcaption class="kleiner">Rio Grande PA-1 by <a href="https://katousa.com/n-pa-index/">Kato</a>.</figcaption></figure>
-</div>
-<div class="w3-col s12 m6">
-<figure><a href="https://archive.atlasrr.com/NLoco/arc-nh151644.htm"><img src='{{ "/assets/img/trains2/Rio%20Grande%20H-15.gif" | relative_url }}' alt='De nieuwe Atlas H15-44' class='w3-image'></a>
-<figcaption class="kleiner">Rio Grande H15-44, made by <a href="https://shop.atlasrr.com">Atlas</a>.</figcaption></figure>
-</div>
+<figcaption class="kleiner">Nn3 2-6-0 (Republic Locomotive Works white metal conversion kit on top of a M&auml;rklin Z frame. I'm proud of this job!)</figcaption></figure>
 </div>
 
-# Model RR Links
+## Model RR Links
 
-<ul>
-<li><a href="https://www.nscalesupply.com/">N Scale Supply: A fine shop shipping internationally</a></li>
-<li><a href="https://www.trains.com/mrr/">Model Railroader monthly magazine</a></li>
-<li><a href="https://www.nmra.org/special-interest-groups">NMRA Special Interest Groups (SIGs)</a></li>
-<li><a href="https://ldsig.org/">Layout Design SIG</a>
-  <ul>
-  <li><a href="https://ldsig.net/o/ldsig/wiki/index_title_Category_Primer.html">Layout Design SIG Primer</a></li>
-  </ul></li>
-<li><a href="https://www.opsig.org/">Operations SIG</a></li>
-<li><a href="https://www.railpictures.net/">RailPictures.Net</a></li>
-</ul>
+<a href="https://www.nscalesupply.com/">N Scale Supply</a>
+: A fine shop shipping internationally
+
+<a href="https://www.trains.com/mrr/">Model Railroader monthly magazine</a>
+: The magazine that got me interested in 1974
+
+<a href="https://www.nmra.org/special-interest-groups">NMRA Special Interest Groups (SIGs)</a>
+: Thematic groups of interest:
+
+<a href="https://ldsig.org/">Layout Design SIG</a>
+: they publish the <a href="https://ldsig.net/o/ldsig/wiki/index_title_Category_Primer.html">Layout Design SIG Primer</a>
+
+<a href="https://www.opsig.org/">Operations SIG</a>
+: Learn about industries and yard ops
+
+<a href="https://www.railpictures.net/">RailPictures.Net</a>
+: Browse large archives of prototype pictures from home
 
 <!-- naar boven menuutje -->
 <div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px;">

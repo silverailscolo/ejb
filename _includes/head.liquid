@@ -133,21 +133,22 @@
   <!-- Lightgallery.rb plugin. Takes care of css too -->
   {% gallery_includes %}
   <!-- EBR added for Lightgallery opieters -->
-  <link rel="stylesheet" href="/assets/css/gallery.css">
+  <link rel="stylesheet" href="{{ '/assets/css/gallery.css' | relative_url }}">
 {% endif %}
 
 <!-- Lightgallery -->
 {% if page.support contains 'artgallery' %}
-  <script src="/assets/js/full.umd.cjs"></script>
+  <script src="{{ '/assets/js/full.umd.cjs' | relative_url }}"></script>
 {% endif %}
 
 <!-- Imagemapster (garden plan) -->
 {% if page.support contains 'mapster' %}
-  <script src="/assets/js/jquery.imagemapster.min.js">
-  // import imagemapster (local js JQuery extension to highlight map elements from map
+  <script src="{{ '/assets/js/jquery.imagemapster.min.js' | relative_url }}">
+  // import imagemapster (local js JQuery extension to highlight map elements from map)
   </script>
-  <script src="/assets/js/mapster.js"></script>
+  <script src="{{ '/assets/js/mapster.js' | relative_url }}"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/mapster.css' | relative_url }}">
 {% endif %}
 
 <!-- use w3- styling EBR -->
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="{{ '/assets/css/w3-ejb.css' | relative_url }}">

@@ -4,7 +4,7 @@ layout: default
 
 {% if page.title %}
 <h1 class="page-heading">{{ page.title }}</h1>
-{% endif %} {{ content }} {% assign items=site.rollingstock %} {% if items.size > 0 %}
+{% endif %} {{ content }} {% assign items = site.rollingstock %} {% if items.size > 0 %}
 <h3 class="post-list-heading">{{ page.list_title | default: "My rolling stock" }}</h3>
 <ul class="post-list">
   {% for item in items reversed %}
@@ -22,3 +22,21 @@ layout: default
   {% endfor %}
 </ul>
 {% endif %}
+
+<h3 class="post-list-heading">Cars</h3>
+
+<table>
+  {% for row in site.data.car_roster %}
+  {% if forloop.first %}
+  <tr>
+    {% for pair in row %}
+    <th>{{ pair[0] }}</th>
+    {% endfor %}
+  </tr>
+  {% endif %}
+
+  {% tablerow pair in row %}
+  {{ pair[1] }}
+  {% endtablerow %}
+  {% endfor %}
+</table>

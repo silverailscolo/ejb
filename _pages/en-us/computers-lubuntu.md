@@ -2,13 +2,13 @@
 page_id: lubuntu
 layout: page
 permalink: /computers/lubuntu
-title: lubuntu
+title: Lubuntu Tips
 description: Lubuntu (Linux) tips
 lang: en-us
 nav: false
 ---
 
-# Lubuntu tips
+<div class="w3-card">
 
 ## Installing a Belkin WiFi PCMCIA card on Lubuntu 14.04
 
@@ -73,3 +73,5 @@ If your laptop also has an internal, built-in wireless card, be sure to pick the
 
 Hope this has been of help to you.
 Source of these instructions: [help.ubuntu.com](https://help.ubuntu.com/community/WifiDocs/Driver/bcm43xx) and [launchpad.net](https://launchpad.net/ubuntu/+source/b43-fwcutter).
+
+</div>
