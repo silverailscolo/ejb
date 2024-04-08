@@ -1,98 +1,98 @@
-Owner,Scale,Category,Type,Road,Builder,Model,Roadnumber,Axle,Manufacturer,FmgNumber,,Shop,Address,Comment,YearStart,YearEnd
-Ownership,N,Engine,Diesel,ATSF,EMD,GP-7,-,2B,Atlas,48103,,N Scale Supply,4,Preowned Q834. DCC dealer installed,,
-Ownership,N,Engine,Diesel,Burlington,,GP-40,,,Life Like,S781B,,,,motor heated up. removed. dummy. Rapido couplers,,
-Ownership,N,Engine,Diesel,D&RGW,,RS-3,5203,2B,Atlas,42010,,World of Trains,5203,,,
-Ownership,N,Engine,Steam,D&RGW,,Mogul,479,06-02-00,Roundhouse,8052,,N Scale Supply,,,,
-Ownership,N,Engine,Diesel,D&RGW,Fairbanks Morse,H15-44,151,2B,Atlas,52086,,N Scale Supply,151,marker lights & factory installed Lenz DCC decoder,1947,1954
-Ownership,N,Engine,Diesel,D&RGW,Alco,PA-1,6003,2C,Kato,176-4101,,N Scale Supply,,,,
-Ownership,N,Engine,Steam,D&RGW,,,516,08-02-00,Roundhouse,8002,,N Scale Supply,,MDC coupler,,
-Ownership,N,Engine,Diesel,D&RGW,,RS-3,5200,2B,Atlas,42009,,World of Trains,,,,
-Ownership,N,Engine,Diesel,D&RGW,,PA-1,,,Con Cor,001-02061D,,The Train Master. NY,,powered A. Rio Grande Ski Train livery. MT conversion is ready,,
-Ownership,N,Engine,Diesel,D&RGW,,PA-1,,,Con Cor,001-02071D,,The Train Master. NY,,dummy A. Rio Grande Ski Train livery. MT conversion is ready,,
-Ownership,N,Engine,Steam,Indiana Harbor Belt RR,,,102,0-8-0,Rivarossi,9134,,Groesz Leiden,,pre-1980 present,,
-Ownership,N,Engine,Steam,Rio Grande,Rogers Loco. Works,Mogul,Shoo wa no,06-02-00,Atlas,41603,,N Scale Supply,,,1863,
-Ownership,N,Engine,Steam,Santa Fe,,Docksider,116,0-4-0,Bachmann,52652,,Standard Hobby Supply,,Rapido couplers,,
-Ownership,N,Engine,Diesel,Santa Fe,,PA-1,51,2C,Con Cor,001-002002,,World of Trains,,powered A. part of set of 3. total $ 72.00,,
-Ownership,N,Engine,Diesel,Santa Fe,,PB-1,54,2C,Con Cor,001-002042,,World of Trains,,dummy B. part of set of 3. total $ 72.00,,
-Ownership,N,Engine,Diesel,Santa Fe,,PA-1,59,2C,Con Cor,001-002102,,World of Trains,,dummy A. part of set of 3. total $ 72.00,,
-Ownership,N,Engine,Steam,Santa Fe,,Northern,3780,08-04-04,Bachmann,58052,,Standard Hobby Supply,,,,
-Ownership,N,Engine,Diesel,Southern Pacific,EMD,E8-A,,,Con Cor,001-002731,,The Train Master. NY,,powered A,,
-Ownership,N,Engine,Diesel,Southern Pacific,EMD,E8-A,-,2C,Con Cor,001-002731,,The Train Master. NY,,dummy A,,
-Ownership,N,Engine,Steam,Undecorated,Shay,B,-,2B,Atlas,41620,,N Scale Supply,,DCC retrofitted,1920,1930
-Ownership,N,Engine,Steam,Undecorated,Shay,B,-,2B,Atlas,41620,,N Scale Supply,,,1920,1930
-Ownership,N,Freight car,Box car,ATSF,,,141702,,Micro Trains,20460,,N Scale Supply,,operating doors. reprint Dec. 2003,1941,1947
-Ownership,N,Freight car,Cattle car,ATSF,,,1629,,Roundhouse,87804,,N Scale Supply,,part of Four Pak #89421 AT&SF OT freight cars. Rapido couplers,,
-Ownership,N,Freight car,Gondola,BM Boston & Maine,,8-rib steel,BM9704,,Rivarossi,9330,,Niagara Hobbies,,Rapido,,
-Ownership,N,Freight car,Box car,BM Boston & Maine,,wooden,7703,,Life Like,S789B,,,,Rapido. pre 1980,,
-Ownership,N,Freight car,Reefer,Burlington,,,RBBX79022,,Life Like,S788C,,,,Rapido couplers. pre 1980,,
-Ownership,N,Freight car,Cattle car,CN Canadian National,,,173538,2B,Life Like,S790B,,,,Rapido. pre 1980,,
-Ownership,N,Freight car,Reefer,Cudahy,,,7471,2B,MRC,,,Groesz Leiden,,Rapido couplers,,
-Ownership,N,Freight car,Box car,D&RG,,,63499,2B,Athearn,10977,,N Scale Supply,,,,
-Ownership,N,Freight car,Box car,D&RG,,,63482,2B,Athearn,10978,,N Scale Supply,,,,
-Ownership,N,Freight car,Flat car,D&RG,,,91306,,Rivarossi,9343,,Niagara Hobbies,,Rapido couplers. marked RDG instead of DRG. stakes supplied seperately,,
-Ownership,N,Freight car,Box car,D&RGW,,,60035,,Micro Trains,20110,,N Scale Supply,,Preowned Q936. MT couplers. operating door. reprint Dec. 2002,1939,1955
-Ownership,N,Freight car,Hopper,D&RGW,ACF Am. Car & Foundry,LO,10099,,Micro Trains,92020,,N Scale Supply,,Preowned Q1210. MT couplers,,
-Ownership,N,Freight car,Gondola,D&RGW,,,71832,,Intermountain,68101-17,,N Scale Supply,,MT couplers,,
-Ownership,N,Freight car,Gondola,D&RGW,,,71648,,Intermountain,68101-16,,N Scale Supply,,MT couplers,,
-Ownership,N,Freight car,Gondola,D&RGW,,,71264,,Intermountain,68101-02,,N Scale Supply,,MT couplers,,
-Ownership,N,Freight car,Tank car,D&RGW,,,X-2908,2B,Model Power,3750,,,,Rapido,,
-Ownership,N,Freight car,Box car,D&RGW,,FGE,61415,,Atlas,,,Niagara Hobbies,,,,
-Ownership,N,Freight car,Hopper,D&RGW,,,15525,,Atlas,3704,,Standard Hobby Supply,,Rapido,,
-Ownership,N,Freight car,Flat car,D&RGW,,,22338,2B,Atlas,3748,,Standard Hobby Supply,,with 2 RG trailers. Rapido,,
-Ownership,N,Freight car,Cattle car,D&RGW,,,36419,,Micro Trains,35090,,trade show,,operating doors. MT couplers. black,1900,1950
-Ownership,N,Freight car,Hopper,Great Northern,,,93520,2B,Atlas,5500,,Standard Hobby Supply,,1 of 3-pack (different road #s),,
-Ownership,N,Freight car,Hopper,Great Northern,,,94184,2B,Atlas,5500,,Standard Hobby Supply,,1 of 3-pack (different road #s),,
-Ownership,N,Freight car,Hopper,Great Northern,,,93677,2B,Atlas,5500,,Standard Hobby Supply,,1 of 3-pack (different road #s),,
-Ownership,N,Freight car,Reefer,Kansas Oklahoma & Gulf,,,30011,2B,AHM,4454D,,trade show,,hfl 6.50,1980,
-Ownership,N,Freight car,Hopper,MKT Missouri Kansas Texas,ACF Am. Car & Foundry,,40801,,deLuxe Innovations,7150,,N Scale Supply,,1 of 3-pack (different road #s),1932,1965
-Ownership,N,Freight car,Hopper,MKT Missouri Kansas Texas,ACF Am. Car & Foundry,,40950,,deLuxe Innovations,7150,,N Scale Supply,,1 of 3-pack (different road #s),1932,1965
-Ownership,N,Freight car,Hopper,MKT Missouri Kansas Texas,ACF Am. Car & Foundry,,40954,,deLuxe Innovations,7150,,N Scale Supply,,1 of 3-pack (different road #s),1932,1965
-Ownership,N,Freight car,Box car,MTL (Micro Trains),,,MTL 80,2B,Micro Trains,,,trade show,,MT couplers. no box,1950,1980
-Ownership,N,Freight car,Box car,Muncie & Western RR,,,1282,,Roundhouse,87506,,N Scale Supply,,part of Four Pak #89421 AT&SF OT freight cars. Rapido couplers,,
-Ownership,N,Freight car,Reefer,Rath Packing Co.,,,1529,,Red Caboose,RN-18412-4,,N Scale Supply,,MDC couplers,,
-Ownership,N,Freight car,Reefer,Rath Packing Co.,,,1534,,Red Caboose,RN-18412-5,,N Scale Supply,,MDC couplers,,
-Ownership,N,Freight car,Reefer,Santa Fe,,,2378,,Roundhouse,87016,,N Scale Supply,,part of Four Pak #89421 AT&SF OT freight cars. Rapido couplers,,
-Ownership,N,Freight car,Box car,Santa Fe,,,8521,,Roundhouse,87503,,N Scale Supply,,part of Four Pak #89421 AT&SF OT freight cars. Rapido couplers,,
-Ownership,N,Freight car,Reefer,The E. Kahn & Sons Co.,,,EKSX3792,2B,AHM,4454M,,trade show,,hfl 6.50,1980,
-Ownership,N,Freight car,Reefer,Thermice,,,TICX9803,2B,AHM,4454C,,trade show,,hfl 6.50 . replaced bij Roco coupler on 1 side (to be replaced),1980,
-Ownership,N,Freight car,Reefer,Tivoli Union Co. TUX,,,5100,,Atlas,41423,,N Scale Supply,,MT couplers,,
-Ownership,N,Freight car,Box car,TP&W,,,510,,AHM,,,,,Rapido couplers,,
-Ownership,N,Freight car,Hopper,Undecorated,,,-,,Atlas,3200,,N Scale Supply,,to be painted & decaled,,
-Ownership,N,Freight car,Hopper,US Air Force,,,55129,,Micro Trains,56120,,N Scale Supply,,MT couplers. reprint Dec. 2003,1950,1970
-Ownership,N,Freight car,Flat car,,ACF Am. Car & Foundry,FM,23019,,Micro Trains,45060,,N Scale Supply,,Preowned Q1362,1956,1995
-Ownership,N,Freight car,Log car,,,,-,,Micro Trains,113030,,N Scale Supply,,MT couplers. log single + low profile wheels. new Feb. 2004,,
-Ownership,N,Freight car,Hopper,,Bethlehem Steel Co.,HT,146891-8-1966,,Micro Trains,108060,,N Scale Supply,,Preowned Q1346. MT couplers,,
-Ownership,N,Freight car,Log car,,,,-,,Micro Trains,113520,,N Scale Supply,,MT couplers. log load #5 + low profile wheels. new Sept. 2004,,
-Ownership,N,Freight car,Tank car,,,2073-dome,DRX207,,Atlas,2294,,,,pre 1980 present,,
-Ownership,N,Freight car,Box car,,,Evans,BBC 1992CX,2B,BevBel,10027,,Niagara Hobbies,,LifeLike jewel box. Seasons Greetings (Holliday) livery,,
-Ownership,N,Freight car,Gondola,,,,89224,2B,Rivarossi,9332,,Niagara Hobbies,,Rapido couplers. Atlas jewel box. imported by ConCor,,
-Ownership,N,Railcar,Diesel,Undecorated,,RDC-4,-,,Kato,,,N Scale Supply,1001,half of set (other is RDC-2),,
-Ownership,N,Railcar,Diesel,Undecorated,,RDC-2,-,,Kato,106-3008,,N Scale Supply,,half of set (other is RDC-4),,
-Ownership,N,Wagon,Non-revenue,ATCX,,,,,Atlas,,,N Scale Supply,,rack Cleaner Car. DC operating blower/abrasive disc,,
-Ownership,N,Wagon,Non-revenue,ATSF,,2-window cupola,2219,2B,Atlas,3563,,,,simple brake wheel moulding,,
-Ownership,N,Wagon,Passenger,California Zephyr,,,Silver Cedar,2B,Arnold,5410,,N Scale Supply,,Preowned Q392. part of set of 4. MT couplers,,
-Ownership,N,Wagon,Non-revenue,California Zephyr,,,Silver Stag,2B,Arnold,5420,,N Scale Supply,,Preowned Q392. part of set of 4. MT couplers,,
-Ownership,N,Wagon,Passenger,California Zephyr,,,Silver Lookout,2B,Arnold,5400,,N Scale Supply,,Preowned Q392. part of set of 4. MT coupler on leading truck,,
-Ownership,N,Wagon,Passenger,California Zephyr,,,Silver Lookout,2B,Arnold,5430,,N Scale Supply,,Preowned Q392. part of set of 4. MT couplers,,
-Ownership,N,Wagon,Passenger,D&RG,Pullman,,321,,Arnold,540,,N Scale Supply,,Preowned Q512. in 1 box wth 2 other Arnold coaches. total $ 35. Rapido couplers,,
-Ownership,N,Wagon,Non-revenue,D&RG,Pullman,,Railway Express Agency,,Arnold,540,,N Scale Supply,,Preowned Q512. in 1 box wth 2 other Arnold coaches. total $ 35. Rapido couplers,,
-Ownership,N,Wagon,Passenger,D&RG,Pullman,parlor,Glenwood Canon,,Arnold,540,,N Scale Supply,,Preowned Q512. in 1 box wth 2 other Arnold coaches. total $ 35. Rapido couplers,,
-Ownership,N,Wagon,Passenger,D&RG,Pullman,,Baggage Express,,Arnold,553,,N Scale Supply,,Preowned Q513. in 1 box with 2 other Arnold coaches. total $ 35. Rapido couplers,,
-Ownership,N,Wagon,Passenger,D&RG,Pullman,,Lake Ernest,,Arnold,553,,N Scale Supply,,Preowned Q513. in 1 box with 2 other Arnold coaches. total $ 35. Rapido couplers,,
-Ownership,N,Wagon,Passenger,D&RG,Pullman,,Twin Peak,,Arnold,553,,N Scale Supply,,Preowned Q513. in 1 box with 2 other Arnold coaches. total $ 35. Rapido couplers,,
-Ownership,N,Wagon,Non-revenue,D&RGW,,,AX-2410 MW,2B,Micro Trains,116020.1,,N Scale Supply,,Foreman Office Car + low profile wheels. new Jan. 2004,1948,1988
-Ownership,N,Wagon,Passenger,D&RGW,,Overland,333,,Roundhouse,88003,,N Scale Supply,,kit. part of Twinpack,,
-Ownership,N,Wagon,Passenger,D&RGW,,Overland,339,,Roundhouse,88003,,N Scale Supply,,kit. part of Twinpack,,
-Ownership,N,Wagon,Non-revenue,D&RGW,,,1156,,Micro Trains,50110,,N Scale Supply,,MT couplers + low profile wheelset. reprint Feb. 2003,,
-Ownership,N,Wagon,Non-revenue,D&RGW,Russell,,X-67,,Walthers,932-8512,,N Scale Supply,,,,
-Ownership,N,Wagon,Non-revenue,D&SNG,,,TBD,,Life Like,S782A,,,,bought pre 1980 as SF (brown). Rapido couplers,,
-Ownership,N,Wagon,Non-revenue,Erie Lackawanna,,Crane,95915,2C,Bachmann,46619,,,,half of a set. with Boom Tender 2914. Rapido couplers,,
-Ownership,N,Wagon,Non-revenue,Erie Lackawanna,,Boom tender,2914,2B,Bachmann,46619,,,,half of a set. with Crane 95915. Rapido couplers,,
-Ownership,N,Wagon,Passenger,PRR Pennsylvania RR,Pullman,Pullman,4496,2C,Atlas,2624,,Groesz Leiden,,hfl 8.60 with 04-1968 index sheet in box,,
-Ownership,N,Wagon,Passenger,PRR Pennsylvania RR,Pullman,Pullman,348,2C,Atlas,2624,,Groesz Leiden,,hfl 8.60 produced circa 04-1968. see index sheet in box of campanion obs. wagon,,
-Ownership,N,Wagon,Non-revenue,Rio Grande,,EV,1504,,Micro Trains,30618,,N Scale Supply,,Extended Vision. MT Couplers,,
-Ownership,N,Wagon,Passenger,Southern Pacific,,Overton,337,,Roundhouse,8912,,trade show,,kit. MDC couplers. hfl 20.-,,
-Ownership,N,Wagon,Passenger,Southern Pacific,,Overton,337,,Roundhouse,8910,,trade show,,kit. MDC couplers. hfl 20.-,,
-Ownership,N,Wagon,Passenger,Southern Pacific,,Overton,103,,Roundhouse,8909,,trade show,,kit. MDC couplers. hfl 20.-,,
-Ownership,N,Wagon,Passenger,,,Overton,,,Bachmann,75651,,Standard Hobby Supply,,Rapido,,
-Ownership,N,Wagon,Passenger,,,Overton,,,Bachmann,75551,,Standard Hobby Supply,,Rapido,,
+Type,Road,Builder,Model,Roadnumber,Axle,Manufacturer,MfgNumber,Shop,Comment
+Diesel,ATSF,EMD,GP-7,-,2B,Atlas,48103,N Scale Supply,Preowned Q834. DCC dealer installed
+Diesel,Burlington,,GP-40,,,Life Like,S781B,,motor heated up. removed. dummy. Rapido couplers
+Diesel,D&RGW,,RS-3,5203,2B,Atlas,42010,World of Trains,
+Steam,D&RGW,,Mogul,479,06-02-00,Roundhouse,8052,N Scale Supply,
+Diesel,D&RGW,Fairbanks Morse,H15-44,151,2B,Atlas,52086,N Scale Supply,marker lights & factory installed Lenz DCC decoder
+Diesel,D&RGW,Alco,PA-1,6003,2C,Kato,176-4101,N Scale Supply,
+Steam,D&RGW,,,516,08-02-00,Roundhouse,8002,N Scale Supply,MDC coupler
+Diesel,D&RGW,,RS-3,5200,2B,Atlas,42009,World of Trains,
+Diesel,D&RGW,,PA-1,,,Con Cor,001-02061D,The Train Master. NY,powered A. Rio Grande Ski Train livery. MT conversion is ready
+Diesel,D&RGW,,PA-1,,,Con Cor,001-02071D,The Train Master. NY,dummy A. Rio Grande Ski Train livery. MT conversion is ready
+Steam,Indiana Harbor Belt RR,,,102,0-8-0,Rivarossi,9134,Groesz Leiden,pre-1980 present
+Steam,Rio Grande,Rogers Loco. Works,Mogul,Shoo wa no,06-02-00,Atlas,41603,N Scale Supply,
+Steam,Santa Fe,,Docksider,116,0-4-0,Bachmann,52652,Standard Hobby Supply,Rapido couplers
+Diesel,Santa Fe,,PA-1,51,2C,Con Cor,001-002002,World of Trains,powered A. part of set of 3. total $ 72.00
+Diesel,Santa Fe,,PB-1,54,2C,Con Cor,001-002042,World of Trains,dummy B. part of set of 3. total $ 72.00
+Diesel,Santa Fe,,PA-1,59,2C,Con Cor,001-002102,World of Trains,dummy A. part of set of 3. total $ 72.00
+Steam,Santa Fe,,Northern,3780,08-04-04,Bachmann,58052,Standard Hobby Supply,
+Diesel,Southern Pacific,EMD,E8-A,,,Con Cor,001-002731,The Train Master. NY,powered A
+Diesel,Southern Pacific,EMD,E8-A,-,2C,Con Cor,001-002731,The Train Master. NY,dummy A
+Steam,Undecorated,Shay,B,-,2B,Atlas,41620,N Scale Supply,DCC retrofitted. weathered
+Steam,Undecorated,Shay,B,-,2B,Atlas,41620,N Scale Supply,
+Box car,ATSF,,,141702,,Micro Trains,20460,N Scale Supply,operating doors. reprint Dec. 2003
+Cattle car,ATSF,,,1629,,Roundhouse,87804,N Scale Supply,part of Four Pak #89421 AT&SF OT freight cars. Rapido couplers
+Gondola,BM Boston & Maine,,8-rib steel,BM9704,,Rivarossi,9330,Niagara Hobbies,Rapido
+Box car,BM Boston & Maine,,wooden,7703,,Life Like,S789B,,Rapido. pre 1980
+Reefer,Burlington,,,RBBX79022,,Life Like,S788C,,Rapido couplers. pre 1980
+Cattle car,CN Canadian National,,,173538,2B,Life Like,S790B,,Rapido. pre 1980
+Reefer,Cudahy,,,7471,2B,MRC,,Groesz Leiden,Rapido couplers
+Box car,D&RG,,,63499,2B,Athearn,10977,N Scale Supply,
+Box car,D&RG,,,63482,2B,Athearn,10978,N Scale Supply,
+Flat car,D&RG,,,91306,,Rivarossi,9343,Niagara Hobbies,Rapido couplers. marked RDG instead of DRG. stakes supplied seperately
+Box car,D&RGW,,,60035,,Micro Trains,20110,N Scale Supply,Preowned Q936. MT couplers. operating door. reprint Dec. 2002
+Hopper,D&RGW,ACF Am. Car & Foundry,LO,10099,,Micro Trains,92020,N Scale Supply,Preowned Q1210. MT couplers
+Gondola,D&RGW,,,71832,,Intermountain,68101-17,N Scale Supply,MT couplers
+Gondola,D&RGW,,,71648,,Intermountain,68101-16,N Scale Supply,MT couplers
+Gondola,D&RGW,,,71264,,Intermountain,68101-02,N Scale Supply,MT couplers
+Tank car,D&RGW,,,X-2908,2B,Model Power,3750,,Rapido
+Box car,D&RGW,,FGE,61415,,Atlas,,Niagara Hobbies,
+Hopper,D&RGW,,,15525,,Atlas,3704,Standard Hobby Supply,Rapido
+Flat car,D&RGW,,,22338,2B,Atlas,3748,Standard Hobby Supply,with 2 RG trailers. Rapido
+Cattle car,D&RGW,,,36419,,Micro Trains,35090,trade show,operating doors. MT couplers. black
+Hopper,Great Northern,,,93520,2B,Atlas,5500,Standard Hobby Supply,1 of 3-pack (different road #s)
+Hopper,Great Northern,,,94184,2B,Atlas,5500,Standard Hobby Supply,1 of 3-pack (different road #s)
+Hopper,Great Northern,,,93677,2B,Atlas,5500,Standard Hobby Supply,1 of 3-pack (different road #s)
+Reefer,Kansas Oklahoma & Gulf,,,30011,2B,AHM,4454D,trade show,hfl 6.50
+Hopper,MKT Missouri Kansas Texas,ACF Am. Car & Foundry,,40801,,deLuxe Innovations,7150,N Scale Supply,1 of 3-pack (different road #s)
+Hopper,MKT Missouri Kansas Texas,ACF Am. Car & Foundry,,40950,,deLuxe Innovations,7150,N Scale Supply,1 of 3-pack (different road #s)
+Hopper,MKT Missouri Kansas Texas,ACF Am. Car & Foundry,,40954,,deLuxe Innovations,7150,N Scale Supply,1 of 3-pack (different road #s)
+Box car,MTL (Micro Trains),,,MTL 80,2B,Micro Trains,,trade show,MT couplers. no box
+Box car,Muncie & Western RR,,,1282,,Roundhouse,87506,N Scale Supply,part of Four Pak #89421 AT&SF OT freight cars. Rapido couplers
+Reefer,Rath Packing Co.,,,1529,,Red Caboose,RN-18412-4,N Scale Supply,MDC couplers
+Reefer,Rath Packing Co.,,,1534,,Red Caboose,RN-18412-5,N Scale Supply,MDC couplers
+Reefer,Santa Fe,,,2378,,Roundhouse,87016,N Scale Supply,part of Four Pak #89421 AT&SF OT freight cars. Rapido couplers
+Box car,Santa Fe,,,8521,,Roundhouse,87503,N Scale Supply,part of Four Pak #89421 AT&SF OT freight cars. Rapido couplers
+Reefer,The E. Kahn & Sons Co.,,,EKSX3792,2B,AHM,4454M,trade show,hfl 6.50
+Reefer,Thermice,,,TICX9803,2B,AHM,4454C,trade show,hfl 6.50 . replaced bij Roco coupler on 1 side (to be replaced)
+Reefer,Tivoli Union Co. TUX,,,5100,,Atlas,41423,N Scale Supply,MT couplers
+Box car,TP&W,,,510,,AHM,,,Rapido couplers
+Hopper,Undecorated,,,-,,Atlas,3200,N Scale Supply,to be painted & decaled
+Hopper,US Air Force,,,55129,,Micro Trains,56120,N Scale Supply,MT couplers. reprint Dec. 2003
+Flat car,,ACF Am. Car & Foundry,FM,23019,,Micro Trains,45060,N Scale Supply,Preowned Q1362
+Log car,,,,-,,Micro Trains,113030,N Scale Supply,MT couplers. log single + low profile wheels. new Feb. 2004
+Hopper,,Bethlehem Steel Co.,HT,146891-8-1966,,Micro Trains,108060,N Scale Supply,Preowned Q1346. MT couplers
+Log car,,,,-,,Micro Trains,113520,N Scale Supply,MT couplers. log load #5 + low profile wheels. new Sept. 2004
+Tank car,,,2073-dome,DRX207,,Atlas,2294,,pre 1980 present
+Box car,,,Evans,BBC 1992CX,2B,BevBel,10027,Niagara Hobbies,LifeLike jewel box. Seasons Greetings (Holliday) livery
+Gondola,,,,89224,2B,Rivarossi,9332,Niagara Hobbies,Rapido couplers. Atlas jewel box. imported by ConCor
+Diesel,Undecorated,,RDC-4,-,,Kato,,N Scale Supply,half of set (other is RDC-2)
+Diesel,Undecorated,,RDC-2,-,,Kato,106-3008,N Scale Supply,half of set (other is RDC-4)
+Non-revenue,ATCX,,,,,Atlas,,N Scale Supply,rack Cleaner Car. DC operating blower/abrasive disc
+Non-revenue,ATSF,,2-window cupola,2219,2B,Atlas,3563,,simple brake wheel moulding
+Passenger,California Zephyr,,,Silver Cedar,2B,Arnold,5410,N Scale Supply,Preowned Q392. part of set of 4. MT couplers
+Non-revenue,California Zephyr,,,Silver Stag,2B,Arnold,5420,N Scale Supply,Preowned Q392. part of set of 4. MT couplers
+Passenger,California Zephyr,,,Silver Lookout,2B,Arnold,5400,N Scale Supply,Preowned Q392. part of set of 4. MT coupler on leading truck
+Passenger,California Zephyr,,,Silver Lookout,2B,Arnold,5430,N Scale Supply,Preowned Q392. part of set of 4. MT couplers
+Passenger,D&RG,Pullman,,321,,Arnold,540,N Scale Supply,Preowned Q512. in 1 box wth 2 other Arnold coaches. total $ 35. Rapido couplers
+Non-revenue,D&RG,Pullman,,Railway Express Agency,,Arnold,540,N Scale Supply,Preowned Q512. in 1 box wth 2 other Arnold coaches. total $ 35. Rapido couplers
+Passenger,D&RG,Pullman,parlor,Glenwood Canon,,Arnold,540,N Scale Supply,Preowned Q512. in 1 box wth 2 other Arnold coaches. total $ 35. Rapido couplers
+Passenger,D&RG,Pullman,,Baggage Express,,Arnold,553,N Scale Supply,Preowned Q513. in 1 box with 2 other Arnold coaches. total $ 35. Rapido couplers
+Passenger,D&RG,Pullman,,Lake Ernest,,Arnold,553,N Scale Supply,Preowned Q513. in 1 box with 2 other Arnold coaches. total $ 35. Rapido couplers
+Passenger,D&RG,Pullman,,Twin Peak,,Arnold,553,N Scale Supply,Preowned Q513. in 1 box with 2 other Arnold coaches. total $ 35. Rapido couplers
+Non-revenue,D&RGW,,,AX-2410 MW,2B,Micro Trains,116020.1,N Scale Supply,Foreman Office Car + low profile wheels. new Jan. 2004
+Passenger,D&RGW,,Overland,333,,Roundhouse,88003,N Scale Supply,kit. part of Twinpack
+Passenger,D&RGW,,Overland,339,,Roundhouse,88003,N Scale Supply,kit. part of Twinpack
+Non-revenue,D&RGW,,,1156,,Micro Trains,50110,N Scale Supply,MT couplers + low profile wheelset. reprint Feb. 2003
+Non-revenue,D&RGW,Russell,,X-67,,Walthers,932-8512,N Scale Supply,
+Non-revenue,D&SNG,,,TBD,,Life Like,S782A,,bought pre 1980 as SF (brown). Rapido couplers
+Non-revenue,Erie Lackawanna,,Crane,95915,2C,Bachmann,46619,,half of a set. with Boom Tender 2914. Rapido couplers
+Non-revenue,Erie Lackawanna,,Boom tender,2914,2B,Bachmann,46619,,half of a set. with Crane 95915. Rapido couplers
+Passenger,PRR Pennsylvania RR,Pullman,Pullman,4496,2C,Atlas,2624,Groesz Leiden,hfl 8.60 with 04-1968 index sheet in box
+Passenger,PRR Pennsylvania RR,Pullman,Pullman,348,2C,Atlas,2624,Groesz Leiden,hfl 8.60 produced circa 04-1968. see index sheet in box of campanion obs. wagon
+Non-revenue,Rio Grande,,EV,1504,,Micro Trains,30618,N Scale Supply,Extended Vision. MT Couplers
+Passenger,Southern Pacific,,Overton,337,,Roundhouse,8912,trade show,kit. MDC couplers. hfl 20.-
+Passenger,Southern Pacific,,Overton,337,,Roundhouse,8910,trade show,kit. MDC couplers. hfl 20.-
+Passenger,Southern Pacific,,Overton,103,,Roundhouse,8909,trade show,kit. MDC couplers. hfl 20.-
+Passenger,,,Overton,,,Bachmann,75651,Standard Hobby Supply,Rapido
+Passenger,,,Overton,,,Bachmann,75551,Standard Hobby Supply,Rapido

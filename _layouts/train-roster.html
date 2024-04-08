@@ -25,18 +25,18 @@ layout: default
 
 <h3 class="post-list-heading">Cars</h3>
 
-<table>
+<table class="wide">
   {% for row in site.data.car_roster %}
-  {% if forloop.first %}
-  <tr>
-    {% for pair in row %}
-    <th>{{ pair[0] }}</th>
-    {% endfor %}
-  </tr>
-  {% endif %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+      <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
 
-  {% tablerow pair in row %}
-  {{ pair[1] }}
-  {% endtablerow %}
+    {% tablerow pair in row %}
+    {{ pair[1] }}
+    {% endtablerow %}
   {% endfor %}
 </table>
