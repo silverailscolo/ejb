@@ -26,7 +26,7 @@ In the fall of 1997 I reconstructed the roof from scratch; only the walls remain
 
 As the rear of the house was not authentic, I made it into something special by adding 4 glass bricks that shed the morning sunlight onto the ceiling of the living room.
 
-<img src='/assets/img/house/ms15/zolder%20lente%202005%20artist.jpg' alt='3rd Floor attic design'>
+<img src='{{ "/assets/img/house/ms15/zolder%20lente%202005%20artist.jpg" | relative_url }}' alt='3rd Floor attic design'>
 
 On the third floor, a whole room used to be occupied by our tools, leftovers and spare parts. As there is enough room by now, I started to unpack my <a href="/trains/">trains</a>...
 

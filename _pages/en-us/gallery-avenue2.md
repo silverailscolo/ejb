@@ -18,6 +18,6 @@ Here are some pics from my work on A2 Maastricht architectural design and execut
 ## Using the lightgallery_tag.rb plugin
 
 {% gallery %}
-/assets/img-noresample/avenue2/albertheijn201712_ft24263-2000x1534.jpg
-/assets/img-noresample/astyle/IMG_4115-960x720.jpg
+{{ '/assets/img-noresample/avenue2/albertheijn201712_ft24263-250x192.jpeg' | relative_url }}
+{{ '/assets/img-noresample/astyle/20140831202837-bd2786fa-240x180.jpg' | relative_url }}
 {% endgallery %}

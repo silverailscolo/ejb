@@ -89,7 +89,7 @@ Until the summer of the year 2000 there wasn't much room to spike down the track
 
 ### Level 0: Newport, OR {#newport}
 
-<div class="w3-card w3-center" style="max-width: 80%;">
+<div class="card hoverable" style="max-width: 90%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Newport.png" | relative_url }}' alt='Newport harbor area track plan' class='w3-image'>
 <figcaption class="kleiner">Newport harbor area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
@@ -109,7 +109,7 @@ There just had to be a port with a cannery and coal dock on the layout. I found 
 
 ### Level 0: Farmington and Thoreau, NM {#farmington}
 
-<div class="w3-card w3-center" style="max-width: 80%;">
+<div class="card hoverable" style="max-width: 90%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Thoreau.png" | relative_url }}' alt='Farmington NM area track plan' class='w3-image'>
 <figcaption class="kleiner">Farmington NM area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
@@ -151,7 +151,7 @@ There just had to be a port with a cannery and coal dock on the layout. I found 
 
 ### Level 1: Durenver, CO {#durenver}
 
-<div class="w3-card w3-center" style="max-width: 80%;">
+<div class="card hoverable" style="max-width: 90%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Durenver.png" | relative_url }}' alt='Durenver area track plan' class='w3-image'>
 <figcaption class="kleiner">Durenver area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
@@ -193,7 +193,7 @@ Durenver is the main town on the layout, a fictional combination of Durango town
 
 ### Level 1: Durango, CO D&amp;SNG Yard {#durango}
 
-<div class="w3-card w3-center" style="max-width: 80%;">
+<div class="card hoverable" style="max-width: 90%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Durango.png" | relative_url }}' alt='Durango area track plan' class='w3-image'>
 <figcaption class="kleiner">Durango area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
@@ -236,7 +236,7 @@ Central point on the layout is the historic depot and boom town of Durango, CO.
 
 ### Level 2: Rockwood, CO {#rockwood}
 
-<div class="w3-card w3-center" style="max-width: 80%;">
+<div class="card hoverable" style="max-width: 90%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Rockwood.png" | relative_url }}' alt='Rockwood area track plan' class='w3-image'>
 <figcaption class="kleiner">Rockwood area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
@@ -294,7 +294,7 @@ Windows are Grandt Line castings, some adapted by splitting and joining. All doo
 
 ### Level 3: Silverton, CO {#silverton}
 
-<div class="w3-card w3-center" style="max-width: 80%;">
+<div class="card hoverable" style="max-width: 90%;">
 <figure><img src='{{ "/assets/img/trains2/trackplan_Silverton.png" | relative_url }}' alt='Silverton track plan' class='w3-image'>
 <figcaption class="kleiner">Silverton track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
@@ -384,11 +384,12 @@ It works nicely with <a href="https://www.jmri.org/help/en/package/jmri/jmrit/op
 
 Check out my <a href='{{ "/rollingstock/" | relative_url }}'>Rolling Stock Collection</a>.
 
-In January 2007 I entered all my items in a dedicated database <a href="https://www.mcrichter.de/Seiten/Deutsch/Programme/MoVe/MoVe.html">Mac-MoVe</a>. It was astonishing to get a good look at all the beautiful items one has collected (and paid for) over the years.</p>
+In January 2007 I entered all my items in a dedicated database <a href="https://www.mcrichter.de/Seiten/Deutsch/Programme/MoVe/MoVe.html">Mac-MoVe</a>. It was astonishing to get a good look at all the beautiful items one has collected (and paid for) over the years.
+
 All Items were later added to <a href="https://webserver.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml#CarsEdit">JMRI Operations Car Roster</a>.
 
-<div class="w3-card w3-center" style="max-width: 80%;">
-<figure><img src='{{ "/assets/img/trains2/IMG_2380lo.jpg" | relative_url }}' alt='Silverton RR Nn3 2-6-0 (conversion by me) April 09' class='w3-image'>
+<div class="card hoverable" style="max-width: 90%;">
+<figure><img src='{{ "/assets/img/trains2/IMG_2380lo.jpg" | relative_url }}' alt='Silverton RR Nn3 2-6-0 (conversion by me) April 2009' class='w3-image'>
 <figcaption class="kleiner">Nn3 2-6-0 (Republic Locomotive Works white metal conversion kit on top of a M&auml;rklin Z frame. I'm proud of this job!)</figcaption></figure>
 </div>
 

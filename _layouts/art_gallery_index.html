@@ -4,13 +4,21 @@ support: [gallery]
 # This page is used for the main index of art-galleries
 ---
 
-<div id="art-gallery">
-    {% for gallery in page.galleries %}
-      <a href="{{ site.baseurl }}{{ gallery['link'] }}" class="image-ref">
-        <img class="gallery-best-image" src="{{ site.baseurl }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}" />
-      </a>
-      <h3><a href="{{ site.baseurl }}{{ gallery['link'] }}">{{ gallery["title"] }}</a></h3>
-    {% endfor %}
+<div id="art-gallery" class="card-item col">
+  {% for gallery in page.galleries %}
+  <a href="{{ site.baseurl }}{{ gallery['link'] }}" class="image-ref">
+    <div class="card hoverable">
+      <div class="row g-0">
+        <div class="col-md-12">
+          <div class="card-body">
+            <h4 class="card-title text-lowercase">{{ gallery["title"] }}</h4>
+            <img class="gallery-best-image" src="{{ site.baseurl }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}">
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+  {% endfor %}
 </div>
 
 <script>

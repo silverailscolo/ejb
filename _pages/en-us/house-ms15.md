@@ -214,7 +214,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>    |
 |           | (...)                                                                                            |
 | 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                       |
-| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/ms15/convector001105.jpg" | relatve_url }}'> |
+| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/ms15/convector001105.jpg" | relative_url }}'> |
 | 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                 |
 
 ## 2001

@@ -10,8 +10,9 @@
   directory: astyle
   preview:
     filename: 20200313150207-8952a33c
-    original: 20200313150207-8952a33c-1008x756.jpg
-    sizes: []
+    original: 20200313150207-8952a33c-165x127.jpg
+    sizes:
+      - 20200313150207-8952a33c-144x108.jpg
     thumbnail: 20200313150207-8952a33c-144x108.jpg
 - title: Beer caps
   directory: beercaps
@@ -22,3 +23,12 @@
       - 20150508181238-e127713c-120x120.jpg
       - 20150508181238-e127713c-144x144.jpg
     thumbnail: 20150508181238-e127713c-120x120.jpg
+- title: N31
+  directory: n31
+  preview:
+    filename: 20150504132656-fdc46746
+    original: 20150504132656-fdc46746-169x240.jpg
+    sizes:
+      - 20150504132656-fdc46746-120x120.jpg
+      - 20150504132656-fdc46746-101x144.jpg
+    thumbnail: 20150504132656-fdc46746-120x120.jpg

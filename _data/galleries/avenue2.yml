@@ -1,85 +1,93 @@
 picture_path: avenue2
 pictures:
-  - filename: A2tunnelmondoverzicht
-    original: A2tunnelmondoverzicht-540x359.jpg
-    sizes:
-      - A2tunnelmondoverzicht-120x80.jpg
-    thumbnail: A2tunnelmondoverzicht-120x80.jpg
-  - filename: albertheijn201712_ft24263
-    original: albertheijn201712_ft24263-2000x1534.jpg
-    sizes: []
-    thumbnail: albertheijn201712_ft24263-2000x1534.jpg
-  - filename: av2_paververloop_IMG_3879
-    original: av2_paververloop_IMG_3879-960x720.jpg
-    sizes: []
-    thumbnail: av2_paververloop_IMG_3879-960x720.jpg
-  - filename: PaardentunnelSchetsEgbert
-    original: PaardentunnelSchetsEgbert-562x252.jpg
-    sizes: []
-    thumbnail: PaardentunnelSchetsEgbert-562x252.jpg
-  - filename: Parklaan_ft24293
-    original: Parklaan_ft24293-1999x1248.jpg
-    sizes: []
-    thumbnail: Parklaan_ft24293-1999x1248.jpg
-  - filename: Parklaan_ft24294
-    original: Parklaan_ft24294-2000x1333.jpg
-    sizes: []
-    thumbnail: Parklaan_ft24294-2000x1333.jpg
-  - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
-    filename: 20131205165503-7e268cfc
-    original: 20131205165503-7e268cfc-576x432.jpg
-    sizes:
-      - 20131205165503-7e268cfc-240x180.jpg
-      - 20131205165503-7e268cfc-120x120.jpg
-      - 20131205165503-7e268cfc-144x108.jpg
-    thumbnail: 20131205165503-7e268cfc-144x108.jpg
-    title: Photo
-  - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
-    filename: 20140414221114-b9446f84
-    original: 20140414221114-b9446f84-576x432.jpg
-    sizes:
-      - 20140414221114-b9446f84-240x180.jpg
-      - 20140414221114-b9446f84-120x120.jpg
-      - 20140414221114-b9446f84-144x108.jpg
-    thumbnail: 20140414221114-b9446f84-144x108.jpg
-    title: Photo
-  - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
-    filename: 20140414221117-ffb0c428
-    original: 20140414221117-ffb0c428-324x432.jpg
-    sizes:
-      - 20140414221117-ffb0c428-180x240.jpg
-      - 20140414221117-ffb0c428-567x756.jpg
-      - 20140414221117-ffb0c428-445x594.jpg
-      - 20140414221117-ffb0c428-120x120.jpg
-      - 20140414221117-ffb0c428-108x144.jpg
-    thumbnail: 20140414221117-ffb0c428-108x144.jpg
-    title: Photo
-  - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
-    filename: 20150504132659-67e8fad0
-    original: 20150504132659-67e8fad0-240x169.png
-    sizes:
-      - 20150504132659-67e8fad0-120x120.png
-      - 20150504132659-67e8fad0-144x101.png
-    thumbnail: 20150504132659-67e8fad0-144x101.png
-    title: Photo
-  - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
-    filename: 20161005235858-a098f517
-    original: 20161005235858-a098f517-576x430.jpg
-    sizes:
-      - 20161005235858-a098f517-240x179.jpg
-      - 20161005235858-a098f517-1008x752.jpg
-      - 20161005235858-a098f517-792x591.jpg
-      - 20161005235858-a098f517-120x120.jpg
-      - 20161005235858-a098f517-144x107.jpg
-    thumbnail: 20161005235858-a098f517-144x107.jpg
-    title: Photo
-  - caption: by EJ Broerse<br>CC BY-NC-SA 4.0
-    filename: 20161005235903-aba7e03a
-    original: 20161005235903-aba7e03a-576x430.jpg
-    sizes:
-      - 20161005235903-aba7e03a-240x179.jpg
-      - 20161005235903-aba7e03a-1008x752.jpg
-      - 20161005235903-aba7e03a-792x591.jpg
-      - 20161005235903-aba7e03a-144x107.jpg
-    thumbnail: 20161005235903-aba7e03a-144x107.jpg
-    title: Photo
+- caption: vuursteen in baksteen, photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: 20131205165503-7e268cfc
+  original: 20131205165503-7e268cfc-576x432.jpg
+  sizes:
+  - 20131205165503-7e268cfc-120x120.jpg
+  - 20131205165503-7e268cfc-144x108.jpg
+  - 20131205165503-7e268cfc-240x180.jpg
+  thumbnail: 20131205165503-7e268cfc-120x120.jpg
+  title: Gevel Dienstengebouw Zuid
+- caption: photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: 20140414221114-b9446f84
+  original: 20140414221114-b9446f84-576x432.jpg
+  sizes:
+  - 20140414221114-b9446f84-120x120.jpg
+  - 20140414221114-b9446f84-144x108.jpg
+  - 20140414221114-b9446f84-240x180.jpg
+  thumbnail: 20140414221114-b9446f84-120x120.jpg
+  title: Bouwkraan bij Vijver Geusselt
+- caption: photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: 20140414221117-ffb0c428
+  original: 20140414221117-ffb0c428-567x756.jpg
+  sizes:
+  - 20140414221117-ffb0c428-108x144.jpg
+  - 20140414221117-ffb0c428-120x120.jpg
+  - 20140414221117-ffb0c428-180x240.jpg
+  - 20140414221117-ffb0c428-324x432.jpg
+  - 20140414221117-ffb0c428-445x594.jpg
+  thumbnail: 20140414221117-ffb0c428-120x120.jpg
+  title: Fietstunnel Geusselt
+- caption: photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: 20150504132659-67e8fad0
+  original: 20150504132659-67e8fad0-240x169.png
+  sizes:
+  - 20150504132659-67e8fad0-120x120.png
+  - 20150504132659-67e8fad0-144x101.png
+  thumbnail: 20150504132659-67e8fad0-120x120.png
+  title: Schets invulling Lourdeskerk
+- caption: photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: 20161005235858-a098f517
+  original: 20161005235858-a098f517-1008x752.jpg
+  sizes:
+  - 20161005235858-a098f517-120x120.jpg
+  - 20161005235858-a098f517-144x107.jpg
+  - 20161005235858-a098f517-240x179.jpg
+  - 20161005235858-a098f517-576x430.jpg
+  - 20161005235858-a098f517-792x591.jpg
+  thumbnail: 20161005235858-a098f517-120x120.jpg
+  title: Paardentunnel Stadionweg
+- caption: photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: A2tunnelmondoverzicht
+  original: A2tunnelmondoverzicht-540x359.jpg
+  sizes:
+  - A2tunnelmondoverzicht-120x80.jpg
+  thumbnail: A2tunnelmondoverzicht-120x80.jpg
+  title: A2 Tunnelmond
+- caption: photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: albertheijn201712_ft24263
+  original: albertheijn201712_ft24263-2000x1534.jpg
+  sizes:
+  - albertheijn201712_ft24263-1000x767.jpeg
+  - albertheijn201712_ft24263-250x192.jpeg
+  - albertheijn201712_ft24263-500x384.jpeg
+  - albertheijn201712_ft24263-165x127.jpeg
+  thumbnail: albertheijn201712_ft24263-165x127.jpeg
+  title: Albert Heijn Parkeerterrein
+- caption: design by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: av2_paververloop_IMG_3879
+  original: av2_paververloop_IMG_3879-960x720.jpg
+  sizes:
+  - av2_paververloop_IMG_3879-240x180.jpg
+  - av2_paververloop_IMG_3879-480x360.jpg
+  - av2_paververloop_IMG_3879-120x90.jpeg
+  thumbnail: av2_paververloop_IMG_3879-120x90.jpeg
+  title: Paverband Groene Loper
+- caption: proefstuk, photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: PaardentunnelSchetsEgbert
+  original: PaardentunnelSchetsEgbert-562x252.jpeg
+  sizes:
+  - PaardentunnelSchetsEgbert-562x252.jpg
+  - PaardentunnelSchetsEgbert-179x126.jpeg
+  thumbnail: PaardentunnelSchetsEgbert-179x126.jpeg
+  title: Paardentunnel
+- caption: photo by EJ.B &copy; CC BY-NC-SA 4.0
+  filename: Parklaan_ft24294
+  original: Parklaan_ft24294-2000x1333.jpg
+  sizes:
+  - Parklaan_ft24294-500x334.jpeg
+  - Parklaan_ft24294-1000x667.jpg
+  - Parklaan_ft24294-165x110.jpeg
+  thumbnail: Parklaan_ft24294-165x110.jpeg
+  title: Parklaan

@@ -165,14 +165,14 @@ module Jekyll
             puts "Error getting date_time " + date_times[image].to_s + " for #{image}: #{e}"
           end
         end
-          # cleanup, watermark and copy the files
-          # Strip out the non-ascii character and downcase the final file name
-          dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
-          dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
+        # cleanup, watermark and copy the files
+        # Strip out the non-ascii character and downcase the final file name
+        dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
+        dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
           if config["strip_exif"] or config["watermark"] or config["size_limit"] # can't simply copy or symlink, need to pre-process the image
             source_img = MiniMagick::Image.read(image_path)
-            print "Art-GalleryPage Generating #{dest_image}..."
+            puts "Art-GalleryPage Generating #{dest_image}..."
             if config["strip_exif"]
               print "stripping EXIF..."
               source_img = source_img.strip
@@ -235,7 +235,7 @@ module Jekyll
           self.data["captions"][dest_image] = gallery_config[image]
         else
           # If not defined add a trimmed filename to help with SEO
-          self.data["captions"][dest_image] = File.basename(image,File.extname(image)).gsub("_", " ")
+          self.data["captions"][dest_image] = File.basename(image, File.extname(image)).gsub("_", " ")
         end
         # remember the image
         @images.push(dest_image)
@@ -341,6 +341,7 @@ module Jekyll
         Dir.foreach(dir) do |gallery_dir|
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip galleries starting with a dot
+            puts "art_gallery starts generating #{gallery_dir}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
             gallery.render(site.layouts, site.site_payload)
             gallery.write(site.dest)

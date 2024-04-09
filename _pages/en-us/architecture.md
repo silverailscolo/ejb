@@ -43,7 +43,7 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 <p>Ik blijf bij alle projecten betrokken tot in de uitvoering, <em>hands-on</em> om op locatie te zorgen dat de ambitie wordt vertaald in de praktijk van de bouwers, en om technisch mee te kijken en te zorgen dat de (onder)aannemers goed samenwerken.</p>
 <p>Om mijn ervaring met circulair bouwen te delen, schrijf ik in het Actieteam mee aan de <em>Leidraad Circulair Ontwerpen</em> van <a href="https://platformcb23.nl">Platform CB'23</a>.</p>
 
-<div class="w3-card w3-center" style="max-width: 80%;">
+<div class="card w3-center" style="max-width: 80%;">
 <figure><img src='{{ "/assets/img/architect/BR11/BR11_Bouwbord.png" | relative_url }}' alt='Bouwbord 2021' class='w3-image' >
 <figcaption class="kleiner">Bouwpartners restauratie 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
@@ -57,7 +57,7 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 <figcaption class="kleiner">Afwerking dak met hergebruikte schroten uit Friesland (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div><!-- sluit tegel af -->
 
-<div class="w3-card w3-center" style="max-width: 80%;">Ontwerp voor een nieuw hoofdgebouw voor de LU Wageningen
+<div class="card w3-center" style="max-width: 80%;">Ontwerp voor een nieuw hoofdgebouw voor de LU Wageningen
 <div class="w3-row">
 <div class="w3-col s12 m6">
 <figure><img src='{{ "/assets/img/architect/studiebk/LUW1988EBR.png" | relative_url }}' alt='Overzicht afstudeerontwerp E.J. Broerse 1988' class='w3-image'>
