@@ -8,7 +8,7 @@ description: Slimme tips voor macos
 nav: false
 ---
 
-<div class="w3-card">
+<div class="card">
 
 ## Photos app won't open {#PhotosApp}
 

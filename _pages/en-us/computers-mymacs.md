@@ -103,10 +103,12 @@ HD: 120 Mb SCSI</p>
 
 <p>Lekker lichte laptop, dankzij externe floppy drive. Na 5 jaar in de tas heen en weer slepen is de accu echter op en doet het toetsenbord wat raar. Maar ja, wat wil je, we hebben er de hele prijsvraag mee gemaakt in 1994.<br>
 Kortom: veel plezier gehad van een tweedehandsje.</p>
-<figure><img src='{{ "/assets/img/mac/PowerBook_Duo_Dock_aventure-applecom.jpg" | relative_url }}' alt="vlak voor de dock hem inslikt">
-<figcaption class="kleiner">iMac 233 all-in-one (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.aventure-apple.com/blog/wp-content/uploads/2019/03/Apple_PowerBook_Duo_Dock_Macintosh.jpg" property="cc:attributionName" rel="cc:attributionURL">aventure-appl.com</a>
-under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
-</figure>
+<div class="w3-row">
+  <figure><img src='{{ "/assets/img/mac/PowerBook_Duo_Dock_aventure-applecom.jpg" | relative_url }}' alt="vlak voor de dock hem inslikt">
+  <figcaption class="kleiner">Apple DuoDock (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.aventure-apple.com/blog/wp-content/uploads/2019/03/Apple_PowerBook_Duo_Dock_Macintosh.jpg" property="cc:attributionName" rel="cc:attributionURL">aventure-appl.com</a>
+  under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+  </figure>
+</div>
 
 <p>Heel slim detail: de Duo schuift als en videocassette in de dock, en daar zit een extra HD en coprocessor in, plus een slot om de laptop te beveiligen.</p>
 
@@ -243,5 +245,5 @@ alt='SuperCard logo' style='max-width: 150px;'></a>
 <figcaption class="kleiner">HyperSite v2 als Revolution-stack</figcaption></figure></div>
 </div>
 
-<p>Mijn laatste programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen website bij te houden. In 2006 overgezet naar Revolution, dat ook op Mac OSX draait.<br>
-Read more about HyperSite <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>here</a>.</p>
+Mijn zelfgescheven programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen website bij te houden. Heb het in 2006 overgezet naar Revolution, dat i.t.t. HyperCard wel op macOS draait.
+Read more about HyperSite <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>here</a>.

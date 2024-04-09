@@ -12,7 +12,7 @@ category: work
 Rol: Ontwerpleider team ruimtelijk ontwerp, projectarchitect 25 kunstwerken en 2 dienstengebouwen
 Periode: 2009 - 2017
 
-<div class="w3-card w3-center" style="max-width: 80%;">A2 Ontwerpschetsboek
+<div class="card w3-center" style="max-width: 80%;">A2 Ontwerpschetsboek
 <div class="w3-row">
 <div class="w3-col s12 m6">
 <figure><img src='{{ "/assets/img/architect/avenue2/7691.jpg" | relative_url }}' alt='Schets Tunnelmond Zuid, A2 Maastricht' class='w3-image'>

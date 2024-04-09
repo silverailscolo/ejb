@@ -27,8 +27,8 @@ def rename_keys(d, keys):
 
 # set preferences
 jmriRosterFileToRead = "roster.xml"
-itemPicturePath = "../assets/img/trains2/roster/"
-defaultLanguage = 'nl'
+itemPicturePath = "../assets/img/trains2/rostercovers/" # must contain "covers" to make direct link from gallery to item folder
+defaultLanguage = 'en-us'
 
 # configuration
 overwrite = input("Delete existing .md loco pages? (y/n) ")

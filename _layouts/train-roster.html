@@ -25,7 +25,8 @@ layout: default
 
 <h3 class="post-list-heading">Cars</h3>
 
-<table class="wide">
+<div class="wide">
+<table class="table table-striped">
   {% for row in site.data.car_roster %}
     {% if forloop.first %}
     <tr>
@@ -40,3 +41,4 @@ layout: default
     {% endtablerow %}
   {% endfor %}
 </table>
+</div>

@@ -84,7 +84,7 @@ for bookId in pl:
     yaml_elements['layout'] = 'review'
     yaml_elements['lang'] = defaultLanguage
     yaml_elements['year'] = year
-    if isfile("../assets/img/covers/" + coverFile):
+    if isfile("../assets/img/bookcovers/" + coverFile):
         yaml_elements['cover'] = coverFile
     #print(yaml_elements)
     # write to output file

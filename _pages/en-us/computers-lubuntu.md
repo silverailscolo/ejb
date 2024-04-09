@@ -8,7 +8,7 @@ lang: en-us
 nav: false
 ---
 
-<div class="w3-card">
+<div class="card">
 
 ## Installing a Belkin WiFi PCMCIA card on Lubuntu 14.04
 

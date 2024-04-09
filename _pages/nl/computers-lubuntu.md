@@ -8,7 +8,7 @@ description: Lubuntu (Linux) tips
 nav: false
 ---
 
-<div class="w3-card">
+<div class="card">
 
 <h2>Installing a Belkin WiFi PCMCIA card on Lubuntu 14.04</h2>
 

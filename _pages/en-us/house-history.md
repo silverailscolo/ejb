@@ -14,14 +14,18 @@ About the origin of our house(s)
 
 A manual LightGallery directly on the page:
 
-  <div id="thegallery">
-    <a href="{{ '/assets/img-noresample/astyle/20140831202837-bd2786fa-576x432.jpg' | relative_url }}" 
-data-sub-html="Photo 1 by EJB" >
-        <img alt="img1" data-sub-html="img1 title" src="{{ '/assets/img-noresample/astyle/20140831202837-bd2786fa-120x120.jpg' | relative_url }}" />
+<div id="thegallery">
+<a href="{{ '/assets/img/house/history/20210518130613-079c281a.jpg' | relative_url }}" 
+data-sub-html="Photo 1 by EJB &copy; 2014" >
+        <img alt="img1" data-sub-html="img1 title" src="{{ '/assets/img/house/history/20210518130613-079c281a-480.webp' | relative_url }}" />
+</a>
+<a href="{{ '/assets/img/house/history/20210518130614-d90a888e.jpg' | relative_url }}" 
+data-sub-html="Photo 2 by EJB &copy; 2015" >
+<img alt="img2" data-sub-html="img2 title" src="{{ '/assets/img/house/history/20210518130614-d90a888e-480.webp' | relative_url }}" />
     </a>
-    <a href="{{ '/assets/img-noresample/astyle/20150507213246-f23b3981-792x594.jpg' | relative_url }}" 
-data-sub-html="Photo 2 by EJB" >
-        <img alt="img2" data-sub-html="img2 title" src="{{ '/assets/img-noresample/astyle/20150507213246-f23b3981-120x120.jpg' | relative_url }}" />
+<a href="{{ '/assets/img/house/history/20210518130616-cc0b8b87.jpg' | relative_url }}" 
+data-sub-html="Photo 2 by EJB &copy; 2015" >
+<img alt="img2" data-sub-html="img2 title" src="{{ '/assets/img/house/history/20210518130616-cc0b8b87-480.webp' | relative_url }}" />
     </a>
 </div>
 
@@ -39,17 +43,11 @@ data-sub-html="Photo 2 by EJB" >
 </script>
 <!-- end of manual lg block -->
 
-<h2>Inline opieters</h2>
-As an inline include
-{% include gallery_layout.liquid gallery=site.data.galleries.astyle %}
-
 <h2>Using lightgallery_tag.rb</h2>
+
 {% gallery %}
-{{ "/assets/img-noresample/astyle/20140831202837-bd2786fa-576x432.jpg" | relative_url }}
-{{ "/assets/img-noresample/astyle/20200311235322-add97e5f-792x594.jpg" | relative_url }}
-{{ "/assets/img-noresample/astyle/20200323125151-c56f96cc-1008x582.jpg" | relative_url }}
+{{ "/assets/img/house/history/20210518130613-079c281a.jpg" | relative_url }}
+{{ "/assets/img/house/history/20210518130614-d90a888e.jpg" | relative_url }}
+{{ "/assets/img/house/history/20210518130616-cc0b8b87.jpg" | relative_url }}
 {% endgallery %}
 <!-- lightgallery_tag.rb auto thumbs -->
-
-<h2>Or simply so (by Jimmy Xiao)</h2>
-{% include album.html albumname="astyle" %}
