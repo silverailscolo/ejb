@@ -8,10 +8,10 @@ nav: true
 nav_order: 5
 dropdown: true
 children:
-  - title: mijn baan
+  - title: mijn modelbaan
     permalink: /trains/layout
   - title: divider
-  - title: Roster
+  - title: mijn dienstrooster
     permalink: /rollingstock
   - title: divider
   - title: DCC

@@ -14,7 +14,7 @@ decoder:
   comment: found decoder mfg/type at nmra web site, no ack from engine
   family: NYB Dual Mode Decoder
   model: NYB Dual Mode Decoder
-fileName: RGS_Goose__5
+fileName: RGS_Goose_5
 lang: en-us
 layout: train-item
 locoaddress:
@@ -26,6 +26,7 @@ locoaddress:
 mfg: Con Cor
 model: 0001-094171
 owner: Egbert Broerse
+# picture: RGS_Goose_5.jpg
 roadName: Rio Grande Southern
 roadNumber: '5'
 roster-id: 'RGS Goose #5'

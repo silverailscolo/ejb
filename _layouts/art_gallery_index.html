@@ -1,18 +1,32 @@
 ---
 layout: default
 support: [gallery]
-# This page is used for the main index of galleries
+# This page is used for the main index of art-galleries
 ---
 
-<div>
-  <ul class="small-block-grid-4">
+<div id="art-gallery">
     {% for gallery in page.galleries %}
-    <li>
-      <a href="{{ gallery['link'] }}">
-        <img class="gallery-best-image" src="{{ gallery['link'] }}/thumbs/front_{{ gallery['best_image'] }}" />
+      <a href="{{ site.baseurl }}{{ gallery['link'] }}" class="image-ref">
+        <img class="gallery-best-image" src="{{ site.baseurl }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}" />
       </a>
-      <h3><a href="{{ gallery['link'] }}">{{ gallery["title"] }}</a></h3>
-    </li>
+      <h3><a href="{{ site.baseurl }}{{ gallery['link'] }}">{{ gallery["title"] }}</a></h3>
     {% endfor %}
-  </ul>
 </div>
+
+<script>
+window.addEventListener('DOMContentLoaded',() =>{
+  // init isotope
+  var $grid = $('#art-gallery');
+  $grid.isotope({
+    percentPosition: true,
+    itemSelector: '.image-ref',
+    layoutMode: "masonry",
+    gutter: 5
+  });
+
+  // layout Isotope after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry();
+  });
+});
+</script>

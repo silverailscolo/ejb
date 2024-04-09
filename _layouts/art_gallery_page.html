@@ -1,17 +1,15 @@
 ---
 layout: default
 support: [gallery]
-# individual pages for each gallery
+# individual pages for each art-gallery
 header:
   title: Some Title
   background-color: "#6B8A78"
 ---
 
-<div>
-  <ul class="clearing-thumbs small-block-grid-4" data-clearing>
+<div id="art-gallery">
     {% for image in page.images %}
-    <li>
-      <a href="{{ image }}">
+      <a href="{{ image }}"  class="image-ref">
         {% if page.captions[image] == nil %}
         <img data-caption="<a class='clearing-link' href='/contact/'>Ask me about this work</a>" src="thumbs/{{ image }}" />
         {% else %}
@@ -23,10 +21,43 @@ header:
         />
         {% endif %}
       </a>
-    </li>
     {% endfor %}
-  </ul>
-  <div id="spinner"></div>
 </div>
 
 {{ page.description }}
+
+<script>
+  window.addEventListener('DOMContentLoaded',() =>{
+    lightGallery(document.getElementById("art-gallery"), {
+      plugins: [lgThumbnail, lgZoom, lgAutoplay, lgFullscreen],
+      speed: 500,
+      selector: '.image-ref',
+      thumbnails: true,
+      thumbWidth: 60,
+      thumbHeight: "40px",
+      thumbMargin: 4,
+      showMaximizeIcon: true,
+      mobileSettings: {
+        controls: false,
+        showCloseIcon: true,
+        download: false,
+        rotate: false,
+        thumbnail: false,
+      }
+    });
+
+  // init isotope
+  var $grid = $('#art-gallery');
+  $grid.isotope({
+    percentPosition: true,
+    itemSelector: '.image-ref',
+    layoutMode: "masonry",
+    gutter: 5
+  });
+
+  // layout Isotope after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry();
+  });
+  });
+</script>

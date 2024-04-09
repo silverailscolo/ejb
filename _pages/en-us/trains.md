@@ -11,7 +11,7 @@ children:
   - title: my Layout
     permalink: /trains/layout
   - title: divider
-  - title: Roster
+  - title: my Roster
     permalink: /rollingstock
   - title: divider
   - title: DCC

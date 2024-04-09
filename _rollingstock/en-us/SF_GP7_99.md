@@ -27,6 +27,7 @@ locoaddress:
 mfg: Atlas
 model: GP7
 owner: Egbert Broerse
+# picture: SF_GP7_99.jpg
 roadName: Santa Fe
 roadNumber: '99'
 roster-id: SF GP7 99

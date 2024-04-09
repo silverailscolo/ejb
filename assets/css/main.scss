@@ -37,6 +37,11 @@ img, embed, object, video {
   font-size: 60%;
 }
 
+/* Tables */
+.wide {
+  overflow-x: scroll;
+}
+
 /* position prev/next divs in collection index )roster, books, projects) */
 div.left {
   align: left;
