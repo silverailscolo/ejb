@@ -2,7 +2,7 @@
 layout: train-roster
 title: My Roster
 permalink: /rollingstock/
-id: books
+id: roster
 lang: en-us
 list_title: My collection of N scale rolling stock
 nav: false

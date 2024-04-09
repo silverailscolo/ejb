@@ -4,7 +4,7 @@ support: [gallery]
 # This page is used for the main index of art-galleries
 ---
 
-<div id="image-gallery">
+<div id="art-gallery">
     {% for gallery in page.galleries %}
       <a href="{{ site.baseurl }}{{ gallery['link'] }}" class="image-ref">
         <img class="gallery-best-image" src="{{ site.baseurl }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}" />
@@ -14,8 +14,9 @@ support: [gallery]
 </div>
 
 <script>
+window.addEventListener('DOMContentLoaded',() =>{
   // init isotope
-  var $grid = $('#image-gallery');
+  var $grid = $('#art-gallery');
   $grid.isotope({
     percentPosition: true,
     itemSelector: '.image-ref',
@@ -27,5 +28,5 @@ support: [gallery]
   $grid.imagesLoaded().progress( function() {
     $grid.masonry();
   });
-  });
+});
 </script>

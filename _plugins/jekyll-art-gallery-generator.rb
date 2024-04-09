@@ -3,8 +3,8 @@
 # sourced from https://github.com/ggreer/jekyll-gallery-generator
 # changed Egbert from using rmagick (unsupported, memory hog) to:
 require 'mini_magick'
-require 'exifr'
-require 'exifr/jpeg'
+#require 'exifr'
+#require 'exifr/jpeg'
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
 
@@ -40,8 +40,8 @@ module Jekyll
       @base = base
       @dir = dir.gsub(/^_/, "")
       @name = "index.html"
-      # load gallery configs from the _data/gallery.yml file
-      config = site.data["gallery"] || {}
+      # load gallery configs from the _data/art_gallery.yml file
+      config = site.data["art_gallery"] || {}
 
       self.process(@name)
       gallery_index = File.join(base, "_layouts", "art_gallery_index.html")
@@ -56,7 +56,7 @@ module Jekyll
         sort_field = config["sort_field"] || "name"
         galleries.sort! {|a,b| a.data[sort_field] <=> b.data[sort_field]}
       rescue Exception => e
-        puts "Error sorting galleries: #{e}"
+        puts "Error sorting art-galleries: #{e}"
         puts e.backtrace
       end
       if config["sort_reverse"]
@@ -68,22 +68,24 @@ module Jekyll
         unless gallery.hidden
           self.data["galleries"].push(gallery.data)
           # site-wide data for use in liquid templates
-          # available to liquid via site.data.gallery.galleries.[name]. subitems are manually defined in gallery.yml, and title, link, description, best_image etc and images array
-          # inject additional auto-discovered data back into sitewide gallery object
-          gallery_title=gallery.data["title"]
-          if site.data["gallery"]["galleries"].has_key?(gallery_title)
-            site.data["gallery"]["galleries"][gallery_title].merge!(gallery.data)
+          # available to liquid via site.data.art_gallery.galleries.[name].
+          # subitems are manually defined in art_gallery.yml, and title, link, description, best_image etc and images array
+          # inject additional auto-discovered data back into sitewide art_gallery object
+          gallery_title = gallery.data["title"]
+          if site.data["art_gallery"]["galleries"].has_key?(gallery_title)
+            site.data["art_gallery"]["galleries"][gallery_title].merge!(gallery.data)
           else
-            site.data["gallery"]["galleries"][gallery_title]=gallery.data
+            site.data["art_gallery"]["galleries"][gallery_title] = gallery.data
           end
           site.data["navigation"].push({"title"=> gallery.data["title"], "url"=> gallery.data["link"], "side"=> "left"})
-          site.data["galleries-sorted"].push(gallery.data["title"]) # sorted array to order the galleries hash on the portfolio page
+          site.data["galleries-sorted"].push(gallery.data["title"])
+          # sorted array to order the galleries hash on the portfolio page
         end
       }
     end
   end
 
-  # gallery page for each gallery
+  # gallery page for each art_gallery
   class GalleryPage < ReadYamlPage
     attr_reader :hidden
 
@@ -92,7 +94,8 @@ module Jekyll
       @base = base
       #source_dir=dir
 
-      @dir = dir.gsub(/^_/, "").gsub(/[^0-9A-Za-z.\\\-\/]/, '_').downcase   # destination dir, same as source without the leading underscore. web compatible
+      @dir = dir.gsub(/^_/, "").gsub(/[^0-9A-Za-z.\\\-\/]/, '_').downcase
+      # destination dir, same as source without the leading underscore. web compatible
       FileUtils.mkdir_p(site.in_dest_dir(@dir), :mode => 0755)
 
       @name = "index.html"
@@ -100,7 +103,7 @@ module Jekyll
       @hidden = false
 
       # load configs, set defaults
-      config = site.data["gallery"] || {}
+      config = site.data["art_gallery"] || {}
       symlink = config["symlink"] || false
       # downcase gallery names, technically duplicating them
       galleries = {}
@@ -108,7 +111,7 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      #puts "Generating #{gallery_name}: #{gallery_config}"
+      puts "Generating #{gallery_name}: #{gallery_config}"
       sort_field = config["sort_field"] || "name"
 
       self.process(@name)
@@ -132,8 +135,9 @@ module Jekyll
         self.data["sitemap"] = false
         return
       end
-      if config["watermark"]      # load watermark image
-        wm_img = Image.read(File.join(base, "images",config["watermark"])).first
+      if config["watermark"]
+        # load watermark image
+        wm_img = MiniMagick::Image.read(File.join(base, "assets/img", config["watermark"])).first
       end
 
         # process and copy images
@@ -149,24 +153,16 @@ module Jekyll
         # extract timestamp
         if sort_field == "timestamp"
           begin
-            #date_times[image] = EXIFR::JPEG.new(image_path).date_time.to_i
-            date_times[image]=0
+            date_times[image] = 0
             #  ["DateTime"], ["DateTimeDigitized"], ["DateTimeOriginal"]
-            # date_array = MiniMagick::Image.open image_path.get_exif_by_entry("DateTime")
-            exif = EXIFR::JPEG::new(file_name)
-            tag = "DateTime"
-            date = tag.inject(exif){|o,m| o.send(m)}
-            # rmagick class Magick::ImageList.new("Button_A.gif", "Cheetah.jpg")
-            # A new imagelist. The imagelist contains an Image object for each image in the specified files. A file can contain more than one image. For example, new will create an image for each frame in an animated GIF or each layer in a multi-layer Photoshop file.
-            # Egbert replaced by: minimagick.open() Aprl 2024
-            # if date_array != nil && date_array.length > 0 and date_array[0].length > 1
+            data_array = MiniMagick::Image.data # Egbert changed from EXIF:"DateTime"
+            date = data_array['Properties']['date:modify']
             if date != nil
-              # date_times[image] = DateTime.strptime(date_array[0][1],"%Y:%m:%d %H:%M:%S").to_time.to_i
               date_times[image] = DateTime.strptime(date,"%Y:%m:%d %H:%M:%S").to_time.to_i
             end
             # puts "gtot #{date_array} date" + date_times[image].to_s
           rescue Exception => e
-            puts "Error getting date_time " + date_times[image] + " for #{image}: #{e}"
+            puts "Error getting date_time " + date_times[image].to_s + " for #{image}: #{e}"
           end
         end
           # cleanup, watermark and copy the files
@@ -176,19 +172,30 @@ module Jekyll
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
           if config["strip_exif"] or config["watermark"] or config["size_limit"] # can't simply copy or symlink, need to pre-process the image
             source_img = MiniMagick::Image.read(image_path)
-            # ImageList.new(image_path) rmagick function replaced by minimagick.open()
-            print "Generating #{dest_image}..."
+            print "Art-GalleryPage Generating #{dest_image}..."
             if config["strip_exif"]
               print "stripping EXIF..."
-              source_img = source_img(-strip)
+              source_img = source_img.strip
             end
             if config["watermark"]
               if [source_img.columns, source_img.rows].min < 600
                 print "too small to watermark"
               else
                 print "watermarking"
-                # watermark parameters are: image, how much of watermark lightness to compose in "xx%", how much of watermark's saturation to compose (%), gravity (SouthEastGravity is good), x-offset (origin depends on gravity), y-offset
-                source_img = source_img.composite(wm_img, MiniMagick::SouthEastGravity,20,20, MiniMagick::HardLightCompositeOp).write(dest_image_abs_path)
+                # watermark parameters are:
+                # - image,
+                # - how much of watermark lightness to compose in "xx%",
+                # - how much of watermark's saturation to compose (%),
+                # - gravity (SouthEastGravity is good),
+                # - x-offset (origin depends on gravity),
+                # - y-offset
+                source_img = source_img.composite(
+                    wm_img,
+                    MiniMagick::SouthEastGravity,
+                    20,
+                    20,
+                    MiniMagick::HardLightCompositeOp
+                  ).write(dest_image_abs_path)
               end
             end
             if config["size_limit"]
@@ -225,10 +232,10 @@ module Jekyll
         # Add file descriptions if defined
         if gallery_config.has_key?(image)
           # puts "added ${image} = #{gallery_config[image]}"
-          self.data["captions"][dest_image]=gallery_config[image]
+          self.data["captions"][dest_image] = gallery_config[image]
         else
           # If not defined add a trimmed filename to help with SEO
-          self.data["captions"][dest_image]=File.basename(image,File.extname(image)).gsub("_", " ")
+          self.data["captions"][dest_image] = File.basename(image,File.extname(image)).gsub("_", " ")
         end
         # remember the image
         @images.push(dest_image)
@@ -269,7 +276,7 @@ module Jekyll
       #best_image = File.join(@dir, best_image)
       self.data["best_image"] = best_image
 
-      # generate best image thumb for the gallery super-index page
+      # generate best image thumb for the gallery front super-index page
       makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "front_"+best_image, config["front_thumb_size"]["x"] || 400, config["front_thumb_size"]["y"] || 400,"crop")
 
       # generate best image thumb for the header of a gallery index page
@@ -282,17 +289,15 @@ module Jekyll
     def makeThumb(image_path, dest_image, thumb_x, thumb_y, scale_method)
       # create thumbnail if it is not there
       thumbs_dir = File.join(site.dest, @dir, "thumbs")
-      #thumbs_dir = File.join(@dir, "thumbs")
       thumb_path = File.join(thumbs_dir, dest_image)
 
       # create thumbnails
       FileUtils.mkdir_p(thumbs_dir, :mode => 0755)
       if File.file?(thumb_path) == false or File.mtime(image_path) > File.mtime(thumb_path)
         begin
-          # m_image = ImageList.new(image_path)
           m_image = MiniMagick::Image.open(image_path)
           # m_image.auto_orient!
-          #m_image.send("resize_to_#{scale_method}!", max_size_x, max_size_y)
+          # m_image.send("resize_to_#{scale_method}!", max_size_x, max_size_y)
           thumbsize = thumb_x.to_s + "x" + thumb_y.to_s
           if scale_method == "crop"
             m_image = m_image.resize(thumbsize)
@@ -307,7 +312,7 @@ module Jekyll
           else
               m_image = m_image.resize(thumbsize)
             end
-          # strip EXIF from thumbnails. Some browsers, notably, Safari on iOS will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
+          # strip EXIF from thumbnails. Some browsers, notably Safari on iOS, will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
           m_image = m_image.strip
           puts "Writing thumbnail to #{thumb_path}"
           m_image.write(thumb_path)
@@ -325,7 +330,7 @@ module Jekyll
     safe true
 
     def generate(site)
-      config = site.data["gallery"] || {}
+      config = site.data["art_gallery"] || {}
       dir = config["source_dir"] || "_photos"
       galleries = []
       original_dir = Dir.getwd
@@ -344,7 +349,7 @@ module Jekyll
           end
         end
       rescue Exception => e
-        puts "Error generating galleries: #{e}"
+        puts "Error generating art_galleries: #{e}"
         puts e.backtrace
       end
       Dir.chdir(original_dir)

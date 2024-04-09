@@ -16,17 +16,17 @@ toc:
 
 ### Our garden shed
 
-<img src="{{ site.baseurl }}/assets/img/house/ms15/schuur.gif" alt="closed garden shed open up">
+<img src='{{ "/assets/img/house/ms15/schuur.gif" | relative_url }}' alt='closed garden shed open up'>
 
 In the fall of 1997 I reconstructed the roof from scratch; only the walls remained. The roof overhang in front of the doors is a real joy, for we can sit outside in summer even if it rains a bit.
 
 ### Square light
 
-<img src="{{ site.baseurl }}//assets/img/house/ms15/plafond.gif" alt="plafond met nieuwe rozet">
+<img src='{{ "/assets/img/house/ms15/plafond.gif" | relative_url }}' alt='plafond met nieuwe rozet'>
 
 As the rear of the house was not authentic, I made it into something special by adding 4 glass bricks that shed the morning sunlight onto the ceiling of the living room.
 
-<img src='/assets/img/house/ms15/zolder%20lente%202005%20artist.jpg' alt='3rd Floor attic design'>
+<img src='{{ "/assets/img/house/ms15/zolder%20lente%202005%20artist.jpg" | relative_url }}' alt='3rd Floor attic design'>
 
 On the third floor, a whole room used to be occupied by our tools, leftovers and spare parts. As there is enough room by now, I started to unpack my <a href="/trains/">trains</a>...
 
@@ -36,7 +36,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 1995
 
-<p>For Sale, Sold &amp; quick start</p>
+<p>For Sale, Sold &amp; a quick start</p>
 
 | Date                    | Action                                                                                                                                                                                                                                                        |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -214,7 +214,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>    |
 |           | (...)                                                                                            |
 | 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                       |
-| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/convector001105.jpg" | relatve_url }}'> |
+| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/ms15/convector001105.jpg" | relatve_url }}'> |
 | 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                 |
 
 ## 2001
@@ -222,12 +222,12 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | Date                    | Action                                                                                                                                                                                                                                                                                                                           |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | 14-01-'01               | meterkast in de hal gemaakt: de kubus herbergt de buggy; de alu streamlinevorm verwijst als 'hightech' naar de vernieuwing in huis en maakt zich los van het historische gebouw... <br><img src='{{ "/assets/img/house/ms15/meterkast01.jpg"                                                                                     | relative_url }}' alt="ontwerp meterkastbekleding"> |
-|                         | <img src='{{ "/assets/img/house/ms15/meterkast02.jpg"                                                                                                                                                                                                                                                                            | relative_url }}' alt="moderne meterkastbekleding"> |
+|                         | <img src='{{ "/assets/img/house/ms15/meterkast02.jpg" | relative_url }}' alt="moderne meterkastbekleding"> |
 | 03-03-'01               | in werkkamer extra leidingen onder grond aangelegd en opnieuw ingericht (4 Billies en tapijt)                                                                                                                                                                                                                                    |
 | 20-08-'01               | in slaapkamer radiator vervangen door lamellen-designradiator rechts van venster. Lichtdichte gordijnen opgehangen en hekwerk laten maken in smederij, in afwachting van Frans balkon.                                                                                                                                           |
 | 10-10-'01 tot 25-05-'02 | Achterpui b.g. en raam slk. laten vervangen in oude stijl                                                                                                                                                                                                                                                                        |
-|                         | <img src='{{ "/assets/img/house/ms15/achtergevel-detail1-lo.jpg"                                                                                                                                                                                                                                                                 | relative_url }}' alt="detail achtergevel">         |
-|                         | Het duurde al met al vreselijk lang, want de aannemers - in elk geval de onze, Sleper - sterven kennelijk van het werk en o, o wat is het moeilijk om een vakman te krijgen die er iets moois van wil maken! Tip: maak een goede tekening en schrijf alles op wat je afspreekt. Het helpt, kijk [hier](/blog/2022/windowmisery/) |
+|                         | <img src='{{ "/assets/img/house/ms15/achtergevel-detail1-lo.jpg" | relative_url }}' alt="detail achtergevel">         |
+|                         | Het duurde al met al vreselijk lang, want de aannemers - in elk geval de onze, Sleper - sterven kennelijk van het werk en o, o wat is het moeilijk om een vakman te krijgen die er iets moois van wil maken! Tip: maak een goede tekening en schrijf alles op wat je afspreekt. Het helpt, kijk [hier]({{ base_url }}/blog/2002/windowmisery/) |
 | 10-10-'01 tot 25-05-'02 | de schilder deed de buitenkant                                                                                                                                                                                                                                                                                                   |
 
 ## 2002
@@ -249,10 +249,10 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 ## 2004
 
 | Date      | Action                                                             |
-| --------- | ------------------------------------------------------------------ | ----------------- |
+| --------- | ------------------------------------------------------------------ |
 | 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                              |
 | 23-05-'04 | slang boiler gesprongen (en gehoosd)                               |
-| 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/kast2004.jpg" | relative_url }}'> |
+| 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/ms15/kast2004.jpg" | relative_url }}'> |
 
 ## 2005
 

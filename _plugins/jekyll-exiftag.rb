@@ -25,7 +25,7 @@
 #
 
 require 'exifr'
-require 'exifr/jpeg'
+# require 'exifr/jpeg'
 
 module Jekyll
   class ExifTag < Liquid::Tag
@@ -71,13 +71,12 @@ module Jekyll
       # try it and return empty string on failure
       begin
         # only XMP segment (and disabled TIFF which is enabled by default)
-        #exif = await exifr.parse(file_name, {tiff: false, xmp: true})
-
-        exif = EXIFR::JPEG::new(file_name)
-        ret = tag.split('.').inject(exif){|o,m| o.send(m)}
-        puts "EXIF tag " + tag.split('.') + " read: " + ret # debug
-
-        return ret
+        exif = await exifr.parse(file_name, {tiff: false, xmp: true}) # , iptc: true})
+        #exif = EXIFR::JPEG::new(file_name)
+        #ret = tag.split('.').inject(exif){|o,m| o.send(m)}
+        puts "========= EXIFR="
+        puts exif.dc
+        return exif.dc
       rescue StandardError => e  
         puts e.message 
         file_name

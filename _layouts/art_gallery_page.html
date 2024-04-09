@@ -1,13 +1,13 @@
 ---
 layout: default
 support: [gallery]
-# This page is used for the main index of art-galleries
+# individual pages for each art-gallery
 header:
   title: Some Title
   background-color: "#6B8A78"
 ---
 
-<div id="image-gallery">
+<div id="art-gallery">
     {% for image in page.images %}
       <a href="{{ image }}"  class="image-ref">
         {% if page.captions[image] == nil %}
@@ -28,7 +28,7 @@ header:
 
 <script>
   window.addEventListener('DOMContentLoaded',() =>{
-    lightGallery(document.getElementById("image-gallery"), {
+    lightGallery(document.getElementById("art-gallery"), {
       plugins: [lgThumbnail, lgZoom, lgAutoplay, lgFullscreen],
       speed: 500,
       selector: '.image-ref',
@@ -47,7 +47,7 @@ header:
     });
 
   // init isotope
-  var $grid = $('#image-gallery');
+  var $grid = $('#art-gallery');
   $grid.isotope({
     percentPosition: true,
     itemSelector: '.image-ref',
