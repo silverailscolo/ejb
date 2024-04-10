@@ -11,12 +11,9 @@ layout: default
   <li>
     <span class="post-meta">{{ item.roadName}}</span>
     <h3>
-      <a class="post-link" href="{{ 'rollingstock/' | append: item.fileName | relative_url }}/">{{ item.roster-id }}
-        — {{
-      item.roadNumber
-      }} —
-        {{
-        item.mfg }}</a>
+      <a class="post-link" href="{{ 'rollingstock/' | append: item.fileName | relative_url }}/"
+        >{{ item.roster-id }} — {{ item.roadNumber }} — {{ item.mfg }}</a
+      >
     </h3>
   </li>
   {% endfor %}
@@ -26,19 +23,13 @@ layout: default
 <h3 class="post-list-heading">Cars</h3>
 
 <div class="wide">
-<table class="table table-striped">
-  {% for row in site.data.car_roster %}
-    {% if forloop.first %}
+  <table class="table table-striped">
+    {% for row in site.data.car_roster %} {% if forloop.first %}
     <tr>
       {% for pair in row %}
       <th>{{ pair[0] }}</th>
       {% endfor %}
     </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-    {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
-</table>
+    {% endif %} {% tablerow pair in row %} {{ pair[1] }} {% endtablerow %} {% endfor %}
+  </table>
 </div>

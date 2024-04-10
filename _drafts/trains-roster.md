@@ -10,6 +10,7 @@ support: [gallery]
 ---
 
 <!-- simply so (by Jimmy_Xiao) -->
+
 {% include album.html albumname="roster" %}
 
 Al mijn locs en wagons - klik op een titel voor details!

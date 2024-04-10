@@ -12,7 +12,7 @@ support: [gallery]
         <div class="col-md-12">
           <div class="card-body">
             <h4 class="card-title text-lowercase">{{ gallery["title"] }}</h4>
-            <img class="gallery-best-image" src="{{ site.baseurl }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}">
+            <img class="gallery-best-image" src="{{ site.baseurl }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}" />
           </div>
         </div>
       </div>
@@ -22,19 +22,19 @@ support: [gallery]
 </div>
 
 <script>
-window.addEventListener('DOMContentLoaded',() =>{
-  // init isotope
-  var $grid = $('#art-gallery');
-  $grid.isotope({
-    percentPosition: true,
-    itemSelector: '.image-ref',
-    layoutMode: "masonry",
-    gutter: 5
-  });
+  window.addEventListener("DOMContentLoaded", () => {
+    // init isotope
+    var $grid = $("#art-gallery");
+    $grid.isotope({
+      percentPosition: true,
+      itemSelector: ".image-ref",
+      layoutMode: "masonry",
+      gutter: 5,
+    });
 
-  // layout Isotope after each image loads
-  $grid.imagesLoaded().progress( function() {
-    $grid.masonry();
+    // layout Isotope after each image loads
+    $grid.imagesLoaded().progress(function () {
+      $grid.masonry();
+    });
   });
-});
 </script>
