@@ -50,4 +50,5 @@ data-sub-html="Photo 2 by EJB &copy; 2015" >
 {{ "/assets/img/house/history/20210518130614-d90a888e.jpg" | relative_url }}
 {{ "/assets/img/house/history/20210518130616-cc0b8b87.jpg" | relative_url }}
 {% endgallery %}
+
 <!-- lightgallery_tag.rb auto thumbs -->

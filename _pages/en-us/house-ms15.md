@@ -206,29 +206,29 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 2000
 
-| Date      | Action                                                                                           |
-| --------- | ------------------------------------------------------------------------------------------------ | ---------------- |
-| 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                  |
-| 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                     |
-| 12-02-'00 | zolderkamer voor ge&iuml;soleerd en verder afgetimmerd                                           |
-| 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>    |
-|           | (...)                                                                                            |
-| 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                       |
+| Date      | Action                                                                                                |
+| --------- | ----------------------------------------------------------------------------------------------------- | ----------------- |
+| 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                       |
+| 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                          |
+| 12-02-'00 | zolderkamer voor ge&iuml;soleerd en verder afgetimmerd                                                |
+| 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>         |
+|           | (...)                                                                                                 |
+| 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                            |
 | 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/ms15/convector001105.jpg" | relative_url }}'> |
-| 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                 |
+| 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                      |
 
 ## 2001
 
-| Date                    | Action                                                                                                                                                                                                                                                                                                                           |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| 14-01-'01               | meterkast in de hal gemaakt: de kubus herbergt de buggy; de alu streamlinevorm verwijst als 'hightech' naar de vernieuwing in huis en maakt zich los van het historische gebouw... <br><img src='{{ "/assets/img/house/ms15/meterkast01.jpg"                                                                                     | relative_url }}' alt="ontwerp meterkastbekleding"> |
-|                         | <img src='{{ "/assets/img/house/ms15/meterkast02.jpg" | relative_url }}' alt="moderne meterkastbekleding"> |
-| 03-03-'01               | in werkkamer extra leidingen onder grond aangelegd en opnieuw ingericht (4 Billies en tapijt)                                                                                                                                                                                                                                    |
-| 20-08-'01               | in slaapkamer radiator vervangen door lamellen-designradiator rechts van venster. Lichtdichte gordijnen opgehangen en hekwerk laten maken in smederij, in afwachting van Frans balkon.                                                                                                                                           |
-| 10-10-'01 tot 25-05-'02 | Achterpui b.g. en raam slk. laten vervangen in oude stijl                                                                                                                                                                                                                                                                        |
-|                         | <img src='{{ "/assets/img/house/ms15/achtergevel-detail1-lo.jpg" | relative_url }}' alt="detail achtergevel">         |
+| Date                    | Action                                                                                                                                                                                                                                                                                                                                         |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| 14-01-'01               | meterkast in de hal gemaakt: de kubus herbergt de buggy; de alu streamlinevorm verwijst als 'hightech' naar de vernieuwing in huis en maakt zich los van het historische gebouw... <br><img src='{{ "/assets/img/house/ms15/meterkast01.jpg"                                                                                                   | relative_url }}' alt="ontwerp meterkastbekleding"> |
+|                         | <img src='{{ "/assets/img/house/ms15/meterkast02.jpg"                                                                                                                                                                                                                                                                                          | relative_url }}' alt="moderne meterkastbekleding"> |
+| 03-03-'01               | in werkkamer extra leidingen onder grond aangelegd en opnieuw ingericht (4 Billies en tapijt)                                                                                                                                                                                                                                                  |
+| 20-08-'01               | in slaapkamer radiator vervangen door lamellen-designradiator rechts van venster. Lichtdichte gordijnen opgehangen en hekwerk laten maken in smederij, in afwachting van Frans balkon.                                                                                                                                                         |
+| 10-10-'01 tot 25-05-'02 | Achterpui b.g. en raam slk. laten vervangen in oude stijl                                                                                                                                                                                                                                                                                      |
+|                         | <img src='{{ "/assets/img/house/ms15/achtergevel-detail1-lo.jpg"                                                                                                                                                                                                                                                                               | relative_url }}' alt="detail achtergevel">         |
 |                         | Het duurde al met al vreselijk lang, want de aannemers - in elk geval de onze, Sleper - sterven kennelijk van het werk en o, o wat is het moeilijk om een vakman te krijgen die er iets moois van wil maken! Tip: maak een goede tekening en schrijf alles op wat je afspreekt. Het helpt, kijk [hier]({{ base_url }}/blog/2002/windowmisery/) |
-| 10-10-'01 tot 25-05-'02 | de schilder deed de buitenkant                                                                                                                                                                                                                                                                                                   |
+| 10-10-'01 tot 25-05-'02 | de schilder deed de buitenkant                                                                                                                                                                                                                                                                                                                 |
 
 ## 2002
 
@@ -248,10 +248,10 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 2004
 
-| Date      | Action                                                             |
-| --------- | ------------------------------------------------------------------ |
-| 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                              |
-| 23-05-'04 | slang boiler gesprongen (en gehoosd)                               |
+| Date      | Action                                                                  |
+| --------- | ----------------------------------------------------------------------- | ----------------- |
+| 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                                   |
+| 23-05-'04 | slang boiler gesprongen (en gehoosd)                                    |
 | 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/ms15/kast2004.jpg" | relative_url }}'> |
 
 ## 2005
