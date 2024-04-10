@@ -22,9 +22,11 @@ You guessed it: after a visit to the area I am modelling the former route of the
 An American prototype narrow gauge mountain line starts to come alive on my N scale layout: The Durenver &amp; Silverton Narrow Gauge Railroad (get it? <em>Dur</em>ango + D<em>enver</em>).
 
 <!-- simply so (by Jimmy_Xiao) -->
+
 {% include album.html albumname="trains2" %}
 
 <!-- opieters include -->
+
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 
 ## <a id="layout">Modeling the D&amp;SNG RR</a>
@@ -85,7 +87,7 @@ Dimensions
 
 See the <a href="#lda">LDA stats</a> below</p>
 
-Until the summer of the year 2000 there wasn't much room to spike down the tracks, but one day in 2018 the trains  crossed the miniature Rockies all the way up to the town of <a href="#silverton">Silverton</a>.
+Until the summer of the year 2000 there wasn't much room to spike down the tracks, but one day in 2018 the trains crossed the miniature Rockies all the way up to the town of <a href="#silverton">Silverton</a>.
 
 ### Level 0: Newport, OR {#newport}
 
