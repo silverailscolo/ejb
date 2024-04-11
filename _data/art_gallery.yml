@@ -6,7 +6,8 @@
 #                            /____/
 # a custom art-gallery generator using _plugins/jekyll-art-gallery-generator.rb
 
-source_dir: assets/art-gallery
+source_dir: assets/art_gallery
+# no leading or trailing slashes
 # original images, that will be cropped according to the size_limit, thumbnailed and posted
 title: Portfolio
 #sort_field: "timestamp"
@@ -33,6 +34,9 @@ size_limit: 1000 # maximum size, px in either dimension, to limit the images to
 galleries:
   # if the gallery is not listed, it takes all the defaults
   # if the gallery is listed, it uses specified values except for defaults
+  Sketches:
+    title: Three design sketches from N31
+    best_image: IMG_4506.jpg
   Hidden Gallery:
     hidden: true # don't generate index file - it's still on the web though
   Shows 2018:

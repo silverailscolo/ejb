@@ -6,17 +6,10 @@
 
 __author__ = 'Egbert Broerse'
 
-#import json
 import yaml
 from os.path import isfile, join
 import plistlib
 # from datetime import date, time, datetime
-
-# def json_serial(obj):
-#     """JSON serializer for objects not serializable by default json code"""
-#     if isinstance(obj, (datetime, date)):
-#         return obj.isoformat()
-#     raise TypeError ("Type %s not serializable" % type(obj))
 
 
 def rename_keys(d, keys):
@@ -26,14 +19,12 @@ def rename_keys(d, keys):
 bookpediaExportFileToRead = "egbertbooks.xml"
 defaultLanguage = 'nl'
 # set correct path
-path = join("../assets/xml/", bookpediaExportFileToRead)
+path = join("", bookpediaExportFileToRead)
 
-#fileIn = open(path, "rb")
 # see https://github.com/python/cpython/blob/3.12/Lib/plistlib.py
 with open(path, 'rb') as f:
     pl = plistlib.load(f, fmt=None, dict_type=dict)
-#fileIn.close()
-# print(pl["101"])
+    # print(pl["101"])
 
 for bookId in pl:
     if bookId == "Version":
@@ -41,8 +32,6 @@ for bookId in pl:
     summary = ""
     year = 0
     print("id == " + bookId + " ==")
-    # print(json.dumps(pl[bookId], indent=4, sort_keys=True, default=str)) #default=json_serial)) #
-    # from https://stackoverflow.com/questions/67745643/select-specific-keys-inside-a-json-using-python
     bookDict = pl[bookId]
     # Filter only used keys
     filter_fields = ["title", "author", "summary", "lastRead", "url", "isbn"]

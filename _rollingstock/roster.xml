@@ -180,7 +180,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP SW1500 Calf #1870" fileName="UP_SW1500_Calf_1870.xml" roadNumber="1870" roadName="UP" mfg="Arnold" owner="Egbert Broerse" model="5116" dccAddress="1870" comment="MT couplers, bottom tank glued in place, break to access trucks/interior" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="UP SW1500 #1870" fileName="UP_SW1500_1870.xml" roadNumber="1870" roadName="UP" mfg="Arnold" owner="Egbert Broerse" model="5116" dccAddress="1870" comment="Calf, no cab, MT couplers, bottom tank glued in place, break to access trucks/interior" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2013-02-04T14:48:00.000+0000</dateUpdated>
       <decoder model="Z2" family="TCS Z2 decoder" comment="installed 2 jan 2013 + yellow LED" />
       <locoaddress>
