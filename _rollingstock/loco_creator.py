@@ -12,12 +12,6 @@ import xmltodict
 from os.path import isfile, join
 from datetime import datetime
 
-# def json_serial(obj):
-#     """JSON serializer for objects not serializable by default json code"""
-#     if isinstance(obj, (datetime, date)):
-#         return obj.isoformat()
-#     raise TypeError ("Type %s not serializable" % type(obj))
-
 
 def rename_keys(d, keys):
     # print("translating: ", d)
@@ -25,9 +19,10 @@ def rename_keys(d, keys):
     # print("translated: ", result)
     return result
 
+
 # set preferences
 jmriRosterFileToRead = "roster.xml"
-itemPicturePath = "../assets/img/trains2/rostercovers/" # must contain "covers" to make direct link from gallery to item folder
+itemPicturePath = "../assets/img/trains2/rostercovers/" # must contain "*covers" to make direct link from gallery to item folder
 defaultLanguage = 'en-us'
 
 # configuration
@@ -37,7 +32,7 @@ if overwrite != "y":
 pagesCreated = 0
 
 # set correct path
-path = join("../assets/xml/", jmriRosterFileToRead)
+path = join("", jmriRosterFileToRead)
 
 with open(path, 'r') as f:
     xml = f.read()

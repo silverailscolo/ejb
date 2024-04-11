@@ -3,8 +3,6 @@
 # sourced from https://github.com/ggreer/jekyll-gallery-generator
 # changed Egbert from using rmagick (unsupported, memory hog) to:
 require 'mini_magick'
-#require 'exifr'
-#require 'exifr/jpeg'
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
 
@@ -33,7 +31,7 @@ module Jekyll
     end
   end
 
-  # main page linking all galleries together
+  # main page linking all art_galleries together
   class GalleryIndex < ReadYamlPage
     def initialize(site, base, dir, galleries)
       @site = site
@@ -56,7 +54,7 @@ module Jekyll
         sort_field = config["sort_field"] || "name"
         galleries.sort! {|a,b| a.data[sort_field] <=> b.data[sort_field]}
       rescue Exception => e
-        puts "Error sorting art-galleries: #{e}"
+        puts "Error sorting galleries: #{e}"
         puts e.backtrace
       end
       if config["sort_reverse"]
@@ -79,7 +77,7 @@ module Jekyll
           end
           site.data["navigation"].push({"title"=> gallery.data["title"], "url"=> gallery.data["link"], "side"=> "left"})
           site.data["galleries-sorted"].push(gallery.data["title"])
-          # sorted array to order the galleries hash on the portfolio page
+          # sorted array to order the galleries hash on the Portfolio page, used?
         end
       }
     end
@@ -113,8 +111,8 @@ module Jekyll
       gallery_config = galleries[gallery_name.downcase] || {}
       puts "Generating #{gallery_name}: #{gallery_config}"
       sort_field = config["sort_field"] || "name"
-
       self.process(@name)
+      puts "finished self.process for #{@name}"
       gallery_page = File.join(base, "_layouts", "art_gallery_page.html")
       unless File.exist?(gallery_page)
         gallery_page = File.join(File.dirname(__FILE__), "art_gallery_page.html")
@@ -129,15 +127,17 @@ module Jekyll
       self.data["title"] = gallery_name
       self.data["link"] = "/#{@dir}/"
       # thumbnail destination
-      scale_method = gallery_config["scale_method"] || config["scale_method"] || "fit" # each gallery can have it's own scale method, or use the global scale if defined
-      @hidden = gallery_config["hidden"] || false # the gallery can also be hidden by renaming it to start with a dot
+      scale_method = gallery_config["scale_method"] || config["scale_method"] || "fit"
+      # each art-gallery can have it's own scale method, or use the global scale if defined
+      @hidden = gallery_config["hidden"] || false
+      # the gallery can alternatively be hidden by renaming it to start with a dot
       if @hidden
         self.data["sitemap"] = false
         return
       end
       if config["watermark"]
         # load watermark image
-        wm_img = MiniMagick::Image.read(File.join(base, "assets/img", config["watermark"])).first
+        wm_img = MiniMagick::Image.read(File.join(base, "assets/img", config["watermark"]))
       end
 
         # process and copy images
@@ -148,19 +148,18 @@ module Jekyll
         next unless image.downcase().end_with?(*$image_extensions)
 
         image_path = File.join(dir, image) # source image short path
-        # img_src = site.in_source_dir(image_path) # absolute path for the source image
+        puts "Art-Gallery processing image: #{image_path}"
 
         # extract timestamp
         if sort_field == "timestamp"
           begin
             date_times[image] = 0
-            #  ["DateTime"], ["DateTimeDigitized"], ["DateTimeOriginal"]
-            data_array = MiniMagick::Image.data # Egbert changed from EXIF:"DateTime"
-            date = data_array['Properties']['date:modify']
+            date = File.mtime(image_path)
+            #puts "Date found: #{date}" # 2024-04-09 10:59:53 +0200
+            #puts "date_secs = #{date.to_i.to_s}"
             if date != nil
-              date_times[image] = DateTime.strptime(date,"%Y:%m:%d %H:%M:%S").to_time.to_i
+              date_times[image] = date.to_i
             end
-            # puts "gtot #{date_array} date" + date_times[image].to_s
           rescue Exception => e
             puts "Error getting date_time " + date_times[image].to_s + " for #{image}: #{e}"
           end
@@ -170,9 +169,10 @@ module Jekyll
         dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
         dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
-          if config["strip_exif"] or config["watermark"] or config["size_limit"] # can't simply copy or symlink, need to pre-process the image
+          if config["strip_exif"] or config["watermark"] or config["size_limit"]
+          # can't simply copy or symlink, need to pre-process the image
+            puts "Art-GalleryPage generating #{dest_image}..."
             source_img = MiniMagick::Image.read(image_path)
-            puts "Art-GalleryPage Generating #{dest_image}..."
             if config["strip_exif"]
               print "stripping EXIF..."
               source_img = source_img.strip
@@ -182,19 +182,11 @@ module Jekyll
                 print "too small to watermark"
               else
                 print "watermarking"
-                # watermark parameters are:
-                # - image,
-                # - how much of watermark lightness to compose in "xx%",
-                # - how much of watermark's saturation to compose (%),
-                # - gravity (SouthEastGravity is good),
-                # - x-offset (origin depends on gravity),
-                # - y-offset
                 source_img = source_img.composite(
                     wm_img,
-                    MiniMagick::SouthEastGravity,
-                    20,
-                    20,
-                    MiniMagick::HardLightCompositeOp
+                    gravity: "south-east",
+                    offset: [-20,-20],
+                    compose: hard-light
                   ).write(dest_image_abs_path)
               end
             end
@@ -243,10 +235,9 @@ module Jekyll
 
         # make a thumbnail
         makeThumb(image_path, dest_image, config["thumbnail_size"]["x"] || 400, config["thumbnail_size"]["y"] || 400, scale_method)
-        #@site.static_files << GalleryFile.new(site, base, File.join(@dir, "thumbs"), dest_image)
       end
 
-      # sort pictures inside the gallery
+      # sort pictures inside the art-gallery
       begin
         if sort_field == "timestamp"
           @images.sort! {|a,b|
@@ -263,7 +254,7 @@ module Jekyll
           @images.reverse!
         end
       rescue Exception => e
-        puts "Error sorting images in gallery #{gallery_name}: #{e}"
+        puts "Error sorting images in art-gallery #{gallery_name}: #{e}"
         # puts e.backtrace
       end
 
@@ -335,13 +326,13 @@ module Jekyll
       galleries = []
       original_dir = Dir.getwd
 
-      # generate galleries
+      # generate individual art_galleries
       Dir.chdir(site.source)
       begin
         Dir.foreach(dir) do |gallery_dir|
           gallery_path = File.join(dir, gallery_dir)
-          if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip galleries starting with a dot
-            puts "art_gallery starts generating #{gallery_dir}"
+          if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
+            puts "Art-Gallery starts generating gallery #{gallery_dir}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
             gallery.render(site.layouts, site.site_payload)
             gallery.write(site.dest)
@@ -359,6 +350,7 @@ module Jekyll
       site.data["navigation"] = []
 
       # generate gallery index
+      puts "Art-Gallery starts generating Art_GalleryIndex page"
       gallery_index = GalleryIndex.new(site, site.source, dir, galleries)
       gallery_index.render(site.layouts, site.site_payload)
       gallery_index.write(site.dest)
