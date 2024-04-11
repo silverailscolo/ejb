@@ -424,6 +424,11 @@ pre code {
   flex-grow: 1;
   max-width: 100%;
 }
+.row-cols-1 > * {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
 .row-cols-2 > * {
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
@@ -498,6 +503,9 @@ pre code {
 .table-borderless thead th {
   border: 0;
 }
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
 .table-hover tbody tr:hover {
   color: #212529;
   background-color: rgba(0, 0, 0, 0.075);
@@ -528,6 +536,9 @@ pre code {
 .table-dark th,
 .table-dark thead th {
   border-color: #454d55;
+}
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
 }
 .table-dark.table-hover tbody tr:hover {
   color: #fff;
