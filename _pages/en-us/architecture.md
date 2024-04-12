@@ -9,67 +9,72 @@ nav_order: 2
 support: [gallery]
 ---
 
-Welkom op de site van Egbert Broerse, architect.<br>
-Als architect en als stedenbouwkundige sta ik ingeschreven in het <a href="https://www.architectenregister.nl/vind-een-architect/?searchTerm=Broerse&searchFilter=5">architectenregister</a>.<br>
-Ik ben bereikbaar via email link (dot) egbert (at) mac (dot) com
+Welcome to the site of Egbert Broerse, architect.
 
-## Visie
+As an architect and urban planner I am registered in the register of architects.
 
-<p>Ik vind het belangrijk dat ruimtes - binnen en buiten - gezond en prettig zijn. Daarom werk ik met [biobased](https://www.pianoo.nl/nl/overzicht-aanbod-biobased-producten), niet-giftige materialen en hergebruikte producten, van vloerdelen tot oude tegels.<br>
-Goed gebruik maken van bestaande ruimtes en gebouwen is een belangrijke stap om te voorkomen dat je materialen afvoert en nieuwe produceert als dat helemaal niet hoeft. <em>Refuse</em> is de 1e R op de R-ladder.</p>
+Contact me via email link (dot) egbert (at) mac (dot) com
 
-## <a id="circulair">Biobased en circulair bouwen</a>
+## My design approach
 
-De bouwindustrie gebruikt voor de productie van veel materialen nog steeds heel veel (fossiele) energie en stoot veel CO<sub>2</sub> uit. Grondstoffen die niet in een mensenleven "aangroeien", raken uitgeput.
+I think it is important that spaces - inside and outside - are healthy and pleasant. Therefore, I work with [biobased](https://www.pianoo.nl/en/), non-toxic materials and reused products, from floorboards to old tiles.
+Making good use of existing spaces and buildings is an important step to avoid disposing of materials and producing new ones when you don't need to at all. Refuse is the 1st R on the R ladder.
 
-Een alternatief zijn <em>biobased</em> materialen, bijv. vlas als isolatiemateriaal. Een andere oplossing is circulair bouwen, dus de kringloop starten met gebruikte materialen en er voor zorgen dat een bouwwerk zo te demonteren is dat grote elementen elders opnieuw gebruikt kunnen worden. Biobased is op molecuulniveau ook circulair.
-Wil je meer weten over circulair bouwen, begin dan bij [Leidraad Platform CB'23](https://platformcb23.nl/) en lees hun leidraad-uitgaves (o.a. Begrippen, Circulair Ontwerpen, Paspoorten).
+## Bio-based and circular construction
 
-Advies: regel genoeg opslagruimte, ook voor een renovatie in de binnenstad (huur een loods). Werk circulair, verzamel recyclebare resten <em>schoon</em> en lever ze in bij de producent, bijv. <a href="https://www.bureauleiding.nl">Buizen Inzamel Systeem (BIS)</a> voor elektrabuizen.
+The construction industry still uses a lot of (fossil) energy for the production of many materials and emits a lot ofCO2. Raw materials that do not "grow" in a human lifetime are depleted.
+An alternative are bio-based materials, e.g. flax as insulation material. Another solution is circular construction, i.e. starting the cycle with used materials and ensuring that a structure can be disassembled in such a way that large elements can be reused elsewhere. Biobased is also circular at the molecular level. If you want to know more about circular construction, start at [Platform CB'23 Guidelines](https://platformcb23.nl/) and read their releases (including Circular Concepts, Circular Design, Passports).
 
-Neem tijd om op zoek te gaan bij [circulaire hubs](https://www.cirkelstad.nl/circulaire-productencatalogus-2-0/) in de regio. Biedt jouw overgebleven materialen ook aan via zo'n hub.
+Advice: arrange enough storage space, even for a downtown renovation (rent a shed). Work circularly, collect recyclable scraps and return them to the manufacturer, e.g., for electrical pipes in the Netherlands we use the <a href="https://www.bureauleiding.nl">Buizen Inzamel Systeem (BIS)</a>.
 
-<figure><img src='{{ "/assets/img/architect/n31/N31princDkruisend_lo.jpg" | relative_url }}' alt='Schets Landschap N31' class='img-fluid' >
-<figcaption class="kleiner">Landschap loopt door (N31) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+Take time to seek out [circular hubs](https://www.cirkelstad.nl/circulaire-productencatalogus-2-0/) in your region. Offer your leftover materials through such a hub as well.
 
-<p>In bestaande gebouwen onderzoek ik hoe ze zijn gebouwd en gebruikt, de <em>structuur</em>. Ook voor de nieuwe situatie is een duidelijk ontwerpprincipe handig, zowel voor de bouwers, voor de vergunning als voor de bewoners.<br>
-Elk gebouw staat in een omgeving, en die betrek ik in het ontwerp: hoe zie je het bouwwerk liggen als je aankomt, hoe kijk je naar buiten? Wat gebeurt er om het gebouw, en hoe valt de zon binnen? Ik werk graag in bestaande context, landelijk &eacute;n stedelijk.</p>
+<figure><img src='{{ "/assets/img/architect/n31/N31princDkruisend_lo.jpg" | relative_url }}' alt='Sketch of N31 landscape' class='img-fluid' >
+<figcaption class="kleiner">Landscape continues despite infrastructure (N31) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img-noresample/avenue2/PaardentunnelSchetsEgbert-562x252.jpg" | relative_url }}' alt='Impressie fietstunnel Geusselt' class='img-fluid' >
-<figcaption class="kleiner">Impressie fietstunnel Geusselt (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+In existing buildings, I examine how they were built and used, what we call <em>structure</em>. A clear design principle is also useful for the new situation, both for builders, for permitting and for occupants.
+Every building stands in an environment, and I include that in the design: how do you see the structure when you arrive, how do you look outside? What happens around the building, and how does the sun fall in? I like to work in existing contexts, rural and urban.
 
-<p>Bij veel ontwerpkeuzes is het handig om met berekeningen te onderbouwen wat de optimale variant is op alle vlakken die de opdrachtgever belangrijk vindt. Daarvoor gebruik ik o.a. de Passivhaus <a href="https://passipedia.org/planning/calculating_energy_efficiency/phpp_-_the_passive_house_planning_package">PHPP</a> berekening en <a href="https://windows.lbl.gov/software/therm/">THERM</a>.<br>
-Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inzicht in de keuzes die soms al in een vroeg stadium gemaakt moeten worden. Je wilt doelmatig werken maar het zijn toch altijd echte euro's, die goed besteed moeten worden!</p>
-<p>Ik blijf bij alle projecten betrokken tot in de uitvoering, <em>hands-on</em> om op locatie te zorgen dat de ambitie wordt vertaald in de praktijk van de bouwers, en om technisch mee te kijken en te zorgen dat de (onder)aannemers goed samenwerken.</p>
-<p>Om mijn ervaring met circulair bouwen te delen, schrijf ik in het Actieteam mee aan de <em>Leidraad Circulair Ontwerpen</em> van <a href="https://platformcb23.nl">Platform CB'23</a>.</p>
+<figure><img src='{{ "/assets/img-noresample/avenue2/PaardentunnelSchetsEgbert-562x252.jpg" | relative_url }}' alt='Bicycle-underpass Geusselt (artist-impression)' class='img-fluid' >
+<figcaption class="kleiner">Bicycle-underpass Geusselt (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<div class="card mx-auto" style="max-width: 80%;">
-<figure><img src='{{ "/assets/img/architect/BR11/BR11_Bouwbord.png" | relative_url }}' alt='Bouwbord 2021' class='img-fluid' >
-<figcaption class="kleiner">Bouwpartners restauratie 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+For many design choices it is useful to substantiate with calculations what the optimal variant is in all areas that the client considers important. For this I use the Passivhaus <a href="https://passipedia.org/planning/calculating_energy_efficiency/phpp_-_the_passive_house_planning_package">PHPP</a> calculation and <a href="https://windows.lbl.gov/software/therm/">THERM</a>, among others.
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Voorgevel woonhuis BR11, aug 2021' class='img-fluid'>
-<figcaption class="kleiner">Project 2021-2022: restauratie woonhuis BR11 te Dwingeloo (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+Good visualizations, hand sketched or with 3D CAD/BIM, give the client insight into the choices that sometimes have to be made early on. You want to work efficiently but it's always real euros after all, which have to be well spent!
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_3774.jpg" | relative_url }}' alt='Herstel en isolatielaag schuin dak' class='img-fluid' >
-<figcaption class="kleiner">Herstel en isolatielaag schuin dak (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+I stay involved in all projects until the execution, hands-on to make sure on site that the ambition is translated into the practice of the builders, and to technically look along and make sure the (sub)contractors work well together.
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_1165.jpg" | relative_url }}' alt='Afwerking dak met hergebruikte schroten' class='img-fluid' >
-<figcaption class="kleiner">Afwerking dak met hergebruikte schroten uit Friesland (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+To share my experience with circular design and construction, I am co-writing in the Action Team for [Platform CB'23's Guide on Circular Design](https://platformcb23.nl).
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+<figure><img src='{{ "/assets/img/architect/BR11/BR11_Bouwbord.png" | relative_url }}' alt='Sign 2021' class='img-fluid' >
+<figcaption class="kleiner">Partners restauration project 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
+<figure><img src='{{ "/assets/img/architect/BR11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Front facade villa BR11, aug 2021' class='img-fluid'>
+<figcaption class="kleiner">Project 2021-2022: restored villa BR11 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
+<figure><img src='{{ "/assets/img/architect/BR11/IMG_3774.jpg" | relative_url }}' alt='Repair and insulation of sloped roof, interior view' class='img-fluid' >
+<figcaption class="kleiner">Repair and insulation of sloped roof (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
+<figure><img src='{{ "/assets/img/architect/BR11/IMG_1165.jpg" | relative_url }}' alt='Inside the roof is decorated with second hand boards' class='img-fluid' >
+<figcaption class="kleiner">Inside the roof is decorated with second hand boards from Friesland (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div><!-- sluit tegel af -->
 
-<div class="card mx-auto" style="max-width: 80%;">Ontwerp voor een nieuw hoofdgebouw voor de LU Wageningen
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+Design for new main office University Wageningen (thesis)
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/architect/studiebk/LUW1988EBR.png" | relative_url }}' alt='Overzicht afstudeerontwerp E.J. Broerse 1988' class='img-fluid'>
-<figcaption class="kleiner">Uitnodiging Afstudeerpresentatie (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figure><img src='{{ "/assets/img/architect/studiebk/LUW1988EBR.png" | relative_url }}' alt='Hand sketch of final design E.J. Broerse 1988' class='img-fluid'>
+<figcaption class="kleiner">Invitation for final thesis presentation (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_ZO.jpg" | relative_url }}' alt='Afstudeerontwerp E.J. Broerse 1988' class='img-fluid'><br>
-<figcaption class="kleiner">Vogelvlucht (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figure><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_ZO.jpg" | relative_url }}' alt='Thesis Architectural design E.J. Broerse 1988' class='img-fluid'><br>
+<figcaption class="kleiner">Bird's eye view (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div><!-- sluit row af -->
 
 <!-- groter plaatje -->
-<figure><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_entree.jpg" | relative_url }}' alt='Afstudeerontwerp E.J. Broerse 1988' class='img-fluid'>
-<figcaption class="kleiner">Noordgevel (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figure><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_entree.jpg" | relative_url }}' alt='North facade, Architectural design E.J. Broerse 1988' class='img-fluid'>
+<figcaption class="kleiner">North Facade (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
 </div><!-- sluit tegel af -->

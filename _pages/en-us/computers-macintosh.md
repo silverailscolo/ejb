@@ -8,7 +8,7 @@ lang: en-us
 nav: false
 ---
 
-<div class="card">
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
 ## Photos app won't open {#PhotosApp}
 

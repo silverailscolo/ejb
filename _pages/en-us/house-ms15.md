@@ -10,9 +10,12 @@ toc:
   sidebar: left
 ---
 
-# Introduction
-
-<p>Most of my spare time during the last 10 years was spent on redecorating our 100 years old house. We're ready by now, but maintenance is waiting for us! Still, it's a great pastime and - as an architect by profession - it's a joy to be able to create all those fine details and custom finishings which we couldn't afford to let a professional carpenter make for us. The first 5 years I was a regular visitor of our local building supply stores, called ['Gamma'](https://www.gamma.com) and 'Woody'. But for the more serious projects, you better skip the lot and go to a fully stocked wholesale company instead. Some memorable items:</p>
+Most of my spare time during the last 10 years was spent on redecorating our 100 years old house. We're ready by now,
+but maintenance is waiting for us! Still, it's a great pastime and - as an architect by profession - it's a joy to be
+able to create all those fine details and custom finishings which we couldn't afford to let a professional carpenter
+make for us. The first 5 years I was a regular visitor of our local building supply stores, called
+['Gamma'](https://www.gamma.com) and 'Woody'. But for the more serious projects, you better skip the lot and go to a
+fully stocked wholesale company instead. Some memorable items:
 
 ### Our garden shed
 
@@ -36,7 +39,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 ## 1995
 
-<p>For Sale, Sold &amp; a quick start</p>
+For Sale, Sold &amp; a quick start
 
 | Date                    | Action                                                                                                                                                                                                                                                        |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

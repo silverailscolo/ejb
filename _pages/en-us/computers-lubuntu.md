@@ -8,22 +8,22 @@ lang: en-us
 nav: false
 ---
 
-<div class="card">
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-## Installing a Belkin WiFi PCMCIA card on Lubuntu 14.04
+<h2>Installing a Belkin WiFi PCMCIA card on Lubuntu 14.04</h2>
 
-<p>Check the properties of your WiFi card by opening Utilities > Xterminal and typing:</p>
+<p>Check the properties of your Wi-Fi card by opening Utilities > Xterminal and typing:</p>
 <pre>sudo lspci</pre>
 <p>The Belkin FSD7010 rev 03 card uses the Broadcom BCM 4306 rev 03 hardware, PCI-ID: [14e4:4320]: use open source B43 driver</p>
 <p>Look up the Ubuntu driver for the chipset in your card, using this <a href="https://help.ubuntu.com/community/HardwareSupportComponentsWirelessNetworkCardsBelkin#PCMCIA">table</a>.
 </p>
 
-<p>To use a Broadcom (Belkin) WiFi card (and enable shut down of your laptop, which the automatically loaded wl driver blocks):</p>
+<p>To use a Broadcom (Belkin) Wi-Fi card (and enable shut down of your laptop, which the automatically loaded wl driver blocks):</p>
 
 <p>The (L)Ubuntu kernel in versions 8.04.x (Hardy Heron) and higher do provide the b43 drivers, however due to copyright restrictions not the proprietary firmware which is required to run the card. To extract the required firmware and install b43-fwcutter, issue the following commands in a terminal (under the desktop menu System Tools > LXTerminal) and follow the prompts:</p>
 <pre>sudo apt-get update</pre>
 <pre>sudo apt-get install b43-fwcutter</pre>
-<p>Remove your wifi card from its slot and restart the computer.</p>
+<p>Remove your Wi-Fi card from its slot and restart the computer.</p>
 
 #### Uninstall the default _wl_ wireless driver
 
@@ -60,12 +60,13 @@ on our Acer laptop, no special action was necesary to activate the driver, but y
 <pre>sudo modprobe -r b43 bcma</pre>
 <pre>sudo modprobe -r brcmsmac bcma</pre>
 <pre>sudo modprobe -r wl</pre>
-<p>You might have to restart your computer (with Wireless disabled and the Wifi card ejected from its slot) to be able to unload the WL module using the last line; in that case, the system will tell you &quot;Cannot unload, wl is in use&quot;.</p>
+<p>You might have to restart your computer (with Wireless disabled and the Wi-Fi card ejected from its slot) to be able to unload the WL module using the last line; in that case, the system will tell you &quot;Cannot unload, wl is in use&quot;.</p>
 
 <p>Then load the B43 driver by entering the command:</p>
 <pre>sudo modprobe b43</pre>
 
-<p>Go to <em>Update drivers</em> > <em>Extra Drivers</em> and select &quot;Do not use device&quot; (Gebruik het apparaat niet) instead of "Use Broadcom 802.11 Linux STA driver in bcmwl-kernel-source (non-free)".</p>
+<p>Go to <em>Update drivers</em> > <em>Extra Drivers</em> and select &quot;Do not use device&quot; (Gebruik het apparaat niet)
+instead of "Use Broadcom 802.11 Linux STA driver in bcmwl-kernel-source (non-free)".</p>
 
 Go to <em>Network connections</em> and delete any old Wifi connection.<br>
 Create a new connection, fill in your credentials, MAC of the network card (= eth1).<br>
