@@ -214,7 +214,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>    |
 |           | (...)                                                                                            |
 | 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                       |
-| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/convector001105.jpg" | relatve_url }}'> |
+| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/ms15/convector001105.jpg" | relative_url }}'> |
 | 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                 |
 
 ## 2001
@@ -252,7 +252,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | --------- | ------------------------------------------------------------------ | ----------------- |
 | 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                              |
 | 23-05-'04 | slang boiler gesprongen (en gehoosd)                               |
-| 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/kast2004.jpg" | relative_url }}'> |
+| 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/ms15/kast2004.jpg" | relative_url }}'> |
 
 ## 2005
 
@@ -278,6 +278,13 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | ---------- | --------------------------------------------- | --------------------------------------------- |
 | 01-06-2012 | koekkoek                                      |
 |            | <img src='{{ "/assets/img/house/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
+
+## 2020
+
+| Date       | Action                                        |
+| ---------- | --------------------------------------------- | --------------------------------------------- |
+| 01-03-2020 | vloer zolder vervangen                        | |
+| 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilder      | |
 
 ## What's next?
 

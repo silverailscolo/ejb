@@ -9,9 +9,10 @@ importance: 2
 category: work
 ---
 
-Rol: projectarchitect ruimtelijke kwaliteit, vormgeving aquaduct, 4 viaducten en 2 km open bak &amp; inpassing (stedenbouw), 2014 - 2017
+Periode: 2014 - 2017
+Rol: projectarchitect ruimtelijke kwaliteit, vormgeving en details van aquaduct, 4 viaducten en 2 km open bak &amp; landschappelijke inpassing (stedenbouw).
 
-<div class="card mx-auto" style="max-width: 90%;">N31 Ontwerpschetsboek
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
 <div class="row">
   <div class="col-sm">

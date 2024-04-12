@@ -128,7 +128,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 30-01-'97                                 | schakelmat. binnen: alles 1 type, een (dure) doos vol!                                                                                                |
 | 13-02-'97                                 | linoleum gelegd kl. kamertje                                                                                                                          |
 | 28-02-'97                                 | 2 dakdoorvoeren op dak gezet (aann.); verder zelf aangesl. en ventilatoren geplaatst                                                                  |
-| 26-03-'97                                 | nieuw klasiek schuifraam Tjeerd geplaatst (aann.); zelf geschilderd (Moeder)                                                                          |
+| 26-03-'97                                 | nieuw klassiek schuifraam Tjeerd geplaatst (aann.); zelf geschilderd (Moeder)                                                                          |
 | 28-03-'97                                 | gestart aan zelfbouwen commode (MDF; zie schets)                                                                                                      |
 | 31-03-'97 tot 04-04-'97                   | kamer Tjeerd behangen (stressbehang) <em>Tip</em>: Effen behang is heel moeilijk!                                                                     |
 | 14-05-'97                                 | Tjeerd geboren, dus niet veel tijd...                                                                                                                 |
@@ -173,7 +173,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 02-07-'98                       | helder glas bovenlicht voordeur geplaatst (aann.)                                                                         |
 | 04-07-'98                       | gelaagde ruitjes in schuurdeuren zelf gezet (de onderste 3 gelaagd; 1,5 kg stopverf)                                      |
 | 05-07-'98                       | geloogde oude voordeur met PU-lijm stevig gemaakt, op maat gezaagd en voorzien van grenen 'wel' (buiig weer)              |
-| 18-07-'98                       | van 'gekregen' hout een lange, lage kast annex ballustrade gemaakt op zolder; daar knapt het van op!                      |
+| 18-07-'98                       | van 'gekregen' hout een lange, lage kast annex balustrade gemaakt op zolder; daar knapt het van op!                      |
 | 21-07-'98                       | raamkoorden 1<sup>e</sup> vervangen na 2 jr!                                                                              |
 |                                 | messing deurbeslag + sloten gekocht. <em>Tip</em>: 2 gelijksluitende sloten (1 sleutel) is iets duurder, maar wel handig. |
 | 26-09-'98                       | schuur afgelakt (zie <a href="#schuur_01">18-10-'97</a>)                                                                  |
@@ -279,7 +279,14 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 01-06-2012 | koekkoek                                      |
 |            | <img src='{{ "/assets/img/house/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
 
-## What's next?
+## 2020
+
+| Date       | Action                                        |
+| ---------- | --------------------------------------------- | --------------------------------------------- |
+| 01-03-2020 | vloer zolder vervangen                        | |
+| 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilder      | |
+
+What's next?
 
 <ul>
 <li>Buitenschilderwerk (daar blijf je mee bezig)</li>

@@ -9,12 +9,10 @@ importance: 2
 category: work
 ---
 
-A2 Maastricht
-
-Role: Spatial Design team lead, project architect 25 civil structures and 2 tunnel utility building enclosures
 Period: 2009 - 2017
+Role: Spatial Design team lead, project architect 25 civil structures and 2 tunnel utility building enclosures
 
-<div class="card mx-auto" style="max-width: 80%;">A2 Design Sketchbooks
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/architect/avenue2/7691.jpg" | relative_url }}' alt='Tunnel Entrance South, A2 Maastricht' class='img-fluid'>
