@@ -15,7 +15,7 @@ By the way, it's shocking what my first memory expansion cost in 1986, or the ex
 
 Do you remember this?
 
-<figure><img src='{{ "/assets/img/mac/Macintosh_system_6.0.8.png" | relative_url }}' alt="System 6" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/Macintosh_system_6.0.8.png" | relative_url }}' alt="System 6" class='img-fluid'></figure>
 
 Look at [Apple Mac System 6](https://en.wikipedia.org/wiki/System_6) and [Apple Mac System 6](https://en.wikipedia.org/wiki/System_7) from the Eighties.
 
@@ -26,7 +26,7 @@ Achteraf schrikken hoe duur alles was van 1986 tot 2000, bijv. de externe SCSI A
 
 ## <a id="macplus">MacPlus 1Mb</a>
 
-<figure><img src='{{ "/assets/img/mac/macplus.gif" | relative_url }}' alt="MacPlus ED 1 MB uit 1987" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/macplus.gif" | relative_url }}' alt="MacPlus ED 1 MB uit 1987" class='img-fluid'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68000 <br>
 scherm: ingebouwd 400 x 600, 9" zwart-wit<br>
@@ -40,7 +40,7 @@ Zie voor meer info: <a href="https://lowendmac.com/compact/macintosh-plus.html">
 
 ## <a id="pb100">PowerBook 100</a>
 
-<figure><img src='{{ "/assets/img/mac/powerbook100.png" | relative_url }}' alt="PowerBook 100, tweedehands gekocht in 1990" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/powerbook100.png" | relative_url }}' alt="PowerBook 100, tweedehands gekocht in 1990" class='img-fluid'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68000 <br>
 scherm: ingebouwd 400 x 600, zwart-wit<br>
@@ -67,7 +67,7 @@ Deze Mac draait geen MacOS 7.6, wel tot en met 7.5.5.<br>
 
 ## <a id="IIcx">Macintosh IIcx</a>
 
-<figure><img src='{{ "/assets/img/mac/IIcx.gif" | relative_url }}' alt="Mac IIcx, voor het eerst een uitbreidbare Mac!" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/IIcx.gif" | relative_url }}' alt="Mac IIcx, voor het eerst een uitbreidbare Mac!" class='img-fluid'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68030 33MHz<br>
 scherm: extern, bijv. Apple RGB 13" (trinitron)<br>
@@ -91,7 +91,7 @@ Voor meer info: <a href="https://lowendmac.com/ii/macintosh-iicx.html">LowEndMac
 
 ## <a id="Duo230">PowerBook Duo230</a>
 
-<figure><img src='{{ "/assets/img/mac/powerbook_duo_230.png" | relative_url }}' alt="PowerBook Duo in zijn Dock" class='w3-image'></figure>
+<figure><img src='{{ "/assets/img/mac/powerbook_duo_230.png" | relative_url }}' alt="PowerBook Duo in zijn Dock" class='img-fluid'></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 68030 <br>
 scherm: ingebouwd 400 x 600, max. 16 grijstinten<br>
@@ -103,11 +103,13 @@ HD: 120 Mb SCSI</p>
 
 <p>Lekker lichte laptop, dankzij externe floppy drive. Na 5 jaar in de tas heen en weer slepen is de accu echter op en doet het toetsenbord wat raar. Maar ja, wat wil je, we hebben er de hele prijsvraag mee gemaakt in 1994.<br>
 Kortom: veel plezier gehad van een tweedehandsje.</p>
-<div class="w3-row">
+<div class="row">
+<div class="col-sm">
   <figure><img src='{{ "/assets/img/mac/PowerBook_Duo_Dock_aventure-applecom.jpg" | relative_url }}' alt="vlak voor de dock hem inslikt">
   <figcaption class="kleiner">Apple DuoDock (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.aventure-apple.com/blog/wp-content/uploads/2019/03/Apple_PowerBook_Duo_Dock_Macintosh.jpg" property="cc:attributionName" rel="cc:attributionURL">aventure-appl.com</a>
   under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
   </figure>
+</div>
 </div>
 
 <p>Heel slim detail: de Duo schuift als en videocassette in de dock, en daar zit een extra HD en coprocessor in, plus een slot om de laptop te beveiligen.</p>
@@ -123,7 +125,7 @@ Kortom: veel plezier gehad van een tweedehandsje.</p>
 
 ## <a id="Pf5400">Performa 5400/180</a>
 
-<figure><img src='{{ "/assets/img/mac/performa5400.png" | relative_url }}' alt='MacPerforma 5400/180 all-in-one' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/performa5400.png" | relative_url }}' alt='MacPerforma 5400/180 all-in-one' class='img-fluid'>
 <figcaption class="kleiner">MacPerforma 5400/180 all-in-one (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola 604e PowerPC, 180 MHz <br>
@@ -149,7 +151,7 @@ HD: 1,6 Gb IDE</p>
 
 ## <a id="iMac233">iMac 233 Strawberry</a>
 
-<figure><img src='{{ "/assets/img/mac/imac233_121-2162.png" | relative_url }}' alt='iMac 233 all-in-one' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/imac233_121-2162.png" | relative_url }}' alt='iMac 233 all-in-one' class='img-fluid'>
 <figcaption class="kleiner">iMac 233 all-in-one (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Nog sneller en compact. In mei 2000 super, later leuk voor de jongens voor educatieve CD-roms. Vrolijke kleur en iTunes begon toen, heel klein...</p>
@@ -159,7 +161,7 @@ HD: 1,6 Gb IDE</p>
 
 ## <a id="imacg5">iMac G5 20"</a>
 
-<figure><img src='{{ "/assets/img/mac/iMacG5_Berkely.jpg" | relative_url }}' alt='iMac G5 20" (ambient sensor)' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/iMacG5_Berkely.jpg" | relative_url }}' alt='iMac G5 20" (ambient sensor)' class='img-fluid'>
 <figcaption class="kleiner">iMac G5 (with notes) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/38455623@N05/3748913414" property="cc:attributionName" rel="cc:attributionURL">C. Berkely</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nd/2.0/">CC BY-ND</a>)</figcaption></figure>
 ### Enkele gegevens:
 <p>Processor: Motorola G5, 2 GHz<br>
@@ -182,7 +184,7 @@ HD: 233 Gb ATA</p>
 
 ## <a id="macmini">MacMini G4</a>
 
-<figure><img src='{{ "/assets/img/mac/macMini_Imhoff.png" | relative_url }}' alt='macMini G4 1.4' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/macMini_Imhoff.png" | relative_url }}' alt='macMini G4 1.4' class='img-fluid'>
 <figcaption class="kleiner">MacMini G4 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/kogakure/8716121/in/photostream/" property="cc:attributionName" rel="cc:attributionURL">Stefan Imhoff</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA</a>)</figcaption></figure>
 <p>Draait <a href="https://www.jmri.org/releasenotes/jmri2.14.1.shtml">JMRI v 2.14.1</a> met Java 1.8 in de treinenkamer. Tweedehands gekocht.</p>
 
@@ -191,7 +193,7 @@ HD: 233 Gb ATA</p>
 
 ## <a id="imaccoreduo">iMac Core 2 Duo 20" (2007)</a>
 
-<figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.jpg" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='w3-image'>
+<figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.jpg" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='img-fluid'>
 <figcaption class="kleiner">iMac CoreDuo 20" Mid-2007 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.EveryMac.com" property="cc:attributionName" rel="cc:attributionURL">EveryMac.com</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Meer over de iMac Core 2 Duo op <a href="https://everymac.com/systems/apple/imac/specs/imac-core-2-duo-2.4-20-inch-aluminum-specs.html">EveryMac.com</a>.
@@ -207,7 +209,7 @@ HD: 233 Gb ATA</p>
 
 <p>Geen Mac, maar voor 1988 zeer innovatief. Designed by Sir Clive Sinclair. Zie ook <a href="https://en.wikipedia.org/wiki/Cambridge_Z88">Wikipedia</a>
 </p>
-<figure><img src='https://upload.wikimedia.org/wikipedia/commons/8/88/Cambridge-Z88.jpg' alt='Z88 portable' class='w3-image'>
+<figure><img src='https://upload.wikimedia.org/wikipedia/commons/8/88/Cambridge-Z88.jpg' alt='Z88 portable' class='img-fluid'>
 <figcaption class="kleiner">Z88 portable (<a href="https://commons.wikimedia.org/wiki/File:Cambridge-Z88.jpg" title="via Wikimedia Commons">Evan-Amos</a> [Public domain])</figcaption></figure>
 
 <h2><a id="software">Mac software</a></h2>
@@ -220,28 +222,29 @@ HD: 233 Gb ATA</p>
 Toen Apple in <a href="https://en.wikipedia.org/wiki/HyperCard">maart 2004</a> de verkoop stopte, was
 Revolution een van de clonen, later omgedoopt in <a href="https://livecode.com/guides-documentation/">LiveCode</a>.
 
-<div class="w3-row">
-<div class="w3-col s12 m6">
+<div class="row">
+<div class="col-sm">
 <a href="https://livecode.com/guides-documentation/"><img src='{{ "/assets/img/mac/LiveCode_logo.png" | relative_url }}'
 alt='LiveCode Logo' style='max-width: 150px;'>LiveCode</a>.
 </div>
-<div class="w3-col s12 m6">
+<div class="col-sm">
 <a href="https://www.supercard.us/got-hypercard.html"><img src='{{ "/assets/img/mac/supercard_logo.png" | relative_url }}'
 alt='SuperCard logo' style='max-width: 150px;'></a>
 </div>
+</div>
 
-<p>Een andere kloon was
-<a href="https://www.supercard.us/got-hypercard.html">SuperCard</a>, dat anno 2024 ook nog steeds wordt verkocht.</p>
+Een andere kloon was
+<a href="https://www.supercard.us/got-hypercard.html">SuperCard</a>, dat anno 2024 ook nog steeds wordt verkocht.
 
-<div class="w3-row">
-<div class="w3-col s12 m4">
-<figure><img src='{{ "/assets/img/mac/hc-index.gif" | relative_url }}' alt="Card 1 of Stack Index" class='w3-image'>
+<div class="row">
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/mac/hc-index.gif" | relative_url }}' alt="Card 1 of Stack Index" class='img-fluid'>
 <figcaption class="kleiner">Screenshot of Index v1.5<br>(click to zoom in)</figcaption></figure></div>
-<div class="w3-col s12 m4">
-<figure><img src='{{ "/assets/img/mac/hc-hypersite.gif" | relative_url }}' alt="Een blad per web-pagina" class='w3-image'>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/mac/hc-hypersite.gif" | relative_url }}' alt="Een blad per web-pagina" class='img-fluid'>
 <figcaption class="kleiner">Screenshot of HyperSite v1.6</figcaption></figure></div>
-<div class="w3-col s12 m4">
-<figure><img src='{{ "/assets/img/mac/RevHyperSite21.png" | relative_url }}' alt="HyperSite v2.1" class='w3-image'>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/mac/RevHyperSite21.png" | relative_url }}' alt="HyperSite v2.1" class='img-fluid'>
 <figcaption class="kleiner">HyperSite v2 als Revolution-stack</figcaption></figure></div>
 </div>
 

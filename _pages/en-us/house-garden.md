@@ -11,10 +11,10 @@ support: [gallery, mapster]
 About our garden
 (includes js popup)
 
-<div class="w3-row-padding">
+<div class="row">
 <!-- responsive naast of onder elkaar -->
 
-<div class="w3-col s12 m5">
+<div class="col">
 
 <h2>Garden Plan</h2>
 
@@ -823,7 +823,7 @@ onMouseOver="showpop(event,94);" onMouseOut="hidepop(event);" onMouseUp="togglep
 </map>
 </div>
 
-<div class="w3-col s12 m7">
+<div class="col-8">
 <h2>Plantenlijst</h2>
 
 <a href="#" id="clearAll">Deselecteer alle</a>
