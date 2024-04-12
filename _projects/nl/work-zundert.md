@@ -9,7 +9,8 @@ importance: 3
 category: work
 ---
 
-(tender), projectleider, architect, 2013
+(tender)
+Role: design team lead, architect, 2013
 
 <div class="row">
 <figure><img src='{{ "/assets/img/architect/Zundert_kaart_Egbert.jpg" | relative_url }}' alt='Landschappelijk inpassing' class='w3-image' >

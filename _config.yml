@@ -499,7 +499,3 @@ exiftag:
     - assets/img-noresample/avenue2
     - assets/img-noresample/beercaps
     - assets/img-noresample/trains
-
-readxml:
-  sources:
-    - assets/xml

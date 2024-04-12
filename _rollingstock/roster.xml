@@ -3,7 +3,7 @@
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
   <!--Written by JMRI version 4.15.5+R5fb3e69 on Sat Apr 27 15:53:22 CEST 2019-->
   <roster>
-    <locomotive id="ATCX #1949" fileName="ATCX_1949.xml" roadNumber="1949" roadName="Atlas" mfg="Atlas" owner="Egbert Broerse" model="Track Cleaning Car" dccAddress="1949" comment="1 MicroTrains coupler installed 27-10-2009" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="ATCX 1949" fileName="ATCX_1949.xml" roadNumber="1949" roadName="Atlas" mfg="Atlas" owner="Egbert Broerse" model="Track Cleaning Car" dccAddress="1949" comment="1 MicroTrains coupler installed 27-10-2009" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-27T13:53:09.289+0000</dateUpdated>
       <decoder model="M1" family="TCS Mx series decoders" comment="self installed decoder + strobe light 17=1-2009" />
       <locoaddress>
@@ -12,25 +12,7 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
     </locomotive>
-    <locomotive id="DR4018-1" fileName="DR4018_1.xml" roadNumber="" roadName="" mfg="Digikeijs" owner="Egbert Broerse" model="" dccAddress="9999" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-05-28T19:06:33.000+0000</dateUpdated>
-      <decoder model="DR4018" family="Stationary" comment="" />
-      <locoaddress>
-        <dcclocoaddress number="9999" longaddress="yes" />
-        <number>9999</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-    </locomotive>
-    <locomotive id="DR4018-2" fileName="DR4018_2.xml" roadNumber="" roadName="" mfg="Digikeijs" owner="Egbert Broerse" model="" dccAddress="9999" comment="Durenver TO 68-72 2018" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-05-28T19:11:36.000+0000</dateUpdated>
-      <decoder model="DR4018" family="Stationary" comment="new 04-2018 Wentink Ontrax" />
-      <locoaddress>
-        <dcclocoaddress number="9999" longaddress="yes" />
-        <number>9999</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-    </locomotive>
-    <locomotive id="DRGW PA-1A #6013" fileName="DRGW_PA_1A_6013.xml" roadNumber="6013" roadName="D&amp;RGW" mfg="Kato" owner="Egbert Broerse" model="176=4108" dccAddress="6013" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="DRGW PA-1A 6013" fileName="DRGW_PA_1A_6013.xml" roadNumber="6013" roadName="D&amp;RGW" mfg="Kato" owner="Egbert Broerse" model="176=4108" dccAddress="6013" comment="Yellow" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2013-01-03T15:41:18.000+0000</dateUpdated>
       <decoder model="DN163K0A" family="Series 3 with FX3, silent, readback" comment="installed 3 jan 2013 from RD-Hobby (D)" />
       <locoaddress>
@@ -39,16 +21,11 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
     </locomotive>
-    <locomotive id="DS54 nr 9 (sw 33-36)" fileName="DS54_nr_9_sw_33_36_.xml" roadNumber="" roadName="Undec" mfg="Digitrax" owner="" model="Stationary Decoder" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2013-09-07T18:15:18.000+0000</dateUpdated>
-      <decoder model="DS54" family="DS54" comment="installed beneath Thoreau 2006" />
-      <locoaddress>
-        <dcclocoaddress number="3" longaddress="no" />
-        <number>3</number>
-        <protocol>dcc_short</protocol>
-      </locoaddress>
+    <locomotive id="DRGW PA-1A 6003" fileName="DRGW_PA_1A_6003.xml" roadNumber="6003" roadName="D&amp;RGW" mfg="Kato" owner="Egbert Broerse" model="PA-1" dccAddress="" comment="Silver" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2013-01-03T15:41:18.000+0000</dateUpdated>
+      <decoder model="" family="" comment="no decoder" />
     </locomotive>
-    <locomotive id="RG 2-6-0 #479" fileName="Athearn_2_6_0_479.xml" roadNumber="479" roadName="DRG&amp;W" mfg="Athearn (Roundhouse)" owner="Egbert Broerse" model="8052" dccAddress="479" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="DRGW 2-6-0 479" fileName="DRGW_2_6_0_479.xml" roadNumber="479" roadName="DRG&amp;W" mfg="Athearn (Roundhouse)" owner="Egbert Broerse" model="8052" dccAddress="479" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2012-12-21T22:08:05.000+0000</dateUpdated>
       <decoder model="Z2" family="TCS Z2 decoder" comment="installed 21 dec 2012 in tender. To do: rear light" />
       <locoaddress>
@@ -57,7 +34,7 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
     </locomotive>
-    <locomotive id="RG 2-8-0 #516" fileName="RG_2_8_0_516.xml" roadNumber="516" roadName="DRG&amp;W" mfg="Athearn (Roundhouse)" owner="Egbert Broerse" model="8002" dccAddress="516" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="DRGW 2-8-0 516" fileName="DRGW_2_8_0_516.xml" roadNumber="516" roadName="DRG&amp;W" mfg="Athearn (Roundhouse)" owner="Egbert Broerse" model="8002" dccAddress="516" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2012-12-21T22:07:00.000+0000</dateUpdated>
       <decoder model="Z2" family="TCS Z2 decoder" comment="installed 21 dec 2012 in tender. To do: rear light" />
       <locoaddress>
@@ -66,7 +43,7 @@
         <protocol>dcc_long</protocol>
       </locoaddress>
     </locomotive>
-    <locomotive id="RG 44 tonner #42" fileName="DRGW_44_tonner_41.xml" roadNumber="41" roadName="D&amp;RGW" mfg="Bachmann" owner="Egbert Broerse" model="Spectrum 44 ton switscher" dccAddress="42" comment="acq July 2009" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="RG GE-44 42" fileName="RG_GE_44_42.xml" roadNumber="41" roadName="D&amp;RGW" mfg="Bachmann" owner="Egbert Broerse" model="Spectrum 44 ton switscher" dccAddress="42" comment="acq July 2009" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2012-12-21T22:04:12.000+0000</dateUpdated>
       <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" />
       <locoaddress>
@@ -75,7 +52,7 @@
         <protocol>dcc_short</protocol>
       </locoaddress>
     </locomotive>
-    <locomotive id="RG F3-A #5651" fileName="RG_F3_A_5651.xml" roadNumber="5651" roadName="D&amp;RGW" mfg="Intermountain" owner="Egbert Broerse" model="" dccAddress="5651" comment="pre-owned via N Scale Supply" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="RG F3-A 5651" fileName="RG_F3_A_5651.xml" roadNumber="5651" roadName="D&amp;RGW" mfg="Intermountain" owner="Egbert Broerse" model="" dccAddress="5651" comment="pre-owned via N Scale Supply" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-27T13:53:09.289+0000</dateUpdated>
       <decoder model="DN163I1C" family="Series 3 with FX3, silent, readback" comment="installed &amp; tested 27 Feb 2009" />
       <locoaddress>
@@ -90,7 +67,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="RG H15-44 #151" fileName="RG_H15_44_151.xml" roadNumber="151" roadName="Denver &amp; Rio Grande Western" mfg="Atlas" owner="" model="52086" dccAddress="151" comment="acquired november 2003" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="RG H15-44 151" fileName="RG_H15_44_151.xml" roadNumber="151" roadName="Denver &amp; Rio Grande Western" mfg="Atlas" owner="" model="52086" dccAddress="151" comment="acquired november 2003" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-27T13:53:09.290+0000</dateUpdated>
       <decoder model="Four Function Dual Mode" family="Four Function Dual Mode" comment="factory installed" />
       <locoaddress>
@@ -105,7 +82,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="RG RDC-4 #1001" fileName="RG_RDC_4_1001.xml" roadNumber="1001" roadName="Rio Grande" mfg="Kato" owner="" model="106-3008 set B/2" dccAddress="1001" comment="installed interior lighting 27 June 2005" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="RG RDC-4 1001" fileName="RG_RDC_4_1001.xml" roadNumber="1001" roadName="Rio Grande" mfg="Kato" owner="" model="106-3008 set B/2" dccAddress="1001" comment="installed interior lighting 27 June 2005" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-27T13:53:09.290+0000</dateUpdated>
       <decoder model="DN122K2" family="Basic CS" comment="N Scale Supply, installed 27 June 2005" />
       <locoaddress>
@@ -120,7 +97,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="RG RS3 #5203" fileName="RG_RS3_5203.xml" roadNumber="5203" roadName="Rio Grande" mfg="Atlas" owner="" model="Alco RS-3" dccAddress="5203" comment="#42009 made in Japan 1995 with MT-couplers" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="RG RS3 5203" fileName="RG_RS3_5203.xml" roadNumber="5203" roadName="Rio Grande" mfg="Atlas" owner="" model="Alco RS-3" dccAddress="5203" comment="art# 42009, made in Japan 1995, with MT-couplers" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-27T13:53:09.290+0000</dateUpdated>
       <decoder model="M1" family="TCS Mx series decoders" comment="zelf ingebouwd 8-12-2004" />
       <locoaddress>
@@ -135,7 +112,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="RGS Goose #5" fileName="RGS_Goose_5.xml" roadNumber="5" roadName="Rio Grande Southern" mfg="Con Cor" owner="Egbert Broerse" model="0001-094171" dccAddress="5" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="RGS Goose 5" fileName="RGS_Goose_5.xml" roadNumber="5" roadName="Rio Grande Southern" mfg="Con Cor" owner="Egbert Broerse" model="0001-094171" dccAddress="5" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-27T13:53:09.290+0000</dateUpdated>
       <decoder model="NYB Dual Mode Decoder" family="NYB Dual Mode Decoder" comment="found decoder mfg/type at nmra web site, no ack from engine" />
       <locoaddress>
@@ -150,7 +127,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="SF GP7 #99" fileName="SF_GP7_99.xml" roadNumber="99" roadName="Santa Fe" mfg="Atlas" owner="" model="GP7" dccAddress="99" comment="preowned acq. 6/2004" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="SF GP7 99" fileName="SF_GP7_99.xml" roadNumber="99" roadName="Santa Fe" mfg="Atlas" owner="" model="GP7" dccAddress="99" comment="preowned acq. 6/2004" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-27T13:53:09.290+0000</dateUpdated>
       <decoder model="DZ143" family="Series 3 with FX3, silent, readback" comment="custom installed" />
       <locoaddress>
@@ -165,7 +142,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="SRR Shay #269" fileName="SRR_Shay_269.xml" roadNumber="269" roadName="Silverton Railroad" mfg="Atlas" owner="Egbert Broerse" model="41620 2-truck Shay" dccAddress="269" comment="replaced rear truck w/replacement from Atlas" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="SRR Shay 269" fileName="SRR_Shay_269.xml" roadNumber="269" roadName="Silverton Railroad" mfg="Atlas" owner="Egbert Broerse" model="41620 2-truck Shay" dccAddress="269" comment="replaced rear truck w/replacement from Atlas" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-27T13:53:09.290+0000</dateUpdated>
       <decoder model="M1" family="TCS Mx series decoders" comment="self installed decoder" />
       <locoaddress>
@@ -180,7 +157,7 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP SW1500 #1870" fileName="UP_SW1500_1870.xml" roadNumber="1870" roadName="UP" mfg="Arnold" owner="Egbert Broerse" model="5116" dccAddress="1870" comment="Calf, no cab, MT couplers, bottom tank glued in place, break to access trucks/interior" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="UP SW1500 1870" fileName="UP_SW1500_1870.xml" roadNumber="1870" roadName="UP" mfg="Arnold" owner="Egbert Broerse" model="5116" dccAddress="1870" comment="Calf, no cab, MT couplers, bottom tank glued in place, break to access trucks/interior" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2013-02-04T14:48:00.000+0000</dateUpdated>
       <decoder model="Z2" family="TCS Z2 decoder" comment="installed 2 jan 2013 + yellow LED" />
       <locoaddress>

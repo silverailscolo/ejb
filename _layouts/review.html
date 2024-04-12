@@ -13,7 +13,7 @@ layout: default
   </header>
   <figure class="book-cover row-cols-1">
     {% if page.cover %}
-    <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/assets/img/covers/{{ page.cover }}" />
+    <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/assets/img/bookcovers/{{ page.cover }}" />
     <figcaption>{{ site.data[site.active_lang].strings.books.cover-of }} <em>{{ page.title }}</em></figcaption>
     {% elsif page.olid %}
     <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false" />
