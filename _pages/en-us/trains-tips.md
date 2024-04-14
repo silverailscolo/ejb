@@ -99,33 +99,26 @@ Some years later, signals were added on the layout as well as to the panel. All 
             <h3 class="card-title text-lowercase">{{ post.title }}</h3>
             <p class="card-text">{{ post.description }}</p>
   
-                {% if post.external_source == blank %}
-                  {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-                {% else %}
-                  {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-                {% endif %}
-                {% assign year = post.date | date: "%Y" %}
+            {% if post.external_source == blank %}
+              {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+            {% else %}
+              {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+            {% endif %}
+            {% assign year = post.date | date: "%Y" %}
 
-                <p class="post-meta">
-                  {{ read_time }} min read &nbsp; &middot; &nbsp;
-                  <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-                    <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-                </p>
-              </div>
-            </div>
+            <p class="post-meta">
+              {{ read_time }} min read &nbsp; &middot; &nbsp;
+              <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+                <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+            </p>
           </div>
         </div>
-      </a>
+      </div>
     </div>
+    </a>
+  </div>
 
 {% endif %}
 {% endfor %}
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
 </div>
 </div>

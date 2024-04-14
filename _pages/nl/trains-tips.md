@@ -3,9 +3,9 @@ page_id: traintips
 layout: page
 permalink: /trains/tips
 title: Modeling Tips
-description: Learned the hard way
+description: Van eigen fouten geleerd
 lang: nl
 nav: false
 ---
 
-Zie de <a href="https://ebroerse.nl/trains/#proto">oude site</a>
+See the <a href="../../trains/tips.html">US-English version</a>
