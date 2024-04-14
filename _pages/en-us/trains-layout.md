@@ -33,12 +33,12 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/a2y016.jpg" | relative_url }}' alt='Visiting Durango Yard (1995)' class="w3-image">
+<figure><img src='{{ "/assets/img/trains2/a2y016.jpg" | relative_url }}' alt='Visiting Durango Yard (1995)' class='img-fluid'>
 <figcaption class="kleiner">Visiting Durango Yard (1995) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/IMG_0080_xing.jpg" | relative_url }}' alt='Durango town perspective' class="w3-image">
+<figure><img src='{{ "/assets/img/trains2/IMG_0080_xing.jpg" | relative_url }}' alt='Durango town perspective' class='img-fluid'>
 <figcaption class="kleiner">NG tracks, industries and mountains (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
@@ -50,12 +50,12 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/dsng%20map.gif" | relative_url }}' alt="RR map" class="w3-image">
+<figure><img src='{{ "/assets/img/trains2/dsng%20map.gif" | relative_url }}' alt="RR map" class='img-fluid'>
 <figcaption class="kleiner">A map of the track from Durango in the south to Silverton in the north.</figcaption>
 </figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/trackplan_full.png" | relative_url }}' alt='Track plan (level 1)' class="w3-image">
+<figure><img src='{{ "/assets/img/trains2/trackplan_full.png" | relative_url }}' alt='Track plan (level 1)' class='img-fluid'>
 <figcaption class="kleiner">D&amp;SNG Track Plan<br>(view the <a href='{{ "/assets/pdf/Trackplan%20D_S%20RR%202018.pdf" | relative_url }}'>complete Track Plan</a> as a PDF).</figcaption>
 </figure>
 </div>
@@ -143,7 +143,6 @@ There just had to be a port with a cannery and coal dock on the layout. I found 
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/Farmington%20IMG_1480.jpg" | relative_url }}' alt='Sandstone cliffs' class='img-fluid'>
 <figcaption class="kleiner">For reference: The landscape around Farmington NM (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/casaverdesol/7872521638/sizes/l/" property="cc:attributionName" rel="cc:attributionURL">Joel Deluxe</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
-
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_0656_lo.jpg" | relative_url }}' alt='Thoreau NM interchange' class='img-fluid'>
@@ -158,11 +157,11 @@ There just had to be a port with a cannery and coal dock on the layout. I found 
 <figcaption class="kleiner">Durenver area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 
-Durenver is the main town on the layout, a fictional combination of Durango town and depot located high in the Rockies with the Denver CO dense urban warehouses next to the yard.
+Durenver is the main town on the layout, a fictional combination of Durango town and depot located high in the Rockies with the Denver, CO dense urban warehouses next to the yard.
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/S2400016-kl.jpg" | relative_url }}' class='img-fluid' alt="Staging yard and business area of Durango * Denver = Durenver">
+<figure><img src='{{ "/assets/img/trains2/S2400016-kl.jpg" | relative_url }}' alt='Staging yard and business area of Durango * Denver = Durenver' class='img-fluid'>
 <figcaption class="kleiner">Staging yard and business area of Durango*Denver=Durenver (mock up)</figcaption></figure>
 </div>
 <div class="col-sm">
