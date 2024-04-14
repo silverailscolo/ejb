@@ -27,19 +27,19 @@ toc:
 
 <p>Signaling is also handled by <a href="https://www.jmri.org/help/en/html/tools/signaling/index.shtml">JMRI Signal Masts</a> since Winter 2013, with a Digitrax SE8c board and Signal Mast Base kits, dressed like <a href="tips.html#dwarf">Rio Grande signals</a> with their distinct <em>Darth Vader</em> hoods.</p>
 
-<figure><img src='{{ "/assets/img/trains2/DSCF2960_signal.jpg" | relative_url }}' alt='Customized Digitrax Signal Base Mast for Rio Grande' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/DSCF2960_signal.jpg" | relative_url }}' alt='Customized Digitrax Signal Base Mast for Rio Grande' class='img-fluid'>
 <figcaption class="kleiner">Customized RG Mast (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Panels along the layout are connected to JMRI and show occupancy of blocks, turnout positions as well as receive input to change them (<a href="tips.html#panel">more on JMRI PanelPro</a>).</p>
 
-<div class="w3-row">
-<div class="w3-col s12 m6">
-<figure><img src='{{ "/assets/img/trains2/110-1082_IMG.jpg" | relative_url }}' alt='CTC in Silverton Tower' class='w3-image'>
+<div class="row">
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/110-1082_IMG.jpg" | relative_url }}' alt='CTC in Silverton Tower' class='img-fluid'>
 <figcaption class="kleiner">The Silverton control panel (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<div class="w3-col s12 m6">
+<div class="col-sm">
 <figure>
-<img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt='Hardware panels on the D&S RR' class='w3-image'>
+<img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt='Hardware panels on the D&S RR' class='img-fluid'>
 <figcaption class="kleiner">Hardware panels on the D&amp;S RR (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
@@ -49,7 +49,7 @@ toc:
 
 <p>I tried a mixed DCC/conventional DC wiring scheme. hoping to manage the switches via Loconet whilst running the engines on either a DCC or regular DC throttle. It gave me some time to put a decoder in the engines that have enough room for one. But 10 years in I changed to full DCC as keeping one system running already is daunting enough. Even the Atlas (Tomix) track cleaning car - with vacuum cleaner! - had room for a TCS decoder, and a flashing light on top.</p>
 
-<figure><img src='{{ "/assets/img/trains2/S2400212-kl.jpg" | relative_url }}' alt='Feeder bus, viewed from beneath the layout' class='w3-image'>
+<figure><img src='{{ "/assets/img/trains2/S2400212-kl.jpg" | relative_url }}' alt='Feeder bus, viewed from beneath the layout' class='img-fluid'>
 <figcaption>Feeder bus under the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Although it doesn't make wiring as simple as DCC can be, I decided to run 7 bus wires around the whole layout:</p>

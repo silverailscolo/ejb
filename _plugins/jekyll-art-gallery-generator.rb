@@ -148,7 +148,7 @@ module Jekyll
         next unless image.downcase().end_with?(*$image_extensions)
 
         image_path = File.join(dir, image) # source image short path
-        puts "Art-Gallery processing image: #{image_path}"
+        puts "Art-Gallery processing image: #{image_path} (1)"
 
         # extract timestamp
         if sort_field == "timestamp"
@@ -167,12 +167,14 @@ module Jekyll
         # cleanup, watermark and copy the files
         # Strip out the non-ascii character and downcase the final file name
         dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
+        puts "Art-Gallery processing image: #{image_path} (2)"
         dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
           if config["strip_exif"] or config["watermark"] or config["size_limit"]
           # can't simply copy or symlink, need to pre-process the image
             puts "Art-GalleryPage generating #{dest_image}..."
             source_img = MiniMagick::Image.read(image_path)
+            puts "Art-GalleryPage read #{image_path}..."
             if config["strip_exif"]
               print "stripping EXIF..."
               source_img = source_img.strip
@@ -191,7 +193,8 @@ module Jekyll
               end
             end
             if config["size_limit"]
-              source_img = source_img.resize(config["size_limit"], config["size_limit"]) if (source_img.columns > config["size_limit"] || source_img.rows > config["size_limit"]) # resize only if bigger than the limit
+              source_img = source_img.resize(config["size_limit"], config["size_limit"]) if (source_img.columns > config["size_limit"] || source_img.rows > config["size_limit"])
+              # resize only if bigger than the limit
             end
             source_img.write(dest_image_abs_path)
             print "\n"
@@ -222,6 +225,7 @@ module Jekyll
           end
         end
         # Add file descriptions if defined
+        puts "Art-Gallery processing image: #{dest_image_abs_path} (3)"
         if gallery_config.has_key?(image)
           # puts "added ${image} = #{gallery_config[image]}"
           self.data["captions"][dest_image] = gallery_config[image]

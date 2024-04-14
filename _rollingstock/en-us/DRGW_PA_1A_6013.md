@@ -25,6 +25,6 @@ owner: Egbert Broerse
 picture: DRGW_PA_1A_6013.jpg
 roadName: D&RGW
 roadNumber: "6013"
-roster-id: "DRGW PA-1A #6013"
+roster-id: "DRGW PA-1A 6013"
 year: 2024
 ---

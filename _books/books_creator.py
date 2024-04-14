@@ -19,7 +19,7 @@ def rename_keys(d, keys):
 bookpediaExportFileToRead = "egbertbooks.xml"
 defaultLanguage = 'nl'
 # set correct path
-path = join("", bookpediaExportFileToRead)
+path = join("../_data/", bookpediaExportFileToRead)
 
 # see https://github.com/python/cpython/blob/3.12/Lib/plistlib.py
 with open(path, 'rb') as f:

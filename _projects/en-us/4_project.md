@@ -22,6 +22,7 @@ To give your project a background in the portfolio page, just add the img tag to
     img: assets/img/12.jpg
     ---
 
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -59,6 +60,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 </div>
 <div class="caption">
     You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
 </div>
 
 The code is simple.

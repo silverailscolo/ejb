@@ -21,7 +21,7 @@ def rename_keys(d, keys):
 
 
 # set preferences
-jmriRosterFileToRead = "roster.xml"
+jmriRosterFileToRead = "../_data/roster.xml"
 itemPicturePath = "../assets/img/trains2/rostercovers/" # must contain "*covers" to make direct link from gallery to item folder
 defaultLanguage = 'en-us'
 
@@ -32,7 +32,7 @@ if overwrite != "y":
 pagesCreated = 0
 
 # set correct path
-path = join("", jmriRosterFileToRead)
+path = join("../_data/", jmriRosterFileToRead)
 
 with open(path, 'r') as f:
     xml = f.read()

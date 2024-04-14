@@ -3,28 +3,35 @@ page_id: ms15joblist
 layout: page
 permalink: /house/ms15
 title: Our first house
-lang: en-us
+lang: nl
 nav: false
 support: [gallery]
 toc:
   sidebar: left
 ---
 
-# Introduction
+Het grootste deel van mijn vrije tijd heb ik de afgelopen 10 jaar besteed aan het opknappen van ons 100 jaar oude huis.
+We zijn inmiddels klaar, maar het onderhoud wacht op ons! Toch is het een geweldig tijdverdrijf en - als architect van beroep -
+is het een genot om al die fijne details en afwerkingen op maat te kunnen maken die we ons niet konden veroorloven door
+een professionele timmerman te laten maken. De eerste 5 jaar was ik een regelmatige bezoeker van onze plaatselijke bouwmarkten,
+genaamd ['Gamma'](https://www.gamma.com) en 'Woody'. Maar voor de serieuzere projecten kun je die beter overslaan en in
+plaats daarvan naar een volledig gesorteerde groothandel gaan. Enkele memorabele items:
 
-<p>Most of my spare time during the last 10 years was spent on redecorating our 100 years old house. We're ready by now, but maintenance is waiting for us! Still, it's a great pastime and - as an architect by profession - it's a joy to be able to create all those fine details and custom finishings which we couldn't afford to let a professional carpenter make for us. The first 5 years I was a regular visitor of our local building supply stores, called ['Gamma'](https://www.gamma.com) and 'Woody'. But for the more serious projects, you better skip the lot and go to a fully stocked wholesale company instead. Some memorable items:</p>
-
-### Our garden shed
+### Onze schuur
 
 <img src='{{ "/assets/img/house/ms15/schuur.gif" | relative_url }}' alt="closed garden shed open up">
 
-In the fall of 1997 I reconstructed the roof from scratch; only the walls remained. The roof overhang in front of the doors is a real joy, for we can sit outside in summer even if it rains a bit.
+In de herfst van 1997 heb ik het dak helemaal opnieuw opgebouwd; alleen de muren bleven over. Het dakoverstek voor de
+deuren is een waar genot, want we kunnen 's zomers lekker buiten zitten, zelfs als het een beetje regent.
 
-### Square light
+### Vierkante lichten
 
 <img src='{{ "/assets/img/house/ms15/plafond.gif" | relative_url }}' alt="plafond met nieuwe rozet">
 
-As the rear of the house was not authentic, I made it into something special by adding 4 glass bricks that shed the morning sunlight onto the ceiling of the living room.
+Omdat de achterkant van het huis niet authentiek was, heb ik er iets speciaals van gemaakt door 4 glazen stenen toe te voegen die
+het ochtendzonlicht op het plafond van de woonkamer werpen.
+Op de derde verdieping werd vroeger een hele kamer in beslag genomen door ons gereedschap, restjes en reserveonderdelen.
+Omdat er nu genoeg ruimte is, begon ik mijn treinenuit te pakken...
 
 <img src='{{ "/assets/img/house/ms15/zolder%20lente%202005%20artist.jpg" | relative_url }}' alt='3rd Floor attic design'>
 
@@ -32,11 +39,11 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 {% include album.html albumname="attic" %}
 
-<p>My <a href="#top">Home Improvement List</a> states all completed jobs in the house, starting in 1995.</p>
+Op mijn Kluslijst staan alle voltooide klussen in huis, vanaf 1995.
 
 ## 1995
 
-<p>For Sale, Sold &amp; quick start</p>
+Te koop, verkocht & snelle start
 
 | Date                    | Action                                                                                                                                                                                                                                                        |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -214,7 +221,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>    |
 |           | (...)                                                                                            |
 | 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                       |
-| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/convector001105.jpg" | relatve_url }}'> |
+| 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/ms15/convector001105.jpg" | relative_url }}'> |
 | 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                 |
 
 ## 2001
@@ -252,7 +259,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | --------- | ------------------------------------------------------------------ | ----------------- |
 | 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                              |
 | 23-05-'04 | slang boiler gesprongen (en gehoosd)                               |
-| 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/kast2004.jpg" | relative_url }}'> |
+| 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/ms15/kast2004.jpg" | relative_url }}'> |
 
 ## 2005
 
@@ -278,6 +285,13 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 | ---------- | --------------------------------------------- | --------------------------------------------- |
 | 01-06-2012 | koekkoek                                      |
 |            | <img src='{{ "/assets/img/house/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
+
+## 2020
+
+| Date       | Action                                        |
+| ---------- | --------------------------------------------- | --------------------------------------------- |
+| 01-03-2020 | vloer zolder vervangen                        | |
+| 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilder      | |
 
 ## What's next?
 

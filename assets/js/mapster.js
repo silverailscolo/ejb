@@ -1,6 +1,5 @@
 // custom script to create popup EBR 2023
-var stick = false,
-  nodeplantlist;
+var stick = false;
 
 function showpop(e, num) {
   //function called by all hotspots on mouseOver

@@ -1,23 +1,28 @@
 ---
-page_id: project_7
+page_id: br11
 layout: project
 lang: nl
-title: BR11 Dwingeloo
+title: BR11
 description: Restauratie circulair
 img: assets/img/architect/BR11/IMG_1041.jpg
 importance: 2
 category: work
 ---
 
-Restauratie eigen woonhuis (prov. monument in beschermd dorpsgezicht. ontwerp en uitvoeringsbegeleiding, omg.vergunning, welstand, circulair bouwen, Passiefhuis energieberekening PHPP/Energielabel A+++, ventilatie WTW etc.), 2021
+Periode: 2021
+Restauratie eigen woonhuis (prov. monument in beschermd dorpsgezicht.
+Rol: Ontwerp en uitvoeringsbegeleiding, omg.vergunning, welstand, circulair bouwen, Passiefhuis energieberekening PHPP/Energielabel A+++, ventilatie WTW etc.).
 
-<div class="w3-col s12 m6">
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_1041.jpg" | relative_url }}' alt='Voorgevel woonhuis BR11, okt 2021'  class='w3-image'>
+<div class="card mx-auto" style="max-width: 80%;">
+<div class="row">
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/architect/BR11/IMG_1041.jpg" | relative_url }}' alt='Voorgevel woonhuis BR11, okt 2021'  class='img-fluid'>
 <figcaption class="kleiner">Voorgevel woonhuis BR11 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<div class="w3-col s12 m6">
-<figure><img src='{{ "/assets/img/architect/BR11/br11detailV2.png" | relative_url }}' alt='Detail vlas-isolatie' class='w3-image'>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/architect/BR11/br11detailV2.png" | relative_url }}' alt='Detail vlas-isolatie' class='img-fluid'>
 <figcaption class="kleiner">Detail vlas-isolatie (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
 </div>
 
 <div class="row">
@@ -46,5 +51,6 @@ Nadat de woning wind- en waterdicht was, kon de interne verbouwing - isolatie en
     </div>
 </div>
 <div class="caption">
-    De oude planken uit de woonkamer zijn hergebruikt in de slaapkamer.
+    De (bruikbare) oude vloerplanken uit de woonkamer zijn hergebruikt in de slaapkamervloer.
+</div>
 </div>

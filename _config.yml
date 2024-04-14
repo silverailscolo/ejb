@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: ejb # the website title (if blank, full name will be used instead)
-first_name: EJ
+title: favicon.png # the website title (if blank, full name will be used instead)
+first_name: Egbert
 middle_name:
-last_name: B
+last_name: Broerse
 email: spam@ebroerse.nl
 keywords: architecture, house, trains # add your own keywords or leave empty
 icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/)
@@ -40,7 +40,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 930px
@@ -329,7 +329,7 @@ external_links:
 
 languages: ["en-us", "nl"]
 default_lang: "en-us"
-exclude_from_localization: ["assets"]
+exclude_from_localization: ["assets/*", "assets/art_gallery", "assets/art_gallery/photos", "assets/art_gallery/sketches", "assets/img/*", "assets/img/architect", "assets/img/blog", "assets/img/bookcovers", "assets/img/flags", "assets/img/house", "assets/img/house/insulation","assets/img/mac", "assets/img/rostercovers", "assets/img/trains2", "assets/img/trains2/prototype", "assets/img/tuin", "assets/img-noresample", "assets/img-noresample/astyle", "assets/img-noresample/avenue2", "assets/img-noresample/beercaps", "assets/img-noresample/foodcenter", "assets/img-noresample/GP", "assets/img-noresample/*"]
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
 parallel_localization: false
@@ -499,7 +499,3 @@ exiftag:
     - assets/img-noresample/avenue2
     - assets/img-noresample/beercaps
     - assets/img-noresample/trains
-
-readxml:
-  sources:
-    - assets/xml

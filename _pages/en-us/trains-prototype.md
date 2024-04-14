@@ -11,13 +11,13 @@ nav: false
 <h3><a id="proto">Prototype</a></h3>
 <p>Listen carefully as the tiny train leaves the platform.</p>
 
-<div class="w3-row">
-<div class="w3-col s12 m6">
-<figure><img src='{{ "/assets/img/trains2/a2y012.jpg" | relative_url }}' alt='Live steam in Durango, Spring 1995' class='w3-image'></figure>
+<div class="row">
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/a2y012.jpg" | relative_url }}' alt='Live steam in Durango, Spring 1995' class='img-fluid'></figure>
 </div>
-<div class="w3-col s12 m6">
+<div class="col-sm">
 <figure>
-<img src='{{ "/assets/img/trains2/a2y013.jpg" | relative_url }}' alt='Silverton Depot, Winter 1990' class='w3-image'>
+<img src='{{ "/assets/img/trains2/a2y013.jpg" | relative_url }}' alt='Silverton Depot, Winter 1990' class='img-fluid'>
 <figcaption class="kleiner">A picture of the restored steam engine in operation on the Durango Silverton train, taken during our holiday to the USA in the spring of 1995.</figcaption>
 </figure>
 </div>
@@ -25,12 +25,12 @@ nav: false
 
 <h4>Vintage railroad soundtracks</h4>
 
-<div class="w3-row">
-<div class="w3-col s12 m6">
-<img src='{{ "/assets/img/trains2/IMG_9735-front.jpg" | relative_url }}' alt='Highball LP sleeve, front' class='w3-image'>
+<div class="row">
+<div class="col-sm">
+<img src='{{ "/assets/img/trains2/IMG_9735-front.jpg" | relative_url }}' alt='Highball LP sleeve, front' class='img-fluid'>
 </div>
-<div class="w3-col s12 m6">
-<img src='{{ "/assets/img/trains2/IMG_9736-rear.jpg" | relative_url }}' alt='Highball LP sleeve, rear' class='w3-image'>
+<div class="col-sm">
+<img src='{{ "/assets/img/trains2/IMG_9736-rear.jpg" | relative_url }}' alt='Highball LP sleeve, rear' class='img-fluid'>
 </div>
 </div>
 
@@ -62,7 +62,7 @@ nav: false
 <ul>
 <li><a href="https://en.m.wikipedia.org/wiki/Glossary_of_rail_transport_terms">Rail Terms Glossary</a>, to look up the meaning of all those special words</li>
 <li>Chasing the Narrow Gauge part I &amp; II, by Robert W. Richardson, published by Heimburger House (no longer in business as of 2024)<br>
-<img src='{{ "/assets/img/trains2/RioGrandeVol2.jpg" | relative_url }}' alt='Chasing the Narrow Gauge, part II: buy this great book' class='w3-image'>
+<img src='{{ "/assets/img/trains2/RioGrandeVol2.jpg" | relative_url }}' alt='Chasing the Narrow Gauge, part II: buy this great book' class='img-fluid'>
 </li>
 <li><a href="https://nn3.tripod.com/index.htm">Rio Grande Southern</a>
 <ul>
