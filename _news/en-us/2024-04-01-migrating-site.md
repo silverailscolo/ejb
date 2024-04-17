@@ -7,7 +7,7 @@ inline: false
 related_posts: false
 ---
 
-I am busy migrating my website, blog and photo library to Jekyll.
+I am busy migrating my website, blog and photo library as an integrated work to Jekyll.
 
 ---
 
