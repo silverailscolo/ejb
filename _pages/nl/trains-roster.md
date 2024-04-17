@@ -1,16 +1,15 @@
 ---
 layout: train-roster
-title: Materieellijst
-permalink: /rollingstock/
 id: trainroster
+title: Rijdend materieel
+permalink: /rollingstock/
 lang: nl
-list_title: Mijn verzameling N-schaal materieel
 nav: false
-support: [gallery]
+# support: [gallery]
 ---
 
 <!-- simply so (by Jimmy_Xiao) -->
-
 {% include album.html albumname="rostercovers" %}
 
-Al mijn locs en wagons - klik op een titel voor details!
+Al mijn N-schaal locs en wagons - klik op een titel voor details!
+Onderaan staat een complete [tabel](#table).

@@ -13,7 +13,6 @@ $on-palm: 600px;
 
 .row {
   width: 100%;
-  display: block;
 
   &:after {
     content: "";
@@ -27,36 +26,7 @@ $on-palm: 600px;
     display: block;
     box-sizing: border-box;
   }
-  .full-width {
-    @extend .column;
-    width: 100%;
-  }
-  .half-width {
-    @extend .column;
-    @media screen and (min-width: $on-palm) {
-      width: 48%;
-    }
-  }
-  .one-third-width {
-    @extend .column;
-    width: 31.3333333%;
-  }
-  .one-tenth-width {
-    @extend .column;
-    width: 10%;
-  }
-  .nine-tenth-width {
-    @extend .column;
-    @media screen and (min-width: $on-palm) {
-      width: 90%;
-    }
-  }
-  .two-third-width {
-    @extend .column;
-    @media screen and (min-width: $on-palm) {
-      width: 64.6666666%;
-    }
-  }
+
   @media screen and (min-width: $on-palm) {
     .left {
       margin-left: 0;

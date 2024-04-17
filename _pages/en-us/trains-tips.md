@@ -2,13 +2,20 @@
 page_id: traintips
 layout: page
 permalink: /trains/tips
+lang: en-us
 title: Modeling Tips
 description: Learned the hard way
-lang: en-us
 nav: false
 toc:
   sidebar: left
+accordion:
+  - title: this is item 1
+    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - title: this is item 2
+    content: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
 ---
+
+{% include accordion.html %}
 
 # <a id="installdecoder">How to install a DCC decoder</a>
 
@@ -39,7 +46,7 @@ See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'
 
 # <a id="DS52housing">Build a housing for a DS52</a>
 
-<p>The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage. At <a href="https://www.conrad.nl">Conrad</a> I ordered a 53,5 x 45 x 23 mm StrapuBox, item 522600-89. Pictured below are the modifications to get the decoder inside. Put a label on the front with the decoder ID (I use DS52-X) plus the DCC adresses of both outputs and attach to the layout with 2 screws.</p>
+The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage. At <a href="https://www.conrad.nl">Conrad</a> I ordered a 53,5 x 45 x 23 mm [StrapuBox, item 522600](https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html). Pictured below are the modifications to get the decoder inside. Put a label on the front with the decoder ID (I use DS52-X) plus the DCC adresses of both outputs and attach to the layout with 2 screws.
 
 <figure><a href='{{ "/assets/img/trains2/IMG_0502-lo.jpg" | relative_url }}'><img src='{{ "/assets/img/trains2/IMG_0503-lo.jpg" | relative_url }}' alt='Now that is neat' class='img-fluid'></a>
 <figcaption class="kleiner">A DS52 enclosed (click on image to view the instructions)</figcaption></figure>
@@ -78,7 +85,7 @@ Some years later, signals were added on the layout as well as to the panel. All 
 <figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt="DSRR physical panel" class='img-fluid'>
 <figcaption class="kleiner">One of the Control Panels on the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<div class="card">Back to <a href="layout.html">Railroading</a></div>
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Back to <a href="layout.html">Railroading</a></div>
 
 <div class="container featured-posts">
 <div class="row row-cols-2">

@@ -1,11 +1,11 @@
 ---
 page_id: traintips
 layout: page
+lang: nl
 permalink: /trains/tips
 title: Modeling Tips
 description: Van eigen fouten geleerd
-lang: nl
 nav: false
 ---
 
-See the <a href="../../trains/tips.html">US-English version</a>
+Zie de <a href="../../trains/tips.html">Engelse pagina</a>.

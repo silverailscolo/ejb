@@ -42,7 +42,7 @@ Role: Spatial Design team lead, project architect 25 civil structures and 2 tunn
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/architect/avenue2/av2_paververloop_IMG_3879.jpg" | relative_url }}' alt='Paver Groene Loper proefstuk verloop' class='img-fluid'>
-<figcaption>Paver Green Tapestry demo (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figcaption class="kleiner">Paver Green Tapestry demo (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
 

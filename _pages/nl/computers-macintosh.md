@@ -8,9 +8,11 @@ description: Slimme tips voor macos
 nav: false
 ---
 
+Ik hoop dat dit helpt. Geen garanties, zoals gewoonlijk.
+
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-## Foto's app opent niet 
+<h2>Foto's app opent niet</h2>
 
 Toen mijn Foto's-app op macOS 10.13.6 niet meer op het scherm opende, gebruikte ik eerst het standaard
 <a href="https://support.apple.com/en-us/HT204967">Apple Support-advies</a> om Command + Option (alt) ingedrukt te
@@ -22,7 +24,5 @@ gewijzigd <em>zonder opnieuw op te starten</em>.
 Dit is dus de truc: negeer het dialoogvenster "Nu of later opnieuw opstarten" niet.
 
 Nadat je de schermtaal van je Mac hebt gewijzigd, <em>altijd</em> opnieuw opstarten. Open vervolgens Foto's en presto!
-
-Ik hoop dat dit helpt. Geen garanties, zoals gewoonlijk.
 
 </div>

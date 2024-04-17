@@ -109,10 +109,10 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      puts "Generating #{gallery_name}: #{gallery_config}"
+      # puts "Generating #{gallery_name}: #{gallery_config}"
       sort_field = config["sort_field"] || "name"
       self.process(@name)
-      puts "finished self.process for #{@name}"
+      # puts "finished self.process for #{@name}"
       gallery_page = File.join(base, "_layouts", "art_gallery_page.html")
       unless File.exist?(gallery_page)
         gallery_page = File.join(File.dirname(__FILE__), "art_gallery_page.html")
@@ -148,15 +148,15 @@ module Jekyll
         next unless image.downcase().end_with?(*$image_extensions)
 
         image_path = File.join(dir, image) # source image short path
-        puts "Art-Gallery processing image: #{image_path} (1)"
+        # puts "Art-Gallery processing image: #{image_path} (1)"
 
         # extract timestamp
         if sort_field == "timestamp"
           begin
             date_times[image] = 0
             date = File.mtime(image_path)
-            #puts "Date found: #{date}" # 2024-04-09 10:59:53 +0200
-            #puts "date_secs = #{date.to_i.to_s}"
+            # puts "Date found: #{date}" # 2024-04-09 10:59:53 +0200
+            # puts "date_secs = #{date.to_i.to_s}"
             if date != nil
               date_times[image] = date.to_i
             end
@@ -167,14 +167,14 @@ module Jekyll
         # cleanup, watermark and copy the files
         # Strip out the non-ascii character and downcase the final file name
         dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
-        puts "Art-Gallery processing image: #{image_path} (2)"
+        # puts "Art-Gallery processing image: #{image_path} (2)"
         dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
           if config["strip_exif"] or config["watermark"] or config["size_limit"]
           # can't simply copy or symlink, need to pre-process the image
-            puts "Art-GalleryPage generating #{dest_image}..."
+            # puts "Art-GalleryPage generating #{dest_image}..."
             source_img = MiniMagick::Image.read(image_path)
-            puts "Art-GalleryPage read #{image_path}..."
+            # puts "Art-GalleryPage read #{image_path}..."
             if config["strip_exif"]
               print "stripping EXIF..."
               source_img = source_img.strip
@@ -225,7 +225,7 @@ module Jekyll
           end
         end
         # Add file descriptions if defined
-        puts "Art-Gallery processing image: #{dest_image_abs_path} (3)"
+        # puts "Art-Gallery processing image: #{dest_image_abs_path} (3)"
         if gallery_config.has_key?(image)
           # puts "added ${image} = #{gallery_config[image]}"
           self.data["captions"][dest_image] = gallery_config[image]
@@ -309,7 +309,7 @@ module Jekyll
             end
           # strip EXIF from thumbnails. Some browsers, notably Safari on iOS, will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
           m_image = m_image.strip
-          puts "Writing thumbnail to #{thumb_path}"
+          # puts "Writing thumbnail to #{thumb_path}"
           m_image.write(thumb_path)
         rescue Exception => e
           puts "Error generating thumbnail for #{image_path}: #{e}"
@@ -336,7 +336,7 @@ module Jekyll
         Dir.foreach(dir) do |gallery_dir|
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
-            puts "Art-Gallery starts generating gallery #{gallery_dir}"
+            # puts "Art-Gallery starts generating gallery #{gallery_dir}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
             gallery.render(site.layouts, site.site_payload)
             gallery.write(site.dest)
@@ -354,7 +354,7 @@ module Jekyll
       site.data["navigation"] = []
 
       # generate gallery index
-      puts "Art-Gallery starts generating Art_GalleryIndex page"
+      # puts "Art-Gallery starts generating Art_GalleryIndex page"
       gallery_index = GalleryIndex.new(site, site.source, dir, galleries)
       gallery_index.render(site.layouts, site.site_payload)
       gallery_index.write(site.dest)

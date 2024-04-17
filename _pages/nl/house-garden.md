@@ -8,5 +8,3 @@ nav: false
 ---
 
 Over onze tuin
-
-Bevat js popup

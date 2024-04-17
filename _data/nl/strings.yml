@@ -5,6 +5,9 @@ categories:
   work: werk
   contact_note: Bij voorkeur per email.
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+last_updated: Laatst bijgewerkt
+rss_subscribe: abonneer <a href="$url">via RSS</a>
+no_translation: Sorry, deze pagina is niet beschikbaar in het Nederlands.
 latest_posts: Nieuwste bericht
 news: Nieuws
 selected_publications: Selectie van publicaties
@@ -114,3 +117,5 @@ rollingstock:
   acquired: aangeschaft
   next-item: Volgende item
   prev-item: Vorige item
+galleries:
+  no-gall: Geen foto-galerijen gedefinieerd in \_data/galleries/overview.yml

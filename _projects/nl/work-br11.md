@@ -9,11 +9,13 @@ importance: 2
 category: work
 ---
 
-Periode: 2021
 Restauratie eigen woonhuis (prov. monument in beschermd dorpsgezicht.
+
+Periode: 2021
+
 Rol: Ontwerp en uitvoeringsbegeleiding, omg.vergunning, welstand, circulair bouwen, Passiefhuis energieberekening PHPP/Energielabel A+++, ventilatie WTW etc.).
 
-<div class="card mx-auto" style="max-width: 80%;">
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/architect/BR11/IMG_1041.jpg" | relative_url }}' alt='Voorgevel woonhuis BR11, okt 2021'  class='img-fluid'>

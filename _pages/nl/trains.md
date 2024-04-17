@@ -11,7 +11,7 @@ children:
   - title: mijn modelbaan
     permalink: /trains/layout
   - title: divider
-  - title: mijn dienstrooster
+  - title: het materieel
     permalink: /rollingstock
   - title: divider
   - title: DCC

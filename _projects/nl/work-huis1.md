@@ -8,11 +8,14 @@ img: assets/img/architect/huis1/huis1.jpg
 importance: 2
 category: work
 ---
+
 Ontwerp woonhuis te Nijmegen
-Rol: Ontwerp, materialisering, principedetails, welstand
+
 Periode: 1994 - 1995 (opgeleverd 7/1995)
 
-<div class="card mx-auto" style="max-width: 80%;">
+Rol: Ontwerp, materialisering, principedetails, welstand
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/architect/huis1/huis1.jpg" | relative_url }}' alt='Voorgevel woonhuis #1' class='img-fluid'>

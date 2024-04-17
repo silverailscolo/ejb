@@ -1,15 +1,15 @@
 ---
+id: trainroster
 layout: train-roster
 title: My Roster
 permalink: /rollingstock/
-id: trainroster
 lang: en-us
-list_title: My collection of N scale rolling stock
 nav: false
-support: [gallery]
+# support: [gallery]
 ---
 
 <!-- simply so (by Jimmy_Xiao) -->
 {% include album.html albumname="rostercovers" %}
 
-All my locos and cars - click on a title to see more!
+All my N-scale locos and cars - click on a title to see more!
+Below the list is the full [tabel](#table).
