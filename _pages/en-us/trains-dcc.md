@@ -64,7 +64,8 @@ toc:
 </ol>
 <p>I used standard home wiring (2,5 mm<sup>2</sup>/AWG 12) for the bus. It's cheap and prevents voltage drop along the length of the pike, which may be tiny compared the the average american N scale layout, but is big enough to spend another 10 years on building and enjoying.</p>
 
-Go to my <a href="tips.html">Model Railroad How To's</a> next.
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+Go to my <a href="tips.html">Model Railroad How To's</a> next.</div>
 
 ## DCC Links
 

@@ -190,7 +190,7 @@ HD: 233 Gb ATA</p>
 
 ## <a id="imaccoreduo">iMac Core 2 Duo 20" (2007)</a>
 
-<figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.jpg" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='img-fluid'>
+<figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.png" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='img-fluid'>
 <figcaption class="kleiner">iMac CoreDuo 20" Mid-2007 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.EveryMac.com" property="cc:attributionName" rel="cc:attributionURL">EveryMac.com</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Meer over de iMac Core 2 Duo op <a href="https://everymac.com/systems/apple/imac/specs/imac-core-2-duo-2.4-20-inch-aluminum-specs.html">EveryMac.com</a>.
@@ -202,14 +202,14 @@ HD: 233 Gb ATA</p>
 <p>Meer over de iMac Core i5 op <a href="https://everymac.com/systems/apple/imac/specs/imac-core-i5-2.5-21-inch-aluminum-mid-2011-thunderbolt-specs.html">EveryMac.com</a>.
 </p>
 
-## <a id="z88">Cambridge Z88</a>
+## Cambridge Z88 {#z88}
 
-<p>Geen Mac, maar voor 1988 zeer innovatief. Designed by Sir Clive Sinclair. Zie ook <a href="https://en.wikipedia.org/wiki/Cambridge_Z88">Wikipedia</a>
+<p>Geen Mac, maar voor 1988 zeer innovatief. Ontworpen door Sir Clive Sinclair. Zie ook <a href="https://en.wikipedia.org/wiki/Cambridge_Z88">Wikipedia</a>
 </p>
-<figure><img src='https://upload.wikimedia.org/wikipedia/commons/8/88/Cambridge-Z88.jpg' alt='Z88 portable' class='img-fluid'>
+<figure><img src='{{ "/assets/img/mac/Cambridge-Z88.png" | relative_url }}'' alt='Z88 portable' class='img-fluid'>
 <figcaption class="kleiner">Z88 portable (<a href="https://commons.wikimedia.org/wiki/File:Cambridge-Z88.jpg" title="via Wikimedia Commons">Evan-Amos</a> [Public domain])</figcaption></figure>
 
-<h2><a id="software">Mac software</a></h2>
+## Mac software {#software}
 <p>Software die ik het meest gebruik:</p>
 
 <p>Apple Pages, Numbers en Keynote <img src='{{ "/assets/img/mac/pagesdock.png" | relative_url }}' alt='Apple Apps in Dock'></p>
@@ -246,5 +246,6 @@ Een andere kloon was
 </div>
 
 Mijn zelfgescheven programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen website bij te houden. Heb het in 2006 overgezet naar Revolution, dat i.t.t. HyperCard wel op macOS draait.
-Read more about HyperSite <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>here</a>.
-Ben net overgestapt naar [Jekyll](https://jekyllrb.com/).
+
+Lees <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>hier</a> meer over HyperSite.
+Ben in april 2024 overgestapt van HyperSite + WordPress + Piwigo naar [Jekyll](https://jekyllrb.com/).

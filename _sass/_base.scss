@@ -1151,3 +1151,15 @@ swiper-container {
   display: inline-block;
   margin-right: 12px;
 }
+
+/*****************************************************************************
+ * banner for translation not available, from leo3418.github.io, added 2024
+ *****************************************************************************/
+.message-box {
+  // background-color: #eef;
+  background-color: var(--global-tip-block-bg);
+  color: var(--global-tip-block-text);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-align: center;
+}

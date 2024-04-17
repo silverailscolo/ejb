@@ -10,7 +10,10 @@ category: work
 ---
 
 Periode: 2014 - 2017
-Rol: projectarchitect ruimtelijke kwaliteit, vormgeving en details van aquaduct, 4 viaducten en 2 km open bak &amp; landschappelijke inpassing (stedenbouw).
+
+Ontwerp en bouw (D&C) verdiepte snelweg N31, aquaduct, 4 viaducten en 2 km open bak.
+
+Rol: projectarchitect ruimtelijke kwaliteit, vormgeving en details van civiele werk en landschappelijke inpassing (stedenbouw).
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 

@@ -190,7 +190,7 @@ HD: 233 Gb ATA</p>
 
 ## <a id="imaccoreduo">iMac Core 2 Duo 20" (2007)</a>
 
-<figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.jpg" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='img-fluid'>
+<figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.png" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='img-fluid'>
 <figcaption class="kleiner">iMac CoreDuo 20" Mid-2007 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.EveryMac.com" property="cc:attributionName" rel="cc:attributionURL">EveryMac.com</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Meer on iMac Core 2 Duo at <a href="https://everymac.com/systems/apple/imac/specs/imac-core-2-duo-2.4-20-inch-aluminum-specs.html">EveryMac.com</a>.
@@ -206,7 +206,7 @@ HD: 233 Gb ATA</p>
 
 <p>No Mac, but for 1988 this was en innovative piece of hardware. Designed by Sir Clive Sinclair. See <a href="https://en.wikipedia.org/wiki/Cambridge_Z88">Wikipedia</a>
 </p>
-<figure><img src='https://upload.wikimedia.org/wikipedia/commons/8/88/Cambridge-Z88.jpg' alt='Z88 portable' class='img-fluid'>
+<figure><img src='{{ "/assets/img/mac/Cambridge-Z88.png" | relative_url }}'' alt='Z88 portable' class='img-fluid'>
 <figcaption class="kleiner">Z88 portable (<a href="https://commons.wikimedia.org/wiki/File:Cambridge-Z88.jpg" title="via Wikimedia Commons">Evan-Amos</a> [Public domain])</figcaption></figure>
 
 <h2><a id="software">Mac software</a></h2>
@@ -231,19 +231,21 @@ alt='SuperCard logo' style='max-width: 150px;'></a>
 </div>
 
 Another HyperCard clone was
-<a href="https://www.supercard.us/got-hypercard.html">SuperCard</a>. Both are stll actively developed as of 2024.
+<a href="https://www.supercard.us/got-hypercard.html">SuperCard</a>. Both are still actively developed as of 2024.
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/mac/hc-index.gif" | relative_url }}' alt="Card 1 of Stack Index" class='img-fluid'>
-<figcaption class="kleiner">Screenshot of Index v1.5<br>(click to zoom in)</figcaption></figure></div>
+<figure><img src='{{ "/assets/img/mac/hc-index.gif" | relative_url }}' alt="Card 1 of HyperCard Stack Index (Job List)" class='img-fluid'>
+<figcaption class="kleiner">Screenshot of my HyperCard stack Index v1.5<br>(click to zoom in)</figcaption></figure></div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/mac/hc-hypersite.gif" | relative_url }}' alt="Een blad per web-pagina" class='img-fluid'>
-<figcaption class="kleiner">Screenshot of HyperSite v1.6</figcaption></figure></div>
+<figcaption class="kleiner">Screenshot of HyperSite v1.6, still run on HyperCard</figcaption></figure></div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/mac/RevHyperSite21.png" | relative_url }}' alt="HyperSite v2.1" class='img-fluid'>
-<figcaption class="kleiner">HyperSite v2 als Revolution-stack</figcaption></figure></div>
+<figcaption class="kleiner">HyperSite v2 as Revolution-stack</figcaption></figure></div>
 </div>
 
-My stack <a id="HyperSite">HyperSite</a> ollows me to maintain my personal website. In 2006 I ported it to Revolution, so I could continue on macOS draait.
-Read my 2024 farewell to HyperSite <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>here</a>. Now using [Jekyll](https://jekyllrb.com/).
+My stack <a id="HyperSite">HyperSite</a> allows me to maintain my personal website. In 2006, I ported it to Revolution, so I could continue on macOS.
+Read my 2024 farewell to HyperSite <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>here</a>.
+
+April 2024 I migrated my whole site from HyperSite + WordPress + Piwigo naar [Jekyll](https://jekyllrb.com/).

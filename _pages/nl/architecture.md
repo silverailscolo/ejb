@@ -17,6 +17,7 @@ Ik ben bereikbaar via email link (dot) egbert (at) mac (dot) com
 
 <p>Ik vind het belangrijk dat ruimtes - binnen en buiten - gezond en prettig zijn. Daarom werk ik met [biobased](https://www.pianoo.nl/nl/overzicht-aanbod-biobased-producten), niet-giftige materialen en hergebruikte producten, van vloerdelen tot oude tegels.<br>
 Goed gebruik maken van bestaande ruimtes en gebouwen is een belangrijke stap om te voorkomen dat je materialen afvoert en nieuwe produceert als dat helemaal niet hoeft. <em>Refuse</em> is de 1e R op de R-ladder.</p>
+Maar bovenal, [geef verbeelding en creativiteit de ruimte](https://illuminem.com/illuminemvoices/radical-imagination-for-regenerative-futures), dus vergeet even alle producten en oplossingen die je elders zag en sta open voor de mogelijkheden die jouw opgave en je budget bieden!
 
 ## <a id="circulair">Biobased en circulair bouwen</a>
 
@@ -37,9 +38,10 @@ Elk gebouw staat in een omgeving, en die betrek ik in het ontwerp: hoe zie je he
 <figcaption class="kleiner">Impressie fietstunnel Geusselt (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <p>Bij veel ontwerpkeuzes is het handig om met berekeningen te onderbouwen wat de optimale variant is op alle vlakken die de opdrachtgever belangrijk vindt. Daarvoor gebruik ik o.a. de Passivhaus <a href="https://passipedia.org/planning/calculating_energy_efficiency/phpp_-_the_passive_house_planning_package">PHPP</a> berekening en <a href="https://windows.lbl.gov/software/therm/">THERM</a>.<br>
-Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inzicht in de keuzes die soms al in een vroeg stadium gemaakt moeten worden. Je wilt doelmatig werken maar het zijn toch altijd echte euro's, die goed besteed moeten worden!</p>
+Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inzicht in de keuzes die soms al in een vroeg stadium gemaakt moeten worden. Je wilt doelmatig werken, maar het zijn toch altijd echte euro's, die goed besteed moeten worden!</p>
 <p>Ik blijf bij alle projecten betrokken tot in de uitvoering, <em>hands-on</em> om op locatie te zorgen dat de ambitie wordt vertaald in de praktijk van de bouwers, en om technisch mee te kijken en te zorgen dat de (onder)aannemers goed samenwerken.</p>
-<p>Om mijn ervaring met circulair bouwen te delen, schrijf ik in het Actieteam mee aan de <em>Leidraad Circulair Ontwerpen</em> van <a href="https://platformcb23.nl">Platform CB'23</a>.</p>
+
+<p>Om mijn ervaring met circulair bouwen te delen, schreef ik in het Actieteam mee aan de <em>Leidraad Circulair Ontwerpen</em> van <a href="https://platformcb23.nl">Platform CB'23</a>.</p>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <figure><img src='{{ "/assets/img/architect/BR11/BR11_Bouwbord.png" | relative_url }}' alt='Bouwbord 2021' class='img-fluid' >
@@ -72,3 +74,9 @@ Ontwerp voor een nieuw hoofdgebouw voor de LU Wageningen
 <figure><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_entree.jpg" | relative_url }}' alt='Afstudeerontwerp E.J. Broerse 1988' class='img-fluid'>
 <figcaption class="kleiner">Noordgevel (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div><!-- sluit tegel af -->
+
+Op zoek naar ecologische bouwmaterialen?
+: Kijk bij [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)
+
+Energiezuinige gebouwen
+: Passivhaus <a href="https://phi.org">

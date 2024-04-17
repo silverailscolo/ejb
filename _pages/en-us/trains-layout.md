@@ -22,11 +22,9 @@ You guessed it: after a visit to the area I am modelling the former route of the
 An American prototype narrow gauge mountain line starts to come alive on my N scale layout: The Durenver &amp; Silverton Narrow Gauge Railroad (get it? <em>Dur</em>ango + D<em>enver</em>).
 
 <!-- simply so (by Jimmy_Xiao) -->
-
 {% include album.html albumname="trains2" %}
 
 <!-- opieters include -->
-
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 
 ## <a id="layout">Modeling the D&amp;SNG RR</a>
@@ -85,7 +83,7 @@ Mainline Run
 Dimensions
 : 11 ft x 8 ft/3.5 m x 2.5 m
 
-See the <a href="#lda">LDA stats</a> below</p>
+See the <a href="#lda">LDA stats</a> below.
 
 Until the summer of the year 2000 there wasn't much room to spike down the tracks, but one day in 2018 the trains crossed the miniature Rockies all the way up to the town of <a href="#silverton">Silverton</a>.
 
@@ -356,28 +354,28 @@ Next, we do some math:
 ### LDA Results:
 
 Room Area (sq ft)
-: 110
+:   110
 
 Layout Area (sq ft)
-: 86 (78%)
+:   86 (78%)
 
 Number Turnouts
-: 61
+:   61
 
 Total Track
-: 200 ft = 800 cars
+:   200 ft = 800 cars
 
-Train Length (cars)
-: 18/15/12
+Train Length (max/average/min)
+:   18/15/12 cars
 
 Maximum Number of Cars
-: 172
+:   172
 
 Number of Trains
-: 9
+:   9
 
 Dispatching threshold
-: 14 car trains
+:   14 car trains
 
 It works nicely with <a href="https://www.jmri.org/help/en/package/jmri/jmrit/operations/Operations.shtml">JMRI Operations</a> (Dec. 2012)
 

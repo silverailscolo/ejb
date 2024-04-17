@@ -1,11 +1,9 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem "exifr"
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
-    gem "jekyll-exiftag"
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
     gem 'jekyll-imagemagick'
@@ -28,4 +26,5 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
     gem 'mini_magick'
+    gem 'exif'
 end

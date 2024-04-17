@@ -8,8 +8,7 @@ nav: false
 support: [gallery, mapster]
 ---
 
-About our garden
-(includes js popup)
+Click on a shape on the map, or an item in the plant list.
 
 <div class="row">
 <!-- responsive naast of onder elkaar -->
@@ -18,7 +17,7 @@ About our garden
 
 <h2>Garden Plan</h2>
 
-<img id="tuin" src="{{ '/assets/img/tuin/Tuinplanten.png' | relative_url }}" usemap="#tuin_map" alt="Tuin Shapes">
+<img id="tuinplan" src="{{ '/assets/img/tuin/Tuinplanten.png' | relative_url }}" usemap="#tuin_map" alt="Tuin Shapes">
 
 <!-- imagemap gemaakt met online free tool https://imagemap.org -->
 <map name="tuin_map">
@@ -890,7 +889,11 @@ onMouseOver="showpop(event,94);" onMouseOut="hidepop(event);" onMouseUp="togglep
 <li data-id="122">n.t.b.</li>
 </ol>
 </div>
-</div>
+
+</div><!-- end or row -->
+
+<!-- simply so (by Jimmy_Xiao) -->
+{% include album.html albumname="tuin" %}
 
 <!-- popup div. contents updated via Javascript -->
 <div id="popup" class="popup" style="max-width: 80%; width: 180px; height: 200px;" onmouseup="togglepop(event, 122);">
@@ -904,7 +907,7 @@ onMouseOver="showpop(event,94);" onMouseOut="hidepop(event);" onMouseUp="togglep
   $(document).ready(function () {
     //console.log("Ready1");
     nodeListPlants = document.querySelectorAll('li');
-    var img = $('#tuin'),
+    var img = $('#tuinplan'),
       list = $('#plantlijst');
 
     // bind selection of a data-id to the UL we created. The "listSelectedClass"

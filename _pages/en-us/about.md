@@ -11,7 +11,7 @@ profile:
   image: egbert_pic.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Dwingeloo, Drenthe, </p>
+    <p>Westerveld, Drenthe, </p>
     <p>the Netherlands</p>
 
 news: true # includes a list of news items

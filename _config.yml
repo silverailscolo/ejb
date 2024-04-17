@@ -184,6 +184,7 @@ latest_posts:
 # -----------------------------------------------------------------------------
 
 host: 0.0.0.0 # allow viewing in local network
+encoding: utf-8
 
 # Markdown and syntax highlight
 markdown: kramdown
@@ -329,7 +330,31 @@ external_links:
 
 languages: ["en-us", "nl"]
 default_lang: "en-us"
-exclude_from_localization: ["assets/*", "assets/art_gallery", "assets/art_gallery/photos", "assets/art_gallery/sketches", "assets/img/*", "assets/img/architect", "assets/img/blog", "assets/img/bookcovers", "assets/img/flags", "assets/img/house", "assets/img/house/insulation","assets/img/mac", "assets/img/rostercovers", "assets/img/trains2", "assets/img/trains2/prototype", "assets/img/tuin", "assets/img-noresample", "assets/img-noresample/astyle", "assets/img-noresample/avenue2", "assets/img-noresample/beercaps", "assets/img-noresample/foodcenter", "assets/img-noresample/GP", "assets/img-noresample/*"]
+exclude_from_localization:
+  - "assets/*"
+  - "assets/art_gallery"
+  - "assets/art_gallery/photos"
+  - "assets/art_gallery/sketches"
+  - "assets/img/*"
+  - "assets/img/architect/*"
+  - "assets/img/blog"
+  - "assets/img/bookcovers"
+  - "assets/img/flags"
+  - "assets/img/house"
+  - "assets/img/house/history"
+  - "assets/img/house/insulation"
+  - "assets/img/house/ms15"
+  - "assets/img/mac"
+  - "assets/img/rostercovers"
+  - "assets/img/trains2"
+  - "assets/img/trains2/prototype"
+  - "assets/img/tuin"
+  - "assets/img-noresample/*"
+  - "assets/img-noresample/astyle"
+  - "assets/img-noresample/avenue2"
+  - "assets/img-noresample/beercaps"
+  - "assets/img-noresample/foodcenter"
+  - "assets/img-noresample/GP"
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
 parallel_localization: false
@@ -490,6 +515,7 @@ exiftag:
   sources:
     - assets/img
     - assets/img/house
+    - assets/img/house/history
     - assets/img/house/ms15/attic
     - assets/img/mac
     - assets/img/trains2
