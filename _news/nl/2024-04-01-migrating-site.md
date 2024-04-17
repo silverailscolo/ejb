@@ -7,7 +7,7 @@ inline: false
 related_posts: false
 ---
 
-Ik ben bezig om mijn website, blog en fotobibliotheek over te zetten naar Jekyll.
+Ik ben bezig om mijn website, blog en fotobibliotheek over te zetten naar Jekyll, zodat het een geïntegreerd geheel wordt.
 
 ---
 

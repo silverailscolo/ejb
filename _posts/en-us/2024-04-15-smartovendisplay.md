@@ -24,30 +24,29 @@ This was my solution.
 - Thonny IDE for MicroPython to program the piZero
 - HomeAssistant providing energy use via MQTT messages
 - Automations in HomeAssistant responding to
-- Current sensing input for your stove to HomeAssistant, eg. myenergi harvi (2 CT clamps minimum on 3 Phase install)
+- Current sensing input for your stove to HomeAssistant, eg. [myenergi harvi](https://www.myenergi.com/product/harvi/) (2 CT clamps minimum on 3 Phase install)
 
 ### Code
 
-Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }})
+Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}).
 
 Add MQTT topics in HomeAssistant configuration.yaml:
 
-<code>
-{% raw %}
+```
 mqtt_statestream:
 base_topic: homeassistant
 publish_attributes: false
 publish_timestamps: false
 include:
-# entities:
-#   - input_boolean.aga_warming_oven
-#   - input_boolean.aga_boiling_plate
-#   - input_boolean.aga_simmer_plate
-#   - input_boolean.aga_baking_oven
-#   - input_boolean.aga_roasting_oven
-#   - input_boolean.aga_grill
+  entities:
+    - input_boolean.aga_warming_oven
+    - input_boolean.aga_boiling_plate
+    - input_boolean.aga_simmer_plate
+    - input_boolean.aga_baking_oven
+    - input_boolean.aga_roasting_oven
+    - input_boolean.aga_grill
 entity_globs:
-- input_boolean.aga_*
+  - input_boolean.aga_*
 
 # MQTT subscribe to PicoW
 mqtt:
@@ -58,11 +57,13 @@ state_topic: "picow/timerA/running"
 - name: "Timer B"
 unique_id: "timer_b"
 state_topic: "picow/timerB/running"
-</code>
+```
+
 More on MQTT for AGA sensors from PicoW micropython [here](https://github.com/agners/micropython-ha-mqtt-device)
 
 Add ON/OFF Automations for each element of your stove, for example to signal Baking Oven was turned ON:
-<code>
+
+```
 alias: AGA Baking Oven AAN
 description: ""
 trigger:
@@ -78,17 +79,17 @@ trigger:
   target:
   entity_id: input_boolean.aga_baking_oven
   mode: single
-{% endraw %}
-</code>
+```
 
 Adapt for your use case, eg.
 - MQTT messages format
 - Connection names and trigger currents of your stove elements (look at sensor.ct2_ above)
 
-In HomeAssistant, add binary input_boolean sesnors for each item on your stove, for example:
-alias: AGA zet CT2 uit
-<code>
-{% raw %}
+In HomeAssistant, add binary input_boolean sensors for each item on your stove, for example:
+
+<pre>alias: AGA turns OFF CT2</pre>
+
+```
 description: ""
 trigger:
 - platform: numeric_state
@@ -117,8 +118,7 @@ trigger:
   - input_boolean.aga_baking_oven
   - input_boolean.aga_roasting_oven
   mode: single
-{% endraw %}
-</code>
+```
 
 Because of the way [myenergi harvi](https://www.myenergi.com/product/harvi/) functions, a bit more tweaking was required to reset the current sensors to 0 when no PV is being generated.
 
