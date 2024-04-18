@@ -243,8 +243,9 @@ module Jekyll
             # file_name
           end
           if exif != nil
-            answer = $tag.split('.').inject(exif) do |exif,$tag|
-              exif.send($tag)
+            tag = $tag
+            answer = tag.split('.').inject(exif) do |exif,tag|
+              exif.send(tag)
             end
           end
           if answer != nil

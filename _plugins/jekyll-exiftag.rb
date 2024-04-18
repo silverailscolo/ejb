@@ -30,7 +30,7 @@ require 'exif'
 # require 'mini_magick'
 
 module Jekyll
-  class GetExifTag < Liquid::Tag
+  class ExifTag < Liquid::Tag
     def initialize(tag_name, params, token)
       super
       @args = self.split_params(params)
@@ -121,4 +121,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('getexiftag', Jekyll::GetExifTag)
+Liquid::Template.register_tag('exiftag', Jekyll::ExifTag)

@@ -2,7 +2,7 @@
 page_id: ms15joblist
 layout: page
 permalink: /house/ms15
-title: Our first house
+title: Ons eerste huis
 lang: nl
 nav: false
 support: [gallery]
@@ -293,7 +293,7 @@ Te koop, verkocht & snelle start
 | 01-03-2020 | vloer zolder vervangen                        | |
 | 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilder      | |
 
-## What's next?
+## Wat zal het volgende zijn?
 
 <ul>
 <li>Buitenschilderwerk (daar blijf je mee bezig)</li>
