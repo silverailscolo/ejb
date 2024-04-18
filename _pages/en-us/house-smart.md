@@ -47,4 +47,4 @@ By combining the utility meter readings with the SolarEdge PV generation and [my
 ### Smart Oven Display {#oven}
 I happened to forget shutting down the stove a couple of times, as there is no indicator light or buzzer on the thing. That meant 1-2 kWh lost in space! To fix this, I connected a Raspberry Pico microcontroller with a 1.3" OLED screen to HomeAssistant via MQTT/Wi-Fi. As soon as the sensor in the main switch board signals that the stove is on, it sends an MQTT message which wakes up by my ovenside display, showing which hb or oven is on. A timer is started to automate preheating timing of either a cooking hub (15 mins) or one of the ovens (60 mins). After the set period my wife and I each receive an alert on our phone telling us "The Oven is Ready". And after 2 hours, I am reminded is I still mean to have the stove on. 
 
-See this [blog post]({{ "/blog/2024/smartovendisplay" | relative_url }}) for more details.
+See [this blog post]({{ "/blog/2024/smartovendisplay" | relative_url }}) for more details.

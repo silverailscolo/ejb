@@ -10,21 +10,26 @@ header:
 ---
 
 <div id="art-gallery">
-  {% for image in page.images %}
   <!-- {{ page.captions }} -->
-  <a href="{{ image }}" class="image-ref">
-    {% if page.captions[image] == nil %}
-    <img data-caption="Photo by EJB" src="thumbs/{{ image }}" />
-    {% else %}
-    <img
-      data-caption="{{ page.captions[image] }}"
-      src="thumbs/{{ image }}"
-      alt="{{ page.captions[image] }}"
-      title="{{ page.captions[image] }}"
-    />
-    {% endif %}
-  </a>
-  {% endfor %}
+{% for image in page.images %}
+
+<a href="{{ image }}" class="image-ref">
+{% if page.captions[image] == nil %}
+<img
+  src="thumbs/{{ image }}"
+  data-caption="Photo by EJB"
+  alt="{{ image }}"
+/>
+{% else %}
+<img
+  src="thumbs/{{ image }}"
+  alt="{{ page.captions[image] }}"
+  data-caption="{{ page.captions[image] }}"
+  title="{{ page.captions[image] }}"
+/>
+{% endif %}
+</a>
+{% endfor %}
 </div>
 
 {{ page.description }}

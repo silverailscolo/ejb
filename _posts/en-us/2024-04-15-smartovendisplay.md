@@ -14,7 +14,7 @@ categories:
 As you may have read [here]({{ "/house/smart.html#oven" | relative_url }}), I wanted to build a reminder/indication for our AGA kitchen stove.
 This was my solution.
 
-![The finished display in use]({{ "/assets/img/house/smart/agadisplay_IMG9388.jpg" | relative_url }})
+<figure><img src='{{ "/assets/img/house/smart/agadisplay_IMG9388.jpg" | relative_url }}' alt="The finished display in use" class='img-fluid'></figure>
 
 ### Hardware items needed
 
