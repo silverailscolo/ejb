@@ -1,10 +1,13 @@
 # Jekyll art gallery generator plugin
 # Distributed under MIT license with attribution
 # sourced from https://github.com/ggreer/jekyll-gallery-generator
-# changed Egbert from using rmagick (unsupported, memory hog) to:
+# changed Egbert from using rmagick (unsupported, memory hog) to minimagick, added exif tag titles April 2024
+
 require 'mini_magick'
+require 'exif'
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
+$tag = 'image_description'
 
 module Jekyll
   class GalleryFile < StaticFile
@@ -109,7 +112,7 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      # puts "Generating #{gallery_name}: #{gallery_config}"
+      puts "Generating Art-Gallery #{gallery_name}"
       sort_field = config["sort_field"] || "name"
       self.process(@name)
       # puts "finished self.process for #{@name}"
@@ -167,37 +170,42 @@ module Jekyll
         # cleanup, watermark and copy the files
         # Strip out the non-ascii character and downcase the final file name
         dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
-        # puts "Art-Gallery processing image: #{image_path} (2)"
+        # puts "Art-Gallery processing dest_image: #{dest_image} (2)"
         dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
           if config["strip_exif"] or config["watermark"] or config["size_limit"]
           # can't simply copy or symlink, need to pre-process the image
             # puts "Art-GalleryPage generating #{dest_image}..."
-            source_img = MiniMagick::Image.read(image_path)
-            # puts "Art-GalleryPage read #{image_path}..."
-            if config["strip_exif"]
-              print "stripping EXIF..."
-              source_img = source_img.strip
-            end
-            if config["watermark"]
-              if [source_img.columns, source_img.rows].min < 600
-                print "too small to watermark"
-              else
-                print "watermarking"
-                source_img = source_img.composite(
-                    wm_img,
-                    gravity: "south-east",
-                    offset: [-20,-20],
-                    compose: hard-light
-                  ).write(dest_image_abs_path)
+            begin
+              source_img = MiniMagick::Image.read(image_path)
+              # puts "Art-GalleryPage read #{image_path}..."
+              if config["strip_exif"]
+                print "stripping EXIF..."
+                source_img = source_img.strip
               end
+              if config["watermark"]
+                if [source_img.columns, source_img.rows].min < 600
+                  print "too small to watermark"
+                else
+                  print "watermarking"
+                  source_img = source_img.composite(
+                      wm_img,
+                      gravity: "south-east",
+                      offset: [-20,-20],
+                      compose: hard-light
+                    ).write(dest_image_abs_path)
+                end
+              end
+              if config["size_limit"]
+                source_img = source_img.resize(config["size_limit"], config["size_limit"]) if (source_img.columns > config["size_limit"] || source_img.rows > config["size_limit"])
+                # resize only if bigger than the limit
+              end
+              source_img.write(dest_image_abs_path)
+              print "\n"
+            rescue StandardError => e
+              puts "Error reading file #{image_path}: #{e}"
+              # file_name
             end
-            if config["size_limit"]
-              source_img = source_img.resize(config["size_limit"], config["size_limit"]) if (source_img.columns > config["size_limit"] || source_img.rows > config["size_limit"])
-              # resize only if bigger than the limit
-            end
-            source_img.write(dest_image_abs_path)
-            print "\n"
           elsif symlink
             print "Symlinking #{image_path} to #{dest_image}..."
             link_src = site.in_source_dir(image_path)
@@ -220,18 +228,34 @@ module Jekyll
             end
             print "\n"
           else
-            puts "Copying #{image_path} to #{dest_image}..."
+            # puts "Copying #{image_path} to #{dest_image}..."
             FileUtils.cp(image_path,dest_image_abs_path)
           end
         end
         # Add file descriptions if defined
-        # puts "Art-Gallery processing image: #{dest_image_abs_path} (3)"
         if gallery_config.has_key?(image)
-          # puts "added ${image} = #{gallery_config[image]}"
           self.data["captions"][dest_image] = gallery_config[image]
         else
-          # If not defined add a trimmed filename to help with SEO
-          self.data["captions"][dest_image] = File.basename(image, File.extname(image)).gsub("_", " ")
+          begin
+            exif = Exif::Data.new(File.open(image_path))
+          rescue StandardError => e
+            # puts "No EXIF header in file #{image_path}: #{e}"
+            # file_name
+          end
+          if exif != nil
+            tag = $tag
+            answer = tag.split('.').inject(exif) do |exif,tag|
+              exif.send(tag)
+            end
+          end
+          if answer != nil
+            self.data["captions"][dest_image] = answer
+            # puts "Added caption #{exif[:image_description]} to image #{dest_image}"
+          else
+            # If no caption defined, add a trimmed filename to help with SEO
+            self.data["captions"][dest_image] = File.basename(image, File.extname(image)).gsub("_", " ")
+            # puts "Added filename as caption"
+          end
         end
         # remember the image
         @images.push(dest_image)
@@ -290,6 +314,7 @@ module Jekyll
       FileUtils.mkdir_p(thumbs_dir, :mode => 0755)
       if File.file?(thumb_path) == false or File.mtime(image_path) > File.mtime(thumb_path)
         begin
+          puts "Starting thumbnail for #{image_path}"
           m_image = MiniMagick::Image.open(image_path)
           # m_image.auto_orient!
           # m_image.send("resize_to_#{scale_method}!", max_size_x, max_size_y)
@@ -309,7 +334,6 @@ module Jekyll
             end
           # strip EXIF from thumbnails. Some browsers, notably Safari on iOS, will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
           m_image = m_image.strip
-          # puts "Writing thumbnail to #{thumb_path}"
           m_image.write(thumb_path)
         rescue Exception => e
           puts "Error generating thumbnail for #{image_path}: #{e}"

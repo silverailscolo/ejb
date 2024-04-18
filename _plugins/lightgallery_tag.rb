@@ -20,6 +20,8 @@
 # {% endgallery %}
 #
 module Jekyll
+  require 'exif'
+  $tag = 'image_description'
 
   class PhotosUtil
     def initialize(context)
@@ -98,8 +100,27 @@ module Jekyll
       lines.each_with_index do |line, i|
         next if line.empty?
         filename, title = line.split(":")
-        title = (title.nil?) ? filename : title.strip
-        gallery << "{ src: '#{p.path_for(filename)}', thumb: '#{p.path_for(filename)}' },"
+        if title == nil
+          begin
+            exif = Exif::Data.new(File.open(p.path_for(filename)))
+          rescue StandardError => e
+            puts "No EXIF header in file #{filename}: #{e}"
+          end
+          if exif != nil
+            tag = $tag
+            answer = tag.split('.').inject(exif) do |exif,tag|
+              exif.send(tag)
+            end
+          end
+          if answer != nil
+            title = answer
+          else
+            title = filename
+          end
+        else
+          title.strip
+        end
+        gallery << "{ src: '#{p.path_for(filename)}', thumb: '#{p.path_for(filename)}', subHtml: '#{title}' },"
       end
       gallery << "], thumbWidth: 60, thumbHeight: \"40px\", thumbMargin: 4 });"
       gallery << "inlineGallery.openGallery();"

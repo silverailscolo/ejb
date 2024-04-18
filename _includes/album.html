@@ -14,12 +14,10 @@
     />
   </a>
   {% else %}
-  <a href="{{ site.baseurl }}{{ image.path }}" class="image-ref"
-     data-sub-html="{% getexiftag image_description, , {{ image.path }} %}, {% getexiftag copyright, , {{ image.path }} %}">
-    <img src="{{ site.baseurl }}/thumbnails{{ image.path | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}" alt="{{ my_title }}" />
-  </a>
-  {% comment %}Some tags return invalid UTF-8 ecoding, so I tried to filter, but this is included in the path
-  | encode(Encoding.find('UTF-8'), {invalid: :replace, undef: :replace, replace: ''}){% endcomment %}
+<a href="{{ site.baseurl }}{{ image.path }}" class="image-ref" data-sub-html="{% exiftag image_description, , {{ image.path }} %}, {% exiftag copyright, , {{ image.path }} %}">
+   <img src="{{ site.baseurl }}/thumbnails{{ image.path | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}" alt="{% exiftag image_description, , {{ image.path }} %}" />
+</a>
+  {% comment %}Some tags return invalid UTF-8 ecoding, encoding is enforced in exiftag.rb plugin {% endcomment %}
   {% endif %}{% endunless %}{% endif %}{% endfor %}
 </div>
 

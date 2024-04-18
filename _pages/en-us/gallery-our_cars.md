@@ -1,18 +1,19 @@
 ---
 layout: gallery
-title: Car A-post
+title: Our Cars
 permalink: /gallery/our_cars
-id: gallery-astyle
+id: gallery-cars
 lang: en-us
 support: [gallery]
 nav: false
 ---
 
 These are the cars we owned since 1991.
+Read on after the pictures.
 
 {% include gallery_layout.liquid gallery=site.data.galleries.our_cars %}
 
-# <a id="cars">Cars</a>
+# <a id="cars">Car stories</a>
 
 ## 1981: Renault 5
 

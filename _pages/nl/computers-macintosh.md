@@ -20,7 +20,7 @@ houden terwijl ik Foto's opende. Dat stopte bij 5% en ging zelfs na 24 uur niet 
 
 Dus ik probeerde de oorzaak te vinden, maar je hoeft niet eens in de inhoud van het Photos databasepakket te kijken.
 Na een paar weken merkte ik dat dit altijd gebeurde nadat ik de taalinstelling van het besturingssysteem had
-gewijzigd <em>zonder opnieuw op te starten</em>.
+gewijzigd *zonder opnieuw op te starten*.
 Dit is dus de truc: negeer het dialoogvenster "Nu of later opnieuw opstarten" niet.
 
 Nadat je de schermtaal van je Mac hebt gewijzigd, <em>altijd</em> opnieuw opstarten. Open vervolgens Foto's en presto!

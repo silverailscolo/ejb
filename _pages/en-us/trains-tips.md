@@ -8,22 +8,21 @@ description: Learned the hard way
 nav: false
 toc:
   sidebar: left
-accordion:
-  - title: this is item 1
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - title: this is item 2
-    content: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. 
 ---
 
-{% include accordion.html %}
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-# <a id="installdecoder">How to install a DCC decoder</a>
+<h2><a id="installdecoder">How to install a DCC decoder</a></h2>
 
 <p>Coming up</p>
 
-# <a id="buildk27">Build a RLW K-27 kit</a>
+</div>
 
-See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'>this blog post</a>
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+
+<h2><a id="buildk27">Build a RLW K-27 kit</a></h2>
+
+See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'>this blog post</a>.
 
 <div class="row">
 <div class="col-sm">
@@ -36,7 +35,11 @@ See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'
 </div>
 </div>
 
-# <a id="dwarf">How to make a Digitrax dwarf signal</a>
+</div>
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+
+<h2><a id="dwarf">How to make a Digitrax dwarf signal</a></h2>
 
 <p>Using the Digitrax base mast as, well, the base we add the typical hood from styrene.</p>
 
@@ -44,20 +47,40 @@ See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'
 <figcaption class="kleiner">Customized Digitrax Base Mast (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-# <a id="DS52housing">Build a housing for a DS52</a>
+</div>
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+
+<h2><a id="DS52housing">Build a housing for a DS52</a></h2>
 
 The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage. At <a href="https://www.conrad.nl">Conrad</a> I ordered a 53,5 x 45 x 23 mm [StrapuBox, item 522600](https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html). Pictured below are the modifications to get the decoder inside. Put a label on the front with the decoder ID (I use DS52-X) plus the DCC adresses of both outputs and attach to the layout with 2 screws.
 
-<figure><a href='{{ "/assets/img/trains2/IMG_0502-lo.jpg" | relative_url }}'><img src='{{ "/assets/img/trains2/IMG_0503-lo.jpg" | relative_url }}' alt='Now that is neat' class='img-fluid'></a>
-<figcaption class="kleiner">A DS52 enclosed (click on image to view the instructions)</figcaption></figure>
+<div class="row">
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/IMG_0503-lo.jpg" | relative_url }}' alt='Now that is neat' class='img-fluid'>
+<figcaption class="kleiner">A DS52 enclosed (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><a href='{{ "/assets/img/trains2/IMG_0502-lo.jpg" | relative_url }}'><img src='{{ "/assets/img/trains2/IMG_0502-lo.jpg" | relative_url }}' alt="DSRR screenshot w/icons" class='img-fluid'></a>
+<figcaption class="kleiner">Modifications to the casing, click to zoom in (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
+</div>
 
-# <a id="invertor">Build an add-on logic invertor daughterboard for an HDL LocoIO</a>
+</div>
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+
+<h2><a id="invertor">Build an add-on logic invertor daughterboard for an HDL LocoIO</a></h2>
 
 <figure><img src='{{ "/assets/img/trains2/DSCF0229_half.jpg" | relative_url }}' alt='LocoIO daughterboard, click for larger image' class='img-fluid'></figure>
 
 <p>To reduce the number of outputs required to connect a switch panel to Loconet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel, simply because I don't have switch feedback and if a switch isn't thrown, it's supposed to be closed. Built using a 18x15 hole piece of Euro-PCB experimenting board.</p>
 
-# <a id="panel">JMRI Panel</a>
+</div>
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+
+<h2><a id="panel">JMRI Panel</a></h2>
 
 <p>My digital control panel was built using Panel Editor and is displayed on a compact LCD monitor by <a href="https://www.jmri.org/help/en/html/apps/PanelPro/index.shtml">JMRI PanelPro 2.4.1</a> on OSX 10.4.6, the last version supported by my MacMini hardware/Java combo.<br>
 The graphics match a generic (US-built) Entrance-Exit (NX) CTC machine, in use from 1950 until the mid-nineties. However, most turnouts are operated with an Individual Function Switch (IFS); see the <a href="https://en.wikipedia.org/wiki/Signalling_control">Signaling Wiki</a>.</p>
@@ -82,8 +105,11 @@ The graphics match a generic (US-built) Entrance-Exit (NX) CTC machine, in use f
 Some years later, signals were added on the layout as well as to the panel. All the logic to show the correct <em>Aspects</em> is controlled as <a href="https://www.jmri.org/help/en/html/tools/signaling/SignalMastLogic.shtml">Signal Mast Logic</a> following a customized <a href="https://www.jmri.org/xml/signals/RG-1965/index.shtml">Rio Grande 1965 Rule Book</a> signal definition.</p>
 
 <p>My physical control panels on the layout fascia sport the same graphic style, be it black on yellow to match the carpet:</p>
+
 <figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt="DSRR physical panel" class='img-fluid'>
 <figcaption class="kleiner">One of the Control Panels on the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
+</div>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Back to <a href="layout.html">Railroading</a></div>
 

@@ -32,3 +32,11 @@
       - 20150504132656-fdc46746-120x120.jpg
       - 20150504132656-fdc46746-101x144.jpg
     thumbnail: 20150504132656-fdc46746-120x120.jpg
+- title: Our cars
+  directory: our_cars
+  preview:
+    filename: Pontiac_transsport_concept
+    original: Pontiac_transsport_concept-640x346.jpg
+    sizes:
+      - Pontiac_transsport_concept-479x259.webp
+    thumbnail: Pontiac_transsport_concept-479x259.webp

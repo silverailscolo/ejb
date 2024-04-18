@@ -19,6 +19,9 @@ children:
   - title: divider
   - title: Lubuntu tips
     permalink: /computers/lubuntu
+  - title: divider
+  - title: Playground
+    permalink: /computers/playground
 ---
 
 What to write here?
