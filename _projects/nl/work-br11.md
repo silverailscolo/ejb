@@ -56,3 +56,5 @@ Nadat de woning wind- en waterdicht was, kon de interne verbouwing - isolatie en
     De (bruikbare) oude vloerplanken uit de woonkamer zijn hergebruikt in de slaapkamervloer.
 </div>
 </div>
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Meer <a href="../../house/renovation.html">BR11 beelden</a>.</div>

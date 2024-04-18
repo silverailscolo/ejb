@@ -51,3 +51,5 @@ Rol: projectarchitect ruimtelijke kwaliteit, vormgeving en details van civiele w
 </div>
 
 </div><!-- einde N31 schetsboek -->
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Meer <a href="../../gallery/n31.html">N31 beelden</a>.</div>
