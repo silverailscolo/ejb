@@ -551,7 +551,7 @@ async def main():
     OLED.show()
 
     # start MQTT connection
-    mqtt_conn = MQTTClient("umqtt_client", "homeassistant.local", 1883, "br11_mqtt", "G49HRiPGeKq6JEwgub4n")
+    mqtt_conn = MQTTClient("umqtt_client", "homeassistant.local", 1883, "secrets.mqtt_name", "secrets.mqtt_pwd")
     mqtt_conn.set_callback(subscribe_callback)
     mqtt_conn.connect()
     mqtt_conn.subscribe(b"homeassistant/input_boolean/+/state") # filter for AGA state topic only

@@ -48,3 +48,5 @@ Rol: Ontwerpleider team ruimtelijk ontwerp, projectarchitect 25 kunstwerken en 2
 </div>
 
 </div><!-- einde A2 schetsboek -->
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Meer <a href="../../gallery/avenue2.html">Avenue2 beelden</a>.</div>

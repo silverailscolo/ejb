@@ -47,3 +47,5 @@ Role: Spatial Design team lead, project architect 25 civil structures and 2 tunn
 </div>
 
 </div><!-- end A2 sketchbook -->
+
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">More <a href="../../gallery/avenue2.html">Avenue2 pictures</a>.</div>

@@ -104,7 +104,7 @@ module Jekyll
           begin
             exif = Exif::Data.new(File.open(p.path_for(filename)))
           rescue StandardError => e
-            puts "No EXIF header in file #{filename}: #{e}"
+            # puts "No EXIF header in file #{filename}: #{e}"
           end
           if exif != nil
             tag = $tag
