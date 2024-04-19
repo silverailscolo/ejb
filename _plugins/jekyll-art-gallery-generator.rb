@@ -4,10 +4,11 @@
 # changed Egbert from using rmagick (unsupported, memory hog) to minimagick, added exif tag titles April 2024
 
 require 'mini_magick'
-require 'exif'
+# require 'exif'
+require 'exiftool'
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
-$tag = 'image_description'
+$tags = 'caption-abstract.copyright'
 
 module Jekyll
   class GalleryFile < StaticFile
@@ -146,6 +147,17 @@ module Jekyll
         # process and copy images
       self.data["captions"] = {}
       date_times = {}
+
+      # start up exiftool just once to get all tags
+      exiftoolbatch = Exiftool.new(Dir["#{Dir.pwd + '/' + dir}/*.*"]) # we are in original_dir
+      # exiftoolbatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
+      # result = exiftoolbatch.result_for("path/to/iPhone 4S.jpg")
+      # puts exiftoolbatch.files_with_results
+      # result.files_with_results
+      # => {:make => "Apple", :gps_longitude => -122.47566667, …
+      # result[:gps_longitude]
+      # => -122.47566667
+
       Dir.foreach(dir) do |image|
         next if image.chars.first == "."
         next unless image.downcase().end_with?(*$image_extensions)
@@ -237,17 +249,37 @@ module Jekyll
           self.data["captions"][dest_image] = gallery_config[image]
         else
           begin
-            exif = Exif::Data.new(File.open(image_path))
+            fullpath = Dir.pwd + "/" + image_path
+            # exif = Exif::Data.new(File.open(fullpath))
+            puts "Exiftool fetching result for #{fullpath}"
+            exif =  exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
+            # => {:make => "Apple", :gps_longitude => -122.47566667, …
           rescue StandardError => e
-            # puts "No EXIF header in file #{image_path}: #{e}"
+            puts "No EXIF header in file #{fullpath}: #{e}"
           end
           if exif != nil
-            tag = $tag
-            answer = tag.split('.').inject(exif) do |exif,tag|
-              exif.send(tag)
-            end
+            # puts exif.to_hash
+#             tag = $tags.split
+#             capt = exif[:"#{tag[0]}"] || ""
+#             copy = exif[:"#{tag[1]}"] || ""
+            capt = exif[:"caption-abstract"] || ""
+            copy = exif[:copyright] || ""
+            # TODO fall thru to: headline (IPTC), image_description (EXIF)
+            answer = capt + ( copy nil? "" : ", " + copy)
+            # answer = exif[:copyright]
+            #answer = tag.split('.').inject(exif) do |exif,tag|
+              #exif.send(tag) # try Dutch-NL tag name
+              # exif.send(tag + "-nl-NL") # try Dutch-NL tag name > error: undefined method `image_description-nl-NL'
+            #end
+#             if answer == nil
+#               tag = $tag
+#               answer = tag.split('.').inject(exif) do |exif,tag|
+#                 exif.send(tag) # fallback to default tag name
+#               end
+#             end
           end
-          if answer != nil
+          if answer != nil # and answer != ", "
+            puts "EXIFtool fetched tags for #{image}: " + answer
             self.data["captions"][dest_image] = answer
             # puts "Added caption #{exif[:image_description]} to image #{dest_image}"
           else

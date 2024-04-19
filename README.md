@@ -6,17 +6,11 @@
 
 ---
 
-[![deploy](https://github.com/george-gca/multi-language-al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/george-gca/multi-language-al-folio/actions/workflows/deploy.yml)
-[![Maintainers](https://img.shields.io/badge/maintainers-4-success.svg)](#maintainers)
-[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
-[![Docker Image Version](https://img.shields.io/docker/v/georgegca/multi-language-al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/georgegca/multi-language-al-folio)
-[![Docker Image Size](https://img.shields.io/docker/image-size/georgegca/multi-language-al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/georgegca/multi-language-al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/georgegca/multi-language-al-folio?color=blueviolet)](https://hub.docker.com/r/georgegca/multi-language-al-folio)
+[![deploy](https://github.com/silverailscolo/ebroerse.nl/actions/workflows/deploy.yml/badge.svg)](https://github.com/silverailscolo/ebroerse.nl/actions/workflows/deploy.yml)
 
-[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/george-gca/multi-language-al-folio?color=blue)](https://github.com/george-gca/multi-language-al-folio/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
-[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
+[![GitHub license](https://img.shields.io/github/license/silverailscolo/ebroerse.nl?color=blue)](https://github.com/silverailscolo/ebroerse.nl/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/silverailscolo/ebroerse.nl)](https://github.com/silverailscolo/ebroerse.nl)
+[![GitHub forks](https://img.shields.io/github/forks/silverailscolo/ebroerse.nl)](https://github.com/silverailscolo/ebroerse.nl/fork)
 
 </div>
 
@@ -24,15 +18,15 @@
 
 ### Desktop
 
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/desktop/george_gca_github_io_multi_language_al_folio_.html)
+[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/desktop/silverailscolo/ebroerse.nl.html)
 
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgeorge-gca.github.io%2Fmulti-language-al-folio%2F&form_factor=desktop)
+Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fsilverailscolo%2Febroerse.nl%2F&form_factor=desktop)
 
 ### Mobile
 
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/mobile/george_gca_github_io_multi_language_al_folio_.html)
+[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/mobile/silverailscolo/ebroerse.nl.html)
 
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgeorge-gca.github.io%2Fmulti-language-al-folio%2F&form_factor=mobile)
+Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fsilverailscolo%2Febroerse.nl%2F&form_factor=mobile)
 
 ## Table Of Contents
 
@@ -43,9 +37,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Table Of Contents](#table-of-contents)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
-    - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
-    - [Theming](#theming)
-    - [Social media previews](#social-media-previews)
     - [Atom (RSS-like) Feed](#atom-rss-like-feed)
     - [Related posts](#related-posts)
     - [Code quality checks](#code-quality-checks)
@@ -71,17 +62,7 @@ This template has a built-in light/dark mode. It detects the user preferred colo
 
 **al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) to display GitHub repositories and user stats on the `/repositories/` page.
 
-[![Repositories Preview](readme_preview/repositories.png)](https://george-gca.github.io/multi-language-al-folio/repositories/)
-
-Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the `/repositories/` page.
-
-You may also use the following codes for displaying this in any other pages.
-
----
-
-#### Theming
-
-A variety of beautiful theme colors have been selected for you to choose from. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the `_sass/_themes.scss` file. Other color variables are listed there as well. The stock theme color options available can be found at [\_sass/\_variables.scss](_sass/_variables.scss). You can also add your own colors to this file assigning each a name for ease of use across the template.
+[![Repositories Preview](readme_preview/repositories.png)](https://silverailscolo.github.io/ebroerse.nl/repositories/)
 
 ---
 
@@ -101,19 +82,17 @@ It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS read
 
 #### Related posts
 
-By default, there will be a related posts section on the bottom of the blog posts. These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post. If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post. If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in [\_config.yml](_config.yml).
+There is a related posts section on the bottom of the blog posts. These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post.
 
 ---
 
 #### Code quality checks
 
-Currently, we run some checks to ensure that the code quality and generated site are good. The checks are done using GitHub Actions and the following tools:
+We run some checks to ensure that the code quality and generated site are good. The checks are done using GitHub Actions and the following tools:
 
 - [Prettier](https://prettier.io/) - check if the formatting of the code follows the style guide
 - [lychee](https://lychee.cli.rs/) - check for broken links
 - [Axe](https://github.com/dequelabs/axe-core) (need to run manually) - do some accessibility testing
-
-We decided to keep `Axe` runs manual because fixing the issues are not straightforward and might be hard for people without web development knowledge.
 
 ## FAQ
 

@@ -27,4 +27,5 @@ group :other_plugins do
     gem 'httparty'
     gem 'mini_magick'
     gem 'exif'
+    gem 'exiftool'
 end

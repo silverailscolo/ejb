@@ -27,6 +27,7 @@
 # xml_packet
 
 require 'exif'
+require 'exiftool'
 # require 'mini_magick'
 
 module Jekyll
@@ -61,7 +62,6 @@ module Jekyll
         img = context.environments.first["page"]["img"]
       end
 
-      # img = "/Users/egbertbroerse/Documents/Egbert/Computers/IntelliJ local/ebroerse.nl" + img
       img = File.expand_path("../.." + img, __FILE__)
       # puts "EXIFTAG img ========= " + img
       # first check if the given img is already the path
