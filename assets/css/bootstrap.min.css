@@ -1742,6 +1742,9 @@ a.close.disabled {
 .ml-1 {
   margin-left: 0.25rem !important;
 }
+.m-2 {
+  margin: 0.5rem !important;
+}
 
 .my-2 {
   margin-top: 0.5rem !important;
