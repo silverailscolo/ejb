@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # A LiquidTag to get Exif Tags using EXIF
-# Original by: Beni Buess. Adapeted Egbert Broerse April 2024
+# Original by: Beni Buess. Adapted Egbert Broerse April 2024
 #
 # Usage:
 #
@@ -27,6 +27,7 @@
 # xml_packet
 
 require 'exif'
+#require 'exiftool'
 # require 'mini_magick'
 
 module Jekyll
@@ -61,7 +62,6 @@ module Jekyll
         img = context.environments.first["page"]["img"]
       end
 
-      # img = "/Users/egbertbroerse/Documents/Egbert/Computers/IntelliJ local/ebroerse.nl" + img
       img = File.expand_path("../.." + img, __FILE__)
       # puts "EXIFTAG img ========= " + img
       # first check if the given img is already the path
