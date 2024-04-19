@@ -5,7 +5,7 @@
 
 require 'mini_magick'
 # require 'exif'
-require 'exiftool'
+require 'exiftool_vendored'
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
 $tags = 'caption-abstract.copyright'
