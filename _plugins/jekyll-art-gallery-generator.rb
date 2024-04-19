@@ -251,11 +251,11 @@ module Jekyll
           begin
             fullpath = Dir.pwd + "/" + image_path
             # exif = Exif::Data.new(File.open(fullpath))
-            puts "Exiftool fetching result for #{fullpath}"
+            # puts "Exiftool fetching result for #{fullpath}"
             exif =  exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
             # => {:make => "Apple", :gps_longitude => -122.47566667, …
           rescue StandardError => e
-            puts "No EXIF header in file #{fullpath}: #{e}"
+            # puts "No EXIF header in file #{fullpath}: #{e}"
           end
           if exif != nil
             # puts exif.to_hash
@@ -263,9 +263,9 @@ module Jekyll
 #             capt = exif[:"#{tag[0]}"] || ""
 #             copy = exif[:"#{tag[1]}"] || ""
             capt = exif[:"caption-abstract"] || ""
-            copy = exif[:copyright] || ""
+            copy = exif[:copyright]
             # TODO fall thru to: headline (IPTC), image_description (EXIF)
-            answer = capt + ( copy nil? "" : ", " + copy)
+            answer = capt + ( copy == nil ? "" : ", " + copy)
             # answer = exif[:copyright]
             #answer = tag.split('.').inject(exif) do |exif,tag|
               #exif.send(tag) # try Dutch-NL tag name
@@ -278,8 +278,8 @@ module Jekyll
 #               end
 #             end
           end
-          if answer != nil # and answer != ", "
-            puts "EXIFtool fetched tags for #{image}: " + answer
+          if answer != nil and answer != ""
+            # puts "EXIFtool fetched tags for #{image}: " + answer
             self.data["captions"][dest_image] = answer
             # puts "Added caption #{exif[:image_description]} to image #{dest_image}"
           else

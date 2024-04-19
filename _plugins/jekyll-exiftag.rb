@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # A LiquidTag to get Exif Tags using EXIF
-# Original by: Beni Buess. Adapeted Egbert Broerse April 2024
+# Original by: Beni Buess. Adapted Egbert Broerse April 2024
 #
 # Usage:
 #
@@ -27,7 +27,7 @@
 # xml_packet
 
 require 'exif'
-require 'exiftool'
+#require 'exiftool'
 # require 'mini_magick'
 
 module Jekyll
