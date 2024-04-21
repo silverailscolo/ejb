@@ -267,6 +267,9 @@ module Jekyll
             # Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline; XMP: Description, Comment;
             # All blocks: copyright (case insensitive)
             if capt == nil
+              capt = exif[:"Caption"] || "" # XMP alt Caption field
+            end
+            if capt == nil
               capt = exif[:"headline"] || "" # IPTC Caption field
             end
             if capt == nil
