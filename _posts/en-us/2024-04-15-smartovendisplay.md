@@ -18,12 +18,12 @@ This was my solution.
 
 ### Hardware items needed
 
-- Raspberry Pico W
-- 1.3" Pico OLED display
+- [Raspberry Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
+- [Waveshare 1.3" Pico OLED](https://www.waveshare.com/wiki/Pico-OLED-1.3) display
 - USB-A to USB-C cable
-- Thonny IDE for MicroPython to program the piZero
-- HomeAssistant providing energy use via MQTT messages
-- Automations in HomeAssistant responding to
+- [Thonny IDE](https://thonny.org) for [MicroPython](https://micropython.org) to program the piZero
+- [HomeAssistant](https://www.home-assistant.io) providing energy use via [MQTT](https://mqtt.org) messages
+- Automations set up in HomeAssistant responding to
 - Current sensing input for your stove to HomeAssistant, eg. [myenergi harvi](https://www.myenergi.com/product/harvi/) (2 CT clamps minimum on 3 Phase install)
 
 ### Code
@@ -64,7 +64,7 @@ More on MQTT for AGA sensors from PicoW micropython [here](https://github.com/ag
 Add ON/OFF Automations for each element of your stove, for example to signal Baking Oven was turned ON:
 
 ```
-alias: AGA Baking Oven AAN
+alias: AGA Baking Oven ON
 description: ""
 trigger:
 - platform: numeric_state
@@ -87,7 +87,7 @@ Adapt for your use case, eg.
 
 In HomeAssistant, add binary input_boolean sensors for each item on your stove, for example:
 
-<pre>alias: AGA turns OFF CT2</pre>
+``alias: AGA turns OFF CT2``
 
 ```
 description: ""
@@ -120,6 +120,8 @@ trigger:
   mode: single
 ```
 
-Because of the way [myenergi harvi](https://www.myenergi.com/product/harvi/) functions, a bit more tweaking was required to reset the current sensors to 0 when no PV is being generated.
+Because the [myenergi harvi](https://www.myenergi.com/product/harvi/) is powered from the CT clamps, a bit more tweaking is required.
+
+To reset the current sensors to zero when no PV or AGA current is flowing through the clamps, I created a 2 Minute timer that is reset every minute as a (non-zero) measurement from the myenergi server arrives in Home Assistant myenergi integration. When this timer eventually runs out, it means neither the PV panels nor the stove is cunsuming any power, and an automation sets input_number.ct2_actueel and input_number.ct3_actueel to zero.
 
 If you need those details, open an issue on this site.

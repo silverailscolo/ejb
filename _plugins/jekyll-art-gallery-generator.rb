@@ -4,11 +4,10 @@
 # changed Egbert from using rmagick (unsupported, memory hog) to minimagick, added exif tag titles April 2024
 
 require 'mini_magick'
-# require 'exif'
 require 'exiftool'
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
-$tags = 'caption-abstract.copyright'
+# $tags = 'caption-abstract.copyright'
 
 module Jekyll
   class GalleryFile < StaticFile
@@ -149,8 +148,9 @@ module Jekyll
       date_times = {}
 
       # start up exiftool just once to get all tags
+      puts "Starting Exiftool batch in path #{Dir.pwd + '/' + dir}"
       exiftoolbatch = Exiftool.new(Dir["#{Dir.pwd + '/' + dir}/*.*"]) # we are in original_dir
-      # exiftoolbatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
+      exiftoolbatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
       # result = exiftoolbatch.result_for("path/to/iPhone 4S.jpg")
       # puts exiftoolbatch.files_with_results
       # result.files_with_results
@@ -254,6 +254,7 @@ module Jekyll
             # puts "Exiftool fetching result for #{fullpath}"
             exif =  exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
             # => {:make => "Apple", :gps_longitude => -122.47566667, …
+            puts exif
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
           end
@@ -262,11 +263,16 @@ module Jekyll
 #             tag = $tags.split
 #             capt = exif[:"#{tag[0]}"] || ""
 #             copy = exif[:"#{tag[1]}"] || ""
-            capt = exif[:"caption-abstract"] || ""
+            capt = exif[:"XMP-dc:Description"] || "" # XMP Caption field
+            # fall thru to: headline (IPTC), image_description (EXIF)
+            if capt == nil
+              capt = exif[:"IPTC:2:05"] || "" # IPTC Caption field
+            end
+            if capt == nil
+              capt = exif[:"ImageDescription"] || "" # EXIF Caption field
+            end
             copy = exif[:copyright]
-            # TODO fall thru to: headline (IPTC), image_description (EXIF)
             answer = capt + ( copy == nil ? "" : ", " + copy)
-            # answer = exif[:copyright]
             #answer = tag.split('.').inject(exif) do |exif,tag|
               #exif.send(tag) # try Dutch-NL tag name
               # exif.send(tag + "-nl-NL") # try Dutch-NL tag name > error: undefined method `image_description-nl-NL'
@@ -279,9 +285,8 @@ module Jekyll
 #             end
           end
           if answer != nil and answer != ""
-            # puts "EXIFtool fetched tags for #{image}: " + answer
+            puts "EXIFtool fetched tags for #{image}: #{answer}"
             self.data["captions"][dest_image] = answer
-            # puts "Added caption #{exif[:image_description]} to image #{dest_image}"
           else
             # If no caption defined, add a trimmed filename to help with SEO
             self.data["captions"][dest_image] = File.basename(image, File.extname(image)).gsub("_", " ")
@@ -323,14 +328,15 @@ module Jekyll
       best_image = gallery_config["best_image"] || @images[0]
       best_image.gsub!(/[^0-9A-Za-z.\-]/, '_') # renormalize the name - important in case the best image name is specified via config
       best_image.downcase! # two step because mutating gsub returns nil that's unusable in a compound call
-      #best_image = File.join(@dir, best_image)
       self.data["best_image"] = best_image
 
       # generate best image thumb for the gallery front super-index page
-      makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "front_"+best_image, config["front_thumb_size"]["x"] || 400, config["front_thumb_size"]["y"] || 400,"crop")
+      # puts "Thumb for front"
+      makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "front_"+best_image, config["front_thumb_size"]["x"] || 400, config["front_thumb_size"]["y"] || 400, "crop")
 
       # generate best image thumb for the header of a gallery index page
-      makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 400, config["header_thumb_size"]["y"] || 400,"crop")
+      # puts "Thumb for header"
+      makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 0, config["header_thumb_size"]["y"] || 400, "crop")
 
       self.data["header"]["image_fullwidth"] = "thumbs/header_"+best_image # used in the theme
       GC.start
@@ -345,7 +351,7 @@ module Jekyll
       FileUtils.mkdir_p(thumbs_dir, :mode => 0755)
       if File.file?(thumb_path) == false or File.mtime(image_path) > File.mtime(thumb_path)
         begin
-          puts "Starting thumbnail for #{image_path}"
+          # puts "Starting thumbnail for #{image_path}"
           m_image = MiniMagick::Image.open(image_path)
           # m_image.auto_orient!
           # m_image.send("resize_to_#{scale_method}!", max_size_x, max_size_y)

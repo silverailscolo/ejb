@@ -27,7 +27,7 @@
 # xml_packet
 
 require 'exif'
-#require 'exiftool'
+# require 'exiftool'
 # require 'mini_magick'
 
 module Jekyll

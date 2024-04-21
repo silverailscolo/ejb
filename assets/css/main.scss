@@ -70,3 +70,12 @@ div.right {
     text-align: center;
     margin-top: 1rem;
 }
+
+// Stroke around white letters on art-gallery heading
+.masthead-title {
+  font-size: 3em;
+  color: var(--global-bg-color);
+  margin: 0;
+  align: center;
+  -webkit-text-stroke: 1px var(--global-theme-color);
+}
