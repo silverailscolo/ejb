@@ -254,22 +254,26 @@ module Jekyll
             # puts "Exiftool fetching result for #{fullpath}"
             exif =  exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
             # => {:make => "Apple", :gps_longitude => -122.47566667, …
-            puts exif
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
           end
           if exif != nil
-            # puts exif.to_hash
+            puts exif.to_hash
 #             tag = $tags.split
 #             capt = exif[:"#{tag[0]}"] || ""
 #             copy = exif[:"#{tag[1]}"] || ""
-            capt = exif[:"XMP-dc:Description"] || "" # XMP Caption field
+            capt = exif[:"description"] || "" # XMP Caption field
             # fall thru to: headline (IPTC), image_description (EXIF)
+            # Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline; XMP: Description, Comment;
+            # All blocks: copyright (case insensitive)
             if capt == nil
-              capt = exif[:"IPTC:2:05"] || "" # IPTC Caption field
+              capt = exif[:"headline"] || "" # IPTC Caption field
             end
             if capt == nil
-              capt = exif[:"ImageDescription"] || "" # EXIF Caption field
+              capt = exif[:"caption-abstract"] || "" # IPTC Caption field
+            end
+            if capt == nil
+              capt = exif[:"Image_Description"] || "" # EXIF Caption field
             end
             copy = exif[:copyright]
             answer = capt + ( copy == nil ? "" : ", " + copy)
