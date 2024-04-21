@@ -20,9 +20,9 @@
 # {% endgallery %}
 #
 module Jekyll
-  require 'exif'
+  #require 'exif'
   require 'exiftool'
-  $tag = 'image_description'
+  # $tag = 'image_description'
 
   class PhotosUtil
     def initialize(context)
@@ -103,21 +103,43 @@ module Jekyll
         filename, title = line.split(":")
         if title == nil
           begin
-            exif = Exif::Data.new(File.open(p.path_for(filename)))
+            exif = Exiftool.new("#{p.path_for(filename)}")
+            # exif = Exif::Data.new(File.open(p.path_for(filename)))
           rescue StandardError => e
             # puts "No EXIF header in file #{filename}: #{e}"
           end
+
           if exif != nil
-            tag = $tag
-            answer = tag.split('.').inject(exif) do |exif,tag|
-              exif.send(tag)
+            puts exif.to_hash
+            capt = exif[:"description"] || "" # XMP Caption field
+            # fall thru to: headline (IPTC), image_description (EXIF)
+            # Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline; XMP: Description, Comment;
+            # All blocks: copyright (case insensitive)
+            if capt == nil
+              capt = exif[:"Caption"] || "" # XMP alt Caption field
             end
+            if capt == nil
+              capt = exif[:"headline"] || "" # IPTC Caption field
+            end
+            if capt == nil
+              capt = exif[:"caption-abstract"] || "" # IPTC Caption field
+            end
+            if capt == nil
+              capt = exif[:"Image_Description"] || "" # EXIF Caption field
+            end
+            copy = exif[:copyright]
+            answer = capt + ( copy == nil ? "" : ", " + copy)
           end
-          if answer != nil
+
+          if answer != nil and answer != ""
+            puts "EXIFtool fetched tag #{tag} for image #{img}: #{answer}"
             title = answer
           else
-            title = filename
+            # If no caption defined, add a trimmed filename to help with SEO
+            title = img
+            # puts "Added filename as caption"
           end
+
         else
           title.strip
         end

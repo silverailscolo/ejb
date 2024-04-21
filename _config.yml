@@ -332,7 +332,7 @@ languages: ["en-us", "nl"]
 default_lang: "en-us"
 exclude_from_localization:
   - "assets/*"
-  - "assets/art_gallery/*"
+  - "assets/art_gallery/"
   - "assets/art_gallery/photos"
   - "assets/art_gallery/sketches"
   - "assets/img/*"

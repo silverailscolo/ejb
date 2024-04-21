@@ -26,8 +26,8 @@
 # Example tags (you can nest tags, putting . between each)
 # xml_packet
 
-require 'exif'
-#require 'exiftool'
+#require 'exif'
+require 'exiftool'
 # require 'mini_magick'
 
 module Jekyll
@@ -76,42 +76,52 @@ module Jekyll
       end
 
       # try it and return empty string on failure
-      begin
+      #begin
         # image = MiniMagick::Image.read(File.expand_path(input, __FILE__))
         # exif = image.exif
-        exif = Exif::Data.new(File.open(img)) # load from file
-        if (exif[:iptc] != nil)
-          puts "========= EXIFTAG===IPTC"
-          puts exif[:iptc]
-        end
-      rescue StandardError => e
+
+        #exif = Exif::Data.new(File.open(img)) # load from file
+#         if (exif[:iptc] != nil)
+#           puts "========= EXIFTAG===IPTC"
+#           puts exif[:iptc]
+#         end
+      #rescue StandardError => e
         # puts e.message
         # file_name
-      end
+      #end
 
-      if (exif == nil)
-        return "?"
-      end
-      if (tag == "gps?")
-        return (exif.send('gps') != nil)
-      end
-      answer = tag.split('.').inject(exif) do |exif,tag|
-           exif.send(tag)
-      end
-      answer2 = exif[:tag]
-      if (answer2 != answer and answer != nil and answer2 != nil)
-        puts "EXIFTAG======== found 2 values for tag " + tag + ": " + answer + " AND " + answer2
-      end
-      if (answer == nil)
-        if (answer2 == nil)
-          return "??"
+      exif = Exiftool.new("#{img}")
+      # copied from art-gallery EBR
+      if exif != nil
+        puts exif.to_hash
+
+#         capt = exif[:"XMP-dc:Description"] || "" # XMP Caption field
+#         # fall thru to: headline (IPTC), image_description (EXIF)
+#         if capt == nil
+#           capt = exif[:"IPTC:2:05"] || "" # IPTC Caption field
+#         end
+#         if capt == nil
+#           capt = exif[:"ImageDescription"] || "" # EXIF Caption field
+#         end
+        answer = exif[:"#{tag}"]
+#         answer = tag.split('.').inject(exif) do |exif,tag|
+#           exif.send(tag)
+#         end
+
+        if (tag == "gps?")
+          return exif[:"gps"] != nil
+        end
+
+        if answer != nil and answer != ""
+          puts "EXIFtool fetched tag #{tag} for image #{img}: #{answer}"
+          return answer.force_encoding("UTF-8")
         else
-          # puts "EXIFTAG========ret answer2"
-          return answer2.force_encoding("UTF-8")
+          # If no caption defined, add a trimmed filename to help with SEO
+          return File.basename(img, File.extname(img)).gsub("_", " ")
+          # puts "Added filename as caption"
         end
       else
-        # puts "EXIFTAG========ret answer"
-        return answer.force_encoding("UTF-8")
+        return "?"
       end
     end
 
