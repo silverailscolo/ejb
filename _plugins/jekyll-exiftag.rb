@@ -89,7 +89,7 @@ module Jekyll
         # file_name
       #end
 
-      exif = Exiftool.new("#{img}")
+      exif = Exiftool.new("#{file_name}")
       # copied from art-gallery EBR
       if exif != nil
         puts exif.to_hash

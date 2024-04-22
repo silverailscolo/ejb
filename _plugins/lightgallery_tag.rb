@@ -132,11 +132,11 @@ module Jekyll
           end
 
           if answer != nil and answer != ""
-            puts "EXIFtool fetched tag #{tag} for image #{img}: #{answer}"
+            puts "EXIFtool fetched tag #{tag} for image #{filename}: #{answer}"
             title = answer
           else
             # If no caption defined, add a trimmed filename to help with SEO
-            title = img
+            title = File.basename(filename, File.extname(filename)).gsub("_", " ")
             # puts "Added filename as caption"
           end
 

@@ -25,6 +25,10 @@ nav: false
 
 <h4>Vintage railroad soundtracks</h4>
 
+A nice [A&J Roadside video](https://youtu.be/6eEx6bTN7ok?feature=shared) on YouTube
+
+Highball nostalgic railroad sounds ([Fidelity in Motion album MF-4](https://www.discogs.com/release/8567915-Jim-Ameche-Highball), 1972)
+
 <div class="row">
 <div class="col-sm">
 <img src='{{ "/assets/img/trains2/IMG_9735-front.jpg" | relative_url }}' alt='Highball LP sleeve, front' class='img-fluid'>
@@ -34,7 +38,8 @@ nav: false
 </div>
 </div>
 
-<p>Index to Highball nostalgic railroad sounds (Fidelity in Motion album MF-4, 1972)</p>
+Index: 
+
 <ol>
 <li>C&amp;S #807 2-8-2 from Fort Collins to Denver, CO</li>
 <li>C&amp;S #807 2-8-2 to Boulder CO</li>
@@ -84,7 +89,7 @@ nav: false
 
 <h3>Dutch RR Links</h3>
 <ul>
-<li><a href="https://www.spoorwegmuseum.nl/">Spoorwegmuseum Utrecht, Netherlands</a></li>
-<li><a href="https://www.modelspoorbeurs.nl/">Modelspoorbeurs Houten</a></li>
-<li><a href="https://www.stationsweb.nl/">Nederlandse stations</a></li>
+<li><a href="https://www.spoorwegmuseum.nl/">Railroad Museum in Utrecht, the Netherlands</a></li>
+<li><a href="https://www.modelspoorbeurs.nl/">Model Railroad Fair in Houten, NL</a></li>
+<li><a href="https://www.stationsweb.nl/">Dutch railroad stations</a></li>
 </ul>
