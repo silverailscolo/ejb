@@ -19,6 +19,7 @@ related_posts:
   description: "Here are some articles you might like to read next:"
   title: Enjoy Reading This Article?
 references: References
+date_format: "%b %e, %Y"
 months:
   long:
     january: January

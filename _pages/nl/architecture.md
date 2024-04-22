@@ -6,7 +6,6 @@ id: architecture
 lang: nl
 nav: true
 nav_order: 2
-support: [gallery]
 ---
 
 Welkom op de site van Egbert Broerse, architect.<br>
@@ -80,3 +79,7 @@ Op zoek naar ecologische bouwmaterialen?
 
 Energiezuinige gebouwen
 : [Passivhaus](https://phi.org)
+
+Voor Inspiratie
+: [Socialist Modernism](https://www.instagram.com/socialistmodernism/)
+: [US Modernist](https://usmodernist.org/)

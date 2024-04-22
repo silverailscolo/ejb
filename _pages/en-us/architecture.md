@@ -6,7 +6,6 @@ id: architecture
 lang: en-us
 nav: true
 nav_order: 2
-support: [gallery]
 ---
 
 Welcome to the site of Egbert Broerse, architect.
@@ -83,3 +82,7 @@ Design for new main office University Wageningen (thesis)
 
 Energy Efficient Buildings
 : [Passivhaus](https://phi.org)
+
+Bits of Inspiration
+: [Socialist Modernism](https://www.instagram.com/socialistmodernism/)
+: [US Modernist](https://usmodernist.org/)

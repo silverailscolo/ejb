@@ -17,14 +17,16 @@
 <script>
   window.addEventListener('DOMContentLoaded',() =>{
     lightGallery(document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
-      plugins: [lgThumbnail, lgZoom, lgAutoplay, lgFullscreen],
+      plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen],
+      closable: true,
+      showMaximizeIcon: true,
+      selector: ".image-ref",
+      slideDelay: 100,
       speed: 500,
-      selector: '.image-ref',
       thumbnails: true,
       thumbWidth: 60,
       thumbHeight: "40px",
       thumbMargin: 4,
-      showMaximizeIcon: true,
       mobileSettings: {
         controls: false,
         showCloseIcon: true,
