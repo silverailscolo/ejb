@@ -20,8 +20,8 @@
 # {% endgallery %}
 #
 module Jekyll
-  #require 'exif'
   require 'exiftool'
+  require 'exiftool_vendored'
   # $tag = 'image_description'
 
   class PhotosUtil

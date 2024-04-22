@@ -45,38 +45,17 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 ---
 
-### Light/Dark Mode
+### Features
+
+#### Light/Dark Mode
 
 This template has a built-in light/dark mode. It detects the user preferred color scheme and automatically switches to it. You can also manually switch between light and dark mode by clicking on the sun/moon icon in the top right corner of the page.
-
-<p>
-<img src="readme_preview/light.png" width=400>
-<img src="readme_preview/dark.png" width=400>
-</p>
-
----
-
-### Other features
-
-#### GitHub's repositories and user stats
-
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) to display GitHub repositories and user stats on the `/repositories/` page.
-
-[![Repositories Preview](readme_preview/repositories.png)](https://silverailscolo.github.io/ebroerse.nl/repositories/)
-
----
-
-#### Social media previews
-
-**al-folio** supports preview images on social media. To enable this functionality you will need to set `serve_og_meta` to `true` in your [\_config.yml](_config.yml). Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
-
-You will then need to configure what image to display in your site's social media previews. This can be configured on a per-page basis, by setting the `og_image` page variable. If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your [\_config.yml](_config.yml). In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
 ---
 
 #### Atom (RSS-like) Feed
 
-It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers. The feed is reachable simply by typing after your homepage `/feed.xml`. E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
+The Atom (RSS-like) feed is reachable simply by typing after your homepage `/feed.xml`. E.g. assuming your website mountpoint is the main folder, you can type `silverailscolo.github.io/ebroerse.nl/feed.xml`
 
 ---
 

@@ -21,9 +21,11 @@ I've been modelling in N scale on and off for 30 years, starting with balsa wood
 You guessed it: after a visit to the area I am modelling the former route of the Denver &amp; Rio Grande Railroad along the banks of the Animas River.<br>
 An American prototype narrow gauge mountain line starts to come alive on my N scale layout: The Durenver &amp; Silverton Narrow Gauge Railroad (get it? <em>Dur</em>ango + D<em>enver</em>).
 
+Building the D&amp;S layout
 <!-- simply so (by Jimmy_Xiao) -->
 {% include album.html albumname="trains2" %}
 
+More images of the layout (op)
 <!-- opieters include -->
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 

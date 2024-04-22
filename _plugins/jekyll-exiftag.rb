@@ -24,10 +24,9 @@
 # These paths are relative to your sites root. Don't add leading and trailing slashes.
 #
 # Example tags (you can nest tags, putting . between each)
-# xml_packet
 
-#require 'exif'
 require 'exiftool'
+require 'exiftool_vendored'
 # require 'mini_magick'
 
 module Jekyll

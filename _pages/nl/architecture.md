@@ -79,4 +79,4 @@ Op zoek naar ecologische bouwmaterialen?
 : Kijk bij [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)
 
 Energiezuinige gebouwen
-: Passivhaus <a href="https://phi.org">
+: [Passivhaus](https://phi.org)
