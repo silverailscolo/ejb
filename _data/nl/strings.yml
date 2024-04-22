@@ -19,6 +19,7 @@ related_posts:
   description: "Deze stukjes zijn misschien ook interessant:"
   title: Verder lezen?
 references: Referenties
+date_format: "%e %B %Y"
 months:
   long:
     january: januari
