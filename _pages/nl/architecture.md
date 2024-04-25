@@ -18,7 +18,7 @@ Ik ben bereikbaar via email link (dot) egbert (at) mac (dot) com
 Goed gebruik maken van bestaande ruimtes en gebouwen is een belangrijke stap om te voorkomen dat je materialen afvoert en nieuwe produceert als dat helemaal niet hoeft. <em>Refuse</em> is de 1e R op de R-ladder.</p>
 Maar bovenal, [geef verbeelding en creativiteit de ruimte](https://illuminem.com/illuminemvoices/radical-imagination-for-regenerative-futures), dus vergeet even alle producten en oplossingen die je elders zag en sta open voor de mogelijkheden die jouw opgave en je budget bieden!
 
-## <a id="circulair">Biobased en circulair bouwen</a>
+## <a id="circulair">Biobased en circulair</a>
 
 De bouwindustrie gebruikt voor de productie van veel materialen nog steeds heel veel (fossiele) energie en stoot veel CO<sub>2</sub> uit. Grondstoffen die niet in een mensenleven "aangroeien", raken uitgeput.
 

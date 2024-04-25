@@ -17,7 +17,7 @@
 <script>
   window.addEventListener('DOMContentLoaded',() =>{
     lightGallery(document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
-      plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen],
+      plugins: [lgZoom, lgThumbnail, lgAutoplay],
       closable: true,
       showMaximizeIcon: true,
       selector: ".image-ref",
