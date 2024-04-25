@@ -92,23 +92,28 @@ module Jekyll
       exif = Exiftool.new("#{file_name}")
       # copied from art-gallery EBR
       if exif != nil
-        puts exif.to_hash
+        # puts exif.to_hash
 
-#         capt = exif[:"XMP-dc:Description"] || "" # XMP Caption field
-#         # fall thru to: headline (IPTC), image_description (EXIF)
-#         if capt == nil
-#           capt = exif[:"IPTC:2:05"] || "" # IPTC Caption field
-#         end
-#         if capt == nil
-#           capt = exif[:"ImageDescription"] || "" # EXIF Caption field
-#         end
-        answer = exif[:"#{tag}"]
 #         answer = tag.split('.').inject(exif) do |exif,tag|
 #           exif.send(tag)
 #         end
 
         if (tag == "gps?")
           return exif[:"gps"] != nil
+        end
+        if (tag == "caption-cascade")
+          answer = exif[:"description"] # XMP Caption field
+          if answer == nil
+           answer = exif[:"caption-abstract"] # IPTC Caption field
+             if answer == nil
+               answer = exif[:"comment"] # in use for trains2
+               if answer == nil
+                 answer = exif[:"image_description"] # EXIF
+               end
+            end
+          end
+        else
+          answer = exif[:"#{tag}"]
         end
 
         if answer != nil and answer != ""

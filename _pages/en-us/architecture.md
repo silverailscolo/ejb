@@ -20,7 +20,7 @@ I think it is important that spaces - inside as well as outside - are healthy an
 As part of the brief, research into optimal use of existing spaces and buildings is an important step to avoid disposing of quality materials and buying new ones when you don't need to at all. **Refuse** is the 1st rung on the [CO<sub>2</sub> Performance Ladder](https://www.co2-prestatieladder.nl/en), a Sustainability tool.
 But above all, [imagination is key](https://illuminem.com/illuminemvoices/radical-imagination-for-regenerative-futures), so forget every product or form you saw elsewhere and open up for what your case will allow.
 
-## Bio-based and circular construction
+## Bio-based and circular
 
 The construction industry still uses a lot of (fossil) energy for the production of many materials and emits a lot of CO<sub>2</sub>. Raw materials that do not "grow" in a human lifetime become depleted.
 An alternative way is to use bio-based materials, e.g. flax as insulation. Another solution is circular construction, i.e. starting the cycle with used materials and ensuring that a structure can be disassembled in such a way that large elements can be reused elsewhere. Biobased building is also circular at the molecular level.<br>
