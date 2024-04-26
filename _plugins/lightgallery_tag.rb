@@ -127,6 +127,9 @@ module Jekyll
             if capt == nil
               capt = exif[:"Image_Description"] || "" # EXIF Caption field
             end
+            if capt == nil
+              capt = exif[:"User_Comment"] || "" # EXIF Caption field
+            end
             copy = exif[:copyright]
             answer = capt + ( copy == nil ? "" : ", " + copy)
           end

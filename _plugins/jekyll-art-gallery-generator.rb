@@ -96,7 +96,7 @@ module Jekyll
       @site = site
       @base = base
       #source_dir=dir
-      puts "Art-GalleryPage base=#{base}, dir=#{dir}"
+      puts "Art-GalleryPage base=#{base}, dir=#{dir}" # between HERE and...
 
       @dir = dir.gsub(/^_/, "").gsub(/[^0-9A-Za-z.\\\-\/]/, '_').downcase
       # destination dir, same as source without the leading underscore. web compatible
@@ -115,7 +115,7 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      puts "Generating Art-Gallery '#{gallery_name}'"
+      puts "Generating Art-Gallery '#{gallery_name}'" # HERE error reading on github, OK locally
       sort_field = config["sort_field"] || "name"
       self.process(@name)
       gallery_page = File.join(base, "_layouts", "art_gallery_page.html")
@@ -278,10 +278,10 @@ module Jekyll
               capt = exif[:"caption-abstract"] || "" # IPTC Caption field
             end
             if capt == nil
-              capt = exif[:"ImageDescription"] || "" # EXIF Caption field
+              capt = exif[:"Image_Description"] || "" # EXIF Caption field
             end
             if capt == nil
-              capt = exif[:"UserComment"] || "" # EXIF User Comment field
+              capt = exif[:"User_Comment"] || "" # EXIF User Comment field
             end
             copy = exif[:"CopyrightNotice"] == nil ? exif[:"copyright"] : exif[:"CopyrightNotice"]
             answer = capt + ( copy == nil ? "" : ", " + copy)
@@ -422,6 +422,7 @@ module Jekyll
       rescue Exception => e
         puts "Error generating art_galleries: #{e}"
         puts e.backtrace
+        galleries = [{title: "Error", link: "./.", best_image: "An error occurred generating art-gallery #{gallery_dir}"}]
       end
       Dir.chdir(original_dir)
 
