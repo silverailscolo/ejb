@@ -149,9 +149,10 @@ module Jekyll
       date_times = {}
 
       # start up exiftool just once to get all tags
-      puts "Starting Exiftool batch in path #{Dir.pwd + '/' + dir}"
-      exiftoolbatch = Exiftool.new(Dir["#{Dir.pwd + '/' + dir}/*.*"]) # we are in original_dir
-      exiftoolbatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
+      # puts "Starting Exiftool batch in path #{Dir.pwd + '/' + dir}"
+      # Test concurrency issue without exiftool
+      # exiftoolbatch = Exiftool.new(Dir["#{Dir.pwd + '/' + dir}/*.*"]) # we are in original_dir
+      # exiftoolbatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
       # result = exiftoolbatch.result_for("path/to/iPhone 4S.jpg")
       # puts exiftoolbatch.files_with_results
       # result.files_with_results
@@ -253,7 +254,7 @@ module Jekyll
             fullpath = Dir.pwd + "/" + image_path
             # exif = Exif::Data.new(File.open(fullpath))
             # puts "Exiftool fetching result for #{fullpath}"
-            exif =  exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
+            exif = nil # debug # exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
             # => {:make => "Apple", :gps_longitude => -122.47566667, …
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
