@@ -15,11 +15,11 @@
   </a>
   {% else %}
 {% comment %} Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline, caption-abstract; XMP: Description, Comment; All:
-  copyright (case-insensitive) {% exiftag copyright, , {{ image.path }} %} {% endcomment %}
+  copyright (case-insensitive) {% endcomment %}
 <a href="{{ site.baseurl }}{{ image.path }}" class="image-ref"
-   data-sub-html="{% exiftag caption-cascade, , {{ image.path }} %} © 2021-2024 Egbert Broerse CC-BY-NC-SA 4.0">
+   data-sub-html="{% exiftag caption-cascade, , {{ image.path }} %} {% exiftag copyright-cascade, , {{ image.path }} %}">
    <img src="{{ site.baseurl }}/thumbnails{{ image.path | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
-        alt="{% exiftag image_description, , {{ image.path }} %}" />
+        alt="{% exiftag imagedescription, , {{ image.path }} %}" />
 </a>
   {% comment %}Some tags return invalid UTF-8 ecoding, encoding is enforced in exiftag.rb plugin {% endcomment %}
   {% endif %}{% endunless %}{% endif %}{% endfor %}

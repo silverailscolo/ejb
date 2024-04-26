@@ -44,6 +44,7 @@ module Jekyll
       @name = "index.html"
       # load gallery configs from the _data/art_gallery.yml file
       config = site.data["art_gallery"] || {}
+      puts "Art-GalleryIndex base=#{base}, dir=#{dir}"
 
       self.process(@name)
       gallery_index = File.join(base, "_layouts", "art_gallery_index.html")
@@ -95,6 +96,7 @@ module Jekyll
       @site = site
       @base = base
       #source_dir=dir
+      puts "Art-GalleryPage base=#{base}, dir=#{dir}"
 
       @dir = dir.gsub(/^_/, "").gsub(/[^0-9A-Za-z.\\\-\/]/, '_').downcase
       # destination dir, same as source without the leading underscore. web compatible
@@ -113,10 +115,9 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      puts "Generating Art-Gallery #{gallery_name}"
+      puts "Generating Art-Gallery '#{gallery_name}'"
       sort_field = config["sort_field"] || "name"
       self.process(@name)
-      # puts "finished self.process for #{@name}"
       gallery_page = File.join(base, "_layouts", "art_gallery_page.html")
       unless File.exist?(gallery_page)
         gallery_page = File.join(File.dirname(__FILE__), "art_gallery_page.html")
@@ -149,12 +150,11 @@ module Jekyll
       date_times = {}
 
       # start up exiftool just once to get all tags
-      # puts "Starting Exiftool batch in path #{Dir.pwd + '/' + dir}"
-      # Test concurrency issue without exiftool
-      # exiftoolbatch = Exiftool.new(Dir["#{Dir.pwd + '/' + dir}/*.*"]) # we are in original_dir
+      # puts "Starting Exiftool batch in path #{File.join(Dir.pwd, dir)}"
+      exiftoolbatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
       # exiftoolbatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
       # result = exiftoolbatch.result_for("path/to/iPhone 4S.jpg")
-      # puts exiftoolbatch.files_with_results
+      puts exiftoolbatch.files_with_results
       # result.files_with_results
       # => {:make => "Apple", :gps_longitude => -122.47566667, …
       # result[:gps_longitude]
@@ -178,7 +178,7 @@ module Jekyll
               date_times[image] = date.to_i
             end
           rescue Exception => e
-            puts "Error getting date_time " + date_times[image].to_s + " for #{image}: #{e}"
+            puts "Error getting date_time #{date_times[image].to_s} for #{image}: #{e}"
           end
         end
         # cleanup, watermark and copy the files
@@ -254,7 +254,7 @@ module Jekyll
             fullpath = Dir.pwd + "/" + image_path
             # exif = Exif::Data.new(File.open(fullpath))
             # puts "Exiftool fetching result for #{fullpath}"
-            exif = nil # debug # exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
+            exif = exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
             # => {:make => "Apple", :gps_longitude => -122.47566667, …
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
@@ -265,8 +265,8 @@ module Jekyll
 #             capt = exif[:"#{tag[0]}"] || ""
 #             copy = exif[:"#{tag[1]}"] || ""
             capt = exif[:"description"] || "" # XMP Caption field
-            # fall thru to: headline (IPTC), image_description (EXIF)
-            # Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline; XMP: Description, Comment;
+            # fall thru to: headline (IPTC), ImageDescription (EXIF)
+            # Valid exiftag.exiftool tags: EXIF: ImageDescription, UserComment; IPTC: headline, caption; XMP: Description, Comment;
             # All blocks: copyright (case insensitive)
             if capt == nil
               capt = exif[:"Caption"] || "" # XMP alt Caption field
@@ -278,9 +278,12 @@ module Jekyll
               capt = exif[:"caption-abstract"] || "" # IPTC Caption field
             end
             if capt == nil
-              capt = exif[:"Image_Description"] || "" # EXIF Caption field
+              capt = exif[:"ImageDescription"] || "" # EXIF Caption field
             end
-            copy = exif[:copyright]
+            if capt == nil
+              capt = exif[:"UserComment"] || "" # EXIF User Comment field
+            end
+            copy = exif[:"CopyrightNotice"] == nil ? exif[:"copyright"] : exif[:"CopyrightNotice"]
             answer = capt + ( copy == nil ? "" : ", " + copy)
             #answer = tag.split('.').inject(exif) do |exif,tag|
               #exif.send(tag) # try Dutch-NL tag name
@@ -338,6 +341,7 @@ module Jekyll
       best_image.gsub!(/[^0-9A-Za-z.\-]/, '_') # renormalize the name - important in case the best image name is specified via config
       best_image.downcase! # two step because mutating gsub returns nil that's unusable in a compound call
       self.data["best_image"] = best_image
+      puts best_image
 
       # generate best image thumb for the gallery front super-index page
       # puts "Thumb for front"
@@ -405,8 +409,9 @@ module Jekyll
       begin
         Dir.foreach(dir) do |gallery_dir|
           gallery_path = File.join(dir, gallery_dir)
+          # gallery_path = File.join(site.baseurl, dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
-            # puts "Art-Gallery starts generating gallery #{gallery_dir}"
+            puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
             gallery.render(site.layouts, site.site_payload)
             gallery.write(site.dest)
