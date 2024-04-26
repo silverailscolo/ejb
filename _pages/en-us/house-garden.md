@@ -771,7 +771,7 @@ onMouseOver="showpop(event,94);" onMouseOut="hidepop(event);" onMouseUp="togglep
 <li data-id="4">Amberboom (Liquidambar styraciflua)</li>
 <li data-id="5">Anijsnetel (agastache)</li>
 <li data-id="6">Anijsnetel, dropplant (achastache Black Adder)</li>
-<li data-id="7">Appel ()</li>
+<li data-id="7">Appel (Malus domestica)</li>
 <li data-id="8">Aster (aster purple dome)</li>
 <li data-id="9">Ballonklokje (platycodon grandiflorus mariesii)</li>
 <li data-id="10">Bamboe (Barbusa Phyllost. Autea)</li>

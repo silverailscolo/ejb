@@ -10,7 +10,7 @@ nav_order: 2
 
 Welcome to the site of Egbert Broerse, architect.
 
-I practice as architect and urban planner registered in the [Dutch Register of Architects](https://www.architectenregister.nl/).
+I practice as architect and urban planner registered in the [Dutch Architects Register](https://www.architectenregister.nl/en/).
 
 For creative opportunities, feel free to contact me via email link (dot) egbert (at) mac (dot) com
 

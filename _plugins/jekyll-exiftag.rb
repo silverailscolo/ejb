@@ -108,7 +108,7 @@ module Jekyll
              if answer == nil
                answer = exif[:"comment"] # in use for trains2
                if answer == nil
-                 answer = exif[:"image_description"] # EXIF
+                 answer = exif[:"ImageDescription"] # EXIF
                end
             end
           end
