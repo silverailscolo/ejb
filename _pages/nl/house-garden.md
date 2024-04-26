@@ -8,3 +8,5 @@ nav: false
 ---
 
 Over onze tuin
+
+Zie voor nu de <a href="../../house/garden.html">Engelse pagina</a>.

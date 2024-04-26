@@ -764,7 +764,7 @@ onMouseOver="showpop(event,94);" onMouseOut="hidepop(event);" onMouseUp="togglep
 
 <a href="#" id="clearAll">Deselect all</a>
 
-<ul id="plantlijst">
+<ol id="plantlijst">
 <li data-id="1">Aalbes (ribes)</li>
 <li data-id="2">Akant (acanthus mollis)</li>
 <li data-id="3">Akelei (aquilegia vulgaris)</li>
@@ -887,7 +887,7 @@ onMouseOver="showpop(event,94);" onMouseOut="hidepop(event);" onMouseUp="togglep
 <li data-id="120">Zonneogen (heliopsis)</li>
 <li data-id="121">Zwarte bamboe (bamboe nigra)</li>
 <li data-id="122">n.t.b.</li>
-</ul>
+</ol>
 </div>
 
 </div><!-- end or row -->
