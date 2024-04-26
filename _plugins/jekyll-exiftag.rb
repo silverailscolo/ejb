@@ -31,6 +31,7 @@ require 'exiftool_vendored'
 
 module Jekyll
   class ExifTag < Liquid::Tag
+    $copyright = "© 1995-2024 EJ Broerse CC-BY-NC-SA 4.0"
     def initialize(tag_name, params, token)
       super
       @args = self.split_params(params)
@@ -94,26 +95,40 @@ module Jekyll
       if exif != nil
         # puts exif.to_hash
 
-#         answer = tag.split('.').inject(exif) do |exif,tag|
-#           exif.send(tag)
-#         end
-
         if (tag == "gps?")
           return exif[:"gps"] != nil
         end
+
+        if (tag == "copyright-cascade")
+          copy = exif[:"CopyrightNotice"] == nil ? exif[:"copyright"] : exif[:"CopyrightNotice"]
+          if copy == nil
+            copy = $copyright
+          end
+          return copy.force_encoding("UTF-8")
+        end
+
         if (tag == "caption-cascade")
           answer = exif[:"description"] # XMP Caption field
           if answer == nil
-           answer = exif[:"caption-abstract"] # IPTC Caption field
-             if answer == nil
-               answer = exif[:"comment"] # in use for trains2
-               if answer == nil
-                 answer = exif[:"ImageDescription"] # EXIF
-               end
+          answer = exif[:"caption-abstract"] # IPTC Caption field
+            if answer == nil
+              answer = exif[:"UserComment"] # in use for trains2
+              if answer == nil
+                answer = exif[:"ImageDescription"] # EXIF
+                if answer == nil
+                  answer = exif[:"Comment"] # EXIF
+                end
+              end
             end
           end
         else
-          answer = exif[:"#{tag}"]
+          tags = tag.split('.')
+          answer = ""
+          for t in tags
+            answer += exif[:"#{t}"].to_s
+            # allows to request multiple tags in one query, separated by "."
+          end
+          # answer = exif[:"#{tag}"]
         end
 
         if answer != nil and answer != ""

@@ -279,22 +279,23 @@ For Sale, Sold &amp; a quick start
 
 ## 2012
 
-| Date       | Action                                                                                   |
-| ---------- |------------------------------------------------------------------------------------------|
-| 01-06-2012 | koekkoek                                                                                 |
-|            | <img src='{{ site.baseurl }}/assets/img/house/koekkoek.gif' alt="schets koekoek kelder"> |
+| Date       | Action                                                                                         |
+| ---------- |------------------------------------------------------------------------------------------------|
+| 01-06-2012 | koekkoek                                                                                       |
+|            | <img src='{{ site.baseurl }}/assets/img/house/ms15/koekkoek.gif' alt="schets koekkoek kelder"> |
 
 ## 2020
 
-| Date       | Action                                        |
-| ---------- | --------------------------------------------- |
-| 01-03-2020 | vloer zolder vervangen                        |
-| 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilder      |
+| Date       | Action                                    |
+| ---------- |-------------------------------------------|
+| 01-03-2020 | vloer zolder vervangen                    |
+| 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilderd |
 
 ## What's next?
 
 <ul>
 <li>Buitenschilderwerk (daar blijf je mee bezig)</li>
+<li>In 2021 hebben we dit huis verkocht / We moved out in 2021</li>
 </ul>
 
 <!-- naar boven menuutje -->
