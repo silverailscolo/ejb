@@ -10,7 +10,7 @@
 # If you give a source, this source is used build the fullpath for the given file (you can also configure them in _config.yml, see below)
 # If the file is given, this is the file to get Exif Tags for, this can be alternatively defined in the YAML Front Matter as img: file
 # Used for Jimmy Xiao's Lightgallery shows.
-# Egbert switched exifr gem to https://github.com/tonytonyjan/exif gem, requires libexif program
+# Egbert switched exifr gem to exiftools
 #
 # Configuration:
 #
@@ -27,7 +27,6 @@
 
 require 'exiftool'
 require 'exiftool_vendored'
-# require 'mini_magick'
 
 module Jekyll
   class ExifTag < Liquid::Tag
@@ -35,7 +34,6 @@ module Jekyll
     def initialize(tag_name, params, token)
       super
       @args = self.split_params(params)
-      # puts "EXIFTAG def ========= "
     end
 
     def render(context)
@@ -46,7 +44,6 @@ module Jekyll
 
       # first param is the exif tag
       tag = @args[0]
-      # puts "EXIFTAG tag ========= " + tag
 
       # if a second parameter is passed, use it as a possible img source
       if @args.count > 1
@@ -63,7 +60,6 @@ module Jekyll
       end
 
       img = File.expand_path("../.." + img, __FILE__)
-      # puts "EXIFTAG img ========= " + img
       # first check if the given img is already the path
       if File.exist?(img)
         file_name = img
@@ -76,22 +72,8 @@ module Jekyll
       end
 
       # try it and return empty string on failure
-      #begin
-        # image = MiniMagick::Image.read(File.expand_path(input, __FILE__))
-        # exif = image.exif
-
-        #exif = Exif::Data.new(File.open(img)) # load from file
-#         if (exif[:iptc] != nil)
-#           puts "========= EXIFTAG===IPTC"
-#           puts exif[:iptc]
-#         end
-      #rescue StandardError => e
-        # puts e.message
-        # file_name
-      #end
-
       exif = Exiftool.new("#{file_name}")
-      # copied from art-gallery EBR
+      # copied from art-gallery, TODO exiftool per directory? EBR
       if exif != nil
         # puts exif.to_hash
 
@@ -112,7 +94,7 @@ module Jekyll
           if answer == nil
           answer = exif[:"caption-abstract"] # IPTC Caption field
             if answer == nil
-              answer = exif[:"UserComment"] # in use for trains2
+              answer = exif[:"UserComment"] # in use for trains2 images
               if answer == nil
                 answer = exif[:"ImageDescription"] # EXIF
                 if answer == nil
@@ -128,16 +110,14 @@ module Jekyll
             answer += exif[:"#{t}"].to_s
             # allows to request multiple tags in one query, separated by "."
           end
-          # answer = exif[:"#{tag}"]
         end
 
         if answer != nil and answer != ""
-          puts "EXIFtool fetched tag #{tag} for image #{img}: #{answer}"
+          # puts "EXIFtool fetched tag #{tag} for image #{img}: #{answer}"
           return answer.force_encoding("UTF-8")
         else
           # If no caption defined, add a trimmed filename to help with SEO
           return File.basename(img, File.extname(img)).gsub("_", " ")
-          # puts "Added filename as caption"
         end
       else
         return "?"

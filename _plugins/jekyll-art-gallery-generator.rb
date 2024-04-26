@@ -115,7 +115,7 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      puts "Generating Art-Gallery '#{gallery_name}'" # HERE error reading on github, OK locally
+      puts "Generating Art-Gallery '#{gallery_name}'" # HERE error reading on github, runs OK locally
       sort_field = config["sort_field"] || "name"
       self.process(@name)
       gallery_page = File.join(base, "_layouts", "art_gallery_page.html")
@@ -341,7 +341,7 @@ module Jekyll
       best_image.gsub!(/[^0-9A-Za-z.\-]/, '_') # renormalize the name - important in case the best image name is specified via config
       best_image.downcase! # two step because mutating gsub returns nil that's unusable in a compound call
       self.data["best_image"] = best_image
-      puts best_image
+      # puts best_image
 
       # generate best image thumb for the gallery front super-index page
       # puts "Thumb for front"
@@ -395,6 +395,30 @@ module Jekyll
     end
   end
 
+
+  class Errorpage
+    def initialize(error)
+      @data = {}
+      @data["title"] = "Error"
+      @data["gallery"] = "Error"
+      @data["gallery-best-image"] = "An error occurred while creating this gallery, #{error}"
+      @data["link"] = "./."
+      @name = "index.html"
+      @images = []
+      @hidden = false
+      GC.start
+    end
+
+    def hidden()
+      return false
+    end
+
+    def data()
+      return @data
+    end
+  end
+
+
   class GalleryGenerator < Generator
     safe true
 
@@ -422,7 +446,7 @@ module Jekyll
       rescue Exception => e
         puts "Error generating art_galleries: #{e}"
         puts e.backtrace
-        galleries = [{title: "Error", link: "./.", best_image: "An error occurred generating art-gallery #{gallery_dir}"}]
+        galleries << Errorpage.new(e)
       end
       Dir.chdir(original_dir)
 

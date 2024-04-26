@@ -20,9 +20,8 @@ header:
 </div>
 
 <div id="art-gallery">
-  <!-- {{ page.captions }} -->
-{% for image in page.images %}
 
+{% for image in page.images %}
 <a href="{{ image }}" class="image-ref">
 {% if page.captions[image] == nil %}
 <img
