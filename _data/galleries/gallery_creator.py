@@ -9,10 +9,11 @@ __license__ = 'BSD-3-Clause'
 
 import yaml
 import imagesize
-from libxmp import consts
-from libxmp.utils import file_to_dict
+#from libxmp import consts
+#from libxmp.utils import file_to_dict
 from os import listdir, rename
 from os.path import isfile, join
+import exiftool
 
 # configuration
 galleryname = input("Naam van de gallery: ")
@@ -135,36 +136,56 @@ for pic in new_gallery:
         #   ('dc:creator[1]', 'EJ Broerse', {...}),
         #   ('dc:description[1]', 'blauwe Golf', {...}),
         #   ('dc:title[1]', 'Volkswagen Golf Plus', {...}),
-        if originals[pic][originals[pic].rfind('.')+1:] in ['jpg', 'jpeg']:
+        if originals[pic][originals[pic].rfind('.')+1:] in ['jpg', 'jpeg', 'png']:
             #print("File: " + join(path, originals[pic]))
 
-            xmp = file_to_dict( join(path, originals[pic]) )
-            if consts.XMP_NS_DC in xmp:
-                dc = xmp[consts.XMP_NS_DC]
-                # a list of all Dublin Core properties in xmp; each element in the list is a tuple
-            else:
-                print("No XMP tag, file skipped")
+            # xmp = file_to_dict( join(path, originals[pic]) )
+            # if consts.XMP_NS_DC in xmp:
+            #     dc = xmp[consts.XMP_NS_DC]
+            #     # a list of all Dublin Core properties in xmp; each element in the list is a tuple
+            # else:
+            #     print("No XMP tag, file skipped")
 
             print("title = " + title)
-            for dc_pair in dc:
-                if "/?xml:lang" not in dc_pair[0]: # skip 'dc:title[1]/?xml:lang'
-                # print("name: " + dc_pair[0] + " val: " + dc_pair[1] +"\n")
-                    if "dc:title" in dc_pair[0] and dc_pair[1] != '':
-                        title = dc_pair[1]
-                    else:
-                        title = _title
-                    if "dc:caption" in dc_pair[0] and dc_pair[1] != '':
-                        caption = dc_pair[1]
-                    else:
-                        caption = _caption
-                    if "dc:keywords" in dc_pair[0] and dc_pair[1] != '':
-                        creator = dc_pair[1]
-                    else:
-                        creator = _creator
-                    if "dc:rights" in dc_pair[0] and dc_pair[1] != '':
-                        rights = dc_pair[1]
-                    else:
-                        rights = _rights
+            # for dc_pair in dc:
+            #     if "/?xml:lang" not in dc_pair[0]: # skip 'dc:title[1]/?xml:lang'
+            #     # print("name: " + dc_pair[0] + " val: " + dc_pair[1] +"\n")
+            #         if "dc:title" in dc_pair[0] and dc_pair[1] != '':
+            #             title = dc_pair[1]
+            #         else:
+            #             title = _title
+            #         if "dc:caption" in dc_pair[0] and dc_pair[1] != '':
+            #             caption = dc_pair[1]
+            #         else:
+            #             caption = _caption
+            #         if "dc:keywords" in dc_pair[0] and dc_pair[1] != '':
+            #             creator = dc_pair[1]
+            #         else:
+            #             creator = _creator
+            #         if "dc:rights" in dc_pair[0] and dc_pair[1] != '':
+            #             rights = dc_pair[1]
+            #         else:
+            #             rights = _rights
+
+        for dc_pair in dc:
+            if "/?xml:lang" not in dc_pair[0]: # skip 'dc:title[1]/?xml:lang'
+            # print("name: " + dc_pair[0] + " val: " + dc_pair[1] +"\n")
+                if "dc:title" in dc_pair[0] and dc_pair[1] != '':
+                    title = dc_pair[1]
+                else:
+                    title = _title
+                if "dc:caption" in dc_pair[0] and dc_pair[1] != '':
+                    caption = dc_pair[1]
+                else:
+                    caption = _caption
+                if "dc:keywords" in dc_pair[0] and dc_pair[1] != '':
+                    creator = dc_pair[1]
+                else:
+                    creator = _creator
+                if "dc:rights" in dc_pair[0] and dc_pair[1] != '':
+                    rights = dc_pair[1]
+                else:
+                    rights = _rights
 
     # create new entry
     #print("New entry. title = " + title)

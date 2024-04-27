@@ -151,10 +151,10 @@ module Jekyll
 
       # start up exiftool just once to get all tags
       # puts "Starting Exiftool batch in path #{File.join(Dir.pwd, dir)}"
-      exiftoolbatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
-      # exiftoolbatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
-      # result = exiftoolbatch.result_for("path/to/iPhone 4S.jpg")
-      puts exiftoolbatch.files_with_results
+      exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
+      # exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
+      # result = exiftoolBatch.result_for("path/to/iPhone 4S.jpg")
+      # puts exiftoolBatch.files_with_results
       # result.files_with_results
       # => {:make => "Apple", :gps_longitude => -122.47566667, …
       # result[:gps_longitude]
@@ -184,7 +184,6 @@ module Jekyll
         # cleanup, watermark and copy the files
         # Strip out the non-ascii character and downcase the final file name
         dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
-        # puts "Art-Gallery processing dest_image: #{dest_image} (2)"
         dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
           if config["strip_exif"] or config["watermark"] or config["size_limit"]
@@ -252,18 +251,12 @@ module Jekyll
         else
           begin
             fullpath = Dir.pwd + "/" + image_path
-            # exif = Exif::Data.new(File.open(fullpath))
-            # puts "Exiftool fetching result for #{fullpath}"
-            exif = exiftoolbatch.result_for(fullpath) # more efficient to start exiftool just once at start
-            # => {:make => "Apple", :gps_longitude => -122.47566667, …
+            exif = exiftoolBatch.result_for(fullpath) # more efficient to start exiftool just once at start
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
           end
           if exif != nil
-            puts exif.to_hash
-#             tag = $tags.split
-#             capt = exif[:"#{tag[0]}"] || ""
-#             copy = exif[:"#{tag[1]}"] || ""
+            # puts exif.to_hash
             capt = exif[:"description"] || "" # XMP Caption field
             # fall thru to: headline (IPTC), ImageDescription (EXIF)
             # Valid exiftag.exiftool tags: EXIF: ImageDescription, UserComment; IPTC: headline, caption; XMP: Description, Comment;
@@ -285,19 +278,9 @@ module Jekyll
             end
             copy = exif[:"CopyrightNotice"] == nil ? exif[:"copyright"] : exif[:"CopyrightNotice"]
             answer = capt + ( copy == nil ? "" : ", " + copy)
-            #answer = tag.split('.').inject(exif) do |exif,tag|
-              #exif.send(tag) # try Dutch-NL tag name
-              # exif.send(tag + "-nl-NL") # try Dutch-NL tag name > error: undefined method `image_description-nl-NL'
-            #end
-#             if answer == nil
-#               tag = $tag
-#               answer = tag.split('.').inject(exif) do |exif,tag|
-#                 exif.send(tag) # fallback to default tag name
-#               end
-#             end
           end
           if answer != nil and answer != ""
-            puts "EXIFtool fetched tags for #{image}: #{answer}"
+            # puts "EXIFtool fetched tags for #{image}: #{answer}"
             self.data["captions"][dest_image] = answer
           else
             # If no caption defined, add a trimmed filename to help with SEO
@@ -433,7 +416,6 @@ module Jekyll
       begin
         Dir.foreach(dir) do |gallery_dir|
           gallery_path = File.join(dir, gallery_dir)
-          # gallery_path = File.join(site.baseurl, dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
             puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
@@ -454,7 +436,6 @@ module Jekyll
       site.data["navigation"] = []
 
       # generate gallery index
-      # puts "Art-Gallery starts generating Art_GalleryIndex page"
       gallery_index = GalleryIndex.new(site, site.source, dir, galleries)
       gallery_index.render(site.layouts, site.site_payload)
       gallery_index.write(site.dest)
