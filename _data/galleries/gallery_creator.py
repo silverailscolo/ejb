@@ -9,10 +9,9 @@ __license__ = 'BSD-3-Clause'
 
 import yaml
 import imagesize
-from libxmp import consts
-from libxmp.utils import file_to_dict
 from os import listdir, rename
 from os.path import isfile, join
+from exiftool import ExifToolHelper
 
 # configuration
 galleryname = input("Naam van de gallery: ")
@@ -59,10 +58,10 @@ _caption = "by"
 _creator = "EJ Broerse"
 _keywords = ""
 _rights = "CC BY-NC-SA 4.0"
-title = _title
-caption = _caption
+title = ""
+caption = ""
 creator = _creator
-keywords = _keywords
+keywords = ""
 rights = _rights
 
 # group gallery data
@@ -118,65 +117,94 @@ old_gallery = input_gallery['pictures']
 
 # merge two data sets into one
 print('Merging YAML data...')
-for pic in new_gallery:
-    found = False
-    # try to find matching filename
-    for i in old_gallery:
-        if pic == i["filename"]:
-            i["sizes"] = new_gallery[pic]
-            # include thumbnail if present
-            if pic in thumbs:
-                i["thumbnail"] = thumbs[pic]
-            found = True
 
-    if not found:
-        # extract xmp from original, only for jpeg
-        # 'http://purl.org/dc/elements/1.1/': [
-        #   ('dc:creator[1]', 'EJ Broerse', {...}),
-        #   ('dc:description[1]', 'blauwe Golf', {...}),
-        #   ('dc:title[1]', 'Volkswagen Golf Plus', {...}),
-        if originals[pic][originals[pic].rfind('.')+1:] in ['jpg', 'jpeg']:
-            #print("File: " + join(path, originals[pic]))
+with ExifToolHelper() as eth:
 
-            xmp = file_to_dict( join(path, originals[pic]) )
-            if consts.XMP_NS_DC in xmp:
-                dc = xmp[consts.XMP_NS_DC]
-                # a list of all Dublin Core properties in xmp; each element in the list is a tuple
-            else:
-                print("No XMP tag, file skipped")
+    for pic in new_gallery:
+        found = False
+        # try to find matching filename
+        for i in old_gallery:
+            if pic == i["filename"]:
+                i["sizes"] = new_gallery[pic]
+                # include thumbnail if present
+                if pic in thumbs:
+                    i["thumbnail"] = thumbs[pic]
+                found = True
 
-            print("title = " + title)
-            for dc_pair in dc:
-                if "/?xml:lang" not in dc_pair[0]: # skip 'dc:title[1]/?xml:lang'
-                # print("name: " + dc_pair[0] + " val: " + dc_pair[1] +"\n")
-                    if "dc:title" in dc_pair[0] and dc_pair[1] != '':
-                        title = dc_pair[1]
-                    else:
-                        title = _title
-                    if "dc:caption" in dc_pair[0] and dc_pair[1] != '':
-                        caption = dc_pair[1]
-                    else:
-                        caption = _caption
-                    if "dc:keywords" in dc_pair[0] and dc_pair[1] != '':
-                        creator = dc_pair[1]
-                    else:
-                        creator = _creator
-                    if "dc:rights" in dc_pair[0] and dc_pair[1] != '':
-                        rights = dc_pair[1]
-                    else:
-                        rights = _rights
+        if not found:
+            # extract xmp from original, only for jpeg
+            # 'http://purl.org/dc/elements/1.1/': [
+            #   ('dc:creator[1]', 'EJ Broerse', {...}),
+            #   ('dc:description[1]', 'blauwe Golf', {...}),
+            #   ('dc:title[1]', 'Volkswagen Golf Plus', {...}),
+            if originals[pic][originals[pic].rfind('.')+1:] in ['jpg', 'jpeg', 'png']:
+                print("File: " + join(path, originals[pic]))
 
-    # create new entry
-    #print("New entry. title = " + title)
-    old_gallery.append({ "filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
-                      "title": title, "caption": caption + ' ' + keywords + ' ' + rights })
-    # reset vars
-    title = _title
-    caption = _caption
-    creator = _creator
-    keywords = _keywords
-    rights = _rights
-    # print("vars reset. title = " + title)
+                file = join(path, originals[pic])
+                metadata = eth.get_metadata(file)
+                for dict in metadata:
+                    for k, v in dict.items():
+                        print(f"pair {k} = {v}")
+                        if "xmp:title" in k.lower() and v != '': # and title == "":
+                            title = v
+                            print(f"{file}: {k} = {v}; title = {title}")
+                        elif "iptc:headline" in k.lower() and v != '': # and title == "":
+                            title = v
+                            print(f"{file}: {k} = {v}; title = {title}")
+                        elif "title" in k.lower() and v != '': # and title == "":
+                            title = v
+                            print(f"{file}: {k} = {v}; title = {title}")
+                        # else:
+                        #     title = _title
+                        print(f"after dict: title = {title}")
+
+                        if "caption" in k.lower() and v != '': # and caption == "":
+                            caption = v
+                            print(f"{file}: {k} = {v}; caption = {caption}")
+                        elif "xmp:description" in k.lower() and v != '': # and caption == "":
+                            caption = v
+                            print(f"{file}: {k} = {v}; caption = {caption}")
+                        elif "exif:imagedescription" in k.lower() and v != '': # and caption == "":
+                            caption = v
+                            print(f"{file}: {k} = {v}; caption = {caption}")
+                        elif "file:comment" in k.lower() and v != '': # and caption == "":
+                            caption = v
+                            print(f"{file}: {k} = {v}; caption = {caption}")
+                        # else:
+                        #     caption = _caption
+                        print(f"after dict: caption = {caption}")
+
+                        if "keywords" in k.lower() and v != '': # and keywords == "":
+                            keywords = v
+                        # else:
+                        #     keywords = _creator
+                        if "rights" in k.lower() and v != '': # and rights == "":
+                            rights = v
+                        elif "iptc:copyrightnotice" in k.lower() and v != '': # and rights == "":
+                            rights = v
+                        elif "exif:copyright" in k.lower() and v != '': # and rights == "":
+                            rights = v
+                        # else:
+                        #     rights = _rights
+                        print(f"after dict: rights = {rights}")
+                        # example results from exiftool:
+                        # pair EXIF:Copyright = 1988 EJ Broerse CC-BY-NC 4.0
+                        # pair IPTC:Caption-Abstract = Thesis design for RUW Head Office, model, eye level view
+
+                # create new entry
+                print("New entry. title = " + title + " caption = " + caption)
+                old_gallery.append({ "filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
+                                  "title": title, "caption": caption + ' ' + '-'.join(keywords) + '<br>' + rights })
+
+        # reset vars
+        title = ""
+        caption = ""
+        creator = ""
+        keywords = ""
+        rights = _rights
+        # print("vars reset. title = " + title)
+
+    # end of ExifToolHelper
 
 # check if path existing
 if "picture_path" not in input_gallery:

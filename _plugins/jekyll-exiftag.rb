@@ -31,6 +31,7 @@ require 'exiftool_vendored'
 module Jekyll
   class ExifTag < Liquid::Tag
     $copyright = "© 1995-2024 EJ Broerse CC-BY-NC-SA 4.0"
+
     def initialize(tag_name, params, token)
       super
       @args = self.split_params(params)
@@ -58,8 +59,8 @@ module Jekyll
       else
         img = context.environments.first["page"]["img"]
       end
-
       img = File.expand_path("../.." + img, __FILE__)
+
       # first check if the given img is already the path
       if File.exist?(img)
         file_name = img
@@ -75,7 +76,6 @@ module Jekyll
       exif = Exiftool.new("#{file_name}")
       # copied from art-gallery, TODO exiftool per directory? EBR
       if exif != nil
-        # puts exif.to_hash
 
         if (tag == "gps?")
           return exif[:"gps"] != nil
@@ -127,6 +127,7 @@ module Jekyll
     def split_params(params)
       params.split(",").map(&:strip)
     end
+
   end
 end
 

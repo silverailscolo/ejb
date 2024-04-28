@@ -40,3 +40,14 @@
     sizes:
       - Pontiac_transsport_concept-479x259.webp
     thumbnail: Pontiac_transsport_concept-479x259.webp
+- title: Studie Bouwkunde
+  directory: studiebk
+  preview:
+    filename: 20131030205407-5b425980
+    original: 20131030205407-5b425980-1224x821.jpg
+    sizes:
+      - 20131030205407-5b425980-1008x676.jpg
+      - 20131030205407-5b425980-120x120.jpg
+      - 20131030205407-5b425980-144x96.jpg
+    thumbnail: 20131030205407-5b425980-120x120.jpg
+
