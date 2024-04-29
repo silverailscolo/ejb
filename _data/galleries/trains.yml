@@ -1,6 +1,6 @@
 picture_path: trains
 pictures:
-- caption: Roundhouse, view from water tover (XMP caption)  EJ Broerse CC-BY-NC 4.0 (IPTC)
+- caption: Roundhouse, view from water tover (XMP caption) <br>CC BY-NC-SA 4.0
   filename: 20131030205838-28a115e5
   original: 20131030205838-28a115e5-576x381.jpg
   sizes:
@@ -10,7 +10,7 @@ pictures:
   - 20131030205838-28a115e5-250x250.jpg
   thumbnail: 20131030205838-28a115e5-144x95.jpg
   title: Roundhouse (EXIF Headline)
-- caption: Durango yard overview (IPTC)  CC BY-NC-SA 4.0
+- caption: Durango yard overview (IPTC) <br>CC BY-NC-SA 4.0
   filename: 20131229230151-b2e81afd
   original: 20131229230151-b2e81afd-550x432.jpg
   sizes:
@@ -19,7 +19,7 @@ pictures:
   - 20131229230151-b2e81afd-240x188.jpg
   thumbnail: 20131229230151-b2e81afd-120x120.jpg
   title: Yard
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20140112192031-a821d7df
   original: 20140112192031-a821d7df-792x594.jpg
   sizes:
@@ -29,7 +29,7 @@ pictures:
   - 20140112192031-a821d7df-576x432.jpg
   thumbnail: 20140112192031-a821d7df-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20140119200812-51d457c6
   original: 20140119200812-51d457c6-576x292.jpg
   sizes:
@@ -39,7 +39,7 @@ pictures:
   - 20140119200812-51d457c6-250x250.jpg
   thumbnail: 20140119200812-51d457c6-144x73.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20140119200814-75f34410
   original: 20140119200814-75f34410-576x355.jpg
   sizes:
@@ -48,7 +48,7 @@ pictures:
   - 20140119200814-75f34410-240x148.jpg
   thumbnail: 20140119200814-75f34410-144x88.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20140119200816-bf41bb89
   original: 20140119200816-bf41bb89-576x351.jpg
   sizes:
@@ -57,7 +57,7 @@ pictures:
   - 20140119200816-bf41bb89-240x146.jpg
   thumbnail: 20140119200816-bf41bb89-144x87.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20140421000617-c3968774
   original: 20140421000617-c3968774-792x391.jpg
   sizes:
@@ -67,7 +67,7 @@ pictures:
   - 20140421000617-c3968774-576x284.jpg
   thumbnail: 20140421000617-c3968774-144x71.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20140816214930-bcf03931
   original: 20140816214930-bcf03931-960x720.jpg
   sizes:
@@ -78,7 +78,7 @@ pictures:
   - 20140816214930-bcf03931-792x594.jpg
   thumbnail: 20140816214930-bcf03931-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20140817235930-adc65ede
   original: 20140817235930-adc65ede-960x720.jpg
   sizes:
@@ -89,7 +89,7 @@ pictures:
   - 20140817235930-adc65ede-792x594.jpg
   thumbnail: 20140817235930-adc65ede-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20140920093408-d7a6b60e
   original: 20140920093408-d7a6b60e-792x594.jpg
   sizes:
@@ -99,7 +99,7 @@ pictures:
   - 20140920093408-d7a6b60e-576x432.jpg
   thumbnail: 20140920093408-d7a6b60e-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20171106120015-7022284d
   original: 20171106120015-7022284d-564x756.jpg
   sizes:
@@ -110,7 +110,7 @@ pictures:
   - 20171106120015-7022284d-443x594.jpg
   thumbnail: 20171106120015-7022284d-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20171106120018-308ab8cd
   original: 20171106120018-308ab8cd-1008x514.jpg
   sizes:
@@ -121,7 +121,7 @@ pictures:
   - 20171106120018-308ab8cd-792x404.jpg
   thumbnail: 20171106120018-308ab8cd-144x73.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20181229222829-63021f3d
   original: 20181229222829-63021f3d-1008x752.jpg
   sizes:
@@ -132,7 +132,7 @@ pictures:
   - 20181229222829-63021f3d-792x591.jpg
   thumbnail: 20181229222829-63021f3d-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20190101215132-9dcc53fc
   original: 20190101215132-9dcc53fc-1008x741.jpg
   sizes:
@@ -144,7 +144,7 @@ pictures:
   - 20190101215132-9dcc53fc-792x582.jpg
   thumbnail: 20190101215132-9dcc53fc-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220205403-420448aa
   original: 20200220205403-420448aa-1280x960.jpg
   sizes:
@@ -152,7 +152,7 @@ pictures:
   - 20200220205403-420448aa-240x180.jpg
   thumbnail: 20200220205403-420448aa-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220205403-b38bfb67
   original: 20200220205403-b38bfb67-1280x960.jpg
   sizes:
@@ -160,7 +160,7 @@ pictures:
   - 20200220205403-b38bfb67-240x180.jpg
   thumbnail: 20200220205403-b38bfb67-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220205404-11d123d4
   original: 20200220205404-11d123d4-1280x960.jpg
   sizes:
@@ -168,7 +168,7 @@ pictures:
   - 20200220205404-11d123d4-240x180.jpg
   thumbnail: 20200220205404-11d123d4-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220205404-c37af623
   original: 20200220205404-c37af623-1280x960.jpg
   sizes:
@@ -176,7 +176,7 @@ pictures:
   - 20200220205404-c37af623-240x180.jpg
   thumbnail: 20200220205404-c37af623-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220210605-08d6566e
   original: 20200220210605-08d6566e-1008x446.jpg
   sizes:
@@ -186,7 +186,7 @@ pictures:
   - 20200220210605-08d6566e-792x350.jpg
   thumbnail: 20200220210605-08d6566e-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220210608-647edc54
   original: 20200220210608-647edc54-792x594.jpg
   sizes:
@@ -195,7 +195,7 @@ pictures:
   - 20200220210608-647edc54-576x432.jpg
   thumbnail: 20200220210608-647edc54-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220210609-a60b05da
   original: 20200220210609-a60b05da-792x594.jpg
   sizes:
@@ -204,7 +204,7 @@ pictures:
   - 20200220210609-a60b05da-576x432.jpg
   thumbnail: 20200220210609-a60b05da-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220210611-8aad5acd
   original: 20200220210611-8aad5acd-792x594.jpg
   sizes:
@@ -213,7 +213,7 @@ pictures:
   - 20200220210611-8aad5acd-576x432.jpg
   thumbnail: 20200220210611-8aad5acd-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220210613-59d61232
   original: 20200220210613-59d61232-792x396.jpg
   sizes:
@@ -222,7 +222,7 @@ pictures:
   - 20200220210613-59d61232-576x288.jpg
   thumbnail: 20200220210613-59d61232-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220210614-d5e786ab
   original: 20200220210614-d5e786ab-567x756.jpg
   sizes:
@@ -233,7 +233,7 @@ pictures:
   - 20200220210614-d5e786ab-445x594.jpg
   thumbnail: 20200220210614-d5e786ab-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200220210616-6aa2f89e
   original: 20200220210616-6aa2f89e-792x463.jpg
   sizes:
@@ -242,7 +242,7 @@ pictures:
   - 20200220210616-6aa2f89e-576x337.jpg
   thumbnail: 20200220210616-6aa2f89e-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223023-84599787
   original: 20200322223023-84599787-1008x756.jpg
   sizes:
@@ -252,7 +252,7 @@ pictures:
   - 20200322223023-84599787-792x594.jpg
   thumbnail: 20200322223023-84599787-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223046-42b995f5
   original: 20200322223046-42b995f5-1008x756.jpg
   sizes:
@@ -262,7 +262,7 @@ pictures:
   - 20200322223046-42b995f5-792x594.jpg
   thumbnail: 20200322223046-42b995f5-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223059-7bd850b0
   original: 20200322223059-7bd850b0-567x756.jpg
   sizes:
@@ -273,7 +273,7 @@ pictures:
   - 20200322223059-7bd850b0-445x594.jpg
   thumbnail: 20200322223059-7bd850b0-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223113-c55eb41b
   original: 20200322223113-c55eb41b-1008x756.jpg
   sizes:
@@ -283,7 +283,7 @@ pictures:
   - 20200322223113-c55eb41b-792x594.jpg
   thumbnail: 20200322223113-c55eb41b-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223121-bcb80948
   original: 20200322223121-bcb80948-1008x756.jpg
   sizes:
@@ -293,7 +293,7 @@ pictures:
   - 20200322223121-bcb80948-792x594.jpg
   thumbnail: 20200322223121-bcb80948-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223131-e623d123
   original: 20200322223131-e623d123-1008x756.jpg
   sizes:
@@ -303,7 +303,7 @@ pictures:
   - 20200322223131-e623d123-792x594.jpg
   thumbnail: 20200322223131-e623d123-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223140-a5eb2768
   original: 20200322223140-a5eb2768-1008x756.jpg
   sizes:
@@ -313,7 +313,7 @@ pictures:
   - 20200322223140-a5eb2768-792x594.jpg
   thumbnail: 20200322223140-a5eb2768-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223149-e024ee8d
   original: 20200322223149-e024ee8d-1008x756.jpg
   sizes:
@@ -323,7 +323,7 @@ pictures:
   - 20200322223149-e024ee8d-792x594.jpg
   thumbnail: 20200322223149-e024ee8d-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200322223721-79c5fe52
   original: 20200322223721-79c5fe52-602x756.jpg
   sizes:
@@ -334,7 +334,7 @@ pictures:
   - 20200322223721-79c5fe52-473x594.jpg
   thumbnail: 20200322223721-79c5fe52-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200328220357-ba973613
   original: 20200328220357-ba973613-567x756.jpg
   sizes:
@@ -345,7 +345,7 @@ pictures:
   - 20200328220357-ba973613-445x594.jpg
   thumbnail: 20200328220357-ba973613-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200328220400-45045aef
   original: 20200328220400-45045aef-1008x756.jpg
   sizes:
@@ -355,7 +355,7 @@ pictures:
   - 20200328220400-45045aef-792x594.jpg
   thumbnail: 20200328220400-45045aef-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200328220405-ee47ad21
   original: 20200328220405-ee47ad21-1008x756.jpg
   sizes:
@@ -365,7 +365,7 @@ pictures:
   - 20200328220405-ee47ad21-792x594.jpg
   thumbnail: 20200328220405-ee47ad21-120x120.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20200513231250-b3b913da
   original: 20200513231250-b3b913da-1008x756.jpg
   sizes:
@@ -374,7 +374,7 @@ pictures:
   - 20200513231250-b3b913da-792x594.jpg
   thumbnail: 20200513231250-b3b913da-240x180.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20210809215242-68d56056
   original: 20210809215242-68d56056-1008x756.jpg
   sizes:
@@ -383,7 +383,7 @@ pictures:
   - 20210809215242-68d56056-792x594.jpg
   thumbnail: 20210809215242-68d56056-240x180.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20210809215248-d40dfc1f
   original: 20210809215248-d40dfc1f-1008x756.jpg
   sizes:
@@ -392,7 +392,7 @@ pictures:
   - 20210809215248-d40dfc1f-792x594.jpg
   thumbnail: 20210809215248-d40dfc1f-240x180.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20210809215250-fce0a275
   original: 20210809215250-fce0a275-1008x756.jpg
   sizes:
@@ -401,7 +401,7 @@ pictures:
   - 20210809215250-fce0a275-792x594.jpg
   thumbnail: 20210809215250-fce0a275-240x180.jpg
   title: ''
-- caption: '  CC BY-NC-SA 4.0'
+- caption: ' <br>CC BY-NC-SA 4.0'
   filename: 20230322105423-969dc906
   original: 20230322105423-969dc906-792x527.jpg
   sizes:

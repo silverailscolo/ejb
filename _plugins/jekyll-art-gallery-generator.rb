@@ -4,8 +4,8 @@
 # changed Egbert from using rmagick (unsupported, memory hog) to minimagick, added exif tag titles April 2024
 
 require 'mini_magick'
-require 'exiftool'
-require 'exiftool_vendored'
+# require 'exiftool' # temp off EBR
+# require 'exiftool_vendored' # temp off EBR
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
 # $tags = 'caption-abstract.copyright'
@@ -151,7 +151,7 @@ module Jekyll
 
       # start up exiftool just once to get all tags
       # puts "Starting Exiftool batch in path #{File.join(Dir.pwd, dir)}"
-      exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
+      # temp off EBR: exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
       # exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
       # result = exiftoolBatch.result_for("path/to/iPhone 4S.jpg")
       # puts exiftoolBatch.files_with_results
@@ -251,7 +251,7 @@ module Jekyll
         else
           begin
             fullpath = Dir.pwd + "/" + image_path
-            exif = exiftoolBatch.result_for(fullpath) # more efficient to start exiftool just once at start
+            exif = nil # exiftoolBatch.result_for(fullpath) # more efficient to start exiftool just once at start # temp off EBR:
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
           end

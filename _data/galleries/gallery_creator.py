@@ -164,6 +164,9 @@ with ExifToolHelper() as eth:
                         elif "xmp:description" in k.lower() and v != '': # and caption == "":
                             caption = v
                             print(f"{file}: {k} = {v}; caption = {caption}")
+                        elif "usercomment" in k.lower() and v != '': # and caption == "":
+                            caption = v
+                            print(f"{file}: {k} = {v}; caption = {caption}")
                         elif "exif:imagedescription" in k.lower() and v != '': # and caption == "":
                             caption = v
                             print(f"{file}: {k} = {v}; caption = {caption}")
@@ -174,8 +177,17 @@ with ExifToolHelper() as eth:
                         #     caption = _caption
                         print(f"after dict: caption = {caption}")
 
-                        if "keywords" in k.lower() and v != '': # and keywords == "":
+                        if "xmp:tagsList" in k.lower() and v != '': # and keywords == "":
+                            # can be a list or just 1 item (string)
                             keywords = v
+                            if isinstance(keywords, list):
+                                keywords = '-'.join(map(str, keywords))
+                            print(f"{file}: {k} = {v}; keywords = {keywords}")
+                        elif "iptc:keywords" in k.lower() and v != '': # and keywords == "":
+                            keywords = v
+                            if isinstance(keywords, list):
+                                keywords = '-'.join(map(str, keywords))
+                            print(f"{file}: {k} = {v}; keywords = {keywords}")
                         # else:
                         #     keywords = _creator
                         if "rights" in k.lower() and v != '': # and rights == "":
@@ -184,24 +196,24 @@ with ExifToolHelper() as eth:
                             rights = v
                         elif "exif:copyright" in k.lower() and v != '': # and rights == "":
                             rights = v
-                        # else:
-                        #     rights = _rights
+                        else:
+                            rights = _rights
                         print(f"after dict: rights = {rights}")
                         # example results from exiftool:
                         # pair EXIF:Copyright = 1988 EJ Broerse CC-BY-NC 4.0
                         # pair IPTC:Caption-Abstract = Thesis design for RUW Head Office, model, eye level view
 
                 # create new entry
-                print("New entry. title = " + title + " caption = " + caption)
+                print("New entry. title = " + str(title) + " caption = " + str(caption))
                 old_gallery.append({ "filename": pic, "sizes": new_gallery[pic], "thumbnail": thumbs[pic], "original": originals[pic],
-                                  "title": title, "caption": caption + ' ' + '-'.join(keywords) + '<br>' + rights })
+                                  "title": str(title), "caption": str(caption) + ' ' + keywords + '<br>' + rights })
 
         # reset vars
         title = ""
         caption = ""
         creator = ""
         keywords = ""
-        rights = _rights
+        rights = ""
         # print("vars reset. title = " + title)
 
     # end of ExifToolHelper
