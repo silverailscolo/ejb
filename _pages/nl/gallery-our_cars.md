@@ -93,7 +93,7 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 
 <p>Wikipedia has <a href="https://en.wikipedia.org/wiki/Pontiac_Trans_Sport">more</a> on the origin of the peculiar design of the first generation Pontiac TransSport, a.k.a. &quot;Dustbuster&quot;.</p>
 
-## 2006: Chevrolet Trans Sport #2
+## 2006: Chevrolet Trans Sport 2
 
 <p>Just before the 2006 summer holidays, our 1994 Pontiac TransSport failed the Periodic Car Test. So we shopped around and found: <strong>a next generation TransSport</strong>, labeled Chevrolet in Europe since 1998.</p>
 <div class="row">
@@ -122,7 +122,7 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 
 ## 2013: Chevrolet Trans Sport #3
 
-<p>After the fuel lines started to leak, we decided to buy a new car. Seating for 6 led to the last 2005 edition of the same Chevrolet model, equipped with Versatrak all wheel drive.<p>
+<p>After the fuel lines started to leak, we decided to buy a new car. Seating for 6 led to the last 2005 edition of the same Chevrolet model, equipped with Versatrak all-wheel drive.<p>
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img-noresample/our_cars/IMG_6377_Transport3-565x370.jpg" | relative_url }}' alt='TransSport voorzijde' class='img-fluid' >
