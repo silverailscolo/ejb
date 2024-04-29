@@ -6,7 +6,7 @@
       href="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.original }}"
       class="image-ref"
       {% if picture.title %}
-        data-sub-html="<div class='lg-toolbar caption'>{{ picture.title | escape }}{% if picture.caption %} {{ picture.caption | escape }}{% endif %}</div>"
+        data-sub-html="{{ picture.title | escape }}{% if picture.caption %} {{ picture.caption | escape }}{% endif %}"
       {% endif %}
     >
       <img alt="{{ picture.title }}" src="{{ site.baseurl }}/assets/img-noresample/{{ include.gallery.picture_path }}/{{ picture.thumbnail }}">

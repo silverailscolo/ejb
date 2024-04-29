@@ -96,7 +96,7 @@ module Jekyll
       @site = site
       @base = base
       #source_dir=dir
-      puts "Art-GalleryPage base=#{base}, dir=#{dir}" # between HERE and...
+      puts "Art-GalleryPage base=#{base}, dir=#{dir}"
 
       @dir = dir.gsub(/^_/, "").gsub(/[^0-9A-Za-z.\\\-\/]/, '_').downcase
       # destination dir, same as source without the leading underscore. web compatible
@@ -115,16 +115,24 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      puts "Generating Art-Gallery '#{gallery_name}'" # HERE error reading on github, runs OK locally
+      puts "Generating Art-Gallery '#{gallery_name}'" # between HERE and...
       sort_field = config["sort_field"] || "name"
+      puts "Art-Gall read #120"
       self.process(@name)
+      puts "Art-Gall read #122"
       gallery_page = File.join(base, "_layouts", "art_gallery_page.html")
+      puts "Art-Gall read #124"
       unless File.exist?(gallery_page)
+        puts "Art-Gall read #126"
         gallery_page = File.join(File.dirname(__FILE__), "art_gallery_page.html")
+        puts "Art-Gall read #128"
       end
+      puts "Art-Gall read #130"
       self.read_yaml(File.dirname(gallery_page), File.basename(gallery_page))
+      puts "Art-Gall read #132"
       self.data["gallery"] = gallery_name # aka folder name
-      self.data["description"] = gallery_config["description"]
+      puts "Art-Gall read #134"
+      self.data["description"] = gallery_config["description"] #...HERE an error reading on github, runs OK locally
 
       # prettify gallery name if not set
       gallery_name = gallery_name.gsub("_", " ").gsub(/\w+/) {|word| word.capitalize}
@@ -133,7 +141,7 @@ module Jekyll
       self.data["link"] = "/#{@dir}/"
       # thumbnail destination
       scale_method = gallery_config["scale_method"] || config["scale_method"] || "fit"
-      # each art-gallery can have it's own scale method, or use the global scale if defined
+      # each art-gallery can have its own scale method, or use the global scale if defined
       @hidden = gallery_config["hidden"] || false
       # the gallery can alternatively be hidden by renaming it to start with a dot
       if @hidden
