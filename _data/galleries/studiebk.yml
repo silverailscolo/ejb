@@ -1,43 +1,70 @@
 picture_path: studiebk
 pictures:
-  - caption: AS10 Urban design project, General plan  1988 EJ Broerse CC-BY-NC 4.0
-    filename: 20131030205407-5b425980
-    original: 20131030205407-5b425980-1224x821.jpg
-    sizes:
-    - 20131030205407-5b425980-1008x676.jpg
-    - 20131030205407-5b425980-120x120.jpg
-    - 20131030205407-5b425980-144x96.jpg
-    - 20131030205407-5b425980-240x161.jpg
-    - 20131030205407-5b425980-250x250.jpg
-    - 20131030205407-5b425980-576x386.jpg
-    - 20131030205407-5b425980-792x531.jpg
-    thumbnail: 20131030205407-5b425980-144x96.jpg
-    title: Photo
-  - caption: Thesis design for RUW Head Office, model, eye level view  1988 EJ Broerse CC-BY-NC 4.0
-    filename: 20150509222739-98e0630d
-    original: 20150509222739-98e0630d-240x180.jpg
-    sizes:
-    - 20150509222739-98e0630d-120x120.jpg
-    - 20150509222739-98e0630d-144x108.jpg
-    thumbnail: 20150509222739-98e0630d-120x120.jpg
-    title: ''
-  - caption: Thesis design RUWHead Office, Front view, Revit2016  1988 EJ Broerse CC-BY-NC 4.0
-    filename: 20160402203622-c1bea4bd
-    original: 20160402203622-c1bea4bd-1008x400.jpg
-    sizes:
-    - 20160402203622-c1bea4bd-120x120.jpg
-    - 20160402203622-c1bea4bd-144x57.jpg
-    - 20160402203622-c1bea4bd-240x95.jpg
-    - 20160402203622-c1bea4bd-576x228.jpg
-    - 20160402203622-c1bea4bd-792x314.jpg
-    thumbnail: 20160402203622-c1bea4bd-144x57.jpg
-    title: ''
-  - caption: Thesis design RUWHead Office, interior view of hall, Revit2016  1988 EJ Broerse CC-BY-NC 4.0
-    filename: 20160402203624-0988e2a2
-    original: 20160402203624-0988e2a2-792x593.jpg
-    sizes:
-    - 20160402203624-0988e2a2-144x107.jpg
-    - 20160402203624-0988e2a2-240x179.jpg
-    - 20160402203624-0988e2a2-576x431.jpg
-    thumbnail: 20160402203624-0988e2a2-144x107.jpg
-    title: ''
+- caption: AS10 Urban design project, General plan <br>CC BY-NC-SA 4.0
+  filename: 20131030205407-5b425980
+  original: 20131030205407-5b425980-1224x821.jpg
+  sizes:
+  - 20131030205407-5b425980-1008x676.jpg
+  - 20131030205407-5b425980-120x120.jpg
+  - 20131030205407-5b425980-144x96.jpg
+  - 20131030205407-5b425980-240x161.jpg
+  - 20131030205407-5b425980-250x250.jpg
+  - 20131030205407-5b425980-576x386.jpg
+  - 20131030205407-5b425980-792x531.jpg
+  thumbnail: 20131030205407-5b425980-144x96.jpg
+  title: ''
+- caption: ' <br>CC BY-NC-SA 4.0'
+  filename: '20131030205407'
+  original: 20131030205407-3064x2056.jpg
+  sizes: []
+  thumbnail: 20131030205407-3064x2056.jpg
+  title: ''
+- caption: Thesis design for RUW Head Office, model, eye level view <br>CC BY-NC-SA
+    4.0
+  filename: 20150509222739-98e0630d
+  original: 20150509222739-98e0630d-240x180.jpg
+  sizes:
+  - 20150509222739-98e0630d-120x120.jpg
+  - 20150509222739-98e0630d-144x108.jpg
+  thumbnail: 20150509222739-98e0630d-120x120.jpg
+  title: ''
+- caption: Gescand 10/10/2002 in lage resolutie.origineel in diacollectie op zolder.
+    Wageningen-TU Delft-afstuderen-Bouwkunde-Egbert<br>CC BY-NC-SA 4.0
+  filename: '20150509222739'
+  original: 20150509222739-320x240.jpg
+  sizes: []
+  thumbnail: 20150509222739-320x240.jpg
+  title: ''
+- caption: Thesis design RUW Head Office, Front view, Revit2016 <br>CC BY-NC-SA 4.0
+  filename: 20160402203622-c1bea4bd
+  original: 20160402203622-c1bea4bd-1008x400.jpg
+  sizes:
+  - 20160402203622-c1bea4bd-120x120.jpg
+  - 20160402203622-c1bea4bd-144x57.jpg
+  - 20160402203622-c1bea4bd-240x95.jpg
+  - 20160402203622-c1bea4bd-576x228.jpg
+  - 20160402203622-c1bea4bd-792x314.jpg
+  thumbnail: 20160402203622-c1bea4bd-144x57.jpg
+  title: ''
+- caption: ' <br>CC BY-NC-SA 4.0'
+  filename: '20160402203622'
+  original: 20160402203622-1200x477.jpg
+  sizes: []
+  thumbnail: 20160402203622-1200x477.jpg
+  title: ''
+- caption: Thesis design RUW Head Office, interior view of hall, Revit2016 <br>CC
+    BY-NC-SA 4.0
+  filename: 20160402203624-0988e2a2
+  original: 20160402203624-0988e2a2-792x593.jpg
+  sizes:
+  - 20160402203624-0988e2a2-144x107.jpg
+  - 20160402203624-0988e2a2-240x179.jpg
+  - 20160402203624-0988e2a2-576x431.jpg
+  thumbnail: 20160402203624-0988e2a2-144x107.jpg
+  title: ''
+- caption: ' <br>CC BY-NC-SA 4.0'
+  filename: '20160402203624'
+  original: 20160402203624-1000x749.jpg
+  sizes: []
+  thumbnail: 20160402203624-1000x749.jpg
+  title: ''
