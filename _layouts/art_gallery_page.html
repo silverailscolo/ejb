@@ -21,20 +21,13 @@ header:
 
 {% for image in page.images %}
 <a href="{{ image }}" class="image-ref">
-{% if page.captions[image] == nil %}
+
 <img
   src="thumbs/{{ image }}"
   data-caption="Photo by EJB"
   alt="{{ image }}"
 />
-{% else %}
-<img
-  src="thumbs/{{ image }}"
-  data-caption="{{ page.captions[image] }}"
-  title="{{ page.title[image] }}"
-  alt="{{ page.captions[image] }}"
-/>
-{% endif %}
+
 </a>
 {% endfor %}
 </div>
@@ -46,7 +39,6 @@ header:
     lightGallery(document.getElementById("art-gallery"), {
       plugins: [lgThumbnail, lgZoom, lgAutoplay],
       closable: true,
-      showMaximizeIcon: true,
       selector: ".image-ref",
       slideDelay: 100,
       speed: 500,

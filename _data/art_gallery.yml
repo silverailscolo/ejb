@@ -4,7 +4,7 @@
 #  / ___ |/ /  / /_/ /_/ / /_/ / / /  __/ /  / /_/ /
 # /_/  |_/_/   \__/\____/\__,_/_/_/\___/_/   \__, /
 #                                           /____/
-# a custom art-gallery generator using _plugins/jekyll-art-gallery-generator.rb
+# A custom art-gallery generator using _plugins/jekyll-art-gallery-generator.rb
 
 source_dir: assets/art_gallery
 # no leading or trailing slashes
