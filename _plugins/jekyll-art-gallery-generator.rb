@@ -120,7 +120,7 @@ module Jekyll
       puts "Art-Gall read #120"
       self.process(@name)
       puts "Art-Gall read #122"
-      gallery_page = File.join(base, "_layouts", "art_gallery_page.html")
+      gallery_page = File.join(base, "_layouts/art_gallery_page.html")
       puts "Art-Gall read #124"
       unless File.exist?(gallery_page)
         puts "Art-Gall read #126"
@@ -132,12 +132,8 @@ module Jekyll
       puts "Art-Gall read #132"
       self.data["gallery"] = gallery_name # aka folder name
       puts "Art-Gall read #134"
-      if gallery_config["description"] == nil
-        self.data["description"] = ""
-      else
-        self.data["description"] = gallery_config["description"] #...HERE an error reading on github, runs OK locally
-      end
-      puts "Art-Gall read #140"
+      self.data["description"] = gallery_config["description"]  || "" #...HERE an error reading on github, runs OK locally
+      puts "Art-Gall read #136"
       # prettify gallery name if not set
       gallery_name = gallery_name.gsub("_", " ").gsub(/\w+/) {|word| word.capitalize}
       gallery_name = gallery_config["title"] || gallery_name
@@ -154,6 +150,7 @@ module Jekyll
       end
       if config["watermark"]
         # load watermark image
+        puts "Watermark: " + File.join(base, "assets/img", config["watermark"])
         wm_img = MiniMagick::Image.read(File.join(base, "assets/img", config["watermark"]))
       end
 
@@ -161,7 +158,7 @@ module Jekyll
       self.data["captions"] = {}
       date_times = {}
 
-      # start up exiftool just once to get all tags
+      # Start up exiftool just once to get all tags
       # puts "Starting Exiftool batch in path #{File.join(Dir.pwd, dir)}"
       # temp off EBR: exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
       # exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
@@ -203,7 +200,7 @@ module Jekyll
             # puts "Art-GalleryPage generating #{dest_image}..."
             begin
               source_img = MiniMagick::Image.read(image_path)
-              # puts "Art-GalleryPage read #{image_path}..."
+              puts "Art-GalleryPage read #{image_path}..."
               if config["strip_exif"]
                 print "stripping EXIF..."
                 source_img = source_img.strip
@@ -430,17 +427,17 @@ module Jekyll
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
             puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}"
-            puts "Art-Gall #433"
+            puts "Art-Gall #429"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
-            puts "Art-Gall #435"
+            puts "Art-Gall #431"
             gallery.render(site.layouts, site.site_payload)
-            puts "Art-Gall #437"
+            puts "Art-Gall #433"
             gallery.write(site.dest)
-            puts "Art-Gall #439"
+            puts "Art-Gall #435"
             site.pages << gallery
-            puts "Art-Gall #441"
+            puts "Art-Gall #437"
             galleries << gallery
-            puts "Art-Gall #443 - PAGE READY"
+            puts "Art-Gall #439 - PAGE READY"
           end
         end
       rescue Exception => e
