@@ -132,8 +132,12 @@ module Jekyll
       puts "Art-Gall read #132"
       self.data["gallery"] = gallery_name # aka folder name
       puts "Art-Gall read #134"
-      self.data["description"] = gallery_config["description"] #...HERE an error reading on github, runs OK locally
-
+      if gallery_config["description"] == nil
+        self.data["description"] = ""
+      else
+        self.data["description"] = gallery_config["description"] #...HERE an error reading on github, runs OK locally
+      end
+      puts "Art-Gall read #140"
       # prettify gallery name if not set
       gallery_name = gallery_name.gsub("_", " ").gsub(/\w+/) {|word| word.capitalize}
       gallery_name = gallery_config["title"] || gallery_name
@@ -426,11 +430,17 @@ module Jekyll
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
             puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}"
+            puts "Art-Gall #433"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
+            puts "Art-Gall #435"
             gallery.render(site.layouts, site.site_payload)
+            puts "Art-Gall #437"
             gallery.write(site.dest)
+            puts "Art-Gall #439"
             site.pages << gallery
+            puts "Art-Gall #441"
             galleries << gallery
+            puts "Art-Gall #443 - PAGE READY"
           end
         end
       rescue Exception => e
