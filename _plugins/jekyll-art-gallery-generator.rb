@@ -336,14 +336,16 @@ module Jekyll
       # puts best_image
 
       # generate best image thumb for the gallery front super-index page
-      # puts "Thumb for front"
+      puts "Thumb for front"
       makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "front_"+best_image, config["front_thumb_size"]["x"] || 400, config["front_thumb_size"]["y"] || 400, "crop")
 
       # generate best image thumb for the header of a gallery index page
-      # puts "Thumb for header"
+      puts "Thumb for header"
       makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 0, config["header_thumb_size"]["y"] || 400, "crop")
+      puts "Store header data #345"
+      puts "Storing: " + "thumbs/header_"+best_image
 
-      self.data["header"]["image_fullwidth"] = "thumbs/header_"+best_image # used in the theme
+      self.data["header"] = "thumbs/header_"+best_image # used in the theme ERROR HERE RUBY3 UNDEFINED
       GC.start
     end
 
