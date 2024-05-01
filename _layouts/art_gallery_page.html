@@ -13,7 +13,7 @@ header:
        style="left: 0px; top: -5px; overflow: hidden; margin: 0px; padding: 0px; height: 50px; width: 806px;
   z-index: -999998; position: absolute;"><img alt="gallery header img" style="position: absolute; margin: 0px; padding: 0px;
   width: 900px; height: 50px; max-height: none; max-width: none; z-index: -999999; left: -47px; top: -5px;"
-  src="{{ page['header']['image_fullwidth'] }}">
+  src="{{ page['header'] }}">
   </div>
 </div>
 
@@ -21,13 +21,20 @@ header:
 
 {% for image in page.images %}
 <a href="{{ image }}" class="image-ref">
-
+{% if page.captions[image] == nil %}
 <img
   src="thumbs/{{ image }}"
   data-caption="Photo by EJB"
   alt="{{ image }}"
 />
-
+{% else %}
+<img
+  src="thumbs/{{ image }}"
+  data-caption="{{ page.captions[image] }}"
+  title="{{ page.title[image] }}"
+  alt="{{ page.captions[image] }}"
+/>
+{% endif %}
 </a>
 {% endfor %}
 </div>
