@@ -4,8 +4,8 @@
 # changed Egbert from using rmagick (unsupported, memory hog) to minimagick, added exif tag titles April 2024
 
 require 'mini_magick'
-# require 'exiftool' # temp off EBR
-# require 'exiftool_vendored' # temp off EBR
+require 'exiftool'
+require 'exiftool_vendored'
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
 # $tags = 'caption-abstract.copyright'
@@ -160,8 +160,8 @@ module Jekyll
 
       # Start up exiftool just once to get all tags
       # puts "Starting Exiftool batch in path #{File.join(Dir.pwd, dir)}"
-      # temp off EBR: exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
-      # exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
+      exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
+      exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
       # result = exiftoolBatch.result_for("path/to/iPhone 4S.jpg")
       # puts exiftoolBatch.files_with_results
       # result.files_with_results
@@ -203,26 +203,26 @@ module Jekyll
               puts "Art-GalleryPage read #{image_path}..."
               if config["strip_exif"]
                 print "stripping EXIF..."
-                source_img = source_img.strip
+                source_img = source_img.strip # TODO replace by EXIFTOOL
               end
               if config["watermark"]
                 if [source_img.columns, source_img.rows].min < 600
                   print "too small to watermark"
                 else
                   print "watermarking"
-                  source_img = source_img.composite(
-                      wm_img,
-                      gravity: "south-east",
-                      offset: [-20,-20],
-                      compose: hard-light
-                    ).write(dest_image_abs_path)
+                  source_img = source_img.composite(wm_img) do |c|
+                    c.geometry "+20+20"
+                    c.gravity "SouthEast"
+                    c.compose "Over"
+                  end
+                  source_img.write dest_image_abs_path
                 end
               end
-              if config["size_limit"]
-                source_img = source_img.resize(config["size_limit"], config["size_limit"]) if (source_img.columns > config["size_limit"] || source_img.rows > config["size_limit"])
+              if config["size_limit"] and (source_img.columns > config["size_limit"] || source_img.rows > config["size_limit"])
+                source_img = source_img.resize config["size_limit"].to_s + "x" + config["size_limit"].to_s
                 # resize only if bigger than the limit
               end
-              source_img.write(dest_image_abs_path)
+              source_img.write dest_image_abs_path
               print "\n"
             rescue StandardError => e
               puts "Error reading file #{image_path}: #{e}"
@@ -260,7 +260,7 @@ module Jekyll
         else
           begin
             fullpath = Dir.pwd + "/" + image_path
-            exif = nil # exiftoolBatch.result_for(fullpath) # more efficient to start exiftool just once at start # temp off EBR:
+            exif = exiftoolBatch.result_for(fullpath) # more efficient to start exiftool just once at start # temp off EBR:
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
           end
@@ -289,7 +289,7 @@ module Jekyll
             answer = capt + ( copy == nil ? "" : ", " + copy)
           end
           if answer != nil and answer != ""
-            # puts "EXIFtool fetched tags for #{image}: #{answer}"
+            # puts "EXIFTOOL fetched tags for #{image}: #{answer}"
             self.data["captions"][dest_image] = answer
           else
             # If no caption defined, add a trimmed filename to help with SEO
@@ -343,7 +343,7 @@ module Jekyll
       puts "Thumb for header"
       makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 0, config["header_thumb_size"]["y"] || 400, "crop")
       puts "Store header data #345"
-      puts "Storing: " + "thumbs/header_"+best_image
+      puts "Store: " + "thumbs/header_"+best_image
 
       self.data["header"] = "thumbs/header_"+best_image # used in the theme ERROR HERE RUBY3 UNDEFINED
       GC.start
@@ -364,21 +364,21 @@ module Jekyll
           # m_image.send("resize_to_#{scale_method}!", max_size_x, max_size_y)
           thumbsize = thumb_x.to_s + "x" + thumb_y.to_s
           if scale_method == "crop"
-            m_image = m_image.resize(thumbsize)
-          elsif scale_method == "crop_bottom"
-              m_image = m_image.resize(thumbsize, NorthGravity)
-          elsif scale_method == "crop_right"
-              m_image = m_image.resize(thumbsize, WestGravity)
-          elsif scale_method == "crop_left"
-              m_image = m_image.resize(thumbsize, EastGravity)
-          elsif scale_method == "crop_top"
-              m_image = m_image.resize(thumbsize, SouthGravity)
-          else
-              m_image = m_image.resize(thumbsize)
+            m_image = m_image.resize thumbsize
+#           elsif scale_method == "crop_bottom"
+#               m_image = m_image.resize(thumbsize, NorthGravity)
+#           elsif scale_method == "crop_right"
+#               m_image = m_image.resize(thumbsize, WestGravity)
+#           elsif scale_method == "crop_left"
+#               m_image = m_image.resize(thumbsize, EastGravity)
+#           elsif scale_method == "crop_top"
+#               m_image = m_image.resize(thumbsize, SouthGravity)
+            else
+              m_image = m_image.resize thumbsize
             end
           # strip EXIF from thumbnails. Some browsers, notably Safari on iOS, will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
-          m_image = m_image.strip
-          m_image.write(thumb_path)
+          # m_image = m_image.strip # TODO replace by EXIFTOOL
+          m_image.write thumb_path
         rescue Exception => e
           puts "Error generating thumbnail for #{image_path}: #{e}"
           # puts e.backtrace
@@ -429,17 +429,17 @@ module Jekyll
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
             puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}"
-            puts "Art-Gall #429"
+            puts "Art-Gall #432"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
-            puts "Art-Gall #431"
+            puts "Art-Gall #434"
             gallery.render(site.layouts, site.site_payload)
-            puts "Art-Gall #433"
+            puts "Art-Gall #436"
             gallery.write(site.dest)
-            puts "Art-Gall #435"
+            puts "Art-Gall #438"
             site.pages << gallery
-            puts "Art-Gall #437"
+            puts "Art-Gall #440"
             galleries << gallery
-            puts "Art-Gall #439 - PAGE READY"
+            puts "Art-Gall #442 - PAGE READY"
           end
         end
       rescue Exception => e
