@@ -151,7 +151,7 @@ module Jekyll
       if config["watermark"]
         # load watermark image
         puts "Watermark: " + File.join(base, "assets/img", config["watermark"])
-        wm_img = MiniMagick::Image.read(File.join(base, "assets/img", config["watermark"]))
+        wm_img = MiniMagick::Image.open(File.join(base, "assets/img", config["watermark"]))
       end
 
         # process and copy images
@@ -203,14 +203,14 @@ module Jekyll
               puts "Art-GalleryPage read #{image_path}..."
               if config["strip_exif"]
                 print "stripping EXIF..."
-                source_img = source_img.strip # TODO replace by EXIFTOOL
+                source_img.strip
               end
               if config["watermark"]
                 if [source_img.columns, source_img.rows].min < 600
                   print "too small to watermark"
                 else
                   print "watermarking"
-                  source_img = source_img.composite(wm_img) do |c|
+                  source_img.composite(wm_img) do |c|
                     c.geometry "+20+20"
                     c.gravity "SouthEast"
                     c.compose "Over"
@@ -219,7 +219,7 @@ module Jekyll
                 end
               end
               if config["size_limit"] and (source_img.columns > config["size_limit"] || source_img.rows > config["size_limit"])
-                source_img = source_img.resize config["size_limit"].to_s + "x" + config["size_limit"].to_s
+                source_img.resize config["size_limit"].to_s + "x" + config["size_limit"].to_s
                 # resize only if bigger than the limit
               end
               source_img.write dest_image_abs_path
@@ -358,26 +358,25 @@ module Jekyll
       FileUtils.mkdir_p(thumbs_dir, :mode => 0755)
       if File.file?(thumb_path) == false or File.mtime(image_path) > File.mtime(thumb_path)
         begin
-          # puts "Starting thumbnail for #{image_path}"
           m_image = MiniMagick::Image.open(image_path)
+          puts "Art-Gall resizing image: " + m_image.path
           # m_image.auto_orient!
-          # m_image.send("resize_to_#{scale_method}!", max_size_x, max_size_y)
           thumbsize = thumb_x.to_s + "x" + thumb_y.to_s
           if scale_method == "crop"
-            m_image = m_image.resize thumbsize
+            m_image.resize thumbsize
 #           elsif scale_method == "crop_bottom"
-#               m_image = m_image.resize(thumbsize, NorthGravity)
+#               m_image.resize(thumbsize, NorthGravity)
 #           elsif scale_method == "crop_right"
-#               m_image = m_image.resize(thumbsize, WestGravity)
+#               m_image.resize(thumbsize, WestGravity)
 #           elsif scale_method == "crop_left"
-#               m_image = m_image.resize(thumbsize, EastGravity)
+#               m_image.resize(thumbsize, EastGravity)
 #           elsif scale_method == "crop_top"
-#               m_image = m_image.resize(thumbsize, SouthGravity)
+#               m_image.resize(thumbsize, SouthGravity)
             else
-              m_image = m_image.resize thumbsize
+              m_image.resize thumbsize
             end
           # strip EXIF from thumbnails. Some browsers, notably Safari on iOS, will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
-          # m_image = m_image.strip # TODO replace by EXIFTOOL
+          m_image.strip
           m_image.write thumb_path
         rescue Exception => e
           puts "Error generating thumbnail for #{image_path}: #{e}"
