@@ -345,7 +345,7 @@ module Jekyll
       puts "Store header data #345"
       puts "Store: " + "thumbs/header_"+best_image
 
-      self.data["header"] = "thumbs/header_"+best_image # used in the theme ERROR HERE RUBY3 UNDEFINED
+      self.data["header"] = "thumbs/header_"+best_image # used in the theme ERROR HERE RUBY3 UNDEFINED with ["fullwidth"]
       GC.start
     end
 
