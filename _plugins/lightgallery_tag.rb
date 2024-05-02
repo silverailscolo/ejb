@@ -89,6 +89,7 @@ module Jekyll
       gallery << "    dynamic: true,"
       gallery << "    hash: false,"
       gallery << "    closable: false,"
+      gallery << "    showMaximizeIcon: true,"
       gallery << "    appendSubHtmlTo: '.lg-item',"
       gallery << "    slideDelay: 100,"
       gallery << "    speed: 500,"
