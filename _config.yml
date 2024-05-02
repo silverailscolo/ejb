@@ -349,7 +349,7 @@ exclude_from_localization:
   - "assets/img/trains2"
   - "assets/img/trains2/prototype"
   - "assets/img/tuin"
-  - "assets/img-noresample/*"
+  - "assets/img-noresample/"
   - "assets/img-noresample/astyle"
   - "assets/img-noresample/avenue2"
   - "assets/img-noresample/beercaps"
