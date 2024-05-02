@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2024 Olivier Pieters <https://olivierpieters.be>
+#
+# SPDX-License-Identifier: BSD-3-Clause
 #!/usr/bin/env python
 
 # install imagesize: pip install imagesize pyyaml # DONE egbert 10-03-2024 on iMac
