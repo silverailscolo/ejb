@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2022 Maruan Al-Shedivat <https://github.com/george-gca/multi-language-al-folio>
+#
+# SPDX-License-Identifier: MIT
 #!/bin/bash
 
 CONFIG_FILE=_config.yml 

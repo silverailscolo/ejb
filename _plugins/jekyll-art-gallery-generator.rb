@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 ggreer
+#
+# SPDX-License-Identifier: MIT
+
 # Jekyll art gallery generator plugin
 # Distributed under MIT license with attribution
 # sourced from https://github.com/ggreer/jekyll-gallery-generator
@@ -117,23 +121,23 @@ module Jekyll
       gallery_config = galleries[gallery_name.downcase] || {}
       puts "Generating Art-Gallery '#{gallery_name}'" # between HERE and...
       sort_field = config["sort_field"] || "name"
-      puts "Art-Gall read #120"
-      self.process(@name)
-      puts "Art-Gall read #122"
-      gallery_page = File.join(base, "_layouts/art_gallery_page.html")
       puts "Art-Gall read #124"
+      self.process(@name)
+      puts "Art-Gall read #126 base=#{base}"
+      gallery_page = File.join(base, "_layouts/art_gallery_page.html")
+      puts "Art-Gall read #128 gallery_page=#{gallery_page}"
       unless File.exist?(gallery_page)
-        puts "Art-Gall read #126"
+        puts "Art-Gall #130 not exists"
         gallery_page = File.join(File.dirname(__FILE__), "art_gallery_page.html")
-        puts "Art-Gall read #128"
+        puts "Art-Gall read #132 gallery_page=#{gallery_page}"
       end
-      puts "Art-Gall read #130"
-      self.read_yaml(File.dirname(gallery_page), File.basename(gallery_page))
-      puts "Art-Gall read #132"
-      self.data["gallery"] = gallery_name # aka folder name
       puts "Art-Gall read #134"
-      self.data["description"] = gallery_config["description"]  || "" #...HERE an error reading on github, runs OK locally
+      self.read_yaml(File.dirname(gallery_page), File.basename(gallery_page))
       puts "Art-Gall read #136"
+      self.data["gallery"] = gallery_name # aka folder name
+      puts "Art-Gall read #138"
+      self.data["description"] = gallery_config["description"]  || "" #...HERE an error reading on github, runs OK locally
+      puts "Art-Gall read #140"
       # prettify gallery name if not set
       gallery_name = gallery_name.gsub("_", " ").gsub(/\w+/) {|word| word.capitalize}
       gallery_name = gallery_config["title"] || gallery_name
@@ -299,6 +303,7 @@ module Jekyll
         end
         # remember the image
         @images.push(dest_image)
+        puts "Pushed image #{dest_image}"
         @site.static_files << GalleryFile.new(site, base, @dir, dest_image)
 
         # make a thumbnail
@@ -342,7 +347,7 @@ module Jekyll
       # generate best image thumb for the header of a gallery index page
       puts "Thumb for header"
       makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 0, config["header_thumb_size"]["y"] || 400, "crop")
-      puts "Store header data #345"
+      puts "Store header data #349"
       puts "Store: " + "thumbs/header_"+best_image
 
       self.data["header"] = "thumbs/header_"+best_image # used in the theme ERROR HERE RUBY3 UNDEFINED with ["fullwidth"]
@@ -353,13 +358,14 @@ module Jekyll
       # create thumbnail if it is not there
       thumbs_dir = File.join(site.dest, @dir, "thumbs")
       thumb_path = File.join(thumbs_dir, dest_image)
+      puts "thumb_path=#{thumb_path} (site.dest=#{site.dest})"
 
       # create thumbnails
       FileUtils.mkdir_p(thumbs_dir, :mode => 0755)
       if File.file?(thumb_path) == false or File.mtime(image_path) > File.mtime(thumb_path)
         begin
+          puts "Art-Gall resizing image. image_path=#{image_path}"
           m_image = MiniMagick::Image.open(image_path)
-          puts "Art-Gall resizing image: " + m_image.path
           # m_image.auto_orient!
           thumbsize = thumb_x.to_s + "x" + thumb_y.to_s
           if scale_method == "crop"
@@ -377,6 +383,7 @@ module Jekyll
             end
           # strip EXIF from thumbnails. Some browsers, notably Safari on iOS, will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
           m_image.strip
+          puts "Art-Gall writing thumb to thumb_path=#{thumb_path}"
           m_image.write thumb_path
         rescue Exception => e
           puts "Error generating thumbnail for #{image_path}: #{e}"
@@ -428,17 +435,17 @@ module Jekyll
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
             puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}"
-            puts "Art-Gall #432"
+            puts "Art-Gall #435 site.source=#{site.source}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
-            puts "Art-Gall #434"
+            puts "Art-Gall #437"
             gallery.render(site.layouts, site.site_payload)
-            puts "Art-Gall #436"
+            puts "Art-Gall #439"
             gallery.write(site.dest)
-            puts "Art-Gall #438"
+            puts "Art-Gall #441"
             site.pages << gallery
-            puts "Art-Gall #440"
+            puts "Art-Gall #443"
             galleries << gallery
-            puts "Art-Gall #442 - PAGE READY"
+            puts "Art-Gall #445 - PAGE READY"
           end
         end
       rescue Exception => e
