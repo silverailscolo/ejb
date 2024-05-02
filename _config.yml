@@ -333,7 +333,7 @@ default_lang: "en-us"
 exclude_from_localization:
   - "assets/*"
   - "assets/art_gallery/"
-  - "assets/art_gallery/photos"
+  - "assets/art_gallery/drawings"
   - "assets/art_gallery/sketches"
   - "assets/img/*"
   - "assets/img/architect/*"

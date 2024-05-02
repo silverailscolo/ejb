@@ -434,7 +434,7 @@ module Jekyll
         Dir.foreach(dir) do |gallery_dir|
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
-            puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}"
+            puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}'"
             puts "Art-Gall #435 site.source=#{site.source}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
             puts "Art-Gall #437"
