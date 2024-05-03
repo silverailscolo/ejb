@@ -5,14 +5,16 @@
 # Jekyll art gallery generator plugin
 # Distributed under MIT license with attribution
 # sourced from https://github.com/ggreer/jekyll-gallery-generator
-# changed Egbert from using rmagick (unsupported, memory hog) to MiniMagick, added exiftool tag titles April 2024
+# updated EJ Broerse from using rmagick gem (unsupported, memory hog) to MiniMagick, added exiftool tag titles April 2024
+# Note 1: img filenames are normalized/lowercase space > _ and larger images resized, so this plug-in may
+# conflict with Generators that plainly copy files to _site/assets
+# Note 2: polyglot will duplicate pages and assets to secondary language dirs, acceptable to make relative links work
 
 require 'mini_magick'
 require 'exiftool'
 require 'exiftool_vendored'
 
 $image_extensions = [".png", ".jpg", ".jpeg", ".gif"]
-# $tags = 'caption-abstract.copyright'
 
 module Jekyll
   class GalleryFile < StaticFile
@@ -48,7 +50,6 @@ module Jekyll
       @name = "index.html"
       # load gallery configs from the _data/art_gallery.yml file
       config = site.data["art_gallery"] || {}
-      puts "Art-GalleryIndex base=#{base}, dir=#{dir}"
 
       self.process(@name)
       gallery_index = File.join(base, "_layouts", "art_gallery_index.html")
@@ -100,7 +101,6 @@ module Jekyll
       @site = site
       @base = base
       #source_dir=dir
-      puts "Art-GalleryPage base=#{base}, dir=#{dir}"
 
       @dir = dir.gsub(/^_/, "").gsub(/[^0-9A-Za-z.\\\-\/]/, '_').downcase
       # destination dir, same as source without the leading underscore. web compatible
@@ -119,25 +119,16 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      puts "Generating Art-Gallery '#{gallery_name}'" # between HERE and...
+      # puts "Generating Art-Gallery '#{gallery_name}'"
       sort_field = config["sort_field"] || "name"
-      puts "Art-Gall read #124"
       self.process(@name)
-      puts "Art-Gall read #126 base=#{base}"
       gallery_page = File.join(base, "_layouts/art_gallery_page.html")
-      puts "Art-Gall read #128 gallery_page=#{gallery_page}"
       unless File.exist?(gallery_page)
-        puts "Art-Gall #130 not exists"
         gallery_page = File.join(File.dirname(__FILE__), "art_gallery_page.html")
-        puts "Art-Gall read #132 gallery_page=#{gallery_page}"
       end
-      puts "Art-Gall read #134"
       self.read_yaml(File.dirname(gallery_page), File.basename(gallery_page))
-      puts "Art-Gall read #136"
       self.data["gallery"] = gallery_name # aka folder name
-      puts "Art-Gall read #138"
       self.data["description"] = gallery_config["description"]  || "" #...HERE an error reading on github, runs OK locally
-      puts "Art-Gall read #140"
       # prettify gallery name if not set
       gallery_name = gallery_name.gsub("_", " ").gsub(/\w+/) {|word| word.capitalize}
       gallery_name = gallery_config["title"] || gallery_name
@@ -163,15 +154,9 @@ module Jekyll
       date_times = {}
 
       # Start up exiftool just once to get all tags
-      # puts "Starting Exiftool batch in path #{File.join(Dir.pwd, dir)}"
       exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
       exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftoolBatch")
-      # result = exiftoolBatch.result_for("path/to/iPhone 4S.jpg")
       # puts exiftoolBatch.files_with_results
-      # result.files_with_results
-      # => {:make => "Apple", :gps_longitude => -122.47566667, …
-      # result[:gps_longitude]
-      # => -122.47566667
 
       Dir.foreach(dir) do |image|
         next if image.chars.first == "." # skip invisible files
@@ -197,16 +182,13 @@ module Jekyll
         # cleanup, watermark and copy the files
         # Strip out the non-ascii character and downcase the final file name
         dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
-        puts "Art-Gallery processing dest_image = #{dest_image}"
         # NOTE: a second copy without downcase is put in the same place (error + dead link on linux)
         dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
           if config["strip_exif"] or config["watermark"] or config["size_limit"]
             # can't simply copy or symlink, need to pre-process the image
-            # puts "Art-GalleryPage generating #{dest_image}..."
             begin
               source_img = ::MiniMagick::Image.open(image_path)
-              puts "Art-GalleryPage read #{image_path}..."
               if config["strip_exif"]
                 print "stripping EXIF..."
                 source_img.strip
@@ -229,7 +211,6 @@ module Jekyll
                 # resize only if bigger than the limit
               end
               source_img.write dest_image_abs_path
-              puts "Art-GalleryPage wrote image to #{dest_image_abs_path}"
               print "\n"
             rescue StandardError => e
               puts "Error reading image file #{image_path}: #{e}"
@@ -297,17 +278,14 @@ module Jekyll
             answer = capt + ( copy == nil ? "" : ", " + copy)
           end
           if answer != nil and answer != ""
-            # puts "EXIFTOOL fetched tags for #{image}: #{answer}"
             self.data["captions"][dest_image] = answer
           else
             # If no caption defined, add a trimmed filename to help with SEO
             self.data["captions"][dest_image] = File.basename(image, File.extname(image)).gsub("_", " ")
-            # puts "Added filename as caption"
           end
         end
         # remember the image
         @images.push(dest_image)
-        puts "Pushed image #{dest_image}"
         @site.static_files << GalleryFile.new(site, base, @dir, dest_image)
 
         # make a thumbnail
@@ -342,17 +320,12 @@ module Jekyll
       best_image.gsub!(/[^0-9A-Za-z.\-]/, '_') # renormalize the name - important in case the best image name is specified via config
       best_image.downcase! # two step because mutating gsub returns nil that's unusable in a compound call
       self.data["best_image"] = best_image
-      # puts best_image
 
       # generate best image thumb for the gallery front super-index page
-      puts "Thumb for front"
       makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "front_"+best_image, config["front_thumb_size"]["x"] || 400, config["front_thumb_size"]["y"] || 400, "crop")
 
       # generate best image thumb for the header of a gallery index page
-      puts "Thumb for header"
       makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 0, config["header_thumb_size"]["y"] || 400, "crop")
-      puts "Store header data #349"
-      puts "Store: " + "thumbs/header_"+best_image
 
       self.data["header"] = "thumbs/header_"+best_image # used in the theme ERROR HERE RUBY3 UNDEFINED with ["fullwidth"]
       GC.start
@@ -362,7 +335,6 @@ module Jekyll
       # create thumbnail if it is not there
       thumbs_dir = File.join(site.dest, @dir, "thumbs")
       thumb_path = File.join(thumbs_dir, dest_image)
-      puts "thumb_path=#{thumb_path} (site.dest=#{site.dest})"
 
       # create thumbnails
       FileUtils.mkdir_p(thumbs_dir, :mode => 0755)
@@ -387,7 +359,6 @@ module Jekyll
             end
           # strip EXIF from thumbnails. Some browsers, notably Safari on iOS, will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
           m_image.strip
-          puts "Art-Gall writing thumb to thumb_path=#{thumb_path}"
           m_image.write thumb_path
         rescue Exception => e
           puts "Error generating thumbnail for #{image_path}: #{e}"
@@ -438,18 +409,11 @@ module Jekyll
         Dir.foreach(dir) do |gallery_dir|
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
-            puts "Art-Gallery starts generating gallery '#{gallery_path}', baseurl '#{site.baseurl}'"
-            puts "Art-Gall #435 site.source=#{site.source}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
-            puts "Art-Gall #437"
             gallery.render(site.layouts, site.site_payload)
-            puts "Art-Gall #439"
             gallery.write(site.dest)
-            puts "Art-Gall #441"
             site.pages << gallery
-            puts "Art-Gall #443"
             galleries << gallery
-            puts "Art-Gall #445 - PAGE READY"
           end
         end
       rescue Exception => e
