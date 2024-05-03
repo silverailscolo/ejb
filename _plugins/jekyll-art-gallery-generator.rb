@@ -5,7 +5,7 @@
 # Jekyll art gallery generator plugin
 # Distributed under MIT license with attribution
 # sourced from https://github.com/ggreer/jekyll-gallery-generator
-# changed Egbert from using rmagick (unsupported, memory hog) to minimagick, added exif tag titles April 2024
+# changed Egbert from using rmagick (unsupported, memory hog) to MiniMagick, added exiftool tag titles April 2024
 
 require 'mini_magick'
 require 'exiftool'
@@ -155,7 +155,7 @@ module Jekyll
       if config["watermark"]
         # load watermark image
         puts "Watermark: " + File.join(base, "assets/img", config["watermark"])
-        wm_img = MiniMagick::Image.open(File.join(base, "assets/img", config["watermark"]))
+        wm_img = ::MiniMagick::Image.open(File.join(base, "assets/img", config["watermark"]))
       end
 
         # process and copy images
@@ -165,7 +165,7 @@ module Jekyll
       # Start up exiftool just once to get all tags
       # puts "Starting Exiftool batch in path #{File.join(Dir.pwd, dir)}"
       exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
-      exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftool result")
+      exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftoolBatch")
       # result = exiftoolBatch.result_for("path/to/iPhone 4S.jpg")
       # puts exiftoolBatch.files_with_results
       # result.files_with_results
@@ -174,11 +174,11 @@ module Jekyll
       # => -122.47566667
 
       Dir.foreach(dir) do |image|
-        next if image.chars.first == "."
-        next unless image.downcase().end_with?(*$image_extensions)
+        next if image.chars.first == "." # skip invisible files
+        next unless image.downcase().end_with?(*$image_extensions) # skip non-image files
 
         image_path = File.join(dir, image) # source image short path
-        # puts "Art-Gallery processing image: #{image_path} (1)"
+        puts "Art-Gallery processing image: #{image_path} (1)" # not yet normalized
 
         # extract timestamp
         if sort_field == "timestamp"
@@ -197,39 +197,42 @@ module Jekyll
         # cleanup, watermark and copy the files
         # Strip out the non-ascii character and downcase the final file name
         dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
+        puts "Art-Gallery processing dest_image = #{dest_image}"
+        # NOTE: a second copy without downcase is put in the same place (error + dead link on linux)
         dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
         if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
           if config["strip_exif"] or config["watermark"] or config["size_limit"]
-          # can't simply copy or symlink, need to pre-process the image
+            # can't simply copy or symlink, need to pre-process the image
             # puts "Art-GalleryPage generating #{dest_image}..."
             begin
-              source_img = MiniMagick::Image.read(image_path)
+              source_img = ::MiniMagick::Image.open(image_path)
               puts "Art-GalleryPage read #{image_path}..."
               if config["strip_exif"]
                 print "stripping EXIF..."
                 source_img.strip
               end
               if config["watermark"]
-                if [source_img.columns, source_img.rows].min < 600
+                if [source_img.width, source_img.height].min < 600
                   print "too small to watermark"
                 else
                   print "watermarking"
                   source_img.composite(wm_img) do |c|
-                    c.geometry "+20+20"
+                    c.geometry "-20-20"
                     c.gravity "SouthEast"
                     c.compose "Over"
                   end
-                  source_img.write dest_image_abs_path
+                  # source_img.write dest_image_abs_path # write in line #231 too?
                 end
               end
-              if config["size_limit"] and (source_img.columns > config["size_limit"] || source_img.rows > config["size_limit"])
+              if config["size_limit"] and (source_img.width > config["size_limit"] || source_img.height > config["size_limit"])
                 source_img.resize config["size_limit"].to_s + "x" + config["size_limit"].to_s
                 # resize only if bigger than the limit
               end
               source_img.write dest_image_abs_path
+              puts "Art-GalleryPage wrote image to #{dest_image_abs_path}"
               print "\n"
             rescue StandardError => e
-              puts "Error reading file #{image_path}: #{e}"
+              puts "Error reading image file #{image_path}: #{e}"
               # file_name
             end
           elsif symlink
@@ -254,17 +257,18 @@ module Jekyll
             end
             print "\n"
           else
-            # puts "Copying #{image_path} to #{dest_image}..."
-            FileUtils.cp(image_path,dest_image_abs_path)
+            puts "Copying #{image_path} to #{dest_image}..."
+            FileUtils.cp(image_path, dest_image_abs_path)
           end
         end
+
         # Add file descriptions if defined
         if gallery_config.has_key?(image)
           self.data["captions"][dest_image] = gallery_config[image]
         else
           begin
-            fullpath = Dir.pwd + "/" + image_path
-            exif = exiftoolBatch.result_for(fullpath) # more efficient to start exiftool just once at start # temp off EBR:
+            fullpath = Dir.pwd + "/" + image_path # using original file name, so non-normalized
+            exif = exiftoolBatch.result_for(fullpath) # more efficient to start exiftool just once at start
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
           end
@@ -365,7 +369,7 @@ module Jekyll
       if File.file?(thumb_path) == false or File.mtime(image_path) > File.mtime(thumb_path)
         begin
           puts "Art-Gall resizing image. image_path=#{image_path}"
-          m_image = MiniMagick::Image.open(image_path)
+          m_image = ::MiniMagick::Image.open(image_path)
           # m_image.auto_orient!
           thumbsize = thumb_x.to_s + "x" + thumb_y.to_s
           if scale_method == "crop"
