@@ -103,6 +103,7 @@ module Jekyll
               end
             end
           end
+          answer.gsub(/"/, "") # strip quotes from answer to protect html
         else
           tags = tag.split('.')
           answer = ""

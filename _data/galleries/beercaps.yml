@@ -1072,15 +1072,18 @@ pictures:
   - 20220319181749-04e43edc-240x240.jpg
   thumbnail: 20220319181749-04e43edc-120x120.jpg
   title: ''
-- caption: ' <br>CC BY-NC-SA 4.0'
+- caption: Screenshot <br>CC BY-NC-SA 4.0
   filename: Dors_IMG_9744
   original: Dors_IMG_9744-480x512.jpg
-  sizes: []
-  thumbnail: Dors_IMG_9744-480x512.jpg
+  sizes:
+  - Dors_IMG_9744-120x128.jpeg
+  - Dors_IMG_9744-225x240.jpeg
+  thumbnail: Dors_IMG_9744-120x128.jpeg
   title: ''
 - caption: ' <br>CC BY-NC-SA 4.0'
   filename: Texels_00_IMG_9889
   original: Texels_00_IMG_9889-178x180.jpg
-  sizes: []
-  thumbnail: Texels_00_IMG_9889-178x180.jpg
+  sizes:
+  - Texels_00_IMG_9889-119x120.jpeg
+  thumbnail: Texels_00_IMG_9889-119x120.jpeg
   title: ''
