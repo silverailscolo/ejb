@@ -119,7 +119,7 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      # puts "Generating Art-Gallery '#{gallery_name}'"
+      puts "Generating Art-Gallery '#{gallery_name}'"
       sort_field = config["sort_field"] || "name"
       self.process(@name)
       gallery_page = File.join(base, "_layouts/art_gallery_page.html")
@@ -155,7 +155,7 @@ module Jekyll
 
       # Start up exiftool just once to get all tags
       exiftoolBatch = Exiftool.new(Dir["#{File.join(Dir.pwd, dir)}/*.*"]) # we are in original_dir
-      exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftoolBatch")
+      # exiftoolBatch == nil ? (puts "nil exiftool result") : (puts "nonnull exiftoolBatch")
       # puts exiftoolBatch.files_with_results
 
       Dir.foreach(dir) do |image|
@@ -163,7 +163,7 @@ module Jekyll
         next unless image.downcase().end_with?(*$image_extensions) # skip non-image files
 
         image_path = File.join(dir, image) # source image short path
-        puts "Art-Gallery processing image: #{image_path} (1)" # not yet normalized
+        # puts "Art-Gallery processing image: #{image_path} (1)" # not yet normalized
 
         # extract timestamp
         if sort_field == "timestamp"
@@ -340,7 +340,6 @@ module Jekyll
       FileUtils.mkdir_p(thumbs_dir, :mode => 0755)
       if File.file?(thumb_path) == false or File.mtime(image_path) > File.mtime(thumb_path)
         begin
-          puts "Art-Gall resizing image. image_path=#{image_path}"
           m_image = ::MiniMagick::Image.open(image_path)
           # m_image.auto_orient!
           thumbsize = thumb_x.to_s + "x" + thumb_y.to_s

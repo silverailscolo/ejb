@@ -92,18 +92,17 @@ module Jekyll
         if (tag == "caption-cascade")
           answer = exif[:"description"] # XMP Caption field
           if answer == nil
-          answer = exif[:"caption-abstract"] # IPTC Caption field
+            answer = exif[:"caption-abstract"] # IPTC Caption field
             if answer == nil
               answer = exif[:"UserComment"] # in use for trains2 images
               if answer == nil
-                answer = exif[:"ImageDescription"] # EXIF
+                answer = exif[:"Image_Description"] # EXIF
                 if answer == nil
                   answer = exif[:"Comment"] # EXIF
                 end
               end
             end
           end
-          answer.gsub(/"/, "") # strip quotes from answer to protect html
         else
           tags = tag.split('.')
           answer = ""
@@ -114,6 +113,7 @@ module Jekyll
         end
 
         if answer != nil and answer != ""
+          answer.gsub(/"/, "") # strip quotes from answer to protect html
           # puts "EXIFtool fetched tag #{tag} for image #{img}: #{answer}"
           return answer.force_encoding("UTF-8")
         else

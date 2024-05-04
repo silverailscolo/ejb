@@ -6,7 +6,7 @@
 {% assign year = include.date_from.date | date: '%Y' %}
 
 {% comment %}
-  Here, add language specific date formats
+  Here, add language specific date formats. Line 1 is a default, names read from data
 {% endcomment %}
 
 {% if site.active_lang == 'en-us' %}
@@ -14,6 +14,8 @@
   {{ day }}, {{ year }}
 {% elsif site.active_lang == 'pt-br' %}
   {{ day }} de {{ month }}, {{ year }}
+{% elsif site.active_lang == 'de' %}
+  {{ day }}. {{ month }} {{ year }}
 {% else %}
   {{ day }}
   {{ month }}

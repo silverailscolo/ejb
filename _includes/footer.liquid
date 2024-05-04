@@ -20,13 +20,13 @@
       {{ site.first_name }}
       {{ site.middle_name }}
       {{ site.last_name }}. {{ site.data[site.active_lang].strings.footer_text }}
-<a href="{{ site.url }}{{ site.baseurl }}/assets/img/by-nc-sa.png"><img decoding="async" loading="lazy" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" width="117" height="41" alt="CC BY-NC-SA 4.0" style="float: right;"></a>
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img decoding="async" loading="lazy" src="{{ site.url }}{{ site.baseurl }}/assets/img/by-nc-sa.png" width="117" height="41" alt="CC BY-NC-SA 4.0" style="float: right;"></a>
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
       {% if site.last_updated %}
         <br>
-        {{ site.data[site.active_lang].strings.last_updated }}: {{ 'now' | date: site.data[site.active_lang].strings.date_format }}
+        {{ site.data[site.active_lang].strings.last_updated }}: {{ page.date | date : include date_format }}
       {% endif %}
     </div>
   </footer>
