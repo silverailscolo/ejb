@@ -19,8 +19,7 @@ related_posts:
   description: "Deze stukjes zijn misschien ook interessant:"
   title: Verder lezen?
 references: Referenties
-date_format: "%-e %b %Y"
-months:
+months: # used in liquid include date_format filter
   long:
     january: januari
     february: februari
