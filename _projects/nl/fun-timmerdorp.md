@@ -3,7 +3,7 @@ page_id: timmerdorp
 layout: project
 lang: nl
 title: Timmerdorp
-description: Vakantie-activiteit voor kinderen 12 jaar
+description: Vakantie-activiteit voor kinderen 8-12 jaar
 img: assets/img/architect/timmerdorp/header.png
 importance: 3
 category: fun
@@ -17,3 +17,6 @@ carousels:
 Periode: 2023-2024
 
 Rol: vrijwilliger
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+<!-- inline slider -->

@@ -20,7 +20,7 @@ Periode: 2017-2020
 Modulair geprefabriceerde voetgangersbrug, 14 m breed, 140 m lang boven dienstweg "airside" op luchthaven Schiphol.
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
-<!-- test inline slider -->
+<!-- inline slider -->
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <div class="row">

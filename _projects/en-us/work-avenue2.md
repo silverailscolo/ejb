@@ -24,7 +24,7 @@ Role: Spatial Design team lead, project architect 25 civil structures and 2 tunn
 Employer: Consortium Avenue2 (Ballast Nedam & Strukton)
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
-<!-- test inline slider -->
+<!-- inline slider -->
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <div class="row">

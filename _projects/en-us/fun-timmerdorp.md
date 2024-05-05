@@ -17,3 +17,6 @@ carousels:
 Period: 2023-2024
 
 Role: volunteer
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+<!-- inline slider -->

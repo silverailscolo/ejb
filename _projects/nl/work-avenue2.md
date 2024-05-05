@@ -22,7 +22,7 @@ Rol: Ontwerpleider team ruimtelijk ontwerp, projectarchitect 25 kunstwerken en 2
 Opdrachtgever: Consortium Avenue2 (Ballast Nedam & Strukton)
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
-<!-- test inline slider -->
+<!-- inline slider -->
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <div class="row">
