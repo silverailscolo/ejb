@@ -15,7 +15,7 @@ layout: default
     <img alt="{{ page.title }}" src="{{ site.baseurl }}/assets/img/rostercovers/{{ page.picture }}" />
     <figcaption><em>{{ page.mfg }} - {{ page.roster-id }}</em></figcaption>
   </figure>
-  {% else %} Image unavailable {% endif %}
+  {% else %}{{ site.data[site.active_lang].strings.rollingstock.no-image }}{% endif %}
   <ul>
     <li>Road name: {{ page.roadName }}</li>
     <li>DCC address: {{ page.dccAddress }}</li>

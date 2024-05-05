@@ -26,8 +26,8 @@ locoaddress:
   protocol: dcc_short
 mfg: Atlas
 model: GP7
-owner: Egbert Broerse
-# picture: SF_GP7_99.jpg
+owner: ""
+picture: SF_GP7_99.jpg
 roadName: Santa Fe
 roadNumber: "99"
 roster-id: SF GP7 99
@@ -35,4 +35,4 @@ soundlabels: null
 year: 2024
 ---
 
-preowned aq. 6/2004.Given away as gift 2022.
+preowned aq. 6/2004. Given away as gift 2022.

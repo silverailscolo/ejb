@@ -117,5 +117,6 @@ rollingstock:
   acquired: aangeschaft
   next-item: Volgende item
   prev-item: Vorige item
+  no-image: Geen afbeelding beschikbaar
 galleries:
   no-gall: Geen foto-galerijen gedefinieerd in \_data/galleries/overview.yml

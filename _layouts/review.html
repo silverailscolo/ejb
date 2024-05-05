@@ -27,7 +27,7 @@ layout: default
       {{ site.data[site.active_lang].strings.books.cover-of }} <em>{{ page.title }}</em> {{ site.data[site.active_lang].strings.books.cover-from }}
       <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
     </figcaption>
-    {% endif %}
+    {% else %}{{ site.data[site.active_lang].strings.rollingstock.no-image }}{% endif %}
   </figure>
 
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
