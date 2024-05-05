@@ -117,5 +117,6 @@ rollingstock:
   acquired: acquired
   next-item: Next item
   prev-item: Previous item
+  no-image: Image unavailable
 galleries:
   no-gall: No galleries defined in \_data/galleries/overview.yml

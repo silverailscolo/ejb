@@ -43,16 +43,16 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 <p>Om mijn ervaring met circulair bouwen te delen, schreef ik in het Actieteam mee aan de <em>Leidraad Circulair Ontwerpen</em> van <a href="https://platformcb23.nl">Platform CB'23</a>.</p>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
-<figure><img src='{{ "/assets/img/architect/BR11/BR11_Bouwbord.png" | relative_url }}' alt='Bouwbord 2021' class='img-fluid' >
+<figure><img src='{{ "/assets/img/architect/br11/BR11_Bouwbord.png" | relative_url }}' alt='Bouwbord 2021' class='img-fluid' >
 <figcaption class="kleiner">Bouwpartners restauratie 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Voorgevel woonhuis BR11, aug 2021' class='img-fluid'>
+<figure><img src='{{ "/assets/img/architect/br11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Voorgevel woonhuis BR11, aug 2021' class='img-fluid'>
 <figcaption class="kleiner">Project 2021-2022: restauratie woonhuis BR11 te Dwingeloo (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_3774.jpg" | relative_url }}' alt='Herstel en isolatielaag schuin dak' class='img-fluid' >
+<figure><img src='{{ "/assets/img/architect/br11/IMG_3774.jpg" | relative_url }}' alt='Herstel en isolatielaag schuin dak' class='img-fluid' >
 <figcaption class="kleiner">Herstel en isolatielaag schuin dak (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_1165.jpg" | relative_url }}' alt='Afwerking dak met hergebruikte schroten' class='img-fluid' >
+<figure><img src='{{ "/assets/img/architect/br11/IMG_1165.jpg" | relative_url }}' alt='Afwerking dak met hergebruikte schroten' class='img-fluid' >
 <figcaption class="kleiner">Afwerking dak met hergebruikte schroten uit Friesland (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div><!-- sluit tegel af -->
 

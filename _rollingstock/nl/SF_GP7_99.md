@@ -26,10 +26,11 @@ locoaddress:
 mfg: Atlas
 model: GP7
 owner: ""
+picture: SF_GP7_99.jpg
 roadName: Santa Fe
 roadNumber: "99"
 roster-id: "SF GP7 #99"
 year: 2024
 ---
 
-preowned acq. 6/2004
+gebruikt, aankoop 6/2004. Als cadeau weggegeven 2022.

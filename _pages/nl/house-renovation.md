@@ -12,4 +12,4 @@ Over de circulaire, biobased renovation/restauratie van ons huis (2021-2022)
 De klussen aan ons eerste huis (1995-2020) staan [hier](ms15.html).
 
 <!-- simply so (by Jimmy_Xiao) -->
-{% include album.html albumname="BR11" %}
+{% include album.html albumname="br11" %}

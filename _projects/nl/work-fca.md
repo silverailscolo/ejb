@@ -4,14 +4,14 @@ layout: project
 lang: nl
 title: Food Center Amsterdam
 description: Ondersteuning transformatie veilingterrein
-img:
+img: assets/img/architect/fca/header.png
 importance: 3
 category: work
 ---
 
 Periode: 2016
 
-Rol: projectcoördinatie, planning, architonisch en stedebouwkundig visualis. met GIS/PR/Revit
+Rol: projectcoördinatie, planning, architectonisch en stedebouwkundig visualis. met GIS/PR/Revit
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <div class="row">

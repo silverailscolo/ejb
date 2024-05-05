@@ -48,16 +48,16 @@ I stay involved hands-on in all projects during the execution phase, to make sur
 To share my experience with circular design and construction, I co-wrote as member of the Action Team for [Platform CB'23's Guide on Circular Design](https://platformcb23.nl).
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
-<figure><img src='{{ "/assets/img/architect/BR11/BR11_Bouwbord.png" | relative_url }}' alt='Sign 2021' class='img-fluid' >
+<figure><img src='{{ "/assets/img/architect/br11/BR11_Bouwbord.png" | relative_url }}' alt='Sign 2021' class='img-fluid' >
 <figcaption class="kleiner">Partners restauration project 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Front facade villa BR11, aug 2021' class='img-fluid'>
+<figure><img src='{{ "/assets/img/architect/br11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Front facade villa BR11, aug 2021' class='img-fluid'>
 <figcaption class="kleiner">Project 2021-2022: restored villa BR11 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_3774.jpg" | relative_url }}' alt='Repair and insulation of sloped roof, interior view' class='img-fluid' >
+<figure><img src='{{ "/assets/img/architect/br11/IMG_3774.jpg" | relative_url }}' alt='Repair and insulation of sloped roof, interior view' class='img-fluid' >
 <figcaption class="kleiner">Repair and insulation of sloped roof (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/architect/BR11/IMG_1165.jpg" | relative_url }}' alt='Inside the roof is decorated with second hand boards' class='img-fluid' >
+<figure><img src='{{ "/assets/img/architect/br11/IMG_1165.jpg" | relative_url }}' alt='Inside the roof is decorated with second hand boards' class='img-fluid' >
 <figcaption class="kleiner">Inside the roof is decorated with second hand boards from Friesland (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div><!-- sluit tegel af -->
 

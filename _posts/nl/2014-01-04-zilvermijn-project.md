@@ -13,14 +13,16 @@ featured: true
 Een klein projectje voor het weekend: de mijn is geplaatst, met licht, rails en bomen.
 
 ![Coal shutes]({{ "/assets/img/blog/20140112-191109.jpg" | relative_url }})
-Learned a lot about the mines, aerial tram and mills around Silverton, by searching the web. I found a detailed historical study (no longer online as of 2023) on the Shenandoah-Dives, aka Mayflower Mill. Although I plan to include the Lodore mine/mill combo next to the Ironton spur, this is the best documented example. The tram terminal, where the buckets with ore from the mines up in the mountains were emptied, had a gabled roof.
+
+Ik heb op het web veel gevonden over de mijnen, de kabelbaan en de ertsmalers rond Silverton. Ik vond een gedetailleerde historische studie (niet meer online vanaf 2023) over de Shenandoah-Dives, ook wel Mayflower Mill genoemd. Hoewel ik van plan ben om ook de Lodore mijn/maler naast de Ironton aftakking toe te voegen, is dit het best gedocumenteerde voorbeeld. De eindstation van de kabelbaan, waar de emmers met erts uit de mijnen in de bergen werden geleegd, had een zadeldak.
 
 ![Historical photo of Lodore Mill]({{ "/assets/img/blog/20140104-215253.jpg" | relative_url }})
-Before the ore is dropped in rail cars, it was crushed by machinery and chemical processes,
-but there's not enough room in this corner of my layout to model all of this. Another bit
-of modeling license is the application of wooden tram towers instead of the steel ones
-engineered for the Mayflower Mill in 1910 by Fred C. Carstarphen, who also directed the
-crew that constructed the system.
+
+Voordat het erts in treinwagons wordt gedropt, wordt het gebroken door machines en chemisch bewerkt,
+maar er is niet genoeg ruimte in deze hoek van mijn modelbaan om dit allemaal te bouwen. Een stukje
+van modelbouw licentie is de toepassing van houten kabelbaantorens in plaats van de stalen
+ontwerpen voor de Mayflower Mill in 1910 door Fred C. Carstarphen, die ook de leiding had over de
+ploeg die het systeem bouwde.
 
 ![Historical photo of tram pylon]({{ "/assets/img/blog/20140104-215235.jpg" | relative_url }})
 
