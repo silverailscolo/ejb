@@ -1,5 +1,8 @@
 <!-- this element is auto-generated -->
-<!-- adapted from opieters liquid. Update your sources by running _data/galleries/gallery_creator.py python preprocess script -->
+<!-- adapted from opieters liquid. -->
+<!-- Update your source yml by running _data/galleries/gallery_creator.py python preprocess script after adding new images -->
+<p><input type="text" class="quicksearch" placeholder="{{ site.data[site.active_lang].strings.galleries.search-box }}" /></p>
+<!-- input box to filter isotope grid; see https://codepen.io/desandro/pen/gOrVQa -->
 <div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}">
   {% for picture in include.gallery.pictures %}
     <a
@@ -16,6 +19,10 @@
 
 <script>
   window.addEventListener('DOMContentLoaded',() =>{
+
+    // quick search regex
+    var qsRegex;
+
     lightGallery(document.getElementById("image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}"), {
       plugins: [lgZoom, lgThumbnail, lgAutoplay],
       closable: true,
@@ -35,18 +42,44 @@
       }
     });
 
-  // init isotope
-  var $grid{% if include.id_number %}{{ include.id_number }}{% endif %} = $('#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}');
-  $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.isotope({
-    percentPosition: true,
-    itemSelector: '.image-ref',
-    layoutMode: "masonry",
-    gutter: 5
-  });
+    // init isotope
+    var $grid{% if include.id_number %}{{ include.id_number }}{% endif %} = $('#image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}');
+    $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.isotope({
+      percentPosition: true,
+      itemSelector: '.image-ref',
+      layoutMode: "masonry",
+      gutter: 5,
+      filter: function() {
+        return qsRegex ? $(this).attr('data-sub-html').match( qsRegex ) : true;
+      }
+    });
 
-  // layout Isotope after each image loads
-  $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.imagesLoaded().progress( function() {
-    $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.masonry();
-  });
+    // layout Isotope after each image loads
+    $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.imagesLoaded().progress( function() {
+      $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.masonry();
+    });
+
+    // Filter Box by Dave Desandro <https://codepen.io/desandro/pen/gOrVQa>
+
+    // use value of search field to filter
+    var $quicksearch = $('.quicksearch').keyup( debounce( function() {
+      qsRegex = new RegExp( $quicksearch.val(), 'gi' );
+      $grid{% if include.id_number %}{{ include.id_number }}{% endif %}.isotope();
+    }, 200 ) );
+
+    // debounce so filtering doesn't happen every millisecond
+    function debounce( fn, threshold ) {
+      var timeout;
+      threshold = threshold || 100;
+      return function debounced() {
+        clearTimeout( timeout );
+        var args = arguments;
+        var _this = this;
+        function delayed() {
+          fn.apply( _this, args );
+        }
+        timeout = setTimeout( delayed, threshold );
+      };
+    }
   });
 </script>

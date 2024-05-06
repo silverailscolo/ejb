@@ -1,8 +1,8 @@
 ---
 layout: post
-lang: en-us
-page-id: hypersite
-title: Window drama
+lang: nl
+page-id: windowdrama
+title: Puimis&egrave;re
 date: 2002-05-25
 tags:
   - house
@@ -10,12 +10,10 @@ categories:
   - house
 ---
 
-# Puimis&egrave;re
-
 Short history of the works / Korte geschiedenis van het werk
 
 <table>
-<tr><td width="150">januari 2001</td><td>folder ontvangen van aannemer "ideale combinatie, service en kwaliteit, hoge betrokkenheid, tevreden klant en minimale overlast, zorgvuldige werkvoorbereiding nette vakmensen, leveren op volgens afspraak";</td></tr>
+<tr><td>januari 2001</td><td>folder ontvangen van aannemer "ideale combinatie, service en kwaliteit, hoge betrokkenheid, tevreden klant en minimale overlast, zorgvuldige werkvoorbereiding nette vakmensen, leveren op volgens afspraak";</td></tr>
 
 <tr><td>23 maart 2001</td><td>'s ochtends 1e gesprek met aannemer over te verrichten werkzaamheden buitengevelschilderwerk. Voor de komende winter (!) moet dat een keer.</td></tr>
 
@@ -55,7 +53,7 @@ Short history of the works / Korte geschiedenis van het werk
 </li><li>offerte schilderwerk d.d. 2 april 2001 ondertekend bijgevoegd</li></ul>
 <div>Telefonisch door aannemer toegezegd: aanvang werk augustus/september 2001, wachten op 3 goede timmerlieden</div></td></tr>
 
-<tr><td>12 juli	</td><td>gesprek met aannemer  over vorm pui, maatschets enkele dagen later gefaxt</td></tr>
+<tr><td>12 juli	</td><td>gesprek met aannemer over vorm pui, maatschets enkele dagen later gefaxt</td></tr>
 
 <tr><td>14 juli	</td><td>toegezonden per post schaaltekening nieuwe achtergevel, zonder glasroeden.</td></tr>
 

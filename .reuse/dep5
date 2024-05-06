@@ -1,0 +1,30 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: al-folio Jekyll Theme
+Upstream-Contact: Maruan Al-Shedivat <maruan@alshedivat.com>
+Source: https://github.com/alshedivat/al-folio
+
+Files:
+  - _books/*
+  - _data/*
+  - _drafts/*
+  - _layouts/*
+  - _news/*
+  - _posts/*
+  - _pages/*
+  - _projects/*
+  - _rollingstock/*
+  - assets/img/*
+  - assets/pdf/*
+  - assets/img-noresample/*
+  - assets/art_gallery/*
+Copyright: © 2024 EJ Broerse
+License: CC-BY-NC-SA-4.0
+
+Files:
+  - _layouts/art_gallery_page.html
+  - _layouts/art_gallery_index.html
+  - _layouts/gallery.liquid
+  - _includes/album.html
+  - _includes/gallery_layout.liquid
+Copyright: © 2024 EJ Broerse
+License: GPL-3.0-or-later

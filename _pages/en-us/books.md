@@ -1,10 +1,10 @@
 ---
 layout: books
 title: books
+list_title: Books I've read &amp; owned
 permalink: /books/
 id: books
 lang: en-us
-list_title: Books I've read &amp; owned
 nav: false
 ---
 

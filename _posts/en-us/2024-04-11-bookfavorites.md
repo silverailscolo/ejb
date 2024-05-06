@@ -9,8 +9,14 @@ tags:
 categories:
   - books
 ---
+<!--
+SPDX-FileCopyrightText: 2024 EJ Broerse
 
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+-->
 Titles of some of my favorite books:
+
+<figure><img src='{{ "/assets/img/blog/20240411_favbooks.jpg" | relative_url }}' alt="The books" class='img-fluid'></figure>
 
 - *Smart Cities* by Anthony Townsend, Norton 2014.
 - *The Architecture of the Well-tempered Environment*, by Reyner Banham 06/2014

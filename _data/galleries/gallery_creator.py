@@ -1,9 +1,10 @@
 # SPDX-FileCopyrightText: 2024 Olivier Pieters <https://olivierpieters.be>
+# SPDX-FileCopyrightText: 2024 EJ Broerse <https://ebroerse.nl>
 #
 # SPDX-License-Identifier: BSD-3-Clause
 #!/usr/bin/env python
 
-# install imagesize: pip install imagesize pyyaml # DONE egbert 10-03-2024 on iMac
+# install imagesize: pip install imagesize pyyaml
 # added xmp tags to output, user input for gallery
 
 __author__ = 'Olivier Pieters'

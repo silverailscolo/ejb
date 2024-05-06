@@ -1,10 +1,12 @@
 #!/usr/bin/env python
+# SPDX-FileCopyrightText: 2024 EJ Broerse
+# SPDX-FileCopyrightText: 2020 Olivier Pieters
+#
+# SPDX-License-Identifier: BSD-3-Clause
 
 # Importer for Bookpedia export xml file.
 # Read xml file and create a .md file for each record
 # Egbert, adapted from opieters gallery_creator
-
-__author__ = 'Egbert Broerse'
 
 import yaml
 from os.path import isfile, join
