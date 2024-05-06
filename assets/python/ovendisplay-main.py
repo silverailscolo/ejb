@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: Copyright 2024 EJ Broerse <https://www.ebroerse.nl>
+#
+# SPDX-License-Identifier: CC-BY-NC-SA-4.0
+
 from machine import Pin,SPI
 import framebuf
 import time
