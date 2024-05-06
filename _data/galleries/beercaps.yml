@@ -1079,7 +1079,7 @@ pictures:
   - Dors_IMG_9744-120x128.jpg
   - Dors_IMG_9744-225x240.jpg
   thumbnail: Dors_IMG_9744-120x128.jpg
-  title: ''
+  title: 'Dors'
 - caption: Stadshaven brouwerij (Lidl 2024) <br>CC BY-NC-SA 4.0
   filename: Stadshaven
   original: Stadshaven-510x512.jpg
@@ -1087,7 +1087,7 @@ pictures:
   - Stadshaven-120x120.jpg
   - Stadshaven-250x251.jpg
   thumbnail: Stadshaven-120x120.jpg
-  title: ''
+  title: 'Stadshaven Octopus Blond en -Ice Breaker'
 - caption: Texels 0.0 <br>CC BY-NC-SA 4.0
   filename: Texels_00_IMG_9889
   original: Texels_00_IMG_9889-178x180.jpg
@@ -1095,3 +1095,11 @@ pictures:
   - Texels_00_IMG_9889-119x120.jpg
   thumbnail: Texels_00_IMG_9889-119x120.jpg
   title: ''
+- caption: ' <br>CC BY-NC-SA 4.0'
+  filename: Steenbrugge
+  original: Steenbrugge-512x508.jpg
+  sizes:
+  - Steenbrugge-120x119.jpeg
+  - Steenbrugge-250x248.jpeg
+  thumbnail: Steenbrugge-120x119.jpeg
+  title: 'Steenbrugge Blond'

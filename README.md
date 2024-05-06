@@ -1,5 +1,7 @@
+# SPDX-FileCopyrightText: 2024 EJ Broerse
+#
+# SPDX-License-Identifier: CC-BY-NC-SA-4.0
 # ebroerse.nl
-
 <div>
 
 **A site based on the [al-folio theme](https://github.com/alshedivat/al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
@@ -10,7 +12,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/silverailscolo/ebroerse.nl?color=blue)](https://github.com/silverailscolo/ebroerse.nl/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/silverailscolo/ebroerse.nl)](https://github.com/silverailscolo/ebroerse.nl)
-[![GitHub forks](https://img.shields.io/github/forks/silverailscolo/ebroerse.nl)](https://github.com/silverailscolo/ebroerse.nl/fork)
+[![GitHub forks](https://img.shields.io/github/forks/silverailscolo/ebroerse.nl)](https://github.com/silverailscolo/ebroerse.nl)
 
 </div>
 

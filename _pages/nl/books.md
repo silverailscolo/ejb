@@ -12,3 +12,5 @@ nav: false
 {% include album.html albumname="bookcovers" %}
 
 Al mijn boeken - klik op een titel om meer te lezen!
+
+<!-- below is auto-filled from _layouts/books.html -->

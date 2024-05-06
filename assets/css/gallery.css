@@ -23,6 +23,11 @@
   color: var(--global-bg-color);
 }
 
+/* ---- Search input ---- */
+input[type="text"] {
+  font-size: 12px;
+}
+
 $on-palm: 600px;
 
 .row {

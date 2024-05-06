@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: Copyright (C) 2013 - 2015 Beni Buess (http://benel.net/)
+#
+# SPDX-License-Identifier: MIT
+
 # -*- coding: utf-8 -*-
 # A LiquidTag to get Exif Tags using EXIF
 # Original by: Beni Buess. Adapted Egbert Broerse April 2024

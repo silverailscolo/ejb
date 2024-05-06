@@ -7,7 +7,11 @@ lang: en-us
 nav: true
 nav_order: 2
 ---
+<!--
+SPDX-FileCopyrightText: 2024 EJ Broerse
 
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+-->
 Welcome to the site of Egbert Broerse, architect.
 
 I practice as architect and urban planner registered in the [Dutch Architects Register](https://www.architectenregister.nl/en/).

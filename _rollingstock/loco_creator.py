@@ -1,11 +1,13 @@
 #!/usr/bin/env python
+# SPDX-FileCopyrightText: 2024 EJ Broerse
+# SPDX-FileCopyrightText: 2020 Olivier Pieters
+#
+# SPDX-License-Identifier: BSD-3-Clause
 
 # Importer for JMRI roster.xml files from folder /assets/xml/.
 # Egbert, adapted from opieters gallery_creator
 # Read xml file and create a .md file for each record.
 # Picture for each loco should be in folder itemPicturePath, named same as rosterId, extension jpg
-
-__author__ = 'Egbert Broerse'
 
 import yaml
 import xmltodict

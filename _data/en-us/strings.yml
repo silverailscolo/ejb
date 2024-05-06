@@ -120,3 +120,4 @@ rollingstock:
   no-image: Image unavailable
 galleries:
   no-gall: No galleries defined in \_data/galleries/overview.yml
+  search-box: Filter...

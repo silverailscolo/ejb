@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 EJ Broerse
+#
+# SPDX-License-Identifier: CC-BY-NC-SA-4.0
+
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
@@ -218,11 +222,8 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/en-us/about_me.md
-  - _pages/nl/about_me.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - _rollingstock/loco_creator.py
   - UPGRADING.md
   - vendor

@@ -9,8 +9,14 @@ tags:
 categories:
   - books
 ---
+<!--
+SPDX-FileCopyrightText: 2024 EJ Broerse
 
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
+-->
 Eeen paar favoriete titels:
+
+<figure><img src='{{ "/assets/img/blog/20240411_favbooks.jpg" | relative_url }}' alt="The books" class='img-fluid'></figure>
 
 - *Smart Cities* door Anthony Townsend, Norton 2014.
 - *The Architecture of the Well-tempered Environment*, door Reyner Banham 06/2014
