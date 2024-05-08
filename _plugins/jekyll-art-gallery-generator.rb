@@ -313,7 +313,7 @@ module Jekyll
         # puts e.backtrace
       end
 
-      site.static_files = @site.static_files
+      # site.static_files = @site.static_files # EBR debug changing paths for second language run
       self.data["images"] = @images
 
       best_image = gallery_config["best_image"] || @images[0]

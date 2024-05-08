@@ -18,8 +18,15 @@ def rename_keys(d, keys):
     return dict([(keys.get(k, k), v) for k, v in d.items()])
 
 
+# configuration
+#createLanguage = 'en-us'
+createLanguage = input("Create index for language (ISO code ie nl): ")
+if createLanguage == "":
+    print('No language provided')
+    exit()
+
 bookpediaExportFileToRead = "egbertbooks.xml"
-defaultLanguage = 'nl'
+
 # set correct path
 path = join("../_data/", bookpediaExportFileToRead)
 
@@ -36,7 +43,8 @@ for bookId in pl:
     print("id == " + bookId + " ==")
     bookDict = pl[bookId]
     # Filter only used keys
-    filter_fields = ["title", "author", "summary", "lastRead", "url", "isbn"]
+    filter_fields = ["title", "author", "summary", "lastRead", "isbn"]
+    # drop "url" because there are too many errors in GH-BrokenLinks and too commercial
     dict_result = {key: bookDict[key] for key in bookDict if key in filter_fields}
 
     # rename keys for template
@@ -65,7 +73,7 @@ for bookId in pl:
                 year = dict_translated[key].year
 
     # try to load YAML data
-    output_file = "../_books/" + defaultLanguage + "/" + bookId + ".md"  # id key of book, TODO date?
+    output_file = "../_books/" + createLanguage + "/" + bookId + ".md"  # id key of book, TODO date?
     coverFile = bookId + ".jpg"  # cover image of book
 
     #print('Writing YAML data to file...')
@@ -73,7 +81,7 @@ for bookId in pl:
     # add manual content
     # yaml_elements['published'] = 'true'
     yaml_elements['layout'] = 'review'
-    yaml_elements['lang'] = defaultLanguage
+    yaml_elements['lang'] = createLanguage
     yaml_elements['year'] = year
     if isfile("../assets/img/bookcovers/" + coverFile):
         yaml_elements['cover'] = coverFile

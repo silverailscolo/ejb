@@ -45,9 +45,13 @@ module Jekyll
 
         FileUtils.mkdir_p(File.dirname(dest_path))
         image = ::MiniMagick::Image.open(path)
-        # check color profile error
-        if image.colorspace contains "gray" and image.profile contains "RGB"
-          puts "Error in #{path}"
+        # check .png color icc profile error
+        if image.identify.include? "PNG"
+          if image.identify.include? "RGB" and image.data.include? "Grayscale"
+            puts "IM Image Grayscale Error in file #{@name}"
+          else
+            puts "PNG #{@name} " + image.identify
+          end
         end
         image.combine_options do |c|
           @commands.each_pair do |command, arg|

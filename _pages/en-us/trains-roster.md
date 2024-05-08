@@ -1,6 +1,6 @@
 ---
-id: trainroster
 layout: train-roster
+id: trainroster
 title: My Roster
 permalink: /rollingstock/
 lang: en-us
