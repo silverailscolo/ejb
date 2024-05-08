@@ -3,29 +3,47 @@
   <!-- uses _plugins/Jekyll-ExifTag.rb and exiftool gem -->
   <!-- only works in primary/non-polyglot language TODO fix -->
   {% for image in site.static_files %}
-  {{ image.path }}
-  {% if image.path contains 'img' and image.path contains include.albumname %}
-  {% unless image.name contains '.webp' or image.name contains '.xmp' %}
+  {% assign ip = image.path %}
+  {% if ip contains 'img' and ip contains include.albumname %}
+  {% unless image.extname == '.webp' or image.extname == '.xmp' %}
+
+  {% assign rt = image.path | slice: 0, 7 %}
+  {% comment %} polyglot secondary language has messed up site.static_files, path starts without / but relative url
+  won't work {% endcomment %}
+  {% if rt == 'assets/' %}
+  Before: {{ ip }} (rt = {{ rt }})
+  {% assign ip = ip | prepend: '/' %}
+  After: {{ ip }}
+  {% endif %}
+  {% if rt == '/assets' or rt == 'assets/' %}
+  Use: {{ ip }} (rt = {{ rt }})
+
   {% if include.albumname contains 'covers' %}
   {% comment %} *covers is for books/records/enginepics etc stored as folders with same name as img.name, no
   lightGallery support used in front matter, links directly to item page index.html in subfolder of img name base {%
   endcomment %}
   <a href="{{ image.name | replace: '.jpg', '/' | replace: '.png', '/'}}" class="image-ref">
     <img
-      src="{{ site.baseurl }}/thumbnails{{ image.path | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
+      src="{{ site.baseurl }}/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
       alt="{{ image.name }}"
     />
   </a>
   {% else %}
 {% comment %} Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline, caption-abstract; XMP: Description, Comment; All:
   copyright (case-insensitive) {% endcomment %}
-<a href="{{ site.baseurl }}{{ image.path }}" class="image-ref"
-   data-sub-html="{% exiftag caption-cascade, , {{ image.path }} %} {% exiftag copyright-cascade, , {{ image.path }} %}">
-   <img src="{{ site.baseurl }}/thumbnails{{ image.path | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
-        alt="{% exiftag image_description, , {{ image.path }} %}" />
+<a href="{{ site.baseurl }}{{ ip }}" class="image-ref"
+   data-sub-html="{% exiftag caption-cascade, , {{ ip }} %} {% exiftag copyright-cascade, , {{ ip }} %}">
+   <img src="{{ site.baseurl }}/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
+        alt="{% exiftag image_description, , {{ ip }} %}" />
 </a>
   {% comment %}Some tags return invalid UTF-8 encoding, encoding is enforced in exiftag.rb plugin {% endcomment %}
-  {% endif %}{% endunless %}{% endif %}{% endfor %}
+  {% endif %}
+  {% comment %}
+  {% else %}Dropped: {{ ip }} (rt = {{ rt }})
+  {% endcomment %}
+  {% endif %}
+  {% endunless %}{% endif %}
+  {% endfor %}
 </div>
 
 <script>

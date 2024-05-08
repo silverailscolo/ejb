@@ -284,7 +284,7 @@ Te koop, verkocht & snelle start
 | Date       | Action                                        |
 | ---------- | --------------------------------------------- | --------------------------------------------- |
 | 01-06-2012 | koekkoek                                      |
-|            | <img src='{{ "/assets/img/house/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
+|            | <img src='{{ "/assets/img/house/ms15/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
 
 ## 2020
 

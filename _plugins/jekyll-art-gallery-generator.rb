@@ -119,7 +119,7 @@ module Jekyll
           galleries.merge!({k.downcase => v})
         end
       gallery_config = galleries[gallery_name.downcase] || {}
-      puts "Generating Art-Gallery '#{gallery_name}'"
+      puts "Generating Art-Gallery '#{gallery_name}' for #{site.active_lang}"
       sort_field = config["sort_field"] || "name"
       self.process(@name)
       gallery_page = File.join(base, "_layouts/art_gallery_page.html")
@@ -203,7 +203,7 @@ module Jekyll
                     c.gravity "SouthEast"
                     c.compose "Over"
                   end
-                  # source_img.write dest_image_abs_path # write in line #231 too?
+                  # source_img.write dest_image_abs_path # write in line #213 too?
                 end
               end
               if config["size_limit"] and (source_img.width > config["size_limit"] || source_img.height > config["size_limit"])
@@ -313,7 +313,7 @@ module Jekyll
         # puts e.backtrace
       end
 
-      # site.static_files = @site.static_files # EBR debug changing paths for second language run
+      # site.static_files = @site.static_files # EBR debug off
       self.data["images"] = @images
 
       best_image = gallery_config["best_image"] || @images[0]
@@ -345,17 +345,29 @@ module Jekyll
           thumbsize = thumb_x.to_s + "x" + thumb_y.to_s
           if scale_method == "crop"
             m_image.resize thumbsize
-#           elsif scale_method == "crop_bottom"
-#               m_image.resize(thumbsize, NorthGravity)
-#           elsif scale_method == "crop_right"
-#               m_image.resize(thumbsize, WestGravity)
-#           elsif scale_method == "crop_left"
-#               m_image.resize(thumbsize, EastGravity)
-#           elsif scale_method == "crop_top"
-#               m_image.resize(thumbsize, SouthGravity)
-            else
-              m_image.resize thumbsize
+          elsif scale_method == "crop_bottom"
+            image.combine_options do |c|
+              c.gravity "North"
+              c.resize thumbsize
             end
+          elsif scale_method == "crop_right"
+            image.combine_options do |c|
+              c.gravity "West"
+              c.resize thumbsize
+            end
+          elsif scale_method == "crop_left"
+            image.combine_options do |c|
+              c.gravity "East"
+              c.resize thumbsize
+            end
+          elsif scale_method == "crop_top"
+            image.combine_options do |c|
+              c.gravity "South"
+              c.resize thumbsize
+            end
+          else
+            m_image.resize thumbsize
+          end
           # strip EXIF from thumbnails. Some browsers, notably Safari on iOS, will try to rotate images according to the 'orientation' tag which is no longer valid in case of thumbnails
           m_image.strip
           m_image.write thumb_path
