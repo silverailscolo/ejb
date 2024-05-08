@@ -1799,9 +1799,6 @@ a.close.disabled {
 .font-weight-lighter {
   font-weight: lighter !important;
 }
-.font-weight-bold {
-  font-weight: 700 !important;
-}
 .visible {
   visibility: visible !important;
 }
