@@ -8,4 +8,4 @@ description: Digital Command Control
 nav: false
 ---
 
-See the <a href="https://ebroerse.nl/trains/#dcc">old site</a>
+Zie de <a href="../../trains/dcc.html">Engelse pagina</a>.

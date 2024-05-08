@@ -6,13 +6,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: favicon.png # the website title (if blank, full name will be used instead)
-first_name: Egbert
+title: EJB's site # the website title (if blank, full name will be used instead)
+title_logo: favicon.png
+first_name: EJ
 middle_name:
 last_name: Broerse
 email: spam@ebroerse.nl
 keywords: architecture, house, trains # add your own keywords or leave empty
-icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/)
+icon: favicon.png # type an emoji used as the favicon (alternatively, provide image name in /assets/)
 
 url: https://silverailscolo.github.io # the base hostname & protocol for your site
 baseurl: "/ebroerse.nl" # the subpath of your site, e.g. /blog/. Leave blank for root

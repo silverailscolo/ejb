@@ -17,9 +17,9 @@
             {% if site.last_name %}
               {{- site.last_name -}}
             {% endif %}
-          {% elsif site.title contains '.png' %}
+          {% elsif site.title_logo %}
             {% comment %}Assume this is a PNG logo stored in /assets/img/{% endcomment %}
-            <div><img src="{{ site.baseurl }}/assets/img/{{- site.title -}}" alt="{{ site.last_name }}"></div>
+            <div><img src="{{ site.baseurl }}/assets/img/{{ site.title_logo }}" alt="{{ site.last_name }}"></div>
           {% else %}
             {{- site.title -}}
           {% endif %}
