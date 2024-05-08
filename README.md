@@ -22,13 +22,13 @@
 
 [![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/desktop/silverailscolo/ebroerse.nl.html)
 
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fsilverailscolo%2Febroerse.nl%2F&form_factor=desktop)
+Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Febroerse.nl%2F&form_factor=desktop)
 
 ### Mobile
 
 [![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/mobile/silverailscolo/ebroerse.nl.html)
 
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fsilverailscolo%2Febroerse.nl%2F&form_factor=mobile)
+Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Febroerse.nl%2F&form_factor=mobile)
 
 ## Table Of Contents
 

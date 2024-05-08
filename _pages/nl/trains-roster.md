@@ -1,7 +1,7 @@
 ---
 layout: train-roster
 id: trainroster
-title: Rijdend materieel
+title: "Rijdend materieel"
 permalink: /rollingstock/
 lang: nl
 nav: false
