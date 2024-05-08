@@ -11,12 +11,12 @@
   {% comment %} polyglot secondary language has messed up site.static_files, path starts without / but relative url
   won't work {% endcomment %}
   {% if rt == 'assets/' %}
-  Before: {{ ip }} (rt = {{ rt }})
+<!--  Before: {{ ip }} (rt = {{ rt }})-->
   {% assign ip = ip | prepend: '/' %}
-  After: {{ ip }}
+<!--  After: {{ ip }}-->
   {% endif %}
   {% if rt == '/assets' or rt == 'assets/' %}
-  Use: {{ ip }} (rt = {{ rt }})
+<!--  Use: {{ ip }} (rt = {{ rt }})-->
 
   {% if include.albumname contains 'covers' %}
   {% comment %} *covers is for books/records/enginepics etc stored as folders with same name as img.name, no
