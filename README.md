@@ -1,7 +1,7 @@
-# SPDX-FileCopyrightText: 2024 EJ Broerse
-#
-# SPDX-License-Identifier: CC-BY-NC-SA-4.0
-# ebroerse.nl
+<!-- SPDX-FileCopyrightText: 2024 EJ Broerse -->
+<!-- -->
+<!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
+
 <div>
 
 **A site based on the [al-folio theme](https://github.com/alshedivat/al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
