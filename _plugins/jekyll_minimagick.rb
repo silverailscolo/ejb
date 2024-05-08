@@ -45,14 +45,14 @@ module Jekyll
 
         FileUtils.mkdir_p(File.dirname(dest_path))
         image = ::MiniMagick::Image.open(path)
-        # check .png color icc profile error
-        if image.identify.include? "PNG"
-          if image.identify.include? "RGB" and image.data.include? "Grayscale"
-            puts "IM Image Grayscale Error in file #{@name}"
-          else
-            puts "PNG #{@name} " + image.identify
-          end
-        end
+        # check .png color icc profile error (debug util)
+#         if image.identify.include? "PNG"
+#           if image.identify.include? "RGB" and image.data.include? "Grayscale"
+#             puts "IM Image Grayscale Error in file #{@name}"
+#           else
+#             puts "PNG #{@name} " + image.identify
+#           end
+#         end
         image.combine_options do |c|
           @commands.each_pair do |command, arg|
             c.send command, arg
@@ -73,6 +73,8 @@ module Jekyll
       # for later processing.
       def generate(site)
         return unless site.config['mini_magick']
+        return unless site.config['default_lang'] == site.active_lang # context.registers[:site].data[language]
+        puts "MiniMagickGenerator for #{site.active_lang}"
 
         site.config['mini_magick'].each_pair do |name, preset|
           Dir.chdir preset['source'] do
