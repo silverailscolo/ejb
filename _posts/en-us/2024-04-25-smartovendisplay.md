@@ -21,7 +21,7 @@ This was my solution.
 - [Raspberry Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 - [Waveshare 1.3" Pico OLED](https://www.waveshare.com/wiki/Pico-OLED-1.3) display
 - USB-A to USB-C cable
-- [Thonny IDE](https://thonny.org) for [MicroPython](https://micropython.org) to program the piZero
+- [Thonny IDE](https://thonny.org) for [MicroPython](https://micropython.org) to program the picoW
 - [HomeAssistant](https://www.home-assistant.io) providing energy use via [MQTT](https://mqtt.org) messages
 - Automations set up in HomeAssistant responding to
 - Current sensing input for your stove to HomeAssistant, eg. [myenergi harvi](https://www.myenergi.com/product/harvi/) (2 CT clamps minimum on 3 Phase install)
@@ -127,6 +127,6 @@ Adapt for your use case, eg.
 
 Because the [myenergi harvi](https://www.myenergi.com/product/harvi/) is powered from the CT clamps, a bit more tweaking is required.
 
-To reset the current sensors to zero when no PV or AGA current is flowing through the clamps, I created a 2 minute timer that is reset every minute as a (non-zero) measurement from the myenergi server arrives in Home Assistant myenergi integration. When this timer eventually runs out, it means neither the PV panels nor the stove is cunsuming any power, and an automation sets ``input_number.ct2_actueel`` and ``input_number.ct3_actueel`` back to zero.
+To reset the current sensors to zero when no PV or AGA current is flowing through the clamps, I created a 2 minute timer that is reset every minute as a (non-zero) measurement from the myenergi server arrives in Home Assistant myenergi integration. When this timer eventually runs out, it means neither the PV panels nor the stove is consuming any power, and an automation sets ``input_number.ct2_actueel`` and ``input_number.ct3_actueel`` back to zero.
 
-If you need those details, open an issue on this site.
+If you need those details, open an [Issue](https://github.com/silverailscolo/ebroerse.nl/issues) on this site.
