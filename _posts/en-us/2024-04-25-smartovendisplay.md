@@ -26,9 +26,16 @@ This was my solution.
 - Automations set up in HomeAssistant responding to
 - Current sensing input for your stove to HomeAssistant, eg. [myenergi harvi](https://www.myenergi.com/product/harvi/) (2 CT clamps minimum on 3 Phase install)
 
+### Current Sensing
+
+Near the switch board or in another safely accessible location, mount 2-3 CT-clamps on the feeders to the AGA stove. I ordered compact myenergi clamps.
+<figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 klemmen in meterkast" class='img-fluid'><figcaption class="kleiner">CT2 klemmen in meterkast</figcaption></figure>
+
 ### Code
 
-Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}).
+Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) and load in onto the PicoW using the Thony application.
+
+### Home Assistant set-up
 
 In HomeAssistant, create input_number definitions in configuration.yaml;
 <figure><img src='{{ "/assets/img/house/smart/ha_ct2_inputnumber.png" | relative_url }}' alt="HA CT2 Input Setting Pane" class='img-fluid'><figcaption class="kleiner">CT2 Input Setting Pane</figcaption></figure>
