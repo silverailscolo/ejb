@@ -25,15 +25,22 @@ Zoals je [hier]({{ "/house/smart.html#oven" | relative_url }}) misschien hebt ge
 - Automatiseringen ingesteld in HomeAssistant die reageren op
 - Stroomsensor-ingang voor je fornuis naar HomeAssistant, bijv. [myenergi harvi](https://www.myenergi.com/product/harvi/) (minimaal 2 CT-klemmen voor een 3-fase installatie)
 
+### Stroom meten
+
+Monteer in de meterkast of een andere veilig bereikbare plek CT-klemmen rond 2-3 aders naar de AGA. Ik heb compacte myenergi klemmen besteld.
+<figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 klemmen in meterkast" class='img-fluid'><figcaption class="kleiner">CT2 klemmen in meterkast</figcaption></figure>
+
 ### Code
 
-Download de [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}).
+Download de [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) en installeer die op de PicoW via de applicatie Thonny.
+
+### Home Assistant instellingen
 
 Voeg in HomeAssistant in configuration.yaml definities toe voor input_number sensors;
 <figure><img src='{{ "/assets/img/house/smart/ha_ct2_inputnumber.png" | relative_url }}' alt="HA Invoerscherm CT2 instellingen" class='img-fluid'><figcaption class="kleiner">HA Invoerscherm CT2 instellingen</figcaption></figure>
 
 
-Voeg AAN/UIT-automaten toe voor elk element van je fornuis, bijvoorbeeld om aan te geven dat de bakoven is ingeschakeld:
+Voeg AAN/UIT-Automations toe voor elk element van je fornuis, bijvoorbeeld om aan te geven dat de Bakoven is ingeschakeld:
 
 ```
 alias: AGA Baking Oven ON
