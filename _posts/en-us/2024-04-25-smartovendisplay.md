@@ -29,7 +29,10 @@ This was my solution.
 ### Current Sensing
 
 Near the switch board or in another safely accessible location, mount 2-3 CT-clamps on the feeders to the AGA stove. I ordered compact myenergi clamps.
-<figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 klemmen in meterkast" class='img-fluid'><figcaption class="kleiner">CT2 klemmen in meterkast</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT2 clamps behind fuse box</figcaption></figure>
+
+I connected the CT clamp wires to the unused inputs of my harvi, which show up as sensors in the Home Assistant myenergi integration.
+<figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="CT2 clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT2 clamps behind fuse box</figcaption></figure>
 
 ### Code
 

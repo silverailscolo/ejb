@@ -30,6 +30,9 @@ Zoals je [hier]({{ "/house/smart.html#oven" | relative_url }}) misschien hebt ge
 Monteer in de meterkast of een andere veilig bereikbare plek CT-klemmen rond 2-3 aders naar de AGA. Ik heb compacte myenergi klemmen besteld.
 <figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 klemmen in meterkast" class='img-fluid'><figcaption class="kleiner">CT2 klemmen in meterkast</figcaption></figure>
 
+Verbind de draden van de CT klemmen aan ongebruikte inputs op de harve. Ze verschijnen danals sensors in de Home Assistant myenergi integratie.
+<figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="CT2 clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT2 clamps behind fuse box</figcaption></figure>
+
 ### Code
 
 Download de [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) en installeer die op de PicoW via de applicatie Thonny.
