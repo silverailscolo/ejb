@@ -344,7 +344,7 @@ parallel_localization: true
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -482,11 +482,11 @@ jsonresume:
 mini_magick:
   imgnoresample:
     source: assets/img-noresample
-    destination: thumbnails
+    destination: assets/thumbnails
     resize: "150x150"
   img:
     source: assets/img
-    destination: thumbnails
+    destination: assets/thumbnails
     resize: "100x100"
 
 exiftag:

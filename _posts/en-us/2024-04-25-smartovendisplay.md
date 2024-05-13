@@ -36,7 +36,7 @@ I connected the CT clamp wires to the unused inputs of my harvi, which show up a
 
 ### Code
 
-Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) and load in onto the PicoW using the Thony application.
+Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) and load it onto the PicoW using the Thony application.
 
 ### Home Assistant set-up
 

@@ -4,6 +4,7 @@
   <!-- only works in primary/non-polyglot language TODO fix -->
   {% for image in site.static_files %}
   {% assign ip = image.path %}
+  {{ ip }}
   {% if ip contains 'img' and ip contains include.albumname %}
   {% unless image.extname == '.webp' or image.extname == '.xmp' %}
 
@@ -24,7 +25,7 @@
   endcomment %}
   <a href="{{ image.name | replace: '.jpg', '/' | replace: '.png', '/'}}" class="image-ref">
     <img
-      src="{{ site.baseurl }}/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
+      src="{{ site.baseurl }}/assets/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
       alt="{{ image.name }}"
     />
   </a>
@@ -33,7 +34,8 @@
   copyright (case-insensitive) {% endcomment %}
 <a href="{{ site.baseurl }}{{ ip }}" class="image-ref"
    data-sub-html="{% exiftag caption-cascade, , {{ ip }} %} {% exiftag copyright-cascade, , {{ ip }} %}">
-   <img src="{{ site.baseurl }}/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
+   <img
+           src="{{ site.baseurl }}/assets/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
         alt="{% exiftag image_description, , {{ ip }} %}" />
 </a>
   {% comment %}Some tags return invalid UTF-8 encoding, encoding is enforced in exiftag.rb plugin {% endcomment %}

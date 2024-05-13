@@ -1,9 +1,7 @@
 ---
 layout: default
 support: [gallery]
-lang: en-us
-lang-exclusive: en-us
-# This page is used for the main index of art-galleries
+# This page is used for the main index of art-galleries, polyglot multiple language compatible
 ---
 
 <div id="masthead-with-text" style="background: none; position: relative; z-index: 0; display: block; margin: 5">
@@ -18,7 +16,8 @@ lang-exclusive: en-us
         <div class="col-md-12">
           <div class="card-body">
             <h4 class="card-title text-lowercase">{{ gallery["title"] }}</h4>
-            <img class="gallery-best-image" src="{{ site.baseurl }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}" />
+            <img class="gallery-best-image"
+                 src="{{ site.baseurl }}{{ page['src_path'] }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}" />
           </div>
         </div>
       </div>

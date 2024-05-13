@@ -78,9 +78,11 @@ module Jekyll
 
         site.config['mini_magick'].each_pair do |name, preset|
           Dir.chdir preset['source'] do
-           Dir.glob(File.join("**", "*.{png,jpg,jpeg,gif}")) do |source|
-              site.static_files << GeneratedImageFile.new(site, site.source, preset['destination'], source, preset.clone)
-             end
+            Dir.glob(File.join("**", "*.{png,jpg,jpeg,gif}")) do |source|
+              newFile = GeneratedImageFile.new(site, site.source, preset['destination'], source, preset.clone)
+              puts "MiniM newFile=#{newFile.name} source=#{source}"
+              site.static_files << newFile
+            end
           end
         end
       end
