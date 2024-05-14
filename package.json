@@ -1,9 +1,32 @@
 {
+  "name": "silverailscolo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "clean": "bundle exec jekyll clean",
+    "dev": "webpack --mode=development && bundle exec jekyll build && npm run delete-nondefault-img && npm run serve",
+    "build": "webpack --mode=production && JEKYLL_ENV=production bundle exec jekyll build",
+    "postbuild": "npm run delete-nondefault-img",
+    "delete-nondefault-img": "rm -r _site/*/assets/img",
+    "serve": "npx http-server -p 4001 _site/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverailscolo/ebroerse.nl.git"
+  },
+  "author": "EJ Broerse",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/silverailscolo/ebroerse.nl/issues"
+  },
+  "homepage": "https://silverailscolo.github.io/ebroerse.nl",
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.4.4",
     "prettier": "^3.2.5"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.7.1",
     "lightgallery": "^2.7.2"

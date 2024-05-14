@@ -10,7 +10,7 @@ toc:
   sidebar: left
 ---
 
-Het grootste deel van mijn vrije tijd heb ik de afgelopen 10 jaar besteed aan het opknappen van ons 100 jaar oude huis.
+Een groot deel van mijn vrije tijd heb ik de afgelopen 10 jaar besteed aan het opknappen van ons 100 jaar oude huis.
 We zijn inmiddels klaar, maar het onderhoud wacht op ons! Toch is het een geweldig tijdverdrijf en - als architect van beroep -
 is het een genot om al die fijne details en afwerkingen op maat te kunnen maken die we ons niet konden veroorloven door
 een professionele timmerman te laten maken. De eerste 5 jaar was ik een regelmatige bezoeker van onze plaatselijke bouwmarkten,
@@ -35,7 +35,7 @@ Omdat er nu genoeg ruimte is, begon ik mijn treinenuit te pakken...
 
 <img src='{{ "/assets/img/house/ms15/zolder%20lente%202005%20artist.jpg" | relative_url }}' alt='3rd Floor attic design'>
 
-On the third floor, a whole room used to be occupied by our tools, leftovers and spare parts. As there is enough room by now, I started to unpack my <a href="/trains/">trains</a>...
+Op de 2<sup>e</sup> verdieping was een hele kamer bezet door ons gereedschap, restanten en reserve-onderdelen. Omdat er inmiddels genoeg ruimte is, ben ik begonnen om mijn <a href="../trains/">treinen</a> uit te pakken...
 
 {% include album.html albumname="attic" %}
 
