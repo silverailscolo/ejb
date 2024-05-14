@@ -335,7 +335,7 @@ external_links:
 
 languages: ["en-us", "nl"]
 default_lang: "en-us"
-exclude_from_localization: ["_plugins", "assets" ]
+exclude_from_localization: ["_plugins"] # assets/img will be replaced by symlinks in build script as per https://github.com/greuters/greuters.github.io/blob/main/package.json
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
 parallel_localization: true

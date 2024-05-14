@@ -10,11 +10,11 @@ toc:
   sidebar: left
 ---
 
-Most of my spare time during the last 10 years was spent on redecorating our 100 years old house. We're ready by now,
+A lot of my spare time during the last 10 years was spent on redecorating our 100 years old house. We're ready by now,
 but maintenance is waiting for us! Still, it's a great pastime and - as an architect by profession - it's a joy to be
 able to create all those fine details and custom finishings which we couldn't afford to let a professional carpenter
 make for us. The first 5 years I was a regular visitor of our local building supply stores, called
-['Gamma'](https://www.gamma.com) and 'Woody'. But for the more serious projects, you better skip the lot and go to a
+['Gamma'](https://www.gamma.com) and 'Woody'. But for the more serious projects, I discovered that you better skip the lot and go to a
 fully stocked wholesale company instead.
 
 Some memorable items:
@@ -33,7 +33,7 @@ As the rear of the house was not authentic, I made it into something special by 
 
 <img src='{{ site.baseurl }}/assets/img/house/ms15/zolder%20lente%202005%20artist.jpg' alt='3rd Floor attic design'>
 
-On the third floor, a whole room used to be occupied by our tools, leftovers and spare parts. As there is enough room by now, I started to unpack my <a href="/trains/">trains</a>...
+On the third floor, a whole room used to be occupied by our tools, leftovers and spare parts. As there is enough room by now, I started to unpack my <a href="../trains/">trains</a>...
 
 {% include album.html albumname="attic" %}
 
