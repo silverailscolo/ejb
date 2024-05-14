@@ -9,10 +9,10 @@ importance: 2
 category: work
 carousels:
   - images:
-      - image: ../../../assets/img/architect/apier/IMG_0394.jpg
-      - image: ../../../assets/img/architect/apier/IMG_0809.jpg
-      - image: ../../../assets/img/architect/apier/IMG_1199.jpg
-      - image: ../../../assets/img/architect/apier/IMG_7866.jpg
+      - image: /ebroerse.nl/assets/img/architect/apier/IMG_0394.jpg
+      - image: /ebroerse.nl/assets/img/architect/apier/IMG_0809.jpg
+      - image: /ebroerse.nl/assets/img/architect/apier/IMG_1199.jpg
+      - image: /ebroerse.nl/assets/img/architect/apier/IMG_7866.jpg
 ---
 
 Periode: 2017-2020

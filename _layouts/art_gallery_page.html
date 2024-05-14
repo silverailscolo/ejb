@@ -14,23 +14,23 @@ header:
        style="left: 0px; top: -5px; overflow: hidden; margin: 0px; padding: 0px; height: 50px; width: 100vw;
   z-index: -999998; position: absolute;"><img alt="gallery header img" style="position: absolute; margin: 0px; padding: 0px;
   width: 100vw; height: 50px; max-height: none; max-width: none; z-index: -999999; left: -47px; top: -5px;"
-  src="{{ page['src_path'] }}{{ page['header'] }}">
+  src="{{ site.baseurl }}{{ page['src_path'] }}{{ page['header'] }}">
   </div>
 </div>
 
 <div id="art-gallery">
 
 {% for image in page.images %}
-<a href="{{ page['src_path'] }}{{ image }}" class="image-ref"> <!-- TODO replace root path for non-default lang -->
+<a href="{{ site.baseurl }}{{ page['src_path'] }}{{ image }}" class="image-ref"> <!-- TODO replace root path for non-default lang -->
 {% if page.captions[image] == nil %}
 <img
-  src="{{ page['src_path'] }}thumbs/{{ image }}"
+  src="{{ site.baseurl }}{{ page['src_path'] }}thumbs/{{ image }}"
   data-caption="Photo by EJB"
   alt="{{ image }}"
 /> <!-- TODO replace root/thumb path for non-default lang page,thumbpath ? -->
 {% else %}
 <img
-  src="{{ page['src_path'] }}thumbs/{{ image }}"
+  src="{{ site.baseurl }}{{ page['src_path'] }}thumbs/{{ image }}"
   data-caption="{{ page.captions[image] }}"
   title="{{ page.title[image] }}"
   alt="{{ page.captions[image] }}"

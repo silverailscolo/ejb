@@ -241,15 +241,14 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-polyglot
-  - jekyll/scholar
+  # - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -262,6 +261,10 @@ defaults:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
+  - scope: # mark all images for exiftag liquid loop
+      path: "assets/img"
+    values:
+      image: true
 
 sass:
   sourcemap: never

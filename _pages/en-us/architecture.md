@@ -84,6 +84,10 @@ Design for new main office University Wageningen (thesis)
 
 </div><!-- sluit tegel af -->
 
+Looking for ecological building supplies?
+: Order from [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)
+: Flax biobased insulation [Isovlas](https://www.isovlas.nl)
+
 Energy Efficient Buildings
 : [Passivhaus](https://phi.org)
 

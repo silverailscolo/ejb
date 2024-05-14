@@ -10,7 +10,7 @@
 #
 # {% exiftag tagname,[source],[file] %}
 #
-# Everything given as tagname is called on EXIFR::JPEG, so this could be model or f_number.to_f (see https://github.com/remvee/exifr)
+# Everything given as tagname is called on EXIFTOOL::EXIF, so this could be model or f_number.to_f (see https://github.com/remvee/exifr)
 # If you give a source, this source is used build the fullpath for the given file (you can also configure them in _config.yml, see below)
 # If the file is given, this is the file to get Exif Tags for, this can be alternatively defined in the YAML Front Matter as img: file
 # Used for Jimmy Xiao's Lightgallery shows.
@@ -118,7 +118,7 @@ module Jekyll
 
         if answer != nil and answer != ""
           answer.gsub(/"/, "") # strip quotes from answer to protect html
-          # puts "EXIFtool fetched tag #{tag} for image #{img}: #{answer}"
+          # Jekyll.logger.info "EXIFtool fetched tag #{tag} for image #{img}: #{answer}"
           return answer.force_encoding("UTF-8")
         else
           # If no caption defined, add a trimmed filename to help with SEO

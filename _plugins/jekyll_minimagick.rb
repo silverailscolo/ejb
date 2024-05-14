@@ -74,13 +74,13 @@ module Jekyll
       def generate(site)
         return unless site.config['mini_magick']
         return unless site.config['default_lang'] == site.active_lang # context.registers[:site].data[language]
-        puts "MiniMagickGenerator for #{site.active_lang}"
+        Jekyll.logger.info "MiniMagickGenerator for #{site.active_lang}"
 
         site.config['mini_magick'].each_pair do |name, preset|
           Dir.chdir preset['source'] do
             Dir.glob(File.join("**", "*.{png,jpg,jpeg,gif}")) do |source|
               newFile = GeneratedImageFile.new(site, site.source, preset['destination'], source, preset.clone)
-              puts "MiniM newFile=#{newFile.name} source=#{source}"
+              Jekyll.logger.info "MiniM newFile=#{newFile.name} from source=#{source}"
               site.static_files << newFile
             end
           end

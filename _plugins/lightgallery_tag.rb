@@ -104,7 +104,6 @@ module Jekyll
         if title == nil
           begin
             exif = Exiftool.new("#{p.path_for(filename)}")
-            # exif = Exif::Data.new(File.open(p.path_for(filename)))
           rescue StandardError => e
             # puts "No EXIF header in file #{filename}: #{e}"
           end

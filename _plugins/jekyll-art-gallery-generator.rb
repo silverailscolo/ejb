@@ -327,14 +327,13 @@ module Jekyll
       if site.active_lang == site.default_lang
         # generate best image thumb for the gallery front super-index page
         makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "front_"+best_image, config["front_thumb_size"]["x"] || 400, config["front_thumb_size"]["y"] || 400, "crop")
-
         # generate best image thumb for the header of a gallery index page
         makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 0, config["header_thumb_size"]["y"] || 400, "crop")
-        self.data["src_path"] = ""
-      else # for Polyglot non-default language skip thumb generation, use relative path to assets
         # used in the theme ERROR HERE RUBY3 UNDEFINED with ["fullwidth"]
-        self.data["src_path"] = File.join("/", @dir, "/") # start from default language root to find assets
       end
+
+      # to make this work in Polyglot non-default language, skip thumb generation, use abs path to assets from root
+      self.data["src_path"] = File.join("/", @dir, "/") # start from default language root to find assets
       self.data["header"] = "thumbs/header_"+best_image # used in the theme ERROR HERE RUBY3 UNDEFINED with ["fullwidth"]
       GC.start # garbage collection
     end
