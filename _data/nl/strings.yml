@@ -121,3 +121,5 @@ rollingstock:
 galleries:
   no-gall: Geen foto-galerijen gedefinieerd in \_data/galleries/overview.yml
   search-box: Filter op...
+art-gallery:
+  back-to: Terug naar

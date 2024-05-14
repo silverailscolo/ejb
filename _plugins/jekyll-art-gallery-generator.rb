@@ -87,7 +87,7 @@ module Jekyll
           end
           site.data["navigation"].push({"title"=> gallery.data["title"], "url"=> gallery.data["link"], "side"=> "left"})
           site.data["galleries-sorted"].push(gallery.data["title"])
-          # sorted array to order the galleries hash on the Portfolio page, used?
+          # sorted array to order the galleries hash on the Portfolio page, used where?
         end
       }
     end
@@ -183,64 +183,66 @@ module Jekyll
         # Strip out the non-ascii character and downcase the final file name
         dest_image = image.gsub(/[^0-9A-Za-z.\-]/, '_').downcase
         # NOTE: a second copy without downcase is put in the same place (error + dead link on linux)
-        dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
-        if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
-          if config["strip_exif"] or config["watermark"] or config["size_limit"]
-            # can't simply copy or symlink, need to pre-process the image
-            begin
-              source_img = ::MiniMagick::Image.open(image_path)
-              if config["strip_exif"]
-                print "stripping EXIF..."
-                source_img.strip
-              end
-              if config["watermark"]
-                if [source_img.width, source_img.height].min < 600
-                  print "too small to watermark"
-                else
-                  print "watermarking"
-                  source_img.composite(wm_img) do |c|
-                    c.geometry "-20-20"
-                    c.gravity "SouthEast"
-                    c.compose "Over"
+        if site.active_lang == site.default_lang # EBR fix non-default polyglot lang messing up static_files
+          dest_image_abs_path = site.in_dest_dir(File.join(@dir, dest_image))
+          if File.file?(dest_image_abs_path) == false or File.mtime(image_path) > File.mtime(dest_image_abs_path)
+            if config["strip_exif"] or config["watermark"] or config["size_limit"]
+              # can't simply copy or symlink, need to pre-process the image
+              begin
+                source_img = ::MiniMagick::Image.open(image_path)
+                if config["strip_exif"]
+                  print "stripping EXIF..."
+                  source_img.strip
+                end
+                if config["watermark"]
+                  if [source_img.width, source_img.height].min < 600
+                    print "too small to watermark"
+                  else
+                    print "watermarking"
+                    source_img.composite(wm_img) do |c|
+                      c.geometry "-20-20"
+                      c.gravity "SouthEast"
+                      c.compose "Over"
+                    end
                   end
-                  # source_img.write dest_image_abs_path # write in line #213 too?
+                end
+                if config["size_limit"] and (source_img.width > config["size_limit"] || source_img.height > config["size_limit"])
+                  source_img.resize config["size_limit"].to_s + "x" + config["size_limit"].to_s
+                  # resize only if bigger than the limit
+                end
+                source_img.write dest_image_abs_path
+                print "\n"
+              rescue StandardError => e
+                puts "Error reading image file #{image_path}: #{e}"
+              end
+            elsif symlink
+              print "Symlinking #{image_path} to #{dest_image}..."
+              link_src = site.in_source_dir(image_path)
+              link_dest = dest_image_abs_path
+              @site.static_files.delete_if { |sf|
+                sf.relative_path == "/" + image_path
+              }
+              @site.static_files << GalleryFile.new(site, base, dir, image)
+              if File.exist?(link_dest) or File.symlink?(link_dest)
+                if not File.symlink?(link_dest)
+                  puts "#{link_dest} exists but is not a symlink. Deleting."
+                  File.delete(link_dest)
+                elsif File.readlink(link_dest) != link_src
+                  puts "#{link_dest} points to the wrong file. Deleting."
+                  File.delete(link_dest)
                 end
               end
-              if config["size_limit"] and (source_img.width > config["size_limit"] || source_img.height > config["size_limit"])
-                source_img.resize config["size_limit"].to_s + "x" + config["size_limit"].to_s
-                # resize only if bigger than the limit
+              if not File.exist?(link_dest) and not File.symlink?(link_dest)
+                File.symlink(link_src, link_dest)
               end
-              source_img.write dest_image_abs_path
               print "\n"
-            rescue StandardError => e
-              puts "Error reading image file #{image_path}: #{e}"
-              # file_name
+            else
+              puts "Copying #{image_path} to #{dest_image}..."
+              FileUtils.cp(image_path, dest_image_abs_path)
             end
-          elsif symlink
-            print "Symlinking #{image_path} to #{dest_image}..."
-            link_src = site.in_source_dir(image_path)
-            link_dest = dest_image_abs_path
-            @site.static_files.delete_if { |sf|
-              sf.relative_path == "/" + image_path
-            }
-            @site.static_files << GalleryFile.new(site, base, dir, image)
-            if File.exist?(link_dest) or File.symlink?(link_dest)
-              if not File.symlink?(link_dest)
-                puts "#{link_dest} exists but is not a symlink. Deleting."
-                File.delete(link_dest)
-              elsif File.readlink(link_dest) != link_src
-                puts "#{link_dest} points to the wrong file. Deleting."
-                File.delete(link_dest)
-              end
-            end
-            if not File.exist?(link_dest) and not File.symlink?(link_dest)
-              File.symlink(link_src, link_dest)
-            end
-            print "\n"
-          else
-            puts "Copying #{image_path} to #{dest_image}..."
-            FileUtils.cp(image_path, dest_image_abs_path)
           end
+        else
+          puts "AG Skipping #{site.active_lang} image"
         end
 
         # Add file descriptions if defined
@@ -286,10 +288,11 @@ module Jekyll
         end
         # remember the image
         @images.push(dest_image)
-        @site.static_files << GalleryFile.new(site, base, @dir, dest_image)
-
-        # make a thumbnail
-        makeThumb(image_path, dest_image, config["thumbnail_size"]["x"] || 400, config["thumbnail_size"]["y"] || 400, scale_method)
+        if site.active_lang == site.default_lang
+          @site.static_files << GalleryFile.new(site, base, @dir, dest_image) # EBR don't mark for other languages
+          # make a thumbnail
+          makeThumb(image_path, dest_image, config["thumbnail_size"]["x"] || 400, config["thumbnail_size"]["y"] || 400, scale_method)
+        end
       end
 
       # sort pictures inside the art-gallery
@@ -313,7 +316,7 @@ module Jekyll
         # puts e.backtrace
       end
 
-      # site.static_files = @site.static_files # EBR debug off
+      site.static_files = @site.static_files # EBR debug: cause or result?
       self.data["images"] = @images
 
       best_image = gallery_config["best_image"] || @images[0]
@@ -321,14 +324,18 @@ module Jekyll
       best_image.downcase! # two step because mutating gsub returns nil that's unusable in a compound call
       self.data["best_image"] = best_image
 
-      # generate best image thumb for the gallery front super-index page
-      makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "front_"+best_image, config["front_thumb_size"]["x"] || 400, config["front_thumb_size"]["y"] || 400, "crop")
+      if site.active_lang == site.default_lang
+        # generate best image thumb for the gallery front super-index page
+        makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "front_"+best_image, config["front_thumb_size"]["x"] || 400, config["front_thumb_size"]["y"] || 400, "crop")
+        # generate best image thumb for the header of a gallery index page
+        makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 0, config["header_thumb_size"]["y"] || 400, "crop")
+        # used in the theme ERROR HERE RUBY3 UNDEFINED with ["fullwidth"]
+      end
 
-      # generate best image thumb for the header of a gallery index page
-      makeThumb(site.in_dest_dir(File.join(@dir, best_image)), "header_"+best_image, config["header_thumb_size"]["x"] || 0, config["header_thumb_size"]["y"] || 400, "crop")
-
+      # to make this work in Polyglot non-default language, skip thumb generation, use abs path to assets from root
+      self.data["src_path"] = File.join("/", @dir, "/") # start from default language root to find assets
       self.data["header"] = "thumbs/header_"+best_image # used in the theme ERROR HERE RUBY3 UNDEFINED with ["fullwidth"]
-      GC.start
+      GC.start # garbage collection
     end
 
     def makeThumb(image_path, dest_image, thumb_x, thumb_y, scale_method)
@@ -377,7 +384,7 @@ module Jekyll
         end
       end
       # record the thumbnail
-      @site.static_files << GalleryFile.new(@site, @base, thumbs_dir, dest_image)
+      @site.static_files << GalleryFile.new(@site, @base, thumbs_dir, dest_image) # EBR don't mark for other languages
     end
   end
 
@@ -392,7 +399,7 @@ module Jekyll
       @name = "index.html"
       @images = []
       @hidden = false
-      GC.start
+      GC.start #  garbage collection
     end
 
     def hidden()
@@ -420,6 +427,7 @@ module Jekyll
         Dir.foreach(dir) do |gallery_dir|
           gallery_path = File.join(dir, gallery_dir)
           if File.directory?(gallery_path) and gallery_dir.chars.first != "." # skip art_galleries starting with a dot
+            puts "Generator loop for path #{gallery_path} dir #{gallery_dir}"
             gallery = GalleryPage.new(site, site.source, gallery_path, gallery_dir)
             gallery.render(site.layouts, site.site_payload)
             gallery.write(site.dest)

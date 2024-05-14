@@ -51,7 +51,7 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 <figcaption class="kleiner">Bouwpartners restauratie 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <figure><img src='{{ "/assets/img/architect/br11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Voorgevel woonhuis BR11, aug 2021' class='img-fluid'>
-<figcaption class="kleiner">Project 2021-2022: restauratie woonhuis BR11 te Dwingeloo (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figcaption class="kleiner">Project 2021-2022: restauratie woonhuis BR11 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <figure><img src='{{ "/assets/img/architect/br11/IMG_3774.jpg" | relative_url }}' alt='Herstel en isolatielaag schuin dak' class='img-fluid' >
 <figcaption class="kleiner">Herstel en isolatielaag schuin dak (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
@@ -79,7 +79,8 @@ Ontwerp voor een nieuw hoofdgebouw voor de LU Wageningen
 </div><!-- sluit tegel af -->
 
 Op zoek naar ecologische bouwmaterialen?
-: Kijk bij [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)
+: Bestel bij [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)
+: Biobased isolatie [Isovlas](https://www.isovlas.nl)
 
 Energiezuinige gebouwen
 : [Passivhaus](https://phi.org)

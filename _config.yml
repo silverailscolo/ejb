@@ -241,15 +241,14 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
+  # - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-polyglot
-  - jekyll/scholar
+  # - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
@@ -262,6 +261,10 @@ defaults:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
+  - scope: # mark all images for exiftag liquid loop
+      path: "assets/img"
+    values:
+      image: true
 
 sass:
   sourcemap: never
@@ -344,7 +347,7 @@ parallel_localization: true
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -482,11 +485,11 @@ jsonresume:
 mini_magick:
   imgnoresample:
     source: assets/img-noresample
-    destination: thumbnails
+    destination: assets/thumbnails
     resize: "150x150"
   img:
     source: assets/img
-    destination: thumbnails
+    destination: assets/thumbnails
     resize: "100x100"
 
 exiftag:
