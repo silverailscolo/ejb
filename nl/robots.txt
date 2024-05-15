@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://silverailscolo.github.io/ebroerse.nl/sitemap.xml
