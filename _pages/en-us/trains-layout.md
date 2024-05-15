@@ -24,13 +24,11 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 Building the D&amp;S layout
 
 <!-- simply so (by Jimmy_Xiao) -->
-
 {% include album.html albumname="trains2" %}
 
-More images of the layout (op)
+More images of the layout
 
 <!-- opieters include -->
-
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 
 ## <a id="layout">Modeling the D&amp;SNG RR</a>
@@ -119,7 +117,7 @@ There just had to be a port with a cannery and coal dock on the layout. I found 
 <figure><img src='{{ "/assets/img/trains2/trackplan_Thoreau.png" | relative_url }}' alt='Farmington NM area track plan' class='img-fluid'>
 <figcaption class="kleiner">Farmington NM area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<p>The Farmington Branch has an interchange wth the Santa Fe in the desert town of Thoreau, which explains the big diesels of a Class I RR.</p>
+<p>The Farmington Branch has an interchange with the Santa Fe in the desert town of Thoreau, which explains the big diesels of a Class I RR.</p>
 
 <div class="row">
 <div class="col-sm">
@@ -134,7 +132,7 @@ There just had to be a port with a cannery and coal dock on the layout. I found 
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/DSC0873_smallFarmington.jpg" | relative_url }}' alt='Stop for a snack in Farmington 2013' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/DSC0873_smallFarmington.jpg" | relative_url }}' alt='Stop for a snack in Farmington, 2013' class='img-fluid'>
 <figcaption class="kleiner">GE 44 ton switcher #42 and the Snack Stop are ready for travelers, 2013</figcaption></figure>
 </div>
 <div class="col-sm">
@@ -187,7 +185,7 @@ Durenver is the main town on the layout, a fictional combination of Durango town
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/IMG_5179_smallSpeeder.jpg" | relative_url }}' class='img-fluid' alt='Speeder shed, ready the assist in the tunnel'>
+<figure><img src='{{ "/assets/img/trains2/IMG_5179_smallSpeeder.jpg" | relative_url }}' class='img-fluid' alt='Speeder shed'>
 <figcaption class="kleiner">Speeder at the shed, ready the assist in the tunnel</figcaption></figure>
 </div>
 <div class="col-sm">
@@ -211,7 +209,7 @@ Central point on the layout is the historic depot and boom town of Durango, CO.
 <figcaption class="kleiner">Fleischmann turntable, Shay and Goose in Atlas roundhouse, March 2008</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/IMG_7412_lo.jpg" | relative_url }}' alt='Malone Iron and Graden Mercantile, click to enlarge' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/IMG_7412_lo.jpg" | relative_url }}' alt='Malone Iron and Graden Mercantile' class='img-fluid'>
 <figcaption class="kleiner">Malone Iron and Graden Mercantile in the background, Dec. 2018</figcaption></figure>
 </div>
 </div>
@@ -245,7 +243,8 @@ Central point on the layout is the historic depot and boom town of Durango, CO.
 <figure><img src='{{ "/assets/img/trains2/trackplan_Rockwood.png" | relative_url }}' alt='Rockwood area track plan' class='img-fluid'>
 <figcaption class="kleiner">Rockwood area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<p>A small settlement halfway up near the High Line, just a couple of houses and a small depot plus lumber mill. A small steam operated narrow gauge segment brings in the logs.</p>
+
+A small settlement halfway up near the High Line, just a couple of houses and a small depot plus lumber mill. A small steam operated narrow gauge segment brings in the logs.
 
 <div class="row">
 <div class="col-sm">

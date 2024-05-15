@@ -8,10 +8,10 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-  - title: GitHub Repositories
+  - title: GitHub repositories
     permalink: /computers/repositories
   - title: divider
-  - title: Mijn Macs
+  - title: mijn Macs
     permalink: /computers/mymacs
   - title: divider
   - title: Mac tips
@@ -20,6 +20,6 @@ children:
   - title: Lubuntu tips
     permalink: /computers/lubuntu
   - title: divider
-  - title: Speeltuin
+  - title: speeltuin
     permalink: /computers/playground
 ---

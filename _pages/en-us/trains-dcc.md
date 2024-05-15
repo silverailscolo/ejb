@@ -67,7 +67,7 @@ toc:
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 Go to my <a href="tips.html">Model Railroad How To's</a> next.</div>
 
-## DCC Links
+## Third Party DCC Links
 
 - <a id="wiring-ds54" href="https://www.jmri.org/help/en/html/hardware/loconet/DigitraxPower.shtml">Wiring the Digitrax DS54</a>, be sure to keep it apart from the other loconet devices (read why in this excellent contribution by Bob Jacobson of JMRI fame)
 - <a id="locoio" href="https://locohdl.synology.me">LocoIO by Hans Deloof</a>

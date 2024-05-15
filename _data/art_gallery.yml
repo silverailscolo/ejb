@@ -35,7 +35,7 @@ galleries:
   # if the gallery is not listed, it takes all the defaults
   # if the gallery is listed, it uses specified values except for defaults
   Sketches:
-    title: Design sketches from N31
+    title: N31 Design Sketches
     best_image: IMG_4506.jpg
   Hidden Gallery:
     hidden: true # don't generate index file - it's still on the web though

@@ -8,11 +8,11 @@
 
 ---
 
-[![deploy](https://github.com/silverailscolo/ebroerse.nl/actions/workflows/deploy.yml/badge.svg)](https://github.com/silverailscolo/ebroerse.nl/actions/workflows/deploy.yml)
+[![deploy](https://github.com/silverailscolo/ejb/actions/workflows/deploy.yml/badge.svg)](https://github.com/silverailscolo/ejb/actions/workflows/deploy.yml)
 
-[![GitHub license](https://img.shields.io/github/license/silverailscolo/ebroerse.nl?color=blue)](https://github.com/silverailscolo/ebroerse.nl/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/silverailscolo/ebroerse.nl)](https://github.com/silverailscolo/ebroerse.nl)
-[![GitHub forks](https://img.shields.io/github/forks/silverailscolo/ebroerse.nl)](https://github.com/silverailscolo/ebroerse.nl)
+[![GitHub license](https://img.shields.io/github/license/silverailscolo/ejb?color=blue)](https://github.com/silverailscolo/ebroerse.nl/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/silverailscolo/ejb)](https://github.com/silverailscolo/ejb)
+[![GitHub forks](https://img.shields.io/github/forks/silverailscolo/ejb)](https://github.com/silverailscolo/ejb)
 
 </div>
 
@@ -20,19 +20,19 @@
 
 ### Desktop
 
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/desktop/silverailscolo/ebroerse.nl.html)
+[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/desktop/silverailscolo/ejb.html)
 
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Febroerse.nl%2F&form_factor=desktop)
+Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Fejb%2F&form_factor=desktop)
 
 ### Mobile
 
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/mobile/silverailscolo/ebroerse.nl.html)
+[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/mobile/silverailscolo/ejb.html)
 
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Febroerse.nl%2F&form_factor=mobile)
+Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Fejb%2F&form_factor=mobile)
 
 ## Table Of Contents
 
-- [ebroerse.nl](#ebroerse.nl)
+- [ejb](#ejb)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
     - [Desktop](#desktop)
     - [Mobile](#mobile)

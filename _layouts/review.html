@@ -8,7 +8,7 @@ layout: default
     <p class="post-meta">
       {{ site.data[site.active_lang].strings.books.written-by }} {{ page.author }} ({{ page.year }}) · {{
       site.data[site.active_lang].strings.books.read-on }}
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+      {% include date_format.liquid format='short' date_from=page %}
     </p>
   </header>
   <figure class="book-cover row-cols-1">
