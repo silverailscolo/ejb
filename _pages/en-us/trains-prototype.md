@@ -38,7 +38,7 @@ Highball nostalgic railroad sounds ([Fidelity in Motion album MF-4](https://www.
 </div>
 </div>
 
-Index: 
+Index:
 
 <ol>
 <li>C&amp;S #807 2-8-2 from Fort Collins to Denver, CO</li>

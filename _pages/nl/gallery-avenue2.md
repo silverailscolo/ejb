@@ -11,6 +11,7 @@ Beelden van mijn werk aan de A2 Maastricht vormgeving en uitvoeringsbegeleiding
 (2007-2016).
 
 <!-- opieters methode -->
+
 {% include gallery_layout.liquid gallery=site.data.galleries.avenue2 %}
 
 <!-- lightgallery_tag.rb plugin -->

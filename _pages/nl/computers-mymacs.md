@@ -210,6 +210,7 @@ HD: 233 Gb ATA</p>
 <figcaption class="kleiner">Z88 portable (<a href="https://commons.wikimedia.org/wiki/File:Cambridge-Z88.jpg" title="via Wikimedia Commons">Evan-Amos</a> [Public domain])</figcaption></figure>
 
 ## Mac software {#software}
+
 <p>Software die ik het meest gebruik:</p>
 
 <p>Apple Pages, Numbers en Keynote <img src='{{ "/assets/img/mac/pagesdock.png" | relative_url }}' alt='Apple Apps in Dock'></p>

@@ -213,16 +213,16 @@ Te koop, verkocht & snelle start
 
 ## 2000
 
-| Date      | Action                                                                                           |
-| --------- | ------------------------------------------------------------------------------------------------ | ---------------- |
-| 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                  |
-| 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                     |
-| 12-02-'00 | zolderkamer voor ge&iuml;soleerd en verder afgetimmerd                                           |
-| 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>    |
-|           | (...)                                                                                            |
-| 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                       |
+| Date      | Action                                                                                                |
+| --------- | ----------------------------------------------------------------------------------------------------- | ----------------- |
+| 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                       |
+| 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                          |
+| 12-02-'00 | zolderkamer voor ge&iuml;soleerd en verder afgetimmerd                                                |
+| 01-09-'00 | zolderkamer achter kleine dakramen dicht laten leggen en zelf ge&iuml;soleerd/afgetimmerd<br>         |
+|           | (...)                                                                                                 |
+| 01-09-'00 | vloerverwarming in keuken/gang aangesloten                                                            |
 | 03-11-'00 | convector(put) in wk gebouwd en aangesloten <img src='{{ "/assets/img/house/ms15/convector001105.jpg" | relative_url }}'> |
-| 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                 |
+| 05-11-'00 | klusschoenen afgedankt (zie animatie <a href="#top">bovenaan</a>                                      |
 
 ## 2001
 
@@ -255,10 +255,10 @@ Te koop, verkocht & snelle start
 
 ## 2004
 
-| Date      | Action                                                             |
-| --------- | ------------------------------------------------------------------ | ----------------- |
-| 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                              |
-| 23-05-'04 | slang boiler gesprongen (en gehoosd)                               |
+| Date      | Action                                                                  |
+| --------- | ----------------------------------------------------------------------- | ----------------- |
+| 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                                   |
+| 23-05-'04 | slang boiler gesprongen (en gehoosd)                                    |
 | 26-05-'04 | slaapkamer als nieuw <img src='{{ "/assets/img/house/ms15/kast2004.jpg" | relative_url }}'> |
 
 ## 2005
@@ -281,17 +281,17 @@ Te koop, verkocht & snelle start
 
 ## 2012
 
-| Date       | Action                                        |
-| ---------- | --------------------------------------------- | --------------------------------------------- |
-| 01-06-2012 | koekkoek                                      |
+| Date       | Action                                             |
+| ---------- | -------------------------------------------------- | --------------------------------------------- |
+| 01-06-2012 | koekkoek                                           |
 |            | <img src='{{ "/assets/img/house/ms15/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
 
 ## 2020
 
-| Date       | Action                                        |
-| ---------- | --------------------------------------------- | --------------------------------------------- |
-| 01-03-2020 | vloer zolder vervangen                        | |
-| 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilder      | |
+| Date       | Action                                   |
+| ---------- | ---------------------------------------- | --- |
+| 01-03-2020 | vloer zolder vervangen                   |     |
+| 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilder |     |
 
 ## Wat zal het volgende zijn?
 

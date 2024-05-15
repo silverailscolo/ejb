@@ -9,6 +9,7 @@ nav: false
 ---
 
 <!-- simply so (by Jimmy_Xiao) -->
+
 {% include album.html albumname="rostercovers" %}
 
 Al mijn N-schaal locs en wagons - klik op een titel voor details!

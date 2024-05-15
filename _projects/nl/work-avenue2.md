@@ -9,10 +9,10 @@ importance: 2
 category: work
 carousels:
   - images:
-    - image: ../../../assets/img/architect/avenue2/7691.jpg
-    - image: ../../../assets/img/architect/avenue2/TMZ2016_IMG_5708.jpg
-    - image: ../../../assets/img/architect/avenue2/DGZ201404_IMG_3788.jpg
-    - image: ../../../assets/img/architect/avenue2/DGZ201404_IMG_3797.jpg
+      - image: ../../../assets/img/architect/avenue2/7691.jpg
+      - image: ../../../assets/img/architect/avenue2/TMZ2016_IMG_5708.jpg
+      - image: ../../../assets/img/architect/avenue2/DGZ201404_IMG_3788.jpg
+      - image: ../../../assets/img/architect/avenue2/DGZ201404_IMG_3797.jpg
 ---
 
 Periode: 2009 - 2017
@@ -22,6 +22,7 @@ Rol: Ontwerpleider team ruimtelijk ontwerp, projectarchitect 25 kunstwerken en 2
 Opdrachtgever: Consortium Avenue2 (Ballast Nedam & Strukton)
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
 <!-- inline slider -->
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">

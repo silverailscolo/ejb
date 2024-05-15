@@ -149,9 +149,11 @@ Some years later, signals were added on the layout as well as to the panel. All 
       </div>
     </div>
     </a>
+
   </div>
 
 {% endif %}
 {% endfor %}
+
 </div>
 </div>

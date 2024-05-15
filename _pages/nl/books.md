@@ -9,6 +9,7 @@ nav: false
 ---
 
 <!-- simply so (by Jimmy_Xiao) -->
+
 {% include album.html albumname="bookcovers" %}
 
 Al mijn boeken - klik op een titel om meer te lezen!
