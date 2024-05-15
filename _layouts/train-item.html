@@ -26,9 +26,9 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
 
   <section id="more">
-    <div class="w3-row">
-      <div class="w3-col s12 m6">
-        {% if page.previous %} {% assign previous = page.previous %} {% else %} {% assign previous = site.rollingstock[0] %} {% endif %}
+    <div class="row">
+      <div class="col-sm">
+        {% if page.previous %}{% assign previous = page.previous %}{% else %}{% assign previous = site.rollingstock[0] %}{% endif %}
         <div class="left">
           <a
             class="equalize"
@@ -36,16 +36,18 @@ layout: default
             title="{{ site.data[site.active_lang].strings.rollingstock.prev-item }}: {{previous.id}}"
           >
             <div>
-              <h6>← {{ site.data[site.active_lang].strings.rollingstock.prev-item }}</h6>
-              <h4>{{ previous.title | upcase }}</h4>
+              ← {{ site.data[site.active_lang].strings.rollingstock.prev-item }}
+              <h6>{{ previous.title | upcase }}</h6>
             </div>
           </a>
         </div>
       </div>
-      <div class="w3-col s12 m6">
-        {% if page.next %} {% assign next = page.next %} {% else %} {%comment%} As the array index starts at zero we subtract 1 from the total count,
-        we then get the last item index in the site.rollingstock array {%endcomment%} {% assign last lastRosterIndex = site.rollingstock | size |
-        minus: 1 %} {% assign next = site.rollingstock[lastRosterIndex] %} {% endif %}
+      <div class="col-sm">
+        {% if page.next %}{% assign next = page.next %}{% else %}{% comment %}As the array index starts at zero we
+        subtract 1 from the total count,
+        we then get the last item index in the site.rollingstock array{% endcomment %}{% assign lastRosterIndex =
+        site.rollingstock | size |
+        minus: 1 %} {% assign next = site.rollingstock[lastRosterIndex] %}{% endif %}
         <div class="right">
           <a
             class="equalize"
@@ -53,8 +55,8 @@ layout: default
             title="{{ site.data[site.active_lang].strings.rollingstock.next-item }}: {{next.id}}"
           >
             <div>
-              <h6>{{ site.data[site.active_lang].strings.rollingstock.next-item }} →</h6>
-              <h4>{{ next.title | upcase }}</h4>
+              {{ site.data[site.active_lang].strings.rollingstock.next-item }} →
+              <h6>{{ next.title | upcase }}</h6>
             </div>
           </a>
         </div>

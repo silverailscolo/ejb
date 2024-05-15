@@ -1,21 +1,18 @@
 ---
 layout: post
 lang: nl
-title: Website verhuist
+title: Website is verhuisd
 date: 2024-04-22
 inline: false
 related_posts: false
 ---
 
-Ik ben bezig om mijn website, blog en fotobibliotheek over te zetten naar Jekyll, zodat het een geïntegreerd geheel wordt.
+Mijn oude website, blog en fotobibliotheek heb ik van Wordpresse en Piwigo overgezet naar Jekyll, zodat het een geïntegreerd geheel wordt. En pff, nooit meer security-updates, geblokte adressen etc.
 
-Nu met bijschriften uit metadata van de bestanden.
+Met bijschriften uit metadata van de bestanden. In twee talen: NL en EN, wat begon vanwege mijn US modelbouw contacten. En met automatische licht/donker modus.
 
----
+Kijk lekker rond, en als je een - serieus - foutje ziet kan je een [Issue](https://github.com/silverailscolo/ejb/issues) aanmaken.
 
-## Houd deze pagina in de gaten voor meer.
+## Abonneer je op mijn Atom (RSS-like) Feed
 
-Om in de stemming te komen, een kort citaat:
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+The Atom (RSS-like) feed is reachable simply by typing [silverailscolo.github.io/ejb/feed.xml](silverailscolo.github.io/ejb/feed.xml)

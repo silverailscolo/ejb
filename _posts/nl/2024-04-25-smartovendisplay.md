@@ -29,11 +29,15 @@ Zoals je [hier]({{ "/house/smart.html#oven" | relative_url }}) misschien hebt ge
 
 Monteer in de meterkast of een andere veilig bereikbare plek CT-klemmen rond 2-3 aders naar de AGA. Ik heb compacte myenergi klemmen besteld.
 
+<div class="row">
+<div class="col-sm">
 <figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 klemmen in meterkast" class='img-fluid'><figcaption class="kleiner">CT2 klemmen in meterkast</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="aansluiting in de harvi" class='img-fluid'><figcaption class="kleiner">CT2/3 aansluiting in de harvi</figcaption></figure>
+</div>
 
 Verbind de draden van de CT klemmen aan ongebruikte inputs op de harve. Ze verschijnen danals sensors in de Home Assistant myenergi integratie.
-
-<figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="CT2 clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT2 clamps behind fuse box</figcaption></figure>
 
 ### Code
 

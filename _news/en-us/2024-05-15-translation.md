@@ -9,4 +9,4 @@ related_posts: false
 
 Deze website is ook beschikbaar in het [Nederlands](../../../news/translation/).
 
-Wissel van taal of licht/donker thema via de menubalk (op je mobiel met het menu rechtsboven).
+Wissel van taal via de menubalk (op je mobiel: het menu rechtsboven).

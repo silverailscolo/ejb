@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "clean": "bundle exec jekyll clean",
-    "dev": "webpack --mode=development && bundle exec jekyll build && npm run delete-nondefault-img && npm run serve",
+    "dev": "webpack --mode=development && bundle exec jekyll build && npm run delete-nondefault && npm run serve",
     "build": "webpack --mode=production && JEKYLL_ENV=production bundle exec jekyll build",
-    "postbuild": "npm run delete-nondefault-img",
-    "delete-nondefault-img": "rm -r _site/*/assets/img",
+    "postbuild": "npm run delete-nondefault",
+    "delete-nondefault": "rm -r _site/*/assets/img && rm -r _site/*/assets/pdf && rm -r _site/*/assets/python",
     "serve": "npx http-server -p 4001 _site/"
   },
   "repository": {
@@ -18,9 +18,9 @@
   "author": "EJ Broerse",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/silverailscolo/ebroerse.nl/issues"
+    "url": "https://github.com/silverailscolo/ejb/issues"
   },
-  "homepage": "https://silverailscolo.github.io/ebroerse.nl",
+  "homepage": "https://silverailscolo.github.io/ejb",
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.4.4",
     "prettier": "^3.2.5"
