@@ -1,21 +1,20 @@
 ---
 layout: post
 lang: en-us
-title: Website on the move
+title: Website has moved
 date: 2024-04-22
 inline: false
 related_posts: false
 ---
 
-I am busy migrating my website, blog and photo library as an integrated work to Jekyll.
+I rounded up migrating my website, blog and photo library as an integrated experience served from Jekyll. Goodbye Wordpresse and Piwigo updates and security side jobs.
 
-Now includes captions from image file metadata.
+I serve two languages: NL and EN-US, originally for my US model railroad stuff. And you can choose from Light and Dark theme.
 
----
+Also includes captions read directly from image file metadata (sorry, these are not i18n, I tried but that was too much for now).
 
-## Stay tuned for more.
+Have a look around, and report any - serious - hick-ups as an [Issue](https://github.com/silverailscolo/ejb/issues)
 
-To get into the mood, here is a short quote:
+## Subscribe to my Atom (RSS-like) Feed
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+The Atom (RSS-like) feed is reachable simply by typing [silverailscolo.github.io/ejb/feed.xml](silverailscolo.github.io/ejb/feed.xml)

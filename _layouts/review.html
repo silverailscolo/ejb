@@ -35,8 +35,8 @@ layout: default
   {%- if site.disqus.shortname -%} {%- include disqus_comments.html -%} {%- endif -%}
 
   <section id="more">
-    <div class="w3-row">
-      <div class="w3-col s12 m6">
+    <div class="row">
+      <div class="col-sm">
         {% if page.previous %} {% assign previous = page.previous %} {% else %} {% assign previous = site.books[0] %} {% endif %}
         <div class="left">
           <a
@@ -45,21 +45,23 @@ layout: default
             title="{{ site.data[site.active_lang].strings.books.prev-project }}: {{previous.title}}"
           >
             <div>
-              <h6>← {{ site.data[site.active_lang].strings.books.prev-book }}</h6>
-              <h4>{{ previous.title }}</h4>
+              ← {{ site.data[site.active_lang].strings.books.prev-book }}
+              <h6>{{ previous.title }}</h6>
             </div>
           </a>
         </div>
       </div>
-      <div class="w3-col s12 m6">
-        {% if page.next %} {% assign next = page.next %} {% else %} {%comment%} As the array index starts at zero we subtract 1 from the total count,
-        we then get the last book index in the site.books array {%endcomment%} {% assign last lastProjectIndex = site.books | size | minus: 1 %} {%
-        assign next = site.books[lastProjectIndex] %} {% endif %}
+      <div class="col-sm">
+        {% if page.next %}{% assign next = page.next %}{% else %}{% comment %}As the array index starts at zero we
+        subtract 1 from the total count,
+        we then get the last book index in the site.books array{% endcomment %}{% assign lastProjectIndex =
+        site.books | size | minus: 1 %}{%
+        assign next = site.books[lastProjectIndex] %}{% endif %}
         <div class="right">
           <a class="equalize" href="{{site.baseurl}}{{next.url}}" title="{{ site.data[site.active_lang].strings.books.next-book }}: {{next.title}}">
             <div>
-              <h6>{{ site.data[site.active_lang].strings.books.next-book }} →</h6>
-              <h4>{{ next.title }}</h4>
+              {{ site.data[site.active_lang].strings.books.next-book }} →
+              <h6>{{ next.title }}</h6>
             </div>
           </a>
         </div>

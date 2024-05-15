@@ -10,7 +10,7 @@
 
 [![deploy](https://github.com/silverailscolo/ejb/actions/workflows/deploy.yml/badge.svg)](https://github.com/silverailscolo/ejb/actions/workflows/deploy.yml)
 
-[![GitHub license](https://img.shields.io/github/license/silverailscolo/ejb?color=blue)](https://github.com/silverailscolo/ebroerse.nl/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/silverailscolo/ejb?color=blue)](https://github.com/silverailscolo/ejb/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/silverailscolo/ejb)](https://github.com/silverailscolo/ejb)
 [![GitHub forks](https://img.shields.io/github/forks/silverailscolo/ejb)](https://github.com/silverailscolo/ejb)
 
@@ -20,13 +20,13 @@
 
 ### Desktop
 
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/desktop/silverailscolo/ejb.html)
+[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ejb/blob/main/lighthouse_results/desktop/silverailscolo/ejb.html)
 
 Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Fejb%2F&form_factor=desktop)
 
 ### Mobile
 
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ebroerse.nl/blob/main/lighthouse_results/mobile/silverailscolo/ejb.html)
+[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ejb/blob/main/lighthouse_results/mobile/silverailscolo/ejb.html)
 
 Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Fejb%2F&form_factor=mobile)
 
@@ -57,7 +57,7 @@ This template has a built-in light/dark mode. It detects the user preferred colo
 
 #### Atom (RSS-like) Feed
 
-The Atom (RSS-like) feed is reachable simply by typing after your homepage `/feed.xml`. E.g. assuming your website mountpoint is the main folder, you can type `silverailscolo.github.io/ebroerse.nl/feed.xml`
+The Atom (RSS-like) feed is reachable simply by typing after your homepage `/feed.xml`. So you type `silverailscolo.github.io/ejb/feed.xml` in an appropriate app.
 
 ---
 
