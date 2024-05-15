@@ -90,7 +90,27 @@ Looking for ecological building supplies?
 
 Energy Efficient Buildings
 : [Passivhaus](https://phi.org)
+: [Warmtepomp-Weetjes.nl](https://www.warmtepomp-weetjes.nl) Het Pump practice.
+: [NIBE warmtepompen](https://voorschrijvers.nibe.eu/kennis-en-inspiratie)
+: [MyEnergi.com Zappi v2](https://www.myenergi.com/nl/zappi-ev-lader/) EV charging station ([update firmware](https://support.myenergi.com/hc/en-gb/articles/360020109017-Current-firmware-versions-updating-your-firmware))
+
+Heroes and Heroines
+: [Jože Plečnik](https://en.wikipedia.org/wiki/Jo%C5%BEe_Ple%C4%8Dnik) visited his works in [Prague](https://prague-stay.com/lifestyle/category/36-prague-architecture/48-the-architecture-of-joze-plecnik/), yet to see [Ljubljana](https://whc.unesco.org/en/list/1643)
+: [Rudolf Schindler](https://www.archdaily.com/783384/ad-classics-kings-road-house-rudolf-schindler)
+: [Carlo Scarpa](https://www.archdaily.com/638534/spotlight-carlo-scarpa)
+: [Jane Jacobs](https://en.wikipedia.org/wiki/Jane_Jacobs)
+: [Denise Scott Brown](https://artsandculture.google.com/story/the-era-defining-work-of-denise-scott-brown/zgXx6qdWqGZMJA?hl=en)
+: [Bruno Taut](https://architectuul.com/architect/bruno-taut)
+: [Hugo Häring](https://www.moma.org/collection/works/100363?artist_id=32484&page=1&sov_referrer=artist)
 
 Bits of Inspiration
+: [Art Deco](https://en.wikipedia.org/wiki/Art_Deco)
+: [Wiener Sezession](https://en.wikipedia.org/wiki/Vienna_Secession)
 : [Socialist Modernism](https://www.instagram.com/socialistmodernism/)
 : [US Modernist](https://usmodernist.org/)
+: [Brutalistische Architectuur](https://en.wikipedia.org/wiki/Brutalist_architecture)
+: [US Brutalist](https://www.architecturaldigest.com/story/brutalist-architecture-101)
+
+Urban Planning
+: [Bloomberg CityLab](https://www.bloomberg.com/citylab)
+: Utrecht University [Urban Futures Studio](https://www.uu.nl/en/research/urban-futures-studio)

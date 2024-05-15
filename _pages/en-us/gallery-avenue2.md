@@ -8,9 +8,8 @@ support: [gallery]
 nav: false
 ---
 
-Here are some pics from my work on A2 Maastricht architectural design and execution
+Some pics from my work on A2 Maastricht architectural design and execution
 (2007-2016).
 
-<!-- opieters method -->
-
+<!-- opieters methode -->
 {% include gallery_layout.liquid gallery=site.data.galleries.avenue2 %}

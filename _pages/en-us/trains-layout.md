@@ -56,7 +56,7 @@ More images of the layout (op)
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/trackplan_full.png" | relative_url }}' alt='Track plan (level 1)' class='img-fluid'>
-<figcaption class="kleiner">D&amp;SNG Track Plan<br>(view the <a href='{{ "/assets/pdf/Trackplan%20D_S%20RR%202018.pdf" | relative_url }}'>complete Track Plan</a> as a PDF).</figcaption>
+<figcaption class="kleiner">D&amp;SNG Track Plan<br>(view the <a {% static_href %}href="{{ site.baseurl }}/assets/pdf/Trackplan%20D_S%20RR%202018.pdf"{% endstatic_href %}>complete Track Plan</a> as a PDF).</figcaption>
 </figure>
 </div>
 </div>
