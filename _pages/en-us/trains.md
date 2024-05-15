@@ -8,19 +8,19 @@ nav: true
 nav_order: 5
 dropdown: true
 children:
-  - title: my Layout
+  - title: my layout
     permalink: /trains/layout
   - title: divider
-  - title: my Roster
+  - title: my roster
     permalink: /rollingstock
   - title: divider
   - title: DCC
     permalink: /trains/dcc
   - title: divider
-  - title: Prototype
+  - title: prototype
     permalink: /trains/prototype
   - title: divider
-  - title: Tips
+  - title: tips
     permalink: /trains/tips
 ---
 

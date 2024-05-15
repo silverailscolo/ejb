@@ -6,7 +6,7 @@ title: Protection from the elements
 date: 2014-01-19 20:39:59
 description: Snowshed near Silverton
 tags:
-  - N-scale
+  - n-scale
   - colorado
   - silverton
 categories:

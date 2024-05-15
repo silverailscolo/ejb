@@ -17,10 +17,10 @@ children:
   - title: DCC
     permalink: /trains/dcc
   - title: divider
-  - title: Prototype
+  - title: prototype
     permalink: /trains/prototype
   - title: divider
-  - title: Tips
+  - title: tips
     permalink: /trains/tips
 ---
 

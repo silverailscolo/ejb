@@ -6,7 +6,7 @@ title: "Rockwood without wood"
 date: "2014-03-04"
 description: Rockwood w/o wood
 tags:
-  - N-scale
+  - n-scale
   - colorado
   - silverton
 categories:

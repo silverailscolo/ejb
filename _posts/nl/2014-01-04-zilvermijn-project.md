@@ -5,8 +5,12 @@ page-id: lodoremine
 title: Lodore Mill en kabelbaan
 date: 2014-01-04 20:50:00
 description: Model geplaatst
-tags: N-schaal colorado
-categories: treinen mijnbouw
+tags:
+  - n-schaal
+  - colorado
+categories:
+  - treinen
+  - mijnbouw
 featured: true
 ---
 

@@ -6,7 +6,7 @@ title: "Action on the railroad"
 date: "2014-02-23"
 description: Snowshed near Silverton
 tags:
-  - N-scale
+  - n-scale
   - todo
 categories:
   - trains

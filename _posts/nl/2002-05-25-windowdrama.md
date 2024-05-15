@@ -10,9 +10,10 @@ categories:
   - house
 ---
 
-Short history of the works / Korte geschiedenis van het werk
+Korte geschiedenis van het werk
 
 <table>
+<th><td>____Datum____</td><td>Actie</td></th>
 <tr><td>januari 2001</td><td>folder ontvangen van aannemer "ideale combinatie, service en kwaliteit, hoge betrokkenheid, tevreden klant en minimale overlast, zorgvuldige werkvoorbereiding nette vakmensen, leveren op volgens afspraak";</td></tr>
 
 <tr><td>23 maart 2001</td><td>'s ochtends 1e gesprek met aannemer over te verrichten werkzaamheden buitengevelschilderwerk. Voor de komende winter (!) moet dat een keer.</td></tr>
@@ -48,7 +49,7 @@ Short history of the works / Korte geschiedenis van het werk
 <ul><li>vorm profilering in nader overleg
 </li><li>idem tochtwering
 </li><li>op zo kort mogelijke termijn in te plannen, schilderwerk aansluitend uit te voeren
-</li><li>alle werkzaamheden in &euml;&euml;n hand, &euml;&euml;n aanspreekpunt en zo kort mogelijk in de rommel
+</li><li>alle werkzaamheden in één hand, één aanspreekpunt en zo kort mogelijk in de rommel
 </li><li>Graag kopie Fosag-leveringsvoorwaarden toezenden (zie 21/9)
 </li><li>offerte schilderwerk d.d. 2 april 2001 ondertekend bijgevoegd</li></ul>
 <div>Telefonisch door aannemer toegezegd: aanvang werk augustus/september 2001, wachten op 3 goede timmerlieden</div></td></tr>

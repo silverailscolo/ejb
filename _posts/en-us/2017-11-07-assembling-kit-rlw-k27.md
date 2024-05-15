@@ -5,10 +5,10 @@ page-id: rlw-k27
 title: "Assembling the RLW Nn3 K-27 kit"
 date: "2017-11-07"
 categories:
-  - "trains-treinen"
+  - "trains"
   - "how-to"
 tags:
-  - "rlw"
+  - "kit"
 ---
 
 I had this RLW kit waiting for a couple of years. Finally, the time came to build it.
@@ -75,7 +75,8 @@ On the casting, cut away the coupler pin and protrusion. File 1.5 mm off the
 top of the truck to come level with the top of the mounting eye and have the
 truck clear the firebox.
 
-Left over parts: I could not find where to use the 2 semicircular 3 mm wide steps/boxes.
+Left over parts: I could not discover where to use the 2 semicircular 3 mm wide
+steps/boxes.
 
 ![K-27 Assembled]({{ "/assets/img/blog/img_6528-6.jpg" | relative_url }})
 
