@@ -9,9 +9,9 @@ importance: 3
 category: fun
 carousels:
   - images:
-    - image: ../../assets/img/architect/timmerdorp/IMG_9943.jpg
-    - image: ../../assets/img/architect/timmerdorp/IMG_9999.jpg
-    - image: ../../assets/img/architect/timmerdorp/IMG_0021.jpg
+      - image: ../../assets/img/architect/timmerdorp/IMG_9943.jpg
+      - image: ../../assets/img/architect/timmerdorp/IMG_9999.jpg
+      - image: ../../assets/img/architect/timmerdorp/IMG_0021.jpg
 ---
 
 Period: 2023-2024
@@ -19,4 +19,5 @@ Period: 2023-2024
 Role: volunteer
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
 <!-- inline slider -->

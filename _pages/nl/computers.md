@@ -19,4 +19,7 @@ children:
   - title: divider
   - title: Lubuntu tips
     permalink: /computers/lubuntu
+  - title: divider
+  - title: Speeltuin
+    permalink: /computers/playground
 ---

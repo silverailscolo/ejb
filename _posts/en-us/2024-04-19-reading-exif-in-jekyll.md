@@ -21,19 +21,20 @@ A lot of (old) tools are available to extract the EXIF tags, but Portfolio used 
 After EXIF came IPTC tags, used for GPS lat/long data, title etc. IPTC is sparsely supported bij ruby tools.
 And as it happens, my image captions are in so called XMP tags, for which just a few tools provide support.
 
-To make things more complicated, modern image management tools like Adobe [Lightroom](https://www.adobe.com/nl/products/photoshop-lightroom.html) and [DigiKam](https://www.digikam.org/) allow you to enter labels in XMP and copy those strings to EXIF respectively. (although XMP allows for longer strings, and EXIF only allows for printable ASCII character, so where do the ü and Ø go  in the process?)
+To make things more complicated, modern image management tools like Adobe [Lightroom](https://www.adobe.com/nl/products/photoshop-lightroom.html) and [DigiKam](https://www.digikam.org/) allow you to enter labels in XMP and copy those strings to EXIF respectively. (although XMP allows for longer strings, and EXIF only allows for printable ASCII character, so where do the ü and Ø go in the process?)
 
 Today I discovered a tool called [exiftool](https://exiftool.org/), that finally will give me access to my cherished image captions. From inside Jekyll you can use it through the [exiftool gem](https://rubygems.org/gems/exiftool/versions/1.2.5).
 After a bit of fiddling, I am now able to display all text fields stored in a picture file, and automatically copy it to the html code for one of my web galleries.
-Exiftool Docs warn that the three tag types overlap, unless you ask for ``-all`` tags. If we focus on the caption and the copyright fields, these are the specific tag names to fetch:
+Exiftool Docs warn that the three tag types overlap, unless you ask for `-all` tags. If we focus on the caption and the copyright fields, these are the specific tag names to fetch:
 
-| Type | Caption field name  | Copyright field name | Used |
-|------|---------------------|----------------------|------|
-| EXIF | user_comment        | copyright            |      |
-| IPTC | "caption-abstract"  | copyright_notice     | <--  |
-| XMP  | description         | rights               |      |
+| Type | Caption field name | Copyright field name | Used |
+| ---- | ------------------ | -------------------- | ---- |
+| EXIF | user_comment       | copyright            |      |
+| IPTC | "caption-abstract" | copyright_notice     | <--  |
+| XMP  | description        | rights               |      |
 
 In Ruby code that makes for:
+
 ```
 require 'exiftool'
 ...

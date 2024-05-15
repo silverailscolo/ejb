@@ -28,9 +28,11 @@ Zoals je [hier]({{ "/house/smart.html#oven" | relative_url }}) misschien hebt ge
 ### Stroom meten
 
 Monteer in de meterkast of een andere veilig bereikbare plek CT-klemmen rond 2-3 aders naar de AGA. Ik heb compacte myenergi klemmen besteld.
+
 <figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 klemmen in meterkast" class='img-fluid'><figcaption class="kleiner">CT2 klemmen in meterkast</figcaption></figure>
 
 Verbind de draden van de CT klemmen aan ongebruikte inputs op de harve. Ze verschijnen danals sensors in de Home Assistant myenergi integratie.
+
 <figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="CT2 clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT2 clamps behind fuse box</figcaption></figure>
 
 ### Code
@@ -40,8 +42,8 @@ Download de [micropython code]({{ "/assets/python/ovendisplay-main.py" | relativ
 ### Home Assistant instellingen
 
 Voeg in HomeAssistant in configuration.yaml definities toe voor input_number sensors;
-<figure><img src='{{ "/assets/img/house/smart/ha_ct2_inputnumber.png" | relative_url }}' alt="HA Invoerscherm CT2 instellingen" class='img-fluid'><figcaption class="kleiner">HA Invoerscherm CT2 instellingen</figcaption></figure>
 
+<figure><img src='{{ "/assets/img/house/smart/ha_ct2_inputnumber.png" | relative_url }}' alt="HA Invoerscherm CT2 instellingen" class='img-fluid'><figcaption class="kleiner">HA Invoerscherm CT2 instellingen</figcaption></figure>
 
 Voeg AAN/UIT-Automations toe voor elk element van je fornuis, bijvoorbeeld om aan te geven dat de Bakoven is ingeschakeld:
 
@@ -64,6 +66,7 @@ trigger:
 ```
 
 Voeg in HomeAssistant input_boolean (Aan/Uit) sensoren toe voor elk item op je fornuis, bijvoorbeeld:
+
 ```
 alias: AGA turns OFF CT2
 description: ""
@@ -98,7 +101,7 @@ trigger:
 
 <figure><img src='{{ "/assets/img/house/smart/ha_bakingoven_input_setting.png" | relative_url }}' alt="HA Invoerscherm oven" class='img-fluid'><figcaption class="kleiner">HA Invoerscherm oven</figcaption></figure>
 
-Voeg MQTT-onderwerpen toe in HomeAssistant ``configuration.yaml``:
+Voeg MQTT-onderwerpen toe in HomeAssistant `configuration.yaml`:
 
 ```
 mqtt_statestream:
@@ -130,11 +133,12 @@ state_topic: "picow/timerB/running"
 Meer over MQTT voor sensoren van PicoW micropython [hier](https://github.com/agners/micropython-ha-mqtt-device)
 
 Aanpassen voor jouw situatie, bijv.
+
 - MQTT berichten-formaat
-- Verbindingsnamen en triggerstromen van de onderdelen van je fornuis (kijk naar sensor.ct2_ hierboven)
+- Verbindingsnamen en triggerstromen van de onderdelen van je fornuis (kijk naar sensor.ct2\_ hierboven)
 
 Omdat de [myenergi harvi](https://www.myenergi.com/product/harvi/) wordt gevoed vanuit de CT-klemmen, is er iets meer tweaking nodig.
 
-Om de stroomsensoren op nul te zetten als er geen PV- of AGA-stroom door de klemmen loopt, heb ik een timer van 2 minuten gemaakt die elke minuut wordt gereset als er een (niet-nul) meting van de myenergi-server binnenkomt in de Home Assistant myenergi-integratie. Als deze timer uiteindelijk afloopt, betekent dit dat noch de PV-panelen noch het fornuis stroom verbruiken, en een automatisering zet ``input_number.ct2_actueel`` en ``input_number.ct3_actueel`` terug naar 0.
+Om de stroomsensoren op nul te zetten als er geen PV- of AGA-stroom door de klemmen loopt, heb ik een timer van 2 minuten gemaakt die elke minuut wordt gereset als er een (niet-nul) meting van de myenergi-server binnenkomt in de Home Assistant myenergi-integratie. Als deze timer uiteindelijk afloopt, betekent dit dat noch de PV-panelen noch het fornuis stroom verbruiken, en een automatisering zet `input_number.ct2_actueel` en `input_number.ct3_actueel` terug naar 0.
 
 Als u deze info nodig hebt, open dan een [Issue](https://github.com/silverailscolo/ebroerse.nl/issues) op deze site.

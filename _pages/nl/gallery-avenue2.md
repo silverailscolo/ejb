@@ -10,11 +10,11 @@ nav: false
 Beelden van mijn werk aan de A2 Maastricht vormgeving en uitvoeringsbegeleiding
 (2007-2016).
 
-## De opieters methode
+<!-- opieters methode -->
 
 {% include gallery_layout.liquid gallery=site.data.galleries.avenue2 %}
 
-## Inline met de lightgallery_tag.rb plugin
+<!-- lightgallery_tag.rb plugin -->
 
 {% gallery %}
 {{ '/assets/img-noresample/avenue2/albertheijn201712_ft24263-250x192.jpeg' | relative_url }}

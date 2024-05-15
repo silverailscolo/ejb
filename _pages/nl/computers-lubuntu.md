@@ -13,6 +13,7 @@ nav: false
 <h2>Een Belkin WiFi PCMCIA-kaart installeren op Lubuntu 14.04</h2>
 
 Controleer de eigenschappen van je WiFi-kaart door Utilities > Xterminal te openen en te typen:
+
 <pre>sudo lspci</pre>
 
 De Belkin FSD7010 rev 03 kaart gebruikt de Broadcom BCM 4306 rev 03 hardware, PCI-ID: [14e4:4320]: gebruik open source B43 driver.
@@ -41,9 +42,11 @@ gevolgd door
 <pre>sudo -i nano /etc/modprobe.d/blacklist.conf</pre>
 
 Indien aanwezig, verwijder of #-commentarieer de volgende regel in het bestand /etc/modprobe.d/blacklist.conf:
+
 <pre># blacklist b43</pre>
 
 Voorkom dat wl voor b43 wordt geladen door de kernelmodule bcmwl te verwijderen. Als deze in de weg blijft zitten, voeg dan de regel
+
 <pre>blacklist wl</pre>
 
 Sla je bewerkingen op door op Ctrl-O te drukken. Plaats je wifi-kaart in de sleuf.
@@ -69,6 +72,7 @@ Wifi-hardwareschakelaar inschakelen, anders worden zowel de interne als de PCMCI
 Als je kaart door meer dan één stuurprogramma wordt ondersteund, gebruik dan het modprobe commando om het juiste stuurprogramma te
 selecteren. Laad eerst alle conflicterende stuurprogramma's uit (dit houdt ook in dat je het stuurprogramma dat je probeert
 te installeren verwijdert). Ga naar Utilities > Xterminal en typ:
+
 <pre>sudo modprobe -r b43 bcma</pre>
 <pre>sudo modprobe -r brcmsmac bcma</pre>
 <pre>sudo modprobe -r wl</pre>

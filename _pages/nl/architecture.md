@@ -7,11 +7,13 @@ lang: nl
 nav: true
 nav_order: 2
 ---
+
 <!--
 SPDX-FileCopyrightText: 2024 EJ Broerse
 
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
+
 Welkom op de site van Egbert Broerse, architect.<br>
 Als architect en als stedenbouwkundige sta ik ingeschreven in het <a href="https://www.architectenregister.nl/vind-een-architect/?searchTerm=Broerse&searchFilter=5">architectenregister</a>.<br>
 Ik ben bereikbaar via email link (dot) egbert (at) mac (dot) com
@@ -84,7 +86,30 @@ Op zoek naar ecologische bouwmaterialen?
 
 Energiezuinige gebouwen
 : [Passivhaus](https://phi.org)
+: [Warmtepomp-Weetjes.nl](https://www.warmtepomp-weetjes.nl) de praktijk van een warmtepomp
+: [NIBE warmtepompen](https://voorschrijvers.nibe.eu/kennis-en-inspiratie)
+: [MyEnergi.com Zappi v2](https://www.myenergi.com/nl/zappi-ev-lader/) EV laadpaal ([update firmware](https://support.myenergi.com/hc/en-gb/articles/360020109017-Current-firmware-versions-updating-your-firmware))
 
-Voor Inspiratie
+Helden en Heldinnen
+: [Jože Plečnik](https://en.wikipedia.org/wiki/Jo%C5%BEe_Ple%C4%8Dnik) bezocht in [Prague](https://prague-stay.com/lifestyle/category/36-prague-architecture/48-the-architecture-of-joze-plecnik/). Nog zien: [Ljubljana](https://whc.unesco.org/en/list/1643)
+: [Rudolf Schindler](https://www.archdaily.com/783384/ad-classics-kings-road-house-rudolf-schindler)
+: [Carlo Scarpa](https://www.archdaily.com/638534/spotlight-carlo-scarpa)
+: [Jane Jacobs](https://en.wikipedia.org/wiki/Jane_Jacobs)
+: [Denise Scott Brown](https://artsandculture.google.com/story/the-era-defining-work-of-denise-scott-brown/zgXx6qdWqGZMJA?hl=en)
+: [Bruno Taut](https://architectuul.com/architect/bruno-taut)
+: [Hugo Häring](https://www.moma.org/collection/works/100363?artist_id=32484&page=1&sov_referrer=artist)
+
+Ter Inspiratie
+: [Bouwstijlen in Nederland](https://erfgoedbekeken.nl/bouwstijlen-nederland/)
+: [Art Deco](https://en.wikipedia.org/wiki/Art_Deco)
 : [Socialist Modernism](https://www.instagram.com/socialistmodernism/)
 : [US Modernist](https://usmodernist.org/)
+: [Brutalistische Architectuur](https://en.wikipedia.org/wiki/Brutalist_architecture)
+: [US Brutalist](https://www.architecturaldigest.com/story/brutalist-architecture-101)
+
+Urban Planning
+: [Bloomberg CityLab](https://www.bloomberg.com/citylab)
+
+Urban Planning
+: [Bloomberg CityLab](https://www.bloomberg.com/citylab)
+: Utrecht University [Urban Futures Studio](https://www.uu.nl/en/research/urban-futures-studio)

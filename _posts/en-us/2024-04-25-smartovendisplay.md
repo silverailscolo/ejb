@@ -29,9 +29,11 @@ This was my solution.
 ### Current Sensing
 
 Near the switch board or in another safely accessible location, mount 2-3 CT-clamps on the feeders to the AGA stove. I ordered compact myenergi clamps.
+
 <figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT2 clamps behind fuse box</figcaption></figure>
 
 I connected the CT clamp wires to the unused inputs of my harvi, which show up as sensors in the Home Assistant myenergi integration.
+
 <figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="CT2 clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT2 clamps behind fuse box</figcaption></figure>
 
 ### Code
@@ -41,8 +43,8 @@ Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relati
 ### Home Assistant set-up
 
 In HomeAssistant, create input_number definitions in configuration.yaml;
-<figure><img src='{{ "/assets/img/house/smart/ha_ct2_inputnumber.png" | relative_url }}' alt="HA CT2 Input Setting Pane" class='img-fluid'><figcaption class="kleiner">CT2 Input Setting Pane</figcaption></figure>
 
+<figure><img src='{{ "/assets/img/house/smart/ha_ct2_inputnumber.png" | relative_url }}' alt="HA CT2 Input Setting Pane" class='img-fluid'><figcaption class="kleiner">CT2 Input Setting Pane</figcaption></figure>
 
 Add ON/OFF Automations for each element of your stove, for example to signal Baking Oven was turned ON:
 
@@ -132,11 +134,12 @@ state_topic: "picow/timerB/running"
 More on MQTT for sensors from PicoW micropython [here](https://github.com/agners/micropython-ha-mqtt-device)
 
 Adapt for your use case, eg.
+
 - MQTT messages format
-- Connection names and trigger currents of your stove elements (look at sensor.ct2_ above)
+- Connection names and trigger currents of your stove elements (look at sensor.ct2\_ above)
 
 Because the [myenergi harvi](https://www.myenergi.com/product/harvi/) is powered from the CT clamps, a bit more tweaking is required.
 
-To reset the current sensors to zero when no PV or AGA current is flowing through the clamps, I created a 2 minute timer that is reset every minute as a (non-zero) measurement from the myenergi server arrives in Home Assistant myenergi integration. When this timer eventually runs out, it means neither the PV panels nor the stove is consuming any power, and an automation sets ``input_number.ct2_actueel`` and ``input_number.ct3_actueel`` back to zero.
+To reset the current sensors to zero when no PV or AGA current is flowing through the clamps, I created a 2 minute timer that is reset every minute as a (non-zero) measurement from the myenergi server arrives in Home Assistant myenergi integration. When this timer eventually runs out, it means neither the PV panels nor the stove is consuming any power, and an automation sets `input_number.ct2_actueel` and `input_number.ct3_actueel` back to zero.
 
 If you need those details, open an [Issue](https://github.com/silverailscolo/ebroerse.nl/issues) on this site.

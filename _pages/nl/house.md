@@ -19,7 +19,7 @@ children:
   - title: divider
   - title: smart home
     permalink: /house/smart
-  - title: divider    
+  - title: divider
   - title: eerste huis
     permalink: /house/ms15
 ---
