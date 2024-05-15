@@ -1,46 +1,48 @@
 ---
 layout: post
-lang: nl
+lang: en-us
 page-id: locobooster
 title: "HDL LocoBooster installation issue fixed"
 date: "2018-05-23"
 categories:
-  - "trains-treinen"
+  - "trains"
   - "how-to"
 ---
 
-# Ervaring & Oplossing
+# Experience and Solution
 
-Ik heb de [HDL LocoBooster](https://locohdl.synology.me) 3.8 gebouwd en aangesloten op mijn LocoNet.
+I built the [HDL LocoBooster](https://locohdl.synology.me) 3.8 and conected it to a section op rail and the existing LocoNet.
 
-## Probleem:
+## Issue
 
-Mijn Command Station is een klassieke Digitrax Zephyr DCS50. Aan de 1e LocoNet aansluiting op de Zephyr zit alleen de LocoBooster (en aan de LocoBooster uitgang zitten de rails). Aan de 2e LocoNet uitgang van de Zephyr hangen mijn decoders en op RailA/Rail B zitten Digitrax DS54/64 wisseldecoders.
+My DCC Command Station is a classic Digitrax Zephyr DCS50. One LocoNet socket on the Zephyr is only connected to the LocoBooster (the LocoBooster outputs are conneted to the rails). The second LocoNet socket on the Zephyr is daisy-chained to my decoders. Four Digitrax DS54/64 stationary decoders are connected to Zephyr Rail A/B connections with their own power supply.
 
-(4x gecheckt dat er nog ergens een aansluiting van de rails ook op de Zephyr Rail A/B aansluiting zit. Is een bestaande baan. Toch nog ergens verstopt 1 Rail A aansluiting naar de verkeerde bus.)
+(I had double checked there was no connection between the rails and the Zephyr Rail A/B sockets. I converted an existing layout, after all. And indeed there was 1 place where Rail A was connected to the wrong bus.)
 
-- Als ik de LocoNet kabel én de rails op de LocoBuffer aansluit, en op de Zephyr de baanspanning inschakel, gaan alle ledjes op de LocoBuffer zachter branden en er klinkt een zoemtoon uit de board.
-- Als ik de Ground-draden uit de LocoNet kabel tussen de LocoBooster en Zephyr doorknip dan is het weg, maar schakelt het relais niet betrouwbaar volgens de Power-knop op de Zephyr. Moet in elk geval 1 x uit en 1 x aan.
-- Een andere voeding maakt geen verschil.
+- Whenever I connect both LocoNet and the rails to the LocoBuffer, and turn on track power on the Zephyr, alle LEDs on the LocoBuffer dim and the board produces a humming sound.
+- When I cut the Ground-wires in the LocoNet cable between the LocoBooster and the Zephyr, the effect goes away but the power relay on the LocoBooster does not turn off when I push the Power-button on the Zephyr. Have to cycle on/off at least once.
+- A different power pack for the LocoBooster makes no difference.
 
-Ik heb geen zware verbindingsdraad aangesloten tussen de Zephyr Ground (Common) aansluiting en de LocoBooster Ground.
+There is no heavy wire connecting the Zephyr Ground (Common) and the LocoBooster Ground.
 
 ![]({{ "/assets/img/blog/Zephyr-Rear-Panel.png" | relative_url }})
 
-Lees wel hierover ("same reference level”) maar Hans Deloof vermeldt het niet. Dit bleek ook niet nodig.
+Did read about ("same reference level”) as a suggestion to fix this type of issues, but Hans Deloof - the designer of the LocoBooster - doesn't mention this in the docs. And it turned out it wasn't needed.
 
-Als ik de rails-aansluiting losschroef van de LocoBuffer en - alleen - de ground terminal even aantik, zie ik een vonk (en de LEDs gaan ook zachter branden + een 1 Hz zoemtoon met vage locatie).
+When I disconnect the rails-connectors on the LocoBuffer and - only - touch the ground terminal shortly, there's a spark (and the LEDs dim, as well as the 1 Hz hum somewhere on the board).
 
-Ik mat tussen de booster uitgang en de Zephyr Rail A een hoge weerstand van 15kOhm, maar niet 0. Dus: dat is de interne weerstand van de Zephyr
+Between the LocoBoster rail outputs and the Zephyr Rail A I measured a high resistance of about 15kOhm, so definitely not 0. Conclusion: This is the internal resistance of the Digitrax Zephyr CS.
 
 ## Double-check your wiring!
 
-Wat bleek: ik had ergens halverwege de baan de Zephyr Rail A busdraad op de Booster/Track A busdraad aangesloten (en omgekeerd). Dus de rail werd nu gevoed door beide boosters = problemen!
+Fresh the next day I discovered: somewhere under the layout the Zephyr Rail A bus wire was directly wired to the same rail th aBooster/Track A wire was feeding. So in this spot the same rail got power from 2 boosters = issues!
 
-Toen dat hersteld was, deed de Booster het met een gewone LocoNet kabel prima. Totdat ik op de vrije uitgangen een schakelaar monteerde (en er op drukte)... Adres kwijt etc.
+After I fixed this, the LocoBooster worked fine using a normal LocoNet cable. Until I follewed the instructions and used one of the free outputs as input (and closed the contact)... Address wiped, etc.
 
-De LocoBooster heeft een verbinding tussen de LocoNet zijde en 1 pool van de booster externe voeding. Ik heb na een tijdje een andere booster met een zgn. H-bridge gemonteerd. Die heeft wel een scheiding naar LocoNet dus eindelijk weer rijden.
+Internally the LocoBooster has a connection between LocoNet (ground) and the ground wire of the booster external power pack. So forget the extra inputs and be aware of this.
 
-Pas een jaar later ontdekte ik na het verplaatsen van een Digitrax BD1 bezetmelder, dat die ook stroom laat lopen van de rails naar LocoNet (via de terugmelddecoder waar je de zwarte/rode sensordraadjes op aansluit). Toen ik de korte [handleiding](https://www.digitrax.com/media/apps/products/detection-signaling/bd1/documents/BD1%20Inst.pdf) las, snapte ik al niet hoe de BD1 bij bezetmelding de ingang naar +5V trekt als hij alleen met de massa van de SE8c is verbonden. De BD1 (en BD4 vermoed ik) is dus alleen te gebruiken in een 100% Digitrax systeem, met die "aarde"-draad tussen alle onderdelen.
+I bought a different booster with a so called H-bridge. The H-bridge separates power from LocoNet, so finally it was time to run trains.
 
-Een derde kans misschien voor de LocoBooster waar dit stukje mee begon...
+One year on, while moving a [Digitrax BD1 occupancy sensor](https://www.digitrax.com/media/apps/products/detection-signaling/bd1/documents/BD1%20Inst.pdf), I discovered that the BD1 on purpose connects one of the rails to LocoNet (through the black/red sensor wires you connect to the decoder). From the start I wondered how on earth the BD1 could signal a train arriving and pull up an input to +5V when it is only connected to SE8c Ground. The BD1 (and presumably the BD4 too) can only be used in a 100% Digitrax system, with a "Ground"-wire between all items.
+
+So I got rid of my only BD1 and this opens a new opportunity for the LocoBooster that started this post...
