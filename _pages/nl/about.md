@@ -8,8 +8,8 @@ subtitle: architect, programmeur, verzamelaar
 
 profile:
   align: right
-  image: egbert_pic.png
-  image_circular: true # crops the image to make it circular
+  image: banner.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Drenthe, </p>
     <p>Nederland</p>
