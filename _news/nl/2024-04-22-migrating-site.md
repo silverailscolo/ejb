@@ -11,6 +11,8 @@ Mijn oude website, blog en fotobibliotheek heb ik van Wordpresse en Piwigo overg
 
 Met bijschriften uit metadata van de bestanden. In twee talen: NL en EN, wat begon vanwege mijn US modelbouw contacten. En met automatische licht/donker modus.
 
+De site bevat afbeelding-bijschriften die zijn gegenereerd uit de afbeeldings-metadata (sorry, ze zijn niet i18n. Ik heb het geprobeerd, maar voor nu is dat teveel gevraagd van de techniek).
+
 Kijk lekker rond, en als je een - serieus - foutje ziet kan je een [Issue](https://github.com/silverailscolo/ejb/issues) aanmaken.
 
 ## Abonneer je op mijn Atom (RSS-like) Feed

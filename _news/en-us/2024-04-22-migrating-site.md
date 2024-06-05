@@ -11,7 +11,7 @@ I rounded up migrating my website, blog and photo library as an integrated exper
 
 I serve two languages: NL and EN-US, originally for my US model railroad stuff. And you can choose from Light and Dark theme.
 
-Also includes captions read directly from image file metadata (sorry, these are not i18n, I tried but that was too much for now).
+Also includes captions read directly from image file metadata (sorry, these are not i18n. I tried, but that was too much for now).
 
 Have a look around, and report any - serious - hick-ups as an [Issue](https://github.com/silverailscolo/ejb/issues)
 
