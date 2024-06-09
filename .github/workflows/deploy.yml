@@ -82,6 +82,12 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Remove non-default (duplicate and unused) asset files
+        run: |
+          rm -R \
+            _site/*/assets/img \
+            _site/*/assets/pdf \
+            _site/*/assets/python
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4

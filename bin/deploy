@@ -100,7 +100,8 @@ purgecss -c purgecss.config.js
 
 # Delete and move files
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
-rm -r _site/*/assets/img _site/*/assets/pdf _site/*/assets/python # delete unused non-default assets
+rm -R _site/*/assets/img _site/*/assets/pdf _site/*/assets/python # delete unused non-default assets
+echo "non-default assets deleted"
 mv _site/* .
 rm -R _site/
 
