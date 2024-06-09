@@ -145,4 +145,4 @@ Omdat de [myenergi harvi](https://www.myenergi.com/product/harvi/) wordt gevoed 
 
 Om de stroomsensoren op nul te zetten als er geen PV- of AGA-stroom door de klemmen loopt, heb ik een timer van 2 minuten gemaakt die elke minuut wordt gereset als er een (niet-nul) meting van de myenergi-server binnenkomt in de Home Assistant myenergi-integratie. Als deze timer uiteindelijk afloopt, betekent dit dat noch de PV-panelen noch het fornuis stroom verbruiken, en een automatisering zet `input_number.ct2_actueel` en `input_number.ct3_actueel` terug naar 0.
 
-Als u deze info nodig hebt, open dan een [Issue](https://github.com/silverailscolo/ebroerse.nl/issues) op deze site.
+Als u deze info nodig hebt, open dan een [Issue](https://github.com/silverailscolo/ejb/issues) op deze site.

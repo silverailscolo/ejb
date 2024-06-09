@@ -27,7 +27,7 @@ See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_6524.jpg" | relative_url }}' alt='K-27' class='img-fluid'>
-<figcaption class="kleiner">K-27 <a href="https://www.ebroerse.nl/blog/archieven/195">under construction</a> (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figcaption class="kleiner">K-27 under construction (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/K27_image1.jpg" | relative_url }}' alt='Wheel disk sketch' class='img-fluid'>

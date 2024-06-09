@@ -98,9 +98,9 @@ module Jekyll
           if answer == nil
             answer = exif[:"caption-abstract"] # IPTC Caption field
             if answer == nil
-              answer = exif[:"UserComment"] # in use for trains2 images
+              answer = exif[:"UserComment"] # EXIF in use for trains2 images
               if answer == nil
-                answer = exif[:"Image_Description"] # EXIF
+                answer = exif[:"Image_Description"] # EXIF used in img/tuin images
                 if answer == nil
                   answer = exif[:"Comment"] # EXIF
                 end

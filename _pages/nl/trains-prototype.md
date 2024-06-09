@@ -8,4 +8,4 @@ description: Het echte werk
 nav: false
 ---
 
-Zie de <a href="../../trains/prototype.html">Engelse pagina</a>.
+Zie de <a href="../en-us/trains/prototype.html">Engelse pagina</a>.

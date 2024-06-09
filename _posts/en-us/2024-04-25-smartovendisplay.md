@@ -146,4 +146,4 @@ Because the [myenergi harvi](https://www.myenergi.com/product/harvi/) is powered
 
 To reset the current sensors to zero when no PV or AGA current is flowing through the clamps, I created a 2 minute timer that is reset every minute as a (non-zero) measurement from the myenergi server arrives in Home Assistant myenergi integration. When this timer eventually runs out, it means neither the PV panels nor the stove is consuming any power, and an automation sets `input_number.ct2_actueel` and `input_number.ct3_actueel` back to zero.
 
-If you need those details, open an [Issue](https://github.com/silverailscolo/ebroerse.nl/issues) on this site.
+If you need those details, open an [Issue](https://github.com/silverailscolo/ejb/issues) on this site.

@@ -8,4 +8,4 @@ description: Van eigen fouten geleerd
 nav: false
 ---
 
-Zie de <a href="../../trains/tips.html">Engelse pagina</a>.
+Zie de <a href="../en-us/trains/tips.html">Engelse pagina</a>.

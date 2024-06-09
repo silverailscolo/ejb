@@ -1,7 +1,7 @@
 ---
 layout: train-roster
 id: trainroster
-title: My Roster
+title: "My Roster"
 permalink: /rollingstock/
 lang: en-us
 nav: false
