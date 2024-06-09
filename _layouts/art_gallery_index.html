@@ -16,8 +16,10 @@ support: [gallery]
         <div class="col-md-12">
           <div class="card-body">
             <h4 class="card-title text-lowercase">{{ gallery["title"] }}</h4>
-            <img class="gallery-best-image"
-                 src="{{ site.baseurl }}{{ page['src_path'] }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}" />
+            <img
+              class="gallery-best-image"
+              src="{{ site.baseurl }}{{ page['src_path'] }}{{ gallery['link'] }}thumbs/front_{{ gallery['best_image'] }}"
+            />
           </div>
         </div>
       </div>

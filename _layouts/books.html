@@ -4,9 +4,7 @@ layout: default
 
 {% if page.title %}
 <h1 class="page-heading">{{ page.title }}</h1>
-{% endif %}
-{{ content }}
-{% assign books = site.books %} {% if books.size > 0 %}
+{% endif %} {{ content }} {% assign books = site.books %} {% if books.size > 0 %}
 
 <h3 class="post-list-heading">{{ page.list_title | default: "Latest reviews" }}</h3>
 

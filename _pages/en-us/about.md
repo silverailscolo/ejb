@@ -24,6 +24,7 @@ SPDX-FileCopyrightText: 2024 EJ Broerse
 
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
+
 Click for a [VR experience of the Braunschweig Rizzi House](https://happy-rizzi-house.de/wp-content/rizzi_haus_3d.html).
 
 Striving for sustainability.

@@ -10,6 +10,7 @@ tags:
 categories:
   - "software"
 ---
+
 Ter herinnering aan het eerste serieuze stukje sopftware dat ik over een periode van vele jaren schreef en ontwikkelde, hierbij de handleiding van Hypersite.
 
 <h1>Wat is HyperSite en hoe werkt het?</h1>

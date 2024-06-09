@@ -25,5 +25,6 @@ roster-id: SRR_SHAY_269
 soundlabels: null
 year: 2005
 ---
+
 (reserved Sept. 2004, received Aug. 2005, DCC + weathered Apr. 2009)
 replaced rear truck w/replacement from Atlas

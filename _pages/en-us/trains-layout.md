@@ -24,11 +24,13 @@ An American prototype narrow gauge mountain line starts to come alive on my N sc
 Building the D&amp;S layout
 
 <!-- simply so (by Jimmy_Xiao) -->
+
 {% include album.html albumname="trains2" %}
 
 More images of the layout
 
 <!-- opieters include -->
+
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
 
 ## <a id="layout">Modeling the D&amp;SNG RR</a>
