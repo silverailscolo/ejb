@@ -16,7 +16,8 @@
       alt="{{ image.name }}"
     />
   </a>
-  {% else %} {% comment %} Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline, caption-abstract; XMP: Description, Comment; All:
+  {% else %} {% comment %} Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline, caption-abstract;
+  XMP: Description, Comment; used in all sets:
   copyright (case-insensitive). Advanced trickle down: caption-cascade and copyright-cascade {% endcomment %}
   <a
     {%
