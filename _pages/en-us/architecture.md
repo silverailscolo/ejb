@@ -51,11 +51,12 @@ Through good visualizations, hand sketched or with 3D CAD/BIM, I provide my clie
 
 I stay involved hands-on in all projects during the execution phase, to make sure on site that the ambition is translated into the practice of the builders, and to technically look along and make sure the (sub)contractors work well together.
 
-To share my experience with circular design and construction, I co-wrote as member of the Action Team for [Platform CB'23's Guide on Circular Design](https://platformcb23.nl).
+To share my experience with circular design and construction, I co-authored [Platform CB'23's Guide on Circular Design](https://platformcb23.nl).
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+<a href="/ejb/projects/work-br11/">House BR11 Sustainable Restoration</a>
 <figure><img src='{{ "/assets/img/architect/br11/BR11_Bouwbord.png" | relative_url }}' alt='Sign 2021' class='img-fluid' >
-<figcaption class="kleiner">Partners restauration project 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figcaption class="kleiner">Partners restoration project 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <figure><img src='{{ "/assets/img/architect/br11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Front facade villa BR11, aug 2021' class='img-fluid'>
 <figcaption class="kleiner">Project 2021-2022: restored villa BR11 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
@@ -85,6 +86,8 @@ Design for new main office University Wageningen (thesis)
 <figcaption class="kleiner">North Facade (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 </div><!-- sluit tegel af -->
+
+## <a id="links">Bookmarks</a>
 
 Looking for ecological building supplies?
 : Order from [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)

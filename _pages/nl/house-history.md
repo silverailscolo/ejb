@@ -5,6 +5,7 @@ permalink: /house/history
 title: Geschiedenis van ons huis
 lang: nl
 nav: false
+support: [gallery]
 ---
 
 Over ons huis en haar bewoners sinds 1917

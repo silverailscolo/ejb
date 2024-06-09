@@ -1,14 +1,4 @@
 ---
-"@IsShuntingOn": ""
-"@URL": ""
-"@iconFilePath": ""
-"@imageFilePath": ""
-"@maxSpeed": "100"
-attributepairs:
-  keyvaluepair:
-    key: RosterGroup:Thuis
-    value: "yes"
-dateUpdated: 2019-04-27T13:53:09.290+0000
 dccAddress: "269"
 decoder:
   comment: self installed decoder
@@ -26,10 +16,11 @@ locoaddress:
 mfg: Atlas
 model: 41620 2-truck Shay
 owner: Egbert Broerse
+picture: SRR_SHAY_269.jpg
 roadName: Silverton Railroad
 roadNumber: "269"
 roster-id: "SRR Shay #269"
-year: 2024
+year: 2005
 ---
-
+(reserved Sept. 2004, received Aug. 2005, DCC + weathered Apr. 2009)
 replaced rear truck w/replacement from Atlas

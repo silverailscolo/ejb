@@ -1,6 +1,6 @@
 ---
 layout: post
-lang: en-us
+lang: nl
 page-id: hypersite
 title: "Hypersite stack"
 date: "2024-03-22"
@@ -10,23 +10,22 @@ tags:
 categories:
   - "software"
 ---
+Ter herinnering aan het eerste serieuze stukje sopftware dat ik over een periode van vele jaren schreef en ontwikkelde, hierbij de handleiding van Hypersite.
 
-To archive an application that I created and ported over the years, here is the final readme of Hypersite.
+<h1>Wat is HyperSite en hoe werkt het?</h1>
 
-<h1>What is HyperSite and how does it work?</h1>
-
-<p>HyperSite is a stack that helps you maintain your own website pages. Finding a provider and creating a few html pages is no big deal. But it does take effort to 'just' update the content, including the date in the footer etc.</p>
+<p>HyperSite is een stack die helpt om je eigen website te onderhouden. Want een provider vinden en een paar html-pagina's samenstellen kan iedereen, maar het kost veel meer moeite om elke week "even" de nieuws-pagina plus de datum bij te werken enz.</p>
 
 <p>Maar toch, als je je site niet bijhoudt, vinden je bezoekers er al snel niets meer aan en laten ze je site links liggen. Dat is zonde van de moeite, want met deze HyperCard stack is het eenvoudig om een redelijk complete site bij te houden.<br>
 In 5 minuten even wat info aanvullen, een nieuwe achtergrond-afbeelding aan een pagina toevoegen en de zaak bekijken in je browser; het is zo gepiept.<br>
-(See <a href="#beperkingen">Limitations</a> as for what can *not* do).</p>
+(Zie <a href="#beperkingen">Beperkingen</a> voor wat *niet* kan).</p>
 
 <div class="normal-nc">
-<a href="#principe">Principle</a> | <a href="#instructies">Instructions</a> | <a href="#historie">History</a> | <a href="#credits">Credits</a>
+<a href="#principe">Principe</a> | <a href="#instructies">Instructies</a> | <a href="#historie">Ontstaansgeschiedenis</a> | <a href="#credits">Credits</a>
 </div>
 
-<h2 id="principe">Principle</h2>
-<p>What is HyperSite? Met deze stack kun je - binnen een vaste layout bestaande uit een 2-koloms tabel en een menu met links naar de andere pagina's - de inhoud van elke pagina bewerken, opmaken en als html-bestand opslaan. Bekijk een klein voorbeeld.</p>
+<h2 id="principe">Het principe</h2>
+<p>Wat is HyperSite? Met deze stack kun je - binnen een vaste layout bestaande uit een 2-koloms tabel en een menu met links naar de andere pagina's - de inhoud van elke pagina bewerken, opmaken en als html-bestand opslaan. Bekijk een klein voorbeeld.</p>
 
 <p>Voor elke pagina van je web-site is een aparte kaart, waarop je in 4 tekstvelden je eigen informatie in kunt voeren. Voor zover je de opmaak kunt be&iuml;nvloeden binnen de standaard HTML 3.2 zijn er via een serie buttons links onderaan het scherm een aantal gereedschappen beschikbaar. Ook om 'links' en 'ankers' aan te leggen zijn er knoppen.</p>
 
@@ -40,7 +39,7 @@ Klik op de button 'Start' rechtsboven op dit scherm om verder te gaan...</p>
 <li>een grafisch programma om zelf afbeeldingen voor internet te kunnen maken, bijv. Macromedia Xres, Photoshop of Graphic Converter.</li>
 </ul>
 
-<h2  id="instructies">Instructions</h2>
+<h2  id="instructies">Instructies</h2>
 
 <p>1. klik op button "Start" en vul dan minstens de volgende gegevens in:</p>
 <ul>
@@ -72,7 +71,7 @@ Om alle pagina's in 1 keer als HTML-bestanden te exporteren, houd je de Option- 
 
 <p>7. Als alles OK is, is de laatste stap om je pagina + bijbehorende afbeeldingen naar je provider te "uploaden", d.w.z. van je harde schijf te kopi&euml;ren naar jouw stukje van de internet-server van je provider. Hiervoor gebruik je meestal een apart FTP- programma, bijvoorbeeld Transmit of Fetch. Transmit v 1.6 - een heel prettig programma - vind je op <a href="https://www.panic.com">https://www.panic.com</a>.</p>
 
-<h4>The Toolbox</h4>
+<h4>De Toolbox</h4>
 
 <p>De toolbox (gereedschapskist) van HyperSite bestaat uit een aantal buttons en pop-up menu's die in de rechthoek links onderaan elke kaart staan.
 Aan de linkerkant staan alle opmaak-functies, bijv. om tekst vet te maken of cursief. Ook kun je de grootte van tekst aangeven en de kleur. Hiervoor moet je altijd eerst een tekstgedeelte selecteren, anders hoor je alleen een waarchuwingsgeluid.</p>
@@ -86,32 +85,32 @@ Een link  bestaat uit 2 delen, nl. het onderstreepte woord, dat in beeld komt, e
 
 <OL>
 <li>GIF en JPEG-files kunnen direct in elke grafische browser getoond worden;</li>
-<li>QuickTime zijn filmpjes, die iemand alleen kan bekijken als hij/zij  de QuickTime-plugin van Apple heeft geladen;</li>
+<li>QuickTime zijn filmpjes, die iemand alleen kan bekijken als hij/zij de QuickTime-plugin van Apple heeft geladen;</li>
 <li>Shockwave zijn animaties (o.a. Macromedia Flash en  Director), waarvoor in Netscape ook een plug-in nodig is en in Internet Explorer zgn. ActiveX en JAVA technologie.</li></OL>
 
-<h4><a id="beperkingen">Constraints</a></h4>
+<h4><a id="beperkingen">Wat kan niet</a></h4>
 
 <p>De volgende zaken zitten niet in HyperSite:</p>
 <ul>
 <li>afbeeldingen bewerken en omzetten naar .GIF formaat (gebruik Xres o.i.d.);</li>
-<li>WYSIWYG opmaak zonder alle tags te zien (wel preview  via browser);</li>
+<li>WYSIWYG opmaak zonder alle tags te zien (wel preview via browser);</li>
 <li>externe links via pop-up menu aanbrengen (gebruik knip & plak);</li>
 <li>een grafisch overzicht van alle pagina's en links (is wel mooi);</li></ul>
 
 <p>Wat ooit wel komt:</p>
 <ul>
-<li>alignment options (het menu werkt nog niet)</li>
+<li>Uitlijn-opties (het menu werkt nog niet)</li>
 <li>(gedeeltelijke) controle of alle links en afbeeldingen kloppen (ga voorlopig naar <a href="http://validator.w3.org/checklink">W3C Checklink</a> [getest 2/2/2010].</li>
 </ul>
 
-<h2 id="historie">History</h2>
+<h2 id="historie">Ontstaansgeschiedenis</h2>
 
 <h4>Aanleiding</h4>
 <p>Terwijl ik diverse HTML-editors probeerde, kreeg ik het idee dat ik voor mijn specifieke wensen beter een simpel en beperkt programma kon maken met HyperCard. Binnen 1 consistente opmaak kan ik me dan richten op de inhoud, terwijl deze stack alle bijzaken voor mij afhandelt: hyperlinks naar alle andere pagina's van mijn site, de datum van laatste wijziging aanpassen, in 1 keer alle pagina's een andere kleur of bullet geven etc. Tegelijk zou ik wat meer van HTML 3.2 leren...</p>
 
 <p>Dit is het geworden, i.p.v. zo'n  4 pagina's voor mezelf dus al meer dan 6, en heel wat meer mogelijkheden dan ik in 1<SUp>e</SUp> instantie had gedacht.</p>
 
-<h4>Versions</h4>
+<h4>Versies</h4>
 
 <p>0.6 Maart 1998 langzaam opgebouwd aan de hand van voorbeeld-code uit een commerci&euml;le HTML-editor.</p>
 <p>Versie 0.7 deed eind mei '98 eindelijk wat ik ongeveer wilde, maar was nog niet zonder bugs. </p>

@@ -49,6 +49,7 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 <p>Om mijn ervaring met circulair bouwen te delen, schreef ik in het Actieteam mee aan de <em>Leidraad Circulair Ontwerpen</em> van <a href="https://platformcb23.nl">Platform CB'23</a>.</p>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+<a href="/ejb/projects/work-br11/">Restauratie woonhuis BR11</a>
 <figure><img src='{{ "/assets/img/architect/br11/BR11_Bouwbord.png" | relative_url }}' alt='Bouwbord 2021' class='img-fluid' >
 <figcaption class="kleiner">Bouwpartners restauratie 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
@@ -66,12 +67,12 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 Ontwerp voor een nieuw hoofdgebouw voor de LU Wageningen
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/architect/studiebk/LUW1988EBR.png" | relative_url }}' alt='Overzicht afstudeerontwerp E.J. Broerse 1988' class='img-fluid'>
-<figcaption class="kleiner">Uitnodiging Afstudeerpresentatie (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
-</div>
-<div class="col-sm">
 <figure><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_ZO.jpg" | relative_url }}' alt='Afstudeerontwerp E.J. Broerse 1988' class='img-fluid'><br>
 <figcaption class="kleiner">Vogelvlucht (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/architect/studiebk/LUW1988EBR.png" | relative_url }}' alt='Overzicht afstudeerontwerp E.J. Broerse 1988' class='img-fluid'>
+<figcaption class="kleiner">Uitnodiging Afstudeerpresentatie (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div><!-- sluit row af -->
 
@@ -79,6 +80,8 @@ Ontwerp voor een nieuw hoofdgebouw voor de LU Wageningen
 <figure><img src='{{ "/assets/img/architect/studiebk/EBR_LUW_1988_entree.jpg" | relative_url }}' alt='Afstudeerontwerp E.J. Broerse 1988' class='img-fluid'>
 <figcaption class="kleiner">Noordgevel (Revit2016) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div><!-- sluit tegel af -->
+
+## <a id="links">Bladwijzers</a>
 
 Op zoek naar ecologische bouwmaterialen?
 : Bestel bij [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)
