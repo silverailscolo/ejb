@@ -1,7 +1,7 @@
 <!-- this element is auto-generated -->
 <!-- adapted from opieters liquid. -->
 <!-- Update your source yml by running _data/galleries/gallery_creator.py python preprocess script after adding new images -->
-<p><input type="text" class="quicksearch" placeholder="{{ site.data[site.active_lang].strings.galleries.search-box }}" /></p>
+<p><input type="text" class="quicksearch" placeholder="{{ site.data[site.active_lang].strings.galleries.search-box }}"></p>
 <!-- input box to filter isotope grid; see https://codepen.io/desandro/pen/gOrVQa -->
 <div id="image-gallery{% if include.id_number %}-{{ include.id_number }}{% endif %}">
   {% for picture in include.gallery.pictures %}

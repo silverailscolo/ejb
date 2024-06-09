@@ -1,8 +1,8 @@
 {% assign months = 'january|february|march|april|may|june|july|august|september|october|november|december' | split: '|' %}
 {% if include.date_from.date > 0 %}
-{% assign ft_date = include.date_from.date %}
+  {% assign ft_date = include.date_from.date %}
 {% else %}
-{% assign ft_date = "now" %}
+  {% assign ft_date = 'now' %}
 {% endif %}
 {% assign m = ft_date | date: '%-m' | minus: 1 %}
 {% assign day = ft_date | date: '%-d' %}
@@ -20,7 +20,8 @@
 {% elsif site.active_lang == 'pt-br' %}
   {{ day }} de {{ month }}, {{ year }}
 {% elsif site.active_lang == 'de' %}
-  {{ day }}. {{ month }} {{ year }}
+  {{ day }}. {{ month }}
+  {{ year }}
 {% else %}
   {{ day }}
   {{ month }}

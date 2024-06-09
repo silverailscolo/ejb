@@ -4,9 +4,7 @@ layout: default
 
 {% if page.title %}
 <h1 class="page-heading"><a id="table"></a>{{ page.title }}</h1>
-{% endif %}
-{{ content }}
-{% assign items = site.rollingstock %} {% if items.size > 0 %}
+{% endif %} {{ content }} {% assign items = site.rollingstock %} {% if items.size > 0 %}
 <h3 class="post-list-heading">{{ page.list_title | default: "My rolling stock" }}</h3>
 <ul class="post-list">
   {% for item in items reversed %}

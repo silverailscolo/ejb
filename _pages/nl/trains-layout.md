@@ -23,9 +23,11 @@ Je raadt het al: na een bezoek aan het gebied modelleer ik de voormalige route v
 De bouw van de D&amp;S baan
 
 <!-- simply so (by Jimmy_Xiao) -->
+
 {% include album.html albumname="trains2" %}
 
 Nog wat beelden van de modelbaan
+
 <!-- opieters include -->
 
 {% include gallery_layout.liquid gallery=site.data.galleries.trains %}
@@ -88,7 +90,7 @@ Afmetingen
 
 Zie ook de <a href="#lda">LDA stats</a> onderaan.
 
-Tot de zomer van 2000 was er nog geen plek om rails te leggen, maar in 2018 kon de eerste treinen de hele route  door de Rockies helemaal naar het dorpje <a href="#silverton">Silverton</a> afleggen.
+Tot de zomer van 2000 was er nog geen plek om rails te leggen, maar in 2018 kon de eerste treinen de hele route door de Rockies helemaal naar het dorpje <a href="#silverton">Silverton</a> afleggen.
 
 ### Level 0: Newport, OR {#newport}
 
