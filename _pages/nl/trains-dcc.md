@@ -8,4 +8,4 @@ description: Digital Command Control
 nav: false
 ---
 
-Zie de <a href="../../trains/dcc.html">Engelse pagina</a>.
+Zie de <a href="../en-us/trains/dcc.html">Engelse pagina</a>.

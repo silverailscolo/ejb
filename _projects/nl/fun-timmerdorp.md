@@ -9,9 +9,9 @@ importance: 3
 category: fun
 carousels:
   - images:
-      - image: ../../../assets/img/architect/timmerdorp/IMG_9943.jpg
-      - image: ../../../assets/img/architect/timmerdorp/IMG_9999.jpg
-      - image: ../../../assets/img/architect/timmerdorp/IMG_0021.jpg
+      - image: /ejb/assets/img/architect/timmerdorp/IMG_9943.jpg
+      - image: /ejb/assets/img/architect/timmerdorp/IMG_9999.jpg
+      - image: /ejb/assets/img/architect/timmerdorp/IMG_0021.jpg
 ---
 
 Periode: 2023-2024

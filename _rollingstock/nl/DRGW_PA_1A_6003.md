@@ -11,7 +11,7 @@ decoder:
   family: ""
   model: ""
 fileName: DRGW_PA_1A_6003
-lang: en-us
+lang: nl
 layout: train-item
 mfg: Kato
 model: PA-1

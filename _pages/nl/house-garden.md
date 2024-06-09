@@ -9,4 +9,4 @@ nav: false
 
 Over onze tuin
 
-Zie voor nu de <a href="../../house/garden.html">Engelse pagina</a>.
+Zie voor nu de <a href="../en-us/house/garden.html">Engelse pagina</a>.

@@ -1,13 +1,4 @@
 ---
-"@IsShuntingOn": ""
-"@URL": ""
-"@developerID": "-1"
-"@iconFilePath": ""
-"@imageFilePath": ""
-"@manufacturerID": "99"
-"@maxSpeed": "100"
-"@productID": ""
-dateUpdated: "2024-04-06T11:43:47.975+00:00"
 dccAddress: "269"
 decoder:
   "@maxFnNum": "28"
@@ -32,7 +23,7 @@ roadName: Silverton Railroad
 roadNumber: "269"
 roster-id: SRR_SHAY_269
 soundlabels: null
-year: 2024
+year: 2005
 ---
-
 (reserved Sept. 2004, received Aug. 2005, DCC + weathered Apr. 2009)
+replaced rear truck w/replacement from Atlas

@@ -9,4 +9,4 @@ toc:
   sidebar: left
 ---
 
-Zie voor nu de <a href="../../house/smart.html">Engelse pagina</a>.
+Zie voor nu de <a href="../en-us/house/smart.html">Engelse pagina</a>.

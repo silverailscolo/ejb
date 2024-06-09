@@ -26,8 +26,9 @@ locoaddress:
 mfg: Con Cor
 model: 0001-094171
 owner: Egbert Broerse
+picture: goose-no5-300x143.jpg
 roadName: Rio Grande Southern
 roadNumber: "5"
 roster-id: "RGS Goose #5"
-year: 2024
+year: 2015
 ---
