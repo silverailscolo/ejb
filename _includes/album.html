@@ -13,7 +13,7 @@
   <a href="{{ image.name | replace: '.jpg', '/' | replace: '.png', '/'}}" class="image-ref">
     <img
       src="{{ site.baseurl }}/assets/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
-      alt="{{ image.name }}"
+      alt="{{ image.name }}" title="{% exiftag image_description, , {{ ip }} %}"
     />
   </a>
   {% else %} {% comment %} Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline, caption-abstract;
@@ -34,7 +34,8 @@
       alt="{% exiftag image_description, , {{ ip }} %}"
     />
   </a>
-  {% comment %}Some exif tags return invalid UTF-8 encoding, encoding is enforced in exiftag.rb plugin.{% endcomment %} {% endif %} {% endunless %} {%
+  {% comment %}Exif tags contain non UTF-8 encoding. Encoding is enforced in exiftag.rb plugin.{% endcomment
+  %} {% endif %} {% endunless %} {%
   endif %} {% endfor %}
 </div>
 

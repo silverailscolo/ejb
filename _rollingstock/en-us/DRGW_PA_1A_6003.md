@@ -16,12 +16,11 @@ layout: train-item
 mfg: Kato
 model: PA-1
 owner: Egbert Broerse
-# picture: DRGW_PA_1A_6003.jpg
+picture: DRGW_PA_1A_6003.jpg
 roadName: D&RGW
 roadNumber: "6003"
 roster-id: "DRGW PA-1A #6003"
 year: 2013
-
 ---
 
 Silver

@@ -100,7 +100,7 @@ module Jekyll
             if answer == nil
               answer = exif[:"UserComment"] # EXIF in use for trains2 images
               if answer == nil
-                answer = exif[:"Image_Description"] # EXIF used in img/tuin images
+                answer = exif[:"image_description"] # EXIF used in img/tuin images
                 if answer == nil
                   answer = exif[:"Comment"] # EXIF
                 end
@@ -118,7 +118,7 @@ module Jekyll
 
         if answer != nil and answer != ""
           answer.gsub(/"/, "") # strip quotes from answer to protect html
-          Jekyll.logger.info "Exiftag/exiftool fetched tag #{tag} for image #{img}"
+          # Jekyll.logger.info "Exiftag/exiftool fetched tag #{tag} for image #{img}: #{answer}"
           return answer.force_encoding("UTF-8")
         else
           # If no caption defined, add a trimmed filename to help with SEO

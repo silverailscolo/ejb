@@ -1052,6 +1052,13 @@ onMouseOut="hidepop(event);"
 onMouseUp="togglepop(event,94);">
 
 </map>
+
+<!-- popup div. contents updated via Javascript -->
+<div id="popup" class="popup" onMouseUp="showpop(event, 122);">
+  <figure><img id="plant_image" src='{{ "/assets/img/tuin/122.jpg" | relative_url }}' alt="plant popup">
+<figcaption id="popuptitle" class="kleiner">Plant name</figcaption></figure>
+</div>
+
 </div>
 
 <div class="col-8">
@@ -1185,18 +1192,11 @@ onMouseUp="togglepop(event,94);">
 </ol>
 </div>
 
-</div><!-- end or row -->
+</div><!-- end of row -->
 
 <!-- simply so (by Jimmy_Xiao) -->
 
 {% include album.html albumname="tuin" %}
-
-<!-- popup div. contents updated via Javascript -->
-<div id="popup" class="popup" style="max-width: 80%; width: 180px; height: 200px;"
-onMouseUp="togglepop(event, 122);">
-  <figure><img id="plant_image" src='{{ "/assets/img/tuin/122.jpg" | relative_url }}' alt="plant popup" style="max-width: 80%; width: 80%; height: 70%; overflow: hidden;">
-<figcaption id="popuptitle" class="kleiner">Plant name</figcaption></figure>
-</div>
 
 <script>
   // loaded at end of body

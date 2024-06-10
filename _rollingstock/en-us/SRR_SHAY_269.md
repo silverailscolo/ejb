@@ -21,7 +21,7 @@ owner: Egbert
 picture: SRR_SHAY_269.jpg
 roadName: Silverton Railroad
 roadNumber: "269"
-roster-id: SRR_SHAY_269
+roster-id: "SRR Shay #269"
 soundlabels: null
 year: 2005
 ---
