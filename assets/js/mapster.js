@@ -5,10 +5,11 @@ function showpop(e, num) {
   //function called by all hotspots on mouseOver
   var thing = document.getElementById("popup");
   if (stick == false) {
-    thing.style.left = e.clientX + "px";
-    thing.style.top = e.clientY + "px";
+    thing.style.left = '"' + e.clientX + "px" + '"';
+    thing.style.top = '"' + e.clientY + "px" + '"';
+    console.log("showpop thing.xy: " + thing.style.left + "," + thing.style.top); // debug
     // set image title
-    //nodeListPlants = document.querySelectorAll('li');
+    nodeListPlants = document.getElementById("plantlijst"); // document.querySelectorAll('li');
     var title = nodeListPlants[num - 1].innerHTML;
     if (typeof title != "undefined") {
       //console.log("item " + num + "; title: " + title); // debug
@@ -45,6 +46,9 @@ function togglepop(e, num) {
     stick = false;
   }
   if (thing.style.visibility == "visible") {
+    thing.style.left = '"' + e.clientX + "px" + '"';
+    thing.style.top = '"' + e.clientY + "px" + '"';
+    console.log("togglepop thing.xy: " + thing.style.left + "," + thing.style.top); // debug
     stick = true;
     //console.log("stick: " + stick); // debug
   }

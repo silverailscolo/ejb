@@ -30,5 +30,5 @@ picture: goose-no5-300x143.jpg
 roadName: Rio Grande Southern
 roadNumber: "5"
 roster-id: "RGS Goose #5"
-year: 2015
+year: 2007
 ---

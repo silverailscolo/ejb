@@ -110,9 +110,6 @@ Ter Inspiratie
 : [Brutalistische Architectuur](https://en.wikipedia.org/wiki/Brutalist_architecture)
 : [US Brutalist](https://www.architecturaldigest.com/story/brutalist-architecture-101)
 
-Urban Planning
-: [Bloomberg CityLab](https://www.bloomberg.com/citylab)
-
-Urban Planning
+Stedenbouw
 : [Bloomberg CityLab](https://www.bloomberg.com/citylab)
 : Utrecht University [Urban Futures Studio](https://www.uu.nl/en/research/urban-futures-studio)
