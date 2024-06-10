@@ -1,4 +1,4 @@
---
+---
 "@IsShuntingOn": ""
 "@URL": ""
 "@iconFilePath": ""
@@ -9,7 +9,6 @@ dccAddress: ""
 decoder:
 comment: no decoder
 family: ""
-model: ""
 fileName: DRGW_PA_1A_6003
 lang: nl
 layout: train-item

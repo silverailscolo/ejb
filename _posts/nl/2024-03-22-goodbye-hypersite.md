@@ -40,7 +40,7 @@ Klik op de button 'Start' rechtsboven op dit scherm om verder te gaan...</p>
 <li>een grafisch programma om zelf afbeeldingen voor internet te kunnen maken, bijv. Macromedia Xres, Photoshop of Graphic Converter.</li>
 </ul>
 
-<h2  id="instructies">Instructies</h2>
+<h2 id="instructies">Instructies</h2>
 
 <p>1. klik op button "Start" en vul dan minstens de volgende gegevens in:</p>
 <ul>
@@ -84,10 +84,11 @@ Een link  bestaat uit 2 delen, nl. het onderstreepte woord, dat in beeld komt, e
 
 <p>Zet het invoegpunt op de juiste plek en klik op de button met het gezichtje om een bepaald soort afbeelding op je pagina in te voegen. Je kunt kiezen uit 3 soorten:</p>
 
-<OL>
+<ol>
 <li>GIF en JPEG-files kunnen direct in elke grafische browser getoond worden;</li>
 <li>QuickTime zijn filmpjes, die iemand alleen kan bekijken als hij/zij de QuickTime-plugin van Apple heeft geladen;</li>
-<li>Shockwave zijn animaties (o.a. Macromedia Flash en  Director), waarvoor in Netscape ook een plug-in nodig is en in Internet Explorer zgn. ActiveX en JAVA technologie.</li></OL>
+<li>Shockwave zijn animaties (o.a. Macromedia Flash en  Director), waarvoor in Netscape ook een plug-in nodig is en in Internet Explorer zgn. ActiveX en JAVA technologie.</li>
+</ol>
 
 <h4><a id="beperkingen">Wat kan niet</a></h4>
 
@@ -107,27 +108,47 @@ Een link  bestaat uit 2 delen, nl. het onderstreepte woord, dat in beeld komt, e
 <h2 id="historie">Ontstaansgeschiedenis</h2>
 
 <h4>Aanleiding</h4>
+
 <p>Terwijl ik diverse HTML-editors probeerde, kreeg ik het idee dat ik voor mijn specifieke wensen beter een simpel en beperkt programma kon maken met HyperCard. Binnen 1 consistente opmaak kan ik me dan richten op de inhoud, terwijl deze stack alle bijzaken voor mij afhandelt: hyperlinks naar alle andere pagina's van mijn site, de datum van laatste wijziging aanpassen, in 1 keer alle pagina's een andere kleur of bullet geven etc. Tegelijk zou ik wat meer van HTML 3.2 leren...</p>
 
-<p>Dit is het geworden, i.p.v. zo'n  4 pagina's voor mezelf dus al meer dan 6, en heel wat meer mogelijkheden dan ik in 1<SUp>e</SUp> instantie had gedacht.</p>
+<p>Dit is het geworden, i.p.v. zo'n  4 pagina's voor mezelf dus al meer dan 6, en heel wat meer mogelijkheden dan ik in eerste instantie had gedacht.</p>
 
 <h4>Versies</h4>
 
-<p>0.6 Maart 1998 langzaam opgebouwd aan de hand van voorbeeld-code uit een commerci&euml;le HTML-editor.</p>
-<p>Versie 0.7 deed eind mei '98 eindelijk wat ik ongeveer wilde, maar was nog niet zonder bugs. </p>
-<p>Versie 0.8 van juli 1998 kende enkele verbeteringen (fout in &lt;TR&gt; tag opgelost, snelheid ASCII-conversie, correct werkened tabstrookjes bovenaan het scherm) en wat bijkomende wensen n.a.v. mijn eigen ervaring met het programma (alle pagina's in 1 x omzetten met optie-toets, tabellen aanmaken binnen een veld).</p>
-<p>Versie 1.0 van oktober 1998 bevat extra opties, o.a. om wel of niet linksboven het menu te tonen (t.b.v. afwijkende opzet 1e pagina van een Site), om wel of niet rechtsboven een de vaste afbeelding + koptekst te tonen (idem). Voorts wat extra tools, o.a. HTML-commentaar. Verder nog wat kleine fouten en strikte HTML-regels opgelost.</p>
-<p>Versie 1.1 en 1.2 (mei-juni '99) waren geleidelijke verbeteringen, o.a. om delen van de site in submappen op te slaan - bijv. "docs:" - en toch alle 'links' correct aan te maken.</p>
-<p>Versie 1.3 (aug. '99) voegt de mogelijkheid toe om met JavaScript 'roll over' effecten onder je muis een navigatie-menu op te laten lichten ("hilite"). Dat is inmiddels standaard op het web, vandaar. Voor snelle sites kun je het op de pagina 'Algemeen' ook altijd uit zetten. <br>
+v 0.6 (maart 1998)
+: langzaam opgebouwd aan de hand van voorbeeld-code uit een commerci&euml;le HTML-editor.
+
+v 0.7 (mei '98)
+: doet eindelijk wat ik ongeveer wilde, maar was nog niet zonder bugs.
+
+v 0.8 (juli 1998)
+: kent enkele verbeteringen (fout in &lt;TR&gt; tag opgelost, snelheid ASCII-conversie, correct werkened tabstrookjes bovenaan het scherm) en wat bijkomende wensen n.a.v. mijn eigen ervaring met het programma (alle pagina's in 1 x omzetten met optie-toets, tabellen aanmaken binnen een veld).
+
+v 1.0 (oktober 1998)
+: bevat extra opties, o.a. om wel of niet linksboven het menu te tonen (t.b.v. afwijkende opzet 1e pagina van een Site), om wel of niet rechtsboven een de vaste afbeelding + koptekst te tonen (idem). Voorts wat extra tools, o.a. HTML-commentaar. Verder nog wat kleine fouten en strikte HTML-regels opgelost.
+
+v 1.1 en 1.2 (mei-juni '99)
+: bevat geleidelijke verbeteringen, o.a. om delen van de site in submappen op te slaan - bijv. "docs:" - en toch alle 'links' correct aan te maken.
+
+v 1.3 (aug. '99)
+: voegt de mogelijkheid toe om met JavaScript 'roll over' effecten onder je muis een navigatie-menu op te laten lichten ("hilite"). Dat is inmiddels standaard op het web, vandaar. Voor snelle sites kun je het op de pagina 'Algemeen' ook altijd uit zetten. <br>
 Ook nieuw is de mogelijkheid om een deel van de site m.b.v. mappen op te splitsen, waarbij de verwijzingen naar algemene opmak en menu-koppelingen via het veld "base URL" worden aangevuld. Verder ondersteuning voor de "Language" Meta-Tag via een pop-up menu op de kaart "Algemeen" en een centrale Style Sheet (genaamd "hyperstyle.css") op dezelfde kaart om m.b.v. "Cascading Style Sheets" uit HTML 4.0 alle opmaak op 1 plek te regelen. Zie voor meer info een goed boek over dit onderwerp. <br>
-Ook is de Tag voor het opnemen van Macromedia Flash afbeeldingen aaangepast conform de laatste informatie. DTD-versie in header: 'HTML 4.0 Transitional'.</p>
-<p>Versie 1.5 van augustus 2000 voegt de mogelijkheid toe om in 1 keer alle achtergronden aan te passen. Ook enkele extra <em>tag's</em> aan de toolbox toegevoegd: DIV en JS = JavaScript.</p>
-<p>Versie 1.6 van april 2001 lost enkele fouten op in het gebruik van grafische (.GIF) buttons, zodat onnodige foutmelingen niet optreden. Tevens onderkast HTML-tags invoegen conform XHTML 1.0 specificatie, bijv. &lt;br /&gt;. Ook is de afscherming van de eerste 2 schermen verbeterd; je kom er alleen als je expliciet op de knop <strong>?</strong> c.q. <strong>Algemeen</strong> klikt.</p>
-<p>Versie 1.8 is geport naar LiveCode.</p>
-<p>Versie 1.9 van 2018-2023 is HTML5 correct, en bevat een responsive layout.</p>
+Ook is de Tag voor het opnemen van Macromedia Flash afbeeldingen aaangepast conform de laatste informatie. DTD-versie in header: 'HTML 4.0 Transitional'.
+
+v 1.5 (augustus 2000)
+: voegt de mogelijkheid toe om in 1 keer alle achtergronden aan te passen. Ook enkele extra <em>tag's</em> aan de toolbox toegevoegd: DIV en JS = JavaScript.
+
+v 1.6 (april 2001)
+: lost enkele fouten op in het gebruik van grafische (.GIF) buttons, zodat onnodige foutmeldingen niet optreden. Tevens onderkast HTML-tags invoegen conform XHTML 1.0 specificatie, bijv. &lt;br /&gt;. Ook is de afscherming van de eerste 2 schermen verbeterd; je kom er alleen als je expliciet op de knop <strong>?</strong> c.q. <strong>Algemeen</strong> klikt.
+
+v 1.8
+: hele stack geport van Apple HyperCard naar LiveCode.
+
+v 1.9 van 2018-2023
+: is HTML5 correct, en bevat een responsive layout.</p>
 
 <h2 id="credits">Credits</h2>
-<p>This stack is shareware.  Support the development of these helpful programs by paying your shareware fee.  Please pay Euro 25,- next time you see me. </p>
+<p>This stack is shareware. Support the development of these helpful programs by paying your shareware fee.  Please pay Euro 25,- next time you see me.</p>
 
 <p>All programming &copy; E.J. Broerse 04/1998 - 07/1998 - 09/1999 - 03/2000 - 04/2001 - 11/2002 - 02-2023 except
 <i>PopUpMenu XCMD</i> &copy; Individual Software, Inc. 1988.</p>
