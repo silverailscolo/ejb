@@ -50,6 +50,11 @@ Rol: projectarchitect ruimtelijke kwaliteit, vormgeving en details van civiele w
   </div>
 </div>
 
+<div class="row">
+  <figure><img src='{{ "/assets/img/architect/n31/N31_vluchthuisje_IMG_4972.jpg" | relative_url }}' alt='Vluchthuisje N31' class='img-fluid'>
+  <figcaption class="kleiner">Vluchthuisje (maquette) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
+
 </div><!-- einde N31 schetsboek -->
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Meer <a href="../../gallery/n31.html">N31 beelden</a>.</div>

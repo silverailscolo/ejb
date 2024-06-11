@@ -18,7 +18,7 @@ The rock cliff at Rockwood has been an item on my to do list for at least one ye
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="{{ 'assets/img/blog/20140304-173323.jpg' | relative_url }}" title="Rockwood general view" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="{{ '/assets/img/blog/20140304-173323.jpg' | relative_url }}" title="Rockwood general view" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

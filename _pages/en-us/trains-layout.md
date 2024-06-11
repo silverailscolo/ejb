@@ -54,8 +54,8 @@ More images of the layout
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/dsng%20map.gif" | relative_url }}' alt="RR map" class='img-fluid'>
-<figcaption class="kleiner">A map of the track from Durango in the south to Silverton in the north.</figcaption>
+<figure><img src='{{ "/assets/img/trains2/dsng_map.png" | relative_url }}' alt="D&amp;S RR map" class='img-fluid'>
+<figcaption class="kleiner">A map of the route from Durango in the south to Silverton in the north.</figcaption>
 </figure>
 </div>
 <div class="col-sm">
