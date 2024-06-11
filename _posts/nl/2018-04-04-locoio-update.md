@@ -10,9 +10,9 @@ categories:
 
 Ik heb weer een nieuw HDL LocoIO gebouwd en hoop dat ik hem kan gaan instellen met JMRI 4.12.
 
-![LocoIO board gereed 4/2018]({{ "/assets/img/blog/img_6667.jpg" | relative_url }})
+<figure><img src='{{ "/assets/img/blog/img_6667.jpg" | relative_url }}' alt="LocoIO board gereed 4/2018" class='img-fluid'><figcaption class="kleiner">LocoIO board gereed 4/2018</figcaption></figure>
 
-De release datum van JMRI 4.11.6 haal ik niet, maar ik ben lekker bezig om het JMRI LocoIO gereedschap te programmeren voor deze nieuwe hardware.
+De releasedatum van JMRI 4.11.6 haal ik niet, maar ik ben lekker bezig om het JMRI LocoIO gereedschap te programmeren voor deze nieuwe hardware.
 
 Update: JMRI 4.15.5 bevat extra opties om LocoIO bordjes te configureren, en ook de HDL
 LocoBooster en LocoServo modules (ports 1-5).

@@ -25,7 +25,7 @@ My DCC Command Station is a classic Digitrax Zephyr DCS50. One LocoNet socket on
 
 There is no heavy wire connecting the Zephyr Ground (Common) and the LocoBooster Ground.
 
-![]({{ "/assets/img/blog/Zephyr-Rear-Panel.png" | relative_url }})
+<figure><img src='{{ "/assets/img/blog/Zephyr-Rear-Panel.png" | relative_url }}' alt="Zephyr connection panel" class='img-fluid'><figcaption class="kleiner">Zephyr connection panel</figcaption></figure>
 
 Did read about ("same reference level”) as a suggestion to fix this type of issues, but Hans Deloof - the designer of the LocoBooster - doesn't mention this in the docs. And it turned out it wasn't needed.
 

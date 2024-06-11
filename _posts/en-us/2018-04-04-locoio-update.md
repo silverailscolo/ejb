@@ -10,7 +10,7 @@ categories:
 
 I've built another HDL LocoIO board. Hope to configure it using JMRI 4.12.
 
-![LocoIO board assembled 4/2018]({{ "/assets/img/blog/img_6667.jpg" | relative_url }})
+<figure><img src='{{ "/assets/img/blog/img_6667.jpg" | relative_url }}' alt="LocoIO board assembled 4/2018" class='img-fluid'><figcaption class="kleiner">LocoIO board assembled 4/2018</figcaption></figure>
 
 Not yet in JMRI 4.11.6. I'm working to get the tool operating with the newer hardware.
 

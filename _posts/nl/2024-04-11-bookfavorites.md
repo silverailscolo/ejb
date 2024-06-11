@@ -16,7 +16,7 @@ SPDX-FileCopyrightText: 2024 EJ Broerse
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
-Eeen paar favoriete titels:
+Een paar favoriete titels:
 
 <figure><img src='{{ "/assets/img/blog/20240411_favbooks.jpg" | relative_url }}' alt="The books" class='img-fluid'></figure>
 
@@ -27,3 +27,8 @@ Eeen paar favoriete titels:
 - _Dark age ahead_, door Jane Jacobs 01/2008
 - _De aap en de sushi meester, over cultuur bij dieren_, door Frans de Waal 11/2007
 - _In Europa_, door Geert Mak: history of our continent 08-10/2004
+
+Boeksuggesties per stad
+
+- [Reading the City](https://readingthecity.com/)
+

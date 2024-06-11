@@ -25,7 +25,7 @@ Mijn Command Station is een klassieke Digitrax Zephyr DCS50. Aan de 1e LocoNet a
 
 Ik heb geen zware verbindingsdraad aangesloten tussen de Zephyr Ground (Common) aansluiting en de LocoBooster Ground.
 
-![]({{ "/assets/img/blog/Zephyr-Rear-Panel.png" | relative_url }})
+<figure><img src='{{ "/assets/img/blog/Zephyr-Rear-Panel.png" | relative_url }}' alt="Zephyr connection panel" class='img-fluid'><figcaption class="kleiner">Zephyr connection panel</figcaption></figure>
 
 Lees wel hierover ("same reference level”) maar Hans Deloof vermeldt het niet. Dit bleek ook niet nodig.
 
@@ -33,7 +33,7 @@ Als ik de rails-aansluiting losschroef van de LocoBuffer en - alleen - de ground
 
 Ik mat tussen de booster uitgang en de Zephyr Rail A een hoge weerstand van 15kOhm, maar niet 0. Dus: dat is de interne weerstand van de Zephyr
 
-## Double-check your wiring!
+## Double-check de bedrading!
 
 Wat bleek: ik had ergens halverwege de baan de Zephyr Rail A busdraad op de Booster/Track A busdraad aangesloten (en omgekeerd). Dus de rail werd nu gevoed door beide boosters = problemen!
 
