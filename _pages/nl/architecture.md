@@ -42,8 +42,13 @@ Elk gebouw staat in een omgeving, en die betrek ik in het ontwerp: hoe zie je he
 <figure><img src='{{ "/assets/img-noresample/avenue2/PaardentunnelSchetsEgbert-562x252.jpg" | relative_url }}' alt='Impressie fietstunnel Geusselt' class='img-fluid' >
 <figcaption class="kleiner">Impressie fietstunnel Geusselt (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<p>Bij veel ontwerpkeuzes is het handig om met berekeningen te onderbouwen wat de optimale variant is op alle vlakken die de opdrachtgever belangrijk vindt. Daarvoor gebruik ik o.a. de Passivhaus <a href="https://passipedia.org/planning/calculating_energy_efficiency/phpp_-_the_passive_house_planning_package">PHPP</a> berekening en <a href="https://windows.lbl.gov/software/therm/">THERM</a>.<br>
+<p>Bij veel ontwerpkeuzes is het handig om met berekeningen te onderbouwen wat de optimale variant is op alle vlakken die de opdrachtgever belangrijk vindt. Daarvoor gebruik ik o.a. de Passivhaus <a href="https://passipedia.org/planning/calculating_energy_efficiency/phpp_-_the_passive_house_planning_package">PHPP</a> berekening en <a href="https://windows.lbl.gov/software/therm/">THERM</a>.
+
 Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inzicht in de keuzes die soms al in een vroeg stadium gemaakt moeten worden. Je wilt doelmatig werken, maar het zijn toch altijd echte euro's, die goed besteed moeten worden!</p>
+
+<figure><img src='{{ "/assets/img/architect/PAV_plaatsen_elementen.jpg" | relative_url }}' alt='Instructie for voor hoogwaardige uitvoering' class='img-fluid' >
+<figcaption class="kleiner">Instructie for voor hoogwaardige uitvoering (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
 <p>Ik blijf bij alle projecten betrokken tot in de uitvoering, <em>hands-on</em> om op locatie te zorgen dat de ambitie wordt vertaald in de praktijk van de bouwers, en om technisch mee te kijken en te zorgen dat de (onder)aannemers goed samenwerken.</p>
 
 <p>Om mijn ervaring met circulair bouwen te delen, schreef ik in het Actieteam mee aan de <em>Leidraad Circulair Ontwerpen</em> van <a href="https://platformcb23.nl">Platform CB'23</a>.</p>

@@ -20,14 +20,14 @@ toc:
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2><a id="buildk27">Build a RLW K-27 kit</a></h2>
+<h2>Build a RLW K-27 kit</h2>
 
-See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'>this blog post</a>.
+See <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>this blog post</a>.
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/IMG_6524.jpg" | relative_url }}' alt='K-27' class='img-fluid'>
-<figcaption class="kleiner">K-27 under construction (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figure><img src='{{ "/assets/img/trains2/IMG_6524.jpg" | relative_url }}' alt='K-27 with primer coat' class='img-fluid'>
+<figcaption class="kleiner">K-27 with primer coat (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/K27_image1.jpg" | relative_url }}' alt='Wheel disk sketch' class='img-fluid'>
@@ -39,19 +39,23 @@ See <a href='{{ "/blog/2017/assembling-the-rlw-nn3-k-27-kit/" | relative_url }}'
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2><a id="dwarf">How to make a Digitrax dwarf signal</a></h2>
+<h2>How to make a Digitrax dwarf signal</h2>
 
-<p>Using the Digitrax base mast as, well, the base we add the typical hood from styrene.</p>
+Using the Base Mast Kit ([Digitrax article SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N scale) as - well - the base - we add the typical Rio Grande hood from styrene.
 
-<figure><img src='{{ "/assets/img/trains2/DSCF2960_signal.jpg" | relative_url }}' alt='Digitrax Base Mast' class='img-fluid'>
-<figcaption class="kleiner">Customized Digitrax Base Mast (
+If desired, cut off the upper head just above the lower head (Secret tip: you can make a dwarf from this stump by soldering it to a copper tube  for ground + a wire to each LED).
+
+See [this blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url }}).
+
+<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpeg" | relative_url }}' alt='Signal Mast in operation' class='img-fluid'>
+<figcaption class="kleiner">Signal Mast in operation (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 </div>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2><a id="DS52housing">Build a housing for a DS52</a></h2>
+<h2>Build a housing for the Digitrax DS52 stationary decoder</h2>
 
 The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage. At <a href="https://www.conrad.nl">Conrad</a> I ordered a 53,5 x 45 x 23 mm [StrapuBox, item 522600](https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html). Pictured below are the modifications to get the decoder inside. Put a label on the front with the decoder ID (I use DS52-X) plus the DCC adresses of both outputs and attach to the layout with 2 screws.
 
@@ -61,7 +65,7 @@ The Digitrax DS52 stationary decoder consists of a PCB with a connector. After p
 <figcaption class="kleiner">A DS52 enclosed (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><a href='{{ "/assets/img/trains2/IMG_0502-lo.jpg" | relative_url }}'><img src='{{ "/assets/img/trains2/IMG_0502-lo.jpg" | relative_url }}' alt="DSRR screenshot w/icons" class='img-fluid'></a>
+<figure><a href='{{ "/assets/img/trains2/IMG_0502-lo.jpg" | relative_url }}'><img src='{{ "/assets/img/trains2/IMG_0502-lo.jpg" | relative_url }}' alt="Case modifications" class='img-fluid'></a>
 <figcaption class="kleiner">Modifications to the casing, click to zoom in (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
@@ -70,17 +74,19 @@ The Digitrax DS52 stationary decoder consists of a PCB with a connector. After p
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2><a id="invertor">Build an add-on logic invertor daughterboard for an HDL LocoIO</a></h2>
+<h2>Build an add-on logic inverter daughterboard for an HDL LocoIO</h2>
 
-<figure><img src='{{ "/assets/img/trains2/DSCF0229_half.jpg" | relative_url }}' alt='LocoIO daughterboard, click for larger image' class='img-fluid'></figure>
+<figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO daughterboard' class='img-fluid'></figure>
 
-<p>To reduce the number of outputs required to connect a switch panel to Loconet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel, simply because I don't have switch feedback and if a switch isn't thrown, it's supposed to be closed. Built using a 18x15 hole piece of Euro-PCB experimenting board.</p>
+To reduce the number of outputs required to connect a switch panel to Loconet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel.
+
+See [this blog post]({{ "_site/blog/2015/locoio-inverter/" | relative_url }}).
 
 </div>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2><a id="panel">JMRI Panel</a></h2>
+<h2>JMRI Panel</h2>
 
 <p>My digital control panel was built using Panel Editor and is displayed on a compact LCD monitor by <a href="https://www.jmri.org/help/en/html/apps/PanelPro/index.shtml">JMRI PanelPro 2.4.1</a> on OSX 10.4.6, the last version supported by my MacMini hardware/Java combo.<br>
 The graphics match a generic (US-built) Entrance-Exit (NX) CTC machine, in use from 1950 until the mid-nineties. However, most turnouts are operated with an Individual Function Switch (IFS); see the <a href="https://en.wikipedia.org/wiki/Signalling_control">Signaling Wiki</a>.</p>
@@ -106,12 +112,20 @@ Some years later, signals were added on the layout as well as to the panel. All 
 
 <p>My physical control panels on the layout fascia sport the same graphic style, be it black on yellow to match the carpet:</p>
 
+<div class="row">
+<div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt="DSRR physical panel" class='img-fluid'>
 <figcaption class="kleiner">One of the Control Panels on the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/d_and_s/panels_rear_DSCF1846.jpg" | relative_url }}' alt="Rear side of Control Panels" class='img-fluid'>
+<figcaption class="kleiner">Rear side of Control Panels with wiring to LEDs and switches (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
+</div>
 
 </div>
 
-<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Back to <a href="layout.html">Railroading</a></div>
+Back to <a href="layout.html">Railroading</a>
 
 <div class="container featured-posts">
 <div class="row row-cols-2">

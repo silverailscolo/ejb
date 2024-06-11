@@ -29,7 +29,7 @@ to break after bending 3 times.
 File and fit the fire box onto the rear of the Märklin frame, so it matches the
 dimensions provided in the instruction sheet, but do not affix it yet.
 
-<figure><img src='{{ "/assets/img/blog/K27_image1-1.jpg" | relative_url }}' alt="Mounting the wheels" class='img-fluid'><figcaption class="kleiner">Sketch of counterbalance attached to Märklin wheel</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/K27_image1.jpg" | relative_url }}' alt="Mounting the wheels" class='img-fluid'><figcaption class="kleiner">Sketch of counterbalance attached to Märklin wheel</figcaption></figure>
 
 As stated in the
 instructions, getting the drivers operating is the heart of the kit assembly.
@@ -71,6 +71,8 @@ the fire box. Once the suspension frame plates fit over the drivers, glue the
 two Walschaert Y-shapes to the outside over the second driver with the forked
 side pointing to the front.
 
+<figure><img src='{{ "/assets/img/blog/K27_base_IMG_6526.jpg" | relative_url }}' alt="Engine frame with drivers" class='img-fluid'><figcaption class="kleiner">Engine frame with drivers</figcaption></figure>
+
 ## Märklin frame and adapter trucks
 
 The pilot and trailing trucks on my Märklin
@@ -81,13 +83,6 @@ On the casting, cut away the coupler pin and protrusion. File 1.5 mm off the
 top of the truck to come level with the top of the mounting eye and have the
 truck clear the firebox.
 
-## Left over parts
-
-I could not discover where to use the 2 semicircular 3 mm wide
-steps/boxes.
-
-<figure><img src='{{ "/assets/img/blog/img_6528-6.jpg" | relative_url }}' alt="K-27 Assembled" class='img-fluid'><figcaption class="kleiner">Assembled K-27 locomotive, seen from the left</figcaption></figure>
-
 ## Tender
 
 Add two 1 mm thick styrene shims between the tender trucks and the sub frame to clear the wheels
@@ -95,3 +90,14 @@ and get the rear coupler at the correct height. Drill a hole to attach a
 connection bar between the tender and the engine. Also attach a small pin below
 the bottom of the firebox/engine cabin (eg. a thin tube pointing down, affixed
 with a small bolt from above).
+
+<figure><img src='{{ "/assets/img/blog/K27_image1-2.jpg" | relative_url }}' alt="Connecting the tender" class='img-fluid'><figcaption class="kleiner">Connecting the tender</figcaption></figure>
+
+## Left over parts
+
+I could not discover where to use the 2 semicircular 3 mm wide
+steps/boxes.
+
+<figure><img src='{{ "/assets/img/blog/K27_6528-6.jpg" | relative_url }}' alt="Assembled K-27" class='img-fluid'><figcaption class="kleiner">Assembled K-27 locomotive, seen from the left</figcaption></figure>
+
+<figure><img src='{{ "/assets/img/blog/K27_running_DSC0025.jpg" | relative_url }}' alt="Assembled K-27" class='img-fluid'><figcaption class="kleiner">Assembled K-27 locomotive, seen from the left</figcaption></figure>

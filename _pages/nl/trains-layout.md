@@ -53,7 +53,7 @@ Nog wat beelden van de modelbaan
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/dsng%20map.gif" | relative_url }}' alt="Netwerkkaart" class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/dsng_map.png" | relative_url }}' alt="Netwerkkaart" class='img-fluid'>
 <figcaption class="kleiner">Kaart van het spoor tussen Durango en Silverton in het noorden.</figcaption>
 </figure>
 </div>

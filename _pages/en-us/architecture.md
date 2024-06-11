@@ -49,6 +49,9 @@ For many design choices it is useful to substantiate with calculations what the 
 
 Through good visualizations, hand sketched or with 3D CAD/BIM, I provide my clients insight into the choices that sometimes have to be made early on. You want to work efficiently, but it's always real euros after all, which have to be well spent!
 
+<figure><img src='{{ "/assets/img/architect/PAV_plaatsen_elementen.jpg" | relative_url }}' alt='Instruction for high quality execution' class='img-fluid' >
+<figcaption class="kleiner">Early instruction for high quality execution (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
 I stay involved hands-on in all projects during the execution phase, to make sure on site that the ambition is translated into the practice of the builders, and to technically look along and make sure the (sub)contractors work well together.
 
 To share my experience with circular design and construction, I co-authored [Platform CB'23's Guide on Circular Design](https://platformcb23.nl).
