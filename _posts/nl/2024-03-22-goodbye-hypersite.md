@@ -28,6 +28,8 @@ In 5 minuten even wat info aanvullen, een nieuwe achtergrond-afbeelding aan een 
 <h2 id="principe">Het principe</h2>
 <p>Wat is HyperSite? Met deze stack kun je - binnen een vaste layout bestaande uit een 2-koloms tabel en een menu met links naar de andere pagina's - de inhoud van elke pagina bewerken, opmaken en als html-bestand opslaan. Bekijk een klein voorbeeld.</p>
 
+<figure><img src='{{ "/assets/img/blog/HyperSite-po.gif" | relative_url }}' alt="HyperSite startscherm" class='img-fluid'><figcaption class="kleiner">HyperSite startscherm</figcaption></figure>
+
 <p>Voor elke pagina van je web-site is een aparte kaart, waarop je in 4 tekstvelden je eigen informatie in kunt voeren. Voor zover je de opmaak kunt be&iuml;nvloeden binnen de standaard HTML 3.2 zijn er via een serie buttons links onderaan het scherm een aantal gereedschappen beschikbaar. Ook om 'links' en 'ankers' aan te leggen zijn er knoppen.</p>
 
 <p>Algemene informatie die voor elke pagina hetzelfde is, vul je in op de kaart 'Algemene instellingen'. Als je daarna op de button 'Maak HTML' klikt, wordt uit al die gegevens een compleet HTML-bestand gecre&euml;erd op de harde schijf. Via de button 'Upload..." kun je die bestanden vervolgens naar jouw provider versturen.<br>
@@ -42,7 +44,12 @@ Klik op de button 'Start' rechtsboven op dit scherm om verder te gaan...</p>
 
 <h2 id="instructies">Instructies</h2>
 
-<p>1. klik op button "Start" en vul dan minstens de volgende gegevens in:</p>
+### 1. Klik op button "Start"
+
+Vul minstens de volgende gegevens in:
+
+<figure><img src='{{ "/assets/img/blog/HyperSite-p1.gif" | relative_url }}' alt="HyperSite Algemeen scherm" class='img-fluid'><figcaption class="kleiner">HyperSite Algemeen scherm</figcaption></figure>
+
 <ul>
 <li>een naam voor elke pagina van je site, die dan als TAB's bovenaan verschijnen (gebruik alleen kleine letters en ook geen spaties);</li>
 <li>een "lokaal pad", d.w.z. de plek op je harde schijf waar alle bestanden die bij je site horen (tijdelijk) worden opgeslagen. Vanwege de manier waarop HyperSite werkt, moet er in deze map een tweede map staan met de naam "Images". Daarin sla je alle afbeeldingen op, zodat de hoofdmap goed overzichtelijk blijft (met dank aan Claris HomePage);</li>
@@ -58,31 +65,41 @@ Klik op de button 'Start' rechtsboven op dit scherm om verder te gaan...</p>
 <li>de naam van een .GIF afbeelding die als 'bullet' voor elk van de 4 tekstblokken komt.</li>
 </ul>
 
-<p>2. Ga nu verder door links bovenaan op het eerste tabstrookje te klikken. Vul de Naam en de Titel voor deze pagina in, en evt. een achtergrondafbeelding of -kleur. Typ per pagina de informatie die je wilt tonen in de tekstvakken 1 t/m 4. Een veld mag ook leeg blijven.<br>
-Minimale HTML-kennis die noodzakelijk is: Na elke regel een regeleinde &lt;BR&gt; of rond de alinea de aanduiding &lt;P&gt;...&lt;/P&gt; invoegen, anders loopt alles straks achter elkaar door. </p>
+### 2. Ga verder door links bovenaan op het eerste tabstrookje te klikken
 
-<p>3. Ken extra opmaak toe door stukjes te selecteren met de muis en dan op 1 van de 'buttons' in de 'toolbox' links onderaan te klikken. Voor verklaring en extra opties zie Toolbox.</p>
+Vul de Naam en de Titel voor deze pagina in, en evt. een achtergrondafbeelding of -kleur. Typ per pagina de informatie die je wilt tonen in de tekstvakken 1 t/m 4. Een veld mag ook leeg blijven.<br>
+Minimale HTML-kennis die noodzakelijk is: Na elke regel een regeleinde &lt;br&gt; of rond de alinea de aanduiding &lt;p&gt;...&lt;/p&gt; invoegen, anders loopt alles straks achter elkaar door.
+
+### 3. Ken extra opmaak toe 
+
+Door stukjes te selecteren met de muis en dan op 1 van de 'buttons' in de 'toolbox' links onderaan te klikken. Voor verklaring en extra opties zie <a href="#toolbox">Toolbox</a>.
 
 <p>4. Als er in je tekst 'speciale' tekens voorkomen, bijvoorbeeld "&uuml;" en "&eacute;", selecteer die dan en klik op de knop "ASCI to ISO" om er voor te zorgen dat deze tekens straks voor iedereen goed in beeld verschijnen. Als je zonder een selectie te maken op deze knop klikt, wordt alle tekst gecontroleerd, maar dat kost wel wat tijd.</p>
 
 <p>5. Als je klaar bent met een pagina, klik je op de button "Maak HTML". Uit alle informatie in de stack wordt dan een HTML-bestand aangemaakt, de standaard-taal van het world wide web. Een tekstje verschijnt met de naam van het bestand, die hetzelfde is als de naam van je pagina + de extensie ".html".
 Om alle pagina's in 1 keer als HTML-bestanden te exporteren, houd je de Option- toets ingedrukt, terwijl je op de button "Maak HTML" klikt.</p>
 
-<p>6. Nadat de betreffende pagina(s) bewaard is, kun je op het scherm kiezen om de pagina al dan niet lokaaal te bekijken in je - eerder op de kaart Algemeen ingevulde - web-browser. Er dient wel genoeg geheugen vrij te zijn om de browser te openen.</p>
+### 6. Preview
 
-<p>7. Als alles OK is, is de laatste stap om je pagina + bijbehorende afbeeldingen naar je provider te "uploaden", d.w.z. van je harde schijf te kopi&euml;ren naar jouw stukje van de internet-server van je provider. Hiervoor gebruik je meestal een apart FTP- programma, bijvoorbeeld Transmit of Fetch. Transmit v 1.6 - een heel prettig programma - vind je op <a href="https://www.panic.com">https://www.panic.com</a>.</p>
+Nadat de betreffende pagina(s) bewaard is, kun je op het scherm kiezen om de pagina al dan niet lokaal te bekijken in je - eerder op de kaart 'Algemeen' ingevulde - web-browser. Er dient wel genoeg geheugen vrij te zijn om de browser te openen.
 
-<h4>De Toolbox</h4>
+### 7. Upload
 
-<p>De toolbox (gereedschapskist) van HyperSite bestaat uit een aantal buttons en pop-up menu's die in de rechthoek links onderaan elke kaart staan.
-Aan de linkerkant staan alle opmaak-functies, bijv. om tekst vet te maken of cursief. Ook kun je de grootte van tekst aangeven en de kleur. Hiervoor moet je altijd eerst een tekstgedeelte selecteren, anders hoor je alleen een waarchuwingsgeluid.</p>
+Als alles OK is, is de laatste stap om je pagina + bijbehorende afbeeldingen naar je provider te "uploaden", d.w.z. van je harde schijf te kopi&euml;ren naar jouw stukje van de internet-server van je provider. Hiervoor gebruik je meestal een apart FTP- programma, bijvoorbeeld Transmit of Fetch. Transmit v 1.6 - een heel prettig programma - vind je op <a href="https://www.panic.com">https://www.panic.com</a>.
 
-<p>Rechts staan buttons om hyperlinks aan te brengen. Een hyperlink is tekst waar je op kunt klikken om ergens ander heen te springen, bijv. een plek elders op jouw site ("anker", zie verderop) of een heel ander web-site (URL).
-Een link  bestaat uit 2 delen, nl. het onderstreepte woord, dat in beeld komt, en het echte doel, veelal in de vorm van een URL-adres, bijv. "https://www.apple.com" (= Apple). Als je een stukje tekst selecteert voordat je op de button klikt, wordt dat stuk gebruikt als ondertreepte tekst, en hoef je alleen nog het doel aan te geven in het dialoogscherm.</p>
+<figure><img src='{{ "/assets/img/blog/HyperSite-p3.gif" | relative_url }}' alt="HyperSite example input screen" class='img-fluid'><figcaption class="kleiner">HyperSite example input screen</figcaption></figure>
 
-<p>Om op &eacute;&eacute;n van je eigen pagina's een plek te markeren als doel voeg je een anchor in, dat bestaat uit een speciale "tag" met een korte naam, die men overigens niet te zien krijgt in een browser. Alle ankers die je tot dan in je stack hebt aangebracht, verschijnen in een menu als je op de button met het ankertje klikt. Je kunt ze zo ergens anders als hyperlink invoegen.</p>
+<h4><a id="toolbox">De Toolbox</a></h4>
 
-<p>Zet het invoegpunt op de juiste plek en klik op de button met het gezichtje om een bepaald soort afbeelding op je pagina in te voegen. Je kunt kiezen uit 3 soorten:</p>
+De toolbox (gereedschapskist) van HyperSite bestaat uit een aantal buttons en pop-up menu's die in de rechthoek links onderaan elke kaart staan.<br>
+Aan de linkerkant staan alle opmaak-functies, bijv. om tekst vet te maken of cursief. Ook kun je de grootte van tekst aangeven en de kleur. Hiervoor moet je altijd eerst een tekstgedeelte selecteren, anders hoor je alleen een waarchuwingsgeluid.
+
+Rechts staan buttons om hyperlinks aan te brengen. Een hyperlink is tekst waar je op kunt klikken om ergens ander heen te springen, bijv. een plek elders op jouw site ("anker", zie verderop) of een heel ander web-site (URL).<br>
+Een link bestaat uit 2 delen, nl. het onderstreepte woord, dat in beeld komt, en het echte doel, veelal in de vorm van een URL-adres, bijv. "https://www.apple.com" (= Apple). Als je een stukje tekst selecteert voordat je op de button klikt, wordt dat stuk gebruikt als onderstreepte tekst, en hoef je alleen nog het doel aan te geven in het dialoogscherm.
+
+Om op &eacute;&eacute;n van je eigen pagina's een plek te markeren als doel voeg je een anchor in, dat bestaat uit een speciale "tag" met een korte naam, die men overigens niet te zien krijgt in een browser. Alle ankers die je tot dan in je stack hebt aangebracht, verschijnen in een menu als je op de button met het ankertje klikt. Je kunt ze zo ergens anders als hyperlink invoegen.
+
+Zet het invoegpunt op de juiste plek en klik op de button met het gezichtje om een bepaald soort afbeelding op je pagina in te voegen. Je kunt kiezen uit 3 soorten:
 
 <ol>
 <li>GIF en JPEG-files kunnen direct in elke grafische browser getoond worden;</li>
@@ -97,7 +114,8 @@ Een link  bestaat uit 2 delen, nl. het onderstreepte woord, dat in beeld komt, e
 <li>afbeeldingen bewerken en omzetten naar .GIF formaat (gebruik Xres o.i.d.);</li>
 <li>WYSIWYG opmaak zonder alle tags te zien (wel preview via browser);</li>
 <li>externe links via pop-up menu aanbrengen (gebruik knip & plak);</li>
-<li>een grafisch overzicht van alle pagina's en links (is wel mooi);</li></ul>
+<li>een grafisch overzicht van alle pagina's en links (is wel mooi);</li>
+</ul>
 
 <p>Wat ooit wel komt:</p>
 <ul>
@@ -109,9 +127,9 @@ Een link  bestaat uit 2 delen, nl. het onderstreepte woord, dat in beeld komt, e
 
 <h4>Aanleiding</h4>
 
-<p>Terwijl ik diverse HTML-editors probeerde, kreeg ik het idee dat ik voor mijn specifieke wensen beter een simpel en beperkt programma kon maken met HyperCard. Binnen 1 consistente opmaak kan ik me dan richten op de inhoud, terwijl deze stack alle bijzaken voor mij afhandelt: hyperlinks naar alle andere pagina's van mijn site, de datum van laatste wijziging aanpassen, in 1 keer alle pagina's een andere kleur of bullet geven etc. Tegelijk zou ik wat meer van HTML 3.2 leren...</p>
+Terwijl ik diverse HTML-editors probeerde, kreeg ik het idee dat ik voor mijn specifieke wensen beter een simpel en beperkt programma kon maken met HyperCard. Binnen 1 consistente opmaak kan ik me dan richten op de inhoud, terwijl deze stack alle bijzaken voor mij afhandelt: hyperlinks naar alle andere pagina's van mijn site, de datum van laatste wijziging aanpassen, in 1 keer alle pagina's een andere kleur of bullet geven etc. Tegelijk leerde ik wat meer van HTML 3.2, XHTML and even HTML5...
 
-<p>Dit is het geworden, i.p.v. zo'n  4 pagina's voor mezelf dus al meer dan 6, en heel wat meer mogelijkheden dan ik in eerste instantie had gedacht.</p>
+Dit is het geworden, i.p.v. zo'n 4 pagina's voor mezelf dus al meer dan 6, en heel wat meer mogelijkheden dan ik in eerste instantie had gedacht.
 
 <h4>Versies</h4>
 
@@ -146,6 +164,8 @@ v 1.8
 
 v 1.9 van 2018-2023
 : is HTML5 correct, en bevat een responsive layout.</p>
+
+<figure><img src='{{ "/assets/img/blog/RevHyperSite21.png" | relative_url }}' alt="Revolution HyperSite scherm" class='img-fluid'><figcaption class="kleiner">Revolution HyperSite scherm</figcaption></figure>
 
 <h2 id="credits">Credits</h2>
 <p>This stack is shareware. Support the development of these helpful programs by paying your shareware fee.  Please pay Euro 25,- next time you see me.</p>

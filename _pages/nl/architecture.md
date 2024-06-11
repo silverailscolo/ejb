@@ -86,6 +86,7 @@ Ontwerp voor een nieuw hoofdgebouw voor de LU Wageningen
 Op zoek naar ecologische bouwmaterialen?
 : Bestel bij [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)
 : Biobased isolatie [Isovlas](https://www.isovlas.nl)
+: Circulaire Marktplaats [Bork](https://www.borkgroep.nl/circulair-bouwmateriaal/)
 
 Energiezuinige gebouwen
 : [Passivhaus](https://phi.org)
@@ -111,5 +112,7 @@ Ter Inspiratie
 : [US Brutalist](https://www.architecturaldigest.com/story/brutalist-architecture-101)
 
 Stedenbouw
+Urban Planning
+: [Spatial Agency](https://www.spatialagency.net/): anders architectuur maken
 : [Bloomberg CityLab](https://www.bloomberg.com/citylab)
 : Utrecht University [Urban Futures Studio](https://www.uu.nl/en/research/urban-futures-studio)

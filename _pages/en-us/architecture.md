@@ -90,8 +90,9 @@ Design for new main office University Wageningen (thesis)
 ## <a id="links">Bookmarks</a>
 
 Looking for ecological building supplies?
-: Order from [Groene Bouwmaterialen](https://www.groenebouwmaterialen.nl)
-: Flax biobased insulation [Isovlas](https://www.isovlas.nl)
+: Order from [Groene Bouwmaterialen (NL)](https://www.groenebouwmaterialen.nl)
+: Flax biobased insulation [Isovlas (NL)](https://www.isovlas.nl)
+: Circular Marketplace [Bork (NL)](https://www.borkgroep.nl/circulair-bouwmateriaal/)
 
 Energy Efficient Buildings
 : [Passivhaus](https://phi.org)
@@ -117,5 +118,6 @@ Bits of Inspiration
 : [US Brutalist](https://www.architecturaldigest.com/story/brutalist-architecture-101)
 
 Urban Planning
+: [Spatial Agency](https://www.spatialagency.net/): other ways of doing architecture
 : [Bloomberg CityLab](https://www.bloomberg.com/citylab)
 : Utrecht University [Urban Futures Studio](https://www.uu.nl/en/research/urban-futures-studio)

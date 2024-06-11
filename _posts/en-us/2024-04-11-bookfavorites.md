@@ -27,3 +27,7 @@ Titles of some of my favorite books:
 - _Dark age ahead_, by Jane Jacobs 01/2008
 - _The ape and the sushi master: Cultural reflections of a primatologist_, by Frans de Waal 11/2007
 - _In Europe_, by Geert Mak: history of our continent 08-10/2004
+
+Find books about a city
+
+- [Reading the City](https://readingthecity.com/)
