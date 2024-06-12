@@ -1056,7 +1056,7 @@ onMouseUp="togglepop(event,94);">
 <!-- popup div. contents updated via Javascript -->
 <div id="popup" class="popup" onMouseUp="showpop(event, 122);">
   <figure><img id="plant_image" src='{{ "/assets/img/tuin/122.jpg" | relative_url }}' alt="plant popup">
-<figcaption id="popuptitle" class="kleiner">Plant name</figcaption></figure>
+  <figcaption id="popuptitle" class="kleiner">Plant name</figcaption></figure>
 </div>
 
 </div>

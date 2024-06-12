@@ -57,7 +57,7 @@ See [this blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url }}).
 
 <h2>Build a housing for the Digitrax DS52 stationary decoder</h2>
 
-The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage. At <a href="https://www.conrad.nl">Conrad</a> I ordered a 53,5 x 45 x 23 mm [StrapuBox, item 522600](https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html). Pictured below are the modifications to get the decoder inside. Put a label on the front with the decoder ID (I use DS52-X) plus the DCC adresses of both outputs and attach to the layout with 2 screws.
+The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage. At <a href="https://www.conrad.nl">Conrad</a> I ordered a 53,5 x 45 x 23 mm <a href="https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html">StrapuBox item 522600</a>. Pictured below are the modifications to get the decoder inside. Put a label on the front with the decoder ID (I use pattern DS52-###) plus the DCC adresses of both outputs and attach the case to the layout with 2 screws.
 
 <div class="row">
 <div class="col-sm">
