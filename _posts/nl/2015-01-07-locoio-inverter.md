@@ -23,12 +23,14 @@ Om het aantal uitgangen dat nodig is om een schakelpaneel op Loconet aan te slui
 
 Onderdelen (voor 8 uitgangen):
 
+<div class="wide">
 | Item   | Aantal | Omschrijving                                                                                                                           |
 |--------|--------|----------------------------------------------------------------------------------------------------------------------------------------|
-| J1     | 1      | PinSocket_2.54mm_1x09_P2.54mm_Verticaal                                                                                       |
-| J2, J3 | 2      | PinSocket_2.54mm_1x04_P2.54mm_Verticaal                                                                                       |
-| J4     | 1      | PinSocket_2.54mm_1x01_P2.54mm_Verticaal                                                                                       |
+| J1     | 1      | PinSocket_2.54mm_1x09_P2.54mm                                                                                       |
+| J2, J3 | 2      | PinSocket_2.54mm_1x04_P2.54mm                                                                                       |
+| J4     | 1      | PinSocket_2.54mm_1x01_P2.54mm                                                                                      |
 | U1, U2 | 2      | Quad Nand 2 inputs, x4011 DIP-14 IC ([Datasheet](https://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf)) |
+</div>
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_Inverter_PCB.png" | relative_url }}' alt='Inverter PCB opzet' class='img-fluid'>
 <figcaption class="kleiner">Inverter PCB opzet (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>

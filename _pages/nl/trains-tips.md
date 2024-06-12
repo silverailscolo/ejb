@@ -45,7 +45,7 @@ Als je geen distant signal nodig hebt, zaag dan het bovenste seinhoofd af net bo
 
 Lees alles in [deze blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url }}).
 
-<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpeg" | relative_url }}' alt='Seinen in bedrijf' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpg" | relative_url }}' alt='Seinen in bedrijf' class='img-fluid'>
 <figcaption class="kleiner">Seinen in bedrijf (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
@@ -56,7 +56,6 @@ Lees alles in [deze blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url
 <h2>Bouw een behuizing voor de Digitrax DS52 wisseldecoder</h2>
 
 De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na het programmeren leek het me verstandig om hem in een fatsoenlijke behuizing te plaatsen om stof en onopzettelijke schade te verminderen. Bij Conrad bestelde ik een 53,5 x 45 x 23 mm [StrapuBox, item 522600](https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html). Hieronder zijn de aanpassingen afgebeeld om de decoder erin te krijgen. Plak een label op de voorkant met de decoder ID (ik gebruik DS52-X) plus de DCC-adressen van beide uitgangen en bevestig alles met 2 schroefjes onder de baan.
-
 
 <div class="row">
 <div class="col-sm">

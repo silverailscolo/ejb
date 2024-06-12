@@ -63,7 +63,9 @@ on the Märklin frame and try to turn the wheels. Either remove more eccentricit
 from the connecting axles or slightly widen one side of a slot to allow free
 movement of all four drivers inside the suspension frame casting. As the sides
 will rest on the axles, leave some room around a wobbly axle or the frame will
-always move up and down In front, the suspension frame castings are supposed to
+always move up and down. Less is more!
+
+In front, the suspension frame castings are supposed to
 fit between the cylinder casting. Remove some metal from the inside of the
 cylinder casting to allow the frame halves to freely sit over the driver wheels.
 In the rear, carefully file a small 1x1 mm notch to fit the frame sides under
@@ -91,7 +93,7 @@ connection bar between the tender and the engine. Also attach a small pin below
 the bottom of the firebox/engine cabin (eg. a thin tube pointing down, affixed
 with a small bolt from above).
 
-<figure><img src='{{ "/assets/img/blog/K27_image1-2.jpg" | relative_url }}' alt="Connecting the tender" class='img-fluid'><figcaption class="kleiner">Connecting the tender</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/K27_image2.jpg" | relative_url }}' alt="Connecting the tender" class='img-fluid'><figcaption class="kleiner">Connecting the tender</figcaption></figure>
 
 ## Left over parts
 
@@ -100,4 +102,4 @@ steps/boxes.
 
 <figure><img src='{{ "/assets/img/blog/K27_6528-6.jpg" | relative_url }}' alt="Assembled K-27" class='img-fluid'><figcaption class="kleiner">Assembled K-27 locomotive, seen from the left</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/blog/K27_running_DSC0025.jpg" | relative_url }}' alt="Assembled K-27" class='img-fluid'><figcaption class="kleiner">Assembled K-27 locomotive, seen from the left</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/K27_running_DSC0025.jpg" | relative_url }}' alt="K-27 locomotive on track" class='img-fluid'><figcaption class="kleiner">K-27 locomotive on track</figcaption></figure>

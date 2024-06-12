@@ -43,11 +43,11 @@ See <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>this blo
 
 Using the Base Mast Kit ([Digitrax article SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N scale) as - well - the base - we add the typical Rio Grande hood from styrene.
 
-If desired, cut off the upper head just above the lower head (Secret tip: you can make a dwarf from this stump by soldering it to a copper tube  for ground + a wire to each LED).
+If desired, cut off the upper head just above the lower head (Secret tip: you can make a dwarf from this stump by soldering it to a copper tube for ground + a wire to each LED).
 
 See [this blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url }}).
 
-<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpeg" | relative_url }}' alt='Signal Mast in operation' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpg" | relative_url }}' alt='Signal Mast in operation' class='img-fluid'>
 <figcaption class="kleiner">Signal Mast in operation (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
