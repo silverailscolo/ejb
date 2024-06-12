@@ -55,7 +55,7 @@ Lees alles in [deze blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url
 
 <h2>Bouw een behuizing voor de Digitrax DS52 wisseldecoder</h2>
 
-De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na het programmeren leek het me verstandig om hem in een fatsoenlijke behuizing te plaatsen om stof en onopzettelijke schade te verminderen. Bij Conrad bestelde ik een 53,5 x 45 x 23 mm [StrapuBox, item 522600](https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html). Hieronder zijn de aanpassingen afgebeeld om de decoder erin te krijgen. Plak een label op de voorkant met de decoder ID (ik gebruik DS52-X) plus de DCC-adressen van beide uitgangen en bevestig alles met 2 schroefjes onder de baan.
+De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na het programmeren leek het me verstandig om hem in een fatsoenlijke behuizing te plaatsen om stof en onopzettelijke schade te verminderen. Bij Conrad bestelde ik een 53,5 x 45 x 23 mm <a href="https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html">StrapuBox item 522600</a>. Hieronder zijn de aanpassingen afgebeeld om de decoder erin te krijgen. Plak een label op de voorkant met de decoder ID (ik gebruik als code DS52-###) plus de DCC-adressen van beide uitgangen en bevestig alles met 2 schroefjes onder de baan.
 
 <div class="row">
 <div class="col-sm">
@@ -109,7 +109,6 @@ Een paar jaar later heb ik seinen toegevoegd op de modelbaan en op het paneel. A
 
 De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl, zij het zwart op geel om bij het tapijt te passen:
 
-</div>
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt="Fysiek bedieningspaneel D&amp;SNG RR" class='img-fluid'>
@@ -121,7 +120,9 @@ De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl, zij h
 </div>
 </div>
 
-<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Terug naar <a href="layout.html">Treinen/De Baan</a></div>
+</div><!-- einde tegel -->
+
+Terug naar <a href="layout.html">Treinen/De Baan</a>
 
 <div class="container featured-posts">
 <div class="row row-cols-2">

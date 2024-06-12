@@ -15,7 +15,7 @@ That requires a bit of scripting, with minimal re-entry of stuff.
 
 An important example are my pictures, that I once managed in [Extensis Portfolio](https://www.extensis.com/portfolio), and later as separate files on a local HD.
 
-It would be noce to let you read a caption with each photo that I add to the site, and as I remembered that I once put keywords and captions for many images into the image files as EXIF tags, I now try to read those fields from the images and apply them as captions in the lightGallery slide shows, like [here](../../../assets/art-gallery/sketches/)
+It would be noce to let you read a caption with each photo that I add to the site, and as I remembered that I once put keywords and captions for many images into the image files as EXIF tags, I now try to read those fields from the images and apply them as captions in the lightGallery slide shows, like <a href='{{ "/assets/art_gallery/sketches/" | relative_url }}'>here</a>.
 
 A lot of (old) tools are available to extract the EXIF tags, but Portfolio used other fields...
 After EXIF came IPTC tags, used for GPS lat/long data, title etc. IPTC is sparsely supported bij ruby tools.
