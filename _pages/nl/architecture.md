@@ -55,7 +55,7 @@ Goede visualisaties, handgeschetst of met 3D CAD/BIM, geven de opdrachtgever inz
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 <a href="/ejb/projects/work-br11/">Restauratie woonhuis BR11</a>
-<figure><img src='{{ "/assets/img/architect/br11/BR11_Bouwbord.png" | relative_url }}' alt='Bouwbord 2021' class='img-fluid' >
+<figure><img src='{{ "/assets/img/architect/br11/BR11_Bouwbord.jpg" | relative_url }}' alt='Bouwbord 2021' class='img-fluid' >
 <figcaption class="kleiner">Bouwpartners restauratie 2021 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy; <a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 <figure><img src='{{ "/assets/img/architect/br11/IMG_1041.jpg" | relative_url }}' alt='Project 2021-2022: Voorgevel woonhuis BR11, aug 2021' class='img-fluid'>
