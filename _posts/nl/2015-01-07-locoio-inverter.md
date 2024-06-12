@@ -22,6 +22,7 @@ Om het aantal uitgangen dat nodig is om een schakelpaneel op Loconet aan te slui
 </figure>
 
 Onderdelen (voor 8 uitgangen):
+
 <div class="wide">
 | Item   | Aantal | Omschrijving                                                                                                                           |
 |--------|--------|----------------------------------------------------------------------------------------------------------------------------------------|

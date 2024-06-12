@@ -57,7 +57,6 @@ Lees alles in [deze blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url
 
 De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na het programmeren leek het me verstandig om hem in een fatsoenlijke behuizing te plaatsen om stof en onopzettelijke schade te verminderen. Bij Conrad bestelde ik een 53,5 x 45 x 23 mm [StrapuBox, item 522600](https://www.conrad.nl/nl/p/strapubox-a-515-521-universele-behuizing-abs-zwart-1-stuk-s-522600.html). Hieronder zijn de aanpassingen afgebeeld om de decoder erin te krijgen. Plak een label op de voorkant met de decoder ID (ik gebruik DS52-X) plus de DCC-adressen van beide uitgangen en bevestig alles met 2 schroefjes onder de baan.
 
-
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_0503-lo.jpg" | relative_url }}' alt='Dat is netjes!' class='img-fluid'>

@@ -70,7 +70,7 @@ Vul minstens de volgende gegevens in:
 Vul de Naam en de Titel voor deze pagina in, en evt. een achtergrondafbeelding of -kleur. Typ per pagina de informatie die je wilt tonen in de tekstvakken 1 t/m 4. Een veld mag ook leeg blijven.<br>
 Minimale HTML-kennis die noodzakelijk is: Na elke regel een regeleinde &lt;br&gt; of rond de alinea de aanduiding &lt;p&gt;...&lt;/p&gt; invoegen, anders loopt alles straks achter elkaar door.
 
-### 3. Ken extra opmaak toe 
+### 3. Ken extra opmaak toe
 
 Door stukjes te selecteren met de muis en dan op 1 van de 'buttons' in de 'toolbox' links onderaan te klikken. Voor verklaring en extra opties zie <a href="#toolbox">Toolbox</a>.
 

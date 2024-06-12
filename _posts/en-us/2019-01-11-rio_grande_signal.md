@@ -26,7 +26,7 @@ tags:
 
 Using the Base Mast Kit ([Digitrax article SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N scale) as - well - the base - we add the typical &quot;Darth Vader&quot; Denver &amp; Rio Grande Western signal hood from styrene.
 
-If desired, cut off the upper head just above the lower head (Secret tip: you can make a dwarf from this stump by soldering it to a copper tube  for ground + a wire to each LED).
+If desired, cut off the upper head just above the lower head (Secret tip: you can make a dwarf from this stump by soldering it to a copper tube for ground + a wire to each LED).
 
 Start by cutting a strip of 0.5 mm styrene the width of the target. Mark the shape, the centerline and the 3 holes on the strip.
 Drill the 1 mm holes before separating the individual items. Cut roughly to shape with an X-Acto knife and sand to an oval.

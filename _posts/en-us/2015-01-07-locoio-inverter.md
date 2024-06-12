@@ -22,6 +22,7 @@ To reduce the number of outputs required to connect a switch panel to Loconet, I
 </figure>
 
 Components (for 8 outputs):
+
 <div class="wide">
 | Item   | Qty | Description                                                                                                                               |
 |--------|-----|-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -35,7 +36,7 @@ Components (for 8 outputs):
 <figcaption class="kleiner">Inverter PCB sketch (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 
-I built mine using a 18x15 hole piece of Euro-PCB experimenting board with pass-through pins for the original outputs, but you could have a PCB made using  [KiCAD](https://www.kicad.org/) from [these KiCAD files](/ejb/assets/downloads/LocoIO_Invertor_KiCAD_files.zip).
+I built mine using a 18x15 hole piece of Euro-PCB experimenting board with pass-through pins for the original outputs, but you could have a PCB made using [KiCAD](https://www.kicad.org/) from [these KiCAD files](/ejb/assets/downloads/LocoIO_Invertor_KiCAD_files.zip).
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_pins.jpg" | relative_url }}' alt='Inverter PCB pins detail' class='img-fluid'>
 <figcaption class="kleiner">Inverter PCB pins detail (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>

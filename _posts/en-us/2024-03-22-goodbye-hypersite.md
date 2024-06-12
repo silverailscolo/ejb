@@ -36,6 +36,7 @@ For each page of your web-site there is a separate card, on which you can enter 
 General information that is the same for each page can be entered in the 'General settings' card. If you then click on the 'Create HTML' button, a complete HTML file will be created on the hard disk from all that data. Via the 'Upload..." you can then send those files to your provider. Click on the 'Start' button at the top right of this screen to continue...
 
 This stack uses other programs, which need to be installed on your computer:
+
 <ul>
 <li>a web browser, like Safari or Firefox;</li>
 <li>an FTP-program, like Transmit by <a href="https://www.panic.com">Panic</a>;</li>
@@ -49,6 +50,7 @@ This stack uses other programs, which need to be installed on your computer:
 ### 1. Click the "Start" button
 
 Fill in at least the following information:
+
 <ul>
 <li>a name for each page of your site, which will then appear as TABs at the top (use only lowercase letters and no spaces);</li>
 <li>A "local path", i.e. the place on your hard drive where all files associated with your site are (temporarily) stored. Because of the way HyperSite works, there should be a second folder called "Images" in this folder. This is where you save all the images, so that the root folder remains well organized (thanks to Claris HomePage);</li>
@@ -59,6 +61,7 @@ Fill in at least the following information:
 </ul>
 
 Not mandatory:
+
 <ul>
 <li>the name of a.GIF image that appears as a title on all pages, e.g. your logo;</li>
 <li>The name of a.GIF image that comes as a 'bullet' for each of the 4 text blocks.</li>
@@ -69,7 +72,7 @@ Not mandatory:
 Fill in the Name and Title for this page, and possibly. A background image or color. For each page, type the information you want to show in text boxes 1 through 4. A field can also be left empty.<br>
 Minimal HTML knowledge: After each line insert a line break &lt;br&gt; and around paragraphs insert &lt;p&gt;...&lt;/p&gt;, otherwise all text will be one block.
 
-### 3. Assign extra markup 
+### 3. Assign extra markup
 
 Select a text fragment with the mouse and click on one of the 'buttons' in the 'Toolbox' at the bottom left. For details refer to the <a href="#toolbox">Toolbox</a> section.
 
@@ -100,7 +103,7 @@ On the left side are all formatting functions, e.g. to make text bold or italici
 On the right are buttons to apply hyperlinks. A hyperlink is text that you can click on to jump somewhere else, e.g. a place elsewhere on your site ("anchor", see below) or a completely different web-site (URL).<br>
 A link consists of 2 parts, i.e. the underlined word, which appears on the screen, and the real goal, often in the form of a URL address, e.g. "https://www.apple.com" (= Apple). If you select a piece of text before clicking on the button, that piece will be used as underlined text, and all you have to do is indicate the goal in the dialog box.
 
-To mark a spot on one of your own pages as a target, insert an anchor, which consists of a special "tag" with a short name, which is not shown in a browser. All the anchors you have added to your stack up to that point will appear in a menu when you click on the anchor button. You can insert them as a hyperlink somewhere else. 
+To mark a spot on one of your own pages as a target, insert an anchor, which consists of a special "tag" with a short name, which is not shown in a browser. All the anchors you have added to your stack up to that point will appear in a menu when you click on the anchor button. You can insert them as a hyperlink somewhere else.
 
 Put the insertion point in the right place and click on the button with the face to insert a certain type of image on your page. You can choose from 3 types:
 
@@ -113,6 +116,7 @@ Put the insertion point in the right place and click on the button with the face
 <h4><a id="beperkingen">Constraints</a></h4>
 
 The following items are not included in HyperSite:
+
 <ul>
 <li>edit images and convert them to.GIF format (use Xres or the like);</li>
 <li>WYSIWYG formatting without seeing all tags (but preview via browser);</li>

@@ -31,4 +31,3 @@ Een paar favoriete titels:
 ## Boeksuggesties per stad
 
 - [Reading the City](https://readingthecity.com/)
-
