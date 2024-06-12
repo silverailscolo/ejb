@@ -1,11 +1,10 @@
 // custom script to create popup EBR 2023
 var stick = false;
-var thing = document.getElementById("popup");
 var nodeListPlants = document.getElementsByClassName("plant");
 
 function showpop(e, num) {
   //function called by all hotspots on mouseOver
-  //  var thing = document.getElementById("popup");
+  var thing = document.getElementById("popup");
   //  var nodeListPlants = document.getElementsByClassName("plant");
   if (stick == false) {
     thing.style.left = '"' + e.clientX + "px" + '"';
@@ -30,7 +29,7 @@ function showpop(e, num) {
 
 function hidepop(e) {
   //function called by all hotspots on mouseOut
-  //var thing = document.getElementById("popup");
+  var thing = document.getElementById("popup");
   if (stick == false) {
     thing.style.visibility = "hidden";
   }
@@ -41,7 +40,7 @@ function hidepop(e) {
 function togglepop(e, num) {
   //function called by all hotspots on mouseUp
   showpop(e, num);
-  //var thing = document.getElementById("popup"); // on mobile device no hover before click
+  var thing = document.getElementById("popup"); // on mobile device no hover before click
   if (stick == true) {
     if (thing.style.visibility == "visible") {
       thing.style.visibility = "hidden";
