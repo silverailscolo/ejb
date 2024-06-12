@@ -1,17 +1,15 @@
 // custom script to create popup EBR 2023
 var stick = false;
-var nodeListPlants = document.getElementsByClassName("plant");
 
 function showpop(e, num) {
   //function called by all hotspots on mouseOver
   var thing = document.getElementById("popup");
-  //  var nodeListPlants = document.getElementsByClassName("plant");
   if (stick == false) {
     thing.style.left = '"' + e.clientX + "px" + '"';
     thing.style.top = '"' + e.clientY + "px" + '"';
     console.log("showpop thing.xy: " + thing.style.left + "," + thing.style.top); // debug
     // set image title
-    // nodeListPlants = document.getElementById("plantlijst"); // document.querySelectorAll('li') includes menu li's
+    var nodeListPlants = document.getElementsByClassName("plant");
     var title = nodeListPlants[num - 1].innerHTML;
     if (typeof title != "undefined") {
       //console.log("item " + num + "; title: " + title); // debug
@@ -23,7 +21,6 @@ function showpop(e, num) {
     document.getElementById("plant_image").src = "/ejb/assets/img/tuin/" + num + ".jpg"; // add relative path
     thing.style.visibility = "visible";
   }
-  //console.log("stick: " + stick); // debug
   return true;
 }
 
@@ -33,7 +30,6 @@ function hidepop(e) {
   if (stick == false) {
     thing.style.visibility = "hidden";
   }
-  //console.log("stick: " + stick); // debug
   return true;
 }
 
@@ -52,7 +48,6 @@ function togglepop(e, num) {
     thing.style.top = '"' + e.clientY + "px" + '"';
     console.log("togglepop thing.xy: " + thing.style.left + "," + thing.style.top); // debug
     stick = true;
-    //console.log("stick: " + stick); // debug
   }
   return true;
 }
