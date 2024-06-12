@@ -29,7 +29,7 @@ Quiclky add a few lines, add a new background image to a page (remember that?) a
 
 What is HyperSite? With this stack you can - within a fixed layout consisting of a 2-column table and a menu with links to the other pages - edit, format and save the content of each page as an html file. Take a look at a small example.
 
-<figure><img src='{{ "/assets/img/blog/HyperSite-po.gif" | relative_url }}' alt="HyperSite start screen" class='img-fluid'><figcaption class="kleiner">HyperSite start screen</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/HyperSite-p0.gif" | relative_url }}' alt="HyperSite start screen" class='img-fluid'><figcaption class="kleiner">HyperSite start screen</figcaption></figure>
 
 For each page of your web-site there is a separate card, on which you can enter your own information in 4 text fields. As far as you can influence the formatting within the standard HTML 3.2, a number of tools are available via a series of buttons at the bottom left of the screen. There are also buttons to create 'links' and 'anchors'.
 
