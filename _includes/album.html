@@ -13,12 +13,12 @@
   <a href="{{ image.name | replace: '.jpg', '/' | replace: '.png', '/'}}" class="image-ref">
     <img
       src="{{ site.baseurl }}/assets/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
-      alt="{{ image.name }}" title="{% exiftag image_description, , {{ ip }} %}"
+      alt="{{ image.name }}"
+      title="{% exiftag image_description, , {{ ip }} %}"
     />
   </a>
-  {% else %} {% comment %} Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline, caption-abstract;
-  XMP: Description, Comment; used in all sets:
-  copyright (case-insensitive). Advanced trickle down: caption-cascade and copyright-cascade {% endcomment %}
+  {% else %} {% comment %} Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline, caption-abstract; XMP: Description, Comment; used in
+  all sets: copyright (case-insensitive). Advanced trickle down: caption-cascade and copyright-cascade {% endcomment %}
   <a
     {%
     static_href
@@ -34,9 +34,8 @@
       alt="{% exiftag image_description, , {{ ip }} %}"
     />
   </a>
-  {% comment %}Exif tags contain non UTF-8 encoding. Encoding is enforced in exiftag.rb plugin.{% endcomment
-  %} {% endif %} {% endunless %} {%
-  endif %} {% endfor %}
+  {% comment %}Exif tags contain non UTF-8 encoding. Encoding is enforced in exiftag.rb plugin.{% endcomment %} {% endif %} {% endunless %} {% endif
+  %} {% endfor %}
 </div>
 
 <script>
