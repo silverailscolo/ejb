@@ -45,7 +45,7 @@ Als je geen distant signal nodig hebt, zaag dan het bovenste seinhoofd af net bo
 
 Lees alles in [deze blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url }}).
 
-<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpeg" | relative_url }}' alt='Seinen in bedrijf' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpg" | relative_url }}' alt='Seinen in bedrijf' class='img-fluid'>
 <figcaption class="kleiner">Seinen in bedrijf (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 

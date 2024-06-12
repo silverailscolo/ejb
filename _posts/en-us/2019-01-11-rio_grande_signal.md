@@ -16,15 +16,15 @@ tags:
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/prototype/RioGrandeDoubleSignal_IMG_5308.jpg" | relative_url }}' alt='Rio Grande prototype signal' class='img-fluid'>
-<figcaption class="kleiner">Rio Grande prototype signal (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figcaption class="kleiner">D&amp;RGW prototype signal (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/prototype/RioGrandeDoubleSignal_IMG_5308.jpg" | relative_url }}' alt="Signal mast hoods on the Rio Grande" class='img-fluid'>
-<figcaption class="kleiner">Signal mast hoods on the Rio Grande (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figure><img src='{{ "/assets/img/trains2/prototype/RioGrandeMasts_IMG_1425.jpg" | relative_url }}' alt="Signal mast hoods on the D&amp;RGW" class='img-fluid'>
+<figcaption class="kleiner">Signal mast hoods on the D&amp;RGW (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
 
-Using the Base Mast Kit ([Digitrax article SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N scale) as - well - the base - we add the typical Rio Grande hood from styrene.
+Using the Base Mast Kit ([Digitrax article SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N scale) as - well - the base - we add the typical &quot;Darth Vader&quot; Denver &amp; Rio Grande Western signal hood from styrene.
 
 If desired, cut off the upper head just above the lower head (Secret tip: you can make a dwarf from this stump by soldering it to a copper tube  for ground + a wire to each LED).
 
@@ -47,7 +47,7 @@ Cut small tapered strips [dimension], bend each piece into a U-shape and glue it
 <figure><a href='{{ "/assets/img/trains2/d_and_s/signal_heads_DSCF3904.jpg" | relative_url }}'><img src='{{ "/assets/img/trains2/d_and_s/signal_heads_DSCF3904.jpg" | relative_url }}' alt="A batch of finished mast heads" class='img-fluid'></a>
 <figcaption class="kleiner">A batch of finished mast heads (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpeg" | relative_url }}' alt='Signal Mast in operation' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpg" | relative_url }}' alt='Signal Mast in operation' class='img-fluid'>
 <figcaption class="kleiner">Signal Mast in operation (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 

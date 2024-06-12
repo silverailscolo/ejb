@@ -28,7 +28,7 @@ Een paar favoriete titels:
 - _De aap en de sushi meester, over cultuur bij dieren_, door Frans de Waal 11/2007
 - _In Europa_, door Geert Mak: history of our continent 08-10/2004
 
-Boeksuggesties per stad
+## Boeksuggesties per stad
 
 - [Reading the City](https://readingthecity.com/)
 

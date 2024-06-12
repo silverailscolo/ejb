@@ -19,12 +19,12 @@ tags:
 <figcaption class="kleiner">D&amp;RGW prototype sein (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/prototype/RioGrandeDoubleSignal_IMG_5308.jpg" | relative_url }}' alt="Mast met kappen langs de D&amp;RGW" class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/prototype/RioGrandeMasts_IMG_1425.jpg" | relative_url }}' alt="Mast met kappen langs de D&amp;RGW" class='img-fluid'>
 <figcaption class="kleiner">Mast met kappen langs de D&amp;RGW (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
 
-De Base Mast Kit ([Digitrax artikel SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N-schaal) vormt - i.d.d. - de basis. We voegen er de typische Rio Grande kap van styreen aan toe.
+De Base Mast Kit ([Digitrax artikel SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N-schaal) vormt - i.d.d. - de basis. We voegen er de typische D&amp;RGW &quot;Darth Vader&quot; kap van styreen aan toe.
 
 Als je geen distant signal nodig hebt, zaag dan het bovenste seinhoofd af net boven de onderste (geheime tip: je kunt van deze stronk een dwergsein maken door het stukje aan een koperen buis voor aarde te solderen + een draad voor elke LED).
 
@@ -46,7 +46,7 @@ Snijd elk schild globaal in vorm met een X-Acto-mes en schuur tot een ovaal. Sni
 <figure><a href='{{ "/assets/img/trains2/d_and_s/signal_heads_DSCF3904.jpg" | relative_url }}'><img src='{{ "/assets/img/trains2/d_and_s/signal_heads_DSCF3904.jpg" | relative_url }}' alt="A batch of finished mast heads" class='img-fluid'></a>
 <figcaption class="kleiner">A batch of finished mast heads (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
-<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpeg" | relative_url }}' alt='Seinen in bedrijf' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpg" | relative_url }}' alt='Seinen in bedrijf' class='img-fluid'>
 <figcaption class="kleiner">Seinen in bedrijf (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
