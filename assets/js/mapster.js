@@ -1,18 +1,18 @@
 // custom script to create popup EBR 2023
 var stick = false;
 var thing = document.getElementById("popup");
-var nodeListPlants = document.getElementsByClassName("plant"); // document.querySelectorAll('li');
+var nodeListPlants = document.getElementsByClassName("plant");
 
 function showpop(e, num) {
   //function called by all hotspots on mouseOver
-//  var thing = document.getElementById("popup");
-//  var nodeListPlants = document.getElementsByClassName("plant"); // document.querySelectorAll('li');
+  //  var thing = document.getElementById("popup");
+  //  var nodeListPlants = document.getElementsByClassName("plant");
   if (stick == false) {
     thing.style.left = '"' + e.clientX + "px" + '"';
     thing.style.top = '"' + e.clientY + "px" + '"';
     console.log("showpop thing.xy: " + thing.style.left + "," + thing.style.top); // debug
     // set image title
-    # nodeListPlants = document.getElementById("plantlijst"); // document.querySelectorAll('li');
+    // nodeListPlants = document.getElementById("plantlijst"); // document.querySelectorAll('li') includes menu li's
     var title = nodeListPlants[num - 1].innerHTML;
     if (typeof title != "undefined") {
       //console.log("item " + num + "; title: " + title); // debug
