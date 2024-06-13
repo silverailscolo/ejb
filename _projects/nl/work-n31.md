@@ -35,7 +35,7 @@ Rol: projectarchitect ruimtelijke kwaliteit, vormgeving en details van civiele w
   </div>
   <div class="col-sm mt-3 mt-md-0">
   <figure><img src='{{ "/assets/img/architect/n31/N31KWWbakopPortfolio2016.jpg" | relative_url }}' alt='Visual Ballast Nedam viaduct Kimswerderweg over N31' class='img-fluid'>
-  <figcaption class="kleiner">Viaduct Kimswerderweg by Ballast Nedam (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+  <figcaption class="kleiner">Viaduct Kimswerderweg by Ballast Nedam (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ballast-nedam.nl" property="cc:attributionName" rel="cc:attributionURL">Ballast Nedam</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
   </div>
 </div>
 
@@ -51,8 +51,10 @@ Rol: projectarchitect ruimtelijke kwaliteit, vormgeving en details van civiele w
 </div>
 
 <div class="row">
+  <div class="col-sm mt-3 mt-md-0">
   <figure><img src='{{ "/assets/img/architect/n31/N31_vluchthuisje_IMG_4972.jpg" | relative_url }}' alt='Vluchthuisje N31' class='img-fluid'>
   <figcaption class="kleiner">Vluchthuisje (maquette) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+</div>
 </div>
 
 </div><!-- einde N31 schetsboek -->
