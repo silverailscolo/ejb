@@ -14,7 +14,7 @@ toc:
 
 <h2><a id="installdecoder">How to install a DCC decoder</a></h2>
 
-<p>Coming up</p>
+Coming up
 
 </div>
 
@@ -88,13 +88,13 @@ See [this blog post]({{ "_site/blog/2015/locoio-inverter/" | relative_url }}).
 
 <h2>JMRI Panel</h2>
 
-<p>My digital control panel was built using Panel Editor and is displayed on a compact LCD monitor by <a href="https://www.jmri.org/help/en/html/apps/PanelPro/index.shtml">JMRI PanelPro 2.4.1</a> on OSX 10.4.6, the last version supported by my MacMini hardware/Java combo.<br>
-The graphics match a generic (US-built) Entrance-Exit (NX) CTC machine, in use from 1950 until the mid-nineties. However, most turnouts are operated with an Individual Function Switch (IFS); see the <a href="https://en.wikipedia.org/wiki/Signalling_control">Signaling Wiki</a>.</p>
+My digital control panel was built using Panel Editor and is displayed on a compact LCD monitor by <a href="https://www.jmri.org/help/en/html/apps/PanelPro/index.shtml">JMRI PanelPro 2.4.1</a> on OSX 10.4.6, the last version supported by my MacMini hardware/Java combo.<br>
+The graphics match a generic (US-built) Entrance-Exit (NX) CTC machine, in use from 1950 until the mid-nineties. However, most turnouts are operated with an Individual Function Switch (IFS); see the <a href="https://en.wikipedia.org/wiki/Signalling_control">Signaling Wiki</a>.
 
 <figure><img src='{{ "/assets/img/trains2/nx-tableau_eindhoven.jpg" | relative_url }}' alt="NX-panel Eindhoven, NL" class='img-fluid'>
 <figcaption class="kleiner">The NX CTC machine in Eindhoven, The Netherlands (photo &copy; <a href="https://www.nicospilt.com/index_seinhuizen.htm">Nico Spilt</a>)</figcaption></figure>
 
-<p>I started by drawing a compact track schematic in 4 pt white lines on a black background. At the switches I erased the connecting lines to enable the JMRI small track schematic icons to display the turnout positions. Tunnels are drawn in a medium grey. I edited some JMRI turnout icons to apply at 45 degree lines, as free rotation was not yet in JMRI at the time. Locations, Block boundaries and numbers were added to help in the orientation of the dispatcher.</p>
+I started by drawing a compact track schematic in 4 pt white lines on a black background. At the switches I erased the connecting lines to enable the JMRI small track schematic icons to display the turnout positions. Tunnels are drawn in a medium grey. I edited some JMRI turnout icons to apply at 45 degree lines, as free rotation was not yet in JMRI at the time. Locations, Block boundaries and numbers were added to help in the orientation of the dispatcher.
 
 <div class="row">
 <div class="col-sm">
@@ -107,10 +107,10 @@ The graphics match a generic (US-built) Entrance-Exit (NX) CTC machine, in use f
 </div>
 </div>
 
-<p>In JMRI PanelPro icons from the Small LED schematics group were added to show track occupancy and Medium LED icons to display and control the current state of lighting etc. JMRI Routes are used to control the yard ladders. Turnouts in hidden trackage are monitored using Infrared detectors, also shown on the panel, supported bij audio signals produced by JMRI.<br>
-Some years later, signals were added on the layout as well as to the panel. All the logic to show the correct <em>Aspects</em> is controlled as <a href="https://www.jmri.org/help/en/html/tools/signaling/SignalMastLogic.shtml">Signal Mast Logic</a> following a customized <a href="https://www.jmri.org/xml/signals/RG-1965/index.shtml">Rio Grande 1965 Rule Book</a> signal definition.</p>
+In JMRI PanelPro icons from the Small LED schematics group were added to show track occupancy and Medium LED icons to display and control the current state of lighting etc. JMRI Routes are used to control the yard ladders. Turnouts in hidden trackage are monitored using Infrared detectors, also shown on the panel, supported bij audio signals produced by JMRI.<br>
+Some years later, signals were added on the layout as well as to the panel. All the logic to show the correct <em>Aspects</em> is controlled as <a href="https://www.jmri.org/help/en/html/tools/signaling/SignalMastLogic.shtml">Signal Mast Logic</a> following a customized <a href="https://www.jmri.org/xml/signals/RG-1965/index.shtml">Rio Grande 1965 Rule Book</a> signal definition.
 
-<p>My physical control panels on the layout fascia sport the same graphic style, be it black on yellow to match the carpet:</p>
+My physical control panels on the layout fascia sport the same graphic style, be it black on yellow to match the carpet:
 
 <div class="row">
 <div class="col-sm">
@@ -144,7 +144,7 @@ Back to <a href="layout.html">Railroading</a>
               <i class="fa-solid fa-thumbtack fa-xs"></i>
             </div>
             <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-            <p class="card-text">{{ post.description }}</p>
+            <p class="card-text">{{ post.description }}
   
             {% if post.external_source == blank %}
               {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -157,7 +157,7 @@ Back to <a href="layout.html">Railroading</a>
               {{ read_time }} min read &nbsp; &middot; &nbsp;
               <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                 <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-            </p>
+            
           </div>
         </div>
       </div>

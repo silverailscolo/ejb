@@ -37,7 +37,7 @@ On the third floor, a whole room used to be occupied by our tools, leftovers and
 
 {% include album.html albumname="attic" %}
 
-<p>My <a id="#top">Home Improvement List</a> states all completed jobs in the house, starting in 1995.</p>
+My <a id="#top">Home Improvement List</a> states all completed jobs in the house, starting in 1995.
 
 ## 1995
 
@@ -87,7 +87,7 @@ For Sale, Sold &amp; a quick start
 
 ## 1996
 
-<p><em>doorzetten</em></p>
+<em>doorzetten</em>
 
 | Date                | Action                                                                                                                                                               |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -126,7 +126,7 @@ For Sale, Sold &amp; a quick start
 
 ## 1997
 
-<p><em>drukke tijd, zoon Tjeerd geboren</em></p>
+<em>drukke tijd, zoon Tjeerd geboren</em>
 
 | Date                                      | Action                                                                                                                                                                                                                                                      |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -153,7 +153,7 @@ For Sale, Sold &amp; a quick start
 
 ## 1998
 
-<p><em>nog niet klaar...</em></p>
+<em>nog niet klaar...</em>
 
 | Date                            | Action                                                                                                                                                      |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |

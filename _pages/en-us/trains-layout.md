@@ -119,7 +119,7 @@ There just had to be a port with a cannery and coal dock on the layout. I found 
 <figure><img src='{{ "/assets/img/trains2/trackplan_Thoreau.png" | relative_url }}' alt='Farmington NM area track plan' class='img-fluid'>
 <figcaption class="kleiner">Farmington NM area track plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<p>The Farmington Branch has an interchange with the Santa Fe in the desert town of Thoreau, which explains the big diesels of a Class I RR.</p>
+The Farmington Branch has an interchange with the Santa Fe in the desert town of Thoreau, which explains the big diesels of a Class I RR.
 
 <div class="row">
 <div class="col-sm">

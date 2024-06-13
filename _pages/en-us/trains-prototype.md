@@ -9,7 +9,7 @@ nav: false
 ---
 
 <h3><a id="proto">Prototype</a></h3>
-<p>Listen carefully as the tiny train leaves the platform.</p>
+Listen carefully as the tiny train leaves the platform.
 
 <div class="row">
 <div class="col-sm">
@@ -61,7 +61,7 @@ Index:
 <li>SP #4460 4-8-4 Northern special bound for Sacramento CA</li>
 </ol>
 
-<p>C&amp;S = Colorado &amp; Southern, GW = Great Western, UP = Union Pacific, SP = Southern Pacific</p>
+C&amp;S = Colorado &amp; Southern, GW = Great Western, UP = Union Pacific, SP = Southern Pacific
 
 <h4>Proto Links</h4>
 <ul>

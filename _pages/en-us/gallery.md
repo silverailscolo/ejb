@@ -11,8 +11,8 @@ support: [gallery]
 
 Browse these collections:
 
-<p>My <a href="{{ site.baseurl }}/books/">Books</a> (BookPedia xml export)</p>
-<p>My <a href="{{ site.baseurl }}/rollingstock/">Model Railroad Rolling Stock</a> (JMRI Roster xml export)</p>
+My <a href="{{ site.baseurl }}/books/">Books</a> (BookPedia xml export)
+My <a href="{{ site.baseurl }}/rollingstock/">Model Railroad Rolling Stock</a> (JMRI Roster xml export)
 
 ### Gallery
 
