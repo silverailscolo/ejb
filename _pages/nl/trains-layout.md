@@ -118,7 +118,7 @@ Er móest een kade met een visverwerker en kolendok komen. Dit passende voorbeel
 <figure><img src='{{ "/assets/img/trains2/trackplan_Thoreau.png" | relative_url }}' alt='Farmington NM spoorplan' class='img-fluid'>
 <figcaption class="kleiner">Farmington NM spoorplan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
-<p>De Farmington Branch sluit aan op de Santa Fe hoofdroute in het woestijnstadje Thoreau, en dat verklaart de grote diessellocs van een Class I spoorwegmaatschappij.</p>
+De Farmington Branch sluit aan op de Santa Fe hoofdroute in het woestijnstadje Thoreau, en dat verklaart de grote diessellocs van een Class I spoorwegmaatschappij.
 
 <div class="row">
 <div class="col-sm">

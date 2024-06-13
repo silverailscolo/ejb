@@ -11,8 +11,8 @@ support: [gallery]
 
 Blader door deze verzamelingen:
 
-<p>Mijn <a href="{{ site.baseurl }}/books/">Boeken</a></p>
-<p>Mijn <a href="{{ site.baseurl }}/rollingstock/">Modelmaterieel</a></p>
+Mijn <a href="{{ site.baseurl }}/books/">Boeken</a>
+Mijn <a href="{{ site.baseurl }}/rollingstock/">Modelmaterieel</a>
 
 <!-- no link/copy of Art Gallery in nl, since we experienced nested copies of nl/nl/thumbs etc -->
 

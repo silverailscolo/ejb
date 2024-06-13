@@ -29,14 +29,14 @@ Lees verder onder de plaatjes.
 
 ## 1991: Citroen BX14
 
-<p>My first car for just HFL 2000. We actually rode the car on our wedding day!</p>
+My first car for just HFL 2000. We actually rode the car on our wedding day!
 <figure><a title="unknown, affiliated with Garage de l&#039;Est, digitally modified and uploaded by User:328cia, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Citroen_BX_14_RE_1987.jpg"><img alt="Citroen BX 14 RE 1987" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Citroen_BX_14_RE_1987.jpg/512px-Citroen_BX_14_RE_1987.jpg" class='img-fluid'></a>
 <figcaption class="kleiner">BX14 1987 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://commons.wikimedia.org/wiki/File:Citroen_BX_14_RE_1987.jpg" property="cc:attributionName" rel="cc:attributionURL">Fabien1309</a> under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>)</figcaption>
 </figure>
 
 ## 1995: Citroen BX16
 
-<p>After numerous repairs at the local shop, we got a chance to buy my dad's 1991 gen 2 BX. On our way to Hungary!</p>
+After numerous repairs at the local shop, we got a chance to buy my dad's 1991 gen 2 BX. On our way to Hungary!
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img-noresample/our_cars/BX2_50461032637_e5e489ed56_c-680x328.jpg" | relative_url }}' alt='BX16 1991' class='img-fluid' >
@@ -88,14 +88,14 @@ Lees verder onder de plaatjes.
 </div>
 </div>
 
-<p>We got ourselves a 1994 Pontiac TransSport. Happy driving since June 2004 after changing the spark plug cables.<br>
-Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
+We got ourselves a 1994 Pontiac TransSport. Happy driving since June 2004 after changing the spark plug cables.<br>
+Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.
 
-<p>Wikipedia has <a href="https://en.wikipedia.org/wiki/Pontiac_Trans_Sport">more</a> on the origin of the peculiar design of the first generation Pontiac TransSport, a.k.a. &quot;Dustbuster&quot;.</p>
+Wikipedia has <a href="https://en.wikipedia.org/wiki/Pontiac_Trans_Sport">more</a> on the origin of the peculiar design of the first generation Pontiac TransSport, a.k.a. &quot;Dustbuster&quot;.
 
 ## 2006: Chevrolet Trans Sport 2
 
-<p>Just before the 2006 summer holidays, our 1994 Pontiac TransSport failed the Periodic Car Test. So we shopped around and found: <strong>a next generation TransSport</strong>, labeled Chevrolet in Europe since 1998.</p>
+Just before the 2006 summer holidays, our 1994 Pontiac TransSport failed the Periodic Car Test. So we shopped around and found: <strong>a next generation TransSport</strong>, labeled Chevrolet in Europe since 1998.
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img-noresample/our_cars/11182243-3biggen-640x480.jpg" | relative_url }}' alt='TransSport &lsquo;98 schuin van voren' class='img-fluid'>
@@ -107,7 +107,7 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 </figure></div>
 </div>
 
-<p>Here are the specs (misleadingly, stating options that weren't available till 1999):</p>
+Here are the specs (misleadingly, stating options that weren't available till 1999):
 <ul>
 <li>Bouwjaar:	1998</li>
 <li>Carrosserie:	 mpv</li>
@@ -117,12 +117,12 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 <li>Deuren:	5</li>
 <li>Extra's: automaat, vierwielaandrijving (4x4), ABS, airconditioning, stuurbekrachtiging, cruise control, airbags voor, traction control, centrale vergrendeling, elektrische ramen, startonderbreker, elektrisch verstelbare voorstoelen, spiegels verwarmd, warmtewerend glas, radio/cd-speler, lichtmetalen velgen, trekhaak, (veilig), (wijzigingen enof invoerfouten voorbehouden), 7-persoons, audio met wisselaar, bagagenet, bekerhouders achterin, bekerhouders voorin, centrale deurvergrendeling afstandbediend, deelbare achterbank (gelijke delen), electrisch bediende zijdeur rechts, electrisch uitzetbare zijramen, electrisch verstelbare buitenspiegels, electrisch verstelbare voorstoelen, in hoogte verstelbaar stuur, in hoogte verstelbare 3 punt gordels, in hoogte verstelbare bestuurderstoel, in hoogte verstelbare koplampen, instructieboekjes aanwezig, lederen stuurwiel, lendensteun in beide voorstoelen, metallic lak, nationale autopas, niveau regeling, roof rails, rookvrije auto, schuifdeur links en rechts, start onderbreking, zij-airbags voor, airbags voor, leren bekleding, middenarm</li>
 </ul>
-<p>Got it for &euro; 7.500 with a &euro; 1.000 trade in for the 1994 minivan.</p>
-<p>In 2009 I finally got to install working rear parking sensors with a camera. That's handy!</p>
+Got it for &euro; 7.500 with a &euro; 1.000 trade in for the 1994 minivan.
+In 2009 I finally got to install working rear parking sensors with a camera. That's handy!
 
 ## 2013: Chevrolet Trans Sport #3
 
-<p>After the fuel lines started to leak, we decided to buy a new car. Seating for 6 led to the last 2005 edition of the same Chevrolet model, equipped with Versatrak all-wheel drive.<p>
+After the fuel lines started to leak, we decided to buy a new car. Seating for 6 led to the last 2005 edition of the same Chevrolet model, equipped with Versatrak all-wheel drive.
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img-noresample/our_cars/IMG_6377_Transport3-565x370.jpg" | relative_url }}' alt='TransSport voorzijde' class='img-fluid' >
@@ -136,21 +136,21 @@ Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.</p>
 </div>
 </div>
 
-<p>However, it begged for a new transmission in 2015.</p>
-<p>Two years on, sold the car for scrap in August 2017.</p>
+However, it begged for a new transmission in 2015.
+Two years on, sold the car for scrap in August 2017.
 
 ## 2017-2021: Greenwheels Up
 
-<p>Bleek dat we helemaal geen (eigen) auto nodig hadden! Genoeg andere vormen van mobiliteit beschikbaar, als je centraal woont.</p>
+Bleek dat we helemaal geen (eigen) auto nodig hadden! Genoeg andere vormen van mobiliteit beschikbaar, als je centraal woont.
 <figure><img src='{{ "/assets/img-noresample/our_cars/IMG_2228_Greenwheels-565x395.jpg" | relative_url }}' alt='Volkswagen Up by Greenwheels' class='img-fluid' >
 <figcaption class="kleiner">Volkswagen Up by Greenwheels (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 ## 2021: Nissan e-NV200 "Evalia"
 
-<p>After 3 years without owning a car, using a compact GreenWheels now and then, we moved to the countryside and found a 2014 Nissan Evalia e-nv200 full electric minivan. It is based on the Nissan Leaf and has a characteristic, Tokyo styled body. It stands out of the crowd and allowed to move 3x3 banana boxes full of stuff on the second row alone when we moved house!</p>
+After 3 years without owning a car, using a compact GreenWheels now and then, we moved to the countryside and found a 2014 Nissan Evalia e-nv200 full electric minivan. It is based on the Nissan Leaf and has a characteristic, Tokyo styled body. It stands out of the crowd and allowed to move 3x3 banana boxes full of stuff on the second row alone when we moved house!
 <figure><img src='{{ "/assets/img-noresample/our_cars/evalia2014-867x667.jpg" | relative_url }}' alt='Nissan Evalia EV' class='img-fluid'>
 <figcaption class="kleiner">Nissan Evalia EV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
-<p>To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from <a href="https://www.muxsan.com/Nederlands/index.html">Muxsan</a> in Delft installed in the rear.</p>
+To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from <a href="https://www.muxsan.com/Nederlands/index.html">Muxsan</a> in Delft installed in the rear.
 
 <!-- naar boven menuutje -->
 <div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px">
