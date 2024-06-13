@@ -18,7 +18,7 @@ accordion:
 
 ## Galleries of images
 
-<p>An (automatic) <a href="{{ site.baseurl }}/assets/art_gallery/index.html">Art Gallery</a>.</p>
+An (automatic) <a href="{{ site.baseurl }}/assets/art_gallery/index.html">Art Gallery</a>.
 
 ## Inline gallery
 

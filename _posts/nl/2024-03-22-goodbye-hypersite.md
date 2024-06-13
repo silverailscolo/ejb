@@ -15,27 +15,27 @@ Ter herinnering aan het eerste serieuze stukje sopftware dat ik over een periode
 
 <h1>Wat is HyperSite en hoe werkt het?</h1>
 
-<p>HyperSite is een stack die helpt om je eigen website te onderhouden. Want een provider vinden en een paar html-pagina's samenstellen kan iedereen, maar het kost veel meer moeite om elke week "even" de nieuws-pagina plus de datum bij te werken enz.</p>
+HyperSite is een stack die helpt om je eigen website te onderhouden. Want een provider vinden en een paar html-pagina's samenstellen kan iedereen, maar het kost veel meer moeite om elke week "even" de nieuws-pagina plus de datum bij te werken enz.
 
-<p>Maar toch, als je je site niet bijhoudt, vinden je bezoekers er al snel niets meer aan en laten ze je site links liggen. Dat is zonde van de moeite, want met deze HyperCard stack is het eenvoudig om een redelijk complete site bij te houden.<br>
+Maar toch, als je je site niet bijhoudt, vinden je bezoekers er al snel niets meer aan en laten ze je site links liggen. Dat is zonde van de moeite, want met deze HyperCard stack is het eenvoudig om een redelijk complete site bij te houden.<br>
 In 5 minuten even wat info aanvullen, een nieuwe achtergrond-afbeelding aan een pagina toevoegen en de zaak bekijken in je browser; het is zo gepiept.<br>
-(Zie <a href="#beperkingen">Beperkingen</a> voor wat *niet* kan).</p>
+(Zie <a href="#beperkingen">Beperkingen</a> voor wat *niet* kan).
 
 <div class="normal-nc">
 <a href="#principe">Principe</a> | <a href="#instructies">Instructies</a> | <a href="#historie">Ontstaansgeschiedenis</a> | <a href="#credits">Credits</a>
 </div>
 
 <h2 id="principe">Het principe</h2>
-<p>Wat is HyperSite? Met deze stack kun je - binnen een vaste layout bestaande uit een 2-koloms tabel en een menu met links naar de andere pagina's - de inhoud van elke pagina bewerken, opmaken en als html-bestand opslaan. Bekijk een klein voorbeeld.</p>
+Wat is HyperSite? Met deze stack kun je - binnen een vaste layout bestaande uit een 2-koloms tabel en een menu met links naar de andere pagina's - de inhoud van elke pagina bewerken, opmaken en als html-bestand opslaan. Bekijk een klein voorbeeld.
 
 <figure><img src='{{ "/assets/img/blog/HyperSite-p0.gif" | relative_url }}' alt="HyperSite startscherm" class='img-fluid'><figcaption class="kleiner">HyperSite startscherm</figcaption></figure>
 
-<p>Voor elke pagina van je web-site is een aparte kaart, waarop je in 4 tekstvelden je eigen informatie in kunt voeren. Voor zover je de opmaak kunt be&iuml;nvloeden binnen de standaard HTML 3.2 zijn er via een serie buttons links onderaan het scherm een aantal gereedschappen beschikbaar. Ook om 'links' en 'ankers' aan te leggen zijn er knoppen.</p>
+Voor elke pagina van je web-site is een aparte kaart, waarop je in 4 tekstvelden je eigen informatie in kunt voeren. Voor zover je de opmaak kunt be&iuml;nvloeden binnen de standaard HTML 3.2 zijn er via een serie buttons links onderaan het scherm een aantal gereedschappen beschikbaar. Ook om 'links' en 'ankers' aan te leggen zijn er knoppen.
 
-<p>Algemene informatie die voor elke pagina hetzelfde is, vul je in op de kaart 'Algemene instellingen'. Als je daarna op de button 'Maak HTML' klikt, wordt uit al die gegevens een compleet HTML-bestand gecre&euml;erd op de harde schijf. Via de button 'Upload..." kun je die bestanden vervolgens naar jouw provider versturen.<br>
-Klik op de button 'Start' rechtsboven op dit scherm om verder te gaan...</p>
+Algemene informatie die voor elke pagina hetzelfde is, vul je in op de kaart 'Algemene instellingen'. Als je daarna op de button 'Maak HTML' klikt, wordt uit al die gegevens een compleet HTML-bestand gecre&euml;erd op de harde schijf. Via de button 'Upload..." kun je die bestanden vervolgens naar jouw provider versturen.<br>
+Klik op de button 'Start' rechtsboven op dit scherm om verder te gaan...
 
-<p>Deze stack maakt gebruik van andere programma's, die op je computer moeten staan:</p>
+Deze stack maakt gebruik van andere programma's, die op je computer moeten staan:
 <ul>
 <li>een webbrowser, bijv. Internet Explorer of Netscape;</li>
 <li>een FTP-programma, bijv. Transmit van <a href="https://www.panic.com">Panic</a>;</li>
@@ -59,7 +59,7 @@ Vul minstens de volgende gegevens in:
 <li>een Applescript bestand dat de internetverbinding met je provider start, bijv. het script "PPP start" in de map "AppleScript Extra's".</li>
 </ul>
 
-<p>Niet verplicht:</p>
+Niet verplicht:
 <ul>
 <li>de naam van een .GIF afbeelding die op alle pagina's als titel komt, bijv. je logo;</li>
 <li>de naam van een .GIF afbeelding die als 'bullet' voor elk van de 4 tekstblokken komt.</li>
@@ -74,10 +74,10 @@ Minimale HTML-kennis die noodzakelijk is: Na elke regel een regeleinde &lt;br&gt
 
 Door stukjes te selecteren met de muis en dan op 1 van de 'buttons' in de 'toolbox' links onderaan te klikken. Voor verklaring en extra opties zie <a href="#toolbox">Toolbox</a>.
 
-<p>4. Als er in je tekst 'speciale' tekens voorkomen, bijvoorbeeld "&uuml;" en "&eacute;", selecteer die dan en klik op de knop "ASCI to ISO" om er voor te zorgen dat deze tekens straks voor iedereen goed in beeld verschijnen. Als je zonder een selectie te maken op deze knop klikt, wordt alle tekst gecontroleerd, maar dat kost wel wat tijd.</p>
+4. Als er in je tekst 'speciale' tekens voorkomen, bijvoorbeeld "&uuml;" en "&eacute;", selecteer die dan en klik op de knop "ASCI to ISO" om er voor te zorgen dat deze tekens straks voor iedereen goed in beeld verschijnen. Als je zonder een selectie te maken op deze knop klikt, wordt alle tekst gecontroleerd, maar dat kost wel wat tijd.
 
-<p>5. Als je klaar bent met een pagina, klik je op de button "Maak HTML". Uit alle informatie in de stack wordt dan een HTML-bestand aangemaakt, de standaard-taal van het world wide web. Een tekstje verschijnt met de naam van het bestand, die hetzelfde is als de naam van je pagina + de extensie ".html".
-Om alle pagina's in 1 keer als HTML-bestanden te exporteren, houd je de Option- toets ingedrukt, terwijl je op de button "Maak HTML" klikt.</p>
+5. Als je klaar bent met een pagina, klik je op de button "Maak HTML". Uit alle informatie in de stack wordt dan een HTML-bestand aangemaakt, de standaard-taal van het world wide web. Een tekstje verschijnt met de naam van het bestand, die hetzelfde is als de naam van je pagina + de extensie ".html".
+Om alle pagina's in 1 keer als HTML-bestanden te exporteren, houd je de Option- toets ingedrukt, terwijl je op de button "Maak HTML" klikt.
 
 ### 6. Preview
 
@@ -109,7 +109,7 @@ Zet het invoegpunt op de juiste plek en klik op de button met het gezichtje om e
 
 <h4><a id="beperkingen">Wat kan niet</a></h4>
 
-<p>De volgende zaken zitten niet in HyperSite:</p>
+De volgende zaken zitten niet in HyperSite:
 <ul>
 <li>afbeeldingen bewerken en omzetten naar .GIF formaat (gebruik Xres o.i.d.);</li>
 <li>WYSIWYG opmaak zonder alle tags te zien (wel preview via browser);</li>
@@ -117,7 +117,7 @@ Zet het invoegpunt op de juiste plek en klik op de button met het gezichtje om e
 <li>een grafisch overzicht van alle pagina's en links (is wel mooi);</li>
 </ul>
 
-<p>Wat ooit wel komt:</p>
+Wat ooit wel komt:
 <ul>
 <li>Uitlijn-opties (het menu werkt nog niet)</li>
 <li>(gedeeltelijke) controle of alle links en afbeeldingen kloppen (ga voorlopig naar <a href="http://validator.w3.org/checklink">W3C Checklink</a> [getest 2/2/2010].</li>
@@ -163,12 +163,12 @@ v 1.8
 : hele stack geport van Apple HyperCard naar LiveCode.
 
 v 1.9 van 2018-2023
-: is HTML5 correct, en bevat een responsive layout.</p>
+: is HTML5 correct, en bevat een responsive layout.
 
 <figure><img src='{{ "/assets/img/blog/RevHyperSite21.png" | relative_url }}' alt="Revolution HyperSite scherm" class='img-fluid'><figcaption class="kleiner">Revolution HyperSite scherm</figcaption></figure>
 
 <h2 id="credits">Credits</h2>
-<p>This stack is shareware. Support the development of these helpful programs by paying your shareware fee.  Please pay Euro 25,- next time you see me.</p>
+This stack is shareware. Support the development of these helpful programs by paying your shareware fee.  Please pay Euro 25,- next time you see me.
 
-<p>All programming &copy; E.J. Broerse 04/1998 - 07/1998 - 09/1999 - 03/2000 - 04/2001 - 11/2002 - 02-2023 except
-<i>PopUpMenu XCMD</i> &copy; Individual Software, Inc. 1988.</p>
+All programming &copy; E.J. Broerse 04/1998 - 07/1998 - 09/1999 - 03/2000 - 04/2001 - 11/2002 - 02-2023 except
+<i>PopUpMenu XCMD</i> &copy; Individual Software, Inc. 1988.

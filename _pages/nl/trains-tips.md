@@ -12,7 +12,7 @@ nav: false
 
 <h2><a id="installdecoder">Hoe installeer je een DCC decoder</a></h2>
 
-<p>Binnenkort</p>
+Binnenkort
 
 </div>
 
@@ -141,7 +141,7 @@ Terug naar <a href="layout.html">Treinen/De Baan</a>
               <i class="fa-solid fa-thumbtack fa-xs"></i>
             </div>
             <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-            <p class="card-text">{{ post.description }}</p>
+            <p class="card-text">{{ post.description }}
 
             {% if post.external_source == blank %}
               {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -154,7 +154,7 @@ Terug naar <a href="layout.html">Treinen/De Baan</a>
               {{ read_time }} min read &nbsp; &middot; &nbsp;
               <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                 <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-            </p>
+            
           </div>
         </div>
       </div>

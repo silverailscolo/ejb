@@ -15,11 +15,11 @@ To archive an application that I created and ported over the years, here is the 
 
 <h1>What is HyperSite and how does it work?</h1>
 
-<p>HyperSite is a stack that helps you maintain your own website pages. Finding a provider and creating a few html pages is no big deal. But it does take effort to 'just' update the content, including the date in the footer etc.</p>
+HyperSite is a stack that helps you maintain your own website pages. Finding a provider and creating a few html pages is no big deal. But it does take effort to 'just' update the content, including the date in the footer etc.
 
-<p>But if you fail to update your site regularly, visitors will look elsewhere. Now that would be a shame, as this HyperCard stack is not expensive and a rather simple CMS to manage your site contents.<br>
+But if you fail to update your site regularly, visitors will look elsewhere. Now that would be a shame, as this HyperCard stack is not expensive and a rather simple CMS to manage your site contents.<br>
 Quiclky add a few lines, add a new background image to a page (remember that?) and preview the changes in your local browser before uploading it with a single click; Done!<br>
-(See <a href="#beperkingen">Limitations</a> as for what can *not* do).</p>
+(See <a href="#beperkingen">Limitations</a> as for what can *not* do).
 
 <div class="normal-nc">
 <a href="#principe">Principle</a> | <a href="#instructies">Instructions</a> | <a href="#historie">History</a> | <a href="#credits">Credits</a>
@@ -124,7 +124,7 @@ The following items are not included in HyperSite:
 <li>a graphical overview of all pages and links (which is nice);</li>
 </ul>
 
-<p>Features I hope to add:</p>
+Features I hope to add:
 <ul>
 <li>alignment options (a working menu)</li>
 <li>(partial) check of all links (for now, use <a href="http://validator.w3.org/checklink">W3C Checklink</a> [tested 2/2/2010].</li>
@@ -168,13 +168,13 @@ v 1.8
 : complete port of Apple HyperCard stack to LiveCode.
 
 v 1.9 van 2018-2023
-: HTML5 correct, including a responsive layout and w3 CSS styles.</p>
+: HTML5 correct, including a responsive layout and w3 CSS styles.
 
 <figure><img src='{{ "/assets/img/blog/RevHyperSite21.png" | relative_url }}' alt="Revolution HyperSite screen" class='img-fluid'><figcaption class="kleiner">Revolution HyperSite screen</figcaption></figure>
 
 <h2 id="credits">Credits</h2>
 
-<p>This stack is shareware. Support the development of these helpful programs by paying your shareware fee.  Please pay Euro 25,- next time you see me. </p>
+This stack is shareware. Support the development of these helpful programs by paying your shareware fee.  Please pay Euro 25,- next time you see me. 
 
-<p>All programming &copy; E.J. Broerse 04/1998 - 07/1998 - 09/1999 - 03/2000 - 04/2001 - 11/2002 - 02-2023 except
-<i>PopUpMenu XCMD</i> &copy; Individual Software, Inc. 1988.</p>
+All programming &copy; E.J. Broerse 04/1998 - 07/1998 - 09/1999 - 03/2000 - 04/2001 - 11/2002 - 02-2023 except
+<i>PopUpMenu XCMD</i> &copy; Individual Software, Inc. 1988.

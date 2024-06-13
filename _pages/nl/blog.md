@@ -42,18 +42,18 @@ pagination:
           <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
         </li>
         {% unless forloop.last %}
-          <p>&bull;</p>
+          &bull;
         {% endunless %}
       {% endfor %}
       {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
+        &bull;
       {% endif %}
       {% for category in site.display_categories %}
         <li>
           <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
         </li>
         {% unless forloop.last %}
-          <p>&bull;</p>
+          &bull;
         {% endunless %}
       {% endfor %}
     </ul>
@@ -78,7 +78,7 @@ pagination:
 <i class="fa-solid fa-thumbtack fa-xs"></i>
 </div>
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-<p class="card-text">{{ post.description }}</p>
+<p class="card-text">{{ post.description }}
 
                     {% if post.external_source == blank %}
                       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -91,7 +91,7 @@ pagination:
                       Leestijd: {{ read_time }} min &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-                    </p>
+                    
                   </div>
                 </div>
               </div>
@@ -143,14 +143,14 @@ pagination:
           <a class="post-title" href="{{ post.redirect | relative_url }}">{{ post.title }}</a>
         {% endif %}
       </h3>
-      <p>{{ post.description }}</p>
+      {{ post.description }}
       <p class="post-meta">
         Leestijd: {{ read_time }} min &nbsp; &middot; &nbsp;
         {% include date_format.liquid format="long" date_from=post %}
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
-      </p>
+      
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
@@ -170,7 +170,7 @@ pagination:
               <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}
           {% endif %}
-    </p>
+    
 
 {% if post.thumbnail %}
 

@@ -18,7 +18,7 @@ accordion:
 
 ## Gallerij van plaatjes
 
-<p>Een (automatische) <a href="{{ site.baseurl }}/assets/art_gallery/index.html">Art Gallery</a>.</p>
+Een (automatische) <a href="{{ site.baseurl }}/assets/art_gallery/index.html">Art Gallery</a>.
 
 ## Inline
 
