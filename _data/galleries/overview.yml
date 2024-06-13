@@ -31,7 +31,7 @@
     sizes:
       - 20150504132656-fdc46746-120x120.jpg
       - 20150504132656-fdc46746-101x144.jpg
-    thumbnail: 20150504132656-fdc46746-120x120.jpg
+    thumbnail: header.png
 - title: Our cars
   directory: our_cars
   preview:
