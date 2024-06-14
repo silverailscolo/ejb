@@ -2,7 +2,7 @@
 layout: post
 lang: en-us
 page-id: hypersite
-title: "Hypersite stack"
+title: "Goodbye Hypersite"
 date: "2024-03-22"
 tags:
   - macintosh

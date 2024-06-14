@@ -2,7 +2,7 @@
 layout: post
 lang: nl
 page-id: hypersite
-title: "Hypersite stack"
+title: "Vaarwel Hypersite"
 date: "2024-03-22"
 tags:
   - macintosh
