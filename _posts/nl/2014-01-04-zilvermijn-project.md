@@ -2,8 +2,8 @@
 layout: post
 lang: nl
 page-id: lodoremine
-title: Lodore Mill en kabelbaan
-date: 2014-01-04 20:50:00
+title: "Lodore Mill en kabelbaan"
+date: "2014-01-04"
 description: Model geplaatst
 tags:
   - n-schaal
@@ -14,7 +14,7 @@ categories:
 featured: true
 ---
 
-Een klein projectje voor het weekend: de mijn is geplaatst, met licht, rails en bomen.
+Een klein projectje voor het weekend: de mijn is geplaatst, met verlichting, rails en bomen.
 
 ![Coal shutes]({{ "/assets/img/blog/20140112-191109.jpg" | relative_url }})
 

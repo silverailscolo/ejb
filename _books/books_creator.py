@@ -25,7 +25,7 @@ if createLanguage == "":
     print('No language provided')
     exit()
 
-bookpediaExportFileToRead = "egbertbooks.xml"
+bookpediaExportFileToRead = "noegbertbooks.xml"
 
 # set correct path
 path = join("../_data/", bookpediaExportFileToRead)

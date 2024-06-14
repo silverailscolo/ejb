@@ -8,7 +8,7 @@ nav: false
 support: [gallery, mapster]
 ---
 
-Click on a shape on the map, or an item in the plant list.
+Click on a shape on the map, or an item in the <a href="#listheading">plant list</a>.
 
 <div class="row">
 <!-- responsive naast of onder elkaar -->
@@ -972,7 +972,7 @@ onMouseOut="hidepop(event);"
 onMouseUp="togglepop(event,112);">
 
 <area alt="37" href="#" coords="270,816,19" shape="circle"
-onMouseOver="showpop(event,37;"
+onMouseOver="showpop(event,37);"
 onMouseOut="hidepop(event);"
 onMouseUp="togglepop(event,37);">
 
@@ -1062,7 +1062,7 @@ onMouseUp="togglepop(event,94);">
 </div>
 
 <div class="col-8">
-<h2>Plant list</h2>
+<h2 id="listheading">Plant list</h2>
 
 <a href="#" id="clearAll">Deselect all</a>
 

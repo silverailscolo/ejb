@@ -10,8 +10,7 @@ function showpop(e, num) {
     console.log("showpop thing.xy: " + thing.style.left + "," + thing.style.top); // debug
     // set image title
     var nodeListPlants = document.getElementsByClassName("plant");
-    document.getElementById("blokje").innerHTML = gevonden; // debug read fetched list
-    var title = nodeListPlants[num - 1].innerHTML;
+    var title = nodeListPlants[(num - 1)].innerHTML;
     if (typeof title != "undefined") {
       // console.log("item " + num + "; title: " + title); // debug
       document.getElementById("popuptitle").innerHTML = title;

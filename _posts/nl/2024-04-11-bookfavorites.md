@@ -31,3 +31,7 @@ Een paar favoriete titels:
 ## Boeksuggesties per stad
 
 - [Reading the City](https://readingthecity.com/)
+
+## Fijne recensies
+
+- [LiterairNederland](https://www.literairnederland.nl)
