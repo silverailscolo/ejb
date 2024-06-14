@@ -11,10 +11,11 @@ __author__ = 'Olivier Pieters'
 __author_email__ = 'me@olivierpieters.be'
 __license__ = 'BSD-3-Clause'
 
-import yaml
-import imagesize
 from os import listdir, rename
 from os.path import isfile, join
+
+import imagesize
+import yaml
 from exiftool import ExifToolHelper
 
 # configuration

@@ -19,7 +19,7 @@ HyperSite is a stack that helps you maintain your own website pages. Finding a p
 
 But if you fail to update your site regularly, visitors will look elsewhere. Now that would be a shame, as this HyperCard stack is not expensive and a rather simple CMS to manage your site contents.<br>
 Quiclky add a few lines, add a new background image to a page (remember that?) and preview the changes in your local browser before uploading it with a single click; Done!<br>
-(See <a href="#beperkingen">Limitations</a> as for what can *not* do).
+(See <a href="#beperkingen">Limitations</a> as for what can _not_ do).
 
 <div class="normal-nc">
 <a href="#principe">Principle</a> | <a href="#instructies">Instructions</a> | <a href="#historie">History</a> | <a href="#credits">Credits</a>

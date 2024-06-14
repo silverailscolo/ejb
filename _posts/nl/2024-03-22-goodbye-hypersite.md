@@ -19,7 +19,7 @@ HyperSite is een stack die helpt om je eigen website te onderhouden. Want een pr
 
 Maar toch, als je je site niet bijhoudt, vinden je bezoekers er al snel niets meer aan en laten ze je site links liggen. Dat is zonde van de moeite, want met deze HyperCard stack is het eenvoudig om een redelijk complete site bij te houden.<br>
 In 5 minuten even wat info aanvullen, een nieuwe achtergrond-afbeelding aan een pagina toevoegen en de zaak bekijken in je browser; het is zo gepiept.<br>
-(Zie <a href="#beperkingen">Beperkingen</a> voor wat *niet* kan).
+(Zie <a href="#beperkingen">Beperkingen</a> voor wat _niet_ kan).
 
 <div class="normal-nc">
 <a href="#principe">Principe</a> | <a href="#instructies">Instructies</a> | <a href="#historie">Ontstaansgeschiedenis</a> | <a href="#credits">Credits</a>
