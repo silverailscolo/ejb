@@ -13,12 +13,13 @@ Listen carefully as the tiny train leaves the platform.
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/a2y012.jpg" | relative_url }}' alt='Live steam in Durango, Spring 1995' class='img-fluid'></figure>
+<figure><img src='{{ "/assets/img/trains2/a2y012.jpg" | relative_url }}' alt='Live steam in Durango, Spring 1995' class='img-fluid'>
+<figcaption class="kleiner">Live steam in Durango, Spring 1995 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
 <figure>
-<img src='{{ "/assets/img/trains2/a2y013.jpg" | relative_url }}' alt='Silverton Depot, Winter 1990' class='img-fluid'>
-<figcaption class="kleiner">A picture of the restored steam engine in operation on the Durango Silverton train, taken during our holiday to the USA in the spring of 1995.</figcaption>
+<img src='{{ "/assets/img/trains2/a2y013.jpg" | relative_url }}' alt='Silverton Depot, Spring 1995' class='img-fluid'>
+<figcaption class="kleiner">The restored steam engine in operation on the Durango Silverton train, taken during our trip to the USA in the spring of 1995 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>
 </div>
@@ -67,7 +68,7 @@ C&amp;S = Colorado &amp; Southern, GW = Great Western, UP = Union Pacific, SP = 
 <ul>
 <li><a href="https://en.m.wikipedia.org/wiki/Glossary_of_rail_transport_terms">Rail Terms Glossary</a>, to look up the meaning of all those special words</li>
 <li>Chasing the Narrow Gauge part I &amp; II, by Robert W. Richardson, published by Heimburger House (no longer in business as of 2024)<br>
-<img src='{{ "/assets/img/trains2/RioGrandeVol2.jpg" | relative_url }}' alt='Chasing the Narrow Gauge, part II: buy this great book' class='img-fluid'>
+<img src='{{ "/assets/img/trains2/RioGrandeVol2.jpg" | relative_url }}' alt='Chasing the Narrow Gauge, part II' class='img-fluid'>
 </li>
 <li><a href="https://nn3.tripod.com/index.htm">Rio Grande Southern</a>
 <ul>

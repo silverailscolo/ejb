@@ -63,4 +63,4 @@ Employer: Consortium Avenue2 (Ballast Nedam & Strukton)
 
 </div><!-- end A2 sketchbook -->
 
-<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">More <a href="../../gallery/avenue2.html">Avenue2 pictures</a>.</div>
+More <a href="../../gallery/avenue2.html">Avenue2 pictures</a>.

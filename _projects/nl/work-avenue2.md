@@ -61,4 +61,4 @@ Opdrachtgever: Consortium Avenue2 (Ballast Nedam & Strukton)
 
 </div><!-- einde A2 schetsboek -->
 
-<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">Meer <a href="../../gallery/avenue2.html">Avenue2 beelden</a>.</div>
+Meer <a href="../../gallery/avenue2.html">Avenue2 beelden</a>.

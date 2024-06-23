@@ -242,7 +242,7 @@ module Jekyll
             end
           end
         else
-          puts "AG Skipping #{site.active_lang} image"
+          puts "Art-Gallery skipping #{site.active_lang} image"
         end
 
         # Add file descriptions if defined

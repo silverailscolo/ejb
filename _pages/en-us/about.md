@@ -8,8 +8,8 @@ subtitle: architect, developer, collector
 
 profile:
   align: right
-  image: banner.jpg
-  image_circular: false # crops the image to make it circular
+  image: banners/stripes-global.png
+  image_circular: false # crops the image to make it circular shaped
   more_info: >
     Drenthe,
     the Netherlands

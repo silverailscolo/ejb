@@ -20,11 +20,11 @@ accordion:
 
 Een (automatische) <a href="{{ site.baseurl }}/assets/art_gallery/index.html">Art Gallery</a>.
 
-## Inline
+## My past home page banners
 
-Met de lightgallery_tag.rb plugin
+Inline met de lightgallery_tag.rb plugin
 
 {% gallery %}
-{{ '/assets/img-noresample/avenue2/albertheijn201712_ft24263-250x192.jpeg' | relative_url }}
-{{ '/assets/img-noresample/astyle/20140831202837-bd2786fa-240x180.jpg' | relative_url }}
+{{ '/assets/img/banners/stripes-global.png' | relative_url }}
+{{ '/assets/img/banners/rizzyhouse-braunschweig.jpg' | relative_url }}
 {% endgallery %}
