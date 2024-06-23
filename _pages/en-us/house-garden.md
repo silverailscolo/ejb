@@ -1152,6 +1152,7 @@ onMouseUp="togglepop(event,94);">
 <li class="plant" data-id="83">Prachtriet (miscanthus sinensis Red Cloud)</li>
 <li class="plant" data-id="84">Purperklokje (heuchera)</li>
 <li class="plant" data-id="85">Rhodo (rhododendron groot)</li>
+<li class="plant" data-id="86">Toverhazelaar (hamamelis intermedia Foxy Lady)</li>
 <li class="plant" data-id="87">Rhodo kl. (rhodondendron klein)</li>
 <li class="plant" data-id="88">Rode kornoelje (Cornus alba 'Sibirica')</li>
 <li class="plant" data-id="89">Rode zonnehoed (echinacea wildberry)</li>
@@ -1169,7 +1170,6 @@ onMouseUp="togglepop(event,94);">
 <li class="plant" data-id="101">Taxus (Taxus)</li>
 <li class="plant" data-id="102">Thijm (thymus vulgaris)</li>
 <li class="plant" data-id="103">Tongkruiskruid (ligularia przewalskii)</li>
-<li class="plant" data-id="86">Toverhazelaar (hamamelis intermedia Foxy Lady)</li>
 <li class="plant" data-id="104">Varen (varens diverse)</li>
 <li class="plant" data-id="105">Vederdistel, beekdistel (cirsium rivulare 'atropurpureum')</li>
 <li class="plant" data-id="106">Vedergras (stipa tenuissima ponytail)</li>

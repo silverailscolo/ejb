@@ -31,4 +31,4 @@ Software en APIs om ons huis, de Zappi laadpaal, NIBE heat pump and SolarEdge PV
 
 - Stroom meten met Raspberry Pi: [https://www.instructables.com/Current-Monitoring-With-Raspberry-Pi/](https://www.instructables.com/Current-Monitoring-With-Raspberry-Pi/)
 
-- Oracle VirtualBox (om Home Assistant OS te draaien op een mac): [https://www.virtualbox.org/wiki/End-user_documentation](https://www.virtualbox.org/wiki/End-user_documentation)
+- Oracle VirtualBox (om Home Assistant OS te draaien op een Mac): [https://www.virtualbox.org/wiki/End-user_documentation](https://www.virtualbox.org/wiki/End-user_documentation)

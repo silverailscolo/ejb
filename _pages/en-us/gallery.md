@@ -29,6 +29,12 @@ My <a href="{{ site.baseurl }}/rollingstock/">Model Railroad Rolling Stock</a> (
 </a>
 (script for JMRI Roster xml export)
 </div>
+  <div class="card card-item m-2 p-2 hoverable col-sm {{ align }}">
+<h4 class="card-title text-lowercase">Banners</h4>
+<a href="{{ site.baseurl }}/computers/playground.html/">
+<img alt="Home page images" src='{{ "/assets/img/banners/stripes-world.png" | relative_url }}' class="img-fluid" />
+</a>
+</div>
 </div>
 
 <!-- no link/copy of Art Gallery in en-us, since we experienced nested copies of en-us/en-us/thumbs etc -->
