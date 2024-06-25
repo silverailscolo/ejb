@@ -21,7 +21,9 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 {% endif %}
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+{% if page.academicons %}
+  <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+{% endif %}
 <link
   defer
   rel="stylesheet"
