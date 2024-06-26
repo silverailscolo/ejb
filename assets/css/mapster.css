@@ -27,7 +27,7 @@ li.selected {
   max-width: 80%;
   width: 180px;
   height: 200px;
-  background-color: --global-bg-color
+  background-color: var(--global-bg-color);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;

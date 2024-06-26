@@ -21,7 +21,9 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 {% endif %}
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+{% if page.academicons %}
+  <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+{% endif %}
 <link
   defer
   rel="stylesheet"
@@ -143,14 +145,21 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 
 {% if page.support contains 'artgallery' %}
   <!-- Lightgallery -->
-  <script src="{{ '/assets/js/full.umd.cjs' | relative_url }}"></script>
+  <script
+    defer
+    src="{{ '/assets/js/full.umd.cjs' | relative_url }}"
+  ></script>
 {% endif %}
 
 {% if page.support contains 'mapster' %}
   <!-- Imagemapster (garden plan) -->
-  <script src="{{ '/assets/js/jquery.imagemapster.min.js' | relative_url }}">
-  // import imagemapster (local js JQuery extension to highlight map elements from map)
+  <script
+    defer
+    src="{{ '/assets/js/jquery.imagemapster.min.js' | relative_url }}">
+    // import imagemapster (local js JQuery extension to highlight map elements from map)
   </script>
-  <script src="{{ '/assets/js/mapster.js' | relative_url }}"></script>
+  <script
+    defer
+    src="{{ '/assets/js/mapster.js' | relative_url }}"></script>
   <link rel="stylesheet" href="{{ '/assets/css/mapster.css' | relative_url }}">
 {% endif %}
