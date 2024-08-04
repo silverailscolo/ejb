@@ -11,7 +11,7 @@ categories:
   - hardware
 ---
 
-Zoals je [hier]({{ "/house/smart.html#oven" | relative_url }}) misschien hebt gelezen, wilde ik een herinnering/aanduiding maken voor ons AGA-keukenfornuis. Dit is mijn oplossing:
+Zoals je [hier]({{"/house/smart.html#oven" | relative_url}}) misschien hebt gelezen, wilde ik een herinnering/aanduiding maken voor ons AGA-keukenfornuis. Dit is mijn oplossing:
 
 <figure><img src='{{ "/assets/img/house/smart/agadisplay_IMG9388.jpg" | relative_url }}' alt="Het complete display in gebruik" class='img-fluid'><figcaption class="kleiner">Het complete display</figcaption></figure>
 
@@ -19,7 +19,7 @@ Zoals je [hier]({{ "/house/smart.html#oven" | relative_url }}) misschien hebt ge
 
 - [Raspberry Pico W](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
 - [Waveshare 1.3" Pico OLED](https://www.waveshare.com/wiki/Pico-OLED-1.3) display
-- USB-A naar USB-C cable
+- USB-A naar USB-C kabel
 - [Thonny IDE](https://thonny.org) voor [MicroPython](https://micropython.org) om de picoW te programmeren
 - [HomeAssistant](https://www.home-assistant.io) geabonneerd op [MQTT](https://mqtt.org) berichten
 - Automatiseringen ingesteld in HomeAssistant die reageren op
@@ -35,6 +35,7 @@ Monteer in de meterkast of een andere veilig bereikbare plek CT-klemmen rond 2-3
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="aansluiting in de harvi" class='img-fluid'><figcaption class="kleiner">CT2/3 aansluiting in de harvi</figcaption></figure>
+</div>
 </div>
 
 Verbind de draden van de CT klemmen aan ongebruikte inputs op de harve. Ze verschijnen danals sensors in de Home Assistant myenergi integratie.

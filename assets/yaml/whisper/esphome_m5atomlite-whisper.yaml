@@ -1,0 +1,355 @@
+esphome:
+  name: m5atomlite-whisper
+  friendly_name: M5Atom Lite Whisper
+
+globals:
+  - id: speed_set_int
+    type: int
+    restore_value: yes
+    initial_value: '4'
+  - id: automatic_co2
+    type: int
+    restore_value: yes
+    initial_value: '1'
+
+esp32:
+  board: m5stack-atom
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret api_key
+
+ota:
+  - platform: esphome
+    password: !secret esphome_pwd
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "M5Lite-Whisper Fallback Hotspot"
+    password: !secret ap_pwd
+
+captive_portal:
+
+# Sync time with Home Assistant.
+time:
+  - platform: homeassistant
+    id: homeassistant_time
+    
+output:
+  - platform: template
+    # Output that blinks the LED
+    id: status_output
+    type: binary
+    write_action:
+    - if:
+        condition:
+          lambda: return (state);
+        then:
+        - light.turn_on:
+            id: led
+            # brightness controlled by fan_speed
+            red: 100%
+            green: 100%
+            blue: 100%
+        else:
+        - light.turn_off: led
+  - platform: ledc
+    # Fan PWM
+    # Connect MOS-SIG to GPIO25, MOS-GND to GND; Whisper yellow to MOS V-, black to OUT-GND, red to OUT+10V
+    id: whisper_fan_pwm
+    pin:
+      number: GPIO25
+      inverted: true # Out+ did not work, Out- did, so inverted PIN
+    frequency: 10000Hz # lower if it whines
+
+fan:
+  - platform: speed
+    id: whisper_fan
+    name: "Slaapkamer Ventilator"
+    output: whisper_fan_pwm
+    speed_count: 10
+    on_turn_on:
+      # publish set speed
+      - sensor.template.publish:
+          id: whisper_speed_step
+          state: !lambda 'return id(whisper_fan).speed;'
+    on_turn_off:
+      # publish set speed
+      - sensor.template.publish:
+          id: whisper_speed_step
+          state: 0
+      # set brightness
+      - light.turn_off:
+          id: led
+    on_speed_set:
+      # publish set speed
+      - sensor.template.publish:
+          id: whisper_speed_step
+          state: !lambda 'return id(whisper_fan).speed;'
+      # set brightness
+      - lambda: |-
+          // adjust brightness for any speed change
+          auto call = id(led).make_call();
+          call.set_state(true); // turn the light on if it was off
+          auto n = 0.05 * id(speed_set_int);
+          call.set_brightness(n);
+          call.perform();
+
+light:
+  - platform: status_led
+    # Status LED
+    output: status_output
+    name: "Status Led"
+    internal: True
+  - platform: esp32_rmt_led_strip
+    # GPIO27 = RGB SK2812-3535
+    id: led
+    name: "Atom Led"
+    rgb_order: GRB
+    pin: GPIO27
+    num_leds: 1
+    # RMT 0 channels reserved for IR
+    rmt_channel: 1
+    chipset: ws2812
+
+binary_sensor:
+  - platform: gpio
+    # GPIO39 = Atom Button
+    # co2_measurement determines color of led
+    # fan speed determines led intensity 
+    name: Atom Button
+    pin:
+      number: GPIO39
+      inverted: true
+      mode:
+        input: true
+    filters:
+      - delayed_off: 10ms
+    on_press:
+      then:
+        # - logger.log: Atom Button Pressed
+        - lambda: |-
+            if (id(speed_set_int) < 8) {
+              id(speed_set_int) += 1; // global value, never higher than 8/10
+              id(automatic_co2) = 0; // manual fan speed
+            } else { // turn on auto from 8 to 0
+              id(speed_set_int) = 0;
+              id(automatic_co2) = 1; // auto fan speed
+            }
+        - fan.turn_on:
+            id: whisper_fan
+        - lambda: |-
+            // Atom led brightness is updated in fan block
+            id(whisper_fan).speed = id(speed_set_int);
+            // ESP_LOGD("ATOM", "Whisper ingesteld: %d. Fan snelheid: %d.", id(speed_set_int), id(whisper_fan).speed);     
+
+sensor:
+  - platform: pulse_counter # -meter too many data points
+    # toerenteller Whisper witte draad
+    name: Toerental
+    id: whisper_toerental
+    pin:
+      number: GPIO21
+      # inverted: true
+      mode:
+        input: true
+        pullup: true
+    unit_of_measurement: 't/min'
+    state_class: measurement
+    device_class: speed
+    internal_filter: 5us
+    update_interval: 10s
+    filters:
+      - multiply: 0.33 # (3 ticks per revolution as per Whisper Gold manual)
+      - round: 0
+  - platform: template # does not show up in HA
+    id: whisper_speed_step
+    name: Snelheidsstap
+    lambda: |-
+      if (id(whisper_fan).state == false) {
+        return 0;
+      } else {
+        return {}; // don't publish a new state (advanced)
+      }
+    update_interval: 30s
+    filters:
+      - round: 0
+  - platform: homeassistant
+    id: co2_measurement # this is the ID for a new local sensor, and copies:
+    entity_id: sensor.healthy_home_coach_netatmo_carbon_dioxide_sensor  # this points to the front end (Netatmo) entity
+    unit_of_measurement: 'ppm'
+    filters:
+      - round: 0
+    on_value_range: # next block to match thresholds in switch.automatic_co2 block below
+      - above: 0
+        below: 400
+        then:
+          - if:
+              condition:
+                lambda: return id(automatic_co2) == 1;
+              then:
+                fan.turn_off: # is this correct?
+                  id: whisper_fan
+          - light.turn_off:
+              id: led
+          #- logger.log: CO2 < 400 ppm
+      - above: 401
+        below: 600
+        then:
+          - if:
+              condition:
+                lambda: return id(automatic_co2) == 1;
+              then:
+                fan.turn_on:
+                  id: whisper_fan
+                  speed: 4
+          - light.turn_on:
+              id: led
+              red: 0
+              green: 100%
+              blue: 0
+          #- logger.log: 400 < CO2 < 600 ppm
+      - above: 601
+        below: 700
+        then:
+          - if:
+              condition:
+                lambda: return id(automatic_co2) == 1;
+              then:
+                fan.turn_on:
+                  id: whisper_fan
+                  speed: 5
+          - light.turn_on:
+              id: led
+              red: 30%
+              green: 80%
+              blue: 0
+          #- logger.log: 600 < CO2 < 700 ppm
+      - above: 701
+        below: 800
+        then:
+          - if:
+              condition:
+                lambda: return id(automatic_co2) == 1;
+              then:
+                fan.turn_on:
+                  id: whisper_fan
+                  speed: 6
+          - light.turn_on:
+              id: led
+              red: 80%
+              green: 30%
+              blue: 0%
+          #- logger.log: 700 < CO2 < 800 ppm
+      - above: 801
+        below: 1300
+        then:
+          - if:
+              condition:
+                lambda: return id(automatic_co2) == 1;
+              then:
+                fan.turn_on:
+                  id: whisper_fan
+                  speed: 7
+          - light.turn_on:
+              id: led
+              red: 100%
+              green: 0%
+              blue: 0%
+          #- logger.log: 800 < CO2 < 1300 ppm
+      - above: 1301
+        then:
+          - if:
+              condition:
+                lambda: return id(automatic_co2) == 1;
+              then:
+                fan.turn_on:
+                  id: whisper_fan
+                  speed: 8
+          - light.turn_on:
+              id: led
+              red: 100%
+              green: 0%
+              blue: 50%
+          #- logger.log: WARNING CO2 > 1300 ppm
+
+# Power 
+switch:
+  - platform: template
+    id: fan_low
+    name: Laag
+    turn_on_action:
+      - fan.turn_on:
+          id: whisper_fan
+          speed: 3
+      - lambda: |-
+          id(speed_set_int) = 3;
+          id(automatic_co2) = 0;
+          // Atom led brightness is updated in fan block
+  - platform: template
+    id: fan_med
+    name: Midden
+    turn_on_action:
+      - fan.turn_on:
+          id: whisper_fan
+          speed: 6
+      - lambda: |-
+          id(speed_set_int) = 6;
+          id(automatic_co2) = 0;
+          // Atom led brightness is updated in fan block
+  - platform: template
+    id: fan_high
+    name: Hoog
+    turn_on_action:
+      - fan.turn_on:
+          id: whisper_fan
+          speed: 8
+      - lambda: |-
+          id(speed_set_int) = 8;
+          id(automatic_co2) = 0;
+          // Atom led brightness is updated in fan block
+  - platform: template
+    id: automatic
+    name: Automatische regeling
+    lambda: |-
+      if (id(automatic_co2) == 1){
+        return true;
+      } else {
+        return false;
+      }
+    turn_on_action:
+      then:
+      - fan.turn_on:
+          id: whisper_fan
+      - lambda: |-
+          id(automatic_co2) = 1;
+          // next block to match thresholds in sensor.co2_measurement block above
+          ESP_LOGD("ATOM", "Whisper Auto ON, CO2: %d", id(co2_measurement).state);
+          if (id(co2_measurement).state > 1300) {
+            id(speed_set_int) = 8;
+          } else if (id(co2_measurement).state > 800){
+            id(speed_set_int) = 7;
+          } else if (id(co2_measurement).state > 700){
+            id(speed_set_int) = 6;   
+          } else if (id(co2_measurement).state > 600){
+            id(speed_set_int) = 5;   
+          } else if (id(co2_measurement).state > 400){
+            id(speed_set_int) = 4;   
+          } else {
+            id(speed_set_int) = 3;
+          }
+          id(whisper_fan).speed = id(speed_set_int);
+    turn_off_action:
+      then:
+      - lambda: |-
+          id(automatic_co2) = 0;
+      

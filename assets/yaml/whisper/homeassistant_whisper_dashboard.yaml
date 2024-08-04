@@ -1,0 +1,25 @@
+title: Smart Home
+views: # = tabs
+  - icon: mdi:fan
+    title: Ventilatie
+    path: fans
+    cards:
+      - type: entities
+        entities:
+          - entity: switch.m5atomlite_whisper_automatische_regeling
+          - entity: fan.m5atomlite_whisper_slaapkamer_ventilator
+            name: Slaapkamer Ventilator
+          - entity: sensor.m5atomlite_whisper_snelheidsstap
+            name: Snelheid
+            icon: mdi:speedometer
+          - entity: sensor.m5atomlite_whisper_toerental
+            name: Toerental
+          - entity: sensor.carbon_dioxide_sensor # change to your attached CO2 sensor
+          - entity: light.m5atomlite_whisper_atom_led
+            name: Atom Led
+          - entity: switch.m5atomlite_whisper_hoog
+          - entity: switch.m5atomlite_whisper_midden
+          - entity: switch.m5atomlite_whisper_laag
+        title: Whisper
+        show_header_toggle: false
+        state_color: true
