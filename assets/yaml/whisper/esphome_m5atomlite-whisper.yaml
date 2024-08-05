@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: Copyright 2024 EJ Broerse <https://www.ebroerse.nl>
+#
+# SPDX-License-Identifier: CC-BY-NC-SA-4.0
+
 esphome:
   name: m5atomlite-whisper
   friendly_name: M5Atom Lite Whisper
@@ -68,7 +72,7 @@ output:
     id: whisper_fan_pwm
     pin:
       number: GPIO25
-      inverted: true # Out+ did not work, Out- did, so inverted PIN
+      inverted: true # MOS V+ did not work, V- did, so inverted PIN
     frequency: 10000Hz # lower if it whines
 
 fan:
@@ -191,19 +195,35 @@ sensor:
       - round: 0
     on_value_range: # next block to match thresholds in switch.automatic_co2 block below
       - above: 0
-        below: 400
+        below: 350.0
         then:
           - if:
               condition:
                 lambda: return id(automatic_co2) == 1;
               then:
-                fan.turn_off: # is this correct?
+                fan.turn_off:
                   id: whisper_fan
           - light.turn_off:
               id: led
-          #- logger.log: CO2 < 400 ppm
-      - above: 401
-        below: 600
+          #- logger.log: CO2 < 350 ppm
+      - above: 350.1
+        below: 450.0
+        then:
+          - if:
+              condition:
+                lambda: return id(automatic_co2) == 1;
+              then:
+                fan.turn_on:
+                  id: whisper_fan
+                  speed: 3
+          - light.turn_on:
+              id: led
+              red: 0
+              green: 100%
+              blue: 0
+          #- logger.log: 350 < CO2 < 450 ppm
+      - above: 450.1
+        below: 600.0
         then:
           - if:
               condition:
@@ -218,8 +238,8 @@ sensor:
               green: 100%
               blue: 0
           #- logger.log: 400 < CO2 < 600 ppm
-      - above: 601
-        below: 700
+      - above: 600.1
+        below: 700.0
         then:
           - if:
               condition:
@@ -234,8 +254,8 @@ sensor:
               green: 80%
               blue: 0
           #- logger.log: 600 < CO2 < 700 ppm
-      - above: 701
-        below: 800
+      - above: 700.1
+        below: 800.0
         then:
           - if:
               condition:
@@ -250,8 +270,8 @@ sensor:
               green: 30%
               blue: 0%
           #- logger.log: 700 < CO2 < 800 ppm
-      - above: 801
-        below: 1300
+      - above: 800.1
+        below: 1300.0
         then:
           - if:
               condition:
@@ -266,7 +286,7 @@ sensor:
               green: 0%
               blue: 0%
           #- logger.log: 800 < CO2 < 1300 ppm
-      - above: 1301
+      - above: 1300.1
         then:
           - if:
               condition:
@@ -336,16 +356,18 @@ switch:
           ESP_LOGD("ATOM", "Whisper Auto ON, CO2: %d", id(co2_measurement).state);
           if (id(co2_measurement).state > 1300) {
             id(speed_set_int) = 8;
-          } else if (id(co2_measurement).state > 800){
+          } else if (id(co2_measurement).state > 800.0){
             id(speed_set_int) = 7;
-          } else if (id(co2_measurement).state > 700){
-            id(speed_set_int) = 6;   
-          } else if (id(co2_measurement).state > 600){
-            id(speed_set_int) = 5;   
-          } else if (id(co2_measurement).state > 400){
-            id(speed_set_int) = 4;   
-          } else {
+          } else if (id(co2_measurement).state > 700.0){
+            id(speed_set_int) = 6;
+          } else if (id(co2_measurement).state > 600.0){
+            id(speed_set_int) = 5;
+          } else if (id(co2_measurement).state > 450.0){
+            id(speed_set_int) = 4;
+          } else if (id(co2_measurement).state > 350.0){
             id(speed_set_int) = 3;
+          } else {
+            id(speed_set_int) = 0;
           }
           id(whisper_fan).speed = id(speed_set_int);
     turn_off_action:
