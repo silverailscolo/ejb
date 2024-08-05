@@ -21,7 +21,7 @@ Omdat we toch graag wat frisser slapen, is WTW hier ook niet zo nuttig. Dus ik h
 - Buisventilator Ø125mm traploos verstelbare snelheid EC-motor, bijv. de [Whisper Gold Line EC](https://www.ventilatieshop.com/buisventilatoren/whisper-buisventilator/whisper-gold-line-buisventilator-diameter-100mm-125mm-ec-motor-wgle/). Je hebt de 10V handregelaar niet nodig, maar vast wel wat stalen buizen en koppelstukken.
 - [M5 Stack Atom Lite](https://shop.m5stack.com/products/atom-lite-esp32-development-kit). Dit is een compacte 25x25mm SOC met een ingebouwde RGB-led en drukknop. Ik kocht hem [hier](https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/m5stack-atom-lite-esp32-development-board)
 - USB-A naar USB-C kabel
-- Een [IRF520 MOSFET breakout](https://www.tinytronics.nl/nl/schakelaars/mosfet's/irf520-breakout-module) om het PWM-signaal van de Atom te versterken naar 10V voor de ventilator
+- Een [IRF520 MOSFET breakout](https://www.tinytronics.nl/nl/schakelaars/mosfet's/irf520-breakout-module) om het PWM-signaal van de Atom te versterken naar 10V= voor de ventilator
 - [HomeAssistant](https://www.home-assistant.io) met [ESPHome Add-on](https://esphome.io/guides/getting_started_hassio) IDE om de code op de Atom te installeren en de gegevens te bekijken
 - Automatiseringen op de Atom Lite (ESP32), ingesteld met ESPHome, die reageren op
 - CO<sub>2</sub>-sensor met integratie in HomeAssistant, bijv. [Netatmo Healthy Home Coach](https://shop.netatmo.com/nl-nl/aircare/home-coach/homecoach) (kan via HomeAssistant met de ook [HomeKit Bridge](https://www.home-assistant.io/integrations/homekit) ook nog in Apple HomeKit verschijnen, maar andersom kan niet)
@@ -56,6 +56,10 @@ Bij de ventilator wordt een aansluitkastje geleverd, waarin zowel de 230V voedin
 </div>
 </div>
 
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/house/smart/whisper/Atom-Whisper-Connections.png" | relative_url }}' alt="Volledig aansluitschema" class='img-fluid'><figcaption class="kleiner">Volledig aansluitschema</figcaption></figure>
+</div>
+
 ### M5 Atom Lite aansluiten
 
 <div class="row">
@@ -81,6 +85,9 @@ Download de [yaml code]({{ "/assets/yaml/whisper/esphome_m5atomlite-whisper.yaml
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/house/smart/whisper/esphome-port.png" | relative_url }}' alt="Select the port on your PC" class='img-fluid'><figcaption class="kleiner">Select the port on your PC</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/house/smart/whisper/esphome-prepare.png" | relative_url }}' alt="Progress of initial install" class='img-fluid'><figcaption class="kleiner">Progress of initial install</figcaption></figure>
 </div>
 </div>
 
