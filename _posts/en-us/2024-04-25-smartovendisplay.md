@@ -14,7 +14,7 @@ categories:
 As you may have read [here]({{ "/house/smart.html#oven" | relative_url }}), I wanted to build a reminder/indication for our AGA kitchen stove.
 This was my solution.
 
-<figure><img src='{{ "/assets/img/house/smart/agadisplay_IMG9388.jpg" | relative_url }}' alt="The finished display in use" class='img-fluid'><figcaption class="kleiner">The finished display</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/agadisplay_IMG9388.jpg" | relative_url }}' alt="The finished display in use" class='img-fluid'><figcaption class="kleiner">The finished display</figcaption></figure>
 
 ### Hardware items needed
 
@@ -32,23 +32,24 @@ Near the switch board or in another safely accessible location, mount 2-3 CT-cla
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT clamps behind fuse box</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT clamps behind fuse box" class='img-fluid'><figcaption class="kleiner">CT clamps behind fuse box</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="connections inside harvi" class='img-fluid'><figcaption class="kleiner">CT2/3 connections inside harvi</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="connections inside harvi" class='img-fluid'><figcaption class="kleiner">CT2/3 connections inside harvi</figcaption></figure>
+</div>
 </div>
 
 I connected the CT clamp wires to the unused inputs of my harvi, which show up as sensors in the Home Assistant myenergi integration.
 
 ### Code
 
-Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) and load it onto the PicoW using the Thony application.
+Download the [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) and load it onto the PicoW using the Thonny application.
 
 ### Home Assistant set-up
 
 In HomeAssistant, create input_number definitions in configuration.yaml;
 
-<figure><img src='{{ "/assets/img/house/smart/ha_ct2_inputnumber.png" | relative_url }}' alt="HA CT2 Input Setting Pane" class='img-fluid'><figcaption class="kleiner">CT2 Input Setting Pane</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/ha_ct2_inputnumber.png" | relative_url }}' alt="HA CT2 Input Settings Pane" class='img-fluid'><figcaption class="kleiner">CT2 Input Settings Pane</figcaption></figure>
 
 Add ON/OFF Automations for each element of your stove, for example to signal Baking Oven was turned ON:
 
@@ -104,7 +105,7 @@ trigger:
   mode: single
 ```
 
-<figure><img src='{{ "/assets/img/house/smart/ha_bakingoven_input_setting.png" | relative_url }}' alt="HA Oven Input Setting Pane" class='img-fluid'><figcaption class="kleiner">Input Oven Setting Panel</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/ha_bakingoven_input_setting.png" | relative_url }}' alt="HA Oven Input Setting Pane" class='img-fluid'><figcaption class="kleiner">Input Oven Setting Panel</figcaption></figure>
 
 Add MQTT topics in HomeAssistant configuration.yaml:
 

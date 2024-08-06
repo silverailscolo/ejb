@@ -13,7 +13,7 @@ categories:
 
 Zoals je [hier]({{"/house/smart.html#oven" | relative_url}}) misschien hebt gelezen, wilde ik een herinnering/aanduiding maken voor ons AGA-keukenfornuis. Dit is mijn oplossing:
 
-<figure><img src='{{ "/assets/img/house/smart/agadisplay_IMG9388.jpg" | relative_url }}' alt="Het complete display in gebruik" class='img-fluid'><figcaption class="kleiner">Het complete display</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/agadisplay_IMG9388.jpg" | relative_url }}' alt="Het complete display in gebruik" class='img-fluid'><figcaption class="kleiner">Het complete display</figcaption></figure>
 
 ### Benodigde hardware
 
@@ -31,10 +31,10 @@ Monteer in de meterkast of een andere veilig bereikbare plek CT-klemmen rond 2-3
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/house/smart/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 klemmen in meterkast" class='img-fluid'><figcaption class="kleiner">CT2 klemmen in meterkast</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/CT_clamps-IMG_9186.jpg" | relative_url }}' alt="CT2 klemmen in meterkast" class='img-fluid'><figcaption class="kleiner">CT2 klemmen in meterkast</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/house/smart/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="aansluiting in de harvi" class='img-fluid'><figcaption class="kleiner">CT2/3 aansluiting in de harvi</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/harvi_inside-IMG_9183.jpg" | relative_url }}' alt="aansluiting in de harvi" class='img-fluid'><figcaption class="kleiner">CT2/3 aansluiting in de harvi</figcaption></figure>
 </div>
 </div>
 
@@ -48,7 +48,7 @@ Download de [micropython code]({{ "/assets/python/ovendisplay-main.py" | relativ
 
 Voeg in HomeAssistant in configuration.yaml definities toe voor input_number sensors;
 
-<figure><img src='{{ "/assets/img/house/smart/ha_ct2_inputnumber.png" | relative_url }}' alt="HA Invoerscherm CT2 instellingen" class='img-fluid'><figcaption class="kleiner">HA Invoerscherm CT2 instellingen</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/ha_ct2_inputnumber.png" | relative_url }}' alt="HA Invoerscherm CT2 instellingen" class='img-fluid'><figcaption class="kleiner">HA Invoerscherm CT2 instellingen</figcaption></figure>
 
 Voeg AAN/UIT-Automations toe voor elk element van je fornuis, bijvoorbeeld om aan te geven dat de Bakoven is ingeschakeld:
 
@@ -104,7 +104,7 @@ trigger:
   mode: single
 ```
 
-<figure><img src='{{ "/assets/img/house/smart/ha_bakingoven_input_setting.png" | relative_url }}' alt="HA Invoerscherm oven" class='img-fluid'><figcaption class="kleiner">HA Invoerscherm oven</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/smart/aga/ha_bakingoven_input_setting.png" | relative_url }}' alt="HA Invoerscherm oven" class='img-fluid'><figcaption class="kleiner">HA Invoerscherm oven</figcaption></figure>
 
 Voeg MQTT-onderwerpen toe in HomeAssistant `configuration.yaml`:
 
