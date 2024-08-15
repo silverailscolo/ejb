@@ -31,7 +31,7 @@ My <a href="{{ site.baseurl }}/rollingstock/">Model Railroad Rolling Stock</a> (
 </div>
   <div class="card card-item m-2 p-2 hoverable col-sm {{ align }}">
 <h4 class="card-title text-lowercase">Banners</h4>
-<a href="{{ site.baseurl }}/computers/playground.html/">
+<a href="{{ site.baseurl }}/computers/playground">
 <img alt="Home page images" src='{{ "/assets/img/banners/stripes-world.png" | relative_url }}' class="img-fluid" />
 </a>
 </div>

@@ -16,11 +16,11 @@ accordion:
 
 {% include accordion.html %}
 
-## Gallerij van plaatjes
+## Galerij van plaatjes
 
 Een (automatische) <a href="{{ site.baseurl }}/assets/art_gallery/index.html">Art Gallery</a>.
 
-## My past home page banners
+## Eerdere home page banners
 
 Inline met de lightgallery_tag.rb plugin
 
