@@ -9,7 +9,7 @@ toc:
   sidebar: left
 ---
 
-We started simple to automate the house: a couple of Ikea lights, two motorized shutters 
+We started simple to automate the house: a couple of Ikea lights, two motorized shutters
 Several years on, it was time to connect these different systems and add more smartness.
 
 ![Home Assistant logo]({{ "/assets/img/house/smart/home-assistant-logo.svg" | relative_url }})
@@ -44,6 +44,7 @@ HomeAssistant supports so called Add-Ons that provide extra functions on the Pi4
 - InfluxDB (to collect long term energy statistics)
 
 MQTT is used to connect independent devices to HomeAssistant, for instance:
+
 - [nibepi](https://github.com/anerdins/nibepi) (to control our Nibe F1255 heat pump over Modbus, running on a separate Raspberry PiZero)
 
 ## Energy Monitoring

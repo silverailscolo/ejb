@@ -91,7 +91,7 @@ pagination:
                       Leestijd: {{ read_time }} min &nbsp; &middot; &nbsp;
                       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-                    
+
                   </div>
                 </div>
               </div>
@@ -170,7 +170,6 @@ pagination:
               <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}
           {% endif %}
-    
 
 {% if post.thumbnail %}
 

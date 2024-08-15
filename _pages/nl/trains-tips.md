@@ -154,7 +154,7 @@ Terug naar <a href="layout.html">Treinen/De Baan</a>
               {{ read_time }} min read &nbsp; &middot; &nbsp;
               <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                 <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-            
+
           </div>
         </div>
       </div>

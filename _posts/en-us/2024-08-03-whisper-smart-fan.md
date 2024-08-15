@@ -97,6 +97,7 @@ Download the [yaml code]({{ "/assets/yaml/whisper/esphome_m5atomlite-whisper.yam
 The ESP32 configuration consists of:
 
 Basic setup:
+
 ```
 esphome:
   name: m5atomlite-whisper
@@ -119,6 +120,7 @@ esp32:
 ```
 
 Create a speed_fan object:
+
 ```
 fan:
   - platform: speed
@@ -155,6 +157,7 @@ fan:
 ```
 
 Create a PWM output to control the fan speed:
+
 ```
 output:
   - platform: ledc
@@ -168,6 +171,7 @@ output:
 ```
 
 A button (switch) to set Automatic operation:
+
 ```
 switch:
   - platform: template
@@ -210,6 +214,7 @@ switch:
 ```
 
 A sensor to fetch CO<sub>2</sub> sensor data from HomeAssistant to the ESP32:
+
 ```
 sensor:
   - platform: homeassistant
@@ -264,9 +269,11 @@ sensor:
               blue: 50%
           #- logger.log: WARNING CO2 > 1300 ppm
 ```
+
 When the fan is in Automatic mode, the code will adjust the fan speed every time it receives a new CO<sub>2</sub> reading from the bedroom. It also updates the color of the LED (Green = clean to Brown = dirty).
 
-The tachometer sensor provides feedback on the actual Whisper fan speed (3 pulses per revolution, so we have the ``multiply: 0.33`` filter):
+The tachometer sensor provides feedback on the actual Whisper fan speed (3 pulses per revolution, so we have the `multiply: 0.33` filter):
+
 ```
 sensor:
   - platform: pulse_counter # -meter too many data points
@@ -286,6 +293,7 @@ sensor:
       - multiply: 0.33 # (3 ticks per revolution as per Whisper Gold manual)
       - round: 0
 ```
+
 ### Home Assistant settings
 
 Back in HomeAssistant open the YAML-editor mode of a new Dashboard and paste in this [yaml code](assets/yaml/whisper/homeassistant_whisper_dashboard.yaml) to create the fan control UI.

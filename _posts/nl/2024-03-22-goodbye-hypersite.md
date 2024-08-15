@@ -36,6 +36,7 @@ Algemene informatie die voor elke pagina hetzelfde is, vul je in op de kaart 'Al
 Klik op de button 'Start' rechtsboven op dit scherm om verder te gaan...
 
 Deze stack maakt gebruik van andere programma's, die op je computer moeten staan:
+
 <ul>
 <li>een webbrowser, bijv. Internet Explorer of Netscape;</li>
 <li>een FTP-programma, bijv. Transmit van <a href="https://www.panic.com">Panic</a>;</li>
@@ -60,6 +61,7 @@ Vul minstens de volgende gegevens in:
 </ul>
 
 Niet verplicht:
+
 <ul>
 <li>de naam van een .GIF afbeelding die op alle pagina's als titel komt, bijv. je logo;</li>
 <li>de naam van een .GIF afbeelding die als 'bullet' voor elk van de 4 tekstblokken komt.</li>
@@ -77,7 +79,7 @@ Door stukjes te selecteren met de muis en dan op 1 van de 'buttons' in de 'toolb
 4. Als er in je tekst 'speciale' tekens voorkomen, bijvoorbeeld "&uuml;" en "&eacute;", selecteer die dan en klik op de knop "ASCI to ISO" om er voor te zorgen dat deze tekens straks voor iedereen goed in beeld verschijnen. Als je zonder een selectie te maken op deze knop klikt, wordt alle tekst gecontroleerd, maar dat kost wel wat tijd.
 
 5. Als je klaar bent met een pagina, klik je op de button "Maak HTML". Uit alle informatie in de stack wordt dan een HTML-bestand aangemaakt, de standaard-taal van het world wide web. Een tekstje verschijnt met de naam van het bestand, die hetzelfde is als de naam van je pagina + de extensie ".html".
-Om alle pagina's in 1 keer als HTML-bestanden te exporteren, houd je de Option- toets ingedrukt, terwijl je op de button "Maak HTML" klikt.
+   Om alle pagina's in 1 keer als HTML-bestanden te exporteren, houd je de Option- toets ingedrukt, terwijl je op de button "Maak HTML" klikt.
 
 ### 6. Preview
 
@@ -110,6 +112,7 @@ Zet het invoegpunt op de juiste plek en klik op de button met het gezichtje om e
 <h4><a id="beperkingen">Wat kan niet</a></h4>
 
 De volgende zaken zitten niet in HyperSite:
+
 <ul>
 <li>afbeeldingen bewerken en omzetten naar .GIF formaat (gebruik Xres o.i.d.);</li>
 <li>WYSIWYG opmaak zonder alle tags te zien (wel preview via browser);</li>
@@ -118,6 +121,7 @@ De volgende zaken zitten niet in HyperSite:
 </ul>
 
 Wat ooit wel komt:
+
 <ul>
 <li>Uitlijn-opties (het menu werkt nog niet)</li>
 <li>(gedeeltelijke) controle of alle links en afbeeldingen kloppen (ga voorlopig naar <a href="http://validator.w3.org/checklink">W3C Checklink</a> [getest 2/2/2010].</li>

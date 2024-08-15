@@ -157,7 +157,7 @@ Back to <a href="layout.html">Railroading</a>
               {{ read_time }} min read &nbsp; &middot; &nbsp;
               <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
                 <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-            
+
           </div>
         </div>
       </div>

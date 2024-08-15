@@ -10,7 +10,7 @@ toc:
   sidebar: left
 ---
 
-Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned - the MacPlus, IIcx, Powerbook 100, Powerbook Duo 230,  Performa 5400/180, a Strawberry iMac 233, a white iMac G5 and 2 aluminium Intel iMacs (CoreDuo and i5).<br>
+Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned - the MacPlus, IIcx, Powerbook 100, Powerbook Duo 230, Performa 5400/180, a Strawberry iMac 233, a white iMac G5 and 2 aluminium Intel iMacs (CoreDuo and i5).<br>
 By the way, it's shocking what my first memory expansion cost in 1986, or the external SCSI Apple CD-rom player for that matter.
 
 Can you still remember this?
@@ -52,15 +52,14 @@ Runs System 7.1; the battery is dead, but the machine worked fine on an adapter.
 
 ### Tips:
 
-
 Create a RAM disk, which is way faster than reading from the HD, and better on the battery;<br>
 Gebruik je 'grote mac' als back-up voor bestanden (via AppleTalk kabel).<br>
 Deze Mac draait geen MacOS 7.6, wel tot en met 7.5.5.<br>
 
 ## Programma's die goed draaien:
+
 HyperCard 2.1, MS Word 4.0, WP 2.1, MacWrite II, Deneba Canvas 3.5, MacPaint, Studio/1, etc
 Meer over de PowerBook 100 op <a href="https://everymac.com/systems/apple/powerbook/specs/mac_powerbook100.html">EveryMac.com</a>.
-
 
 ## <a id="IIcx">Macintosh IIcx</a>
 
@@ -85,7 +84,6 @@ HyperCard 2.1, MS Word 6.01, etc
 
 More on Mac IIcx on <a href="https://everymac.com/systems/apple/mac_ii/specs/mac_iicx.html">EveryMac.com</a>.
 
-
 ## <a id="Duo230">PowerBook Duo230</a>
 
 <img class='img-fluid' src='{{ "/assets/img/mac/powerbook_duo_230.png" | relative_url }}' alt="PowerBook Duo in its Dock">
@@ -100,6 +98,7 @@ Produced: 1992 - 1995?
 
 Lekker lichte laptop, dankzij externe floppy drive. Na 5 jaar in de tas heen en weer slepen is de accu echter op en doet het toetsenbord wat raar. Maar ja, wat wil je, we hebben er de hele prijsvraag mee gemaakt in 1994.<br>
 Kortom: veel plezier gehad van een tweedehandsje.
+
 <div class="row">
 <div class="col-sm">
   <figure><img class='img-fluid' src='{{ "/assets/img/mac/PowerBook_Duo_Dock_aventure-applecom.jpg" | relative_url }}' alt="DuoDock, ejects a Duo like a videotape">
@@ -145,7 +144,6 @@ In fact EVERYTHING, like HyperCard 2.1, MS Word 98, Office98, IE5.1, FreeHand 9 
 
 More on Mac Performa 5400/180 at <a href="https://everymac.com/systems/apple/mac_performa/specs/mac_performa_5400_180.html">EveryMac.com</a>.
 
-
 ## <a id="iMac233">iMac 233 Strawberry</a>
 
 <figure><img src='{{ "/assets/img/mac/imac233_121-2162.png" | relative_url }}' alt='iMac 233 all-in-one' class='img-fluid'>
@@ -154,7 +152,6 @@ More on Mac Performa 5400/180 at <a href="https://everymac.com/systems/apple/mac
 Even faster and still compact. In May 2000 is felt super. Later it was still fine for educational CD-roms for our kids. Bright color and iTunes was born, still very small...
 
 More on the Candy color iMac at <a href="https://everymac.com/systems/apple/imac/specs/imac_ab.html">EveryMac.com</a>.
-
 
 ## <a id="imacg5">iMac G5 20"</a>
 
@@ -178,7 +175,6 @@ GarageBand, iPhoto, Extensis Portfolio, <a href="https://www.runrev.com/">Revolu
 
 More on iMac G5 at <a href="https://everymac.com/systems/apple/imac/specs/imac_g5_1.8_20.html">EveryMac.com</a>.
 
-
 ## <a id="macmini">MacMini G4</a>
 
 <figure><img src='{{ "/assets/img/mac/macMini_Imhoff.png" | relative_url }}' alt='macMini G4 1.4' class='img-fluid'>
@@ -187,7 +183,6 @@ Bought one second hand for € 200. Runs <a href="https://www.jmri.org/releaseno
 
 More on MacMini op <a href="https://everymac.com/systems/apple/mac_mini/specs/mac_mini_g4_1.42.html">EveryMac.com</a>.
 
-
 ## <a id="imaccoreduo">iMac Core 2 Duo 20" (2007)</a>
 
 <figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.png" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='img-fluid'>
@@ -195,12 +190,10 @@ More on MacMini op <a href="https://everymac.com/systems/apple/mac_mini/specs/ma
 
 Meer on iMac Core 2 Duo at <a href="https://everymac.com/systems/apple/imac/specs/imac-core-2-duo-2.4-20-inch-aluminum-specs.html">EveryMac.com</a>.
 
-
 ## <a id="imaci5">iMac i5 21" (Mid 2011)</a>
 
 Still going strong in 2023, expanded memory to 12 GB DDR3 RAM for just &euro;27 in 2020.
 Meer on iMac Core i5 at <a href="https://everymac.com/systems/apple/imac/specs/imac-core-i5-2.5-21-inch-aluminum-mid-2011-thunderbolt-specs.html">EveryMac.com</a>.
-
 
 ## <a id="z88">Cambridge Z88</a>
 
