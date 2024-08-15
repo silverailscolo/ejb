@@ -125,6 +125,7 @@ The following items are not included in HyperSite:
 </ul>
 
 Features I hope to add:
+
 <ul>
 <li>alignment options (a working menu)</li>
 <li>(partial) check of all links (for now, use <a href="http://validator.w3.org/checklink">W3C Checklink</a> [tested 2/2/2010].</li>
@@ -174,7 +175,7 @@ v 1.9 van 2018-2023
 
 <h2 id="credits">Credits</h2>
 
-This stack is shareware. Support the development of these helpful programs by paying your shareware fee.  Please pay Euro 25,- next time you see me. 
+This stack is shareware. Support the development of these helpful programs by paying your shareware fee. Please pay Euro 25,- next time you see me.
 
 All programming &copy; E.J. Broerse 04/1998 - 07/1998 - 09/1999 - 03/2000 - 04/2001 - 11/2002 - 02-2023 except
 <i>PopUpMenu XCMD</i> &copy; Individual Software, Inc. 1988.

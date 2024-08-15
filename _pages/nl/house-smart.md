@@ -44,8 +44,10 @@ HomeAssistant ondersteunt ook zgn. Add-Ons die extra functionaliteit op de Pi4 s
 - InfluxDB (om lange-termijngegevens over energieverbruik bij te houden)
 
 Met MQTT sluiten we onafhankelijke apparaten aan op HomeAssistant, zoals:
+
 - [nibepi](https://github.com/anerdins/nibepi) (om onze Nibe F1255 warmtepomp via Modbus te besturen. Dit draait op een aparte Raspberry PiZero)
-- 
+-
+
 ## Energiemonitoring
 
 Door de gegevens over ons energieverbruik te combineren met die van opwekking en de [myenergi](https://www.myenergi.com) Zappi EV-laadpaal kan ik ons totale elektraverbruik splitsen en optimaliseren. Dankzij 2 extra CT-klemmen in de meterkast kreeg ik ook veel beter zicht op de grote elektrische apparaten zoals ons AGA-fornuis.

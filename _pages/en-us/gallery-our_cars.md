@@ -30,6 +30,7 @@ Read on after the pictures.
 ## 1991: Citroen BX14
 
 My first car for just HFL 2000. We actually rode the car on our wedding day!
+
 <figure><a title="unknown, affiliated with Garage de l&#039;Est, digitally modified and uploaded by User:328cia, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Citroen_BX_14_RE_1987.jpg"><img alt="Citroen BX 14 RE 1987" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Citroen_BX_14_RE_1987.jpg/512px-Citroen_BX_14_RE_1987.jpg" class='img-fluid'></a>
 <figcaption class="kleiner">BX14 1987 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://commons.wikimedia.org/wiki/File:Citroen_BX_14_RE_1987.jpg" property="cc:attributionName" rel="cc:attributionURL">Fabien1309</a> under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>)</figcaption>
 </figure>
@@ -37,6 +38,7 @@ My first car for just HFL 2000. We actually rode the car on our wedding day!
 ## 1995: Citroen BX16
 
 After numerous repairs at the local shop, we got a chance to buy my dad's 1991 gen 2 BX. On our way to Hungary!
+
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img-noresample/our_cars/BX2_50461032637_e5e489ed56_c-680x328.jpg" | relative_url }}' alt='BX16 1991' class='img-fluid' >
@@ -96,6 +98,7 @@ Wikipedia has <a href="https://en.wikipedia.org/wiki/Pontiac_Trans_Sport">more</
 ## 2006: Chevrolet Trans Sport #2
 
 Just before the 2006 summer holidays, our 1994 Pontiac TransSport failed the Periodic Car Test. So we shopped around and found: <strong>a next generation TransSport</strong>, labeled Chevrolet in Europe since 1998.
+
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img-noresample/our_cars/11182243-3biggen-640x480.jpg" | relative_url }}' alt='TransSport &lsquo;98 schuin van voren' class='img-fluid'>
@@ -108,6 +111,7 @@ Just before the 2006 summer holidays, our 1994 Pontiac TransSport failed the Per
 </div>
 
 Here are the specs (misleadingly, stating options that weren't available till 1999):
+
 <ul>
 <li>Bouwjaar:	1998</li>
 <li>Carrosserie:	 mpv</li>
@@ -123,6 +127,7 @@ In 2009 I finally got to install working rear parking sensors with a camera. Tha
 ## 2013: Chevrolet Trans Sport #3
 
 After the fuel lines started to leak, we decided to buy a new car. Seating for 6 led to the last 2005 edition of the same Chevrolet model, equipped with Versatrak all-wheel drive.
+
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img-noresample/our_cars/IMG_6377_Transport3-565x370.jpg" | relative_url }}' alt='TransSport voorzijde' class='img-fluid' >
@@ -142,12 +147,14 @@ Two years on, sold the car for scrap in August 2017.
 ## 2017-2021: Greenwheels Up
 
 Bleek dat we helemaal geen (eigen) auto nodig hadden! Genoeg andere vormen van mobiliteit beschikbaar, als je centraal woont.
+
 <figure><img src='{{ "/assets/img-noresample/our_cars/IMG_2228_Greenwheels-565x395.jpg" | relative_url }}' alt='Volkswagen Up by Greenwheels' class='img-fluid' >
 <figcaption class="kleiner">Volkswagen Up by Greenwheels (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 ## 2021: Nissan e-NV200 "Evalia"
 
 After 3 years without owning a car, using a compact GreenWheels now and then, we moved to the countryside and found a 2014 Nissan Evalia e-nv200 full electric minivan. It is based on the Nissan Leaf and has a characteristic, Tokyo styled body. It stands out of the crowd and allowed to move 3x3 banana boxes full of stuff on the second row alone when we moved house!
+
 <figure><img src='{{ "/assets/img-noresample/our_cars/evalia2014-867x667.jpg" | relative_url }}' alt='Nissan Evalia EV' class='img-fluid'>
 <figcaption class="kleiner">Nissan Evalia EV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from <a href="https://www.muxsan.com/Nederlands/index.html">Muxsan</a> in Delft installed in the rear.

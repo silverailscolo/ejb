@@ -52,15 +52,14 @@ Draait prima op systeem 7.1; dit type accu gaat niet lang mee, maar verder doet 
 
 ### Tips:
 
-
 Maak een RAM-schijf aan, dat is sneller dan lezen van de harde schijf en het spaart stroom;<br>
 Gebruik je 'grote mac' als back-up voor bestanden (via AppleTalk kabel).<br>
 Deze Mac draait geen MacOS 7.6, wel tot en met 7.5.5.<br>
 
 ## Programma's die goed draaien:
+
 HyperCard 2.1, MS Word 4.0, WP 2.1, MacWrite II, Deneba Canvas 3.5, MacPaint, Studio/1, enz.
 Meer over de PowerBook 100 op <a href="https://everymac.com/systems/apple/powerbook/specs/mac_powerbook100.html">EveryMac.com</a>.
-
 
 ## <a id="IIcx">Macintosh IIcx</a>
 
@@ -85,7 +84,6 @@ HyperCard 2.1, MS Word 6.01, enz.
 
 Meer over de Mac IIcx op <a href="https://everymac.com/systems/apple/mac_ii/specs/mac_iicx.html">EveryMac.com</a>.
 
-
 ## <a id="Duo230">PowerBook Duo230</a>
 
 <img class='img-fluid' src='{{ "/assets/img/mac/powerbook_duo_230.png" | relative_url }}' alt="PowerBook Duo in zijn Dock">
@@ -100,6 +98,7 @@ Geproduceerd: 1992 - 1995?
 
 Lekker lichte laptop, dankzij externe floppy drive. Na 5 jaar in de tas heen en weer slepen is de accu echter op en doet het toetsenbord wat raar. Maar ja, wat wil je, we hebben er de hele prijsvraag mee gemaakt in 1994.<br>
 Kortom: veel plezier gehad van een tweedehandsje.
+
 <div class="row">
 <div class="col-sm">
   <figure><img class='img-fluid' src='{{ "/assets/img/mac/PowerBook_Duo_Dock_aventure-applecom.jpg" | relative_url }}' alt="vlak voor de dock hem inslikt">
@@ -145,7 +144,6 @@ In feite ALLES, o.a. HyperCard 2.1, MS Word 98, Office98, IE5.1, FreeHand 9 enz.
 
 Meer over de Mac Performa 5400/180 op <a href="https://everymac.com/systems/apple/mac_performa/specs/mac_performa_5400_180.html">EveryMac.com</a>.
 
-
 ## <a id="iMac233">iMac 233 Strawberry</a>
 
 <figure><img src='{{ "/assets/img/mac/imac233_121-2162.png" | relative_url }}' alt='iMac 233 all-in-one' class='img-fluid'>
@@ -154,7 +152,6 @@ Meer over de Mac Performa 5400/180 op <a href="https://everymac.com/systems/appl
 Nog sneller en compact. In mei 2000 super, later leuk voor de jongens voor educatieve CD-roms. Vrolijke kleur en iTunes begon toen, heel klein...
 
 Meer over de Candy color iMac op <a href="https://everymac.com/systems/apple/imac/specs/imac_ab.html">EveryMac.com</a>.
-
 
 ## <a id="imacg5">iMac G5 20"</a>
 
@@ -178,7 +175,6 @@ GarageBand, iPhoto, Extensis Portfolio, <a href="https://www.runrev.com/">Revolu
 
 Meer over de iMac G5 op <a href="https://everymac.com/systems/apple/imac/specs/imac_g5_1.8_20.html">EveryMac.com</a>.
 
-
 ## <a id="macmini">MacMini G4</a>
 
 <figure><img src='{{ "/assets/img/mac/macMini_Imhoff.png" | relative_url }}' alt='macMini G4 1.4' class='img-fluid'>
@@ -187,7 +183,6 @@ Draait <a href="https://www.jmri.org/releasenotes/jmri2.14.1.shtml">JMRI v 2.14.
 
 Meer over de MacMini op <a href="https://everymac.com/systems/apple/mac_mini/specs/mac_mini_g4_1.42.html">EveryMac.com</a>.
 
-
 ## <a id="imaccoreduo">iMac Core 2 Duo 20" (2007)</a>
 
 <figure><img src='{{ "/assets/img/mac/apple_imac_intel_silver.png" | relative_url }}' alt='iMac CoreDuo 20" Mid-2007' class='img-fluid'>
@@ -195,12 +190,10 @@ Meer over de MacMini op <a href="https://everymac.com/systems/apple/mac_mini/spe
 
 Meer over de iMac Core 2 Duo op <a href="https://everymac.com/systems/apple/imac/specs/imac-core-2-duo-2.4-20-inch-aluminum-specs.html">EveryMac.com</a>.
 
-
 ## <a id="imaci5">iMac i5 21" (Mid 2011)</a>
 
 Still going strong in 2023, uitgebreid naar 12 GB DDR3 RAM voor slechts &euro;27 in 2020.
 Meer over de iMac Core i5 op <a href="https://everymac.com/systems/apple/imac/specs/imac-core-i5-2.5-21-inch-aluminum-mid-2011-thunderbolt-specs.html">EveryMac.com</a>.
-
 
 ## Cambridge Z88 {#z88}
 

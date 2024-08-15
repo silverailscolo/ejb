@@ -53,6 +53,7 @@ I tried a mixed DCC/conventional DC wiring scheme. hoping to manage the switches
 <figcaption>Feeder bus under the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 
 Although it doesn't make wiring as simple as DCC can be, I decided to run 7 bus wires around the whole layout:
+
 <ol>
 <li>permanent DCC - for driving stationary decoders</li>
 <li>switched DCC/DC/off - for feeders to the tracks, with a switch on the panel for every one of 4 districts</li>

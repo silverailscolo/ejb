@@ -17,4 +17,4 @@ Have a look around, and report any - serious - hick-ups as an [Issue](https://gi
 
 ## Subscribe to my Atom (RSS-like) Feed
 
-The Atom (RSS-like) feed is reachable simply by typing ``silverailscolo.github.io/ejb/feed.xml``
+The Atom (RSS-like) feed is reachable simply by typing `silverailscolo.github.io/ejb/feed.xml`

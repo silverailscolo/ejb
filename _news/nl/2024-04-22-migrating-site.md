@@ -17,4 +17,4 @@ Kijk lekker rond, en als je een - serieus - foutje ziet kan je een [Issue](https
 
 ## Abonneer je op mijn Atom (RSS-like) Feed
 
-The Atom (RSS-like) feed is reachable simply by typing ``silverailscolo.github.io/ejb/feed.xml``
+The Atom (RSS-like) feed is reachable simply by typing `silverailscolo.github.io/ejb/feed.xml`

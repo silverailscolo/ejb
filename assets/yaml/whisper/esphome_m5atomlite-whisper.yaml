@@ -10,11 +10,11 @@ globals:
   - id: speed_set_int
     type: int
     restore_value: yes
-    initial_value: '4'
+    initial_value: "4"
   - id: automatic_co2
     type: int
     restore_value: yes
-    initial_value: '1'
+    initial_value: "1"
 
 esp32:
   board: m5stack-atom
@@ -47,25 +47,25 @@ captive_portal:
 time:
   - platform: homeassistant
     id: homeassistant_time
-    
+
 output:
   - platform: template
     # Output that blinks the LED
     id: status_output
     type: binary
     write_action:
-    - if:
-        condition:
-          lambda: return (state);
-        then:
-        - light.turn_on:
-            id: led
-            # brightness controlled by fan_speed
-            red: 100%
-            green: 100%
-            blue: 100%
-        else:
-        - light.turn_off: led
+      - if:
+          condition:
+            lambda: return (state);
+          then:
+            - light.turn_on:
+                id: led
+                # brightness controlled by fan_speed
+                red: 100%
+                green: 100%
+                blue: 100%
+          else:
+            - light.turn_off: led
   - platform: ledc
     # Fan PWM
     # Connect MOS-SIG to GPIO25, MOS-GND to GND; Whisper yellow to MOS V-, black to OUT-GND, red to OUT+10V
@@ -85,7 +85,7 @@ fan:
       # publish set speed
       - sensor.template.publish:
           id: whisper_speed_step
-          state: !lambda 'return id(whisper_fan).speed;'
+          state: !lambda "return id(whisper_fan).speed;"
     on_turn_off:
       # publish set speed
       - sensor.template.publish:
@@ -98,7 +98,7 @@ fan:
       # publish set speed
       - sensor.template.publish:
           id: whisper_speed_step
-          state: !lambda 'return id(whisper_fan).speed;'
+          state: !lambda "return id(whisper_fan).speed;"
       # set brightness
       - lambda: |-
           // adjust brightness for any speed change
@@ -129,7 +129,7 @@ binary_sensor:
   - platform: gpio
     # GPIO39 = Atom Button
     # co2_measurement determines color of led
-    # fan speed determines led intensity 
+    # fan speed determines led intensity
     name: Atom Button
     pin:
       number: GPIO39
@@ -154,7 +154,7 @@ binary_sensor:
         - lambda: |-
             // Atom led brightness is updated in fan block
             id(whisper_fan).speed = id(speed_set_int);
-            // ESP_LOGD("ATOM", "Whisper ingesteld: %d. Fan snelheid: %d.", id(speed_set_int), id(whisper_fan).speed);     
+            // ESP_LOGD("ATOM", "Whisper ingesteld: %d. Fan snelheid: %d.", id(speed_set_int), id(whisper_fan).speed);
 
 sensor:
   - platform: pulse_counter # -meter too many data points
@@ -167,7 +167,7 @@ sensor:
       mode:
         input: true
         pullup: true
-    unit_of_measurement: 't/min'
+    unit_of_measurement: "t/min"
     state_class: measurement
     device_class: speed
     internal_filter: 5us
@@ -189,8 +189,8 @@ sensor:
       - round: 0
   - platform: homeassistant
     id: co2_measurement # this is the ID for a new local sensor, and copies:
-    entity_id: sensor.healthy_home_coach_netatmo_carbon_dioxide_sensor  # this points to the front end (Netatmo) entity
-    unit_of_measurement: 'ppm'
+    entity_id: sensor.healthy_home_coach_netatmo_carbon_dioxide_sensor # this points to the front end (Netatmo) entity
+    unit_of_measurement: "ppm"
     filters:
       - round: 0
     on_value_range: # next block to match thresholds in switch.automatic_co2 block below
@@ -302,7 +302,7 @@ sensor:
               blue: 50%
           #- logger.log: WARNING CO2 > 1300 ppm
 
-# Power 
+# Power
 switch:
   - platform: template
     id: fan_low
@@ -348,30 +348,29 @@ switch:
       }
     turn_on_action:
       then:
-      - fan.turn_on:
-          id: whisper_fan
-      - lambda: |-
-          id(automatic_co2) = 1;
-          // next block to match thresholds in sensor.co2_measurement block above
-          ESP_LOGD("ATOM", "Whisper Auto ON, CO2: %d", id(co2_measurement).state);
-          if (id(co2_measurement).state > 1300) {
-            id(speed_set_int) = 8;
-          } else if (id(co2_measurement).state > 800.0){
-            id(speed_set_int) = 7;
-          } else if (id(co2_measurement).state > 700.0){
-            id(speed_set_int) = 6;
-          } else if (id(co2_measurement).state > 600.0){
-            id(speed_set_int) = 5;
-          } else if (id(co2_measurement).state > 450.0){
-            id(speed_set_int) = 4;
-          } else if (id(co2_measurement).state > 350.0){
-            id(speed_set_int) = 3;
-          } else {
-            id(speed_set_int) = 0;
-          }
-          id(whisper_fan).speed = id(speed_set_int);
+        - fan.turn_on:
+            id: whisper_fan
+        - lambda: |-
+            id(automatic_co2) = 1;
+            // next block to match thresholds in sensor.co2_measurement block above
+            ESP_LOGD("ATOM", "Whisper Auto ON, CO2: %d", id(co2_measurement).state);
+            if (id(co2_measurement).state > 1300) {
+              id(speed_set_int) = 8;
+            } else if (id(co2_measurement).state > 800.0){
+              id(speed_set_int) = 7;
+            } else if (id(co2_measurement).state > 700.0){
+              id(speed_set_int) = 6;
+            } else if (id(co2_measurement).state > 600.0){
+              id(speed_set_int) = 5;
+            } else if (id(co2_measurement).state > 450.0){
+              id(speed_set_int) = 4;
+            } else if (id(co2_measurement).state > 350.0){
+              id(speed_set_int) = 3;
+            } else {
+              id(speed_set_int) = 0;
+            }
+            id(whisper_fan).speed = id(speed_set_int);
     turn_off_action:
       then:
-      - lambda: |-
-          id(automatic_co2) = 0;
-      
+        - lambda: |-
+            id(automatic_co2) = 0;

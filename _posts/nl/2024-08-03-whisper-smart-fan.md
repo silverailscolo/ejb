@@ -24,7 +24,7 @@ Omdat we toch graag frisser slapen, is warmteterugwinning hier ook niet zo nutti
 - Een [IRF520 MOSFET breakout](https://www.tinytronics.nl/nl/schakelaars/mosfet's/irf520-breakout-module) om het PWM-signaal van de Atom te versterken naar 10V= voor de ventilator
 - [HomeAssistant](https://www.home-assistant.io) met [ESPHome Add-on](https://esphome.io/guides/getting_started_hassio) IDE om de code op de Atom te installeren en de gegevens te bekijken
 - Automatiseringen op de Atom Lite (ESP32), ingesteld met ESPHome, die reageren op
-- CO<sub>2</sub>-sensor met integratie in HomeAssistant, bijv. [Netatmo Healthy Home Coach](https://shop.netatmo.com/nl-nl/aircare/home-coach/homecoach) (kan via HomeAssistant met de  [HomeKit Bridge](https://www.home-assistant.io/integrations/homekit) ook nog in Apple HomeKit verschijnen. Andersom - via HomeKit in HomeAssistant - kan niet)
+- CO<sub>2</sub>-sensor met integratie in HomeAssistant, bijv. [Netatmo Healthy Home Coach](https://shop.netatmo.com/nl-nl/aircare/home-coach/homecoach) (kan via HomeAssistant met de [HomeKit Bridge](https://www.home-assistant.io/integrations/homekit) ook nog in Apple HomeKit verschijnen. Andersom - via HomeKit in HomeAssistant - kan niet)
 
 ### CO<sub>2</sub> meten
 
@@ -78,7 +78,7 @@ Ik hab vanaf de ventilator 2x2 draadjes uit een UTP-kabel gebruikt om de Atom te
 
 Na installatie geeft de kleur van de Lite de CO<sub>2</sub>-waarde weer (groen < 500, rood > 800). De helderheid van de led geeft de snelheid van de ventilator aan: hoe sneller hoe feller. Klik je op de knop, dan gaat de ventilator op Manual en 1 stapje harder. Na 80% gaat hij bij het volgende klikje op Automatisch, en daarna op 10% = Uit.
 
-### Code voor Atom Lite 
+### Code voor Atom Lite
 
 Download de [yaml code]({{ "/assets/yaml/whisper/esphome_m5atomlite-whisper.yaml" | relative_url }}) en installeer die op de M5Stack Atom Lite (ESP32) via de HomeAssistant ESPHome IDE. Als je de Atom Lite voor het eerst gebruikt, ga dan eerst in de Chromebrowser naar [ESPhome Web](https://web.esphome.io/?dashboard_wizard), sluit via de USB-kabel de Atom aan op je computer, klik op Connect en dan op je USB-poort.
 
@@ -97,6 +97,7 @@ Download de [yaml code]({{ "/assets/yaml/whisper/esphome_m5atomlite-whisper.yaml
 De essentie van de ESP32 configuratie bestaat uit:
 
 Basis-instellingen:
+
 ```
 esphome:
   name: m5atomlite-whisper
@@ -119,6 +120,7 @@ esp32:
 ```
 
 Een speed_fan object aanmaken:
+
 ```
 fan:
   - platform: speed
@@ -155,6 +157,7 @@ fan:
 ```
 
 Een PWM output aanmaken om de snelheid van de fan met PWM te sturen:
+
 ```
 output:
   - platform: ledc
@@ -168,6 +171,7 @@ output:
 ```
 
 Een knop (switch) voor de automatische stand:
+
 ```
 switch:
   - platform: template
@@ -210,6 +214,7 @@ switch:
 ```
 
 Een sensor om de gegevens van de CO<sub>2</sub>-sensor uit HomeAssistant naar de ESP32 kopiëren:
+
 ```
 sensor:
   - platform: homeassistant
@@ -264,9 +269,11 @@ sensor:
               blue: 50%
           #- logger.log: WARNING CO2 > 1300 ppm
 ```
+
 Als de ventilator op Automatisch staat, checkt deze code de snelheid van de ventilator bij elke nieuwe CO<sub>2</sub>-meting uit de slaapkamer en past ook de kleur van de LED aan (van groen = schoon naar bruin = vuil).
 
-Een sensor die als toerenteller informatie geeft over de werkelijke snelheid van de Whisper ventilator (3 pulsen per omwenteling, vandaar *0.33 filter):
+Een sensor die als toerenteller informatie geeft over de werkelijke snelheid van de Whisper ventilator (3 pulsen per omwenteling, vandaar \*0.33 filter):
+
 ```
 sensor:
   - platform: pulse_counter # -meter too many data points
@@ -286,6 +293,7 @@ sensor:
       - multiply: 0.33 # (3 ticks per revolution as per Whisper Gold manual)
       - round: 0
 ```
+
 ### Home Assistant instellingen
 
 Voeg in HomeAssistant in de Code-editor modus van een nieuw Dashboard deze [yaml code](assets/yaml/whisper/homeassistant_whisper_dashboard.yaml) toe om een dashboard voor de bediening van je fan te maken.
