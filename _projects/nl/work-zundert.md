@@ -13,7 +13,7 @@ category: work
 
 Periode: 2013
 
-Role: ontwerpleider, architect
+Rol: ontwerpleider, architect
 
 <div class="card mx-auto mb-3 p-3">
 <div class="col-sm mt-3 mt-md-0">
