@@ -1067,132 +1067,134 @@ onMouseUp="togglepop(event,94);">
 <a href="#" id="clearAll">Deselect all</a>
 
 <ol id="plantlijst">
-<li class="plant" data-id="1">Aalbes (ribes)</li>
-<li class="plant" data-id="2">Akant (acanthus mollis)</li>
-<li class="plant" data-id="3">Akelei (aquilegia vulgaris)</li>
-<li class="plant" data-id="4">Amberboom (Liquidambar styraciflua)</li>
-<li class="plant" data-id="5">Anijsnetel (agastache)</li>
-<li class="plant" data-id="6">Anijsnetel, dropplant (achastache Black Adder)</li>
-<li class="plant" data-id="7">Appel (Malus domestica)</li>
-<li class="plant" data-id="8">Aster (aster purple dome)</li>
-<li class="plant" data-id="9">Ballonklokje (platycodon grandiflorus mariesii)</li>
-<li class="plant" data-id="10">Bamboe (Barbusa Phyllost. Autea)</li>
-<li class="plant" data-id="11">Beukenhaag (Fagus sylvatica)</li>
-<li class="plant" data-id="12">Bevertjes-/trilgras (briza media)</li>
-<li class="plant" data-id="13">Bieslook (allium schoenoprasum)</li>
-<li class="plant" data-id="14">Bieslook (allium senescens)</li>
-<li class="plant" data-id="15">Blaasspirea (physocarpus opulifolius little angel)</li>
-<li class="plant" data-id="16">Boerenjasmijn (Philadelphus coronarius)</li>
-<li class="plant" data-id="17">Bonenkruid (saturea montana)</li>
-<li class="plant" data-id="18">Brandkruid (phlomis tuberose amazone)</li>
-<li class="plant" data-id="19">Bruidsbloem (deutzia)</li>
-<li class="plant" data-id="20">Chinees klokje (Forsythia)</li>
-<li class="plant" data-id="21">Citroenmelisse (melissa officinalis)</li>
-<li class="plant" data-id="22">Daslook (Allium ursinum)</li>
-<li class="plant" data-id="23">Duifkruid, schurftkruid (scabiosa columbaria butterfly blue)</li>
-<li class="plant" data-id="24">Duizendblad (achillea terracotta)</li>
-<li class="plant" data-id="25">Duizendknoop rood (persicaria amplexicaulis speciosa)</li>
-<li class="plant" data-id="26">Duizendknoop roze (persicaria bistorta)</li>
-<li class="plant" data-id="27">Echte salie (salvia officinalis)</li>
-<li class="plant" data-id="28">Eikenbladhortensia (hydrangea quercifolia)</li>
-<li class="plant" data-id="29">Ereprijs (veronica spicata Ulster blue dwarf)</li>
+<li class="plant" data-id="1">Currant (Ribes)</li>
+<li class="plant" data-id="2">Acanthus (Acanthus mollis)</li>
+<li class="plant" data-id="3">Columbine (Aquilegia vulgaris)</li>
+<li class="plant" data-id="4">Amber tree (Liquidambar styraciflua)</li>
+<li class="plant" data-id="5">Agastache</li>
+<li class="plant" data-id="6">Anice plant (agastache Black Adder)</li>
+<li class="plant" data-id="7">Apple (Malus domestica)</li>
+<li class="plant" data-id="8">Aster (Aster novae-angliae 'Purple Dome')</li>
+<li class="plant" data-id="9">Ballon flowers (Platycodon grandiflorus mariesii)</li>
+<li class="plant" data-id="10">Bamboo (Barbusa Phyllost. Autea)</li>
+<li class="plant" data-id="11">Beech hedge (Fagus sylvatica)</li>
+<li class="plant" data-id="12">Grass (Briza media)</li>
+<li class="plant" data-id="13">Chive (Allium schoenoprasum)</li>
+<li class="plant" data-id="14">Chive (Allium senescens)</li>
+<li class="plant" data-id="15">Common ninebark (Physocarpus opulifolius little angel)</li>
+<li class="plant" data-id="16">Mock orange (Philadelphus coronarius)</li>
+<li class="plant" data-id="17">winter savory/mountain savory (Satureja montana)</li>
+<li class="plant" data-id="18">Jerusalem sage (Phlomis tuberosa amazone)</li>
+<li class="plant" data-id="19">Japanese snow flower (Deutzia gracilis)</li>
+<li class="plant" data-id="20">Forsythia</li>
+<li class="plant" data-id="21">Lemon balm (Melissa officinalis)</li>
+<li class="plant" data-id="22">Wild garlic/cowleekes/Eurasian wild garlic/Bear's garlic (Allium ursinum)</li>
+<li class="plant" data-id="23">Scabious (Scabiosa columbaria butterfly blue)</li>
+<li class="plant" data-id="24">Yarrow (Achillea terracotta)</li>
+<li class="plant" data-id="25">Knotweed red (Persicaria amplexicaulis speciosa)</li>
+<li class="plant" data-id="26">Knotweed pink (Persicaria bistorta)</li>
+<li class="plant" data-id="27">Sage (Salvia officinalis)</li>
+<li class="plant" data-id="28">Oak-leaved hydrangea (Hydrangea quercifolia)</li>
+<li class="plant" data-id="29">Spiked speedwell (Veronica spicata Ulster blue dwarf)</li>
 <li class="plant" data-id="30">Fuchsia ()</li>
-<li class="plant" data-id="31">Gamander (Teucrium chamaedrys)</li>
-<li class="plant" data-id="32">Gele zonnehoed (rudbeckia fulgida 'Goldsturm')</li>
-<li class="plant" data-id="33">Geranium hoog (geranium rose Clair (moon?))</li>
-<li class="plant" data-id="34">Gewone vlier (sambucus nigra)</li>
-<li class="plant" data-id="35">Ginkgo (Ginkgo biloba)</li>
-<li class="plant" data-id="36">Herfstanemone (anemone hybrida honorine jobert)</li>
-<li class="plant" data-id="37">Hortensia (hydrangea bodensee)</li>
-<li class="plant" data-id="38">Hortensia (hydrangea grandiflora)</li>
-<li class="plant" data-id="39">Hortensia (hydrangea macrophylla)</li>
-<li class="plant" data-id="40">Hortensia (hydrangea petiolaris)</li>
-<li class="plant" data-id="41">Japanse esdoorn (Acer Japonicum)</li>
-<li class="plant" data-id="42">Japanse hulst (ilex crenata)</li>
-<li class="plant" data-id="43">Japanse hulst bol (ilex crenata bol)</li>
-<li class="plant" data-id="44">Japanse kornoelje (Cornus kousa)</li>
-<li class="plant" data-id="45">Japanse sneeuwbal (viburnum plicatum)</li>
-<li class="plant" data-id="46">Kattenkruid (nepeta sibirica)</li>
-<li class="plant" data-id="47">Kattenkruid 6 hills (nepeta six hills giant)</li>
-<li class="plant" data-id="48">Kerstroos (helleborus)</li>
-<li class="plant" data-id="49">Kleine pimpernel, Sorbenkruid, Bloedkruid (sanguisorba minor)</li>
-<li class="plant" data-id="50">Knoflookbieslook (allium tuberosum)</li>
-<li class="plant" data-id="51">Kogeldistel (echinops)</li>
-<li class="plant" data-id="52">Lampenpoetsergras (pennisetum alopecuroides Hameln)</li>
-<li class="plant" data-id="53">Laurier (laurus nobilis)</li>
-<li class="plant" data-id="54">Lavendel (lavendel)</li>
-<li class="plant" data-id="55">Leilaurier (prunus leiboom)</li>
-<li class="plant" data-id="56">Leipeer ()</li>
-<li class="plant" data-id="57">Leliegras (liriope)</li>
-<li class="plant" data-id="58">Leverkruid, koninginnekruid (eupatorium)</li>
-<li class="plant" data-id="59">Lobelia (lobelia fulgens queen victoria )</li>
-<li class="plant" data-id="60">Loodkruid (Ceratostigma )</li>
-<li class="plant" data-id="61">Lupine (lupino the governor)</li>
-<li class="plant" data-id="62">Maggiplant (levisticum officinalis)</li>
-<li class="plant" data-id="63">Magnolia/Beverboom (Magnolia butterflies)</li>
-<li class="plant" data-id="64">Malve, kaasjeskruid (malva sylvestris primley blue)</li>
-<li class="plant" data-id="65">Meidoorn ()</li>
-<li class="plant" data-id="66">Meisjesogen (coreopsis verticillata moonbeam)</li>
-<li class="plant" data-id="67">Montbretia (lissenfamie) (crocosmia Lucifer)</li>
-<li class="plant" data-id="68">Munt (mentha spicata)</li>
-<li class="plant" data-id="69">Muurbloem (erysimum)</li>
-<li class="plant" data-id="70">Narcis, hyacint, tulp (bollen) in gras</li>
-<li class="plant" data-id="71">Ooievaarsbek (geranium macrorrhizum)</li>
-<li class="plant" data-id="72">Ooievaarsbek (geranium sylvaticum Mayflower)</li>
-<li class="plant" data-id="73">Oregano (origanum vulgare)</li>
-<li class="plant" data-id="74">Paarse besjes (Callicarpa bodinieri 'Profusion')</li>
-<li class="plant" data-id="75">Pampasgras (cortaderia )</li>
-<li class="plant" data-id="76">Pepermunt (mentha x piperita)</li>
-<li class="plant" data-id="77">Peterselie (petroselinum crispum)</li>
-<li class="plant" data-id="78">Phlox/Vlambloem (phlox paniculata starshine)</li>
-<li class="plant" data-id="79">Pijpestrootje (molinia caerulea)</li>
-<li class="plant" data-id="80">Portugese laurier (prunus lusitanica)</li>
-<li class="plant" data-id="81">Prachtkaars butterfly. (gaura lindheimeri whirling butterflies)</li>
-<li class="plant" data-id="82">Prachtkaars pink (gaura lindheimeri siskiyou pink)</li>
-<li class="plant" data-id="83">Prachtriet (miscanthus sinensis Red Cloud)</li>
-<li class="plant" data-id="84">Purperklokje (heuchera)</li>
-<li class="plant" data-id="85">Rhodo (rhododendron groot)</li>
-<li class="plant" data-id="86">Toverhazelaar (hamamelis intermedia Foxy Lady)</li>
-<li class="plant" data-id="87">Rhodo kl. (rhodondendron klein)</li>
-<li class="plant" data-id="88">Rode kornoelje (Cornus alba 'Sibirica')</li>
-<li class="plant" data-id="89">Rode zonnehoed (echinacea wildberry)</li>
-<li class="plant" data-id="90">Roze Duizendknoop (persicaria amplexicausis Pink Elephant)</li>
-<li class="plant" data-id="91">Ruwe smele (gras) (deschampsia cespitosa)</li>
-<li class="plant" data-id="92">Salie (salvia)</li>
-<li class="plant" data-id="93">Salie Hotlips (salvia mycrophylla Hot Lips)</li>
-<li class="plant" data-id="94">Salie Ostfriesl. (salvia nemorosa ostfriesland)</li>
-<li class="plant" data-id="95">Schildpadbloem (penstemon garnet)</li>
-<li class="plant" data-id="96">Schout-bij-nacht (rodgersia pinnata superba)</li>
-<li class="plant" data-id="97">Sering (Syringa patula 'Miss Kim')</li>
-<li class="plant" data-id="98">Skimmia (Skimmia japonica)</li>
-<li class="plant" data-id="99">Smalbladige olijfwilg (elaeagnus angustifolia)</li>
-<li class="plant" data-id="100">Struisgras/-riet (calamagrostis acutiflora karl foerster)</li>
-<li class="plant" data-id="101">Taxus (Taxus)</li>
-<li class="plant" data-id="102">Thijm (thymus vulgaris)</li>
-<li class="plant" data-id="103">Tongkruiskruid (ligularia przewalskii)</li>
-<li class="plant" data-id="104">Varen (varens diverse)</li>
-<li class="plant" data-id="105">Vederdistel, beekdistel (cirsium rivulare 'atropurpureum')</li>
-<li class="plant" data-id="106">Vedergras (stipa tenuissima ponytail)</li>
-<li class="plant" data-id="107">Venkel (foeniculum vulgare)</li>
-<li class="plant" data-id="108">Verbena (verbena)</li>
-<li class="plant" data-id="109">Verbena (Verbena Bonariensis)</li>
-<li class="plant" data-id="110">Vetkruid, hemelseutel (sedum spectabile Herbsfreude)</li>
-<li class="plant" data-id="111">Vijg (Ficus carcia)</li>
-<li class="plant" data-id="112">Vlinderstruik (Buddleja)</li>
-<li class="plant" data-id="113">Vuurpijl (kniphofia)</li>
-<li class="plant" data-id="114">Wederik (lysimachia clethroides)</li>
-<li class="plant" data-id="115">Wijnruit (ruta graveolens)</li>
-<li class="plant" data-id="116">Wolfsmelk (euphorbia amygdaloides)</li>
-<li class="plant" data-id="117">Wolfsmelk (euphorbia polychroma purpurea)</li>
-<li class="plant" data-id="118">Zonnehoed paars (echinacea purperea)</li>
-<li class="plant" data-id="119">Zonnekruid (helenium moerheim beauty)</li>
-<li class="plant" data-id="120">Zonneogen (heliopsis)</li>
-<li class="plant" data-id="121">Zwarte bamboe (bamboe nigra)</li>
+<li class="plant" data-id="31">Wall germander (Teucrium chamaedrys)</li>
+<li class="plant" data-id="32">Black-eyed Susan (Rudbeckia fulgida 'Goldsturm')</li>
+<li class="plant" data-id="33">Cranesbill (Geranium rose Clair (moon?))</li>
+<li class="plant" data-id="34">Elder (Sambucus nigra f. porphyrophylla 'Eva')</li>
+<li class="plant" data-id="35">Maidenhair tree (Ginkgo biloba)</li>
+<li class="plant" data-id="36">Japanese anemone (Anemone x hybrida 'Honorine Jobert')</li>
+<li class="plant" data-id="37">Hydrangea 'Bodensee'</li>
+<li class="plant" data-id="38">Hydrangea grandiflora</li>
+<li class="plant" data-id="39">Hydrangea macrophylla</li>
+<li class="plant" data-id="40">Hydrangea petiolaris</li>
+<li class="plant" data-id="41">Japanese maple (Acer japonicum)</li>
+<li class="plant" data-id="42">Japanese holly (Ilex crenata)</li>
+<li class="plant" data-id="43">Japanese holly ball (Ilex crenata bol)</li>
+<li class="plant" data-id="44">Japanese cornel (Cornus kousa)</li>
+<li class="plant" data-id="45">Japanese snowball (Viburnum plicatum)</li>
+<li class="plant" data-id="46">Catmint (Nepeta sibirica)</li>
+<li class="plant" data-id="47">Catmint (Nepeta 'Six Hills Giant')</li>
+<li class="plant" data-id="48">Hellebore (Helleborus)</li>
+<li class="plant" data-id="49">Burnet (Sanguisorba minor)</li>
+<li class="plant" data-id="50">Garlic chives/Oriental garlic/Asian chives/Chinese leek (Allium tuberosum)</li>
+<li class="plant" data-id="51">Globe thistle (Echinops ritro subsp. ruthenicus)</li>
+<li class="plant" data-id="52">Chinese fountain grass (Pennisetum alopecuroides Hameln)</li>
+<li class="plant" data-id="53">Bay (Laurus nobilis)</li>
+<li class="plant" data-id="54">Lavender (Lavendula)</li>
+<li class="plant" data-id="55">Bay laurel tree (Laurus nobilis)</li>
+<li class="plant" data-id="56">Espalier pear (Pyrus)</li>
+<li class="plant" data-id="57">Lily turf (Liriope muscari)</li>
+<li class="plant" data-id="58">Double-flowered hemp agrimony (Eupatorium cannabinum f. cannabinum)</li>
+<li class="plant" data-id="59">Lobelia (Lobelia fulgens Queen Victoria )</li>
+<li class="plant" data-id="60">Leadwort/Plumbago (Ceratostigma )</li>
+<li class="plant" data-id="61">Lupin (Lupino 'the governor')</li>
+<li class="plant" data-id="62">Lovage (Levisticum officinalis)</li>
+<li class="plant" data-id="63">Magnolia (Magnolia butterflies)</li>
+<li class="plant" data-id="64">Mallow (Malva sylvestris var. mauritiana 'Primley Blue')</li>
+<li class="plant" data-id="65">Hawthorn (Crataegus)</li>
+<li class="plant" data-id="66">Tickseed (Coreopsis verticillata 'Moonbeam')</li>
+<li class="plant" data-id="67">Montbretia (Crocosmia 'Lucifer')</li>
+<li class="plant" data-id="68">Mint (Mentha spicata)</li>
+<li class="plant" data-id="69">Wallflower (Erysimum)</li>
+<li class="plant" data-id="70">Narcissus, hyacinth, tulip (bulbs) in lawn</li>
+<li class="plant" data-id="71">Cranesbill (Geranium macrorrhizum)</li>
+<li class="plant" data-id="72">Cranesbill (Geranium sylvaticum 'Mayflower')</li>
+<li class="plant" data-id="73">Oregano (Origanum vulgare 'Compactum')</li>
+<li class="plant" data-id="74">Beautyberry (Callicarpa bodinieri var. giraldii 'Profusion')</li>
+<li class="plant" data-id="75">Pampas grass (Cortaderia selloana)</li>
+<li class="plant" data-id="76">Peppermint (Mentha x piperita)</li>
+<li class="plant" data-id="77">Parsley (Petroselinum crispum)</li>
+<li class="plant" data-id="78">Phlox (Phlox paniculata 'Starshine')</li>
+<li class="plant" data-id="79">Purple moor-grass (Molinia caerulea)</li>
+<li class="plant" data-id="80">Portugal laurel (Prunus lusitanica)</li>
+<li class="plant" data-id="81">Gaura (Oenothera lindheimeri 'Whirling Butterflies')</li>
+<li class="plant" data-id="82">Gaura (Oenothera lindheimeri 'Siskiyou Pink')</li>
+<li class="plant" data-id="83">Eulalia (Miscanthus sinensis 'Red Cloud')</li>
+<li class="plant" data-id="84">Alum root (Heuchera 'Sparkling Burgundy')</li>
+<li class="plant" data-id="85">Rhodo L (Rhododendron large)</li>
+<li class="plant" data-id="86">Witch hazel (Hamamelis x intermedia 'Foxy Lady')</li>
+<li class="plant" data-id="87">Rhodo S (Rhodondendron small)</li>
+<li class="plant" data-id="88">Red osier dogwood (Cornus alba 'Sibirica')</li>
+<li class="plant" data-id="89">Coneflower (Echinacea purpurea 'Wildberry')</li>
+<li class="plant" data-id="90">Red bistort (Persicaria amplexicaulis 'Pink Elephant')</li>
+<li class="plant" data-id="91">Tufted hair grass (Deschampsia cespitosa)</li>
+<li class="plant" data-id="92">Sage (salvia)</li>
+<li class="plant" data-id="93">Sage Hotlips (Salvia mycrophylla 'Hot Lips')</li>
+<li class="plant" data-id="94">Balkan clary (Salvia nemorosa 'Ostfriesland')</li>
+<li class="plant" data-id="95">Penstemon (Penstemon 'Garnet')</li>
+<li class="plant" data-id="96">Rodgersia (Rodgersia pinnata 'Superba')</li>
+<li class="plant" data-id="97">Lilac (Syringa patula 'Miss Kim')</li>
+<li class="plant" data-id="98">Japanese skimmia (Skimmia japonica)</li>
+<li class="plant" data-id="99">Russian olive (Elaeagnus angustifolia)</li>
+<li class="plant" data-id="100">Feather reed grass (Calamagrostis acutiflora 'Karl Foerster')</li>
+<li class="plant" data-id="101">Common yew (Taxus baccata)</li>
+<li class="plant" data-id="102">Common thyme (Thymus vulgaris)</li>
+<li class="plant" data-id="103">Przewalski's golden ray (Ligularia przewalskii)</li>
+<li class="plant" data-id="104">Ferns (varens diverse)</li>
+<li class="plant" data-id="105">Plume thistle (Cirsium rivulare 'Atropurpureum')</li>
+<li class="plant" data-id="106">Feather grass  (Stipa tenuissima ponytail)</li>
+<li class="plant" data-id="107">Common fennel (Foeniculum vulgare)</li>
+<li class="plant" data-id="108">Vervain (Verbena)</li>
+<li class="plant" data-id="109">Vervain (Verbena bonariensis)</li>
+<li class="plant" data-id="110">Stonecrop (Sedum spectabile 'Autumn Joy')</li>
+<li class="plant" data-id="111">Fig (Ficus carica)</li>
+<li class="plant" data-id="112">Butterfly bush (Buddleja)</li>
+<li class="plant" data-id="113">Red-hot poker (Kniphofia)</li>
+<li class="plant" data-id="114">Gooseneck loosestrife (Lysimachia clethroides)</li>
+<li class="plant" data-id="115">Rue/Herb-of-grace (Ruta graveolens)</li>
+<li class="plant" data-id="116">Spurge (Euphorbia amygdaloides)</li>
+<li class="plant" data-id="117">Spurge (Euphorbia polychroma purpurea)</li>
+<li class="plant" data-id="118">Purple coneflower (Echinacea purperea)</li>
+<li class="plant" data-id="119">Sneezeweed (Helenium 'Moerheim beauty')</li>
+<li class="plant" data-id="120">False sunflower (Heliopsis)</li>
+<li class="plant" data-id="121">Henon bamboo (Phyllostachys nigra)</li>
 <li class="plant" data-id="122">n.t.b.</li>
 </ol>
 </div>
 
 </div><!-- end of row -->
+
+More on these and other varieties at [RHS.org.uk](https://www.rhs.org.uk/)
 
 <!-- simply so (by Jimmy_Xiao) -->
 
