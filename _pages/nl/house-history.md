@@ -29,7 +29,7 @@ Over ons huis en haar bewoners sinds 1917
 
 Kaartclub Brink 10 jaar
 
-<img src={{ "/assets/img/house/history/Brink 10 jaar kaartclub groep 1392x860.jpg" | relative_url }} usemap="#kaartclub-map">
+<figure><img src='{{ "/assets/img/house/history/Brink 10 jaar kaartclub groep 1392x860.jpg" | relative_url }}' alt="Groepsfoto Uitje Kaartclub 10 jaar" class='img-fluid' usemap="#kaartclub-map"><figcaption class="kleiner">Groepsfoto Uitje Kaartclub 10 jaar</figcaption></figure>
 
 <map name="kaartclub-map">
 <!— rij 3 —>
