@@ -367,10 +367,15 @@ imagemagick:
     - assets/img/
   input_formats:
     - ".jpg"
+    - ".JPG"
     - ".jpeg"
+    - ".JPEG"
     - ".png"
+    - ".PNG"
     - ".tiff"
+    - ".TIFF"
     - ".gif"
+    - ".GIF"
   output_formats:
     webp: "-quality 85"
 
@@ -494,11 +499,11 @@ jsonresume:
   - references
 
 mini_magick:
-  imgnoresample:
+  imgnoresample: # galleries
     source: assets/img-noresample
     destination: assets/thumbnails
     resize: "150x150"
-  img:
+  img: # jimmy lightgalleries
     source: assets/img
     destination: assets/thumbnails
     resize: "100x100"
@@ -511,7 +516,6 @@ exiftag:
     - assets/img/house/ms15/attic
     - assets/img/mac
     - assets/img/trains2
-    - assets/img/trains2/roster
     - assets/img/tuin
     - assets/img-noresample
     - assets/img-noresample/astyle

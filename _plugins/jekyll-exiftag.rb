@@ -25,7 +25,7 @@
 #    - photos
 #    - photos/other_source
 #
-# These paths are relative to your sites root. Don't add leading and trailing slashes.
+# These paths are relative to your site's root. Don't add leading and trailing slashes.
 #
 # Example tags (you can nest tags, putting . between each)
 
@@ -91,6 +91,24 @@ module Jekyll
             copy = $copyright
           end
           return copy.force_encoding("UTF-8")
+        end
+
+        if (tag == "datetime" or tag == "date" or tag == "time")
+          dt = exif[:"date_time_original"]
+          if dt == nil
+            dt = exif[:"create_date"]
+            if dt == nil
+              dt = File.new(img).birthtime # Ruby File function
+            end
+          end
+          # Jekyll.logger.info "Exiftag/exiftool fetched tag #{tag} for image #{img}: #{dt}"
+          if (tag == "datetime")
+            return dt
+          elif (tag == "date")
+            return dt.split(" ")[0]
+          else # time
+            return dt.split(" ")[1]
+          end
         end
 
         if (tag == "caption-cascade")

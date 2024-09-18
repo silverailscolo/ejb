@@ -28,12 +28,16 @@ layout: default
   <section id="more">
     <div class="row">
       <div class="col-sm">
-        {% if page.previous %}{% assign previous = page.previous %}{% else %}{% assign previous = site.rollingstock[0] %}{% endif %}
+        {% if page.previous %}
+          {% assign previous = page.previous %}
+        {% else %}
+          {% assign previous = site.rollingstock[0] %}
+        {% endif %}
         <div class="left">
           <a
             class="equalize"
             href="{{site.baseurl}}{{previous.url}}"
-            title="{{ site.data[site.active_lang].strings.rollingstock.prev-item }}: {{previous.id}}"
+            title="{{ site.data[site.active_lang].strings.rollingstock.prev-item }}: {{previous.title}}"
           >
             <div>
               ← {{ site.data[site.active_lang].strings.rollingstock.prev-item }}
@@ -43,14 +47,19 @@ layout: default
         </div>
       </div>
       <div class="col-sm">
-        {% if page.next %}{% assign next = page.next %}{% else %}{% comment %}As the array index starts at zero we subtract 1 from the total count, we
-        then get the last item index in the site.rollingstock array{% endcomment %}{% assign lastRosterIndex = site.rollingstock | size | minus: 1 %}
-        {% assign next = site.rollingstock[lastRosterIndex] %}{% endif %}
+        {% if page.next %}
+          {% assign next = page.next %}
+        {% else %}
+          {% comment %}As the array index starts at zero we subtract 1 from the total count, we
+          then get the last item index in the site.rollingstock array{% endcomment %}
+          {% assign lastRosterIndex = site.rollingstock | size | minus: 1 %}
+          {% assign next = site.rollingstock[lastRosterIndex] %}
+        {% endif %}
         <div class="right">
           <a
             class="equalize"
             href="{{site.baseurl}}{{next.url}}"
-            title="{{ site.data[site.active_lang].strings.rollingstock.next-item }}: {{next.id}}"
+            title="{{ site.data[site.active_lang].strings.rollingstock.next-item }}: {{next.title}}"
           >
             <div>
               {{ site.data[site.active_lang].strings.rollingstock.next-item }} →
