@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page-id: locoio_inverter
+page_id: locoio_inverter
 title: "Build a LocoIO Inverter"
 date: "2015-01-07"
 categories:

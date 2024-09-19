@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: windowdrama
+page_id: windowdrama
 title: Puimis&egrave;re
 date: 2002-05-25
 tags:

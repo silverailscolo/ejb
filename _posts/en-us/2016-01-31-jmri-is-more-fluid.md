@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page-id: jmri
+page_id: jmri
 title: "JMRI is more fluid"
 date: "2016-01-31"
 categories:

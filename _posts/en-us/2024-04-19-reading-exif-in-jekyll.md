@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page-id: exiftools
+page_id: exiftools
 title: Reading EXIF tags in Jekyll with exiftools
 date: 2024-04-19
 tags:

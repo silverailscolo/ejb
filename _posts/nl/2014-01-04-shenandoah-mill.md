@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: lodoremine
+page_id: lodoremine
 title: "Lodore Mill en kabelbaan"
 date: "2014-01-04"
 description: Model geplaatst

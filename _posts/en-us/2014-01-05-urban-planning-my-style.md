@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page-id: planning
+page_id: planning
 title: "Urban planning theory, my style"
 date: "2014-01-05"
 categories:

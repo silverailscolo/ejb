@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: chalkpaint
+page_id: chalkpaint
 title: "Kalkverf"
 date: "2023-03-31"
 categories:

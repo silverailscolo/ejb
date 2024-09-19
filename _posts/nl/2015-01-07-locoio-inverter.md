@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: locoio_inverter
+page_id: locoio_inverter
 title: "Bouw een LocoIO Inverter"
 date: "2015-01-07"
 categories:

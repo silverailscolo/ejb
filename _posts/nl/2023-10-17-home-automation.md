@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: homeautomation
+page_id: homeautomation
 title: "Home Automation"
 date: "2023-10-17"
 tags:

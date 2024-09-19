@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: bookfavorites
+page_id: bookfavorites
 title: Favoriete boeken
 date: 2024-04-11
 tags:

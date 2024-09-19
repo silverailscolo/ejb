@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page-id: hypersite
+page_id: hypersite
 title: "Goodbye Hypersite"
 date: "2024-03-22"
 tags:

@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page-id: wymans
+page_id: wymans
 title: "Wyman's sawmill"
 date: "2014-08-17"
 categories:

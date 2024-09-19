@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: busytown
+page_id: busytown
 title: "Busytown under Corona"
 date: "2020-05-02"
 categories:
