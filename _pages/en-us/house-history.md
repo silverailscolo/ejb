@@ -1,5 +1,5 @@
 ---
-page_id: history
+page-id: history
 layout: page
 permalink: /house/history
 title: History of our house

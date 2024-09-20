@@ -1,5 +1,5 @@
 ---
-page_id: smart-home
+page-id: smart-home
 layout: page
 lang: en-us
 permalink: /house/smart

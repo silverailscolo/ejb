@@ -1,5 +1,5 @@
 ---
-page_id: dcc
+page-id: dcc
 layout: page
 permalink: /trains/dcc
 title: DCC

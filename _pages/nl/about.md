@@ -1,5 +1,5 @@
 ---
-page_id: about
+page-id: about
 layout: about
 title: over
 lang: nl

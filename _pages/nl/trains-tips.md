@@ -1,5 +1,5 @@
 ---
-page_id: traintips
+page-id: traintips
 layout: page
 lang: nl
 permalink: /trains/tips

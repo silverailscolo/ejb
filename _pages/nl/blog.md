@@ -1,5 +1,5 @@
 ---
-page_id: blog
+page-id: blog
 layout: default
 permalink: /blog/
 title: blog

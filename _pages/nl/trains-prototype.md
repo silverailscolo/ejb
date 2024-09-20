@@ -1,5 +1,5 @@
 ---
-page_id: prototype
+page-id: prototype
 layout: page
 permalink: /trains/prototype
 lang: nl

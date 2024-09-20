@@ -1,5 +1,5 @@
 ---
-page_id: lubuntu
+page-id: lubuntu
 layout: page
 lang: nl
 permalink: /computers/lubuntu

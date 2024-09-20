@@ -1,5 +1,5 @@
 ---
-page_id: mactips
+page-id: mactips
 layout: page
 lang: nl
 permalink: /computers/macintosh

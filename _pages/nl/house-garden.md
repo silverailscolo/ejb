@@ -1,5 +1,5 @@
 ---
-page_id: garden
+page-id: garden
 layout: page
 permalink: /house/garden
 title: Onze tuin

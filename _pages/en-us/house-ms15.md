@@ -1,5 +1,5 @@
 ---
-page_id: ms15joblist
+page-id: ms15joblist
 layout: page
 permalink: /house/ms15
 title: Our first house

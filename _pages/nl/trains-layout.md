@@ -1,5 +1,5 @@
 ---
-page_id: layout
+page-id: layout
 layout: page
 permalink: /trains/layout
 title: Mijn modelbaan

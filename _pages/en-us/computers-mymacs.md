@@ -1,5 +1,5 @@
 ---
-page_id: mymacs
+page-id: mymacs
 layout: page
 permalink: /computers/mymacs
 title: My Macs

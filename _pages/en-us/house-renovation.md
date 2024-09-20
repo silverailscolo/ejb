@@ -1,5 +1,5 @@
 ---
-page_id: renovation
+page-id: renovation
 layout: page
 permalink: /house/renovation
 title: Renovating our house

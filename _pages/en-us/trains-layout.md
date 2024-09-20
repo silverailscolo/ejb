@@ -1,5 +1,5 @@
 ---
-page_id: layout
+page-id: layout
 layout: page
 permalink: /trains/layout
 title: The D&amp;S NG RR
