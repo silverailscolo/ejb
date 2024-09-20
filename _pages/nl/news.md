@@ -1,5 +1,5 @@
 ---
-page_id: news
+page-id: news
 layout: page
 title: nieuws
 lang: nl

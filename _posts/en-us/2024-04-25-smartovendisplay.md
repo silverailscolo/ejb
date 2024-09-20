@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: smartovendisplay
+page-id: smartovendisplay
 title: Build an AGA Cooker Display
 date: 2024-04-25
 tags:

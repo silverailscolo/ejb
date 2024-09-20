@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page_id: snowshed
+page-id: snowshed
 title: Lawinegevaar geweken
 date: 2014-01-19 20:39:59
 description: Sneeuwgallerij bij Silverton

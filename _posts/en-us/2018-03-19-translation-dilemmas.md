@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: translation
+page-id: translation
 title: "Translation Dilemmas"
 date: "2018-03-19"
 categories:

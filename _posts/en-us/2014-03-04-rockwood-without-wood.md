@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: rockwood
+page-id: rockwood
 title: "Rockwood without wood"
 date: "2014-03-04"
 description: Rockwood w/o wood

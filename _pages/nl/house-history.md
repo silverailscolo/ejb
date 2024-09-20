@@ -1,5 +1,5 @@
 ---
-page_id: history
+page-id: history
 layout: page
 permalink: /house/history
 title: Geschiedenis van ons huis
@@ -31,12 +31,12 @@ Kaartclub Brink 10 jaar
 
 classic html Imagemap
 
-<figure><img src='{{ "/assets/img/house/history/Brink 10 jaar kaartclub groep 1392x860.jpg" | relative_url }}' alt='Groepsfoto Uitje Kaartclub 10 jaar' usemap='#kaartclub-map'><figcaption class='kleiner'>Groepsfoto Uitje Kaartclub 10 jaar</figcaption></figure>
+<figure><img src='{{ "/assets/img/house/history/Brink_10_jaar_kaartclub_groep_1392x860.jpg" | relative_url }}' alt='Groepsfoto Uitje Kaartclub 10 jaar' usemap='#kaartclub-map'><figcaption class='kleiner'>Groepsfoto Uitje Kaartclub 10 jaar</figcaption></figure>
 
 in SVG
 
-<figure><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1392 860">
-<image width="1392" height="860" xlink:href="{{ '/assets/img/house/history/Brink 10 jaar kaartclub groep 1392x860.jpg' | relative_url }}"></image>
+<figure><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1392 860">
+<image width="1392" height="860" xlink:href="{{ '/assets/img/house/history/Brink_10_jaar_kaartclub_groep_1392x860.jpg' | relative_url }}"></image>
 <a xlink:href="#" id="Roelof Waninge">
   <rect x="275" y="121" fill="#fff" opacity="0" width="100" height="100" data-label="Roelof Waninge"></rect></a>
 <a xlink:href="#" id="Henk Hummel">

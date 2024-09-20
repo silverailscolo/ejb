@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: durangodetails
+page-id: durangodetails
 title: "Durango details"
 date: "2015-07-13"
 categories:

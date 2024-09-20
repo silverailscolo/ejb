@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page_id: rio_grande_signal
+page-id: rio_grande_signal
 title: "Maak een Rio Grande seinmast"
 date: "2019-01-11"
 categories:

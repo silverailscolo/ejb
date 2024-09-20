@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: bookfavorites
+page-id: bookfavorites
 title: Favorite titles
 date: 2024-04-11
 tags:

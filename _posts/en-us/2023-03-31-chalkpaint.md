@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: chalkpaint
+page-id: chalkpaint
 title: "Chalk Paint"
 date: "2023-03-31"
 categories:

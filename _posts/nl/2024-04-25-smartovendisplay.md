@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page_id: smartovendisplay
+page-id: smartovendisplay
 title: Bouw zelf een AGA Display
 date: 2024-04-25
 tags:

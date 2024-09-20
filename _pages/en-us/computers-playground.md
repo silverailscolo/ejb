@@ -1,5 +1,5 @@
 ---
-page_id: playground
+page-id: playground
 layout: page
 permalink: /computers/playground
 title: Software Playground

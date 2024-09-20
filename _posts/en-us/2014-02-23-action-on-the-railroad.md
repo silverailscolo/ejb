@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: todo2013
+page-id: todo2013
 title: "Action on the railroad"
 date: "2014-02-23"
 description: Snowshed near Silverton

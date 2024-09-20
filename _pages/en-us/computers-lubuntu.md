@@ -1,5 +1,5 @@
 ---
-page_id: lubuntu
+page-id: lubuntu
 layout: page
 permalink: /computers/lubuntu
 title: Lubuntu Tips

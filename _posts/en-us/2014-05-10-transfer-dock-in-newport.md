@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: newport
+page-id: newport
 title: "Transfer dock in Newport"
 date: "2014-05-10"
 categories:

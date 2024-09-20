@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page_id: hypersite
+page-id: hypersite
 title: "Vaarwel Hypersite"
 date: "2024-03-22"
 tags:

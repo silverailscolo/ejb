@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: whisper-fan
+page-id: whisper-fan
 title: Build a smart-fan
 date: 2024-08-03
 tags:

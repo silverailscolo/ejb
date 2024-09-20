@@ -1,5 +1,5 @@
 ---
-page_id: repositories
+page-id: repositories
 layout: page
 permalink: /computers/repositories
 title: Repositories

@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: rio_grande_signal
+page-id: rio_grande_signal
 title: "Kitbash a Rio Grande signal mast"
 date: "2019-01-11"
 categories:

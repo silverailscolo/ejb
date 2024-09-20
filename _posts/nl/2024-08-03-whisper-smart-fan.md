@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page_id: whisper-fan
+page-id: whisper-fan
 title: Bouw een slimme ventilator-besturing
 date: 2024-08-03
 tags:

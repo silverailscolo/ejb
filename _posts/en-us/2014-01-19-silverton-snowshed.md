@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: snowshed
+page-id: snowshed
 title: Protection from the elements
 date: 2014-01-19 20:39:59
 description: Snowshed near Silverton

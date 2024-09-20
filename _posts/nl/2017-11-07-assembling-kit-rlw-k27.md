@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page_id: rlw-k27
+page-id: rlw-k27
 title: "Bouw van de RLW Nn3 K-27 kit"
 date: "2017-11-07"
 categories:

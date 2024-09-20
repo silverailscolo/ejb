@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page_id: cleanup
+page-id: cleanup
 title: Werkplek opruimen
 date: 2013-08-20 22:03:43
 description: Maak ruimte voor ideeën

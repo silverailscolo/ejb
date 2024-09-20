@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: rlw-k27
+page-id: rlw-k27
 title: "Assembling the RLW Nn3 K-27 kit"
 date: "2017-11-07"
 categories:

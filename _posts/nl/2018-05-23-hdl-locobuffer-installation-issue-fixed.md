@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page_id: locobooster
+page-id: locobooster
 title: "HDL LocoBooster installation issue fixed"
 date: "2018-05-23"
 categories:

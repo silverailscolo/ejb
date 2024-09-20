@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page_id: locoio
+page-id: locoio
 title: "LocoIO update"
 date: "2018-04-04"
 categories:
