@@ -137,14 +137,14 @@ De Farmington Branch sluit aan op de Santa Fe hoofdroute in het woestijnstadje T
 <figcaption class="kleiner">GE 44 ton switcher #42 bij de Snack Stop, klaar voor reizigers, 2013</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/Thoreau%20soda%20IMG_1473.jpg" | relative_url }}' alt='Een korte stop langs de Route 66' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/Thoreau_soda_IMG_1473.jpg" | relative_url }}' alt='Een korte stop langs de Route 66' class='img-fluid'>
 <figcaption class="kleiner">Seinmast en snack stop geplaatst (dec. 2012)</figcaption></figure>
 </div>
 </div>
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/Farmington%20IMG_1480.jpg" | relative_url }}' alt='Zansteenkliffen' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/Farmington_IMG_1480.jpg" | relative_url }}' alt='Zandsteenkliffen' class='img-fluid'>
 <figcaption class="kleiner">Als voorbeeld: het landschap met zandsteen bij Farmington NM (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.flickr.com/photos/casaverdesol/7872521638/sizes/l/" property="cc:attributionName" rel="cc:attributionURL">Joel Deluxe</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
@@ -217,7 +217,7 @@ De centrale plek op de baan is het historische station in de boom town Durango, 
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/Smelter%201892%20021528pu_small.jpg" | relative_url }}' alt='Durango Smelter in 1892 (American Heritage)' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/Smelter_1892_021528pu_small.jpg" | relative_url }}' alt='Durango Smelter in 1892 (American Heritage)' class='img-fluid'>
 <figcaption class="kleiner">Historische foto van de ertssmelter (1892)</figcaption>
 </figure>
 </div>
