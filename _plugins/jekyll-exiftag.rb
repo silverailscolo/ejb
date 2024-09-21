@@ -80,6 +80,7 @@ module Jekyll
       exif = Exiftool.new("#{file_name}")
       # copied from art-gallery, TODO exiftool per directory? EBR
       if exif != nil
+        dateOffset = false
 
         if (tag == "gps?")
           return exif[:"gps"] != nil
@@ -98,16 +99,26 @@ module Jekyll
           if dt == nil
             dt = exif[:"create_date"]
             if dt == nil
-              dt = File.new(img).birthtime # Ruby File function
+              dt = File.new(img).birthtime.parse(t.to_s) # Ruby File function
+              dateOffset = true
             end
+          end
+          # dt1: 2024:03:28 19:53:26
+          # dt2: 2024-09-20 21:14:43 +0000
+          dt_parts = dt.split(" ")
+          if (!dateOffset)
+            # replace colon by dash
+            dt_parts[0].tr(":", "-")
           end
           # Jekyll.logger.info "Exiftag/exiftool fetched tag #{tag} for image #{img}: #{dt}"
           if (tag == "datetime")
-            return dt
+            return dt_parts[0] + " " + dt_parts[1] + (dateOffset ? "" : " " + dt_parts[2])
           elif (tag == "date")
-            return dt.split(" ")[0]
+            return dt_parts[0]
+          elif (tag == "year")
+            return dt_parts[0].split("-")[0]
           else # time
-            return dt.split(" ")[1]
+            return dt_parts[1]
           end
         end
 

@@ -10,7 +10,7 @@
   image.extname == '.webp' or image.extname == '.xmp' %} {% if include.albumname contains 'covers' %} {% comment %} *covers is for
   books/records/enginepics etc stored as folders with same name as img.name, no lightGallery support used in front matter, links directly to item page
   index.html in subfolder of img name base {% endcomment %}
-  <a href="{{ image.name | replace: '.jpg', '/' | replace: '.png', '/'}}" class="image-ref">
+  <a href="{{ image.name | replace: '.jpg', '/' | replace: '.png', '/' | replace: ' ', '%20'}}" class="image-ref">
     <img
       src="{{ site.baseurl }}/assets/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
       alt="{{ image.name }}"
@@ -22,7 +22,7 @@
   <a
     {%
     static_href
-    %}href="{{ site.baseurl }}{{ ip }}"
+    %}href="{{ site.baseurl }}{{ ip | replace: ' ', '%20'}}"
     {%
     endstatic_href
     %}
@@ -31,7 +31,7 @@
     data-date="{% exiftag datetime, , {{ ip }} %}"
   >
     <img
-      src="{{ site.baseurl }}/assets/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', ''}}"
+      src="{{ site.baseurl }}/assets/thumbnails{{ ip | replace: 'assets/img-noresample/', ''| replace: 'assets/img/', '' | replace: ' ', '%20'}}"
       alt="{% exiftag image_description, , {{ ip }} %}"
     />
   </a>

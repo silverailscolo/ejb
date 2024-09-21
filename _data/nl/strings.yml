@@ -104,6 +104,10 @@ cv:
   work: Werk
 projects:
   nextProject: Volgende project
+protected:
+  enter-pwd: Voer het wachtwoord in voor deze pagina
+  decrypt: Ontsleutel
+  wrong-pwd-dialog: Dit wachtwoord is ongeldig
 books:
   written-by: Auteur(s)
   read-on: Gelezen op

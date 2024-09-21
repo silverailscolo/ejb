@@ -104,6 +104,10 @@ cv:
   work: Work
 projects:
   nextProject: Next Project
+protected:
+  enter-pwd: Enter password for decryption
+  decrypt: Decrypt
+  wrong-pwd-dialog: Wrong password
 books:
   written-by: Written by
   read-on: Read on
