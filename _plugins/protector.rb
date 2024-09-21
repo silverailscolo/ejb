@@ -93,11 +93,16 @@ module Jekyll
 
     class ProtectedPageGenerator < Generator
         def generate(site)
-            dir = 'protected'
+            Jekyll.logger.info "Starting protected page generation for lang #{site.active_lang}" # EBR
+            if (site.active_lang == site.default_lang) # EBR
+              dir = 'protected'
+            else
+              dir = File.join(site.active_lang, 'protected') # EBR
+            end
 
             protected_pages_names = []
 
-            site.collections['protected'].docs.each do |plain_page|
+            site.collections['protected2'].docs.each do |plain_page|
                 protected_page_path = File.join(dir, plain_page.basename_without_ext)
 
                 protected_page = ProtectedPage.new(site, site.source, protected_page_path, plain_page)

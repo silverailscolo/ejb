@@ -17,6 +17,7 @@ layout: default
   integrity="sha256-u6BamZiW5tCemje2nrteKC2KoLIKX9lKPSpvCkOhamw="
   crossorigin="anonymous"
 ></script>
+
 <script>
   function decrypt() {
     var protectedContent = "{{ page.protected_content }}";
@@ -38,7 +39,7 @@ layout: default
       var content = CryptoJS.enc.Utf8.stringify(decrypted);
       document.getElementById('content').innerHTML = content;
     } else {
-      document.getElementById('errmsg').innerHTML = {{ site.data[site.active_lang].strings['protected']['wrong-pwd-dialog'] }};
+      document.getElementById('errmsg').innerHTML = "{{ site.data[site.active_lang].strings['protected']['wrong-pwd-dialog'] }}";
     }
   }
 

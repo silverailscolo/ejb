@@ -173,7 +173,10 @@ collections:
   rollingstock:
     output: true
     permalink: /:collection/:title/
-  protected:
+  protected2:
+    output: false
+  protected_cache:
+    output: true
 
 announcements:
   enabled: true

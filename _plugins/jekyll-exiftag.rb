@@ -106,8 +106,8 @@ module Jekyll
             end
           end
           # !dateOffset: 2024:03:28 19:53:26 (string from exiftools)
-          # dateOffset: 2024-09-20 21:14:43 +0000 (DateTime object from Ruby file)
-          if (dateOffset)
+          #  dateOffset: 2024-09-20 21:14:43 +0000 (DateTime object from Ruby file or special?)
+          if (dateOffset or dt.is_a?(Time))
             dt_parts = %w| dt.strftime("%Y-%m-%d") dt.strftime("%k:%M") |
           else
             dt_parts = dt.split(" ")
