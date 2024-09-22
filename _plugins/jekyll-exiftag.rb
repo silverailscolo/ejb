@@ -31,6 +31,8 @@
 
 require 'exiftool'
 require 'exiftool_vendored'
+require 'time'
+require 'date'
 
 module Jekyll
   class ExifTag < Liquid::Tag
@@ -80,6 +82,7 @@ module Jekyll
       exif = Exiftool.new("#{file_name}")
       # copied from art-gallery, TODO exiftool per directory? EBR
       if exif != nil
+        dateOffset = false
 
         if (tag == "gps?")
           return exif[:"gps"] != nil
@@ -99,15 +102,26 @@ module Jekyll
             dt = exif[:"create_date"]
             if dt == nil
               dt = File.new(img).birthtime # Ruby File function
+              dateOffset = true
             end
+          end
+          # !dateOffset: 2024:03:28 19:53:26 (string from exiftools)
+          #  dateOffset: 2024-09-20 21:14:43 +0000 (DateTime object from Ruby file or special?)
+          if (dateOffset or dt.is_a?(Time))
+            dt_parts = %w| dt.strftime("%Y-%m-%d") dt.strftime("%k:%M") |
+          else
+            dt_parts = dt.split(" ")
+            dt_parts[0].tr(":", "-") # replace colon by dash in date
           end
           # Jekyll.logger.info "Exiftag/exiftool fetched tag #{tag} for image #{img}: #{dt}"
           if (tag == "datetime")
-            return dt
+            return dt_parts[0] + " " + dt_parts[1]
           elif (tag == "date")
-            return dt.split(" ")[0]
+            return dt_parts[0]
+          elif (tag == "year")
+            return dt_parts[0].split("-")[0]
           else # time
-            return dt.split(" ")[1]
+            return dt_parts[1]
           end
         end
 

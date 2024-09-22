@@ -74,12 +74,12 @@ in SVG
     <area alt="Jantie de Leeuw" title="Jantie de Leeuw" href="#" coords="673,452,65" shape="circle">
     <area alt="Bertus Boers" title="Bertus Boers" href="#" coords="811,442,64" shape="circle">
     <area alt="Jan Wiechers" title="Jan Wiechers" href="#" coords="1003,434,62" shape="circle">
+
 </map>
 
 achterste rij vlnr: Roelof Waninge, Henk Hummel, Frits Spijkers, Diny Dolsma, Rinus Dolsma, Johan van der Laan, Bertus Dekker, Janette Dekker
 
 2e rij vlnr: Aly van der Laan, Alie Waninge, Zwaan Hummel, Will Spijkers, Paulien Wiechers, Cobij Janssens,Meine Bel, Jannie Koops-de Leeuw, Johan Janssens
-
 
 voorste rij vlnr: Adrie Koops, Hendrik de Leeuw, Wimke Boers, Jantie de Leeuw, Bertus Boers, Jan Wiechers
 
