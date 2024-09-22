@@ -28,3 +28,7 @@ Inline met de lightgallery_tag.rb plugin
 {{ '/assets/img/banners/stripes-global.png' | relative_url }}
 {{ '/assets/img/banners/rizzyhouse-braunschweig.jpg' | relative_url }}
 {% endgallery %}
+
+## Protected page
+
+Bekijk <a href="/assets/html/example-protected-nl.html">deze pagina</a>
