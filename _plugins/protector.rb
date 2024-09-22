@@ -115,10 +115,10 @@ module Jekyll
 
             protected_pages_names = []
 
-            site.collections['protected2'].docs.each do |plain_page|
+            site.collections['protected'].docs.each do |plain_page|
                 protected_page_path = File.join(dir, plain_page.basename_without_ext) # EBR no lang subfolder here
 
-                if (plain_page.data['lang'] == site.active_lang) # EBR only for file language
+                if (plain_page.data['lang'] == site.active_lang) # EBR only process for page language
                     protected_page = ProtectedPage.new(site, site.source, protected_page_path, plain_page)
                     site.pages << protected_page
 
@@ -131,7 +131,7 @@ module Jekyll
             Dir.foreach(protected_cache_path) do |cached_page|
                 next if cached_page == '.' or cached_page == '..'
                 if !(protected_pages_names.include? cached_page)
-                    FileUtils.rm_rf(File.join(protected_cache_path, cached_page))
+                    FileUtils.rm_rf(File.join(protected_cache_path, cached_page)) # clean up old protected files in cache
                 end
             end
         end

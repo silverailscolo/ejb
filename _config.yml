@@ -173,7 +173,7 @@ collections:
   rollingstock:
     output: true
     permalink: /:collection/:title/
-  protected2:
+  protected:
     output: false
   protected_cache:
     output: true
