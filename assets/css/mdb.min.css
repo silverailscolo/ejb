@@ -3277,6 +3277,9 @@ body.modal-open .fixed-top {
 body.modal-open .fixed-bottom {
   padding-right: 0 !important;
 }
+body.scrollable {
+  overflow-y: auto;
+}
 .modal {
   padding-right: 0 !important;
 }
