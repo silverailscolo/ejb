@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright (C) 2021 Andrea Carriero
+# SPDX-FileCopyrightText: Copyright (C) 2021 Andrea Carriero, 2024 EJ Broerse
 #
 # SPDX-License-Identifier: MIT
 
@@ -37,74 +37,99 @@ module Jekyll
             @dir = dir
             @name = 'index.html'
 
-            if (to_protect.data['lang'] == site.active_lang) # EBR only for file language, redundant after if in ProtectedPageGenerator?
-                markdown_content = to_protect.content
-                markdown_converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
-                html_content = markdown_converter.convert(markdown_content)
+            #if (to_protect.data['lang'] == site.active_lang) # EBR only for file language, redundant after if in ProtectedPageGenerator?
+            markdown_content = to_protect.content
+            markdown_converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
+            html_content = markdown_converter.convert(markdown_content)
 
-                self.process(@name)
-                self.read_yaml(File.join(base, '_layouts'), 'protected.html')
-                self.data['title'] = to_protect.data['title']
-                self.data['lang'] = to_protect.data['lang'] # EBR for polyglot
-                self.data['page_id'] = to_protect.data['page_id'] # EBR for polyglot
+            self.process(@name)
+            self.read_yaml(File.join(base, '_layouts'), 'protected.html')
+            self.data['title'] = to_protect.data['title']
+            self.data['lang'] = to_protect.data['lang'] # EBR for polyglot
+            self.data['page_id'] = to_protect.data['page_id'] # EBR for polyglot
+            self.data['permalink'] = to_protect.data['permalink'] # EBR for polyglot
+            self.data['layout'] = to_protect.data['protected'] # EBR for polyglot
 
-                content_digest = Digest::SHA1.new
-                content_digest.update(to_protect.data.to_s + to_protect.content)
-                content_hash = content_digest.hexdigest
+            content_digest = Digest::SHA1.new
+            content_digest.update(to_protect.data.to_s + to_protect.content)
+            content_hash = content_digest.hexdigest
 
-                Jekyll.logger.info "Generating protected blocks for #{self.data['title']}, lang #{site.active_lang}" # EBR
-                # protected_cache_path = File.join(Dir.pwd, '_protected-cache')
-                protected_cache_path = File.join(Dir.pwd, '_protected-cache', site.active_lang) # EBR
-                page_cache_path = File.join(protected_cache_path, to_protect.basename_without_ext)
-                hash_path = File.join(page_cache_path, 'hash')
-                payload_path = File.join(page_cache_path, 'payload')
-                #frontmatter_path = File.join(page_cache_path, 'frontmatter') # EBR
+            Jekyll.logger.info "Generating protected blocks for #{self.data['title']}, lang #{site.active_lang}" # EBR
+            # protected_cache_path = File.join(Dir.pwd, '_protected-cache')
+            protected_cache_path = File.join(Dir.pwd, '_protected-cache', site.active_lang) # EBR
+            page_cache_path = File.join(protected_cache_path, to_protect.basename_without_ext)
+            hash_path = File.join(page_cache_path, 'hash')
+            payload_path = File.join(page_cache_path, 'payload')
+            protected_path = File.join(Dir.pwd, '_protected-pages', site.active_lang) # EBR
+            markdown_path = File.join(protected_path, (to_protect.basename_without_ext + '.md')) # EBR
 
-                regenerate = false
+            regenerate = false
 
-                if File.exists?(hash_path) && File.exists?(payload_path)
-                    cached_hash = File.read(hash_path).strip
-                    cached_payload = File.read(payload_path).strip
-                    #cached_frontmatter = File.read(frontmatter_path).strip # EBR for polyglot
+            if File.exists?(hash_path) && File.exists?(payload_path)
+                cached_hash = File.read(hash_path).strip
+                cached_payload = File.read(payload_path).strip
 
-                    if cached_hash == content_hash
-                        self.data['protected_content'] = cached_payload
-                    else
-                        regenerate = true
-                    end
+                if cached_hash == content_hash
+                    self.data['protected_content'] = cached_payload
+                else
+                    regenerate = true
                 end
-
-                if !Dir.exists?(protected_cache_path)
-                    Dir.mkdir(protected_cache_path)
-                end
-
-                if !Dir.exists?(page_cache_path)
-                    Dir.mkdir(page_cache_path)
-                end
-
-                if !File.exists?(hash_path) || regenerate
-                    hash_file = File.new(hash_path, "w")
-                    hash_file.puts(content_hash)
-                    hash_file.close
-                end
-
-                if !File.exists?(payload_path) || regenerate
-                    encrypted_content = self.aes256_encrypt(to_protect.data['password'], html_content)
-                    payload_file = File.new(payload_path, "w")
-                    payload_file.puts(encrypted_content)
-                    payload_file.close
-                    self.data['protected_content'] = encrypted_content
-                end
-
-                #if !File.exists?(frontmatter_path) || regenerate # EBR
-                #    content_frontmatter = self.data['title'] + "\n" + self.data['lang'] + "\n" + self.data['page_id']
-                #    frontmatter_file = File.new(frontmatter_path, "w")
-                #    frontmatter_file.puts(content_frontmatter)
-                #    frontmatter_file.close
-                #end
-            else
-                Jekyll.logger.info "Skipping protected page #{to_protect.data['title']}"
             end
+
+            if !Dir.exists?(protected_cache_path)
+                Dir.mkdir(protected_cache_path)
+            end
+
+            if !Dir.exists?(page_cache_path)
+                Dir.mkdir(page_cache_path)
+            end
+
+            if !File.exists?(hash_path) || regenerate
+                hash_file = File.new(hash_path, "w")
+                hash_file.puts(content_hash)
+                hash_file.close
+            end
+
+            if !File.exists?(payload_path) || regenerate
+                encrypted_content = self.aes256_encrypt(to_protect.data['password'], html_content)
+                payload_file = File.new(payload_path, "w")
+                payload_file.puts(encrypted_content)
+                payload_file.close
+                self.data['protected_content'] = encrypted_content
+            end
+
+            # create new markdown file. EBR for polyglot
+
+            if !Dir.exists?(protected_path)
+                Dir.mkdir(protected_path)
+            end
+
+            Jekyll.logger.info "Creating md page #{self.data['title']}"
+            p = File.new(markdown_path, "w")
+            p.puts "---"
+            p.puts "title: #{self.data['title']}"
+            if (self.data['lang'] != nil)
+              p.puts "lang: #{self.data['lang']}"
+            end
+            if (self.data['page_id'] != nil)
+              p.puts "page_id: #{self.data['page_id']}"
+            end
+            if (self.data['permalink'] != nil)
+              p.puts "permalink: #{self.data['permalink']}"
+            end
+            if (self.data['layout'] != nil)
+              p.puts "layout: #{self.data['layout']}"
+            else
+              p.puts "layout: protected"
+            end
+            p.puts "protectedContent: #{self.data['protected_content']}"
+            p.puts "---"
+            p.puts "Autogenerated by Jekyll" # debug
+            p.close
+
+            #else
+            #    Jekyll.logger.info "Skipping protected page #{to_protect.data['title']}"
+            #end
         end
     end
 
@@ -118,11 +143,13 @@ module Jekyll
             site.collections['protected'].docs.each do |plain_page|
                 protected_page_path = File.join(dir, plain_page.basename_without_ext) # EBR no lang subfolder here
 
-                if (plain_page.data['lang'] == site.active_lang) # EBR only process for page language
+                if (plain_page.data['lang'] == site.active_lang)
+                    # EBR only process for page language, polyglot will create fallback copies
                     protected_page = ProtectedPage.new(site, site.source, protected_page_path, plain_page)
                     site.pages << protected_page
 
-                    protected_pages_names << plain_page.basename_without_ext
+                    protected_pages_names << plain_page.basename_without_ext # hash folder
+                    # protected_pages_names << (plain_page.basename_without_ext + '.md') # used to generate protected gh_pages
                 end
             end
 
@@ -131,7 +158,8 @@ module Jekyll
             Dir.foreach(protected_cache_path) do |cached_page|
                 next if cached_page == '.' or cached_page == '..'
                 if !(protected_pages_names.include? cached_page)
-                    FileUtils.rm_rf(File.join(protected_cache_path, cached_page)) # clean up old protected files in cache
+                    # clean up old protected files in cache also removes newly created .md output, add another list?
+                    #FileUtils.rm_rf(File.join(protected_cache_path, cached_page))
                 end
             end
         end
