@@ -12,3 +12,4 @@ vendor
 /.idea/
 /.github/
 /_protected/
+/_protected-cache/

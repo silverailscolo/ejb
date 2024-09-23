@@ -175,8 +175,9 @@ collections:
     permalink: /:collection/:title/
   protected:
     output: false
-  protected_cache:
+  protected-pages:
     output: true
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
