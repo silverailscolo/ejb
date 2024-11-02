@@ -251,7 +251,7 @@ module Jekyll
         else
           begin
             fullpath = Dir.pwd + "/" + image_path # using original file name, so non-normalized
-            exif = exiftoolBatch.result_for(fullpath) # more efficient to start exiftool just once at start
+            exif = exiftoolBatch.result_for(fullpath) # would be more efficient to start exiftool just once at start
           rescue StandardError => e
             # puts "No EXIF header in file #{fullpath}: #{e}"
           end
@@ -259,7 +259,8 @@ module Jekyll
             # puts exif.to_hash
             capt = exif[:"description"] || "" # XMP Caption field
             # fall thru to: headline (IPTC), ImageDescription (EXIF)
-            # Valid exiftag.exiftool tags: EXIF: ImageDescription, UserComment; IPTC: headline, caption; XMP: Description, Comment;
+            # Valid exiftag.exiftool tags:
+            # EXIF: ImageDescription, UserComment; IPTC: headline, caption; XMP: Description, Comment;
             # All blocks: copyright (case insensitive)
             if capt == nil
               capt = exif[:"Caption"] || "" # XMP alt Caption field
@@ -280,7 +281,9 @@ module Jekyll
             answer = capt + ( copy == nil ? "" : ", " + copy)
           end
           if answer != nil and answer != ""
-            self.data["captions"][dest_image] = answer
+            answer_utf8 = answer.encode('UTF-8')  # ensure UTF8 encoding, cf. exiftag.rb
+            # Jekyll.logger.info "Exiftag/exiftool fetched tag for image #{image_path}: #{answer_utf8}"
+            self.data["captions"][dest_image] = answer_utf8
           else
             # If no caption defined, add a trimmed filename to help with SEO
             self.data["captions"][dest_image] = File.basename(image, File.extname(image)).gsub("_", " ")

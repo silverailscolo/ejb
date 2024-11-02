@@ -8,7 +8,7 @@ subtitle: architect, programmeur, verzamelaar
 
 profile:
   align: right
-  image: banners/stripes-global.png
+  image: banners/peak-age.jpg
   image_circular: false # crops the image to make it circular shaped
   more_info: >
     Drenthe, 
@@ -25,6 +25,6 @@ SPDX-FileCopyrightText: 2024 EJ Broerse
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
-Klik hier voor een [VR ervaring van het Braunschweig Rizzy House](https://happy-rizzi-house.de/wp-content/rizzi_haus_3d.html).
+Minder kans dus op een Nobel-prijs.
 
 Duurzaam werken en leven.
