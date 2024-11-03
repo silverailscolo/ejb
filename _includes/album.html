@@ -35,22 +35,24 @@
       alt="{% exiftag image_description, , {{ ip }} %}"
     />
   </a>
-  {% comment %}Exif tags may contain non UTF-8 encoding. Encoding is enforced in exiftag.rb plugin.{% endcomment %}
-  {% endif %} {% endunless %} {% endif %} {% endfor %}
+  {% comment %}Exif tags may contain non UTF-8 encoding. Encoding is enforced in exiftag.rb plugin.{% endcomment %} {% endif %} {% endunless %} {%
+  endif %} {% endfor %}
 </div>
 
 <script>
-
   // sort in DOM before creating gallery and grid
-  $(".autosort").each(function(){
-    $(this).html($(this).children('a').sort(function(a, b){
-      console.log('Sorting: ' + $(a).data('date')); // full attribute name: [data-date]
-      return ($(b).data('date')) < ($(a).data('date')) ? 1 : -1;
-    }));
+  $(".autosort").each(function () {
+    $(this).html(
+      $(this)
+        .children("a")
+        .sort(function (a, b) {
+          console.log("Sorting: " + $(a).data("date")); // full attribute name: [data-date]
+          return $(b).data("date") < $(a).data("date") ? 1 : -1;
+        })
+    );
   });
 
   window.addEventListener("DOMContentLoaded", () => {
-
     lightGallery(document.getElementById("{{ include.albumname }}"), {
       plugins: [lgZoom, lgThumbnail, lgAutoplay],
       closable: true,
@@ -89,5 +91,4 @@
       $grid.masonry();
     });
   });
-
 </script>

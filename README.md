@@ -4,7 +4,7 @@
 
 <div>
 
-**A site based on the [al-folio theme](https://github.com/alshedivat/al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
+**Serves a [website](https://silverailscolo.github.io/ejb) based on the [al-folio theme](https://github.com/alshedivat/al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
 
 ---
 

@@ -11,8 +11,7 @@ profile:
   image: banners/peak-age.jpg
   image_circular: false # crops the image to make it circular shaped
   more_info: >
-    Drenthe,
-    the Netherlands
+    from the North of the Netherlands
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -25,6 +24,6 @@ SPDX-FileCopyrightText: 2024 EJ Broerse
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
-Missed my chances for a Nobel prize...
+Missed my chances for a Nobel Prize...
 
 Striving for sustainability.
