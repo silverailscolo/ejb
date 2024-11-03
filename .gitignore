@@ -13,3 +13,4 @@ vendor
 /.github/
 /_protected/
 /_protected-cache/
+/venv/

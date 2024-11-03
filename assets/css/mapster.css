@@ -1,9 +1,6 @@
 /* Styling for a clickable imagemap with list. Egbert 2023 */
 
-@import
-  "variables",
-  "themes"
-;
+@import "variables", "themes";
 
 ol {
   display: block;

@@ -21,7 +21,7 @@ layout: default
 <script>
   function decrypt() {
     var protectedContent = "{{ page.protected_content }}";
-    var password = document.getElementById('password').value;
+    var password = document.getElementById("password").value;
 
     var payload = protectedContent.split("|");
     var iv = payload[0];
@@ -30,24 +30,22 @@ layout: default
 
     var passphraseDgst = CryptoJS.SHA256(password).toString();
     var decryptedhmac = CryptoJS.HmacSHA256(cipherText, CryptoJS.enc.Hex.parse(passphraseDgst)).toString().trim();
-    if(CryptoJS.enc.Base64.parse(hmac).toString() === decryptedhmac){
-      var decrypted = CryptoJS.AES.decrypt(
-        {ciphertext:CryptoJS.enc.Base64.parse(cipherText)},
-        CryptoJS.enc.Hex.parse(passphraseDgst),
-        {iv:CryptoJS.enc.Base64.parse(iv)}
-      );
+    if (CryptoJS.enc.Base64.parse(hmac).toString() === decryptedhmac) {
+      var decrypted = CryptoJS.AES.decrypt({ ciphertext: CryptoJS.enc.Base64.parse(cipherText) }, CryptoJS.enc.Hex.parse(passphraseDgst), {
+        iv: CryptoJS.enc.Base64.parse(iv),
+      });
       var content = CryptoJS.enc.Utf8.stringify(decrypted);
-      document.getElementById('content').innerHTML = content;
+      document.getElementById("content").innerHTML = content;
     } else {
-      document.getElementById('errmsg').innerHTML = "{{ site.data[site.active_lang].strings['protected']['wrong-pwd-dialog'] }}";
+      document.getElementById("errmsg").innerHTML = "{{ site.data[site.active_lang].strings['protected']['wrong-pwd-dialog'] }}";
     }
   }
 
-  var passwordInput = document.getElementById('password');
-  passwordInput.addEventListener("keyup", function(event) {
+  var passwordInput = document.getElementById("password");
+  passwordInput.addEventListener("keyup", function (event) {
     event.preventDefault();
     if (event.keyCode === 13) {
       decrypt();
     }
-  })
+  });
 </script>
