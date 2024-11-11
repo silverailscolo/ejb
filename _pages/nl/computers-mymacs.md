@@ -102,7 +102,7 @@ Kortom: veel plezier gehad van een tweedehandsje.
 <div class="row">
 <div class="col-sm">
   <figure><img class='img-fluid' src='{{ "/assets/img/mac/PowerBook_Duo_Dock_aventure-applecom.jpg" | relative_url }}' alt="vlak voor de dock hem inslikt">
-  <figcaption class="kleiner">Apple DuoDock (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.aventure-apple.com/blog/wp-content/uploads/2019/03/Apple_PowerBook_Duo_Dock_Macintosh.jpg" property="cc:attributionName" rel="cc:attributionURL">aventure-appl.com</a>
+  <figcaption class="kleiner">Apple DuoDock (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.aventure-apple.com/blog/wp-content/uploads/2019/03/Apple_PowerBook_Duo_Dock_Macintosh.jpg" property="cc:attributionName" rel="cc:attributionURL">aventure-apple.com</a>
   under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
   </figure>
 </div>

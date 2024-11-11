@@ -65,7 +65,7 @@ module Jekyll
 
             regenerate = false
 
-            if File.exists?(hash_path) && File.exists?(payload_path)
+            if File.exist?(hash_path) && File.exist?(payload_path)
                 cached_hash = File.read(hash_path).strip
                 cached_payload = File.read(payload_path).strip
 
@@ -76,21 +76,21 @@ module Jekyll
                 end
             end
 
-            if !Dir.exists?(protected_cache_path)
+            if !Dir.exist?(protected_cache_path)
                 Dir.mkdir(protected_cache_path)
             end
 
-            if !Dir.exists?(page_cache_path)
+            if !Dir.exist?(page_cache_path)
                 Dir.mkdir(page_cache_path)
             end
 
-            if !File.exists?(hash_path) || regenerate
+            if !File.exist?(hash_path) || regenerate
                 hash_file = File.new(hash_path, "w")
                 hash_file.puts(content_hash)
                 hash_file.close
             end
 
-            if !File.exists?(payload_path) || regenerate
+            if !File.exist?(payload_path) || regenerate
                 encrypted_content = self.aes256_encrypt(to_protect.data['password'], html_content)
                 payload_file = File.new(payload_path, "w")
                 payload_file.puts(encrypted_content)
@@ -100,7 +100,7 @@ module Jekyll
 
             # create new markdown file. EBR for polyglot
 
-            if !Dir.exists?(protected_path)
+            if !Dir.exist?(protected_path)
                 Dir.mkdir(protected_path)
             end
 
@@ -156,11 +156,13 @@ module Jekyll
 
             # protected_cache_path = File.join(Dir.pwd, '_protected-cache')
             protected_cache_path = File.join(Dir.pwd, '_protected-cache', site.active_lang) # EBR
-            Dir.foreach(protected_cache_path) do |cached_page|
-                next if cached_page == '.' or cached_page == '..'
-                if !(protected_pages_names.include? cached_page)
-                    # clean up old protected files in cache also removes newly created .md output, add another list?
-                    #FileUtils.rm_rf(File.join(protected_cache_path, cached_page))
+            if Dir.exist?(protected_cache_path)  # only run locally to protect unencoded originals, _protected-cache is in .gitignore
+                Dir.foreach(protected_cache_path) do |cached_page|
+                    next if cached_page == '.' or cached_page == '..'
+                    # if !(protected_pages_names.include? cached_page)
+                        # cleaning up old protected files in cache also removes newly created .md output, add another list?
+                        #FileUtils.rm_rf(File.join(protected_cache_path, cached_page))
+                    # end
                 end
             end
         end
