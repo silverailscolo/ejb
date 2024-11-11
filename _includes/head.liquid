@@ -31,14 +31,18 @@
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
 >
 
-<!-- Code Syntax Highlighting -->
-<link
-  defer
-  rel="stylesheet"
-  href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url | bust_file_cache }}"
-  media=""
-  id="highlight_theme_light"
->
+<!-- Code Syntax Highlighting - turned off, causes prettier error -->
+{% comment %}
+  {% raw %}
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url | bust_file_cache }}"
+    media=""
+    id="highlight_theme_light"
+  >
+  {% endraw %}
+{% endcomment %}
 
 {% if page.toc and page.toc.sidebar %}
   <!-- Sidebar Table of Contents -->
@@ -57,7 +61,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<!-- Dark Mode -->
+<!-- Dark Mode - turned off, causes prettier error -->
 {% if site.enable_darkmode %}
   <link
     defer
@@ -69,16 +73,20 @@
   <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-<!-- GeoJSON support via Leaflet -->
-{% if page.map %}
-  <link
-    defer
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@{{ site.leaflet.version }}/dist/leaflet.css"
-    integrity="{{ site.leaflet.integrity.css }}"
-    crossorigin=""
-  >
-{% endif %}
+{% comment %}
+  {% raw %}
+  <!-- GeoJSON support via Leaflet -->
+  {% if page.map %}
+    <link
+      defer
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@{{ site.leaflet.version }}/dist/leaflet.css"
+      integrity="{{ site.leaflet.integrity.css }}"
+      crossorigin=""
+    >
+  {% endif %}
+  {% endraw %}
+{% endcomment %}
 
 <!-- diff2html -->
 {% if page.code_diff %}
@@ -156,12 +164,12 @@
   <script
     defer
     src="{{ '/assets/js/jquery.imagemapster.min.js' | relative_url }}"
-    >
+  >
     // import imagemapster (local js JQuery extension to highlight map elements from map)
   </script>
   <script
     defer
     src="{{ '/assets/js/mapster.js' | relative_url }}"
-    ></script>
+  ></script>
   <link rel="stylesheet" href="{{ '/assets/css/mapster.css' | relative_url }}">
 {% endif %}
