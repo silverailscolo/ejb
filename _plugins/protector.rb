@@ -156,11 +156,13 @@ module Jekyll
 
             # protected_cache_path = File.join(Dir.pwd, '_protected-cache')
             protected_cache_path = File.join(Dir.pwd, '_protected-cache', site.active_lang) # EBR
-            Dir.foreach(protected_cache_path) do |cached_page|
-                next if cached_page == '.' or cached_page == '..'
-                if !(protected_pages_names.include? cached_page)
-                    # clean up old protected files in cache also removes newly created .md output, add another list?
-                    #FileUtils.rm_rf(File.join(protected_cache_path, cached_page))
+            if !Dir.exists?(protected_cache_path)  # only run locally to protect secret originals, _protected-cache is in .gitignore
+                Dir.foreach(protected_cache_path) do |cached_page|
+                    next if cached_page == '.' or cached_page == '..'
+                    if !(protected_pages_names.include? cached_page)
+                        # cleaning up old protected files in cache also removes newly created .md output, add another list?
+                        #FileUtils.rm_rf(File.join(protected_cache_path, cached_page))
+                    end
                 end
             end
         end
