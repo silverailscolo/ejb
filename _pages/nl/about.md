@@ -11,7 +11,8 @@ profile:
   image: banners/peak-age.jpg
   image_circular: false # crops the image to make it circular shaped
   more_info: >
-    vanuit Noord-Nederland
+    Daar gaat mijn kans op een Nobel-prijs
+    (via Mastodon @ionica)
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -24,6 +25,5 @@ SPDX-FileCopyrightText: 2024 EJ Broerse
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
-Minder kans dus op een Nobel-prijs.
-
-Duurzaam werken en leven.
+Duurzaam werken en leven
+in Noord-Nederland.
