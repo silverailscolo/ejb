@@ -28,7 +28,6 @@ Two other modules, [Durango Yard](https://www.marktplaats.nl/v/hobby-en-vrije-ti
 
 The modules I keep were stripped of the subframes and fastened to a pair of boards that are suspended from the ceiling, with a counterweight along the wall. When I want to run either module, I plug in the command station and go. Both the plywood railbed and a layer below that are hinged for easy access and troubleshooting.
 
-
 <figure><img src='{{ "/assets/img/trains2/ds2/IMG_1852.jpg" | relative_url }}' alt="D&S rev 2" class='img-fluid'><figcaption class="kleiner">D&S Railroad rev 2 is born</figcaption></figure>
 
 Off we go!
