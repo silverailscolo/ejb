@@ -42,7 +42,7 @@ Verbind de draden van de CT klemmen aan ongebruikte inputs op de harve. Ze versc
 
 ### Code
 
-Download de [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) en installeer die op de PicoW via de applicatie Thonny.
+Download de [micropython code]({{ "/assets/python/ovendisplay-main.py" | relative_url }}) en installeer die op de PicoW via de applicatie Thonny. Of haal hem van [GitHub Gist](https://gist.github.com/silverailscolo/251de664985824c1d1ddeaad54f00b6d).
 
 ### Home Assistant instellingen
 

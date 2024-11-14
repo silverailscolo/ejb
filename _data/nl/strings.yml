@@ -106,6 +106,7 @@ projects:
   nextProject: Volgende project
 protected:
   enter-pwd: Voer het wachtwoord in voor deze pagina
+  pwd: Wachtwoord
   decrypt: Ontsleutel
   wrong-pwd-dialog: Dit wachtwoord is ongeldig
 books:

@@ -1,5 +1,5 @@
 ---
-page_id: project_6
+page-id: project_6
 layout: project
 lang: nl
 title: project 6
