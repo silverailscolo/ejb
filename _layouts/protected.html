@@ -1,13 +1,15 @@
 ---
-layout: default
-# This page layout is used for Andrea Carriero protector.rb plugin
+layout: page
+# replaces layout: default
+# This page layout is used for Andrea Carriero's protector.rb plugin
 ---
 
-{{ page.title | escape }}
+<h2>{{ page.title | escape }}</h2>
+{{ page.lang | escape }}
 
 <div id="content">
-  {{ site.data[site.active_lang].strings['protected']['enter-pwd'] }}
-  <input id="password" type="password" />
+  {{ site.data[site.active_lang].strings['protected']['enter-pwd'] }}.
+  <label for="password">{{ site.data[site.active_lang].strings['protected']['pwd'] }}: </label><input id="password" type="password" />
   <button onclick="decrypt()">{{ site.data[site.active_lang].strings['protected']['decrypt'] }}</button>
   <p id="errmsg" style="color: red"></p>
 </div>

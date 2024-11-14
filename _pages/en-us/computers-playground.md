@@ -27,4 +27,15 @@ Inline using the lightgallery_tag.rb plugin
 {% gallery %}
 {{ '/assets/img/banners/stripes-global.png' | relative_url }}
 {{ '/assets/img/banners/rizzyhouse-braunschweig.jpg' | relative_url }}
+{{ '/assets/img/banners/peak-age.jpg' | relative_url }}
 {% endgallery %}
+
+## Embedded image
+
+Embedded Base64 encoded image, relative path:
+
+<img src="{% base64 ../../assets/img/1.jpg %}" alt="Tunnel img error" />
+
+## Protected page
+
+Check out <a href="{{ site.baseurl }}/protected-pages/example-protected-page/">a test page</a>.

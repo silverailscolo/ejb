@@ -106,6 +106,7 @@ projects:
   nextProject: Next Project
 protected:
   enter-pwd: Enter password for decryption
+  pwd: Password
   decrypt: Decrypt
   wrong-pwd-dialog: Wrong password
 books:

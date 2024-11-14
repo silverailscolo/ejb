@@ -50,8 +50,8 @@ Plak twee 1 mm dikke styreen vulplaatjes tussen de tendertrucks en het subframe 
 
 ## Left over parts
 
-Ik heb niet ontdekt waarvoor de 2 halfronde 3 mm brede stapjes zijn bedoeld.
+Ik heb nooit ontdekt waarvoor de 2 halfronde, 3 mm brede stapjes zijn bedoeld.
 
-<figure><img src='{{ "/assets/img/blog/K27_6528-6.jpg" | relative_url }}' alt="Voltooide K-27" class='img-fluid'><figcaption class="kleiner">De voltooide K-27 loc, seen from the left</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/K27_6528-6.jpg" | relative_url }}' alt="Voltooide K-27" class='img-fluid'><figcaption class="kleiner">De voltooide K-27 loc, gezien van links</figcaption></figure>
 
 <figure><img src='{{ "/assets/img/blog/K27_running_DSC0025.jpg" | relative_url }}' alt="K-27 loc onderweg" class='img-fluid'><figcaption class="kleiner">K-27 loc onderweg</figcaption></figure>
