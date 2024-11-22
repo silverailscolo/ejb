@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://silverailscolo.github.io/ejb/sitemap.xml
+Sitemap: https://silverailscolo.github.io/sitemap.xml
