@@ -4,7 +4,7 @@ layout: about
 title: about
 lang: en-us
 permalink: /
-subtitle: architect, developer, collector
+subtitle: designer, coder, collector
 
 profile:
   align: right

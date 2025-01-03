@@ -14,8 +14,7 @@ SPDX-FileCopyrightText: 2024 EJ Broerse
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
-Welkom op de site van Egbert Broerse, architect.<br>
-Als architect en als stedenbouwkundige sta ik ingeschreven in het <a href="https://www.architectenregister.nl/vind-een-architect/?searchTerm=Broerse&searchFilter=5">architectenregister</a>.<br>
+Welkom op de site van Egbert Broerse.<br>
 Ik ben bereikbaar via email link (dot) egbert (at) mac (dot) com
 
 ## Visie

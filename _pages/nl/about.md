@@ -4,7 +4,7 @@ layout: about
 title: over
 lang: nl
 permalink: /
-subtitle: architect, programmeur, verzamelaar
+subtitle: ontwerper, programmeur, verzamelaar
 
 profile:
   align: right
