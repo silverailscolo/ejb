@@ -1079,7 +1079,7 @@ pictures:
       - Dors_IMG_9744-120x128.jpg
       - Dors_IMG_9744-225x240.jpg
     thumbnail: Dors_IMG_9744-120x128.jpg
-    title: "Dors"
+    title: Dors
   - caption: Stadshaven brouwerij (Lidl 2024) <br>CC BY-NC-SA 4.0
     filename: Stadshaven
     original: Stadshaven-510x512.jpg
@@ -1087,7 +1087,32 @@ pictures:
       - Stadshaven-120x120.jpg
       - Stadshaven-250x251.jpg
     thumbnail: Stadshaven-120x120.jpg
-    title: "Stadshaven Octopus Blond en -Ice Breaker"
+    title: Stadshaven Octopus Blond en -Ice Breaker
+  - caption: Texels Jutters Bock<br>CC BY-NC-SA 4.0
+    filename: Texels_Blauw_IMG_2260
+    original: Texels_Blauw_IMG_2260-178x180.jpg
+    sizes:
+      - Texels_Blauw_IMG_2260-479x475.webp
+      - Texels_Blauw_IMG_2260-799x792.webp
+      - Texels_Blauw_IMG_2260-1399x1387.webp
+    thumbnail: Texels_Blauw_IMG_2260-479x475.webp
+    title: "Texels Jutters Bock 7%"
+  - caption: Valdieu Brune<br>CC BY-NC-SA 4.0
+    filename: ValdieuBruin_IMG_2259
+    original: ValdieuBruin_IMG_2259.PNG
+    sizes:
+      - ValdieuBruin_IMG_2259-479x487.webp
+      - ValdieuBruin_IMG_2259-799x813.webp
+    thumbnail: ValdieuBruin_IMG_2259-479x487.webp
+    title: "Valdieu Abbaye Brune"
+  - caption: Valdieu Triple<br>CC BY-NC-SA 4.0
+    filename: ValdieuBruin_IMG_2258
+    original: ValdieuBruin_IMG_2258.PNG
+    sizes:
+      - ValdieuBruin_IMG_2258-479x478.webp
+      - ValdieuBruin_IMG_2258-799x798.webp
+    thumbnail: ValdieuBruin_IMG_2258-479x478.webp
+    title: "Valdieu Abbaye Triple"
   - caption: Texels 0.0 <br>CC BY-NC-SA 4.0
     filename: Texels_00_IMG_9889
     original: Texels_00_IMG_9889-178x180.jpg
@@ -1095,11 +1120,11 @@ pictures:
       - Texels_00_IMG_9889-119x120.jpg
     thumbnail: Texels_00_IMG_9889-119x120.jpg
     title: ""
-  - caption: " <br>CC BY-NC-SA 4.0"
+  - caption: "Steenbrugge Blond<br>CC BY-NC-SA 4.0"
     filename: Steenbrugge
     original: Steenbrugge-512x508.jpg
     sizes:
       - Steenbrugge-120x119.jpeg
       - Steenbrugge-250x248.jpeg
     thumbnail: Steenbrugge-120x119.jpeg
-    title: "Steenbrugge Blond"
+    title: Steenbrugge Blond
