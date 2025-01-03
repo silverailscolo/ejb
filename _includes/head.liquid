@@ -31,7 +31,7 @@
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
 >
 
-<!-- Code Syntax Highlighting - turned off, causes prettier error -->
+<!-- Code Syntax Highlighting - turned off, causes prettier error 11-2024 -->
 {% comment %}
   {% raw %}
   <link
@@ -61,7 +61,7 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<!-- Dark Mode - turned off, causes prettier error -->
+<!-- Dark Mode -->
 {% if site.enable_darkmode %}
   <link
     defer
@@ -74,6 +74,7 @@
 {% endif %}
 
 {% comment %}
+Turned off - causes prettier error 2024-11 cant-fix
   {% raw %}
   <!-- GeoJSON support via Leaflet -->
   {% if page.map %}

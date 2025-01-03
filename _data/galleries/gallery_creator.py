@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: BSD-3-Clause
 #!/usr/bin/env python
 
-# install imagesize: pip install imagesize pyyaml
+# install dependencies: pip3 install imagesize pyyaml pyexiftool
 # added xmp tags to output, user input for gallery
 
 __author__ = 'Olivier Pieters'
