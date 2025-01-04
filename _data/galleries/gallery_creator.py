@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2024 Olivier Pieters <https://olivierpieters.be>
-# SPDX-FileCopyrightText: 2024 EJ Broerse <https://ebroerse.nl>
+# SPDX-FileCopyrightText: 2024-2025 EJ Broerse <https://ebroerse.nl>
 #
 # SPDX-License-Identifier: BSD-3-Clause
 #!/usr/bin/env python

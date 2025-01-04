@@ -9,7 +9,7 @@ nav_order: 2
 ---
 
 <!--
-SPDX-FileCopyrightText: 2024 EJ Broerse
+SPDX-FileCopyrightText: 2024-2025 EJ Broerse
 
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->

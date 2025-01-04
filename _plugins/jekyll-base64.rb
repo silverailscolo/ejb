@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright (C) 2015 Fabrizio Calderan, 2024 EJ Broerse
+# SPDX-FileCopyrightText: Copyright (C) 2015 Fabrizio Calderan, 2024-2025 EJ Broerse
 #
 # SPDX-License-Identifier: CC BY-SA 4.0
 

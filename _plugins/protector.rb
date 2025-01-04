@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright (C) 2021 Andrea Carriero, 2024 EJ Broerse
+# SPDX-FileCopyrightText: Copyright (C) 2021 Andrea Carriero, 2024-2025 EJ Broerse
 #
 # SPDX-License-Identifier: MIT
 
