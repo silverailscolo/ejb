@@ -36,7 +36,7 @@ require 'date'
 
 module Jekyll
   class ExifTag < Liquid::Tag
-    $copyright = "© 1995-2024 EJ Broerse CC-BY-NC-SA 4.0"
+    $copyright = "© 1995-2024-2025 EJ Broerse CC-BY-NC-SA 4.0"
 
     def initialize(tag_name, params, token)
       super

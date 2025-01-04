@@ -64,7 +64,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "head" # "2.7.0" is ejb local version, so watch out for differences
+          ruby-version: "3.2.0" # "2.7.0" is ejb local version, so watch out for differences
           bundler-cache: true
       #- name: Setup Python 🐍
       #  uses: actions/setup-python@v5

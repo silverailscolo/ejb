@@ -1,10 +1,10 @@
-<!-- SPDX-FileCopyrightText: 2024 EJ Broerse -->
+<!-- SPDX-FileCopyrightText: 2023-2025 EJ Broerse -->
 <!-- -->
 <!-- SPDX-License-Identifier: CC-BY-NC-SA-4.0 -->
 
 <div>
 
-**Serves a [website](https://silverailscolo.github.io/ejb) based on the [al-folio theme](https://github.com/alshedivat/al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
+**Serves a [website](https://silverailscolo.github.io/ejb) based on the [multi-language al-folio theme](https://github.com/george-gca/multi-language-al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
 
 ---
 

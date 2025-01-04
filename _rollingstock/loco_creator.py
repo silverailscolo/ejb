@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# SPDX-FileCopyrightText: 2024 EJ Broerse
+# SPDX-FileCopyrightText: 2024-2025 EJ Broerse
 # SPDX-FileCopyrightText: 2020 Olivier Pieters
 #
 # SPDX-License-Identifier: BSD-3-Clause

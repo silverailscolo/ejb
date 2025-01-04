@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright 2024 EJ Broerse <https://www.ebroerse.nl>
+# SPDX-FileCopyrightText: Copyright 2024-2025 EJ Broerse <https://www.ebroerse.nl>
 #
 # SPDX-License-Identifier: CC-BY-NC-SA-4.0
 

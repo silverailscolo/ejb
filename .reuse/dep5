@@ -17,7 +17,7 @@ Files:
   - assets/pdf/*
   - assets/img-noresample/*
   - assets/art_gallery/*
-Copyright: © 2024 EJ Broerse
+Copyright: © 2024-2025 EJ Broerse
 License: CC-BY-NC-SA-4.0
 
 Files:
@@ -26,5 +26,5 @@ Files:
   - _layouts/gallery.liquid
   - _includes/album.html
   - _includes/gallery_layout.liquid
-Copyright: © 2024 EJ Broerse
+Copyright: © 2024-2025 EJ Broerse
 License: GPL-3.0-or-later
