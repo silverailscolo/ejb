@@ -160,8 +160,7 @@ disqus_shortname: multi-language-al-folio # put your disqus shortname
 
 collections:
   news:
-    defaults:
-      layout: post
+    layout: post
     output: true
     permalink: /:collection/:title/
   projects:
