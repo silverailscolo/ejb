@@ -15,8 +15,8 @@
   crossorigin="anonymous"
 >
 
-<!-- Bootstrap Table -->
 {% if page.pretty_table %}
+<!-- Bootstrap Table -->
   <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@{{ site.bootstrap-table.version }}/dist/bootstrap-table.min.css">
 {% endif %}
 
@@ -31,17 +31,21 @@
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
 >
 
-<!-- Code Syntax Highlighting - turned off, causes prettier error 11-2024 -->
+<!-- Code Syntax Highlighting -->
 {% comment %}
+  turn off? causes prettier error 11-2024
   {% raw %}
-  <link
-    defer
-    rel="stylesheet"
-    href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url | bust_file_cache }}"
-    media=""
-    id="highlight_theme_light"
-  >
   {% endraw %}
+{% endcomment %}
+<link
+  defer
+  rel="stylesheet"
+  href="{{ '/assets/css/jekyll-pygments-themes-github.css' | relative_url | bust_file_cache }}"
+  media=""
+  id="highlight_theme_light"
+>
+{% comment %}
+  up to here
 {% endcomment %}
 
 {% if page.toc and page.toc.sidebar %}
@@ -61,8 +65,8 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<!-- Dark Mode -->
 {% if site.enable_darkmode %}
+<!-- Dark Mode -->
   <link
     defer
     rel="stylesheet"
@@ -89,8 +93,8 @@ Turned off - causes prettier error 2024-11 cant-fix
   {% endraw %}
 {% endcomment %}
 
-<!-- diff2html -->
 {% if page.code_diff %}
+<!-- diff2html -->
   <link
     defer
     rel="stylesheet"
@@ -142,10 +146,15 @@ Turned off - causes prettier error 2024-11 cant-fix
 {% endif %}
 
 <!-- JavaScripts moved here from footer -->
-{% include scripts/jquery.liquid %}
+<!-- jQuery -->
+<script
+  src="{{ site.third_party_libraries.jquery.url.js }}"
+  integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
+  crossorigin="anonymous"
+></script>
 
-<!-- Lightgallery -->
 {% if page.support contains 'gallery' %}
+<!-- Lightgallery -->
   <!-- Lightgallery.rb plugin. Takes care of css too -->
   {% gallery_includes %}
   <!-- EBR added for Lightgallery opieters -->

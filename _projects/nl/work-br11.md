@@ -4,7 +4,7 @@ layout: project
 lang: nl
 title: BR11
 description: Restauratie circulair
-img: assets/img/architect/br11/header.png
+img: /assets/img/architect/br11/header.png
 importance: 2
 category: work
 ---
@@ -57,4 +57,4 @@ Nadat de woning wind- en waterdicht was, kon de interne verbouwing - isolatie en
 </div>
 </div>
 
-Meer <a href="../../house/renovation.html">BR11 beelden</a>.
+Meer <a href="/house/renovation.html">BR11 beelden</a>.

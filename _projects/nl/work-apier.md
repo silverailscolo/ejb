@@ -4,15 +4,15 @@ layout: project
 lang: nl
 title: A-Pier
 description: Realisatie in modules
-img: assets/img/architect/apier/header.png
+img: /assets/img/architect/apier/header.png
 importance: 2
 category: work
 carousels:
   - images:
-      - image: /ejb/assets/img/architect/apier/IMG_0394.jpg
-      - image: /ejb/assets/img/architect/apier/IMG_0809.jpg
-      - image: /ejb/assets/img/architect/apier/IMG_1199.jpg
-      - image: /ejb/assets/img/architect/apier/IMG_7866.jpg
+      - image: /assets/img/architect/apier/IMG_0394.jpg
+      - image: /assets/img/architect/apier/IMG_0809.jpg
+      - image: /assets/img/architect/apier/IMG_1199.jpg
+      - image: /assets/img/architect/apier/IMG_7866.jpg
 ---
 
 Periode: 2017-2020

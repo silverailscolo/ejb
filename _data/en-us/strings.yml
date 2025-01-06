@@ -4,6 +4,7 @@ categories:
   fun: fun
   work: work
 contact_note: You can even add a little note about which of these is the best way to reach you.
+change_theme_tip: Change theme
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
 last_updated: Last updated
 rss_subscribe: subscribe <a href="$url">via RSS</a>

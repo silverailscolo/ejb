@@ -59,21 +59,6 @@
     {% include footer.liquid %}
 
     <!-- JavaScripts.  jQuery moved to head EJB turned off: mathjax (slow), tikzjax (?) -->
-    {% include scripts/bootstrap.liquid %}
-    {% include scripts/masonry.liquid %}
-    {% include scripts/progressBar.liquid %}
-    {% include scripts/imageLayouts.liquid %}
-    {% if page.support contains 'advanced' %}
-      {% include scripts/mermaid.liquid %}
-      {% include scripts/diff2html.liquid %}
-      {% include scripts/leaflet.liquid %}
-      {% include scripts/chartjs.liquid %}
-      {% include scripts/echarts.liquid %}
-      {% include scripts/vega.liquid %}
-      {% include scripts/misc.liquid %}
-      {% include scripts/badges.liquid %}
-      {% include scripts/analytics.liquid %}
-      {% include scripts/wechatModal.liquid %}
-    {% endif %}
+    {% include scripts.liquid %}
   </body>
 </html>

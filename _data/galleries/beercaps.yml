@@ -1106,12 +1106,12 @@ pictures:
     thumbnail: ValdieuBruin_IMG_2259-479x487.webp
     title: "Valdieu Abbaye Brune"
   - caption: Valdieu Triple<br>CC BY-NC-SA 4.0
-    filename: ValdieuBruin_IMG_2258
-    original: ValdieuBruin_IMG_2258.PNG
+    filename: ValdieuRood_IMG_2258
+    original: ValdieuRood_IMG_2258.PNG
     sizes:
-      - ValdieuBruin_IMG_2258-479x478.webp
-      - ValdieuBruin_IMG_2258-799x798.webp
-    thumbnail: ValdieuBruin_IMG_2258-479x478.webp
+      - ValdieuRood_IMG_2258-479x478.webp
+      - ValdieuRood_IMG_2258-799x798.webp
+    thumbnail: ValdieuRood_IMG_2258-479x478.webp
     title: "Valdieu Abbaye Triple"
   - caption: Texels 0.0 <br>CC BY-NC-SA 4.0
     filename: Texels_00_IMG_9889
