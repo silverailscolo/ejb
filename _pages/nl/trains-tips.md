@@ -6,11 +6,13 @@ permalink: /trains/tips
 title: Modelbouw Tips
 description: Van eigen fouten geleerd
 nav: false
+toc:
+  sidebar: left
 ---
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2><a id="installdecoder">Hoe installeer je een DCC decoder</a></h2>
+<h2><a id="installdecoder">Hoe installeer je een DCC-decoder</a></h2>
 
 Binnenkort
 
@@ -95,11 +97,11 @@ Ik begon met het tekenen van een compact spoorschema in 4 punts witte lijnen op 
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/DSRR%20Panel%20Background.png" | relative_url }}' alt="DSRR Achtergrondafbeelding" class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/DSRR_Panel_Background.png" | relative_url }}' alt="DSRR Achtergrondafbeelding" class='img-fluid'>
 <figcaption class="kleiner">Achtergrondafbeelding, getekend in Illustrator (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/DSRR%20Panel%20Screen.png" | relative_url }}' alt="DSRR screenshot w/icons in JMRI" class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/DSRR_Panel_Screen.png" | relative_url }}' alt="DSRR screenshot w/icons in JMRI" class='img-fluid'>
 <figcaption class="kleiner">Het voltooide paneel in JMRI (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
@@ -111,7 +113,7 @@ De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl, zij h
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt="Fysiek bedieningspaneel D&amp;SNG RR" class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR_panel.jpg" | relative_url }}' alt="Fysiek bedieningspaneel D&amp;SNG RR" class='img-fluid'>
 <figcaption class="kleiner">Een van de bedieingspanelen op de D&amp;SNG RR (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
@@ -122,48 +124,45 @@ De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl, zij h
 
 </div><!-- einde tegel -->
 
-Terug naar <a href="layout.html">Treinen/De Baan</a>
+Terug naar <a href="layout.html">Treinen/Modelbaan</a>
 
+<h2>How-to's</h2>
 <div class="container featured-posts">
 <div class="row row-cols-2">
 
 {% for post in site.posts %}
-{% assign cats = post.categories | jsonify %}
-{% if cats contains "how-to" %}
+  {% assign cats = post.categories | jsonify %}
+  {% if cats contains "how-to" %}
+  
+    <div class="card-item col">
+      <div class="card hoverable">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <div class="card-body">
+              <div class="float-right">
+                <i class="fa-solid fa-thumbtack fa-xs"></i>
+              </div>
+              <h3 class="card-title text-lowercase">{{ post.title }}</h3>
+              <p class="card-text">{{ post.description }}
+              </p>
+              {% if post.external_source == blank %}
+                {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+              {% else %}
+                {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+              {% endif %}
+              {% assign year = post.date | date: "%Y" %}
 
-  <div class="card-item col">
-    <a href="{{ post.url | relative_url }}">
-    <div class="card hoverable">
-      <div class="row g-0">
-        <div class="col-md-12">
-          <div class="card-body">
-            <div class="float-right">
-              <i class="fa-solid fa-thumbtack fa-xs"></i>
-            </div>
-            <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-            <p class="card-text">{{ post.description }}
-
-            {% if post.external_source == blank %}
-              {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-            {% else %}
-              {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-            {% endif %}
-            {% assign year = post.date | date: "%Y" %}
-
-            <p class="post-meta">
-              {{ read_time }} min read &nbsp; &middot; &nbsp;
-              <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-                <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-
+              <p class="post-meta">
+                {{ read_time }} min leestijd &nbsp; &middot; &nbsp;
+                <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+                  <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+              </p>
+            </div><!-- end of card-body -->
           </div>
         </div>
       </div>
     </div>
-    </a>
-
-  </div>
-
-{% endif %}
+  {% endif %}
 {% endfor %}
 
 </div>

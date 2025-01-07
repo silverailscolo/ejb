@@ -2,7 +2,8 @@
 layout: post
 lang: nl
 page-id: rlw-k27
-title: "Bouw van de RLW Nn3 K-27 kit"
+title: "RLW Nn3 K-27"
+description: "Bouw van de RLW Nn3 K-27 kit"
 date: "2017-11-07"
 categories:
   - "treinen"
@@ -19,7 +20,7 @@ Bereid u voor door te zoeken naar extra foto's van de motor die u wilt modellere
 
 ## Ketel
 
-Wees voorzichtig bij het oppakken van het ketel gietstuk, want de leuningsteunen hebben de neiging af te breken na 3 keer buigen.
+Wees voorzichtig bij het oppakken van het gietstuk van de ketel, want de leuningsteunen hebben de neiging af te breken na 3 keer buigen.
 
 Vijl en monteer de vuurkist op de achterkant van het Märklin-frame, zodat deze overeenkomt met de afmetingen vermeld in het instructieblad, maar plak het nog niet vast.
 

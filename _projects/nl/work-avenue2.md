@@ -4,15 +4,15 @@ layout: project
 lang: nl
 title: A2 Maastricht
 description: Groot civiel- en bouwproject
-img: assets/img/architect/avenue2/7691.jpg
+img: /assets/img/architect/avenue2/7691.jpg
 importance: 2
 category: work
 carousels:
   - images:
-      - image: ../../assets/img/architect/avenue2/7691.jpg
-      - image: ../../assets/img/architect/avenue2/TMZ2016_IMG_5708.jpg
-      - image: ../../assets/img/architect/avenue2/DGZ201404_IMG_3788.jpg
-      - image: ../../assets/img/architect/avenue2/DGZ201404_IMG_3797.jpg
+      - image: /assets/img/architect/avenue2/7691.jpg
+      - image: /assets/img/architect/avenue2/TMZ2016_IMG_5708.jpg
+      - image: /assets/img/architect/avenue2/DGZ201404_IMG_3788.jpg
+      - image: /assets/img/architect/avenue2/DGZ201404_IMG_3797.jpg
 ---
 
 Periode: 2009 - 2017

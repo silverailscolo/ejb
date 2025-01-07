@@ -158,8 +158,3 @@ After 3 years without owning a car, using a compact GreenWheels now and then, we
 <figure><img src='{{ "/assets/img-noresample/our_cars/evalia2014-867x667.jpg" | relative_url }}' alt='Nissan Evalia EV' class='img-fluid'>
 <figcaption class="kleiner">Nissan Evalia EV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from <a href="https://www.muxsan.com/Nederlands/index.html">Muxsan</a> in Delft installed in the rear.
-
-<!-- naar boven menuutje -->
-<div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px">
-<a href="#top"><img src='{{ "/assets/img/uptop.png" | relative_url }}' alt='Naar boven'></a>
-</div>

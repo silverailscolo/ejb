@@ -4,7 +4,7 @@ layout: project
 lang: nl
 title: Randweg Zundert
 description: Inpassing nieuwe rondweg
-img: assets/img/architect/zundert/header.png
+img: /assets/img/architect/zundert/header.png
 importance: 3
 category: work
 ---

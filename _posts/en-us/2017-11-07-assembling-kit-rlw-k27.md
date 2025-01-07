@@ -2,7 +2,8 @@
 layout: post
 lang: en-us
 page-id: rlw-k27
-title: "Assembling the RLW Nn3 K-27 kit"
+title: "RLW Nn3 K-27"
+description: "Assembling the RLW Nn3 K-27 kit"
 date: "2017-11-07"
 categories:
   - "trains"

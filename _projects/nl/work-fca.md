@@ -4,7 +4,7 @@ layout: project
 lang: nl
 title: Food Center Amsterdam
 description: Ondersteuning transformatie veilingterrein
-img: assets/img/architect/fca/header.png
+img: /assets/img/architect/fca/header.png
 importance: 3
 category: work
 ---

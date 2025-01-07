@@ -10,9 +10,9 @@ profile:
   align: right
   image: banners/peak-age.jpg
   image_circular: false # crops the image to make it circular shaped
-  more_info: >
-    Missed my window of opportunity for a Nobel Prize...
-    (via Mastodon @ionica)
+  more_info:  >
+    <p>Missed my window of opportunity for a Nobel Prize...</p>
+    <p>(via Mastodon ionica)</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

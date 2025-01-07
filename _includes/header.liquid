@@ -110,6 +110,14 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if site.search_enabled %}
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="{{ site.data[site.active_lang].strings.search.title }}" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          {% endif %}
           <!-- Toggle language -->
           {% if site.languages.size >= 2 %}
             {% if site.languages.size == 2 %}
@@ -118,7 +126,7 @@
               {% else %}
                 {% assign other_language = site.languages.first %}
               {% endif %}
-              <li class="nav-item active">
+              <li class="nav-item active" title="{{ site.data[site.active_lang].strings.change_language_tip }}">
                 {% if site.active_lang == site.default_lang %}
                   <a class="nav-link" {% static_href -%} href="{{site.baseurl}}/{{ other_language }}{{page.url}}" {%- endstatic_href %}>
                     {% if site.country_flag %}
@@ -191,9 +199,10 @@
           {% if site.enable_darkmode %}
             <!-- Toggle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-sun"></i>
+              <button id="light-toggle" title="{{ site.data[site.active_lang].strings.change_theme_tip }}">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
             </li>
           {% endif %}

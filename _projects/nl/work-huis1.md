@@ -4,7 +4,7 @@ layout: project
 lang: nl
 title: "Woonhuis #1"
 description: Inbreidingsplan nieuwbouw woonhuis
-img: assets/img/architect/huis1/header.png
+img: /assets/img/architect/huis1/header.png
 importance: 2
 category: work
 ---

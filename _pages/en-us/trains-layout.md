@@ -48,7 +48,41 @@ More images of the layout
 </div>
 </div>
 
-## A tour of the (former) layout
+## The layout
+
+After we moved house, I kept two modules from the original layout and installed them back to back suspended over a workbench. Back to basics just like our house: digital switching, signals, kept the nicest buildings and put the other stuff up for sale...
+
+<div class="card hoverable" style="max-width: 90%;">
+<figure><img src='{{ "/assets/img/trains2/d_and_s/Plan_DSRR_2024.png" | relative_url }}' alt="Track plan 2025" class='img-fluid'>
+<figcaption class="kleiner">Track plan 2025.</figcaption>
+</figure>
+</div>
+
+Name
+: Durenver &amp; Silverton Narrow Gauge RR
+
+Theme
+: Colorado Rocky Mountain mining
+
+Scale
+: N/Nn3 Scale (1:160 9mm/6mm gauge)
+
+Era
+: circa 1955
+
+Minimum Radius
+: 10 in/25 cm
+
+Turnouts
+: Atlas code 80 #6
+
+Mainline Run
+: 20 ft/6 m = 1 scale km
+
+Dimensions
+: 7 ft x 4 ft/2.2 m x 1.2 m island
+
+## A tour of the former layout
 
 <a href="#newport">Newport</a> | <a href="#farmington">Farmington</a> | <a href="#durenver">Durenver</a> | <a href="#rockwood">Rockwood</a> | <a href="#silverton">Silverton</a>
 
@@ -87,7 +121,7 @@ Mainline Run
 : 100 ft/30 m = 4.8 scale km
 
 Dimensions
-: 11 ft x 8 ft/3.5 m x 2.5 m
+: 11 ft x 8 ft/3.5 m x 2.5 m around the wall
 
 See the <a href="#lda">LDA stats</a> below.
 
@@ -418,8 +452,3 @@ All Items were later added to <a href="https://webserver.jmri.org/help/en/packag
 
 <a href="https://www.railpictures.net/">RailPictures.Net</a>
 : Browse large archives of prototype pictures from home
-
-<!-- naar boven menuutje -->
-<div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px;">
-<a href="#top"><img src='{{ "/assets/img/uptop.png" | relative_url }}' alt='To top of page'></a>
-</div>

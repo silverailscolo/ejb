@@ -39,7 +39,7 @@ Panels along the layout are connected to JMRI and show occupancy of blocks, turn
 </div>
 <div class="col-sm">
 <figure>
-<img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt='Hardware panels on the D&S RR' class='img-fluid'>
+<img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR_panel.jpg" | relative_url }}' alt='Hardware panels on the D&S RR' class='img-fluid'>
 <figcaption class="kleiner">Hardware panels on the D&amp;S RR (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 </div>

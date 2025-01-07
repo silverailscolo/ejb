@@ -4,7 +4,7 @@ layout: project
 lang: nl
 title: N31 Harlingen
 description: Kunstwerken (bruggen en zo)
-img: assets/img/architect/n31/header.png
+img: /assets/img/architect/n31/header.png
 importance: 2
 category: work
 ---
@@ -59,4 +59,4 @@ Rol: projectarchitect ruimtelijke kwaliteit, vormgeving en details van civiele w
 
 </div><!-- einde N31 schetsboek -->
 
-Meer <a href="../../gallery/n31.html">N31 beelden</a>.
+Meer <a href="/gallery/n31.html">N31 beelden</a>.
