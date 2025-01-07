@@ -49,11 +49,11 @@ Nog wat beelden van de modelbaan
 
 ## De modelbaan
 
-Na de verhuizing heb ik 2 modules behouden en rug-aan-rug aan het plafond opgehangen boven een werktafel. Terug naar de basis: digitaal rijden en rangeren, seinen, mooiste gebouwtjes behouden.
+Na onze verhuizing heb ik eind 2024 twee modules afgestoft en rug-aan-rug aan het plafond opgehangen boven een werktafel. Terug naar de basis: digitaal rijden en rangeren, seinen, mooiste gebouwtjes behouden. De rest kon weg voor elk redelijk bod...
 
 <div class="card hoverable" style="max-width: 90%;">
-<figure><img src='{{ "/assets/img/trains2/d_and_s/Plan_DSRR_2024.png" | relative_url }}' alt="Netwerkkaart" class='img-fluid'>
-<figcaption class="kleiner">Kaart van het spoor tussen Durango en Silverton in het noorden.</figcaption>
+<figure><img src='{{ "/assets/img/trains2/d_and_s/Plan_DSRR_2024.png" | relative_url }}' alt="Plattegrond baan 2025" class='img-fluid'>
+<figcaption class="kleiner">Spoorplan 2025</figcaption>
 </figure>
 </div>
 

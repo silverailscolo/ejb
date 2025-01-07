@@ -50,11 +50,13 @@ More images of the layout
 
 ## The layout
 
-After we moved house, I kept two modules from the original layout and installed them back to back suspended over a workbench. Back to basics just like our house: digital switching, signals, kept the ncest buildings.
+After we moved house, I kept two modules from the original layout and installed them back to back suspended over a workbench. Back to basics just like our house: digital switching, signals, kept the nicest buildings and put the other stuff up for sale...
 
-<figure><img src='{{ "/assets/img/trains2/d_and_s/Plan_DSRR_2024.png" | relative_url }}' alt="Netwerkkaart" class='img-fluid'>
-<figcaption class="kleiner">Kaart van het spoor tussen Durango en Silverton in het noorden.</figcaption>
+<div class="card hoverable" style="max-width: 90%;">
+<figure><img src='{{ "/assets/img/trains2/d_and_s/Plan_DSRR_2024.png" | relative_url }}' alt="Track plan 2025" class='img-fluid'>
+<figcaption class="kleiner">Track plan 2025.</figcaption>
 </figure>
+</div>
 
 Name
 : Durenver &amp; Silverton Narrow Gauge RR
@@ -63,7 +65,7 @@ Theme
 : Colorado Rocky Mountain mining
 
 Scale
-: N/Nn3 Scale
+: N/Nn3 Scale (1:160 9mm/6mm gauge)
 
 Era
 : circa 1955
@@ -72,7 +74,7 @@ Minimum Radius
 : 10 in/25 cm
 
 Turnouts
-: Atlas code 55/80 #7/#6, Peco streamline #8, Minitrix #4
+: Atlas code 80 #6
 
 Mainline Run
 : 20 ft/6 m = 1 scale km
