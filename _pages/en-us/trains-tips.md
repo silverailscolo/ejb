@@ -98,11 +98,11 @@ I started by drawing a compact track schematic in 4 pt white lines on a black ba
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/DSRR%20Panel%20Background.png" | relative_url }}' alt="DSRR background" class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/DSRR_Panel_Background.png" | relative_url }}' alt="DSRR background" class='img-fluid'>
 <figcaption class="kleiner">The background image, prepared in Illustrator (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/DSRR%20Panel%20Screen.png" | relative_url }}' alt="DSRR screenshot w/icons" class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/DSRR_Panel_Screen.png" | relative_url }}' alt="DSRR screenshot w/icons" class='img-fluid'>
 <figcaption class="kleiner">The completed panel in JMRI (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 </div>
@@ -114,7 +114,7 @@ My physical control panels on the layout fascia sport the same graphic style, be
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR%20panel.jpg" | relative_url }}' alt="DSRR physical panel" class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR_panel.jpg" | relative_url }}' alt="DSRR physical panel" class='img-fluid'>
 <figcaption class="kleiner">One of the Control Panels on the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
@@ -125,48 +125,44 @@ My physical control panels on the layout fascia sport the same graphic style, be
 
 </div>
 
-Back to <a href="layout.html">Railroading</a>
+Back to <a href="layout.html">Railroading/Layout</a>
 
+<h2>How-to's</h2>
 <div class="container featured-posts">
 <div class="row row-cols-2">
 
 {% for post in site.posts %}
-{% assign cats = post.categories | jsonify %}
-{% if cats contains "how-to" %}
-
-  <div class="card-item col">
-    <a href="{{ post.url | relative_url }}">
-    <div class="card hoverable">
-      <div class="row g-0">
-        <div class="col-md-12">
-          <div class="card-body">
-            <div class="float-right">
-              <i class="fa-solid fa-thumbtack fa-xs"></i>
-            </div>
-            <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-            <p class="card-text">{{ post.description }}
+  {% assign cats = post.categories | jsonify %}
+  {% if cats contains "how-to" %}
   
-            {% if post.external_source == blank %}
-              {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-            {% else %}
-              {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-            {% endif %}
-            {% assign year = post.date | date: "%Y" %}
+    <div class="card-item col">
+      <div class="card hoverable">
+        <div class="row g-0">
+          <div class="col-md-12">
+            <div class="card-body">
+              <div class="float-right">
+                <i class="fa-solid fa-thumbtack fa-xs"></i>
+              </div>
+              <h3 class="card-title text-lowercase">{{ post.title }}</h3>
+              <p class="card-text">{{ post.description }}
+              </p>
+              {% if post.external_source == blank %}
+                {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+              {% else %}
+                {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+              {% endif %}
+              {% assign year = post.date | date: "%Y" %}
 
-            <p class="post-meta">
-              {{ read_time }} min read &nbsp; &middot; &nbsp;
-              <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-                <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-
+              <p class="post-meta">
+                {{ read_time }} min read &nbsp; &middot; &nbsp;
+                <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+                  <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    </a>
-
-  </div>
-
-{% endif %}
+  {% endif %}
 {% endfor %}
 
 </div>

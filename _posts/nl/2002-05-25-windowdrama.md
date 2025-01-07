@@ -19,7 +19,7 @@ Korte geschiedenis van het werk
 <tr><td>23 maart 2001</td><td>'s ochtends 1e gesprek met aannemer over te verrichten werkzaamheden buitengevelschilderwerk. Voor de komende winter (!) moet dat een keer.</td></tr>
 
 <tr><td>2 april 2001</td><td>offerte opgesteld voor schilderwerk; totaal hfl 10.870,30;<br>opmerkingen o.a.:
-<ul><li> inspecteren van goot, voegwerk en timmmerwerk lijst op regiebasis a hfl 80,- excl. btw, opslag en materiaal;
+<ul><li> inspecteren van goot, voegwerk en timmerwerk lijst op regiebasis a hfl 80,- excl. btw, opslag en materiaal;
 </li><li>offerte geldig tot 30 dagen na dagtekening.</li></ul>
 <div>N.a.v. telefonisch overleg afgesproken dat voorman langskomt om aanpassing achtergevel op te nemen. Voorzetramen kosten f 1.500,-</div></td></tr>
 

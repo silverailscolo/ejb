@@ -4,6 +4,8 @@ categories:
   fun: fun
   work: work
 contact_note: You can even add a little note about which of these is the best way to reach you.
+search:
+  title: Search...
 change_theme_tip: Change theme
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
 last_updated: Last updated
