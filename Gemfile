@@ -23,7 +23,7 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'terser', '~> 1.2', '>= 1.2.4'
     gem 'unicode_utils'
-    gem 'webrick'
+    gem 'webrick', '~> 1.3', '>= 1.3.1'
     gem 'html-proofer'
 end
 group :other_plugins do

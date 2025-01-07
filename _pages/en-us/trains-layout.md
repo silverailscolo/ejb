@@ -48,7 +48,39 @@ More images of the layout
 </div>
 </div>
 
-## A tour of the (former) layout
+## The layout
+
+After we moved house, I kept two modules from the original layout and installed them back to back suspended over a workbench. Back to basics just like our house: digital switching, signals, kept the ncest buildings.
+
+<figure><img src='{{ "/assets/img/trains2/d_and_s/Plan_DSRR_2024.png" | relative_url }}' alt="Netwerkkaart" class='img-fluid'>
+<figcaption class="kleiner">Kaart van het spoor tussen Durango en Silverton in het noorden.</figcaption>
+</figure>
+
+Name
+: Durenver &amp; Silverton Narrow Gauge RR
+
+Theme
+: Colorado Rocky Mountain mining
+
+Scale
+: N/Nn3 Scale
+
+Era
+: circa 1955
+
+Minimum Radius
+: 10 in/25 cm
+
+Turnouts
+: Atlas code 55/80 #7/#6, Peco streamline #8, Minitrix #4
+
+Mainline Run
+: 20 ft/6 m = 1 scale km
+
+Dimensions
+: 7 ft x 4 ft/2.2 m x 1.2 m island
+
+## A tour of the former layout
 
 <a href="#newport">Newport</a> | <a href="#farmington">Farmington</a> | <a href="#durenver">Durenver</a> | <a href="#rockwood">Rockwood</a> | <a href="#silverton">Silverton</a>
 
@@ -87,7 +119,7 @@ Mainline Run
 : 100 ft/30 m = 4.8 scale km
 
 Dimensions
-: 11 ft x 8 ft/3.5 m x 2.5 m
+: 11 ft x 8 ft/3.5 m x 2.5 m around the wall
 
 See the <a href="#lda">LDA stats</a> below.
 

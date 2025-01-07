@@ -47,7 +47,43 @@ Nog wat beelden van de modelbaan
 </div>
 </div>
 
-## Rondleiding op de (voormalige) modelbaan
+## De modelbaan
+
+Na de verhuizing heb ik 2 modules behouden en rug-aan-rug aan het plafond opgehangen boven een werktafel. Terug naar de basis: digitaal rijden en rangeren, seinen, mooiste gebouwtjes behouden.
+
+<div class="card hoverable" style="max-width: 90%;">
+<figure><img src='{{ "/assets/img/trains2/d_and_s/Plan_DSRR_2024.png" | relative_url }}' alt="Netwerkkaart" class='img-fluid'>
+<figcaption class="kleiner">Kaart van het spoor tussen Durango en Silverton in het noorden.</figcaption>
+</figure>
+</div>
+
+<a href="#durenver">Durenver</a> | <a href="#silverton">Silverton</a>
+
+Naam
+: Durenver &amp; Silverton Narrow Gauge RR
+
+Thema
+: Colorado Rocky Mountain mining
+
+Schaal
+: N/Nn3 (1:160, 9 mm/6 mm)
+
+Periode
+: circa 1955
+
+Minimumstraal
+: 25 cm/10 in
+
+Wissels
+: Atlas code 80 #6/Märklin Z
+
+Lengte hoofdspoor
+: 6 m/20 ft = 1 scale km
+
+Afmetingen
+: 2.2 m x 1.2 m/7 ft x 4 ft eiland
+
+## Rondleiding op de vorige modelbaan
 
 <a href="#newport">Newport</a> | <a href="#farmington">Farmington</a> | <a href="#durenver">Durenver</a> | <a href="#rockwood">Rockwood</a> | <a href="#silverton">Silverton</a>
 
@@ -64,20 +100,20 @@ Nog wat beelden van de modelbaan
 </div>
 </div>
 
-Name
+Naam
 : Durenver &amp; Silverton Narrow Gauge RR
 
-Theme
-: Colorado Rocky Mountain erts-, hout- en veevervoer &amp; passagierstreinen, aansluiting op de SF in Thoreau NM en op de D&amp;RGW in Grand Junction CO
+Thema
+: Colorado Rocky Mountain mining, logging, cattle &amp; passenger trains, interchange with SF at Thoreau NM and D&amp;RGW at Grand Junction CO
 
-Scale
-: N/Nn3 (1:160, 3 ft)
+Schaal
+: N/Nn3 Scale
 
-Era
+Periode
 : circa 1955
 
-Minimum Radius
-: 25 cm
+Minimumstraal
+: 25 cm/10 in
 
 Wissels
 : Atlas code 55/80 #7/#6, Peco streamline #8, Minitrix #4
@@ -86,9 +122,9 @@ Lengte hoofdspoor
 : 100 ft/30 m = 4.8 scale km
 
 Afmetingen
-: 3.5 m x 2.5 m
+: 11 ft x 8 ft/3.5 m x 2.5 m langs de wand
 
-Zie ook de <a href="#lda">LDA stats</a> onderaan.
+Zie <a href="#lda">LDA statistieken</a> onderaan.
 
 Tot de zomer van 2000 was er nog geen plek om rails te leggen, maar in 2018 kon de eerste treinen de hele route door de Rockies helemaal naar het dorpje <a href="#silverton">Silverton</a> afleggen.
 

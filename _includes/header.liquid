@@ -126,7 +126,7 @@
               {% else %}
                 {% assign other_language = site.languages.first %}
               {% endif %}
-              <li class="nav-item active">
+              <li class="nav-item active" title="{{ site.data[site.active_lang].strings.change_language_tip }}">
                 {% if site.active_lang == site.default_lang %}
                   <a class="nav-link" {% static_href -%} href="{{site.baseurl}}/{{ other_language }}{{page.url}}" {%- endstatic_href %}>
                     {% if site.country_flag %}

@@ -6,6 +6,7 @@ categories:
   contact_note: Bij voorkeur per email.
 search:
   title: Zoek...
+change_language_tip: Wijzig taal
 change_theme_tip: Pas opmaak aan
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
 last_updated: Laatst bijgewerkt
