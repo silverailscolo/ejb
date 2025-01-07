@@ -455,9 +455,4 @@ Alle items heb ik later toegevoegd aan mijn <a href="https://webserver.jmri.org/
 : Meer informatie over industrieën en spooractiviteiten
 
 <a href="https://www.railpictures.net/">RailPictures.Net</a>
-: Blader thuis door grote archieven met prototypefoto's
-
-<!-- naar boven menuutje -->
-<div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px;">
-<a href="#top"><img src='{{ "/assets/img/uptop.png" | relative_url }}' alt='Naar boven'></a>
-</div>
+: Blader vanuit huis door archieven vol prototypefoto's

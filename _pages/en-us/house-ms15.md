@@ -297,8 +297,3 @@ For Sale, Sold &amp; a quick start
 <li>Buitenschilderwerk (daar blijf je mee bezig)</li>
 <li>In 2021 hebben we dit huis verkocht / We moved out in 2021</li>
 </ul>
-
-<!-- naar boven menuutje -->
-<div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px">
-<a href="#top"><img src='{{ site.baseurl }}/assets/img/uptop.png' alt='To top of page'></a>
-</div>

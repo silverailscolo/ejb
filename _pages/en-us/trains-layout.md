@@ -452,8 +452,3 @@ All Items were later added to <a href="https://webserver.jmri.org/help/en/packag
 
 <a href="https://www.railpictures.net/">RailPictures.Net</a>
 : Browse large archives of prototype pictures from home
-
-<!-- naar boven menuutje -->
-<div id="ondernav" style="max-width: 80%; z-index: 2; left: 11px; width: 92px; position: fixed; bottom: 80px;">
-<a href="#top"><img src='{{ "/assets/img/uptop.png" | relative_url }}' alt='To top of page'></a>
-</div>
