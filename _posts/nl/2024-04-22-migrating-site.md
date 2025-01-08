@@ -7,7 +7,7 @@ inline: false
 related_posts: false
 ---
 
-Mijn oude website, blog en fotobibliotheek heb ik van Wordpresse en Piwigo overgezet naar Jekyll, zodat het een geïntegreerd geheel wordt. En pff, nooit meer security-updates, geblokte adressen etc.
+Mijn oude website, blog en fotobibliotheek heb ik van Wordpress en Piwigo overgezet naar Jekyll, zodat het een geïntegreerd geheel wordt. En pff, nooit meer security-updates, geblokte adressen etc.
 
 Met bijschriften uit metadata van de bestanden. In twee talen: NL en EN, wat begon vanwege mijn US modelbouw contacten. En met automatische licht/donker modus.
 

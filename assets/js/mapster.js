@@ -1,5 +1,6 @@
 // custom script to create popup EBR 2023-2024
 var stick = false;
+var images_folder = "/assets/img/tuin/"
 
 function showpop(e, num) {
   // function called by all hotspots on mouseOver
@@ -7,7 +8,7 @@ function showpop(e, num) {
   if (stick == false) {
     thing.style.left = e.clientX + "px";
     thing.style.top = e.clientY + "px";
-    console.log("showpop thing.xy: " + thing.style.left + "," + thing.style.top); // debug
+    // console.log("showpop thing.xy: " + thing.style.left + "," + thing.style.top); // debug
     // set image title
     var nodeListPlants = document.getElementsByClassName("plant");
     var title = nodeListPlants[num - 1].innerHTML;
@@ -18,7 +19,7 @@ function showpop(e, num) {
       document.getElementById("popuptitle").innerHTML = "nog opzoeken";
     }
     // set image src
-    document.getElementById("plant_image").src = "/ejb/assets/img/tuin/" + num + ".jpg"; // add absolute image path
+    document.getElementById("plant_image").src = images_folder + num + ".jpg"; // add absolute image path
     thing.style.visibility = "visible";
   }
   return true;
