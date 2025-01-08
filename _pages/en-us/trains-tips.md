@@ -41,7 +41,7 @@ See <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>this blo
 
 <h2>How to make a Digitrax dwarf signal</h2>
 
-Using the Base Mast Kit ([Digitrax article SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N scale) as - well - the base - we add the typical Rio Grande hood from styrene.
+Using the Base Mast Kit (<a href='https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/'>Digitrax artikel SMBK</a>, N scale) as - well - the base - we add the typical Rio Grande hood from styrene.
 
 If desired, cut off the upper head just above the lower head (Secret tip: you can make a dwarf from this stump by soldering it to a copper tube for ground + a wire to each LED).
 
@@ -80,7 +80,7 @@ The Digitrax DS52 stationary decoder consists of a PCB with a connector. After p
 
 To reduce the number of outputs required to connect a switch panel to Loconet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel.
 
-See [this blog post]({{ "_site/blog/2015/locoio-inverter/" | relative_url }}).
+See <a href='{{ "/blog/2015/2015-01-07-locoio-inverter/" | relative_url }}'>this blog post</a>.
 
 </div>
 
@@ -123,11 +123,12 @@ My physical control panels on the layout fascia sport the same graphic style, be
 </div>
 </div>
 
-</div>
+</div><!-- end of last card -->
 
 Back to <a href="layout.html">Railroading/Layout</a>
 
 <h2>How-to's</h2>
+
 <div class="container featured-posts">
 <div class="row row-cols-2">
 
@@ -135,33 +136,34 @@ Back to <a href="layout.html">Railroading/Layout</a>
 {% assign cats = post.categories | jsonify %}
 {% if cats contains "how-to" %}
 
-    <div class="card-item col">
-      <div class="card hoverable">
-        <div class="row g-0">
-          <div class="col-md-12">
-            <div class="card-body">
-              <div class="float-right">
-                <i class="fa-solid fa-thumbtack fa-xs"></i>
-              </div>
-              <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-              <p class="card-text">{{ post.description }}
-              </p>
-              {% if post.external_source == blank %}
-                {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-              {% else %}
-                {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-              {% endif %}
-              {% assign year = post.date | date: "%Y" %}
-
-              <p class="post-meta">
-                {{ read_time }} min read &nbsp; &middot; &nbsp;
-                <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-                  <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-              </p>
+  <div class="card-item col">
+    <div class="card hoverable">
+      <div class="row g-0">
+        <div class="col-md-12">
+          <div class="card-body">
+            <div class="float-right">
+              <i class="fa-solid fa-thumbtack fa-xs"></i>
             </div>
-          </div>
+            <h3 class="card-title text-lowercase">{{ post.title }}</h3>
+            <p class="card-text">{{ post.description }}
+            </p>
+            {% if post.external_source == blank %}
+              {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+            {% else %}
+              {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+            {% endif %}
+            {% assign year = post.date | date: "%Y" %}
+
+            <p class="post-meta">
+              {{ read_time }} min read &nbsp; &middot; &nbsp;
+              <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+                <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+            </p>
+          </div><!-- end of card-body -->
         </div>
       </div>
+    </div>
+  </div>
 
 {% endif %}
 {% endfor %}

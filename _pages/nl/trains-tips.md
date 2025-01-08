@@ -12,7 +12,7 @@ toc:
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2><a id="installdecoder">Hoe installeer je een DCC-decoder</a></h2>
+<h2><a id="installdecoder">Installeer een DCC-decoder</a></h2>
 
 Binnenkort
 
@@ -20,7 +20,7 @@ Binnenkort
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>Bouw van de RLW K-27 kit</h2>
+<h2>Bouw de RLW K-27 kit</h2>
 
 Zie <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>deze blog post</a>.
 
@@ -41,11 +41,11 @@ Zie <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>deze blo
 
 <h2>Hoe maak je een Digitrax dwergsein</h2>
 
-De Base Mast Kit ([Digitrax artikel SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N-schaal) vormt - i.d.d. - de basis. We voegen er de typische Rio Grande kap van styreen aan toe.
+De Base Mast Kit (<a href='https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/'>Digitrax artikel SMBK</a>, N-schaal) vormt - inderdaad - de basis. We voegen er de typische Rio Grande kap van styreen aan toe.
 
-Als je geen distant signal nodig hebt, zaag dan het bovenste seinhoofd af net boven de onderste (geheime tip: je kunt van deze stronk een dwergsein maken door het stukje aan een koperen buis voor aarde te solderen + een draad voor elke LED).
+Als je geen distant signal nodig hebt, zaag dan het bovenste seinhoofd af net boven de onderste (geheime tip: je kunt van dit restje een dwergsein maken door het stukje aan een koperen buis voor aarde te solderen + een draad voor elke LED).
 
-Lees alles in [deze blog post]({{ "/blog/2019/rio-grande-signal/" | relative_url }}).
+Lees alles in <a href='{{ "/blog/2019/rio-grande-signal/" | relative_url }}'>deze blog post</a>.
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpg" | relative_url }}' alt='Seinen in bedrijf' class='img-fluid'>
 <figcaption class="kleiner">Seinen in bedrijf (
@@ -80,7 +80,7 @@ Om het aantal uitgangen dat nodig is om een schakelpaneel op Loconet aan te slui
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO omkeerprintje' class='img-fluid'></figure>
 
-Zie [deze blog post]({{ "/blog/2015/2015-01-07-locoio-inverter/" | relative_url }}) voor alle info.
+Zie <a href='{{ "/blog/2015/2015-01-07-locoio-inverter/" | relative_url }}'>deze blog post</a> voor alle info.
 
 </div>
 
@@ -114,7 +114,7 @@ De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl, zij h
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_3536_D_SNGRR_panel.jpg" | relative_url }}' alt="Fysiek bedieningspaneel D&amp;SNG RR" class='img-fluid'>
-<figcaption class="kleiner">Een van de bedieingspanelen op de D&amp;SNG RR (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+<figcaption class="kleiner">Een van de bedienigspanelen op de D&amp;SNG RR (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">photo</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/d_and_s/panels_rear_DSCF1846.jpg" | relative_url }}' alt="Achterzijde van een paneel" class='img-fluid'>
@@ -127,6 +127,7 @@ De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl, zij h
 Terug naar <a href="layout.html">Treinen/Modelbaan</a>
 
 <h2>How-to's</h2>
+
 <div class="container featured-posts">
 <div class="row row-cols-2">
 
@@ -134,34 +135,34 @@ Terug naar <a href="layout.html">Treinen/Modelbaan</a>
 {% assign cats = post.categories | jsonify %}
 {% if cats contains "how-to" %}
 
-    <div class="card-item col">
-      <div class="card hoverable">
-        <div class="row g-0">
-          <div class="col-md-12">
-            <div class="card-body">
-              <div class="float-right">
-                <i class="fa-solid fa-thumbtack fa-xs"></i>
-              </div>
-              <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-              <p class="card-text">{{ post.description }}
-              </p>
-              {% if post.external_source == blank %}
-                {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-              {% else %}
-                {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-              {% endif %}
-              {% assign year = post.date | date: "%Y" %}
+  <div class="card-item col">
+    <div class="card hoverable">
+      <div class="row g-0">
+        <div class="col-md-12">
+          <div class="card-body">
+            <div class="float-right">
+              <i class="fa-solid fa-thumbtack fa-xs"></i>
+            </div>
+            <h3 class="card-title text-lowercase">{{ post.title }}</h3>
+            <p class="card-text">{{ post.description }}
+            </p>
+            {% if post.external_source == blank %}
+              {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+            {% else %}
+              {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+            {% endif %}
+            {% assign year = post.date | date: "%Y" %}
 
-              <p class="post-meta">
-                {{ read_time }} min leestijd &nbsp; &middot; &nbsp;
-                <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-                  <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-              </p>
-            </div><!-- end of card-body -->
-          </div>
+            <p class="post-meta">
+              {{ read_time }} min leestijd &nbsp; &middot; &nbsp;
+              <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+                <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+            </p>
+          </div><!-- end of card-body -->
         </div>
       </div>
     </div>
+  </div>
 
 {% endif %}
 {% endfor %}

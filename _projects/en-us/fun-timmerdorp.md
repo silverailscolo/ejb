@@ -4,14 +4,14 @@ layout: project
 lang: en-us
 title: Timmerdorp
 description: Holiday children's activity camp
-img: assets/img/architect/timmerdorp/header.png
+img: /assets/img/architect/timmerdorp/header.png
 importance: 3
 category: fun
 carousels:
   - images:
-      - image: /ejb/assets/img/architect/timmerdorp/IMG_9943.jpg
-      - image: /ejb/assets/img/architect/timmerdorp/IMG_9999.jpg
-      - image: /ejb/assets/img/architect/timmerdorp/IMG_0021.jpg
+      - image: /assets/img/architect/timmerdorp/IMG_9943.jpg
+      - image: /assets/img/architect/timmerdorp/IMG_9999.jpg
+      - image: /assets/img/architect/timmerdorp/IMG_0021.jpg
 ---
 
 Period: 2023-2024

@@ -17,10 +17,13 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/brands",
   "font-awesome/solid",
   "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss",
   "flag-icons/flag-icons"
 ;
 
-/* mobile friendly EBR */
+/* mobile friendly ejb */
 img, embed, object, video {
    max-width: 200%;
    height: auto;
@@ -52,7 +55,7 @@ div.right {
 }
 
 /*
-** CUSTOM STYLES for Book reviews
+** CUSTOM STYLES for Book reviews ejb
 */
 
 // Increase space around the book cover
