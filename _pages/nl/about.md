@@ -10,7 +10,7 @@ profile:
   align: right
   image: banners/peak-age.jpg
   image_circular: false # crops the image to make it circular shaped
-  more_info:  >
+  more_info: >
     <p>Daar gaat mijn kans op een Nobel-prijs</p>
     <p>(via Mastodon ionica)</p>
 
