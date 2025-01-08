@@ -39,3 +39,19 @@ Embedded Base64 encoded afbeelding, absoluut pad:
 ## Protected page
 
 Bekijk <a href="{{ site.baseurl }}/protected-pages/example-protected-page/">een testpagina</a>.
+
+## Site theme
+
+<i class="ti ti-sun-moon" id="light-toggle-demo"></i>
+<div id="mydiv">Huidige theme/Current theme: </div>
+
+<script>
+  function showTheme() {
+   var result = determineComputedTheme();
+   var elm = document.getElementById('mydiv');
+   var d = document.createElement('div');
+   d.innerText = result;
+   elm.appendChild(d);
+  }
+  document.addEventListener("DOMContentLoaded", showTheme);
+</script>

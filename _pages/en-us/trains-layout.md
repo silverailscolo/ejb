@@ -21,6 +21,19 @@ I've been modelling in N scale on and off for 30 years, starting with balsa wood
 You guessed it: after a visit to the area I am modelling the former route of the Denver &amp; Rio Grande Railroad along the banks of the Animas River.<br>
 An American prototype narrow gauge mountain line starts to come alive on my N scale layout: The Durenver &amp; Silverton Narrow Gauge Railroad (get it? <em>Dur</em>ango + D<em>enver</em>).
 
+<div class="row">
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/a2y016.jpg" | relative_url }}' alt='Visiting Durango Yard (1995)' class='img-fluid'>
+<figcaption class="kleiner">Visiting Durango Yard (1995) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/IMG_0080_xing.jpg" | relative_url }}' alt='Durango town perspective' class='img-fluid'>
+<figcaption class="kleiner">NG tracks, industries and mountains (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
+</div>
+</div>
+
 Building the D&amp;S layout
 
 <!-- simply so (by Jimmy_Xiao) -->
@@ -35,22 +48,7 @@ More images of the layout
 
 ## <a id="layout">Modeling the D&amp;SNG RR</a>
 
-<div class="row">
-<div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/a2y016.jpg" | relative_url }}' alt='Visiting Durango Yard (1995)' class='img-fluid'>
-<figcaption class="kleiner">Visiting Durango Yard (1995) (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
-</figure>
-</div>
-<div class="col-sm">
-<figure><img src='{{ "/assets/img/trains2/IMG_0080_xing.jpg" | relative_url }}' alt='Durango town perspective' class='img-fluid'>
-<figcaption class="kleiner">NG tracks, industries and mountains (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
-</figure>
-</div>
-</div>
-
-## The layout
-
-After we moved house, I kept two modules from the original layout and installed them back to back suspended over a workbench. Back to basics just like our house: digital switching, signals, kept the nicest buildings and put the other stuff up for sale...
+After we moved house, I kept two modules from the original layout and installed them back to back suspended over a workbench. Back to basics, just like our house in fact: digital switching, signals, kept the nicest buildings and put the other stuff up for sale...
 
 <div class="card hoverable" style="max-width: 90%;">
 <figure><img src='{{ "/assets/img/trains2/d_and_s/Plan_DSRR_2024.png" | relative_url }}' alt="Track plan 2025" class='img-fluid'>

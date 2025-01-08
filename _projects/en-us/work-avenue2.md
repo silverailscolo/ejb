@@ -4,17 +4,17 @@ layout: project
 lang: en-us
 title: A2 Maastricht
 description: Large civil construction + housing project
-img: assets/img/architect/avenue2/header.png
+img: /assets/img/architect/avenue2/header.png
 importance: 2
 category: work
 carousels:
   - images:
-      - image: /ejb/assets/img/architect/avenue2/7691.jpg
-      - image: /ejb/assets/img/architect/avenue2/TMZ2016_IMG_5708.jpg
-      - image: /ejb/assets/img/architect/avenue2/DGZ201404_IMG_3788.jpg
-      - image: /ejb/assets/img/architect/avenue2/DGZ201404_IMG_3797.jpg
+      - image: /assets/img/architect/avenue2/7691.jpg
+      - image: /assets/img/architect/avenue2/TMZ2016_IMG_5708.jpg
+      - image: /assets/img/architect/avenue2/DGZ201404_IMG_3788.jpg
+      - image: /assets/img/architect/avenue2/DGZ201404_IMG_3797.jpg
   - images:
-      - image: /ejb/assets/repeat.jpg
+      - image: /assets/repeat.jpg
 ---
 
 Period: 2009 - 2017

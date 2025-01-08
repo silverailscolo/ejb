@@ -20,20 +20,6 @@ Ik bouw al 50 jaar in schaal N, te beginnen met balsahout en karton op maat (en 
 
 Je raadt het al: na een bezoek aan het gebied modelleer ik de voormalige route van de Denver & Rio Grande Railroad langs de oevers van de Animas River. Een Amerikaans prototype van een smalspoorlijn begint tot leven te komen op mijn N-schaal modelbaan: de Durenver & Silverton Narrow Gauge Railroad (snap je 'em? <em>Dur</em>ango + D<em>enver</em>).
 
-De bouw van de D&amp;S baan
-
-<!-- simply so (by Jimmy_Xiao) -->
-
-{% include album.html albumname="trains2" %}
-
-Nog wat beelden van de modelbaan
-
-<!-- opieters include -->
-
-{% include gallery_layout.liquid gallery=site.data.galleries.trains %}
-
-## <a id="layout">Modeling the D&amp;SNG RR</a>
-
 <div class="row">
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/a2y016.jpg" | relative_url }}' alt='Op bezoek in Durango Yard (1995)' class='img-fluid'>
@@ -47,7 +33,19 @@ Nog wat beelden van de modelbaan
 </div>
 </div>
 
-## De modelbaan
+De bouw van de D&amp;S baan
+
+<!-- simply so (by Jimmy_Xiao) -->
+
+{% include album.html albumname="trains2" %}
+
+Nog wat beelden van de modelbaan
+
+<!-- opieters include -->
+
+{% include gallery_layout.liquid gallery=site.data.galleries.trains %}
+
+## <a id="layout">Modeling the D&amp;SNG RR</a>
 
 Na onze verhuizing heb ik eind 2024 twee modules afgestoft en rug-aan-rug aan het plafond opgehangen boven een werktafel. Terug naar de basis: digitaal rijden en rangeren, seinen, mooiste gebouwtjes behouden. De rest kon weg voor elk redelijk bod...
 
