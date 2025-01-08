@@ -10,7 +10,7 @@ profile:
   align: right
   image: banners/peak-age.jpg
   image_circular: false # crops the image to make it circular shaped
-  more_info:  >
+  more_info: >
     <p>Missed my window of opportunity for a Nobel Prize...</p>
     <p>(via Mastodon ionica)</p>
 

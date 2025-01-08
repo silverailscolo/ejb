@@ -132,9 +132,9 @@ Back to <a href="layout.html">Railroading/Layout</a>
 <div class="row row-cols-2">
 
 {% for post in site.posts %}
-  {% assign cats = post.categories | jsonify %}
-  {% if cats contains "how-to" %}
-  
+{% assign cats = post.categories | jsonify %}
+{% if cats contains "how-to" %}
+
     <div class="card-item col">
       <div class="card hoverable">
         <div class="row g-0">
@@ -162,7 +162,8 @@ Back to <a href="layout.html">Railroading/Layout</a>
           </div>
         </div>
       </div>
-  {% endif %}
+
+{% endif %}
 {% endfor %}
 
 </div>
