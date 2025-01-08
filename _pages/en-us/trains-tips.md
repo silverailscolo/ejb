@@ -136,7 +136,7 @@ Back to <a href="layout.html">Railroading/Layout</a>
 {% assign cats = post.categories | jsonify %}
 {% if cats contains "how-to" %}
 
-  <div class="card-item col">
+  <div class="grid-item">
     <div class="card hoverable">
       <div class="row g-0">
         <div class="col-md-12">
@@ -144,9 +144,10 @@ Back to <a href="layout.html">Railroading/Layout</a>
             <div class="float-right">
               <i class="fa-solid fa-thumbtack fa-xs"></i>
             </div>
-            <h3 class="card-title text-lowercase">{{ post.title }}</h3>
-            <p class="card-text">{{ post.description }}
-            </p>
+            <a href="{{ post.url | relative_url }}">
+              <h3 class="card-title text-lowercase">{{ post.title }}</h3>
+              <p class="card-text">{{ post.description }}</p>
+            </a>
             {% if post.external_source == blank %}
               {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
             {% else %}

@@ -4,7 +4,7 @@ title: architecture
 permalink: /architect/
 id: architecture
 lang: en-us
-nav: true
+nav: false
 nav_order: 2
 ---
 
@@ -14,11 +14,9 @@ SPDX-FileCopyrightText: 2024-2025 EJ Broerse
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
-Welcome to the site of Egbert Broerse.
-
 For creative opportunities, feel free to contact me via email link (dot) egbert (at) mac (dot) com
 
-## My design approach
+## My architectural design approach
 
 I think it is important that spaces - inside as well as outside - are healthy and pleasant. Therefore, I prefer working with [biobased](https://www.pianoo.nl/en/), non-toxic materials and reused products, from floorboards to old tiles.  
 As part of the brief, research into optimal use of existing spaces and buildings is an important step to avoid disposing of quality materials and buying new ones when you don't need to at all. **Refuse** is the 1st rung on the [CO<sub>2</sub> Performance Ladder](https://www.co2-prestatieladder.nl/en), a Sustainability tool.  

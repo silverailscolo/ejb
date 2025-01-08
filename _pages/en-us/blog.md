@@ -69,39 +69,38 @@ pagination:
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% elsif window.screen.width > 800 %}3{% else %}2{% endif %}">
 {% for post in featured_posts %}
 <div class="card-item col">
-<a href="{{ post.url | relative_url }}">
 <div class="card hoverable">
 <div class="row g-0">
 <div class="col-md-12">
 <div class="card-body">
-<div class="float-right">
-<i class="fa-solid fa-thumbtack fa-xs"></i>
-</div>
-<h3 class="card-title text-lowercase">{{ post.title }}</h3>
-<p class="card-text">{{ post.description }}
+  <div class="float-right">
+  <i class="fa-solid fa-thumbtack fa-xs"></i>
+  </div>
+  <a href="{{ post.url | relative_url }}">
+    <h3 class="card-title text-lowercase">{{ post.title }}</h3>
+    <p class="card-text">{{ post.description }}</p>
+  </a>
+              {% if post.external_source == blank %}
+                {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+              {% else %}
+                {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+              {% endif %}
+              {% assign year = post.date | date: "%Y" %}
 
-                    {% if post.external_source == blank %}
-                      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-                    {% else %}
-                      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-                    {% endif %}
-                    {% assign year = post.date | date: "%Y" %}
-
-                    <p class="post-meta">
-                      {{ read_time }} min read &nbsp; &middot; &nbsp;
-                      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
-                        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-
-                  </div>
-                </div>
-              </div>
+              <p class="post-meta">
+                {{ read_time }} min read &nbsp; &middot; &nbsp;
+                <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+                  <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+              </p>
             </div>
-          </a>
+          </div>
         </div>
-      {% endfor %}
       </div>
     </div>
-    <hr>
+  {% endfor %}
+  </div>
+</div>
+<hr>
 
 {% endif %}
 

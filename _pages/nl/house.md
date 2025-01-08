@@ -5,7 +5,7 @@ permalink: /house/
 title: huis
 lang: nl
 nav: true
-nav_order: 6
+nav_order: 5
 dropdown: true
 children:
   - title: tuin
