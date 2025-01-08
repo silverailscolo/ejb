@@ -6,7 +6,7 @@ permalink: /projects/
 description: Een verzameling van mijn projecten.
 lang: nl
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---

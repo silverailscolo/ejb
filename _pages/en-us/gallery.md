@@ -5,7 +5,7 @@ title: collections
 permalink: /gallery/
 lang: en-us
 nav: true
-nav_order: 4
+nav_order: 3
 support: [gallery]
 ---
 

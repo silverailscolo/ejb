@@ -5,7 +5,7 @@ title: computers
 permalink: /computers/
 lang: en-us
 nav: true
-nav_order: 7
+nav_order: 6
 dropdown: true
 children:
   - title: GitHub repositories

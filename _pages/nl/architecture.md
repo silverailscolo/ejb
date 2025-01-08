@@ -4,7 +4,7 @@ title: architectuur
 permalink: /architect/
 id: architecture
 lang: nl
-nav: true
+nav: false
 nav_order: 2
 ---
 
@@ -14,10 +14,9 @@ SPDX-FileCopyrightText: 2024-2025 EJ Broerse
 SPDX-License-Identifier: CC-BY-NC-SA-4.0
 -->
 
-Welkom op de site van Egbert Broerse.<br>
-Ik ben bereikbaar via email link (dot) egbert (at) mac (dot) com
+Als je een creatieve kans ziet, neem dan gerust contact op per email link (dot) egbert (at) mac (dot) com
 
-## Visie
+## Visie op architectuur
 
 Ik vind het belangrijk dat ruimtes - binnen en buiten - gezond en prettig zijn. Daarom werk ik met
 [biobased](https://www.pianoo.nl/nl/overzicht-aanbod-biobased-producten), niet-giftige materialen en hergebruikte producten, van vloerdelen tot oude tegels.<br>

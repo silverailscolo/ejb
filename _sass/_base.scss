@@ -56,6 +56,11 @@ table.table a {
   }
 }
 
+figure,
+img {
+  max-width: 90vw;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);
@@ -174,12 +179,25 @@ ul.task-list input[type="checkbox"] {
     padding-top: 1.25rem;
   }
 
+  img {
+    width: 100%;
+  }
+
   .card-title {
     color: var(--global-text-color);
   }
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
   }
 }
 
@@ -674,6 +692,15 @@ footer.sticky-bottom {
     }
   }
 
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+
   .col {
     padding-bottom: 1rem;
   }
@@ -1121,6 +1148,10 @@ nav[data-toggle="toc"] {
     }
   }
 
+  .card-item {
+    margin-bottom: 10px;
+  }
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
@@ -1379,4 +1410,47 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+// LightGallery tag.rb for readable counter over black background
+.lg-counter-current,
+.lg-counter-all {
+  // Override al-folio span font color for LightGallery
+  color: #999;
+}
+
+/*****************************************************************************
+ * Personal tweaks Egbert, added from hyperstyle.css 2024
+ *****************************************************************************/
+.kleiner {
+  font-size: 0.75rem;
+}
+
+/*****************************************************************************
+ * Gallery Lightbox by Olivier Pieters, added 2024
+ *****************************************************************************/
+
+.lg-hide-items .lg-sub-html {
+  display: none;
+}
+
+/*****************************************************************************
+ * Tag cloud by superdevresources.com, added 2024
+ *****************************************************************************/
+
+.site-tag a {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+/*****************************************************************************
+ * banner for translation not available, from leo3418.github.io, added 2024
+ *****************************************************************************/
+.message-box {
+  // background-color: #eef;
+  background-color: var(--global-tip-block-bg);
+  color: var(--global-tip-block-text);
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-align: center;
 }

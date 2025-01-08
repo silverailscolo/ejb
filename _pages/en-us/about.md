@@ -27,3 +27,6 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 
 Striving for sustainability
 in the North of the Netherlands.
+
+[ ] (Architectural design)[architecture.html]
+[ ] (Images, images!)[gallery.html]
