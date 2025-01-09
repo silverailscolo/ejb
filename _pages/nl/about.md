@@ -27,6 +27,6 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 Duurzaam werken en leven
 in Noord-Nederland.
 
-- [Architectonisch ontwerp](architecture.html)
-- [Plaatjes, plaatjes!](gallery.html)
+- [Architectonisch ontwerp](./architecture/)
+- [Plaatjes, plaatjes!](./gallery/)
 - de rest vind je via het menu
