@@ -8,7 +8,7 @@ subtitle: ontwerper, programmeur, verzamelaar
 
 profile:
   align: right
-  image: nieuwjaar2025.jpg
+  image: banners/nieuwjaar2025.jpg
   image_circular: false # crops the image to make it circular shaped
   more_info: >
     <p>Geluk in 2025 gewenst</p>
