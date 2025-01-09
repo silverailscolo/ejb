@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-architectuur",
-          title: "architectuur",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/architect/";
-          },
         },{id: "nav-projecten",
           title: "projecten",
           description: "Een verzameling van mijn projecten.",
