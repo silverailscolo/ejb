@@ -1074,7 +1074,7 @@ pictures:
     title: ""
   - caption: Dors (huismerk Jumbo) <br>CC BY-NC-SA 4.0
     filename: Dors_IMG_9744
-    original: Dors_IMG_9744-480x512.jpg
+    original: Dors_IMG_9744.jpg
     sizes:
       - Dors_IMG_9744-120x128.jpg
       - Dors_IMG_9744-225x240.jpg
@@ -1082,7 +1082,7 @@ pictures:
     title: Dors
   - caption: Stadshaven brouwerij (Lidl 2024) <br>CC BY-NC-SA 4.0
     filename: Stadshaven
-    original: Stadshaven-510x512.jpg
+    original: Stadshaven.jpg
     sizes:
       - Stadshaven-120x120.jpg
       - Stadshaven-250x251.jpg
@@ -1090,39 +1090,39 @@ pictures:
     title: Stadshaven Octopus Blond en -Ice Breaker
   - caption: Texels Jutters Bock<br>CC BY-NC-SA 4.0
     filename: Texels_Blauw_IMG_2260
-    original: Texels_Blauw_IMG_2260-178x180.jpg
+    original: Texels_Blauw_IMG_2260.jpg
     sizes:
-      - Texels_Blauw_IMG_2260-479x475.webp
-      - Texels_Blauw_IMG_2260-799x792.webp
       - Texels_Blauw_IMG_2260-1399x1387.webp
-    thumbnail: Texels_Blauw_IMG_2260-479x475.webp
+      - Texels_Blauw_IMG_2260-479x475.webp
+      - Texels_Blauw_IMG_2260-150x149.png
+    thumbnail: Texels_Blauw_IMG_2260-150x149.png
     title: "Texels Jutters Bock 7%"
   - caption: Valdieu Brune<br>CC BY-NC-SA 4.0
     filename: ValdieuBruin_IMG_2259
-    original: ValdieuBruin_IMG_2259.PNG
+    original: ValdieuBruin_IMG_2259.png
     sizes:
       - ValdieuBruin_IMG_2259-479x487.webp
-      - ValdieuBruin_IMG_2259-799x813.webp
-    thumbnail: ValdieuBruin_IMG_2259-479x487.webp
-    title: "Valdieu Abbaye Brune"
+      - ValdieuBruin_IMG_2259-155x157.png
+    thumbnail: ValdieuBruin_IMG_2259-155x157.png
+    title: Valdieu Abbaye Brune
   - caption: Valdieu Triple<br>CC BY-NC-SA 4.0
     filename: ValdieuRood_IMG_2258
-    original: ValdieuRood_IMG_2258.PNG
+    original: ValdieuRood_IMG_2258.png
     sizes:
       - ValdieuRood_IMG_2258-479x478.webp
-      - ValdieuRood_IMG_2258-799x798.webp
-    thumbnail: ValdieuRood_IMG_2258-479x478.webp
-    title: "Valdieu Abbaye Triple"
+      - ValdieuRood_IMG_2258-150x150.png
+    thumbnail: ValdieuRood_IMG_2258-150x150.png
+    title: Valdieu Abbaye Triple
   - caption: Texels 0.0 <br>CC BY-NC-SA 4.0
     filename: Texels_00_IMG_9889
-    original: Texels_00_IMG_9889-178x180.jpg
+    original: Texels_00_IMG_9889.jpg
     sizes:
       - Texels_00_IMG_9889-119x120.jpg
     thumbnail: Texels_00_IMG_9889-119x120.jpg
-    title: ""
-  - caption: "Steenbrugge Blond<br>CC BY-NC-SA 4.0"
+    title: Texels 0.0
+  - caption: Steenbrugge Blond<br>CC BY-NC-SA 4.0
     filename: Steenbrugge
-    original: Steenbrugge-512x508.jpg
+    original: Steenbrugge.jpg
     sizes:
       - Steenbrugge-120x119.jpeg
       - Steenbrugge-250x248.jpeg

@@ -8,11 +8,10 @@ subtitle: designer, coder, collector
 
 profile:
   align: right
-  image: banners/peak-age.jpg
+  image: banners/nieuwjaar2025.jpg
   image_circular: false # crops the image to make it circular shaped
   more_info: >
-    <p>Missed my window of opportunity for a Nobel Prize...</p>
-    <p>(via Mastodon ionica)</p>
+    <p>Happy new year 2025</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -28,5 +27,6 @@ SPDX-License-Identifier: CC-BY-NC-SA-4.0
 Striving for sustainability
 in the North of the Netherlands.
 
-[ ] (Architectural design)[architecture.html]
-[ ] (Images, images!)[gallery.html]
+- [Architectural design](architecture.html)
+- [Images, images!](gallery.html)
+- Check out the menu for more
