@@ -10,7 +10,17 @@ toc:
   sidebar: left
 ---
 
-Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned - the MacPlus, IIcx, Powerbook 100, Powerbook Duo 230, Performa 5400/180, a Strawberry iMac 233, a white iMac G5 and 2 aluminium Intel iMacs (CoreDuo and i5).<br>
+Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned - 
+
+- a MacPlus,
+- IIcx,
+- Powerbook 100,
+- Powerbook Duo 230,
+- Performa 5400/180,
+- a Strawberry iMac 233,
+- a white iMac G5 and
+- 2 aluminium Intel iMacs (CoreDuo and i5)
+
 By the way, it's shocking what my first memory expansion cost in 1986, or the external SCSI Apple CD-rom player for that matter.
 
 Can you still remember this?
@@ -241,4 +251,4 @@ Another HyperCard clone was
 My stack <a id="HyperSite">HyperSite</a> allows me to maintain my personal website. In 2006, I ported it to Revolution, so I could continue on macOS.
 Read my 2024 farewell to HyperSite <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>here</a>.
 
-April 2024 I migrated my whole site from HyperSite + WordPress + Piwigo naar [Jekyll](https://jekyllrb.com/).
+April 2024 I migrated my whole site from HyperSite + WordPress + Piwigo to [Jekyll](https://jekyllrb.com/).
