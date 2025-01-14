@@ -11,8 +11,8 @@ categories:
   - hardware
 ---
 
-To bring fresh air into our bedroom we had a decentral HRU installed, but is was too noisy to catch much sleep...<br>
-Because we prefer a temperature of 18˚C, heat recovery in ouw climate zone isn/t that useful. Because space was stille limited, I installe en axial fan with variable speed EC motor connected to an ESP32 the revs it up when the CO<sub>2</sub>-level nears 800 ppm. Read on for our setup:
+To bring fresh air into our bedroom we had a decentral HRU installed, but it was too noisy to catch much sleep...<br>
+Because we prefer a temperature of 18˚C, heat recovery in ouw climate zone isn't that useful. Because space was stille limited, I installe en axial fan with variable speed EC motor connected to an ESP32 the revs it up when the CO<sub>2</sub>-level nears 800 ppm. Read on for our setup:
 
 <figure><img src='{{ "/assets/img/house/smart/whisper/whisper_complete.jpg" | relative_url }}' alt="The complete fan install" class='img-fluid'><figcaption class="kleiner">The complete fan install</figcaption></figure>
 

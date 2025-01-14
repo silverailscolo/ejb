@@ -10,8 +10,17 @@ toc:
   sidebar: left
 ---
 
-Vanaf 1986 werk ik graag op de Apple Macintosh&trade;. Ik begon met een studentenversie van de compacte 9" MacPlus (MacWrite &amp; MacDraw), en later werkte ik op een IIcx, Powerbook 100, Powerbook Duo 230, Performa 5400/180 (alle gebruikt aangeschaft), een Aardbeiroze iMac 233 (uit de KPN winkel), een witte iMac G5 and 2 generaties aluminium Intel iMacs, CoreDuo en i5.<br>
-Achteraf schrikken hoe duur alles was van 1986 tot 2000, bijv. de externe SCSI Apple CD-rom player voor ƒ 1.000,-.
+Vanaf 1986 werk ik graag op de Apple Macintosh&trade;
+- Ik begon met een studentenversie van de compacte 9" MacPlus (MacWrite &amp; MacDraw),
+- later werkte ik op een IIcx,
+- een Powerbook 100,
+- een Powerbook Duo 230,
+- een zwarte Performa 5400/180 (alle gebruikt aangeschaft),
+- een Aardbeiroze iMac 233 (uit de KPN winkel),
+- een witte iMac G5 en
+- 2 generaties aluminium Intel iMacs: CoreDuo en i5.
+
+- Achteraf schrikken hoe duur alles was van 1986 tot 2000, bijv. de externe SCSI Apple CD-rom player voor ƒ 1.000,-.
 
 Herinner je je dit scherm nog?
 

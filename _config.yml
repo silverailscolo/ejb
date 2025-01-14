@@ -135,8 +135,6 @@ newsletter:
 
 collections:
   news:
-    defaults:
-      layout: post
     output: true
     permalink: /:collection/:title/
   projects:
@@ -622,6 +620,7 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@2.1.8/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@2.1.8/dist/venobox.min.js"
     version: "2.1.8"
+
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
@@ -646,7 +645,7 @@ jsonresume:
   - references
 
 # -----------------------------------------------------------------------------
-# Added for ejb follows below
+# Additions for ejb below this line
 # -----------------------------------------------------------------------------
 
 mini_magick:
