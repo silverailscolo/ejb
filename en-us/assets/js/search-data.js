@@ -135,7 +135,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-build-a-smart-fan",
+            },{id: "post-display-a-slip-an-a-cpe-panel",
+      
+        title: "Display a slip an a CPE panel",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/jmri-cpe-slip/";
+        
+      },
+    },{id: "post-build-a-smart-fan",
       
         title: "Build a smart-fan",
       

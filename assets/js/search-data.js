@@ -135,7 +135,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-bouw-een-slimme-ventilator-besturing",
+            },{id: "post-engelse-wissel-op-een-jmri-control-panel",
+      
+        title: "Engelse wissel op een JMRI Control Panel",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/jmri-cpe-slip/";
+        
+      },
+    },{id: "post-bouw-een-slimme-ventilator-besturing",
       
         title: "Bouw een slimme ventilator-besturing",
       
