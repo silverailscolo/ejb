@@ -15,17 +15,28 @@ categories:
 
 Op mijn modelbaan verbindt een op afstand bediende engelse wissel de Ouray-keerlus met Silverton. Het weergeven van dit element op een Layout Editor-paneel of een klassiek JMRI Paneel is eenvoudig met een speciaal menu. Maar in de Control Panel Editor (CPE) kan zogenaamde Turnout Indicator-element dat de bezetting en routetoewijzing kan weergeven geen 3-weg wissels en engelse wissels plaatsen (zie [docs](www.jmri.org/help/en/package/jmri/jmrit/display/ControlPanelEditor.shtml)).
 
-<figure><img src='{{ "/assets/img/trains2/jmri/jmri-le-slipedit.png" | relative_url }}' alt="LE slip edit scherm" class='img-fluid'><figcaption class="kleiner">LE slip edit scherm</figcaption></figure>
+<figure><img src='{{ "/assets/img/trains2/jmri/jmri-le-slipedit-nl.png" | relative_url }}' alt="LE slip edit scherm" class='img-fluid'><figcaption class="kleiner">LE slip edit scherm</figcaption></figure>
 
-Mijn engelse wissel LT2 werkt met maar twee standen, terwijl het LE-slip/3-weg gereedschap twee wisseladressen verwacht voor ten minste 3 standen. Op mijn baan poolt relais LT1 de DCC-railvoeding van de keerlus om zodat het DCC-signaal matcht op de blokgrens en kortsluiting wordt voorkomen. Aan de hand van deze 2 wisseladressen kunnen we een representatie maken op het CPE-paneel, met een kleine twist:
+Mijn engelse wissel LT2 werkt met maar twee standen, terwijl het LE-slip/3-weg gereedschap twee wisseladressen verwacht voor ten minste 3 standen. Op mijn baan poolt relais LT1 de DCC-railvoeding van de keerlus om zodat het DCC-signaal matcht op de blokgrens en kortsluiting wordt voorkomen. Aan de hand van deze 2 wisseladressen kunnen we een representatie maken op het CPE-paneel:
+
+| LT1 (ompoolrelais, linker helft)	 | IT2 (rechter helft)	 | LT2 (2-stands engelse wissel) |
+|-----------------------------------|----------------------|-------------------------------| 
+| recht	                            | afbuigend	           | afbuigend                     |
+| recht	                            | recht	               | recht                         |
+| afbuigend	                        | afbuigend	           | recht                         |
+| afbuigend	                        | recht	               | afbuigend                     |
 
 <figure><img src='{{ "/assets/img/trains2/jmri/slip-logic-table.png" | relative_url }}' alt="Logische tabel LT1 + IT2 > LT2" class='img-fluid'><figcaption class="kleiner">Logische tabel LT1 + IT2 > LT2</figcaption></figure>
 
-De engelse wissel wordt bediend via twee indicatie-wisselpictogrammen op het paneel. Een JMRI Logix controleert de status van beide en stelt LT2 in om overeen te komen met de logische tabel. (Routes kunnen slechts één stuurwissel gebruiken, dus dan heb je een extra (stuur)sensor nodig om de tweede wissel te volgen).
+De engelse wissel wordt bediend via twee indicatie-wisselpictogrammen op het paneel. Een JMRI Logix controleert de status van beide en stelt LT2 in om overeen te komen met de logische tabel (Routes kunnen slechts één stuurwissel gebruiken, dus dan heb je een extra (stuur)sensor nodig om de tweede wissel te volgen). Zo ziet het bewerk-scherm van de Logix er uit, met 4 Voorwaarden:
 
 <figure><img src='{{ "/assets/img/trains2/jmri/jmri-logix-edit.png" | relative_url }}' alt="Logix bewerkscherm" class='img-fluid'><figcaption class="kleiner">Logix bewerkscherm</figcaption></figure>
 
-De afbeeldingskaart voor beide helften van het slippictogram is bijgesneden uit een set normale indicator-wisselpictogrammen, waarbij de linkerkant 180 graden is gedraaid. Download een zip-bestand met de speciale pictogrammen die ik heb gemaakt [hier](/assets/downloads/jmriprefs-resources-slip.zip) en kopieer de inhoud ervan naar de map JMRI-preferences/resources/.
+Het symbool voor de engelse wissel op het Control Panel bestaat uit 2 halve plaatjes, die elk zijn opgebouwd uit 4 x 4 .png afbeeldingen:
+<figure><img src='{{ "/assets/img/trains2/jmri/slip-icon-set-nl.png" | relative_url }}' alt="Symbool plaatjesset" class='img-fluid'><figcaption class="kleiner">Symbool bewerkscherm met plaatjesset</figcaption></figure>
+
+De afbeelding die we voor elke helft van het pictogram gebruiken, is gesneden uit een set normale indicator-wisselpictogrammen, waarbij de linkerkant 180 graden is gedraaid.<br>
+Download een zip-bestand met de speciale pictogrammen die ik heb gemaakt [hier](/assets/downloads/jmriprefs-resources-slip.zip) en kopieer de inhoud ervan naar de map JMRI-preferences/resources/.
 
 <div class="row">
 <div class="col-sm">

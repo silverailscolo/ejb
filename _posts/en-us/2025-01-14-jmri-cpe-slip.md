@@ -15,11 +15,19 @@ categories:
 
 On my layout a remote double slip connects the Ouray loop in Silverton. To display this turnout on a Layout Editor panel or a classic Panel is straight forward using a dedicated tool. But in Control Panel Editor (CPE) the so-called Turnout Indicator element that can show occupancy and route assignment is not available for 3-way turnouts and slips (see [docs](www.jmri.org/help/en/package/jmri/jmrit/display/ControlPanelEditor.shtml)).
 
-<figure><img src='{{ "/assets/img/trains2/jmri/jmri-le-slipedit.png" | relative_url }}' alt="LE slip edit pane" class='img-fluid'><figcaption class="kleiner">LE slip edit pane</figcaption></figure>
+<figure><img src='{{ "/assets/img/trains2/jmri/jmri-le-slipedit-en.png" | relative_url }}' alt="LE slip edit pane" class='img-fluid'><figcaption class="kleiner">LE slip edit pane</figcaption></figure>
 
 My slip turnout LT2 has only two states to operate, whilst the LE slip/3-way tool expects two turnout addresses for at least 3 states.
 Relay LT1 flips the return loop DCC track power to match the feeders to the slip and beyond to prevent a short.
-Using these 2 turnout addresses we can create a representation on the CPE panel, with a slight twist:
+Using these 2 turnout addresses we can create a representation on the CPE panel:
+
+| LT1 (loop relay, left half)	 | IT2 (right half of icon)	 | LT2 (2-state remote slip) |
+|------------------------------|---------------------------|---------------------------| 
+| closed	                      | thrown	                   | thrown                    |
+| closed	                      | closed	                   | closed                    |
+| thrown	                      | thrown	                   | closed                    |
+| thrown	                      | closed	                   | thrown                    |
+
 
 <figure><img src='{{ "/assets/img/trains2/jmri/slip-logic-table.png" | relative_url }}' alt="Logic table LT1 + IT2 > LT2" class='img-fluid'><figcaption class="kleiner">Logic table LT1 + IT2 > LT2</figcaption></figure>
 
@@ -27,6 +35,9 @@ The slip is operated via two indicator turnout icons displayed on the panel.
 A JMRI Logix checks the State of both and sets LT2 to match the logic table. (Routes can use only one commanding turnout, so they would require a sensor to track the second turnout).
 
 <figure><img src='{{ "/assets/img/trains2/jmri/jmri-logix-edit.png" | relative_url }}' alt="Screen shot of Logix config pane" class='img-fluid'><figcaption class="kleiner">Screen shot of Logix config pane</figcaption></figure>
+
+The slip turnout icon on the Control Panel is actually made from two halfs placed back-to-back. Each indicator part uses an icon map of 4 x 4 .png afbeeldingen:
+<figure><img src='{{ "/assets/img/trains2/jmri/slip-icon-set-en.png" | relative_url }}' alt="Edit screen for icon map" class='img-fluid'><figcaption class="kleiner">Edit screen for icon map</figcaption></figure>
 
 The image map for both halves of the slip icon was trimmed from a normal indicator turnout icon set, with the left side rotated 180 degrees.
 Download a zip containing the special icons I created [here](/assets/downloads/jmriprefs-resources-slip.zip) and copy its contents to the JMRI preferences/resources folder.
