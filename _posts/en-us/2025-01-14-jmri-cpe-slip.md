@@ -13,7 +13,7 @@ categories:
 
 ## How to put a double slip on a JMRI Control Panel
 
-On my layout a remote double slip connects the Ouray loop in Silverton. To display this turnout on a Layout Editor panel or a classic Panel is straight forward using a dedicated tool. But in Control Panel Editor (CPE) the so-called Turnout Indicator element that can show occupancy and route assignment is not available for 3-way turnouts and slips (see [docs](www.jmri.org/help/en/package/jmri/jmrit/display/ControlPanelEditor.shtml)).
+On my layout a remote double slip connects the Ouray loop in Silverton. To display this turnout on a Layout Editor panel or a classic Panel is straight forward using a dedicated tool. But in Control Panel Editor (CPE) the so-called Turnout Indicator element that can show occupancy and route assignment is not available for 3-way turnouts and slips (see [docs](https://www.jmri.org/help/en/package/jmri/jmrit/display/ControlPanelEditor.shtml)).
 
 <figure><img src='{{ "/assets/img/trains2/jmri/jmri-le-slipedit-en.png" | relative_url }}' alt="LE slip edit pane" class='img-fluid'><figcaption class="kleiner">LE slip edit pane</figcaption></figure>
 

@@ -13,7 +13,7 @@ categories:
 
 ## Zo plaats je een engelse wissel op een JMRI-bedieningspaneel
 
-Op mijn modelbaan verbindt een op afstand bediende engelse wissel de Ouray-keerlus met Silverton. Het weergeven van dit element op een Layout Editor-paneel of een klassiek JMRI Paneel is eenvoudig met een speciaal menu. Maar in de Control Panel Editor (CPE) kan zogenaamde Turnout Indicator-element dat de bezetting en routetoewijzing kan weergeven geen 3-weg wissels en engelse wissels plaatsen (zie [docs](www.jmri.org/help/en/package/jmri/jmrit/display/ControlPanelEditor.shtml)).
+Op mijn modelbaan verbindt een op afstand bediende engelse wissel de Ouray-keerlus met Silverton. Het weergeven van dit element op een Layout Editor-paneel of een klassiek JMRI Paneel is eenvoudig met een speciaal menu. Maar in de Control Panel Editor (CPE) kan zogenaamde Turnout Indicator-element dat de bezetting en routetoewijzing kan weergeven geen 3-weg wissels en engelse wissels plaatsen (zie [docs](https://www.jmri.org/help/en/package/jmri/jmrit/display/ControlPanelEditor.shtml)).
 
 <figure><img src='{{ "/assets/img/trains2/jmri/jmri-le-slipedit-nl.png" | relative_url }}' alt="LE slip edit scherm" class='img-fluid'><figcaption class="kleiner">LE slip edit scherm</figcaption></figure>
 

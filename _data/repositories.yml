@@ -2,9 +2,13 @@ github_users:
   - silverailscolo
 
 github_repos:
+  - ramses-rf/ramses_rf
+  - ramses-rf/ramses_cc
   - JMRI/JMRI
   - JMRI/website
+  - silverailscolo/ejb
+  - silverailscolo/Arduino-GCA51
+  - silverailscolo/SVLocoIO
   - home-assistant/home-assistant.io
   - silverailscolo/casambi-bt
-  - silverailscolo/ejb
   - jekyll/jekyll
