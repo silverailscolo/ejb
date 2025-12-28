@@ -11,6 +11,7 @@ toc:
 ---
 
 Vanaf 1986 werk ik graag op de Apple Macintosh&trade;
+
 - Ik begon met een studentenversie van de compacte 9" MacPlus (MacWrite &amp; MacDraw),
 - later werkte ik op een IIcx,
 - een Powerbook 100,

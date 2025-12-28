@@ -1,6 +1,6 @@
 // custom script to create popup EBR 2023-2024
 var stick = false;
-var images_folder = "/assets/img/tuin/"
+var images_folder = "/assets/img/tuin/";
 
 function showpop(e, num) {
   // function called by all hotspots on mouseOver

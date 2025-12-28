@@ -43,6 +43,7 @@ Bekijk <a href="{{ site.baseurl }}/protected-pages/example-protected-page/">een 
 ## Site theme
 
 <i class="ti ti-sun-moon" id="light-toggle-demo"></i>
+
 <div id="mydiv">Huidige theme/Current theme: </div>
 
 <script>

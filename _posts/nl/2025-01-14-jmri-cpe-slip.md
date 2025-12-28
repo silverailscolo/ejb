@@ -19,12 +19,12 @@ Op mijn modelbaan verbindt een op afstand bediende engelse wissel de Ouray-keerl
 
 Mijn engelse wissel LT2 werkt met maar twee standen, terwijl het LE-slip/3-weg gereedschap twee wisseladressen verwacht voor ten minste 3 standen. Op mijn baan poolt relais LT1 de DCC-railvoeding van de keerlus om zodat het DCC-signaal matcht op de blokgrens en kortsluiting wordt voorkomen. Aan de hand van deze 2 wisseladressen kunnen we een representatie maken op het CPE-paneel:
 
-| LT1 (ompoolrelais, linker helft)	 | IT2 (rechter helft)	 | LT2 (2-stands engelse wissel) |
-|-----------------------------------|----------------------|-------------------------------| 
-| recht	                            | afbuigend	           | afbuigend                     |
-| recht	                            | recht	               | recht                         |
-| afbuigend	                        | afbuigend	           | recht                         |
-| afbuigend	                        | recht	               | afbuigend                     |
+| LT1 (ompoolrelais, linker helft) | IT2 (rechter helft) | LT2 (2-stands engelse wissel) |
+| -------------------------------- | ------------------- | ----------------------------- |
+| recht                            | afbuigend           | afbuigend                     |
+| recht                            | recht               | recht                         |
+| afbuigend                        | afbuigend           | recht                         |
+| afbuigend                        | recht               | afbuigend                     |
 
 <figure><img src='{{ "/assets/img/trains2/jmri/slip-logic-table.png" | relative_url }}' alt="Logische tabel LT1 + IT2 > LT2" class='img-fluid'><figcaption class="kleiner">Logische tabel LT1 + IT2 > LT2</figcaption></figure>
 
@@ -33,6 +33,7 @@ De engelse wissel wordt bediend via twee indicatie-wisselpictogrammen op het pan
 <figure><img src='{{ "/assets/img/trains2/jmri/jmri-logix-edit.png" | relative_url }}' alt="Logix bewerkscherm" class='img-fluid'><figcaption class="kleiner">Logix bewerkscherm</figcaption></figure>
 
 Het symbool voor de engelse wissel op het Control Panel bestaat uit 2 halve plaatjes, die elk zijn opgebouwd uit 4 x 4 .png afbeeldingen:
+
 <figure><img src='{{ "/assets/img/trains2/jmri/slip-icon-set-nl.png" | relative_url }}' alt="Symbool plaatjesset" class='img-fluid'><figcaption class="kleiner">Symbool bewerkscherm met plaatjesset</figcaption></figure>
 
 De afbeelding die we voor elke helft van het pictogram gebruiken, is gesneden uit een set normale indicator-wisselpictogrammen, waarbij de linkerkant 180 graden is gedraaid.<br>

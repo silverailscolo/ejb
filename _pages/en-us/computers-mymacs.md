@@ -10,7 +10,7 @@ toc:
   sidebar: left
 ---
 
-Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned - 
+Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but simple system (MacWrite &amp; MacDraw), over the years I have used - and owned -
 
 - a MacPlus,
 - IIcx,
