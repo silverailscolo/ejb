@@ -135,7 +135,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-engelse-wissel-op-een-jmri-control-panel",
+            },{id: "post-ramses",
+      
+        title: "Ramses",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ramses/";
+        
+      },
+    },{id: "post-engelse-wissel-op-een-jmri-control-panel",
       
         title: "Engelse wissel op een JMRI Control Panel",
       

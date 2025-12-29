@@ -135,7 +135,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-display-a-slip-an-a-cpe-panel",
+            },{id: "post-ramses",
+      
+        title: "Ramses",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/ramses/";
+        
+      },
+    },{id: "post-display-a-slip-an-a-cpe-panel",
       
         title: "Display a slip an a CPE panel",
       
@@ -487,11 +498,11 @@ ninja.data = [{
           window.location.href = "/blog/2014/urban-planning-my-style/";
         
       },
-    },{id: "post-lodore-mill-en-kabelbaan",
+    },{id: "post-lodore-mill-and-tram",
       
-        title: "Lodore Mill en kabelbaan",
+        title: "Lodore Mill and tram",
       
-      description: "Model geplaatst",
+      description: "",
       section: "Posts",
       handler: () => {
         
