@@ -209,7 +209,7 @@ Meer over de iMac Core i5 op <a href="https://everymac.com/systems/apple/imac/sp
 
 Geen Mac, maar voor 1988 zeer innovatief. Ontworpen door Sir Clive Sinclair. Zie ook <a href="https://en.wikipedia.org/wiki/Cambridge_Z88">Wikipedia</a>
 
-<figure><img src='{{ "/assets/img/mac/Cambridge-Z88.png" | relative_url }}'' alt='Z88 portable' class='img-fluid'>
+<figure><img src='{{ "/assets/img/mac/Cambridge-Z88.png" | relative_url }}' alt='Z88 portable' class='img-fluid'>
 <figcaption class="kleiner">Z88 portable (<a href="https://commons.wikimedia.org/wiki/File:Cambridge-Z88.jpg" title="via Wikimedia Commons">Evan-Amos</a> [Public domain])</figcaption></figure>
 
 ## Mac software {#software}
