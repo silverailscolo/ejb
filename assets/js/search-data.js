@@ -135,9 +135,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-ramses",
+            },{id: "post-ken-je-ramses",
       
-        title: "Ramses",
+        title: "Ken je Ramses?",
       
       description: "",
       section: "Posts",
