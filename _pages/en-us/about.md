@@ -8,10 +8,10 @@ subtitle: designer, coder, collector
 
 profile:
   align: right
-  image: banners/nieuwjaar2025.jpg
+  image: banners/Flax-Vlas-BR11.jpg
   image_circular: false # crops the image to make it circular shaped
   more_info: >
-    <p>Happy new year 2026</p>
+    <p>Using biobased? PV? EV?</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
