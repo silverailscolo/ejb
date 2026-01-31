@@ -146,9 +146,9 @@ ninja.data = [{
           window.location.href = "/blog/2025/ramses/";
         
       },
-    },{id: "post-display-a-slip-an-a-cpe-panel",
+    },{id: "post-display-a-slip-on-a-cpe-panel",
       
-        title: "Display a slip an a CPE panel",
+        title: "Display a slip on a CPE panel",
       
       description: "",
       section: "Posts",
