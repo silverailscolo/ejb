@@ -187,6 +187,9 @@ include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - _books/books_creator.py
+  - bower_components
+  - bower.json
+  - cleanup-assets-for-publish.sh
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -200,17 +203,15 @@ exclude:
   - INSTALL.md
   - LICENSE
   - lighthouse_results/
+  - lycheeignore
   - package.json
   - package-lock.json
+  - prettierrc
   - purgecss.config.js
   - README.md
   - _rollingstock/loco_creator.py
   - UPGRADING.md
   - vendor
-  - bower_components
-  - bower.json
-  - prettierrc
-  - lycheeignore
 keep_files:
   - CNAME
   - .nojekyll
