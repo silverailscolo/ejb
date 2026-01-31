@@ -9,17 +9,17 @@ nav_order: 5
 dropdown: true
 children:
   - title: tuin
-    permalink: /house/garden
+    permalink: /house/garden/
   - title: divider
   - title: renovatie
-    permalink: /house/renovation
+    permalink: /house/renovation/
   - title: divider
   - title: geschiedenis
-    permalink: /house/history
+    permalink: /house/history/
   - title: divider
   - title: smart home
-    permalink: /house/smart
+    permalink: /house/smart/
   - title: divider
   - title: eerste huis
-    permalink: /house/ms15
+    permalink: /house/ms15/
 ---

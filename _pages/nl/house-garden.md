@@ -1,7 +1,7 @@
 ---
 page-id: garden
 layout: page
-permalink: /house/garden
+permalink: /house/garden/
 title: Onze tuin
 lang: nl
 nav: false

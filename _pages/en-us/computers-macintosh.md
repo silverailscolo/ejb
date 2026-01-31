@@ -1,7 +1,7 @@
 ---
 page-id: mactips
 layout: page
-permalink: /computers/macintosh
+permalink: /computers/macintosh/
 title: Mac tips
 description: Lessons from my own wanderings
 lang: en-us

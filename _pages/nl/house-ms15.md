@@ -1,7 +1,7 @@
 ---
 page-id: ms15joblist
 layout: page
-permalink: /house/ms15
+permalink: /house/ms15/
 title: Ons eerste huis
 lang: nl
 nav: false

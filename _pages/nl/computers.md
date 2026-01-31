@@ -9,17 +9,17 @@ nav_order: 6
 dropdown: true
 children:
   - title: GitHub repositories
-    permalink: /computers/repositories
+    permalink: /computers/repositories/
   - title: divider
   - title: mijn Macs
-    permalink: /computers/mymacs
+    permalink: /computers/mymacs/
   - title: divider
   - title: Mac tips
-    permalink: /computers/macintosh
+    permalink: /computers/macintosh/
   - title: divider
   - title: Lubuntu tips
-    permalink: /computers/lubuntu
+    permalink: /computers/lubuntu/
   - title: divider
   - title: speeltuin
-    permalink: /computers/playground
+    permalink: /computers/playground/
 ---

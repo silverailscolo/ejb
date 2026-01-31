@@ -1,7 +1,7 @@
 ---
 page-id: prototype
 layout: page
-permalink: /trains/prototype
+permalink: /trains/prototype/
 title: US Prototype
 description: The real stuff
 lang: en-us

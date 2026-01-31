@@ -2,7 +2,7 @@
 page-id: traintips
 layout: page
 lang: nl
-permalink: /trains/tips
+permalink: /trains/tips/
 title: Modelbouw Tips
 description: Van eigen fouten geleerd
 nav: false

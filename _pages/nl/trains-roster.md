@@ -2,7 +2,7 @@
 layout: train-roster
 id: trainroster
 title: "Rijdend materieel"
-permalink: /rollingstock/
+permalink: /rollingstock
 lang: nl
 nav: false
 # support: [gallery]

@@ -1,7 +1,7 @@
 ---
 page-id: playground
 layout: page
-permalink: /computers/playground
+permalink: /computers/playground/
 title: Software Playground
 description: A place for experiments and demos
 lang: en-us

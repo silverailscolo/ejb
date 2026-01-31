@@ -1,7 +1,7 @@
 ---
 page-id: mymacs
 layout: page
-permalink: /computers/mymacs
+permalink: /computers/mymacs/
 title: My Macs
 description: The Macintosh computers I owned
 lang: nl

@@ -1,7 +1,7 @@
 ---
 page-id: renovation
 layout: page
-permalink: /house/renovation
+permalink: /house/renovation/
 title: Ons huis renoveren
 lang: nl
 nav: false

@@ -1,7 +1,7 @@
 ---
 page-id: repositories
 layout: page
-permalink: /computers/repositories
+permalink: /computers/repositories/
 title: Repositories
 description: GitHub open source groepen waar ik aan meewerk
 lang: nl

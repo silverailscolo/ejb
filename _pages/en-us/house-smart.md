@@ -2,7 +2,7 @@
 page-id: smart-home
 layout: page
 lang: en-us
-permalink: /house/smart
+permalink: /house/smart/
 title: Smart Home
 nav: false
 toc:
@@ -15,7 +15,7 @@ Several years on, it was time to connect these different systems and add more sm
 ![Home Assistant logo]({{ "/assets/img/house/smart/home-assistant-logo.svg" | relative_url }})
 
 I set up a Raspberry Pi 4 running [hassos](https://www.home-assistant.io/) OS to manage the connected systems in our current home.
-It consumes just 4W, so that saves a lot compared to running it on a desktop (iMac 24/7 with Oracle VirtualBox consumed 36 W = 312 kW/year).
+It consumes just 4W, so that saves a lot compared to running it on a desktop (iMac 24/7 with Oracle VirtualBox would consume 36 W = 308 kWh/year).
 
 [HomeAssistant](https://www.home-assistant.io/) (HA) allows manual and automated operation of different smart lights, blinds etc. all in one place with all smartness running locally without relying on cloud services.
 

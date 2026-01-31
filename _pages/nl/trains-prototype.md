@@ -1,7 +1,7 @@
 ---
 page-id: prototype
 layout: page
-permalink: /trains/prototype
+permalink: /trains/prototype/
 lang: nl
 title: US Prototype
 description: Het echte werk

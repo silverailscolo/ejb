@@ -2,20 +2,20 @@
 page-id: smart-home
 layout: page
 lang: nl
-permalink: /house/smart
+permalink: /house/smart/
 title: Smart Huis
 nav: false
 toc:
   sidebar: left
 ---
 
-Automatisering in ons huis begon simpel: een paar Ikea lampen, 2 elektrisch bediende rolgordijnen.
-Een paar jaar later was het tijd om de verschillende systemen op elkaar aan te sluiten en centraal slim te bedienen.
+Huis-automatisering begon simpel bij ons: een paar Ikea lampen, 2 elektrisch bediende rolgordijnen.
+Een paar jaar later was het tijd om de verschillende systemen op elkaar aan te sluiten en centraal _slim_ te bedienen.
 
 ![Home Assistant logo]({{ "/assets/img/house/smart/home-assistant-logo.svg" | relative_url }})
 
 Ik heb een Raspberry Pi 4 met daarop [hassos](https://www.home-assistant.io/) OS geïnstalleerd om alles te bedienen.
-De Pi verbruikt maar 4W, veel minder dan dat je het op een Mac of PC draait (iMac 24/7 with Oracle VirtualBox verbruikt 36 W = 312 kW/jaar).
+De Pi4 verbruikt slechts 4W, veel minder dan dat je het op een Mac of PC draait (iMac 24/7 met Oracle VirtualBox verbruikt 36 W = 308 kWh/jaar).
 
 [HomeAssistant](https://www.home-assistant.io/) (HA) is een open source programma waarmee je zowel met de hand als automatisch verschillende systemen kan bedienen, en ze aan elkaar koppelen, zonder dat je aan een merk, abonnement of cloud service vastzit.
 
@@ -37,7 +37,7 @@ Met HA Community Plug-ins kunnen gebruikers/ontwikkelaars zelf extra systemen in
 
 HomeAssistant ondersteunt ook zgn. Add-Ons die extra functionaliteit op de Pi4 server bieden. Ik gebruik:
 
-- File Editor (om configuratiebestandjes aan te passen in de iOS HomeAssistant Companion app )
+- File Editor (om configuratiebestanden aan te passen in de iOS HomeAssistant Companion app )
 - Advanced SSH & Web Terminal
 - Mosquito Broker (ontvangt en verstuurt MQTT berichten op het Wi-Fi netwerk)
 - Samba NAS (voor toegang tot gedeelde mappen op de RPi)

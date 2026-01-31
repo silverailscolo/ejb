@@ -1,7 +1,7 @@
 ---
 page-id: layout
 layout: page
-permalink: /trains/layout
+permalink: /trains/layout/
 title: Mijn modelbaan
 description: N-scale Colorado ca 1950
 lang: nl

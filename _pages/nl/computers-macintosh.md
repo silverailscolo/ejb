@@ -2,7 +2,7 @@
 page-id: mactips
 layout: page
 lang: nl
-permalink: /computers/macintosh
+permalink: /computers/macintosh/
 title: Mac tips
 description: Wat ik leerde van mijn eigen omzwervingen in macOS
 nav: false

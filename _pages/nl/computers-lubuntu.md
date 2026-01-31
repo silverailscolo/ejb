@@ -2,7 +2,7 @@
 page-id: lubuntu
 layout: page
 lang: nl
-permalink: /computers/lubuntu
+permalink: /computers/lubuntu/
 title: Lubuntu Tips
 description: Lubuntu (Linux) tips
 nav: false

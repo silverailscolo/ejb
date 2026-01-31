@@ -9,17 +9,17 @@ nav_order: 5
 dropdown: true
 children:
   - title: garden
-    permalink: /house/garden
+    permalink: /house/garden/
   - title: divider
   - title: renovation
-    permalink: /house/renovation
+    permalink: /house/renovation/
   - title: divider
   - title: history
-    permalink: /house/history
+    permalink: /house/history/
   - title: divider
   - title: smart home
-    permalink: /house/smart
+    permalink: /house/smart/
   - title: divider
   - title: first house
-    permalink: /house/ms15
+    permalink: /house/ms15/
 ---

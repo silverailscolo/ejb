@@ -1,7 +1,7 @@
 ---
 page-id: traintips
 layout: page
-permalink: /trains/tips
+permalink: /trains/tips/
 lang: en-us
 title: Modeling Tips
 description: Learned the hard way

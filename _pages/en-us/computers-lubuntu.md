@@ -1,7 +1,7 @@
 ---
 page-id: lubuntu
 layout: page
-permalink: /computers/lubuntu
+permalink: /computers/lubuntu/
 title: Lubuntu Tips
 description: Lubuntu (Linux) tips
 lang: en-us

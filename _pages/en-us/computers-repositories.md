@@ -1,7 +1,7 @@
 ---
 page-id: repositories
 layout: page
-permalink: /computers/repositories
+permalink: /computers/repositories/
 title: repositories
 lang: en-us
 description: My GitHub profile and repositories

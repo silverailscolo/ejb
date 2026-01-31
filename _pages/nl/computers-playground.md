@@ -1,7 +1,7 @@
 ---
 page-id: playground
 layout: page
-permalink: /computers/playground
+permalink: /computers/playground/
 title: Software Speeltuin
 description: Plek voor experimenten en demo's
 lang: nl

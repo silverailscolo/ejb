@@ -1,7 +1,7 @@
 ---
 page-id: dcc
 layout: page
-permalink: /trains/dcc
+permalink: /trains/dcc/
 title: DCC
 description: Digital Command Control
 lang: en-us

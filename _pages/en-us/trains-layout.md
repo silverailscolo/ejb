@@ -1,7 +1,7 @@
 ---
 page-id: layout
 layout: page
-permalink: /trains/layout
+permalink: /trains/layout/
 title: The D&amp;S NG RR
 description: N-scale Colorado ca 1950
 lang: en-us

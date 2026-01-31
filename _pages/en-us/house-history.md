@@ -1,7 +1,7 @@
 ---
 page-id: history
 layout: page
-permalink: /house/history
+permalink: /house/history/
 title: History of our house
 lang: en-us
 nav: false
