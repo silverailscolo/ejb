@@ -13,7 +13,7 @@ Now that the house is finished and we are throwing out any surplus building supp
 
 Although it is lovely to have the best engines on display in my office, model railroading to me means moving things on rails, so I selected the Silverton and the Durenver modules, and part with the rest.
 
-Two other modules, [Durango Yard](https://www.marktplaats.nl/v/hobby-en-vrije-tijd/modeltreinen-n-spoor/m2177277613-n-module-durango-co-usa-incl-gebouwtjes) and [Rockwood](https://www.marktplaats.nl/v/hobby-en-vrije-tijd/modeltreinen-n-spoor/m2176141841-n-module-berglandschap-high-line-incl-gebouwtjes), are currently for sale on [Marktplaats](https://www.marktplaats.nl/u/e-broerse/7983972/), where they get a lot of views, and even a couple of offers.
+Two other modules, _Durango Yard_ and _Rockwood_, were up for sale on **Marktplaats**, where they get a lot of views, and even a couple of offers.
 
 <div class="row">
 <div class="col-sm">
