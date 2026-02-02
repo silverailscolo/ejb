@@ -4,7 +4,7 @@
 
 <div>
 
-**Serves a [website](https://silverailscolo.github.io/ejb) based on the [multi-language al-folio theme](https://github.com/george-gca/multi-language-al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
+**Jekyll sources for a [personal website](https://ebroerse.nl) based on the [multi-language al-folio theme](https://github.com/george-gca/multi-language-al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
 
 ---
 
@@ -15,20 +15,6 @@
 [![GitHub forks](https://img.shields.io/github/forks/silverailscolo/ejb)](https://github.com/silverailscolo/ejb)
 
 </div>
-
-## Lighthouse PageSpeed Insights
-
-### Desktop
-
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/desktop/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ejb/blob/main/lighthouse_results/desktop/silverailscolo/ejb.html)
-
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Fejb%2F&form_factor=desktop)
-
-### Mobile
-
-[![Google Lighthouse PageSpeed Insights](lighthouse_results/mobile/pagespeed.svg)](https://htmlpreview.github.io/?https://github.com/silverailscolo/ejb/blob/main/lighthouse_results/mobile/silverailscolo/ejb.html)
-
-Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fgithub.com%2Fsilverailscolo%2Fejb%2F&form_factor=mobile)
 
 ## Table Of Contents
 
@@ -57,7 +43,7 @@ This template has a built-in light/dark mode. It detects the user preferred colo
 
 #### Atom (RSS-like) Feed
 
-The Atom (RSS-like) feed is reachable simply by typing after your homepage `/feed.xml`. So you type `silverailscolo.github.io/ejb/feed.xml` in an appropriate app.
+The Atom (RSS-like) feed is reachable simply by typing after your homepage `/feed.xml`. So you type `ebroerse.nl/feed.xml` in an appropriate app.
 
 ---
 
