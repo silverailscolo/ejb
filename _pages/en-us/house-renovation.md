@@ -10,7 +10,7 @@ support: [gallery]
 
 About the circular biobased renovation of our house (2021-2022).
 
-Work on our first house (1995-2020) is documented [here](ms15.html).
+Work on our first house (1995-2020) is documented [here](../ms15/).
 
 <!-- simply so (by Jimmy_Xiao) -->
 
