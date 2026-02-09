@@ -87,7 +87,7 @@ De "stick" heeft software nodig, die je er zelf op een Mac of PC op kunt "flashe
 Ik heb de firmware code vanaf mijn iMac via USB-C op de ESP32 geflasht met het Terminal-programma esp-idf. Open een Terminal-venster in de map waarin ramses_esp is gedownload, en tik:
 ```shell
 idf.py menuconfig
-…
+...
 Loaded configuration '/Users/me/esp/ramses_esp/sdkconfig'
 ```
 
