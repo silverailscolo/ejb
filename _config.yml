@@ -339,6 +339,7 @@ exclude_from_localization: [
     "assets/plotly",
     "assets/json",
   ] # assets/img will be replaced by symlinks in build script as per https://github.com/greuters/greuters.github.io/blob/main/package.json
+    # duplicates required during build step for encoding, delete before upload by running cleanup-assets-for-publish.sh
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
 parallel_localization: true
