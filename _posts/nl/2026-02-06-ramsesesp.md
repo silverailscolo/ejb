@@ -3,7 +3,7 @@ layout: post
 lang: nl
 page-id: ramsesesp
 title: Zelfbouw ramses_esp dongel
-date: "2026-02-09"
+date: "2026-02-06"
 categories:
   - computers
   - smarthome
@@ -71,8 +71,9 @@ idf.py menuconfig
 Loaded configuration '/Users/me/esp/ramses_esp/sdkconfig'
 ```
 
-> Je moet deze aansluitingen in de `ramses_esp` build voor het flashen nog aanpassen, omdat de pinnen zoals ze in de code van Indalotech staan, op deze ESP32 al in gebruik zijn voor het PRAM. Dit pas je aan in het _esp-idf configmenu_ terminal-programma. Typ in de terminal `idf.py menuconfig`, ga met de pijljestoetsen omlaag naar _Component Config_ + Enter en ga dan naar _C1101 Configuration_ + Enter.
-> Stel de GPIO pinnen in zoals hieronder afgebeeld.
+> Je moet deze aansluitingen in de `ramses_esp` build voor het flashen nog aanpassen, omdat de pinnen 35-37 die in de code van Indalotech staan ingesteld, op deze ESP32-S3 al in gebruik zijn voor het PSRAM. We wijzigen de andere pinnen zodat we ze allemaal dicht bij elkaar aan één kant van het board zitten.
+> Dit pas je aan in het _esp-idf configmenu_ terminal-programma. Typ in de terminal `idf.py menuconfig`, ga met de pijljestoetsen omlaag naar _Component Config_ + Enter en ga dan naar _C1101 Configuration_ + Enter.
+> Stel de GPIO pinnen in zoals hieronder afgebeeld:
 
 | CC1101 | ESP32-S3-NR16RN8 | kleur  |
 | ------ | ---------------- | ------ |
