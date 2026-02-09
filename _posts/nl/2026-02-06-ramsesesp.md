@@ -72,6 +72,7 @@ idf.py menuconfig
 ...
 Loaded configuration '/Users/me/esp/ramses_esp/sdkconfig'
 ```
+
 Typ Escape om een menu-item te verlaten, en Q om menuconfig te beëindigen.
 
 > Je moet deze aansluitingen in de `ramses_esp` build voor het flashen nog aanpassen, omdat de pinnen 35-37 die in de code van Indalotech staan ingesteld, op deze ESP32-S3 al in gebruik zijn voor het PSRAM. We wijzigen de andere pinnen zodat we ze allemaal dicht bij elkaar aan één kant van het board zitten.
@@ -101,6 +102,7 @@ Typ Escape om een menu-item te verlaten, en Q om menuconfig te beëindigen.
 ```shell
 idf.py flash
 ```
+
 Het `flash`-commando doet eerst een `build`-stap en zoekt zelf de serial-over-USB poort.
 Type `Ctrl-]` om idf te beëindigen.
 

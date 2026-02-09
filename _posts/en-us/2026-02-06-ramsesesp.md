@@ -71,10 +71,11 @@ idf.py menuconfig
 ...
 Loaded configuration '/Users/me/esp/ramses_esp/sdkconfig'
 ```
+
 Type Escape to leave menu item, Q to exit the menuconfig application.
 
-> You still have to adjust these connections in the 'ramses_esp' build before flashing, because pins 35-37 as used in the code of Indalotech, are already in use for the PSRAM on this ESP32-S3. We change the other pins so that we have them all close together on one side of the PCB.
-> You can adjust this in the _esp-idf configmenu_ terminal program. In the terminal, type "idf.py menuconfig," use the arrow keys to move down to _Component Config_ + Enter, and then go to _C1101 Configuration_ + Enter.
+> You still have to adjust these connections in the 'ramses*esp' build before flashing, because pins 35-37 as used in the code of Indalotech, are already in use for the PSRAM on this ESP32-S3. We change the other pins so that we have them all close together on one side of the PCB.
+> You can adjust this in the \_esp-idf configmenu* terminal program. In the terminal, type "idf.py menuconfig," use the arrow keys to move down to _Component Config_ + Enter, and then go to _C1101 Configuration_ + Enter.
 > Set the GPIO pins as follows:
 
 | CC1101 | ESP32-S3-NR16RN8 | color  |
@@ -100,6 +101,7 @@ Type Escape to leave menu item, Q to exit the menuconfig application.
 ```shell
 idf.py flash
 ```
+
 The `flash` command includes a `build` and tries to find the serial-over-USB port automatically.
 To exit idf, type `Ctrl-]`
 
