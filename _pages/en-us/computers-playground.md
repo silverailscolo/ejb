@@ -34,7 +34,7 @@ Inline using the lightgallery_tag.rb plugin
 
 Embedded Base64 encoded image, relative path:
 
-<img src="{% base64 ../assets/img/1.jpg %}" alt="Tunnel img error" />
+<img src="{% base64 ../../assets/img/1.jpg %}" alt="Tunnel img error" />
 
 ## Protected page
 

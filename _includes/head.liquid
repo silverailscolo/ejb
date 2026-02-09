@@ -16,8 +16,12 @@
 >
 
 {% if page.pretty_table %}
-<!-- Bootstrap Table -->
-  <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@{{ site.third_party_libraries.bootstrap-table.version }}/dist/bootstrap-table.min.css">
+  <!-- Bootstrap Table -->
+  <link
+    defer
+    rel="stylesheet"
+    href="https://unpkg.com/bootstrap-table@{{ site.third_party_libraries.bootstrap-table.version }}/dist/bootstrap-table.min.css"
+  >
 {% endif %}
 
 <!-- Fonts & Icons -->
@@ -81,23 +85,23 @@
 {% endif %}
 
 {% comment %}
-Turned off - causes prettier error 2024-11 cant-fix
-  {% raw %}
-  <!-- GeoJSON support via Leaflet -->
-  {% if page.map %}
-    <link
-      defer
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@{{ site.third_party_libraries.leaflet.version }}/dist/leaflet.css"
-      integrity="{{ site.third_party_libraries.leaflet.integrity.css }}"
-      crossorigin=""
-    >
-  {% endif %}
-  {% endraw %}
+  Turned off - causes prettier error 2024-11 cant-fix
+    {% raw %}
+    <!-- GeoJSON support via Leaflet -->
+    {% if page.map %}
+      <link
+        defer
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@{{ site.third_party_libraries.leaflet.version }}/dist/leaflet.css"
+        integrity="{{ site.third_party_libraries.leaflet.integrity.css }}"
+        crossorigin=""
+      >
+    {% endif %}
+    {% endraw %}
 {% endcomment %}
 
 {% if page.code_diff %}
-<!-- diff2html -->
+  <!-- diff2html -->
   <link
     defer
     rel="stylesheet"
@@ -157,7 +161,7 @@ Turned off - causes prettier error 2024-11 cant-fix
 ></script>
 
 {% if page.support contains 'gallery' %}
-<!-- Lightgallery -->
+  <!-- Lightgallery -->
   <!-- Lightgallery.rb plugin. Takes care of css too -->
   {% gallery_includes %}
   <!-- EBR added for Lightgallery opieters -->

@@ -6,7 +6,7 @@ title: Zelfbouw ramses_esp dongel
 date: "2026-02-02"
 categories:
   - computers
-  - smart-home
+  - smarthome
 ---
 
 WTW-ventilators en de verwarmingsbesturing van Honeywell ["praten"](/blog/2025/ramses/) via radiosignalen op 868MHz met de thermostaat en de afstandsbediening.
@@ -18,6 +18,7 @@ In deze post leg ik uit hoe ik dat zelf heb gedaan.
 ## Hardware
 
 Benodigde onderdelen:
+
 - ESP32-S3-N16R8 WROOM-1 dev board €10-€15, bijv. [hier te koop](https://www.otronic.nl/nl/esp32-s3-n16r8-devkitc-16mb-flash-en-8mb-psram.html), en [hier](https://www.bitsandparts.nl/ESP32-S3-DevKitC-N16R8-Ontwikkelboard-WiFi-Buetooth-p1923998) (N16R8 betekent 8MB PSRAM en 16MB FLASH)
 - CC1101 868 MHz transceiver €5, ik bestelde de mijne [hier](https://www.bitsandparts.nl/RF-Transceiver-868MHz-CC1101-met-antenne-p1105676)
 - 170-gaats [mini-breadboard](https://www.otronic.nl/nl/mini-breadboard-170-gaats-voor-prototyping-wit-zon.html) €1
@@ -30,6 +31,7 @@ Totale kosten incl. 1x porto: ca. €25.
 ## Aansluitingen
 
 ### CC1101
+
 Soldeer het spiraalvormige antennetje in het middelste oog aan de bovenkant op de CC1101-print.
 
 Knip van 8 Dupont-kabeltjes aan 1 kant de stekertjes af, strip de snoertjes 3mm en soldeer ze aan de 8 aansluitingen op de CC1101 print.
@@ -44,7 +46,7 @@ Knip van 8 Dupont-kabeltjes aan 1 kant de stekertjes af, strip de snoertjes 3mm 
 </div>
 
 | CC1101 | ESP32-S3-NR16RN8 | kleur  |
-|--------|------------------|--------|
+| ------ | ---------------- | ------ |
 | VCC    | 3V3              | wit    |
 | GND    | GND              | zwart  |
 | MOSI   | 13               | bruin  |
@@ -85,6 +87,7 @@ Sluit de ESP32 via een van beide USB-C aansluitingen aan op de 230V USB-adapter.
 De "stick" heeft software nodig, die je er zelf op een Mac of PC op kunt "flashen" met [esp-idf](https://docs.espressif.com/projects/esp-idf/en/v5.5.2/esp32/get-started/index.html). Download de laatste versie van [ramses_esp](https://github.com/IndaloTech/ramses_esp/releases) en de [instructies](https://github.com/IndaloTech/ramses_esp/wiki/Serial-Interface).
 
 Ik heb de firmware code vanaf mijn iMac via USB-C op de ESP32 geflasht met het Terminal-programma esp-idf. Open een Terminal-venster in de map waarin ramses_esp is gedownload, en tik:
+
 ```shell
 idf.py menuconfig
 ...

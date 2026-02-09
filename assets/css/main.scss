@@ -4,8 +4,8 @@
 @charset "utf-8";
 
 /* Built-in Sass modules you’ll likely use across partials */
-@use "sass:math";
-@use "sass:string";
+// @use "sass:math";
+// @use "sass:string";
 
 /* Configure your design tokens BEFORE loading any of your partials.
    Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
@@ -24,7 +24,7 @@
 @use "navbar";
 @use "footer";
 @use "blog";
-@use "publications";
+// @use "publications";
 @use "components";
 @use "utilities";
 
@@ -32,7 +32,7 @@
 @use "distill";
 @use "cv";
 @use "tabs";
-@use "teachings";
+// @use "teachings";
 @use "typograms";
 @use "font-awesome/fontawesome";
 @use "font-awesome/brands";
