@@ -33,9 +33,9 @@ het ochtendzonlicht op het plafond van de woonkamer werpen.
 Op de derde verdieping werd vroeger een hele kamer in beslag genomen door ons gereedschap, restjes en reserveonderdelen.
 Omdat er nu genoeg ruimte is, begon ik mijn treinenuit te pakken...
 
-<img src='{{ "/assets/img/house/ms15/zolder%20lente%202005%20artist.jpg" | relative_url }}' alt='3rd Floor attic design'>
+<img src='{{ "/assets/img/house/ms15/zolder_lente_2005_artist.jpg" | relative_url }}' alt='3rd Floor attic design'>
 
-Op de 2<sup>e</sup> verdieping was een hele kamer bezet door ons gereedschap, restanten en reserve-onderdelen. Omdat er inmiddels genoeg ruimte is, ben ik begonnen om mijn <a href="../trains/">treinen</a> uit te pakken...
+Op de 2<sup>e</sup> verdieping was een hele kamer bezet door ons gereedschap, restanten en reserve-onderdelen. Omdat er inmiddels genoeg ruimte is, ben ik begonnen om mijn <a href="/trains/layout/">treinen</a> uit te pakken...
 
 {% include album.html albumname="attic" %}
 
