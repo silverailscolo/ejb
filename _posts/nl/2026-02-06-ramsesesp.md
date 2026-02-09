@@ -61,7 +61,9 @@ Prik de ESP32 links van het midden in het mini-breadboard. De gaatjes op het bre
 
 ## Firmware
 
-De "stick" heeft software nodig, die je er zelf vanaf een Mac of PC op kunt "flashen" met [esp-idf](https://docs.espressif.com/projects/esp-idf/en/v5.5.2/esp32/get-started/index.html). Download de laatste versie van [ramses_esp](https://github.com/IndaloTech/ramses_esp/releases) en de [instructies](https://github.com/IndaloTech/ramses_esp/wiki/Serial-Interface).
+De "stick" heeft software nodig, die je er zelf vanaf een Mac of PC op kunt "flashen" met [esp-idf](https://docs.espressif.com/projects/esp-idf/en/v5.5.2/esp32/get-started/index.html).
+
+Download de laatste versie van [IndaloTech ramses_esp firmware](https://github.com/IndaloTech/ramses_esp/releases) en de [instructies](https://github.com/IndaloTech/ramses_esp/wiki/Serial-Interface).
 
 Ik heb de firmware code vanaf mijn iMac via USB-C op de ESP32 geflasht met het Terminal-programma esp-idf. Open een Terminal-venster in de map waarin ramses_esp is gedownload, en tik:
 
@@ -70,6 +72,7 @@ idf.py menuconfig
 ...
 Loaded configuration '/Users/me/esp/ramses_esp/sdkconfig'
 ```
+Typ Escape om een menu-item te verlaten, en Q om menuconfig te beëindigen.
 
 > Je moet deze aansluitingen in de `ramses_esp` build voor het flashen nog aanpassen, omdat de pinnen 35-37 die in de code van Indalotech staan ingesteld, op deze ESP32-S3 al in gebruik zijn voor het PSRAM. We wijzigen de andere pinnen zodat we ze allemaal dicht bij elkaar aan één kant van het board zitten.
 > Dit pas je aan in het _esp-idf configmenu_ terminal-programma. Typ in de terminal `idf.py menuconfig`, ga met de pijljestoetsen omlaag naar _Component Config_ + Enter en ga dan naar _C1101 Configuration_ + Enter.
@@ -94,6 +97,12 @@ Loaded configuration '/Users/me/esp/ramses_esp/sdkconfig'
 <figure><img src='{{ "/assets/img/blog/ramses_esp-pinout-configmenu-new.png" | relative_url }}' alt="esp-idf configmenu cc1101 menu" class='img-fluid'><figcaption class="kleiner">esp-idf configmenu cc1101 menu</figcaption></figure>
 </div>
 </div>
+
+```shell
+idf.py flash
+```
+Het `flash`-commando doet eerst een `build`-stap en zoekt zelf de serial-over-USB poort.
+Type `Ctrl-]` om idf te beëindigen.
 
 ### Via USB
 
