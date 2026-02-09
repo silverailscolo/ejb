@@ -33,6 +33,15 @@ Soldeer het spiraalvormige antennetje aan de bovenkant op de CC1101-print.
 
 Knip van 8 Dupont-kabeltje aan 1 kant de stekertjes af, strip de snoertjes en soldeer ze aan de 4 aansluitingen op de CC1101 print.
 
+<div class="row">
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/blog/CC1101-868mhz-radio-module-pinout.jpg" | relative_url }}' alt="CC1101 pinout" class='img-fluid'><figcaption class="kleiner">CC1101 pinout</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/blog/IMG_6156_cc1101_ramses.jpg" | relative_url }}' alt="Aansluitingen CC1101" class='img-fluid'><figcaption class="kleiner">Aansluitingen CC1101</figcaption></figure>
+</div>
+</div>
+
 Prik de ESP32 iets uit het midden in het mini-breadboard. De gaatjes op het breadboard zijn horizontaal (haaks op de rij pins) met elkaar verbonden, dus als je naast een pin een Dupont kabeltje in het breadboard prikt, dan is die verbonden met die pin.
 
 | CC1101 | ESP32-S3-NR16RN8 | kleur  |
@@ -46,13 +55,22 @@ Prik de ESP32 iets uit het midden in het mini-breadboard. De gaatjes op het brea
 | GDO0   | 9                | groen  |
 | CSN    | 8                | blauw  |
 
-> Noot: ik moet nog controleren of je deze aansluitingen in de ramses_esp code nog moet aanpassen, in mijn notitie staat dat de standaard pinnen al in gebruik zijn door het PRAM.
+> Je moet deze aansluitingen voor de ramses_esp nog aanpassen, omdat de standaard pinnen al in gebruik zijn door het PRAM. Dit hoeft niet in de code zelf, maar kan in het esp-idf configmenu Terminal programma. Stel ze zoals hieronder afgebeeld.
 
 Sluit de ESP32 via een van beide USB-C aansluitingen aan op de 230V adapter.
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/blog/IMG_6156_cc1101_ramses.jpg" | relative_url }}' alt="Aansluitingen CC1101" class='img-fluid'><figcaption class="kleiner">Aansluitingen CC1101</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/esp-idf-menuconfig.png" | relative_url }}' alt="esp-idf configmenu screen" class='img-fluid'><figcaption class="kleiner">esp-idf configmenu screen</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/blog/ramses_esp-pinout-configmenu-new.png" | relative_url }}' alt="esp-idf configmenu cc1101 menu" class='img-fluid'><figcaption class="kleiner">esp-idf configmenu cc1101 menu</figcaption></figure>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm">
+<figure><img src='https://curtocircuito.com.br/pub/media/wysiwyg/Datasheets/ESP32-S3_DevKitC-1_pinlayout_v1.1.jpg, https://curtocircuito.com.br/pub/media/wysiwyg/Datasheets/ESP32-S3_DevKitC-1_pinlayout_v1.1.jpg' alt="ESP32_S3 pinout" class='img-fluid'><figcaption class="kleiner">ESP32_S3 pinout</figcaption></figure>
 </div>
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/blog/IMG_6157_ramses_esp32_board.jpg" | relative_url }}' alt="ramses_esp aansluitingen" class='img-fluid'><figcaption class="kleiner">ramses_esp aansluitingen</figcaption></figure>
