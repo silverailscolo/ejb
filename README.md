@@ -4,7 +4,7 @@
 
 <div>
 
-**Jekyll sources for a [personal website](https://ebroerse.nl) based on the [multi-language al-folio theme](https://github.com/george-gca/multi-language-al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
+**Jekyll sources for a [personal website](https://www.ebroerse.nl) based on the [multi-language al-folio theme](https://github.com/george-gca/multi-language-al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme.**
 
 ---
 
