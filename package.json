@@ -9,7 +9,8 @@
     "build": "webpack --mode=production && JEKYLL_ENV=production bundle exec jekyll build",
     "postbuild": "npm run delete-nondefault",
     "delete-nondefault": "rm -r _site/*/assets/img && rm -r _site/*/assets/pdf && rm -r _site/*/assets/python",
-    "serve": "npx http-server -p 4001 _site/"
+    "serve": "npx http-server -p 4001 _site/",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -23,8 +24,13 @@
   "homepage": "https://silverailscolo.github.io/ejb",
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.10.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "pre-commit": "^1.2.2",
     "prettier": "^3.8.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "http-server": "^14.1.1",
