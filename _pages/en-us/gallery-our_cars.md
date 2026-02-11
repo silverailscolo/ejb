@@ -157,4 +157,24 @@ After 3 years without owning a car, using a compact GreenWheels now and then, we
 
 <figure><img src='{{ "/assets/img-noresample/our_cars/evalia2014-867x667.jpg" | relative_url }}' alt='Nissan Evalia EV' class='img-fluid'>
 <figcaption class="kleiner">Nissan Evalia EV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
-To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from <a href="https://www.muxsan.com/Nederlands/index.html">Muxsan</a> in Delft installed in the rear.
+
+To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from **Muxsan** in Delft installed in the rear.
+At the end of 2025, we had 160,000 km on the odometer! But the batteries deteriorated a lot, 130 instead of 200 km on a full charge, so it was time for a trade-in.
+
+## 2026: Ford Tourneo Connect PHEV
+
+We had a lot of experience charging the Evalia with the exotic Chademo, where the new standard in Europe definitely is CCS nowadays.
+What struck us, was that along the highway, the fast-charging stations still have an unwelcoming ambiancy, especially after dark.
+It can be nice, but you never can tell. Solo drivers, whether female or male, may prefer the flexibility to continue to the next station when a location looks `wrong`.
+That experience led our family to look for a Plug-in Hybrid, but one with enough pure EV range to reduce our CO2 footprint.
+
+So we test-drove EVs with a range extender, like the Mazda MX30-R, and the Volkswagen Golf E-Hybrid PHEV. But they all lacked the high driving position we were used to in all our minivans.
+
+<figure><img src='{{ "/assets/img-noresample/our_cars/Ford_Tourneo_Connect_2025-480x360.jpg" | relative_url }}' alt='2025 Ford Tourneo_Connect PHEV' class='img-fluid'>
+<figcaption class="kleiner">2025 Ford Tourneo_Connect PHEV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
+By pure chance, on one of those trips, we entered a Ford-dealership and exactly on the boundary between utility van and passenger car zones, we spotted this [Tourneo Connect PHEV](https://www.autoweek.nl/autonieuws/artikel/ford-tourneo-connect-phev-heel-veel-ruimte-en-110-km-elektrisch) 7 seater.
+The sales guy admitted it is a Volkswagen [Caddy Maxi eHybrid](https://nieuws.volkswagen.nl/volkswagen-caddy-kombi-nu-als-plug-in-hybride-met-122-km-actieradius/) in disguise. Both are built in the same factory in Poland and the key fof and steering wheel make no effort to hide their origin. Technically, the car is based on the same base as the VW Golf 8, so we get all that refinement in a boxy shape.
+Apart from the huge space, the hybrid drive train and superior suspension exceeded everything we were used to in the Evalia, so we went for it.
+
+A full 20 kWh charge gets you some 60 km in winter at 0˚C, cruising at 80-97 km/h. Not the promised 100+ km EV range from the WLTP leaflet. The heated front seats and steering wheel are really nice and don't use that much juice, as we knew from the Nissan. The Climate Control/AC set to 20˚C might be the culprit. Let's see what spring will bring.

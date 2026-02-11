@@ -37,7 +37,7 @@ My first car for just HFL 2000. We actually rode the car on our wedding day!
 
 ## 1995: Citroen BX16
 
-After numerous repairs at the local shop, we got a chance to buy my dad's 1991 gen 2 BX. On our way to Hungary!
+Na talloze reparaties in de lokale winkel kregen we de kans om de 1991 gen 2 BX van mijn vader te kopen. We zijn onderweg naar Hongarije!
 
 <div class="row">
 <div class="col-sm">
@@ -90,14 +90,14 @@ After numerous repairs at the local shop, we got a chance to buy my dad's 1991 g
 </div>
 </div>
 
-We got ourselves a 1994 Pontiac TransSport. Happy driving since June 2004 after changing the spark plug cables.<br>
-Petrol consumption 1 litre in 8.5 kilometers up to (accell slowly!) 1 in 10.
+We hebben een Pontiac TransSport uit 1994 gekocht. Tevreden rijderij sinds juni 2004 na het vervangen van de bougiekabels.
+Benzineverbruik 1 liter per 8,5 km tot (langzaam optrekken!) 1 op 10.
 
 Wikipedia has <a href="https://en.wikipedia.org/wiki/Pontiac_Trans_Sport">more</a> on the origin of the peculiar design of the first generation Pontiac TransSport, a.k.a. &quot;Dustbuster&quot;.
 
 ## 2006: Chevrolet Trans Sport 2
 
-Just before the 2006 summer holidays, our 1994 Pontiac TransSport failed the Periodic Car Test. So we shopped around and found: <strong>a next generation TransSport</strong>, labeled Chevrolet in Europe since 1998.
+Net voor de zomervakantie van 2006 faalde onze Pontiac TransSport uit 1994 voor de periodieke autotest. Dus hebben we rondgekeken en gevonden: een volgende generatie TransSport, sinds 1998 in Europa met het label _Chevrolet_.
 
 <div class="row">
 <div class="col-sm">
@@ -110,7 +110,7 @@ Just before the 2006 summer holidays, our 1994 Pontiac TransSport failed the Per
 </figure></div>
 </div>
 
-Here are the specs (misleadingly, stating options that weren't available till 1999):
+Hier zijn de specificaties (misleidend genoeg met opties die pas in 1999 beschikbaar waren):
 
 <ul>
 <li>Bouwjaar:	1998</li>
@@ -121,12 +121,13 @@ Here are the specs (misleadingly, stating options that weren't available till 19
 <li>Deuren:	5</li>
 <li>Extra's: automaat, vierwielaandrijving (4x4), ABS, airconditioning, stuurbekrachtiging, cruise control, airbags voor, traction control, centrale vergrendeling, elektrische ramen, startonderbreker, elektrisch verstelbare voorstoelen, spiegels verwarmd, warmtewerend glas, radio/cd-speler, lichtmetalen velgen, trekhaak, (veilig), (wijzigingen enof invoerfouten voorbehouden), 7-persoons, audio met wisselaar, bagagenet, bekerhouders achterin, bekerhouders voorin, centrale deurvergrendeling afstandbediend, deelbare achterbank (gelijke delen), electrisch bediende zijdeur rechts, electrisch uitzetbare zijramen, electrisch verstelbare buitenspiegels, electrisch verstelbare voorstoelen, in hoogte verstelbaar stuur, in hoogte verstelbare 3 punt gordels, in hoogte verstelbare bestuurderstoel, in hoogte verstelbare koplampen, instructieboekjes aanwezig, lederen stuurwiel, lendensteun in beide voorstoelen, metallic lak, nationale autopas, niveau regeling, roof rails, rookvrije auto, schuifdeur links en rechts, start onderbreking, zij-airbags voor, airbags voor, leren bekleding, middenarm</li>
 </ul>
-Got it for &euro; 7.500 with a &euro; 1.000 trade in for the 1994 minivan.
-In 2009 I finally got to install working rear parking sensors with a camera. That's handy!
+
+Ik heb hem gekocht voor € 7.500 met een inruil van € 1.000 voor de minivan uit 1994.
+In 2009 heb ik pas parkeersensoren achterin installeren met een camera. Dat is handig!
 
 ## 2013: Chevrolet Trans Sport #3
 
-After the fuel lines started to leak, we decided to buy a new car. Seating for 6 led to the last 2005 edition of the same Chevrolet model, equipped with Versatrak all-wheel drive.
+Nadat de brandstofleidingen begonnen te lekken, besloten we een nieuwe auto te kopen. Zitplaatsen voor 6 personen leidden naar de laatste editie van hetzelfde Chevrolet-model in 2005, uitgerust met Versatrak vierwielaandrijving.
 
 <div class="row">
 <div class="col-sm">
@@ -141,8 +142,8 @@ After the fuel lines started to leak, we decided to buy a new car. Seating for 6
 </div>
 </div>
 
-However, it begged for a new transmission in 2015.
-Two years on, sold the car for scrap in August 2017.
+Toch smeekte hij in 2015 om een nieuwe automatische versnellingsbak.
+Twee jaar later verkocht ik de auto in augustus 2017 voor sloop.
 
 ## 2017-2021: Greenwheels Up
 
@@ -153,8 +154,24 @@ Bleek dat we helemaal geen (eigen) auto nodig hadden! Genoeg andere vormen van m
 
 ## 2021: Nissan e-NV200 "Evalia"
 
-After 3 years without owning a car, using a compact GreenWheels now and then, we moved to the countryside and found a 2014 Nissan Evalia e-nv200 full electric minivan. It is based on the Nissan Leaf and has a characteristic, Tokyo styled body. It stands out of the crowd and allowed to move 3x3 banana boxes full of stuff on the second row alone when we moved house!
+Na drie jaar zonder auto, waarbij we af en toe een compacte GreenWheels gebruikten, verhuisden we naar het platteland en vonden een Nissan Evalia e-nv200 volledig elektrische minivan uit 2014.
+Hij is gebaseerd op de Nissan Leaf en heeft een karakteristieke, Tokyo-stijl carrosserie. Hij valt op en mocht alleen al 3x3 bananendozen vol spullen op de tweede rij verplaatsen toen we verhuisden!
 
 <figure><img src='{{ "/assets/img-noresample/our_cars/evalia2014-867x667.jpg" | relative_url }}' alt='Nissan Evalia EV' class='img-fluid'>
 <figcaption class="kleiner">Nissan Evalia EV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
-To improve the range from 90 km on 24 kWh to 40 kWh we had an upgrade from <a href="https://www.muxsan.com/Nederlands/index.html">Muxsan</a> in Delft installed in the rear.
+
+Om het bereik te verbeteren van 90 km op 24 kWh naar 40 kWh, hebben we een upgrade van **Muxsan** in Delft, Nederland achterin laten installeren.
+Eind 2025 stond er 160.000 km op de teller! Maar de accu's gingen erg achteruit, 130 i.p.v. 200 km op een volle lading, dus tijd om in te ruilen.
+
+## 2026: Ford Tourneo Connect PHEV
+
+We hadden veel ervaring met het opladen van de Evalia met de exotische Chademo, terwijl de nieuwe standaard in Europa tegenwoordig zeker CCS is. Wat ons opviel, was dat langs de snelweg de snellaadstations nog steeds een onvriendelijke sfeer hebben, vooral na donker. Het kan fijn zijn, maar je weet het nooit. Solo-chauffeurs, of ze nu vrouw of man zijn, geven misschien de voorkeur aan de flexibiliteit om door te rijden naar het volgende station wanneer een locatie er 'verkeerd' uitziet. Die ervaring bracht ons gezin ertoe op zoek te gaan naar een plug-in hybride, maar dan met voldoende volledig EV-bereik om onze CO2-voetafdruk te verkleinen.
+
+Dus hebben we EV's met een actieradius uitgeprobeerd, zoals de Mazda MX30-R en de Volkswagen Golf E-Hybrid PHEV. Maar ze misten allemaal de hoge rijpositie die we gewend waren in al onze eerdere minivans.
+
+<figure><img src='{{ "/assets/img-noresample/our_cars/Ford_Tourneo_Connect_2025-480x360.jpg" | relative_url }}' alt='2025 Ford Tourneo_Connect PHEV' class='img-fluid'>
+<figcaption class="kleiner">2025 Ford Tourneo_Connect PHEV (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
+Toevallig kwamen we tijdens een van die ritten een Ford-dealer binnen en precies op de grens tussen de utility bus- en personenautozone zagen we deze [Tourneo Connect PHEV](https://www.autoweek.nl/autonieuws/artikel/ford-tourneo-connect-phev-heel-veel-ruimte-en-110-km-elektrisch) 7-zitter. De verkoper gaf toe dat het een Volkswagen [Caddy Maxi eHybrid](https://nieuws.volkswagen.nl/volkswagen-caddy-kombi-nu-als-plug-in-hybride-met-122-km-actieradius/) in vermomming is. Beide worden in dezelfde fabriek in Polen gebouwd en de sleutel voor de sleutel en het stuur doen geen moeite hun oorsprong te verbergen. Technisch gezien is de auto gebaseerd op dezelfde basis als de VW Golf 8, dus we krijgen al die verfijning in een hoekige vorm. Afgezien van de enorme ruimte, overtroffen de hybride aandrijflijn en superieure ophanging alles wat we gewend waren in de Evalia, dus gingen we ervoor.
+
+Een volledige lading van 19,7 kWh levert je in de winter zo'n 60 km op 0°C op, met een snelheid van 80-97 km/u. Niet het beloofde EV-bereik van 100+ km uit de WLTP-folder. De verwarmde voorstoelen en het stuur zijn erg fijn en verbruiken niet zoveel stroom, zoals we van de Nissan wisten. De klimaatregeling/airco ingesteld op 20°C kan de boosdoener zijn. Laten we eens kijken wat de lente brengt.
