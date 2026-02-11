@@ -22,7 +22,7 @@ Coming up
 
 <h2>Build a RLW K-27 kit</h2>
 
-See <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>this blog post</a>.
+<a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>See this blog post</a>.
 
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_6524.jpg" | relative_url }}' alt='K-27 with primer coat' class='img-fluid'>
@@ -35,7 +35,7 @@ See <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>this blo
 
 <h2>How to make a Digitrax dwarf signal</h2>
 
-See [this blog post]({{ "/blog/2019/rio_grande_signal/" | relative_url }}).
+[See this blog post]({{ "/blog/2019/rio_grande_signal/" | relative_url }}).
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpg" | relative_url }}' alt='Signal Mast in operation' class='img-fluid'>
 <figcaption class="kleiner">Signal Mast in operation (
@@ -48,6 +48,8 @@ See [this blog post]({{ "/blog/2019/rio_grande_signal/" | relative_url }}).
 <h2>Build a housing for the Digitrax DS52 stationary decoder</h2>
 
 The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage.
+
+[See this blog post]({{ "/blog/2012/ds52-housing/" | relative_url }}).
 
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_0503-lo.jpg" | relative_url }}' alt='Now that is neat' class='img-fluid'>
@@ -64,13 +66,13 @@ The Digitrax DS52 stationary decoder consists of a PCB with a connector. After p
 
 To reduce the number of outputs required to connect a switch panel to LocoNet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel.
 
-See <a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>this blog post</a>.
+<a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>See this blog post</a>.
 
 </div>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>Virtual and real Train Control Panels</h2>
+<h2>Virtual and Real Train Control Panels</h2>
 
 My digital control panel was built using Panel Editor and is displayed on a compact LCD monitor.
 My physical control panels on the layout fascia sport the same graphic style.

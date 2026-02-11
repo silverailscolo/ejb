@@ -49,6 +49,8 @@ Lees alles in <a href='{{ "/blog/2019/rio_grande_signal/" | relative_url }}'>dez
 
 De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na het programmeren leek het me verstandig om hem in een fatsoenlijke behuizing te plaatsen om stof en onopzettelijke schade te verminderen.
 
+[Zie deze blog post]({{ "/blog/2012/ds52-housing/" | relative_url }}).
+
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_0503-lo.jpg" | relative_url }}' alt='Dat is netjes!' class='img-fluid'>
 <figcaption class="kleiner">Ingepakte DS52 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
@@ -64,7 +66,7 @@ Een kleine print met 4 CMOS 4011 IC's die elke uitgang omkeert voor een tweede L
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO omkeerprintje' class='img-fluid'></figure>
 
-Zie <a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>deze blog post</a>.
+<a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>Zie deze blog post</a>.
 
 </div>
 
@@ -75,7 +77,7 @@ Zie <a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>deze blog post<
 Mijn digitale bedieningspaneel is gebouwd met behulp van Panel Editor en wordt weergegeven op een compact LCD-scherm.
 De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl.
 
-Zie <a href='{{ "/blog/2012/bedieningspaneel/" | relative_url }}'>deze blog post</a>.
+<a href='{{ "/blog/2012/bedieningspaneel/" | relative_url }}'>Zie deze blog post</a>.
 
 <div class="row">
 <div class="col-sm">
