@@ -11,11 +11,11 @@ nav: false
 <img src='{{ "/assets/img/trains2/dcclogo.gif" | relative_url }}' alt="DCC logo" style="float: right;">
 
 <h4>Wat is Digital Command Control?</h4>
-Vanaf het voorjaar van 2004 ben ik overgestapt op Digtrax DCC met een Zephyr-commandostation. Tien jaar geleden begonnen Märklin en Lenz met DCC, maar dat was te duur voor mij. Ik heb wel een elektronische bezettingsdetector gebouwd (werkt als een droom sinds 2006, aangesloten op de ingangen van een <a href="#locoio">LocoIO</a>, trouwens) en heb alle handleidingen gelezen, maar nooit hardware gekocht. De regelmatige DCC-samenvattingen in Model Railroader hielden me op de hoogte van de laatste ontwikkelingen, en later maakte het internet dit nog makkelijker. Dus in 2004 bestelde ik een DCC-stater pakket uit de VS.
+Vanaf het voorjaar van 2004 ben ik overgestapt op Digtrax DCC met een Zephyr-commandostation. In de jaren '90' begonnen Märklin en Lenz met DCC, maar dat was te duur voor mij. Ik heb wel een elektronische bezettingsdetector gebouwd (werkt als een droom sinds 2006, aangesloten op de ingangen van een <a href="#locoio">LocoIO</a>, trouwens) en heb alle handleidingen gelezen, maar nooit hardware gekocht. De regelmatige DCC-samenvattingen in Model Railroader hielden me op de hoogte van de laatste ontwikkelingen, en later maakte het internet dit nog makkelijker. Dus bestelde ik in 2004 een DCC-starter pakket in de VS.
 
 ## Digitrax Zephyr
 
-Wat mij aantrok in <a href="https://www.digitrax.com">Digitrax</a> waren de prijs van de starterset en de elegantie van het LocoNet-netwerksysteem, dat alle signaleringsapparaten verbond. Lenz had ook een interface tussen DCC en een computer, maar na de eerste editie voor Macintosh was er geen updates en ben ik daar mee gestopt.
+Wat mij aantrok in <a href="https://www.digitrax.com">Digitrax</a> waren de prijs van de starterset en de elegantie van het LocoNet-netwerksysteem, dat alle signaleringsapparaten verbond. Lenz had ook een interface tussen DCC en een computer, maar na de eerste editie voor Macintosh kwamen er geen updates en ben ik daar mee gestopt.
 
 ## JMRI
 

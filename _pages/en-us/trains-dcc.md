@@ -13,7 +13,7 @@ toc:
 <img src='{{ "/assets/img/trains2/dcclogo.gif" | relative_url }}' alt="DCC logo" style="float: right;">
 
 <h4>What is Digital Command Control?</h4>
-Starting in the spring of 2004, I have switched to Digtrax DCC with a Zephyr command station. 10 Years ago, M&auml;rklin and Lenz started with DCC, but it was too expensive for me. I did build an electronic occupancy detector (works like a dream as of 2006, connected to the inputs of a <a href="#locoio">LocoIO</a>, by the way) and read all the manuals, but never bought any hardware. The regular DCC summaries in Model Railroader kept me informed on the latest developments, and later on the internet made this even easier. So in 2004 I ordered a DCC-stater pack from the USA.
+Starting in the spring of 2004, I have switched to Digtrax DCC with a Zephyr command station. In the 1990s, Märklin and Lenz started with DCC, but their systems were too expensive for me. I did build an electronic occupancy detector (still worked like a dream as of 2006, connected to the inputs of a <a href="#locoio">LocoIO</a>, by the way) and read all the manuals, but never bought any hardware. The regular DCC summaries in Model Railroader kept me informed on the latest developments, and later on the internet made this even easier. So in 2004 I ordered a DCC-stater pack from the USA.
 
 ## Digitrax Zephyr
 
@@ -47,7 +47,7 @@ Panels along the layout are connected to JMRI and show occupancy of blocks, turn
 
 ## Wiring
 
-I tried a mixed DCC/conventional DC wiring scheme. hoping to manage the switches via LocoNet whilst running the engines on either a DCC or regular DC throttle. It gave me some time to put a decoder in the engines that have enough room for one. But 10 years in I changed to full DCC as keeping one system running already is daunting enough. Even the Atlas (Tomix) track cleaning car - with vacuum cleaner! - had room for a TCS decoder, and a flashing light on top.
+I tried a mixed DCC/conventional DC wiring scheme. hoping to manage the switches via LocoNet whilst running the engines on either a DCC or regular DC throttle. It gave me some time to put a decoder in the engines that have enough room for one. But 10 years in, I changed to full DCC as keeping one system running already is daunting enough. Even the Atlas (Tomix) track cleaning car - with vacuum cleaner! - had room for a TCS decoder, and a flashing light on top.
 
 <figure><img src='{{ "/assets/img/trains2/S2400212-kl.jpg" | relative_url }}' alt='Feeder bus, viewed from beneath the layout' class='img-fluid'>
 <figcaption>Feeder bus under the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
