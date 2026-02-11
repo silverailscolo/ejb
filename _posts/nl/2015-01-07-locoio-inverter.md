@@ -13,7 +13,7 @@ tags:
 
 # Bouw een logic inverter printje voor de HDL LocoIO
 
-Om het aantal uitgangen dat nodig is om een schakelpaneel op Loconet aan te sluiten te verminderen, heb ik een kleine printplaat ontworpen met 4 CMOS 4011 IC's. Elke uitgangspin op J10/J11 is omgekeerd naar een tweede LED op het paneel, simpelweg omdat ik geen wissel-feedback heb en als de wissel omgezet wordt, neem ik aan dat hij in de andere stand staat. De groen en rode LED tonen dus dezelfde JMRI sensor, maar het staat netter op mijn paneel.
+Om het aantal uitgangen dat nodig is om een schakelpaneel op LocoNet aan te sluiten te verminderen, heb ik een kleine printplaat ontworpen met 4 CMOS 4011 IC's. Elke uitgangspin op J10/J11 is omgekeerd naar een tweede LED op het paneel, simpelweg omdat ik geen wissel-feedback heb en als de wissel omgezet wordt, neem ik aan dat hij in de andere stand staat. De groene en rode LED tonen dus dezelfde JMRI sensor, maar het staat netter op mijn paneel.
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO inprikprintje' class='img-fluid'></figure>
 

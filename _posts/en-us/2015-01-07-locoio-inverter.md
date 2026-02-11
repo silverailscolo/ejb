@@ -13,7 +13,7 @@ tags:
 
 # Build an add-on logic inverter daughterboard for an HDL LocoIO
 
-To reduce the number of outputs required to connect a switch panel to Loconet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel, simply because I don't have switch feedback and if a switch isn't thrown, it's supposed to be closed.
+To reduce the number of outputs required to connect a switch panel to LocoNet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel, simply because I don't have switch feedback and if a switch isn't thrown, it's supposed to be closed.
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO daughterboard' class='img-fluid'></figure>
 

@@ -17,7 +17,7 @@ Starting in the spring of 2004, I have switched to Digtrax DCC with a Zephyr com
 
 ## Digitrax Zephyr
 
-What attracted me in <a href="https://www.digitrax.com">Digitrax</a> were the price of the starter set and the elegance of the Loconet network system, that connected all signaling devices. Lenz also had an interface between DCC and a computer, but after the first edition for Macintosh there was no follow up and I gave up on that too.
+What attracted me in <a href="https://www.digitrax.com">Digitrax</a> were the price of the starter set and the elegance of the LocoNet network system, that connected all signaling devices. Lenz also had an interface between DCC and a computer, but after the first edition for Macintosh there was no follow up and I gave up on that too.
 
 ## JMRI
 
@@ -47,7 +47,7 @@ Panels along the layout are connected to JMRI and show occupancy of blocks, turn
 
 ## Wiring
 
-I tried a mixed DCC/conventional DC wiring scheme. hoping to manage the switches via Loconet whilst running the engines on either a DCC or regular DC throttle. It gave me some time to put a decoder in the engines that have enough room for one. But 10 years in I changed to full DCC as keeping one system running already is daunting enough. Even the Atlas (Tomix) track cleaning car - with vacuum cleaner! - had room for a TCS decoder, and a flashing light on top.
+I tried a mixed DCC/conventional DC wiring scheme. hoping to manage the switches via LocoNet whilst running the engines on either a DCC or regular DC throttle. It gave me some time to put a decoder in the engines that have enough room for one. But 10 years in I changed to full DCC as keeping one system running already is daunting enough. Even the Atlas (Tomix) track cleaning car - with vacuum cleaner! - had room for a TCS decoder, and a flashing light on top.
 
 <figure><img src='{{ "/assets/img/trains2/S2400212-kl.jpg" | relative_url }}' alt='Feeder bus, viewed from beneath the layout' class='img-fluid'>
 <figcaption>Feeder bus under the layout (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Afbeelding</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
