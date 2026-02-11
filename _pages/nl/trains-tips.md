@@ -124,7 +124,7 @@ De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl, zij h
 
 </div><!-- einde tegel -->
 
-Terug naar <a href="layout.html">Treinen/Modelbaan</a>
+Terug naar <a href="../layout/">Treinen/Modelbaan</a>
 
 <h2>How-to's</h2>
 

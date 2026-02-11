@@ -125,7 +125,7 @@ My physical control panels on the layout fascia sport the same graphic style, be
 
 </div><!-- end of last card -->
 
-Back to <a href="layout.html">Railroading/Layout</a>
+Back to <a href="../layout/">Railroading/Layout</a>
 
 <h2>How-to's</h2>
 
