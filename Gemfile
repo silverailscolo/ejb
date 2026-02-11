@@ -34,6 +34,7 @@ group :other_plugins do
     # gem 'exif'
     gem 'exiftool'
     gem 'exiftool_vendored'
+
     # for download-3rd-party.rb (moved to desktop)
     # gem 'digest', '~> 3.0'
     # gem 'fileutils', '~> 1.7', '>= 1.7.3'

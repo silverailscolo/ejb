@@ -20,7 +20,6 @@ Software en APIs om ons huis, de Zappi laadpaal, NIBE heat pump and SolarEdge PV
 - Zappi Forum over de API: [https://myenergi.info/extracting-energy-data-t7445-s90.html](https://myenergi.info/extracting-energy-data-t7445-s90.html)
 
 - pymyenergy Python3 code:
-
   - [https://github.com/twonk/MyEnergi-App-Api](https://github.com/twonk/MyEnergi-App-Api)
 
   - [https://github.com/ashleypittman/mec](https://github.com/ashleypittman/mec)
