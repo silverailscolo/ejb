@@ -11,7 +11,7 @@ profile:
   image: banners/Flax-Vlas-BR11.jpg
   image_circular: false # crops the image to make it circular shaped
   more_info: >
-    <p>Using biobased? PV? EV?</p>
+    <p>You're building biobased? Generate & Drive Solar?</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -29,4 +29,5 @@ in the North of the Netherlands.
 
 - [Architectural design](architect)
 - [Images, images!](gallery)
+- [Smart Home](/house/smart/)
 - Check out the menu for more
