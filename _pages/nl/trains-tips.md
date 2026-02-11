@@ -22,7 +22,7 @@ Binnenkort
 
 <h2>Bouw de RLW K-27 kit</h2>
 
-Zie <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>deze blog post</a>.
+<a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>Zie deze blog post</a>
 
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_6524.jpg" | relative_url }}' alt='K-27 in de primer' class='img-fluid'>
@@ -35,7 +35,7 @@ Zie <a href='{{ "/blog/2017/assembling-kit-rlw-k27/" | relative_url }}'>deze blo
 
 <h2>Hoe maak je een Digitrax dwergsein</h2>
 
-Lees alles in <a href='{{ "/blog/2019/rio_grande_signal/" | relative_url }}'>deze blog post</a>.
+<a href='{{ "/blog/2019/rio_grande_signal/" | relative_url }}'>Zie deze blog post</a>
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/signals_in_Farmington.jpg" | relative_url }}' alt='Seinen in bedrijf' class='img-fluid'>
 <figcaption class="kleiner">Seinen in bedrijf (
@@ -49,7 +49,7 @@ Lees alles in <a href='{{ "/blog/2019/rio_grande_signal/" | relative_url }}'>dez
 
 De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na het programmeren leek het me verstandig om hem in een fatsoenlijke behuizing te plaatsen om stof en onopzettelijke schade te verminderen.
 
-[Zie deze blog post]({{ "/blog/2012/ds52-housing/" | relative_url }}).
+<a href='{{ "/blog/2012/ds52-housing/" | relative_url }}'>Zie deze blog post</a>
 
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/IMG_0503-lo.jpg" | relative_url }}' alt='Dat is netjes!' class='img-fluid'>
@@ -60,13 +60,13 @@ De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na 
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-# Bouw een logic inverter printje voor de HDL LocoIO
+<h2>Bouw een logic inverter printje voor de HDL LocoIO</h2>
 
 Een kleine print met 4 CMOS 4011 IC's die elke uitgang omkeert voor een tweede LED. De groene en rode LED tonen samen de stand van 1 JMRI sensor.
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO omkeerprintje' class='img-fluid'></figure>
 
-<a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>Zie deze blog post</a>.
+<a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>Zie deze blog post</a>
 
 </div>
 
@@ -77,7 +77,7 @@ Een kleine print met 4 CMOS 4011 IC's die elke uitgang omkeert voor een tweede L
 Mijn digitale bedieningspaneel is gebouwd met behulp van Panel Editor en wordt weergegeven op een compact LCD-scherm.
 De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl.
 
-<a href='{{ "/blog/2012/bedieningspaneel/" | relative_url }}'>Zie deze blog post</a>.
+<a href='{{ "/blog/2012/bedieningspaneel/" | relative_url }}'>Zie deze blog post</a>
 
 <div class="row">
 <div class="col-sm">
