@@ -4,9 +4,10 @@ lang: en-us
 page-id: ramsesesp
 title: DIY ramses_esp dongle
 date: "2026-02-06"
+tags:
+  - "smart-home"
 categories:
   - computers
-  - smart_home
 ---
 
 Heat recovery fans and Honeywell's heating control ["talk"](/blog/2025/ramses/) to your thermostat and remote control via radio signals at 868MHz. Several manufacturers use a controller (PCB) from [Airios](https://www.airios.eu/) from Eindhoven, NL.

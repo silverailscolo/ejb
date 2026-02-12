@@ -1,5 +1,5 @@
 {
-  "name": "silverailscolo.github.io",
+  "name": "www.ebroerse.nl",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/silverailscolo/ejb/issues"
   },
-  "homepage": "https://silverailscolo.github.io/ejb",
+  "homepage": "https://www.ebroerse.nl",
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.10.0",
     "husky": "^9.1.7",

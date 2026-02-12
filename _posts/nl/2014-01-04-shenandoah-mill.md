@@ -16,7 +16,7 @@ featured: true
 
 Een klein projectje voor het weekend: de mijn is geplaatst, met verlichting, rails en bomen.
 
-![Coal shutes]({{ "/assets/img/blog/20140112-191109.jpg" | relative_url }})
+![Coal shutes]({{ "/assets/img-noresample/trains/20140112192031-a821d7df-576x432.jpg" | relative_url }})
 
 Ik heb op het web veel gevonden over de mijnen, de kabelbaan en de ertsmalers rond Silverton. Ik vond een gedetailleerde historische studie (niet meer online vanaf 2023) over de Shenandoah-Dives, ook wel Mayflower Mill genoemd. Hoewel ik van plan ben om ook de Lodore mijn/maler naast de Ironton aftakking toe te voegen, is dit het best gedocumenteerde voorbeeld. De eindstation van de kabelbaan, waar de emmers met erts uit de mijnen in de bergen werden geleegd, had een zadeldak.
 

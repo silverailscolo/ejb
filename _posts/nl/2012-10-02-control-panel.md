@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: control-panel
+page-id: control_panel
 title: "Bouw een Bedieningspaneel"
 date: "2012-10-02"
 categories:

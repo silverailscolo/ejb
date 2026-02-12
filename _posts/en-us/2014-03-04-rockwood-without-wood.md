@@ -16,7 +16,7 @@ featured: false
 
 The rock cliff at Rockwood has been an item on my to do list for at least one year. So I'm really happy the styrofoam changed into colorful rocks late last night.
 
-<figure><img src='{{ "/assets/img/blog/20140304-173323.jpg" | relative_url }}' alt='View of Rockwood' class='img-fluid'>
+<figure><img src='{{ "/assets/img/trains2/DSC0868_Rockwood.jpg" | relative_url }}' alt='View of Rockwood' class='img-fluid'>
 <figcaption class="kleiner">View of Rockwood (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 

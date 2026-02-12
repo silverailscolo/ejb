@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: en-us
-page-id: control-panel
+page-id: control_panel
 title: "Build a Control Panel"
 date: "2012-10-02"
 categories:

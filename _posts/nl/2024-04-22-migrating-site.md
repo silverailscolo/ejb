@@ -5,6 +5,8 @@ title: Website is verhuisd
 date: 2024-04-22
 inline: false
 related_posts: false
+categories:
+  - computers
 ---
 
 Mijn oude website, blog en fotobibliotheek heb ik van Wordpress en Piwigo overgezet naar Jekyll, zodat het een geïntegreerd geheel wordt. En pff, nooit meer security-updates, geblokte adressen etc.
@@ -15,6 +17,8 @@ De site bevat afbeelding-bijschriften die zijn gegenereerd uit de afbeeldings-me
 
 Kijk lekker rond, en als je een - serieus - foutje ziet kan je een [Issue](https://github.com/silverailscolo/ejb/issues) aanmaken.
 
+> Eind 2025 heb ik deze site van GitHub naar EU hosting verplaatst.
+
 ## Abonneer je op mijn Atom (RSS-like) Feed
 
-The Atom (RSS-like) feed is reachable simply by typing `silverailscolo.github.io/ejb/feed.xml`
+The Atom (RSS-like) feed is reachable simply by typing `www.ebroerse.nl/feed.xml`

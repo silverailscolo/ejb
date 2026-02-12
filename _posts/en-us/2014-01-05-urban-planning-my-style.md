@@ -17,10 +17,9 @@ right and a wrong way of laying out squares and roads. But Turner makes a case f
 binary or-or mono-function and more diffuse categories. Bottom-up initiatives may aid us
 as designers. Hands-on design is to be preferred over clean-hands off-site design.
 
-Still, I find the structuring of spaces as put forward by Edmund Bacon an
-inspiring method.
+Still, I find the structuring of urban spaces as put forward by [Edmund Bacon](https://en.wikipedia.org/wiki/Design_of_Cities) an inspiring design method.
 
-For sale [here](https://www.taylorfrancis.com/books/mono/10.4324/9781315024868/city-landscape-tom-turner).
-Apple Podcast <a href="https://podcasts.apple.com/us/podcast/city-as-landscape-architecture/id1492008414">by Tom Turner</a>
+- _City Landscape_ is for sale [here](https://www.taylorfrancis.com/books/mono/10.4324/9781315024868/city-landscape-tom-turner).
+- Apple Podcast <a href="https://podcasts.apple.com/us/podcast/city-as-landscape-architecture/id1492008414">by Tom Turner</a>
 
-![20140105-213730.jpg]({{ "/assets/img/blog/20140105-213730.jpg" | relative_url }})
+![Petersburg 1850]({{ "/assets/img/blog/bacon-petersburg-p197.jpeg" | relative_url }})

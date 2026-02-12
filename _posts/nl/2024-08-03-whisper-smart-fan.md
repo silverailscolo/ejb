@@ -5,7 +5,7 @@ page-id: whisper-fan
 title: Bouw een slimme ventilator-besturing
 date: 2024-08-03
 tags:
-  - smart-home
+  - "smart home"
 categories:
   - software
   - hardware

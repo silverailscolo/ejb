@@ -13,7 +13,7 @@ tags:
 
 Completed a weekend project: the mill is ready, spur and trees added.
 
-![Coal shutes]({{ "/assets/img/blog/20140112-191109.jpg" | relative_url }})
+![Coal shutes]({{ "/assets/img-noresample/trains/20140112192031-a821d7df-576x432.jpg" | relative_url }})
 
 Learned a lot about the mines, aerial tram and mills around Silverton, by searching the web. I found a detailed historical study (no longer online as of 2023) on the Shenandoah-Dives, aka Mayflower Mill. Although I plan to include the Lodore mine/mill combo next to the Ironton spur, this is the best documented example. The tram terminal, where the buckets with ore from the mines up in the mountains were emptied, had a gabled roof.
 

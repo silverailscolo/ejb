@@ -10,13 +10,13 @@ categories: wetenschap
 featured: false
 ---
 
-Tom Turner wrote a clear [essay](https://www.gardenvisit.com/history_theory/library_online_ebooks/architecture_city_as_landscape) on the _history of urban planning and design_. The hierarchy of roads over housing over the garden needs reconsidering.
-The seductive use of maps and words by politicians and designers may lead one to believe there is a right and a wrong way of laying out squares and roads. But Turner makes a case for less binary or-or monofunction and more diffuse categories.
-Bottom-up initiatives may aid us as designers. Hands-on design is to be preferred over clean-hands off-site design.
+Tom Turner schreef een overtuigend [essay](https://www.gardenvisit.com/history_theory/library_online_ebooks/architecture_city_as_landscape) over de _geschiedenis van stedelijke planning en ontwerp_. De hiërarchie van wegen boven woningen boven de tuin verdient heroverweging. Het verleidelijke gebruik van kaarten en woorden door politici en ontwerpers kan ertoe leiden dat er een juiste en een foute manier is om pleinen en wegen aan te leggen. Maar Turner pleit voor minder binaire of-of monofunctie en meer diffuse categorieën.
 
-Still, I find the structuring of spaces as put forward by Edmund Bacon an inspiring method.
+Bottom-up initiatieven kunnen ons als ontwerpers helpen. Hands-on ontwerp heeft de voorkeur boven clean-hands off-site ontwerp.
+
+Toch vind ik de structuur van ruimtes zoals voorgesteld door [Edmund Bacon](https://en.wikipedia.org/wiki/Design_of_Cities) een inspirerende methode.
 
 For sale [here](https://www.taylorfrancis.com/books/mono/10.4324/9781315024868/city-landscape-tom-turner).
 Apple Podcast <a href="https://podcasts.apple.com/us/podcast/city-as-landscape-architecture/id1492008414">by Tom Turner</a>
 
-![20140105-213730.jpg]({{ "/assets/img/blog/20140105-213730.jpg" | relative_url }})
+![Petersburg 1850]({{ "/assets/img/blog/bacon-petersburg-p197.jpeg" | relative_url }})
