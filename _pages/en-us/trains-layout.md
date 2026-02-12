@@ -55,6 +55,11 @@ After we moved house, I kept two modules from the original layout and installed 
 <figcaption class="kleiner">Track plan 2025.</figcaption>
 </figure>
 </div>
+<div class="card hoverable" style="max-width: 90%;">
+<figure><img src='{{ "/assets/img/trains2/ds2/IMG_2505_ds2_silverton.jpg" | relative_url }}' alt="Silverton engine house 2025" class='img-fluid'>
+<figcaption class="kleiner">Silverton engine house 2025</figcaption>
+</figure>
+</div>
 
 Name
 : Durenver &amp; Silverton Narrow Gauge RR

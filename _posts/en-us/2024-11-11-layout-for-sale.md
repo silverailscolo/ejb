@@ -31,6 +31,13 @@ Two other modules, _Durango Yard_ and _Rockwood_, were up for sale on **Marktpla
 
 The modules I keep were stripped of the subframes and fastened to a pair of boards that are suspended from the ceiling, with a counterweight along the wall. When I want to run either module, I plug in the command station and go. Both the plywood railbed and a layer below that are hinged for easy access and troubleshooting.
 
-<figure><img src='{{ "/assets/img/trains2/ds2/IMG_1852.jpg" | relative_url }}' alt="D&S rev 2" class='img-fluid'><figcaption class="kleiner">D&S Railroad rev 2 is born</figcaption></figure>
+<div class="row">
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/ds2/IMG_1852.jpg" | relative_url }}' alt="D&S rev 2" class='img-fluid'><figcaption class="kleiner">De D&S Railroad rev 2 is born</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/ds2/IMG_2505_ds2_silverton.jpg" | relative_url }}' alt="D&S rev 2" class='img-fluid'><figcaption class="kleiner">Silverton krijgt vorm</figcaption></figure>
+</div>
+</div>
 
 Off we go!

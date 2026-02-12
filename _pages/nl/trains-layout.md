@@ -54,6 +54,11 @@ Na onze verhuizing heb ik eind 2024 twee modules afgestoft en rug-aan-rug aan he
 <figcaption class="kleiner">Spoorplan 2025</figcaption>
 </figure>
 </div>
+<div class="card hoverable" style="max-width: 90%;">
+<figure><img src='{{ "/assets/img/trains2/ds2/IMG_2505_ds2_silverton.jpg" | relative_url }}' alt="Silverton engine house 2025" class='img-fluid'>
+<figcaption class="kleiner">Silverton engine house 2025</figcaption>
+</figure>
+</div>
 
 <a href="#durenver">Durenver</a> | <a href="#silverton">Silverton</a>
 
@@ -338,7 +343,7 @@ Vensters zijn Grandt Line-gietstukken, sommige aangepast door te splitsen en sam
 <figcaption class="kleiner">Silverton spoorplan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
 </div>
 
-De laatste halte op de hoofdlijn, overstap met SN RR naar Ouray en SG&N RR naar Gladstone. We waren er tijdens een sneeuwstorm, dus op dit punt neemt de verbeelding het over.
+De laatste stop op de hoofdlijn, overstap met SN RR naar Ouray en SG&N RR naar Gladstone. We waren er tijdens een sneeuwstorm, dus op dit punt neemt de verbeelding het over.
 
 Om van Rockwood naar de High Line te rijden, heb ik in 2012 een helix gebouwd.
 

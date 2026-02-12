@@ -31,6 +31,13 @@ De modules die ik houd, zijn van hun subframes ontdaan en bevestigd op twee plan
 
 Zowel de multiplex bovenplaat als een plank voor de electronica er onder zijn scharnierend aan het frame bevestigd voor gemakkelijke toegang en het oplossen van problemen.
 
+<div class="row">
+<div class="col-sm">
 <figure><img src='{{ "/assets/img/trains2/ds2/IMG_1852.jpg" | relative_url }}' alt="D&S rev 2" class='img-fluid'><figcaption class="kleiner">De D&S Railroad rev 2 is herboren</figcaption></figure>
+</div>
+<div class="col-sm">
+<figure><img src='{{ "/assets/img/trains2/ds2/IMG_2505_ds2_silverton.jpg" | relative_url }}' alt="D&S rev 2" class='img-fluid'><figcaption class="kleiner">Silverton krijgt vorm</figcaption></figure>
+</div>
+</div>
 
 Off we go!
