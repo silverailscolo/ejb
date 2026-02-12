@@ -33,7 +33,7 @@ Coming up
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>How to make a Digitrax dwarf signal</h2>
+<h2>How to make a Digitrax signal</h2>
 
 <a href='{{ "/blog/2019/rio_grande_signal/" | relative_url }}'>See this blog post</a>
 
@@ -45,9 +45,9 @@ Coming up
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>Build a housing for the Digitrax DS52 stationary decoder</h2>
+<h2>Housing the DS52</h2>
 
-The Digitrax DS52 stationary decoder consists of a PCB with a connector. After programming, it seemed wise to put it inside a decent enclosure to reduce dust and accidental damage.
+Put your Digitrax DS52 stationary decoders inside a decent enclosure.
 
 <a href='{{ "/blog/2012/ds52-housing/" | relative_url }}'>See this blog post</a>
 
@@ -60,13 +60,13 @@ The Digitrax DS52 stationary decoder consists of a PCB with a connector. After p
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>Build an add-on logic inverter daughterboard for an HDL LocoIO</h2>
+<h2>Build a LocoIO logic inverter</h2>
 
-<figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO daughterboard' class='img-fluid'></figure>
-
-To reduce the number of outputs required to connect a switch panel to LocoNet, I designed a small PCB with 4 CMOS 4011 IC's. Every output pin on J10/J11 is inverted to a second LED on the panel.
+Reduce the number of outputs required to connect a switch panel to LocoNet with this PCB. Every output pin on J10/J11 is inverted to a second LED on the panel.
 
 <a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>See this blog post</a>
+
+<figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO daughterboard' class='img-fluid'></figure>
 
 </div>
 
@@ -74,7 +74,7 @@ To reduce the number of outputs required to connect a switch panel to LocoNet, I
 
 <h2>Virtual and Real Train Control Panels</h2>
 
-My digital control panel was built using Panel Editor and is displayed on a compact LCD monitor.
+Digital control panels use JMRI Panel Editor.
 My physical control panels on the layout fascia sport the same graphic style.
 
 <a href='{{ "/blog/2012/control-panel/" | relative_url }}'>See this blog post</a>

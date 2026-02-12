@@ -24,12 +24,14 @@ To reduce the number of outputs required to connect a switch panel to LocoNet, I
 Components (for 8 outputs):
 
 <div class="wide">
+
 | Item   | Qty | Description                                                                                                                               |
-|--------|-----|-------------------------------------------------------------------------------------------------------------------------------------------|
-| J1     | 1   | Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm                                                                               |
-| J2, J3 | 2   | Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm                                                                               |
-| J4     | 1   | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm                                                                                |
+| ------ | --- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| J1     | 1   | Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm                                                                                         |
+| J2, J3 | 2   | Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm                                                                                         |
+| J4     | 1   | Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm                                                                                         |
 | U1, U2 | 2   | Quad Nand 2 inputs, x4011 DIP-14 IC ([Datasheet](https://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf)) |
+
 </div>
 
 <figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_Inverter_PCB.png" | relative_url }}' alt='Inverter PCB sketch' class='img-fluid'>

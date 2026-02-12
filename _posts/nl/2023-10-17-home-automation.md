@@ -26,7 +26,7 @@ Software en APIs om ons huis, de Zappi laadpaal, NIBE heat pump and SolarEdge PV
 
 - Home Assistant: [https://www.home-assistant.io/installation/macos](https://www.home-assistant.io/installation/macos)
 
-- NIBE UpLink API: [https://github.com/elupus/hass_nibe](https://github.com/elupus/hass_nibe)
+- NIBE UpLink API: [https://github.com/elupus/esphome-nibe](https://github.com/elupus/esphome-nibe)
 
 - Stroom meten met Raspberry Pi: [https://www.instructables.com/Current-Monitoring-With-Raspberry-Pi/](https://www.instructables.com/Current-Monitoring-With-Raspberry-Pi/)
 

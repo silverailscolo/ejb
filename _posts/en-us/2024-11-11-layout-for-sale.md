@@ -2,8 +2,11 @@
 layout: post
 lang: en-us
 page-id: layout-for-sale
-title: Layout parts for sale
+title: Layout modules for sale
 date: "2024-11-11"
+tags:
+  - n-schaal
+  - colorado
 categories:
   - trains
 ---

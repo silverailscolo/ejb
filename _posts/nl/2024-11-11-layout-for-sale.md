@@ -4,6 +4,9 @@ lang: nl
 page-id: layout-for-sale
 title: Modelbaan te koop
 date: "2024-11-11"
+tags:
+  - n-schaal
+  - colorado
 categories:
   - treinen
 ---

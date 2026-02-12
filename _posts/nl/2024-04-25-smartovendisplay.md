@@ -38,7 +38,7 @@ Monteer in de meterkast of een andere veilig bereikbare plek CT-klemmen rond 2-3
 </div>
 </div>
 
-Verbind de draden van de CT klemmen aan ongebruikte inputs op de harve. Ze verschijnen danals sensors in de Home Assistant myenergi integratie.
+Verbind de draden van de CT klemmen aan ongebruikte inputs op de harvi. Ze verschijnen dan als sensors in de Home Assistant myenergi integratie.
 
 ### Code
 

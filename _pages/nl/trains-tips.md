@@ -4,7 +4,7 @@ layout: page
 lang: nl
 permalink: /trains/tips/
 title: Modelbouw Tips
-description: Van eigen fouten geleerd
+description: Geleerd van eigen fouten
 nav: false
 toc:
   sidebar: left
@@ -33,7 +33,7 @@ Binnenkort
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>Hoe maak je een Digitrax dwergsein</h2>
+<h2>Bouw een Digitrax sein</h2>
 
 <a href='{{ "/blog/2019/rio_grande_signal/" | relative_url }}'>Zie deze blog post</a>
 
@@ -45,9 +45,9 @@ Binnenkort
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>Bouw een behuizing voor de Digitrax DS52 wisseldecoder</h2>
+<h2>Behuizing voor DS52 wisseldecoder</h2>
 
-De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na het programmeren leek het me verstandig om hem in een fatsoenlijke behuizing te plaatsen om stof en onopzettelijke schade te verminderen.
+Geef je Digitrax DS52 wisseldecoders na het programmeren een nette behuizing.
 
 <a href='{{ "/blog/2012/ds52-housing/" | relative_url }}'>Zie deze blog post</a>
 
@@ -60,24 +60,23 @@ De Digitrax DS52 wisseldecoder bestaat uit een printplaat met een connector. Na 
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>Bouw een logic inverter printje voor de HDL LocoIO</h2>
+<h2>Bouw een LocoIO logic inverter</h2>
 
-Een kleine print met 4 CMOS 4011 IC's die elke uitgang omkeert voor een tweede LED. De groene en rode LED tonen samen de stand van 1 JMRI sensor.
-
-<figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO omkeerprintje' class='img-fluid'></figure>
+De groene en rode LED tonen samen de stand van 1 JMRI sensor.
 
 <a href='{{ "/blog/2015/locoio-inverter/" | relative_url }}'>Zie deze blog post</a>
+
+<figure><img src='{{ "/assets/img/trains2/d_and_s/LocoIO_inverter_assembly.jpg" | relative_url }}' alt='LocoIO omkeerprintje' class='img-fluid'></figure>
 
 </div>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 
-<h2>Treinbestuurpanelen op scherm en met echte knoppen</h2>
+<h2>Treinbestuurpanelen scherm + echt</h2>
 
-Mijn digitale bedieningspaneel is gebouwd met behulp van Panel Editor en wordt weergegeven op een compact LCD-scherm.
-De fysieke bedieningspanelen op mijn baan hebben dezelfde grafische stijl.
+Digitaal bedieningspaneel met JMRI Panel Editor. Fysieke bedieningspanelen in dezelfde stijl.
 
-<a href='{{ "/blog/2012/bedieningspaneel/" | relative_url }}'>Zie deze blog post</a>
+<a href='{{ "/blog/2012/control-panel/" | relative_url }}'>Zie deze blog post</a>
 
 <div class="row">
 <div class="col-sm">

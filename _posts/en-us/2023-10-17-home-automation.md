@@ -26,7 +26,7 @@ A collection of software and APIs to control our Zappi EV charger, NIBE heat pum
 
 - Home Assistant: [https://www.home-assistant.io/installation/macos](https://www.home-assistant.io/installation/macos)
 
-- NIBE Uplink API: [https://github.com/elupus/hass_nibe](https://github.com/elupus/hass_nibe)
+- NIBE Uplink API: [https://github.com/elupus/esphome-nibe](https://github.com/elupus/esphome-nibe)
 
 - Current Sensing with Raspberry Pi: [https://www.instructables.com/Current-Monitoring-With-Raspberry-Pi/](https://www.instructables.com/Current-Monitoring-With-Raspberry-Pi/)
 
