@@ -25,12 +25,12 @@ Onderdelen (voor 8 uitgangen):
 
 <div class="wide">
 
-| Item   | Aantal | Omschrijving                                                                                                                              |
-| ------ | ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| J1     | 1      | PinSocket_2.54mm_1x09_P2.54mm                                                                                                             |
-| J2, J3 | 2      | PinSocket_2.54mm_1x04_P2.54mm                                                                                                             |
-| J4     | 1      | PinSocket_2.54mm_1x01_P2.54mm                                                                                                             |
-| U1, U2 | 2      | Quad Nand 2 inputs, x4011 DIP-14 IC ([Datasheet](https://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf)) |
+| Item   | Aantal | Omschrijving                                                                                                                                         |
+| ------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| J1     | 1      | PinSocket_2.54mm_1x09_P2.54mm                                                                                                                        |
+| J2, J3 | 2      | PinSocket_2.54mm_1x04_P2.54mm                                                                                                                        |
+| J4     | 1      | PinSocket_2.54mm_1x01_P2.54mm                                                                                                                        |
+| U1, U2 | 2      | Quad Nand 2 inputs, x4011 DIP-14 IC (<a href="https://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf">Datasheet</a>) |
 
 </div>
 
