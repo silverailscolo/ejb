@@ -5,7 +5,7 @@ page-id: wymans
 title: "Wyman's sawmill"
 date: "2014-08-17"
 categories:
-  - "trains-treinen"
+  - "trains"
 tags:
   - "industry"
   - "model"

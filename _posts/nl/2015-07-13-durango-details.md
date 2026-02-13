@@ -5,7 +5,7 @@ page-id: durangodetails
 title: "Details in Durango"
 date: "2015-07-13"
 categories:
-  - "trains-treinen"
+  - "treinen"
 ---
 
 In de zomervakantie mag ik op zolder toch graag even ontspannen modelbouwen.

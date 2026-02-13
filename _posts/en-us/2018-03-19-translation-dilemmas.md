@@ -5,7 +5,8 @@ page-id: translation
 title: "Translation Dilemmas"
 date: "2018-03-19"
 categories:
-  - "trains-treinen"
+  - trains
+  - computers
 tags:
   - "jmri"
 ---

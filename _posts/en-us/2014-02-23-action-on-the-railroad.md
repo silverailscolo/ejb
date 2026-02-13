@@ -10,6 +10,7 @@ tags:
   - todo
 categories:
   - trains
+  - treinen
 featured: false
 ---
 
@@ -32,8 +33,8 @@ Summer 2013 - Winter 2014 projects:
 - [x] Build a wooden retaining wall above Thoreau ready 2/2014
 - [x] Add ladders and hoods to the double head signals ready 9/2015
 - [ ] Ballasting!
-- [ ] Build the Tacoma Power House in stone or laser cut
+- [ ] Build the [Tacoma Power House](https://sanjuancountyhistoricalsociety.org/silverton-power-station.html) in stone or laser cut
 
-So there's lots to be done, but I've made a lot of progress!
+So there's lots to be done, but I've made a lot of progress too!
 
 <figure><img src='{{ "/assets/img/trains2/newport2013_IMG_2497kl.jpg" | relative_url }}' alt="Newport harbor" class='img-fluid'><figcaption class="kleiner">Newport harbor</figcaption></figure>

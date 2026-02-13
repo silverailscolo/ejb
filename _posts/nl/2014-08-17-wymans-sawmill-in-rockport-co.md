@@ -5,7 +5,7 @@ page-id: wymans
 title: "Wyman's houtzagerij"
 date: "2014-08-17"
 categories:
-  - "trains-treinen"
+  - "treinen"
 tags:
   - "industry"
   - "model"

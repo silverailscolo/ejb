@@ -5,7 +5,7 @@ page-id: durangodetails
 title: "Durango details"
 date: "2015-07-13"
 categories:
-  - "trains-treinen"
+  - "trains"
 ---
 
 Summer vacation calls for some model railroading as well. That is, if it's raining like

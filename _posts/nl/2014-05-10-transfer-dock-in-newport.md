@@ -5,7 +5,7 @@ page-id: newport
 title: "Vrachtpont in Newport"
 date: "2014-05-10"
 categories:
-  - "trains-treinen"
+  - "treinen"
 tags:
   - "boat"
   - "freight"

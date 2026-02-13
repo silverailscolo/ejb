@@ -5,7 +5,7 @@ page-id: newport
 title: "Transfer dock in Newport"
 date: "2014-05-10"
 categories:
-  - "trains-treinen"
+  - "trains"
 tags:
   - "boat"
   - "freight"

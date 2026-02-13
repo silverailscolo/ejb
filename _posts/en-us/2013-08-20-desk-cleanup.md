@@ -17,7 +17,7 @@ With a lot of help from my son I managed to clean up my desk after years of negl
 Sorting some bolts and nuts, and putting the remainders of several 'open' projects in
 small plastic trays made room for a fresh look at the hobby.
 
-<figure><img src='{{ "/assets/img/blog/20130821-000320.jpg" | relative_url }}' alt="Clean desk" class='img-fluid'><figcaption class="kleiner">Clean desk</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/IMG_2500-clean-desktop.jpg" | relative_url }}' alt="Clean desk" class='img-fluid'><figcaption class="kleiner">Clean desk</figcaption></figure>
 
 And I kitbashed the Newport Ice and Fish Company straight away.
 

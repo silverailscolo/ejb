@@ -14,7 +14,7 @@ featured: false
 
 Met veel assistanetioe van mijn zoon heb ik eindelijk mijn werkbank opgeruimd na jaren verwaarlozingh. Boutjes en moertjes gesorteerd, en de rest verdeeld over 'open' projecten in plastic bakjes bieden weer ruimte.
 
-<figure><img src='{{ "/assets/img/blog/20130821-000320.jpg" | relative_url }}' alt="Schoon werkblad" class='img-fluid'><figcaption class="kleiner">Schoon werkblad</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/IMG_2500-clean-desktop.jpg" | relative_url }}' alt="Schoon werkblad" class='img-fluid'><figcaption class="kleiner">Schoon werkblad</figcaption></figure>
 
 En ik heb meteen de Newport Ice and Fish Company gekitbasht.
 
