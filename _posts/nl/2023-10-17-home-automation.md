@@ -13,18 +13,20 @@ categories:
 featured: true
 ---
 
-Software en APIs om ons huis, de Zappi laadpaal, NIBE heat pump and SolarEdge PV te besturen.
+Software en API's voor aansturing van ons huis, de Zappi laadpaal, de NIBE ramtepomp en SolarEdge PV.
+
+- Home Assistant (HA): [https://www.home-assistant.io/installation/macos](https://www.home-assistant.io/installation/macos)
+
+- [ESPHome(https://esphome.io/components/api/#homeassistant-service-action)), tool om MCUs te programmeren vanuit HA
 
 - Myenergi (Zappi) API: [https://myenergi.info/api-acronyms-t3154.html](https://myenergi.info/api-acronyms-t3154.html)
 
-- Zappi Forum over de API: [https://myenergi.info/extracting-energy-data-t7445-s90.html](https://myenergi.info/extracting-energy-data-t7445-s90.html)
+- Zappi Forum over hun API: [https://myenergi.info/extracting-energy-data-t7445-s90.html](https://myenergi.info/extracting-energy-data-t7445-s90.html)
 
-- pymyenergy Python3 code:
+- pymyenergi Python3 code:
   - [https://github.com/twonk/MyEnergi-App-Api](https://github.com/twonk/MyEnergi-App-Api)
 
   - [https://github.com/ashleypittman/mec](https://github.com/ashleypittman/mec)
-
-- Home Assistant: [https://www.home-assistant.io/installation/macos](https://www.home-assistant.io/installation/macos)
 
 - NIBE UpLink API: [https://github.com/elupus/esphome-nibe](https://github.com/elupus/esphome-nibe)
 

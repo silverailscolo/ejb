@@ -13,18 +13,20 @@ categories:
 featured: true
 ---
 
-A collection of software and APIs to control our Zappi EV charger, NIBE heat pump and SolarEdge PV.
+A collection of software and APIs to control our house, Zappi EV charger, NIBE heat pump and SolarEdge PV.
+
+- Home Assistant (HA): [https://www.home-assistant.io/installation/macos](https://www.home-assistant.io/installation/macos)
+
+- [ESPHome(https://esphome.io/components/api/#homeassistant-service-action)), a tool to programm MCUs from HA
 
 - Myenergi (Zappi) API: [https://myenergi.info/api-acronyms-t3154.html](https://myenergi.info/api-acronyms-t3154.html)
 
 - Zappi Forum on API: [https://myenergi.info/extracting-energy-data-t7445-s90.html](https://myenergi.info/extracting-energy-data-t7445-s90.html)
 
-- pymyenergy Python3 code:
+- pymyenergi Python3 code:
   - [https://github.com/twonk/MyEnergi-App-Api](https://github.com/twonk/MyEnergi-App-Api)
 
   - [https://github.com/ashleypittman/mec](https://github.com/ashleypittman/mec)
-
-- Home Assistant: [https://www.home-assistant.io/installation/macos](https://www.home-assistant.io/installation/macos)
 
 - NIBE Uplink API: [https://github.com/elupus/esphome-nibe](https://github.com/elupus/esphome-nibe)
 

@@ -74,7 +74,7 @@ I coded some extra hardware to customise exactly what I was looking for. Using M
 
 <h3 id="fan">Smart Fan</h3>
 
-<p>In an energy efficient house air exchange must be managed, and excessive ventilation would lead to either too hot or too cold rooms. Relying only on natural ventilation proved not to fuction, either for lack of pressure/wind or excessive noise from traffic waking us up at night.<br>
+<p>In an energy efficient house, air exchange must be managed. Excessive ventilation would lead to either too hot or too cold rooms. Relying only on natural ventilation proved not to fuction, either for lack of pressure/wind or excessive noise from traffic waking us up at night.<br>
 
 Using the CO<sub>2</sub> sensor already in place to drive the fan speed, I programmed a small ESP32 Atom Lite controller to extract just the required amount of air from our bedroom, using a variable speed fan mounted outside the room.</p>
 
