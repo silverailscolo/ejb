@@ -4,6 +4,7 @@ layout: page
 permalink: /house/renovation/
 title: Ons huis renoveren
 lang: nl
+date: 2022-12-31
 nav: false
 support: [gallery]
 ---

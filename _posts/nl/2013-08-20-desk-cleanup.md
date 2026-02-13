@@ -13,4 +13,4 @@ featured: false
 With a lot of help from my son I managed to clean up my desk after years of neglect. Sorting some bolts and nuts, and putting the remainders of several 'open' projects in small plastic trays made room for a fresh look at the hobby.
 And I kitbashed the Newport Ice and Fish Company straight away. Thanks, C.!
 
-![Schoon werkblad]({{ "/assets/img/blog/20130821-000320.jpg" | relative_url }})
+<figure><img src='{{ "/assets/img/blog/20130821-000320.jpg" | relative_url }}' alt="Schoon werkblad" class='img-fluid'><figcaption class="kleiner">Schoon werkblad</figcaption></figure>

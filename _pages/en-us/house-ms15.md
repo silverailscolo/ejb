@@ -4,6 +4,7 @@ layout: page
 permalink: /house/ms15/
 title: Our first house
 lang: en-us
+date: 2021-11-01
 nav: false
 support: [gallery]
 toc:
@@ -21,17 +22,25 @@ Some memorable items:
 
 ### Our garden shed
 
-<img src='{{ site.baseurl }}/assets/img/house/ms15/schuur.gif' alt='closed garden shed open up'>
+<figure><img src='{{ "/assets/img/house/ms15/schuur.gif" | relative_url }}' alt='closed garden shed opened up' class='img-fluid'>
+<figcaption class="kleiner">closed garden shed opened up (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
 
 In the fall of 1997 I reconstructed the roof from scratch; only the walls remained. The roof overhang in front of the doors is a real joy, for we can sit outside in summer even if it rains a bit.
 
 ### Square light
 
-<img src='{{ site.baseurl }}/assets/img/house/ms15/plafond.gif' alt='plafond met nieuwe rozet'>
+<figure><img src='{{ "/assets/img/house/ms15/plafond.gif" | relative_url }}' alt='ceiling with new ornament' class='img-fluid'>
+<figcaption class="kleiner">ceiling with new ornament (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
 
 As the rear of the house was not authentic, I made it into something special by adding 4 glass bricks that shed the morning sunlight onto the ceiling of the living room.
 
-<img src='{{ site.baseurl }}/assets/img/house/ms15/zolder_lente_2005_artist.jpg' alt='3rd Floor attic design'>
+### Attic
+
+<figure><img src='{{ "/assets/img/house/ms15/zolder_lente_2005_artist.jpg" | relative_url }}' alt='3rd Floor attic design impression' class='img-fluid'>
+<figcaption class="kleiner">3rd Floor attic design 3D (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
 
 On the third floor, a whole room used to be occupied by our tools, leftovers and spare parts. As there is enough room by now, I started to unpack my <a href="/trains/layout/">trains</a>...
 
@@ -128,28 +137,28 @@ For Sale, Sold &amp; a quick start
 
 <em>drukke tijd, zoon Tjeerd geboren</em>
 
-| Date                                      | Action                                                                                                                                                                                                                                                      |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 30-01-'97                                 | schakelmat. binnen: alles 1 type, een (dure) doos vol!                                                                                                                                                                                                      |
-| 13-02-'97                                 | linoleum gelegd kl. kamertje                                                                                                                                                                                                                                |
-| 28-02-'97                                 | 2 dakdoorvoeren op dak gezet (aann.); verder zelf aangesl. en ventilatoren geplaatst                                                                                                                                                                        |
-| 26-03-'97                                 | nieuw klassiek schuifraam Tjeerd geplaatst (aann.); zelf geschilderd (Moeder)                                                                                                                                                                               |
-| 28-03-'97                                 | gestart aan zelfbouwen commode (MDF; zie schets)                                                                                                                                                                                                            |
-| 31-03-'97 tot 04-04-'97                   | kamer Tjeerd behangen (stressbehang) <em>Tip</em>: Effen behang is heel moeilijk!                                                                                                                                                                           |
-| 14-05-'97                                 | Tjeerd geboren, dus niet veel tijd...                                                                                                                                                                                                                       |
-| 06-'97                                    | wandlampen in gang b.g. opgehangen (wit, al 1,5 jr. in huis!)                                                                                                                                                                                               |
-| 30-08-'97                                 | progr. thermostaat gemonteerd                                                                                                                                                                                                                               |
-| 02-09-'97                                 | nok dak gerep. + schoorstenen herbouwd-weggehaald zolder (aann.)                                                                                                                                                                                            |
-| 07-09-'97                                 | deel v/d schuur gesloopt (Pa) &amp; bielsen in container                                                                                                                                                                                                    |
-| 10-09-'97                                 | voegen repar. achtergevel tegelijk met 2 buren (aann.; rolsteiger past precies): weer waterdicht                                                                                                                                                            |
-| 13-09-'97                                 | meeste (grote) terrastegels in container gedumpt; overal bergen zand                                                                                                                                                                                        |
-| 20-09-'97                                 | ACOdrain geplaatst in toek. terras + elektra/water vanuit kelder &gt; schuur/tuin (zie <a href='{{ site.baseurl }}/assets/img/house/ms15/riool1.gif'>schets</a>)                                                                                            |
-| 01-10-'97                                 | plinten w.k. gemonteerd, want Tjeerd trok aan de folieranden. 1,5 jr. zonder gedaan!                                                                                                                                                                        |
-| 13-10-'97                                 | riolering + schrobput ingegraven in tuin                                                                                                                                                                                                                    |
-| <a id="schuur_01">18-10 tot 24-10-'97</a> | in 1 weekend het hele dak schuur gesloopt en exact herbouwd (met Bert, zie <a href='{{ site.baseurl }}/assets/img/house/ms15/schuur_f.gif'>schets</a>): noklood, goten, spanten, beschot, Ventifol, pannen 'Tuile du Nord' (stel oude bijgekocht in Ameide) |
-| 11-'97                                    | dubbele glasdeur voor schuur + oude grenen voordeur laten logen. 'Zolang' in de gang gezet. Gemonteerd op 10-05-'98 resp. <a href="#laatste">P.M.</a>                                                                                                       |
-| 20-11-'97                                 | 17 oude trapspijlen + 2 rechte leuningen gekocht in Breukelen                                                                                                                                                                                               |
-| 14-12-'97                                 | binnendeur keuken afgehangen en slot ingebouwd                                                                                                                                                                                                              |
+| Date                                    | Action                                                                                                                                                                                                                                                      |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 30-01-'97                               | schakelmat. binnen: alles 1 type, een (dure) doos vol!                                                                                                                                                                                                      |
+| 13-02-'97                               | linoleum gelegd kl. kamertje                                                                                                                                                                                                                                |
+| 28-02-'97                               | 2 dakdoorvoeren op dak gezet (aann.); verder zelf aangesl. en ventilatoren geplaatst                                                                                                                                                                        |
+| 26-03-'97                               | nieuw klassiek schuifraam Tjeerd geplaatst (aann.); zelf geschilderd (Moeder)                                                                                                                                                                               |
+| 28-03-'97                               | gestart aan zelfbouwen commode (MDF; zie schets)                                                                                                                                                                                                            |
+| 31-03-'97 tot 04-04-'97                 | kamer Tjeerd behangen (stressbehang) <em>Tip</em>: Effen behang is heel moeilijk!                                                                                                                                                                           |
+| 14-05-'97                               | Tjeerd geboren, dus niet veel tijd...                                                                                                                                                                                                                       |
+| 06-'97                                  | wandlampen in gang b.g. opgehangen (wit, al 1,5 jr. in huis!)                                                                                                                                                                                               |
+| 30-08-'97                               | progr. thermostaat gemonteerd                                                                                                                                                                                                                               |
+| 02-09-'97                               | nok dak gerep. + schoorstenen herbouwd-weggehaald zolder (aann.)                                                                                                                                                                                            |
+| 07-09-'97                               | deel v/d schuur gesloopt (Pa) &amp; bielsen in container                                                                                                                                                                                                    |
+| 10-09-'97                               | voegen repar. achtergevel tegelijk met 2 buren (aann.; rolsteiger past precies): weer waterdicht                                                                                                                                                            |
+| 13-09-'97                               | meeste (grote) terrastegels in container gedumpt; overal bergen zand                                                                                                                                                                                        |
+| 20-09-'97                               | ACOdrain geplaatst in toek. terras + elektra/water vanuit kelder &gt; schuur/tuin (zie <a href='{{ site.baseurl }}/assets/img/house/ms15/riool1.gif'>schets</a>)                                                                                            |
+| 01-10-'97                               | plinten w.k. gemonteerd, want Tjeerd trok aan de folieranden. 1,5 jr. zonder gedaan!                                                                                                                                                                        |
+| 13-10-'97                               | riolering + schrobput ingegraven in tuin                                                                                                                                                                                                                    |
+| <a id="schuur_01">18-10 - 24-10-'97</a> | in 1 weekend het hele dak schuur gesloopt en exact herbouwd (met Bert, zie <a href='{{ site.baseurl }}/assets/img/house/ms15/schuur_f.gif'>schets</a>): noklood, goten, spanten, beschot, Ventifol, pannen 'Tuile du Nord' (stel oude bijgekocht in Ameide) |
+| 11-'97                                  | dubbele glasdeur voor schuur + oude grenen voordeur laten logen. 'Zolang' in de gang gezet. Gemonteerd op 10-05-'98 resp. <a href="#laatste">P.M.</a>                                                                                                       |
+| 20-11-'97                               | 17 oude trapspijlen + 2 rechte leuningen gekocht in Breukelen                                                                                                                                                                                               |
+| 14-12-'97                               | binnendeur keuken afgehangen en slot ingebouwd                                                                                                                                                                                                              |
 
 ## 1998
 

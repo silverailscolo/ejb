@@ -14,18 +14,18 @@ tags:
 ---
 
 During 2 rainy days in my summer vacation I finally built the mill using plans from the
-September 1976 Model Railroader magazine. The location in Rockport had been part of my
+September 1976 _Model Railroader_ magazine. The location in Rockport had been part of my
 layout design since more than five years, but the detailed drawings I had studied over
 and over for the last 40 years contained so much detail that this clearly was not a
 beginner's model.
 
-![Tacome power house]({{ "/assets/img/blog/IMG_4144.jpg" | relative_url }})]
+<figure><img src='{{ "/assets/img/blog/IMG_4144.jpg" | relative_url }}' alt="Tacome power house" class='img-fluid'><figcaption class="kleiner">Tacome power house</figcaption></figure>
 
 <div class="caption">
 A look from the aisle, with Tacoma Power House in the back.
 </div>
 
-![lumber shed model]({{ "/assets/img/blog/IMG_4129.jpg" | relative_url }})]
+<figure><img src='{{ "/assets/img/blog/IMG_4129.jpg" | relative_url }}' alt="lumber shed model" class='img-fluid'><figcaption class="kleiner">lumber shed model</figcaption></figure>
 
 <div class="caption">
 The well stocked interior of the lumber shed.

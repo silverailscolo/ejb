@@ -22,4 +22,6 @@ Still, I find the structuring of urban spaces as put forward by [Edmund Bacon](h
 - _City Landscape_ is for sale [here](https://www.taylorfrancis.com/books/mono/10.4324/9781315024868/city-landscape-tom-turner).
 - Apple Podcast <a href="https://podcasts.apple.com/us/podcast/city-as-landscape-architecture/id1492008414">by Tom Turner</a>
 
-![Petersburg 1850]({{ "/assets/img/blog/bacon-petersburg-p197.jpeg" | relative_url }})
+<figure><img src='{{ "/assets/img/blog/bacon-petersburg-p197.jpeg" | relative_url }}' alt='Petersburg 1850 plan' class='img-fluid'>
+<figcaption class="kleiner">Petersburg 1850 city plan (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>

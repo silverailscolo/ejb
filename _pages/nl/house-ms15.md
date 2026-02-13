@@ -4,6 +4,7 @@ layout: page
 permalink: /house/ms15/
 title: Ons eerste huis
 lang: nl
+date: 2021-11-01
 nav: false
 support: [gallery]
 toc:
@@ -19,21 +20,29 @@ plaats daarvan naar een volledig gesorteerde groothandel gaan. Enkele memorabele
 
 ### Onze schuur
 
-<img src='{{ "/assets/img/house/ms15/schuur.gif" | relative_url }}' alt="closed garden shed open up">
+<figure><img src='{{ "/assets/img/house/ms15/schuur.gif" | relative_url }}' alt='dichte schuur opengemaakt' class='img-fluid'>
+<figcaption class="kleiner">dichte schuur opengemaakt (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
 
 In de herfst van 1997 heb ik het dak helemaal opnieuw opgebouwd; alleen de muren bleven over. Het dakoverstek voor de
 deuren is een waar genot, want we kunnen 's zomers lekker buiten zitten, zelfs als het een beetje regent.
 
 ### Vierkante lichten
 
-<img src='{{ "/assets/img/house/ms15/plafond.gif" | relative_url }}' alt="plafond met nieuwe rozet">
+<figure><img src='{{ "/assets/img/house/ms15/plafond.gif" | relative_url }}' alt='plafond met nieuwe rozet' class='img-fluid'>
+<figcaption class="kleiner">plafond met nieuwe rozet (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
 
 Omdat de achterkant van het huis niet authentiek was, heb ik er iets speciaals van gemaakt door 4 glazen stenen toe te voegen die
 het ochtendzonlicht op het plafond van de woonkamer werpen.
 Op de derde verdieping werd vroeger een hele kamer in beslag genomen door ons gereedschap, restjes en reserveonderdelen.
 Omdat er nu genoeg ruimte is, begon ik mijn treinenuit te pakken...
 
-<img src='{{ "/assets/img/house/ms15/zolder_lente_2005_artist.jpg" | relative_url }}' alt='3rd Floor attic design'>
+### Zolder
+
+<figure><img src='{{ "/assets/img/house/ms15/zolder_lente_2005_artist.jpg" | relative_url }}' alt='Impressie herontwerp zolder' class='img-fluid'>
+<figcaption class="kleiner">Impressie herontwerp zolder (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
 
 Op de 2<sup>e</sup> verdieping was een hele kamer bezet door ons gereedschap, restanten en reserve-onderdelen. Omdat er inmiddels genoeg ruimte is, ben ik begonnen om mijn <a href="/trains/layout/">treinen</a> uit te pakken...
 

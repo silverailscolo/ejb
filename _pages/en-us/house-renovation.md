@@ -4,6 +4,7 @@ layout: page
 permalink: /house/renovation/
 title: Renovating our house
 lang: en-us
+date: 2022-12-31
 nav: false
 support: [gallery]
 ---

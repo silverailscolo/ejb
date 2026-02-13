@@ -249,7 +249,7 @@ Een andere kloon was
 <figcaption class="kleiner">HyperSite v2 als Revolution-stack</figcaption></figure></div>
 </div>
 
-Mijn zelfgescheven programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen website bij te houden. Heb het in 2006 overgezet naar Revolution, dat i.t.t. HyperCard wel op macOS draait.
+Mijn zelfgeschreven programma: <a id="HyperSite">HyperSite</a>, een stack om met weinig moeite je eigen website bij te houden. Heb het in 2006 overgezet naar Revolution, dat i.t.t. HyperCard wel op macOS draait.
 
 Lees <a href='{{ "/blog/2024/goodbye-hypersite/" | relative_url }}'>hier</a> meer over HyperSite.
 Ben in april 2024 overgestapt van HyperSite + WordPress + Piwigo naar [Jekyll](https://jekyllrb.com/).

@@ -12,7 +12,7 @@ toc:
 We started simple to automate the house: a couple of Ikea lights, two motorized shutters
 Several years on, it was time to connect these different systems and add more smartness.
 
-![Home Assistant logo]({{ "/assets/img/house/smart/home-assistant-logo.svg" | relative_url }})
+<figure><img src='{{ "/assets/img/house/smart/home-assistant-logo.svg" | relative_url }}' alt="Home Assistant logo" class='img-fluid'></figure>
 
 I set up a Raspberry Pi 4 running [hassos](https://www.home-assistant.io/) OS to manage the connected systems in our current home.
 It consumes just 4W, so that saves a lot compared to running it on a desktop (iMac 24/7 with Oracle VirtualBox would consume 36 W = 308 kWh/year).
@@ -45,13 +45,15 @@ HomeAssistant supports so called Add-Ons that provide extra functions on the Pi4
 
 MQTT is used to connect independent devices to HomeAssistant, for instance:
 
-- [nibepi](https://github.com/anerdins/nibepi) (to control our Nibe F1255 heat pump over Modbus, running on a separate Raspberry PiZero)
+- [nibepi](https://github.com/anerdins/nibepi) to control our Nibe F1255 heat pump over Modbus, running on a separate Raspberry PiZero
+- [Custom AGA Display]({{ "/blog/2024/smartovendisplay/" | relative_url }})
 
 ## Energy Monitoring
 
 By combining the utility meter readings with the SolarEdge PV generation and [myenergi](https://www.myenergi.com) Zappi EV charger figures, I am able to separate the EV charging from the electricity consumed in the house. And by adding two extra CT clamps in the main switch board I got a grip on our bigger electric appliances, such as the electric stove.
 
-![Home Assistant logo]({{ "/assets/img/house/smart/ha_energydistr.png" | relative_url }})
+<figure><img src='{{ "/assets/img/house/smart/ha_energydistr.png" | relative_url }}' alt="Home Assistant Energy Dashboard" class='img-fluid'><figcaption class="kleiner">HA Energy Dashboard (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
 
 ## Custom tools
 
@@ -65,7 +67,7 @@ I coded some extra hardware to customise exactly what I was looking for. Using M
 
 <figure><img src='{{ "/assets/img/house/smart/aga/agadisplay_IMG9388.jpg" | relative_url }}' alt="AGA display in use" class='img-fluid'><figcaption class="kleiner">The finished display</figcaption></figure>
 
-<p>See <a href='{{ "/blog/2024/smartovendisplay" | relative_url }}'>this blog post</a> for details.</p>
+<p>See <a href='{{ "/blog/2024/smartovendisplay/" | relative_url }}'>this blog post</a> for details.</p>
 </div>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 95%;">
@@ -78,7 +80,7 @@ Using the CO<sub>2</sub> sensor already in place to drive the fan speed, I progr
 
 <figure><img src='{{ "/assets/img/house/smart/whisper/whisper_complete.jpg" | relative_url }}' alt="Fan in use" class='img-fluid'><figcaption class="kleiner">Smart fan install</figcaption></figure>
 
-<p>See <a href='{{ "/blog/2024/whisper-fan" | relative_url }}'>this blog post</a> for details.</p>
+<p>See <a href='{{ "/blog/2024/whisper-smart-fan/" | relative_url }}'>this blog post</a> for details.</p>
 </div>
 
 When you shop for a new gadget, take note of the supported protocol, for example HomeKit, Zigbee/Tuya, Matter or Thread. I would not recommend OEM or private protocols als you might end up with a dedicated bridge for each. And they are always on, consuming a couple of Watts.

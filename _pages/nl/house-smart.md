@@ -3,7 +3,7 @@ page-id: smart-home
 layout: page
 lang: nl
 permalink: /house/smart/
-title: Smart Huis
+title: Slim Huis
 nav: false
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ toc:
 Huis-automatisering begon simpel bij ons: een paar Ikea lampen, 2 elektrisch bediende rolgordijnen.
 Een paar jaar later was het tijd om de verschillende systemen op elkaar aan te sluiten en centraal _slim_ te bedienen.
 
-![Home Assistant logo]({{ "/assets/img/house/smart/home-assistant-logo.svg" | relative_url }})
+<figure><img src='{{ "/assets/img/house/smart/home-assistant-logo.svg" | relative_url }}' alt="Home Assistant logo" class='img-fluid'></figure>
 
 Ik heb een Raspberry Pi 4 met daarop [hassos](https://www.home-assistant.io/) OS geïnstalleerd om alles te bedienen.
 De Pi4 verbruikt slechts 4W, veel minder dan dat je het op een Mac of PC draait (iMac 24/7 met Oracle VirtualBox verbruikt 36 W = 308 kWh/jaar).
@@ -43,16 +43,17 @@ HomeAssistant ondersteunt ook zgn. Add-Ons die extra functionaliteit op de Pi4 s
 - Samba NAS (voor toegang tot gedeelde mappen op de RPi)
 - InfluxDB (om lange-termijngegevens over energieverbruik bij te houden)
 
-Met MQTT sluiten we onafhankelijke apparaten aan op HomeAssistant, zoals:
+Met MQTT sluit je onafhankelijke apparaten aan op HomeAssistant, zoals:
 
-- [nibepi](https://github.com/anerdins/nibepi) (om onze Nibe F1255 warmtepomp via Modbus te besturen. Dit draait op een aparte Raspberry PiZero)
--
+- [nibepi](https://github.com/anerdins/nibepi) om onze Nibe F1255 warmtepomp via Modbus te besturen. Dit draait op een aparte Raspberry PiZero
+- [Custom AGA Display]({{ "/blog/2024/smartovendisplay/" | relative_url }})
 
 ## Energiemonitoring
 
 Door de gegevens over ons energieverbruik te combineren met die van opwekking en de [myenergi](https://www.myenergi.com) Zappi EV-laadpaal kan ik ons totale elektraverbruik splitsen en optimaliseren. Dankzij 2 extra CT-klemmen in de meterkast kreeg ik ook veel beter zicht op de grote elektrische apparaten zoals ons AGA-fornuis.
 
-![Home Assistant Energy Dashboard]({{ "/assets/img/house/smart/ha_energydistr.png" | relative_url }})
+<figure><img src='{{ "/assets/img/house/smart/ha_energydistr.png" | relative_url }}' alt="Home Assistant Energy Dashboard" class='img-fluid'><figcaption class="kleiner">HA Energy Dashboard (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">still image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
+</figure>
 
 ## Maatwerk oplossingen
 
@@ -65,7 +66,7 @@ Ik heb programma's geschreven voor microcontrollers om voor onze situatie precie
 
 <figure><img src='{{ "/assets/img/house/smart/aga/agadisplay_IMG9388.jpg" | relative_url }}' alt="AGA display in gebruik" class='img-fluid'><figcaption class="kleiner">Het schermpje naast het fornuis</figcaption></figure>
 
-<p>Zie <a href='{{ "/blog/2024/smartovendisplay" | relative_url }}'>dit draadje</a> voor details.</p>
+<p>Zie <a href='{{ "/blog/2024/smartovendisplay/" | relative_url }}'>dit draadje</a> voor details.</p>
 </div>
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 95%;">
@@ -77,7 +78,7 @@ Met een slimme CO<sub>2</sub>-meter besturen we nu een energiezuinige EC-ventila
 
 <figure><img src='{{ "/assets/img/house/smart/whisper/whisper_complete.jpg" | relative_url }}' alt="Ventilator in de kast" class='img-fluid'><figcaption class="kleiner">Slimme ventilator in bedrijf</figcaption></figure>
 
-<p>Zie <a href='{{ "/blog/2024/whisper-fan" | relative_url }}'>dit draadje</a> voor details.</p>
+<p>Zie <a href='{{ "/blog/2024/whisper-smart-fan/" | relative_url }}'>dit draadje</a> voor details.</p>
 </div>
 
 Als je een nieuw gadget koopt, let dan goed op de ondersteunde protocollen, bijv. HomeKit, Zigbee/Tuya, Matter of Thread. Ik zou geen OEM of gesloten bedrijfsprotocollen aanraden want dan krijg je voor elk apparaat een hub/gateway kastje er bij. Die staan altijd aan, en verbruiken elk weer een paar Watt.

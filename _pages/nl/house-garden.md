@@ -4,6 +4,7 @@ layout: page
 permalink: /house/garden/
 title: Onze tuin
 lang: nl
+date: 2023-03-01
 nav: false
 support: [gallery, mapster]
 ---

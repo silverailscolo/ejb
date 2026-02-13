@@ -46,7 +46,7 @@ Panelen langs de indeling zijn verbonden met JMRI en tonen de bezetting van blok
 </div>
 </div>
 
-## Wiring
+## Bedrading
 
 Ik heb een gemengde DCC/conventionele DC-bedrading geprobeerd. in de hoop de schakelaars via LocoNet te beheren terwijl de motoren op een DCC- of reguliere DC-gasklep draaien. Het gaf me wat tijd om een decoder in de engines te plaatsen die genoeg ruimte hebben voor een decoder.
 
@@ -69,12 +69,13 @@ Hoewel het bedrading niet zo eenvoudig maakt als DCC kan zijn, besloot ik 7 busk
 <li>gezamenlijke aarde/retour van draden 4-6</li>
 </ol>
 
-Ik gebruikte standaard bedrading voor huis (2,5 mm 2/AWG 12) voor de bus. Het is goedkoop en voorkomt spanningsval langs de lengte van de Pike, die misschien klein is vergeleken met de gemiddelde Amerikaanse N-schaal indeling, maar groot genoeg om nog eens 10 jaar te bouwen en van te genieten.
+Ik gebruikte standaard bedrading voor huisinstallaties (2,5 mm<sup>2</sup>/AWG 12) voor de bus. Het is goedkoop en voorkomt spanningsval over de lengte van de baan, die misschien klein is vergeleken met de gemiddelde Amerikaanse N-schaal indeling, maar groot genoeg om nog eens 10 jaar te bouwen en van te genieten.
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
 Lees ook mijn <a href="../tips/">Model Railroad How To's</a>.</div>
 
 ## Externe DCC-links
 
-- <a id="wiring-ds54" href="https://www.jmri.org/help/en/html/hardware/loconet/DigitraxPower.shtml">Wiring the Digitrax DS54</a>, zorg ervoor dat je het apart houdt van de andere LocoNet-apparaten (lees waarom in deze uitstekende bijdrage van Bob Jacobson, bekend van JMRI)
-- <a id="locoio" href="https://locohdl.synology.me">LocoIO van Hans Deloof</a>
+- <a href="https://www.jmri.org">JMRI (A Java Model Railroad Interface)</a>
+- <a id="locoio" href="https://locohdl.synology.me">LocoIO van Hans Deloof</a>, een zelfbouwprint met 16 in-/uitgangen
+- <a id="wiring-ds54" href="https://www.jmri.org/help/en/html/hardware/loconet/DigitraxPower.shtml">Wiring the Digitrax DS54</a>, zorg ervoor dat je deze apart houdt van de andere LocoNet-apparaten (lees waarom in deze uitstekende bijdrage van Bob Jacobson, bekend van JMRI)

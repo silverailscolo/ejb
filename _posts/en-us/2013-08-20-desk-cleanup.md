@@ -17,4 +17,4 @@ Sorting some bolts and nuts, and putting the remainders of several 'open' projec
 small plastic trays made room for a fresh look at the hobby.
 And I kitbashed the Newport Ice and Fish Company straight away. Thanks, C.!
 
-![Clean desk]({{ "/assets/img/blog/20130821-000320.jpg" | relative_url }})
+<figure><img src='{{ "/assets/img/blog/20130821-000320.jpg" | relative_url }}' alt="Clean desk" class='img-fluid'><figcaption class="kleiner">Clean desk</figcaption></figure>

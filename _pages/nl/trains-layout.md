@@ -452,7 +452,7 @@ Alle items heb ik later toegevoegd aan mijn <a href="https://webserver.jmri.org/
 : Groepen modelbouwers met een thema:
 
 <a href="https://ldsig.org/">Layout Design SIG</a>
-: zij geven de <a href="https://ldsig.net/o/ldsig/wiki/index_title_Category_Primer.html">Layout Design SIG Primer</a> uit
+: uitgever van de <a href="https://ldsig.net/o/ldsig/wiki/index_title_Category_Primer.html">Layout Design SIG Primer</a>
 
 <a href="https://www.opsig.org/">Operations SIG</a>
 : Meer informatie over industrieën en spooractiviteiten
