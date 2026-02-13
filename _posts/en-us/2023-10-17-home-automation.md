@@ -15,13 +15,13 @@ featured: true
 
 A collection of software and APIs to control our house, Zappi EV charger, NIBE heat pump and SolarEdge PV.
 
-- Home Assistant (HA): [https://www.home-assistant.io/installation/macos](https://www.home-assistant.io/installation/macos)
+- Home Assistant [HA](https://www.home-assistant.io/installation/macos)
 
-- [ESPHome(https://esphome.io/components/api/#homeassistant-service-action)), a tool to programm MCUs from HA
+- [ESPHome](https://esphome.io/components/api/#homeassistant-service-action), a tool to programm MCUs from HA
 
 - Myenergi (Zappi) API: [https://myenergi.info/api-acronyms-t3154.html](https://myenergi.info/api-acronyms-t3154.html)
 
-- Zappi Forum on API: [https://myenergi.info/extracting-energy-data-t7445-s90.html](https://myenergi.info/extracting-energy-data-t7445-s90.html)
+- [Zappi Forum on API](https://myenergi.info/extracting-energy-data-t7445-s90.html)
 
 - pymyenergi Python3 code:
   - [https://github.com/twonk/MyEnergi-App-Api](https://github.com/twonk/MyEnergi-App-Api)
@@ -32,4 +32,4 @@ A collection of software and APIs to control our house, Zappi EV charger, NIBE h
 
 - Current Sensing with Raspberry Pi: [https://www.instructables.com/Current-Monitoring-With-Raspberry-Pi/](https://www.instructables.com/Current-Monitoring-With-Raspberry-Pi/)
 
-- Oracle VirtualBox (to run Home Assistant OS on macOS): [https://www.virtualbox.org/wiki/End-user_documentation](https://www.virtualbox.org/wiki/End-user_documentation)
+- Oracle [VirtualBox](https://www.virtualbox.org/wiki/End-user_documentation) to run Home Assistant OS on macOS
