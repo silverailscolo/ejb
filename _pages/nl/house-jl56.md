@@ -20,6 +20,7 @@ toc:
 In juni 2026 is de [groepenkast](/assets/pdf/Groepenkast_JL56.pdf) van 3 naar 8 groepen uitgebreid door Reno Installatiebedrijf.
 
 ## Verwarming/warmwater
+
 - Onderhoud door Dennis en Lars van Meurs
 - [Handleiding CV-ketel](/assets/pdf/Remeha_Avanta_24C_2021.pdf)
 <figure><img src='{{ "/assets/img/house/jl56/Remeha_CVketel_foutcodes.png" | relative_url }}' alt='Foutcodes CV-ketel' class='img-fluid'>
@@ -42,4 +43,3 @@ In juni 2026 is de [groepenkast](/assets/pdf/Groepenkast_JL56.pdf) van 3 naar 8 
 
 - Extra leidingen in vloer trekken voor warmtepomp
 - Buitenschilderwerk (daar blijf je mee bezig)
-
