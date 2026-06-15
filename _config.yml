@@ -183,7 +183,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages", "_scripts", ".htaccess"]
 exclude:
   - bin/
   - _books/books_creator.py
