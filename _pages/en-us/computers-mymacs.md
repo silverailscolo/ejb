@@ -19,7 +19,8 @@ Since 1986 I enjoy using the Apple Macintosh&trade;. Starting out as a cute but 
 - Performa 5400/180,
 - a Strawberry iMac 233,
 - a white iMac G5 and
-- 2 aluminium Intel iMacs (CoreDuo and i5)
+- two aluminium Intel iMacs (CoreDuo and i5)
+- an M2 MacBook Air
 
 By the way, it's shocking what my first memory expansion cost in 1986, or the external SCSI Apple CD-rom player for that matter.
 

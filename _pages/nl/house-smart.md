@@ -72,7 +72,7 @@ Ik heb programma's geschreven voor microcontrollers om voor onze situatie precie
 <div class="card mx-auto mb-3 p-3" style="max-width: 95%;">
 <h3 id="fan">Slimme ventilator</h3>
 
-<p>Een energiezuinig huis vraagt om bewust regelen van de luchtverversing, want het tocht (gelukkig) niet. T veel ventilatie maakt het huis 's zomers te warm en te koud (condens) in de winter. Vertrouwen op natuurlijke ventilatie blijkt niet te werken als het niet waait of als het verkeerslawaai je uit je slaap houdt.<br>
+<p>Een energiezuinig huis vraagt om bewust regelen van de luchtverversing, want het tocht (gelukkig) niet. Te veel ventilatie maakt het huis 's zomers te warm en te koud (condens) in de winter. Vertrouwen op natuurlijke ventilatie blijkt niet te werken als het niet waait of als het verkeerslawaai je uit je slaap houdt.<br>
 
 Met een slimme CO<sub>2</sub>-meter besturen we nu een energiezuinige EC-ventilator. Ik heb een kleine 25x25mm ESP32 Atom Lite controller geprogrammeerd om de CO<sub>2</sub>-waarde onder de 800 ppi te houden. De ventilator is ingebouwd in een kast buiten de slaapkamer, zodat je alleen de lucht hoort stromen - totdat je slaapt.</p>
 

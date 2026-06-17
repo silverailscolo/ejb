@@ -197,12 +197,17 @@
             {% endif %}
           {% endif %}
           {% if site.enable_darkmode %}
-            <!-- Toggle theme mode -->
+            <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="{{ site.data[site.active_lang].strings.change_theme_tip }}">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              <button
+                id="light-toggle"
+                type="button"
+                title="{{ site.data[site.active_lang].strings.change_theme_tip }}"
+                aria-label="{{ site.data[site.active_lang].strings.change_theme_tip }}"
+              >
+                <i class="fa-half-sun-moon" id="light-toggle-system"></i>
+                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
               </button>
             </li>
           {% endif %}
