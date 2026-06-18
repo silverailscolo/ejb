@@ -1,0 +1,89 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Jekyll4 iMac loading @import */
+// Dimensions
+$max-content-width: {{ site.max_width }};
+
+@import
+  "variables4",
+  "themes4",
+  "layout4",
+  "base4",
+  "typography4",
+  "navbar4",
+  "footer",
+  "blog",
+  "components",
+  "utilities4",
+  "distill",
+  "cv",
+  "tabs",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular",
+  "flag-icons/flag-icons"
+;
+
+/* mobile friendly ejb */
+img, embed, object, video {
+   max-width: 200%;
+   height: auto;
+   border-style: none;
+}
+
+/* breedte uit stijl hiervoor uitschakelen */
+.vrijebreedte {
+  width: auto;
+}
+
+/* kleinere letter */
+.kleiner .smaller figcaption {
+  font-size: 60%;
+}
+
+/* Tables */
+.wide {
+  overflow-x: scroll;
+}
+
+/* position prev/next divs in collection index )roster, books, projects) */
+div.left {
+  align: left;
+}
+
+div.right {
+  align: right;
+}
+
+/*
+** CUSTOM STYLES for Book reviews ejb
+*/
+
+// Increase space around the book cover
+.book-cover {
+    margin: 2rem 0;
+}
+
+// Center image
+.book-cover img {
+    margin: 0 auto;
+}
+
+// Position cover caption
+.book-cover figcaption {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+// Stroke around white letters on art-gallery heading
+.masthead-title {
+  font-size: 3em;
+  color: var(--global-bg-color);
+  margin: 0;
+  align: center;
+  -webkit-text-stroke: 1px var(--global-theme-color);
+}
