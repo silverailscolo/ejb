@@ -207,6 +207,7 @@ exclude:
   - package.json
   - package-lock.json
   - prettierrc
+  - protected/
   - purgecss.config.js
   - README.md
   - _rollingstock/loco_creator.py

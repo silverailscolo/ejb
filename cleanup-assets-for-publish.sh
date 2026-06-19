@@ -2,6 +2,7 @@
 # Remove these non-default (duplicate and unused) asset files - custom ejb, also in gh Deploy workflow
 rm -rf './_site/en-us/assets/downloads' './_site/en-us/assets/pdf' './_site/en-us/assets/python'
 rm -rf './_site/en-us/assets/img'
+rm -rf './_site/protected'  # just in case
 
 # Launch the Transmit app
 open -a "Transmit"

@@ -19,7 +19,21 @@ De Pi4 verbruikt slechts 4W, veel minder dan dat je het op een Mac of PC draait 
 
 [HomeAssistant](https://www.home-assistant.io/) (HA) is een open source programma waarmee je zowel met de hand als automatisch verschillende systemen kan bedienen, en ze aan elkaar koppelen, zonder dat je aan een merk, abonnement of cloud service vastzit.
 
-Standaard integraties die ik gebruik:
+## Apps en API's
+
+Fabrikanten bieden soms een 'gratis' app om hun apparaat mee te bedienen. Dit werkt vaak via een cloud (server via internet): een privacy- en beveiligingsrisico, en afhankelijk van wat de fabrikant aan gegevens in de app laat zien.
+Voorbeelden:
+
+- Ikea Tradfri: **Ikea Smart** app + Tradfri hub
+- Tuya Smart: **Tuya** app + Tuya bridge
+- Nibe warmtepomp: **MyUplink** app + UTP
+- Luxaflex shutters: **PowerView** app + bridge
+- Casambi lampen (bluetooth): **Air** app + iPhone als BLE bridge
+- Honeywell thermostaat, Itho ventilatie: **evohome** + RF bridge
+
+Soms deelt een fabrikant de gegevens die de app gebruikt als een [API](https://nl.wikipedia.org/wiki/Application_programming_interface) (Application Programming Interface) waarop HA kan aanhaken. Zo niet, dan moet je uit de zichtbare gegevens zelf ontdekken wat ze betekenen en hoe je ze kan nabootsen. Maar als ze daarbij geavanceerde _encryptie_ toepassen is het onmogelijk om uit de zichtbare data af te leiden hoe een bepaald protocol is opgebouwd.
+
+Standaard in HA ingebouwde integraties die ik gebruik:
 
 - [Ikea Tradfri](https://www.home-assistant.io/integrations/tradfri/) verlichting, slimme stopcontacten en een rolgordijn
 - [Tuya Smart](https://www.home-assistant.io/integrations/tuya/) Zigbee (ook voor OEM zoals Lidl)
@@ -27,15 +41,21 @@ Standaard integraties die ik gebruik:
 - SolarEdge PV omvormer
 - [Tado](https://www.home-assistant.io/integrations/tado/) slimme thermostaat en -knoppen
 - Siemens/Bosch Home Connect (wasmachine meldingen)
-- MyUplink, het huidige protocol voor onze Nibe F1255 warmtepomp
+- MyUplink, het web-protocol voor onze Nibe F1255 warmtepomp
 
-Met HA Community Plug-ins kunnen gebruikers/ontwikkelaars zelf extra systemen in HA toevoegen. Je vindt ze op de "marktplaats" HACS (Home Assistant Community Store) of je kan ze zelfs handmatig kopiëren als custom repositories van GitHub in HACS, e.g.
+Met HA Community Integrations kunnen gebruikers/ontwikkelaars zelf extra systemen in HA toevoegen. Je vindt ze op de "marktplaats" HACS (Home Assistant Community Store). Je kunt zelfs de `URL van GitHub-bronnen handmatig kopiëren als 'custom repositories' van GitHub in HACS, e.g.
 
 - myenergi (Zappi EV laadpaal en energiemonitor)
 - Gardena tuinsprinkler timers
 - Casambi Bluetooth (werkt zonder Casambi API/server/gateway)
 
-HomeAssistant ondersteunt ook zgn. Add-Ons die extra functionaliteit op de Pi4 server bieden. Ik gebruik:
+Als _open source_ software schrijven mensen zelf een Custom Integratie voor [HomeAssistant](https://www.home-assistant.io/) (HA). Ik heb een paar Custom Integrations in HA geïnstalleerd, zoals PowerView en Ikea Tradfri. Met het oog op veiligheid/privacy heeft het echter de voorkeur om HA direct aan een apparaat te koppelen en niet via de API die op de server van de fabrikant draait.
+
+Voor onze [Nibe F1255](https://www.nibe.eu/nl-nl/producten/warmtepompen/water-water-warmtepompen/f1255-pc) warmtepomp bestaat er een Zweeds programma dat i.p.v. via de API aan de ModBus aansluiting wordt gekoppeld, en via wifi op een [PiZero](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) microcontroller naar MQTT berichten stuurt en ontvangt.
+
+## HA Apps
+
+HomeAssistant ondersteunt ook zgn. Apps die extra functionaliteit op de Pi4 server bieden. Ik gebruik:
 
 - File Editor (om configuratiebestanden aan te passen in de iOS HomeAssistant Companion app )
 - Advanced SSH & Web Terminal
@@ -47,6 +67,8 @@ Met MQTT sluit je onafhankelijke apparaten aan op HomeAssistant, zoals:
 
 - [nibepi](https://github.com/anerdins/nibepi) om onze Nibe F1255 warmtepomp via Modbus te besturen. Dit draait op een aparte Raspberry PiZero
 - [Custom AGA Display]({{ "/blog/2024/smartovendisplay/" | relative_url }})
+
+Als je een nieuw gadget koopt, let dan goed op de ondersteunde protocollen, bijv. HomeKit, Zigbee/Tuya, Matter of Thread. Ik zou geen OEM of gesloten bedrijfsprotocollen aanraden want dan krijg je voor elk apparaat een hub/gateway kastje er bij. Die staan altijd aan, en verbruiken elk weer een paar Watt.
 
 ## Energiemonitoring
 
@@ -80,5 +102,3 @@ Met een slimme CO<sub>2</sub>-meter besturen we nu een energiezuinige EC-ventila
 
 <p>Zie <a href='{{ "/blog/2024/whisper-smart-fan/" | relative_url }}'>dit draadje</a> voor details.</p>
 </div>
-
-Als je een nieuw gadget koopt, let dan goed op de ondersteunde protocollen, bijv. HomeKit, Zigbee/Tuya, Matter of Thread. Ik zou geen OEM of gesloten bedrijfsprotocollen aanraden want dan krijg je voor elk apparaat een hub/gateway kastje er bij. Die staan altijd aan, en verbruiken elk weer een paar Watt.

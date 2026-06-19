@@ -13,7 +13,7 @@ categories:
 featured: true
 ---
 
-Software en API's voor aansturing van ons huis, de Zappi laadpaal, de NIBE ramtepomp en SolarEdge PV.
+Software en API's voor aansturing van ons huis, de Zappi laadpaal, de NIBE warmtepomp en SolarEdge PV-panelen.
 
 - Home Assistant [HA](https://www.home-assistant.io/installation/macos)
 
@@ -24,6 +24,7 @@ Software en API's voor aansturing van ons huis, de Zappi laadpaal, de NIBE ramte
 - Zappi [Forum over hun API](https://myenergi.info/extracting-energy-data-t7445-s90.html)
 
 - pymyenergi Python3 code:
+
   - [https://github.com/twonk/MyEnergi-App-Api](https://github.com/twonk/MyEnergi-App-Api)
 
   - [https://github.com/ashleypittman/mec](https://github.com/ashleypittman/mec)

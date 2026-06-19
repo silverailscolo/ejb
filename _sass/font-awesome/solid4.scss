@@ -1,27 +1,51 @@
 /*!
- * Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2024 Fonticons, Inc.
  */
+// @use "sass:string";
 @import 'functions4';
+@import 'mixins4';
 @import 'variables4';
 
 :root, :host {
-  --#{$fa-css-prefix}-style-family-classic: '#{ $fa-style-family }';
-  --#{$fa-css-prefix}-font-solid: normal 900 1em/1 '#{ $fa-style-family }';
+  --#{$css-prefix}-family-classic: '#{ $family }';
+  --#{$css-prefix}-font-solid: normal 900 1em/1 var(--#{$css-prefix}-family-classic);
+
+  /* deprecated: this older custom property will be removed next major release */
+  --#{$css-prefix}-style-family-classic: '#{ $family }';
 }
 
 
 @font-face {
-  font-family: 'Font Awesome 6 Free';
+  font-family: 'Font Awesome 7 Free';
   font-style: normal;
   font-weight: 900;
-  font-display: $fa-font-display;
-  src: url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
-    url('#{$fa-font-path}/fa-solid-900.ttf') format('truetype');
+  font-display: $font-display;
+  src: url('#{$font-path}/fa-solid-900.woff2');
 }
 
-.fas,
-.#{$fa-css-prefix}-solid {
-  font-weight: 900;
+.fas {
+  --#{$css-prefix}-family: var(--#{$css-prefix}-family-classic);
+  --#{$css-prefix}-style: 900;
+}
+
+.#{$css-prefix}-classic {
+  --#{$css-prefix}-family: var(--#{$css-prefix}-family-classic);
+}
+
+.#{$css-prefix}-solid {
+  --#{$css-prefix}-style: 900;
+}
+
+// convenience mixin for declaring pseudo-elements by CSS variable,
+// including all style-specific font properties and ::before elements.
+@mixin icon($var) {
+  @include fa-icon(Font Awesome 7 Free);
+  @extend .#{$css-prefix}-solid;
+  @extend .#{$css-prefix}-classic;
+
+  &::before {
+    content: unquote("\"#{ $var }\"");
+  }
 }

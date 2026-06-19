@@ -1,6 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 /* Built-in Sass modules you’ll likely use across partials */
@@ -10,7 +11,7 @@
 /* Configure your design tokens BEFORE loading any of your partials.
    Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
 @use "variables" with (
-  $max-content-width: {{ site.max_width | default:  "930px" }}
+  $max-content-width: {{site.max_width | default: "930px"}}
 );
 
 /* Your project partials — convert these files to `@use "variables";`
@@ -41,10 +42,13 @@
 @use "flag-icons/flag-icons";
 
 /* mobile friendly ejb */
-img, embed, object, video {
-   max-width: 200%;
-   height: auto;
-   border-style: none;
+img,
+embed,
+object,
+video {
+  max-width: 200%;
+  height: auto;
+  border-style: none;
 }
 
 /* breedte uit stijl hiervoor uitschakelen */
@@ -77,18 +81,18 @@ div.right {
 
 // Increase space around the book cover
 .book-cover {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 // Center image
 .book-cover img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 // Position cover caption
 .book-cover figcaption {
-    text-align: center;
-    margin-top: 1rem;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 // Stroke around white letters on art-gallery heading

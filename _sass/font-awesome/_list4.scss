@@ -1,18 +1,18 @@
 // icons in a list
 // -------------------------
 
-.#{$fa-css-prefix}-ul {
+.#{$css-prefix}-ul {
   list-style-type: none;
-  margin-left: var(--#{$fa-css-prefix}-li-margin, #{$fa-li-margin});
+  margin-left: var(--#{$css-prefix}-li-margin, #{$li-margin});
   padding-left: 0;
 
   > li { position: relative; }
 }
 
-.#{$fa-css-prefix}-li {
-  left: calc(-1 * var(--#{$fa-css-prefix}-li-width, #{$fa-li-width}));
+.#{$css-prefix}-li {
+  left: calc(-1 * var(--#{$css-prefix}-li-width, #{$li-width}));
   position: absolute;
   text-align: center;
-  width: var(--#{$fa-css-prefix}-li-width, #{$fa-li-width});
+  width: var(--#{$css-prefix}-li-width, #{$li-width});
   line-height: inherit;
 }

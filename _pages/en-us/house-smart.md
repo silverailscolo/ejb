@@ -19,7 +19,22 @@ It consumes just 4W, so that saves a lot compared to running it on a desktop (iM
 
 [HomeAssistant](https://www.home-assistant.io/) (HA) allows manual and automated operation of different smart lights, blinds etc. all in one place with all smartness running locally without relying on cloud services.
 
-Standard supported integrations I use:
+## Apps and API's
+
+Manufacturers sometimes offer an app to control their devices. Those apps often pass all your data via a cloud (server on the internet): a security risk, and limited to what data the manufacturer wants to expose. A few examples:
+
+- Ikea Tradfri: **Ikea Smart** app + Tradfri hub
+- Tuya Smart: **Tuya** app + Tuya bridge
+- Nibe heat pump: **MyUplink** app + UTP
+- Luxaflex shutters: **PowerView** app + bridge
+- Casambi lamps (bluetooth): **Air** app + iPhone as BLE bridge
+- Honeywell thermostat, Itho ventilation: **evohome** + RF bridge
+
+### Some have an API
+
+Some manufacturers share the data their app uses as an application programming interface [API](https://nl.wikipedia.org/wiki/Application_programming_interface) to which HA can connect. If they don't, you have to find out for yourself what data is passed around via Zigbee, WiFo or Bluetooth, next try to understand what all that data means and how you can imitate some of it. When they apply advanced _encryption_, reverse-engineering aq protocol is nearly impossible!
+
+Standard supported HA Integrations I use:
 
 - [Ikea Tradfri](https://www.home-assistant.io/integrations/tradfri/) lighting, smart sockets and blinds
 - [Tuya Smart](https://www.home-assistant.io/integrations/tuya/) Zigbee (also for OEM like Lidl)
@@ -29,13 +44,19 @@ Standard supported integrations I use:
 - Siemens/Bosch Home Connect (washing machine alerts)
 - MyUplink, the current protocol for our Nibe F1255 heat pump
 
-HA Community Plug-ins allow additional systems to tie in via HACS (Home Assistant Community Store) and even by adding custom repositories from GitHub in HACS, e.g.
+HA Community Integrations allow additional systems to tie in via HACS (Home Assistant Community Store) and even by adding custom repositories from GitHub in HACS, e.g.
 
 - myenergi (Zappi EV charger and energy monitor)
 - Gardena garden sprinkler timers
 - Casambi Bluetooth (not using the Casambi API/server/gateway)
 
-HomeAssistant supports so called Add-Ons that provide extra functions on the Pi4 server. I use:
+As Open Source python programms, people code Integrations for [HomeAssistant](https://www.home-assistant.io/) (HA). I installed a few in HA, such as PowerView and Ikea Tradfri. From a privacy and security standpoint it is preferred to connect directly to a device, bypassing these APIs.
+
+For our [Nibe F1255](https://www.nibe.eu/en-gb/products/heat-pumps/ground-source-heat-pumps) heat pump there is a Swedish program that connects to the ModBus connection instead of via the API, and sends/receives MQTT messages via Wi-Fi on a [PiZero](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) microcontroller.
+
+## HA Apps
+
+HomeAssistant supports so-called Apps that provide extra functions on the Pi4 server. I use:
 
 - File Editor (to edit config files in the iOS app, or remotely via)
 - Advanced SSH & Web Terminal
@@ -47,6 +68,8 @@ MQTT is used to connect independent devices to HomeAssistant, for instance:
 
 - [nibepi](https://github.com/anerdins/nibepi) to control our Nibe F1255 heat pump over Modbus, running on a separate Raspberry PiZero
 - [Custom AGA Display]({{ "/blog/2024/smartovendisplay/" | relative_url }})
+
+When you shop for a new gadget, take note of the supported protocol, for example HomeKit, Zigbee/Tuya, Matter or Thread. I would not recommend OEM or private protocols als you might end up with a dedicated bridge for each. And they are always on, consuming a couple of Watts.
 
 ## Energy Monitoring
 
@@ -82,5 +105,3 @@ Using the CO<sub>2</sub> sensor already in place to drive the fan speed, I progr
 
 <p>See <a href='{{ "/blog/2024/whisper-smart-fan/" | relative_url }}'>this blog post</a> for details.</p>
 </div>
-
-When you shop for a new gadget, take note of the supported protocol, for example HomeKit, Zigbee/Tuya, Matter or Thread. I would not recommend OEM or private protocols als you might end up with a dedicated bridge for each. And they are always on, consuming a couple of Watts.

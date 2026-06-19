@@ -1,21 +1,21 @@
 // base icon class definition
 // -------------------------
 
-.#{$fa-css-prefix} {
-  font-family: var(--#{$fa-css-prefix}-style-family, '#{$fa-style-family}');
-  font-weight: var(--#{$fa-css-prefix}-style, #{$fa-style});
+.#{$css-prefix} {
+  font-family: var(--#{$css-prefix}-style-family, '#{$family}');
+  font-weight: var(--#{$css-prefix}-style, #{$style});
 }
 
 .fas,
 .far,
 .fab,
-.#{$fa-css-prefix}-solid,
-.#{$fa-css-prefix}-regular,
-.#{$fa-css-prefix}-brands,
-.#{$fa-css-prefix} {
+.#{$css-prefix}-solid,
+.#{$css-prefix}-regular,
+.#{$css-prefix}-brands,
+.#{$css-prefix} {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  display: var(--#{$fa-css-prefix}-display, #{$fa-display});
+  display: var(--#{$css-prefix}-display, #{$display});
   font-style: normal;
   font-variant: normal;
   line-height: 1;
@@ -25,23 +25,23 @@
 .fas::before,
 .far::before,
 .fab::before,
-.#{$fa-css-prefix}-solid::before,
-.#{$fa-css-prefix}-regular::before,
-.#{$fa-css-prefix}-brands::before,
+.#{$css-prefix}-solid::before,
+.#{$css-prefix}-regular::before,
+.#{$css-prefix}-brands::before,
 .fa::before {
-  content: var(#{$fa-icon-property});
+  content: var(#{$icon-property});
 }
 
-.#{$fa-css-prefix}-classic,
+.#{$css-prefix}-classic,
 .fas,
-.#{$fa-css-prefix}-solid,
+.#{$css-prefix}-solid,
 .far,
-.#{$fa-css-prefix}-regular {
-  font-family: 'Font Awesome 6 Free';
+.#{$css-prefix}-regular {
+  font-family: 'Font Awesome 7 Free';
 }
-.#{$fa-css-prefix}-brands,
+.#{$css-prefix}-brands,
 .fab {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: 'Font Awesome 7 Brands';
 }
 
 %fa-icon {
