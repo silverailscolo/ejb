@@ -1,0 +1,53 @@
+---
+layout: post
+lang: nl
+page-id: ramses
+title: Ken je Ramses?
+date: "2025-12-29"
+tags:
+  - "smart home"
+categories:
+  - computers
+---
+
+Ik had al [HomeAssistant](/house/smart) in huis. Met _Integraties_ kan je daar allerlei 'slimme' apparaten aan koppelen.
+
+## HA-Integraties voor WTW?
+
+Bij onze WTW-ventilatoren in de bad-, slaap- en woonkamer hoort een (dure €100) draadloze RF-schakelaar. Maar zou het niet handig zijn om ze op bepaalde momenten in te schakelen, bijv. als je het licht in het toilet aandoet, of 's ochtends na het opstaan even een uurtje op stand hoog?
+De fabrikanten gaven mij geen technische informatie over hoe de schakelaars met de ventilatoren "praten". Integendeel, ze hebben liever niet dat je aan hun standaard instellingen zit uit angst dat er klachten ontstaan. En ze willen geld verdienen aan hun "kennis" door die af te schermen en deze info alleen aan professionele monteurs te geven. En die delen die info ook niet graag (als ze dat al mogen).
+
+### Niet voor ClimaRad
+
+Ik heb mijn [ClimaRad](https://www.climarad.nl/) WTW - waar geen afstandsbediening bij werd geleverd - zelf opengemaakt en trof daar een printplaat met een antenne aan. Via de stickers leerde ik dat het een RF-antenne was en dat de print door [Airios](https://www.airios.eu/) in Nederland is ontwikkeld.
+
+<figure><img src='{{ "/assets/img/blog/ventura-pcb-airios-VMD-07RPS13.jpg" | relative_url }}' alt="Ventura V1X controller achter het rechter zijpaneel" class='img-fluid'><figcaption class="kleiner">Ventura Airios VMD-07RPS123 PCB</figcaption></figure>
+
+Een telefoontje naar Airios hielp niets: "neem contact op met ClimaRad".
+[Airios](https://www.airios.eu/) blijkt oorspronkelijk de consumententak te zijn van Honeywell/[Resideo](https://www.resideo.com/nl/nl/).
+
+### Ontmoet Ramses RF
+
+Maar dankzij die info vond ik wel de open source HA-integratie [Ramses RF](https://github.com/ramses-rf), geschreven in python door David Bonnes. Hij onderzocht vanaf 2021 samen met Peter Price hoe de RF-berichtjes werkten die ze met een 868MHz antenne opvingen (Ramses-II protocol). Zij ontwikkelden de eerste hardware en software voor besturing van verwarming en warm tapwater (evohome; HEAT). Nederlandse gebruikers vulden de code aan om ook ventilatie te besturen ([Itho](https://www.ithodaalderop.nl/), [Orcon](https://orcon.nl/), [Nuaire](https://www.nuaire.co.uk/); HVAC).
+
+Maar onze ventilators en warmteterugwin-units (NL: WTW, EN: HRU voor heat recovery unit) van Vasco en ClimaRad werkten nog niet met Ramses RF, dus daar ben ik toen extra code voor gaan schrijven. Toen die code hier in huis goed werkte, vroeg ik aan David of hij de code op wilde nemen in een nieuwe versie die alle gebruikers kunnen installeren. Maar hij was bezorgd dat mijn aanpassingen bij andere gebruikers problemen konden geven. Hij gaf ook aan dat hij door zijn werk te weinig tijd had om Ramses RF up-to-date te houden en schreef in de GitHub-code dat hij alles aan een nieuwe beheerder wilde overdragen. Na 4 maanden heb ik medio 2025 die taak van David overgenomen. Door aangekondigde aanpassingen in HomeAssistant zou de Ramses RF-integratie vanaf september niet meer werken, dus dit werden mijn nieuwe prioriteiten:
+
+- [x] Blocking file IO tijdens opstart
+- [x] Verouderde (non) entity schema's
+- [ ] In 2026 zijn we aan de slag gegaan om het fundament van de ramses_rf library te versterken
+
+## Links
+
+- HA User Forum: [Ramses RF draadje](https://community.home-assistant.io/t/honeywell-ch-dhw-via-rf-evohome-sundial-hometronics-chronotherm/)
+- Repo lib: https://github.com/ramses-rf/ramses_rf
+- Repo integratie: https://github.com/ramses-rf/ramses_cc
+- Wiki: https://github.com/ramses-rf/ramses_cc/wiki
+- Pypi: https://pypi.org/project/ramses-rf/
+
+### pyairios
+
+Helaas ontdekte ik ook, dat ik mijn ClimaRad Ventura WTW niet met Ramses RF kon besturen (wel uitlezen, maar je kan er geen remote aan koppelen). Maar daarvoor had iemand in Spanje begin 2025 toevallig iets bedacht: als je een Airios RF Bridge koopt, dan kan je de Ventura wel (een beetje) bedienen vanuit HA met de [pyairios](https://github.com/scabrero/pyairios) library en homeassistant-airios-component integratie. Zoek op "airios + ramses".
+Zie:
+
+- mijn eigen [homeassistant-airios-component fork](https://github.com/silverailscolo/homeassistant-airios-component)
+- mijn eigen [pyairios fork](https://github.com/silverailscolo/pyairios)
