@@ -24,7 +24,6 @@ Software en API's voor aansturing van ons huis, de Zappi laadpaal, de NIBE warmt
 - Zappi [Forum over hun API](https://myenergi.info/extracting-energy-data-t7445-s90.html)
 
 - pymyenergi Python3 code:
-
   - [https://github.com/twonk/MyEnergi-App-Api](https://github.com/twonk/MyEnergi-App-Api)
 
   - [https://github.com/ashleypittman/mec](https://github.com/ashleypittman/mec)
