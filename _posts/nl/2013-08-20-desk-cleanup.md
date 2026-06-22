@@ -12,7 +12,7 @@ categories: trains
 featured: false
 ---
 
-Met veel assistanetioe van mijn zoon heb ik eindelijk mijn werkbank opgeruimd na jaren verwaarlozingh. Boutjes en moertjes gesorteerd, en de rest verdeeld over 'open' projecten in plastic bakjes bieden weer ruimte.
+Met veel hulp van mijn zoon heb ik na jaren verwaarlozing eindelijk mijn werkblad opgeruimd. Boutjes en moertjes gesorteerd, en de rest verdeeld over 'open' projecten in plastic bakjes is er weer ruimte.
 
 <figure><img src='{{ "/assets/img/blog/IMG_2500-clean-desktop.jpg" | relative_url }}' alt="Schoon werkblad" class='img-fluid'><figcaption class="kleiner">Schoon werkblad</figcaption></figure>
 
