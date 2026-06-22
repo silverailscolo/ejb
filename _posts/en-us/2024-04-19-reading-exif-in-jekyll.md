@@ -6,6 +6,7 @@ title: Reading EXIF tags in Jekyll with exiftools
 date: 2024-04-19
 tags:
   - computers
+  - web
 categories:
   - software
 ---
