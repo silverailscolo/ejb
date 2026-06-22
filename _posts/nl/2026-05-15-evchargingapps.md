@@ -19,30 +19,26 @@ Mijn ervaringen met vier populaire laadpassen voor de EV/PHEV auto.
 - Duitsland bij Rasthofe: Met creditcard betalen is bij kleine aanbieders soms heel goedkoop, bijv. €0,45/kWh snelladen bij Jaeger Lastrup (E233).
 - Chademo-snellaadstekkers zijn steeds lastiger te vinden, daarom zijn wij in 2026 overgestapt op een PHEV met CSS.
 
+| App       | NL  | Europa | Inloggen | Abonnee   | Planner |
+| --------- | --- | ------ | -------- | --------- | ------- |
+| ANWB      | X   | X      | X        | -         | -       |
+| ChargeMap | X   | X      | X        | -         | X       |
+| Fastned   | X   | X      | X        | -         | X       |
+| Go-Charge | -   | -      | X        | -         | -       |
+| Tap       | X   | -      | X        | €1,25/mnd | -       |
+
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/blog/evcharge/IMG_7260.jpeg" | relative_url }}' alt="EV Charge App logos" class='img-fluid'><figcaption class="kleiner">EV Charge App logos</figcaption></figure>
-</div>
-
-<div class="wide">
-
-| Naam      | NL  | Europa | Geregistreerd | Geabonneerd | Laadplanner |
-| --------- | --- | ------ | ------------- | ----------- | ----------- |
-| ANWB      | X   | X      | X             | -           | -           |
-| ChargeMap | X   | X      | X             | -           | X           |
-| Fastned   | X   | X      | X             | -           | X           |
-| Go-Charge | -   | -      | X             | -           | -           |
-| Tap       | X   | -      | X             | €1,25/mnd   | -           |
-
 </div>
 
 ## ANWB
 
 <div class="row">
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7264.jpeg" | relative_url }}' alt="ANWB startscherm (kaart)" class='img-fluid'><figcaption class="kleiner">ANWB startscherm (kaart)</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7264.jpeg" | relative_url }}' alt="ANWB startscherm (kaart)" class='img-fluid'><figcaption class="kleiner">ANWB startscherm (kaart) &copy; ANWB</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7265.jpeg" | relative_url }}' alt="ANWB Laadgeschiedenis" class='img-fluid'><figcaption class="kleiner">ANWB Laadgeschiedenis</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7265.jpeg" | relative_url }}' alt="ANWB Laadgeschiedenis" class='img-fluid'><figcaption class="kleiner">ANWB Laadgeschiedenis &copy; ANWB</figcaption></figure>
 </div>
 </div>
 
@@ -63,7 +59,7 @@ Met Community kun je eigen laadsessies en foto's uploaden, waarmee anderen de la
 <figure><img src='{{ "/assets/img/blog/evcharge/IMG_7274.jpeg" | relative_url }}' alt="ChargeMap planner" class='img-fluid'><figcaption class="kleiner">ChargeMap planner</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7275.jpeg" | relative_url }}' alt="ChargeMap Laadgeschiedenis" class='img-fluid'><figcaption class="kleiner">ChargeMap Laadgeschiedenis</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7275.jpeg" | relative_url }}' alt="ChargeMap Laadgeschiedenis" class='img-fluid'><figcaption class="kleiner">ChargeMap Laadgeschiedenis &copy; ChargeMap</figcaption></figure>
 </div>
 </div>
 
@@ -83,7 +79,7 @@ Met een Silver abonnement kun je _Autocharge_ inschakelen, waarmee de laadpaal j
 <figure><img src='{{ "/assets/img/blog/evcharge/IMG_7269.jpeg" | relative_url }}' alt="Fastned planner resultaat" class='img-fluid'><figcaption class="kleiner">Fastned planner resultaat</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7267.jpeg" | relative_url }}' alt="Fastned Laadgeschiedenis" class='img-fluid'><figcaption class="kleiner">Fastned Laadgeschiedenis</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7267.jpeg" | relative_url }}' alt="Fastned Laadgeschiedenis" class='img-fluid'><figcaption class="kleiner">Fastned Laadgeschiedenis &copy; Fastned</figcaption></figure>
 </div>
 </div>
 
@@ -97,7 +93,7 @@ Stel vooraf je favoriete laadpassen in, dan zie je die bovenaan staan. Werkelijk
 <figure><img src='{{ "/assets/img/blog/evcharge/IMG_7270.jpeg" | relative_url }}' alt="Go-Charge startscherm (kaart)" class='img-fluid'><figcaption class="kleiner">Go-Charge startscherm (kaart)</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7271.jpeg" | relative_url }}' alt="Go-Charge Laadpas instelling" class='img-fluid'><figcaption class="kleiner">Go-Charge Laadpas-voorkeuren</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7271.jpeg" | relative_url }}' alt="Go-Charge Laadpas instelling" class='img-fluid'><figcaption class="kleiner">Go-Charge Laadpas-voorkeuren &copy; Go-Charge</figcaption></figure>
 </div>
 </div>
 
@@ -114,6 +110,6 @@ De dekking is wat minder dan de al langer bestaande passen, dus houdt die bij de
 <figure><img src='{{ "/assets/img/blog/evcharge/IMG_7263.jpeg" | relative_url }}' alt="Tap laadpaal-details" class='img-fluid'><figcaption class="kleiner">Tap laadpaal-details</figcaption></figure>
 </div>
 <div class="col-sm">
-<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7261.jpeg" | relative_url }}' alt="Tap laadgeschiedenis" class='img-fluid'><figcaption class="kleiner">Tap laadgeschiedenis</figcaption></figure>
+<figure><img src='{{ "/assets/img/blog/evcharge/IMG_7261.jpeg" | relative_url }}' alt="Tap laadgeschiedenis" class='img-fluid'><figcaption class="kleiner">Tap laadgeschiedenis &copy; Tap</figcaption></figure>
 </div>
 </div>
