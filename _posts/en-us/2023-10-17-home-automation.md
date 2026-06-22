@@ -24,7 +24,6 @@ A collection of software and APIs to control our house, Zappi EV charger, NIBE h
 - [Zappi Forum on API](https://myenergi.info/extracting-energy-data-t7445-s90.html)
 
 - pymyenergi Python3 code:
-
   - [https://github.com/twonk/MyEnergi-App-Api](https://github.com/twonk/MyEnergi-App-Api)
 
   - [https://github.com/ashleypittman/mec](https://github.com/ashleypittman/mec)
