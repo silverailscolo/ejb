@@ -33,11 +33,10 @@ Rechtsvoor bevat de bodemplaat een uitsparing voor de [Boxio Toilet](https://box
 Interesse in deze kit? [Mail voor een offerte](mailto:link.egbert@mac.com)
 
 {% gallery %}
-{{ '/assets/img/blog/tourneobox/IMG_5894.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6525.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6531.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6548.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6551.jpeg' | relative_url }}
+{{ '/assets/img/blog/tourneobox/IMG_7277.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6562.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6588.jpeg' | relative_url }}
 {% endgallery %}
@@ -53,18 +52,23 @@ Interesse in deze kit? [Mail voor een offerte](mailto:link.egbert@mac.com)
   - Gereedschap: inbussleutel 5 mm, kleine kruiskopschroevendraaier
   - Matras 2x60 cm
   - Toilet Box
-  - Verduistering
+  - Raamverduistering
   - Ventilatieroosters/hor
 - De TourneoBox is aan de vloer verankerd in de bestaande punten van de achterste stoelen.
 
-## Bonus tip: Zet SAFE LOCK uit als je in de bus slaapt
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+
+<h2>Bonus tip: Zet SAFE LOCK uit als je in de bus slaapt</h2>
 
 Wij moesten het zelf ontdekken, en de buren op de camping hebben het geweten...
 
 Om de auto af te sluiten terwijl je in de auto blijft, druk je **2x** op <span class="fa-solid fa-lock"></span> op de VW/Ford sleutelhanger (binnen 2 sec).
 Dan staat de interieurbewaking uit en kun je - als het nodig is - elk van de deurgrepen gebruiken om de auto te verlaten.
+
 Met SAFE LOCK (1x drukken) zijn de deurhandels aan de binnenzijde uitgeschakeld en gaat het alarm af zodra je je omdraait!
 Maar ook dan gaat het alarm af, dus een klik op <span class="fa-solid fa-unlock"></span> op de sleutelhanger is een elegantere manier.
+
+</div>
 
 Goede nacht!
 

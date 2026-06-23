@@ -15,3 +15,7 @@ vendor
 /_protected-cache/
 /venv/
 /ejbenv/
+/digikam4.db
+/recognition.db
+/similarity.db
+/thumbnails-digikam.db

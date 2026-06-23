@@ -33,11 +33,10 @@ At the front right, the base contains a recess for the [Boxio Toilet](https://bo
 Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
 
 {% gallery %}
-{{ '/assets/img/blog/tourneobox/IMG_5894.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6525.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6531.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6548.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6551.jpeg' | relative_url }}
+{{ '/assets/img/blog/tourneobox/IMG_7277.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6562.jpeg' | relative_url }}
 {{ '/assets/img/blog/tourneobox/IMG_6588.jpeg' | relative_url }}
 {% endgallery %}
@@ -57,13 +56,18 @@ Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
   - Vents
 - The TourneoBox is anchored to the floor using the existing points under the third row seats.
 
-## Bonus tip: Turn off SAFE LOCK when sleeping in the van
+<div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+
+<h2>Bonus tip: Turn off SAFE LOCK when sleeping in the van</h2>
 
 We had to discover this for ourselves. The campsite neighbors must have noticed...
 
 To lock your van when you sleep inside, you have to press <span class="fa-solid fa-lock"></span> on the VW/Ford key fob **twice** (within 2 seconds).
 This turns off the interior sensors, and - whenever required - you can use any door handle to exit.
-With SAFE LOCK (single press), the interior door handles are inactive and the alarm will sound as soon as you move!
+
+With SAFE LOCK (a single press), the interior door handles are inactive and the alarm will sound as soon as you move!
 But still, the alarm will go off when you open a door anyway, so a single press on <span class="fa-solid fa-unlock"></span> on the key fob before touching a latch is a more elegant way to get out at night.
+
+</div>
 
 Good night!

@@ -5,7 +5,7 @@ page-id: busytown
 title: "Busytown under Corona"
 date: "2020-05-02"
 categories:
-  - "science-wetenschap"
+  - "science"
 ---
 
 Read the whole **[Busytown](https://issues.org/a-world-made-by-belief-scarry-pandemic/#.Xq2mSeQgdB8.link)**
