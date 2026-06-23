@@ -14,7 +14,7 @@ toc:
 
 <h2><a id="installdecoder">How to install a DCC decoder</a></h2>
 
-<a href='{{ "/_site/en-us/blog/2013/convert-dcc-decoder/" | relative_url }}'>Zie deze blog post</a>
+<a href='{{ "/blog/2013/convert-dcc-decoder/" | relative_url }}'>Zie deze blog post</a>
 
 <div class="col-sm">
 <figure><img src='{{ "/assets/img/blog/installdcc/DSCF2987.jpg" | relative_url }}' alt="Decoder in place" class='img-fluid'><figcaption class="kleiner">Decoder in place</figcaption></figure>
