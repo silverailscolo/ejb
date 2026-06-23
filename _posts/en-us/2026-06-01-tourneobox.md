@@ -61,8 +61,6 @@ Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
 
 We had to discover this for ourselves. The campsite neighbors must have noticed...
 
-<i class="fa-regular fa-lock">::before</i>
-
 To lock your van when you sleep inside, you have to press <span class="fa-solid fa-lock"></span> on the VW/Ford key fob **twice** (within 2 seconds).
 This turns off the interior sensors, and - whenever required - you can use any door handle to exit.
 With SAFE LOCK (single press), the interior door handles are inactive and the alarm will sound as soon as you move!
