@@ -109,6 +109,7 @@ Helden en Heldinnen
 
 Ter Inspiratie
 : [Bouwstijlen in Nederland](https://erfgoedbekeken.nl/bouwstijlen-nederland/)
+: [Wiener Secession](https://en.wikipedia.org/wiki/Vienna_Secession)
 : [Art Deco](https://en.wikipedia.org/wiki/Art_Deco)
 : [Socialist Modernism](https://www.instagram.com/socialistmodernism/)
 : [US Modernist](https://usmodernist.org/)

@@ -111,7 +111,7 @@ Heroes and Heroines
 
 Bits of Inspiration
 : [Art Deco](https://en.wikipedia.org/wiki/Art_Deco)
-: [Wiener Sezession](https://en.wikipedia.org/wiki/Vienna_Secession)
+: [Wiener Secession](https://en.wikipedia.org/wiki/Vienna_Secession)
 : [Socialist Modernism](https://www.instagram.com/socialistmodernism/)
 : [US Modernist](https://usmodernist.org/)
 : [Brutalistische Architectuur](https://en.wikipedia.org/wiki/Brutalist_architecture)
