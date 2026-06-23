@@ -57,17 +57,15 @@ Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
 - The TourneoBox is anchored to the floor using the existing points under the third row seats.
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+<h2>Bonus tip: Turn off SAFE LOCK when sleeping in your van</h2>
 
-<h2>Bonus tip: Turn off SAFE LOCK when sleeping in the van</h2>
+<p>We had to discover this for ourselves. The campsite neighbors must have noticed...</p>
 
-We had to discover this for ourselves. The campsite neighbors must have noticed...
+<p>To lock your van when you sleep inside, you have to press <i class="fa-solid fa-lock"></i> on the VW/Ford key fob <b>twice</b> (within 2 seconds).
+This turns off the interior sensors, and - whenever required - you can use any door handle to exit.</p>
 
-To lock your van when you sleep inside, you have to press <span class="fa-solid fa-lock"></span> on the VW/Ford key fob **twice** (within 2 seconds).
-This turns off the interior sensors, and - whenever required - you can use any door handle to exit.
+<p>With SAFE LOCK (a single press), the interior door handles are inactive and the alarm will sound as soon as you move!
+But still, the alarm will go off when you open a door anyway, so a single press on <i class="fa-solid fa-unlock"></i> on the key fob before touching a latch is a more elegant way to get out at night.</p>
 
-With SAFE LOCK (a single press), the interior door handles are inactive and the alarm will sound as soon as you move!
-But still, the alarm will go off when you open a door anyway, so a single press on <span class="fa-solid fa-unlock"></span> on the key fob before touching a latch is a more elegant way to get out at night.
-
+<p>Good night!</p>
 </div>
-
-Good night!

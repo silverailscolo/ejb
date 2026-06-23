@@ -54,23 +54,21 @@ Interesse in deze kit? [Mail voor een offerte](mailto:link.egbert@mac.com)
   - Toilet Box
   - Raamverduistering
   - Ventilatieroosters/hor
-- De TourneoBox is aan de vloer verankerd in de bestaande punten van de achterste stoelen.
+- De TourneoBox wordt aan de vloer verankerd in de bestaande punten van de achterste stoelen.
 
 <div class="card mx-auto mb-3 p-3" style="max-width: 90%;">
+<h2>Bonus tip: Zet SAFE LOCK uit als je in je bus slaapt</h2>
 
-<h2>Bonus tip: Zet SAFE LOCK uit als je in de bus slaapt</h2>
+<p>Wij moesten het zelf ontdekken, en de buren op de camping hebben het geweten...</p>
 
-Wij moesten het zelf ontdekken, en de buren op de camping hebben het geweten...
+<p>Om de auto af te sluiten terwijl je in de auto blijft, druk je <b>2x</b> op <i class="fa-solid fa-lock"></i> op de VW/Ford sleutelhanger (binnen 2 sec).
+Dan staat de interieurbewaking uit en kun je - als het nodig is - elk van de deurgrepen gebruiken om de auto te verlaten.</p>
 
-Om de auto af te sluiten terwijl je in de auto blijft, druk je **2x** op <span class="fa-solid fa-lock"></span> op de VW/Ford sleutelhanger (binnen 2 sec).
-Dan staat de interieurbewaking uit en kun je - als het nodig is - elk van de deurgrepen gebruiken om de auto te verlaten.
+<p>Met SAFE LOCK (1x drukken) zijn de deurhandels aan de binnenzijde uitgeschakeld en gaat het alarm af zodra je je omdraait!
+Maar ook dan gaat het alarm af, dus een klik op <i class="fa-solid fa-unlock"></i> op de sleutelhanger is een elegantere manier.</p>
 
-Met SAFE LOCK (1x drukken) zijn de deurhandels aan de binnenzijde uitgeschakeld en gaat het alarm af zodra je je omdraait!
-Maar ook dan gaat het alarm af, dus een klik op <span class="fa-solid fa-unlock"></span> op de sleutelhanger is een elegantere manier.
-
+<p>Goede nacht!</p>
 </div>
-
-Goede nacht!
 
 {% comment %}
 Not working: <span class="fa-regular fa-unlock"></span> because `fa-regular` is not installed

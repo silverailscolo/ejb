@@ -4,7 +4,7 @@ layout: page
 permalink: /house/ms15/
 title: Ons eerste huis
 lang: nl
-date: 2021-11-01
+Datum: 2021-11-01
 nav: false
 support: [gallery]
 toc:
@@ -54,7 +54,7 @@ Op mijn Kluslijst staan alle voltooide klussen in huis, vanaf 1995.
 
 Te koop, verkocht & snelle start
 
-| Date                    | Action                                                                                                                                                                                                                                                        |
+| Datum                   | Action                                                                                                                                                                                                                                                        |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | sept '95                | opmeettekening alle verd. gemaakt; regelmatig in (bewoond) huis te gast                                                                                                                                                                                       |
 | 21-09-'95               | vloer woonkamer (w.k.). uitgezocht in Eindhoven                                                                                                                                                                                                               |
@@ -100,7 +100,7 @@ Te koop, verkocht & snelle start
 
 <em>doorzetten</em>
 
-| Date                | Action                                                                                                                                                               |
+| Datum               | Action                                                                                                                                                               |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 06-01-'96           | vloerbalk w.k. vervangen                                                                                                                                             |
 | 07 tot 11-01-'96    | houten vloer w.k. gelegd (3 avonden)                                                                                                                                 |
@@ -139,7 +139,7 @@ Te koop, verkocht & snelle start
 
 <em>drukke tijd, zoon Tjeerd geboren</em>
 
-| Date                                      | Action                                                                                                                                                |
+| Datum                                     | Action                                                                                                                                                |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | 30-01-'97                                 | schakelmat. binnen: alles 1 type, een (dure) doos vol!                                                                                                |
 | 13-02-'97                                 | linoleum gelegd kl. kamertje                                                                                                                          |
@@ -166,7 +166,7 @@ Te koop, verkocht & snelle start
 
 <em>nog niet klaar...</em>
 
-| Date                            | Action                                                                                                                    |
+| Datum                           | Action                                                                                                                    |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | 09-01-'98                       | \*\*\* sloten vervangen                                                                                                   |
 | 26 tot 30-1-'98                 | trap b.g. naar 1<sup>e</sup> helemaal kaal gekrabd en trappaal + geloogde leuning gemonteerd (Vader, Moeder; zie schets)  |
@@ -203,7 +203,7 @@ Te koop, verkocht & snelle start
 
 ## 1999
 
-| Date             | Action                                                                                                       |
+| Datum            | Action                                                                                                       |
 | ---------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ----------------------------------------- |
 | 02-01-'99        | zolder achterkamer gat naar buren dichtgemetseld (alle stenen uit de tuin!)                                  |
 | 05-01-'99        | achterwand keuken afgeleverd, maar wel in spiegelbeeld! Optimaat Hilversum maakt een nieuwe (wordt vervolgd) |
@@ -222,7 +222,7 @@ Te koop, verkocht & snelle start
 
 ## 2000
 
-| Date      | Action                                                                                                |
+| Datum     | Action                                                                                                |
 | --------- | ----------------------------------------------------------------------------------------------------- | ----------------- |
 | 14-01-'00 | zolderkamer voor afgetimmerd rond nieuw dakraam                                                       |
 | 18-01-'00 | plinten in gang en w.k. aangeheeld met pedimentjes en gelakt                                          |
@@ -235,7 +235,7 @@ Te koop, verkocht & snelle start
 
 ## 2001
 
-| Date                    | Action                                                                                                                                                                                                                                                                                                                           |
+| Datum                   | Action                                                                                                                                                                                                                                                                                                                           |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | 14-01-'01               | meterkast in de hal gemaakt: de kubus herbergt de buggy; de alu streamlinevorm verwijst als 'hightech' naar de vernieuwing in huis en maakt zich los van het historische gebouw... <br><img src='{{ "/assets/img/house/ms15/meterkast01.jpg"                                                                                     | relative_url }}' alt="ontwerp meterkastbekleding"> |
 |                         | <img src='{{ "/assets/img/house/ms15/meterkast02.jpg"                                                                                                                                                                                                                                                                            | relative_url }}' alt="moderne meterkastbekleding"> |
@@ -248,14 +248,14 @@ Te koop, verkocht & snelle start
 
 ## 2002
 
-| Date                    | Action                                                                          |
+| Datum                   | Action                                                                          |
 | ----------------------- | ------------------------------------------------------------------------------- |
 | 08-07-'02 tot 11-07-'02 | zelf de binnenkant geschilderd, plus de plinten in de woonkamer; eindelijk "af" |
 | 23-11-2002              | <em>we wonen hier alweer 7 jaar!</em>                                           |
 
 ## 2003
 
-| Date      | Action                                                |
+| Datum     | Action                                                |
 | --------- | ----------------------------------------------------- |
 | 05-02-'03 | keukenvloer aan onderzijde ge&iuml;soleerd            |
 | 28-03-'03 | dakgoot achter (laten) vervangen                      |
@@ -264,7 +264,7 @@ Te koop, verkocht & snelle start
 
 ## 2004
 
-| Date      | Action                                                                  |
+| Datum     | Action                                                                  |                   |
 | --------- | ----------------------------------------------------------------------- | ----------------- |
 | 30-04-'04 | grenen deur gevuld, gelijmd en gelakt                                   |
 | 23-05-'04 | slang boiler gesprongen (en gehoosd)                                    |
@@ -272,7 +272,7 @@ Te koop, verkocht & snelle start
 
 ## 2005
 
-| Date      | Action                                            |
+| Datum     | Action                                            |
 | --------- | ------------------------------------------------- |
 | 12-01-'05 | Zolder gesloopt en heringericht                   |
 | 05-04-'05 | Nieuwe CV-ketel geplaatst: lekker warm            |
@@ -280,7 +280,7 @@ Te koop, verkocht & snelle start
 
 ## 2006
 
-| Date      | Action                                                                                      |
+| Datum     | Action                                                                                      |
 | --------- | ------------------------------------------------------------------------------------------- |
 | 05-05-'06 | Automatische tuinsprinkler aangesloten. Fijn voor de zomer (en maar regenen sindsdien).     |
 | 25-05-'06 | Vloer woonkamer in de was gezet: even op de knie&euml;n                                     |
@@ -290,17 +290,17 @@ Te koop, verkocht & snelle start
 
 ## 2012
 
-| Date       | Action                                             |
+| Datum      | Action                                             |                                               |
 | ---------- | -------------------------------------------------- | --------------------------------------------- |
-| 01-06-2012 | koekkoek                                           |
+| 01-06-2012 | koekkoek                                           |                                               |
 |            | <img src='{{ "/assets/img/house/ms15/koekkoek.gif" | relative_url }}' alt="schets koekoek kelder"> |
 
 ## 2020
 
-| Date       | Action                                   |
-| ---------- | ---------------------------------------- | --- |
-| 01-03-2020 | vloer zolder vervangen                   |     |
-| 01-04-2020 | nieuwe paneeldeuren gang b.g. geschilder |     |
+| Datum stamp | Action                                    |
+| ----------- | ----------------------------------------- |
+| 01-03-2020  | vloer zolder vervangen                    |
+| 01-04-2020  | nieuwe paneeldeuren gang b.g. geschilderd |
 
 ## Wat zal het volgende zijn?
 

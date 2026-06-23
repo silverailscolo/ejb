@@ -11,7 +11,7 @@ categories:
   - software
 ---
 
-Terwijl ik deze site migreer naar Jekyll / GitHub-pagina's, integreer ik informatie die tot nu toe apart (en verborgen) was. Dat vereist wat scripting, met minimale herinvoering van spullen.
+Terwijl ik deze site migreerde naar Jekyll / GitHub-pagina's, wilde ik informatie die tot nu toe apart (en verborgen) was meeverhuizen. Dat vereist wat scripting, met minimale herinvoering van spullen.
 
 Een belangrijk voorbeeld zijn mijn foto's, die ik vroeger beheerde in [Extensis Portfolio](https://www.extensis.com/portfolio), en later als aparte bestanden op een lokale HD.
 
@@ -22,10 +22,15 @@ Na EXIF kwamen IPTC-tags, gebruikt voor GPS-lat/long-data, titel, enzovoort. IPT
 
 Om het ingewikkelder te maken, stellen moderne beeldbeheertools zoals Adobe [Lightroom](https://www.adobe.com/nl/products/photoshop-lightroom.html) en [DigiKam](https://www.digikam.org/) je in staat labels in XMP in te voeren en die strings respectievelijk naar EXIF te kopiëren. (hoewel XMP langere strings toestaat, en EXIF alleen afdrukbare ASCII-tekens toestaat, dus wat moeten we met de ü en Ø ?)
 
+## Installeer `exiftool`
+
 Vandaag ontdekte ik een tool genaamd [exiftool](https://exiftool.org/), die me eindelijk toegang geeft tot mijn geliefde beeldbijschriften. Vanuit Jekyll kun je het gebruiken via de [exiftool gem](https://rubygems.org/gems/exiftool/versions/1.2.5).
 Na wat gepruts kan ik nu alle tekstvelden gebruiken die in een afbeeldingsbestand zijn opgeslagen en ze automatisch kopiëren naar de html-code van een van mijn webgalerijen.
 
 Exiftool Docs waarschuwt dat de drie tagtypes overlappen, tenzij je vraagt om '-all' tags.
+
+Je moet `exiftool` handmatig op je systeem installeren nadat je het pakket van bovenstaande link hebt gedownload.
+De Jekyll-installatie kan dit niet, waardoor de `exiftool gem` niet in actie komt (zonder melding).
 
 Als we ons beperken tot bijschrift en de copyrightvelden, zijn dit de specifieke tagnamen die je moet uitlezen:
 
