@@ -5,8 +5,11 @@ page-id: urban-planning
 title: Stijl van bouwen
 date: 2014-01-05 20:38:27
 description: Ondersteun deze aanpak
-tags: stedenbouw
-categories: wetenschap
+categories:
+  - wetenschap
+  - architectuur
+tags:
+  - stedenbouw
 featured: false
 ---
 

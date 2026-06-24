@@ -8,7 +8,8 @@ categories:
   - trains
   - computers
 tags:
-  - "jmri"
+  - jmri
+  - language
 ---
 
 I'm glad to see users actively discussing how JMRI could perhaps better support their way of using it on their layout. As one of the people persons working on JMRI Localization in the last years, may I add a couple of points to this thread in order to prevent some disappointment and share the dilemmas involved?Exchanging ideas in our community can help improve JMRI. We will certainly hold different opinions on this subject. Let’s promise not to destroy other people’s efforts and take note of the policies regarding language that the likes of Apple and Microsoft adhere to.
@@ -33,13 +34,13 @@ Still, as a French speaker you’re lucky to have JMRI Help screens available in
 
 **Notes**
 
-Ad 1: To me it seems most elegant to set that identical to the rest of the computer it's running on. So Print... is called Print... (or 'Druk af...' in Dutch). If somebody (you?) took the time to provide translations, any user can activate this as described. Try Japanese (but take care and use a new profile, as even the Language choices will display in Japanese!)
+Ad 1: To me, it seems most elegant to set that identical to the rest of the computer it's running on. So Print... is called Print... (or 'Druk af...' in Dutch). If somebody (you?) took the time to provide translations, any user can activate this as described. Try Japanese (but take care and use a new profile, as even the Language choices will display in Japanese!)
 
-Ad 2: One could argue that something like the Entry-Exit (NX) Warrant is part of a British English locale, just like a Dispatcher is typical of US railroading and may or may not be translated to eg. a British or European replacement.
+Ad 2: One could argue that something like the Entry-Exit (NX) Warrant is part of a British English locale, just like a Dispatcher is typical of US railroading and may or may not be translated to e.g. a British or European replacement.
 
-Ad 3: This is stored in some 2.800 files (80 MB for each language). It would seem fantastic to view this help in your chosen language, but that is a lot of work. and was only done for English (the default) and French. Keeping these two in sync is pretty hard!
+Ad 3: This is stored in some 2.800 files (80 MB for each language). It would seem fantastic to view this help in your chosen language, but that is a lot of work, and was only done for English (the default) and French. Keeping these two in sync is pretty hard!
 
-- There is only one setting to choose from inside JMRI in JMRI Preferences > Display. In Java this applies one of - ISO standardised - 2-letter language abbreviations, eg. \_en./\_fr. to have all Swing (interface) strings that are written to support Internationalization (I18N in short) to use the \_mylanguage.properties file - is it exists.
+- There is only one setting to choose from inside JMRI in JMRI Preferences > Display. In Java this applies one of - ISO standardised - 2-letter language abbreviations, e.g. \_en./\_fr. to have all Swing (interface) strings that are written to support Internationalization (I18N in short) to use the \_mylanguage.properties file - is it exists.
 
 - If a properties file with your abbreviation isn’t found, Java/JMRI wil use the default set, which we agreed on to display US English text.
 
@@ -47,4 +48,4 @@ Ad 3: This is stored in some 2.800 files (80 MB for each language). It would see
 
 - You can “localize” much of your own Operations stuff like places and train names, but words like Conductor and Return-When-Empty will follow your Locale setting (if available).
 
-All I hope to have demonstrated is that there is no simple trick to make everyone happy, and there’s often an unexpected down side.
+All I hope to have demonstrated is that there is no simple trick to make everyone happy, and there’s often an unexpected downside.

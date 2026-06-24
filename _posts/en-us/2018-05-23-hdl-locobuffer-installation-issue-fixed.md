@@ -2,11 +2,14 @@
 layout: post
 lang: en-us
 page-id: locobooster
-title: "HDL LocoBooster installation issue fixed"
+title: "Fixed: HDL LocoBooster shorting issue"
 date: "2018-05-23"
 categories:
-  - "trains"
+  - trains
   - "how-to"
+tags:
+  - electronics
+  - dcc
 ---
 
 # Experience and Solution
@@ -17,7 +20,7 @@ I built the [HDL LocoBooster](https://locohdl.synology.me) 3.8 and conected it t
 
 My DCC Command Station is a classic Digitrax Zephyr DCS50. One LocoNet socket on the Zephyr is only connected to the LocoBooster (the LocoBooster outputs are conneted to the rails). The second LocoNet socket on the Zephyr is daisy-chained to my decoders. Four Digitrax DS54/64 stationary decoders are connected to Zephyr Rail A/B connections with their own power supply.
 
-(I had double checked there was no connection between the rails and the Zephyr Rail A/B sockets. I converted an existing layout, after all. And indeed there was 1 place where Rail A was connected to the wrong bus.)
+(I had double-checked there was no connection between the rails and the Zephyr Rail A/B sockets. I converted an existing layout, after all. And indeed there was 1 place where Rail A was connected to the wrong bus.)
 
 - Whenever I connect both LocoNet and the rails to the LocoBuffer, and turn on track power on the Zephyr, alle LEDs on the LocoBuffer dim and the board produces a humming sound.
 - When I cut the Ground-wires in the LocoNet cable between the LocoBooster and the Zephyr, the effect goes away but the power relay on the LocoBooster does not turn off when I push the Power-button on the Zephyr. Have to cycle on/off at least once.

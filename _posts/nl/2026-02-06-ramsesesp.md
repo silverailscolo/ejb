@@ -4,10 +4,13 @@ lang: nl
 page-id: ramsesesp
 title: Zelfbouw ramses_esp dongel
 date: "2026-02-06"
-tags:
-  - "smart home"
 categories:
   - computers
+  - how-to
+tags:
+  - smart home
+  - esp32
+  - ramses
 ---
 
 WTW-ventilators en de verwarmingsbesturing van Honeywell ["praten"](/blog/2025/ramses/) via radiosignalen op 868MHz met de thermostaat en de afstandsbediening.

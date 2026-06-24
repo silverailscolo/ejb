@@ -4,11 +4,12 @@ lang: nl
 page-id: jmri-cpe-slip
 title: Engelse wissel op een JMRI Control Panel
 date: 2025-01-14
-tags:
-  - jmri
 categories:
   - treinen
   - how-to
+tags:
+  - jmri
+  - xml
 ---
 
 ## Zo plaats je een engelse wissel op een JMRI-bedieningspaneel

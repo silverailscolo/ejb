@@ -4,11 +4,12 @@ lang: nl
 page-id: whisper-fan
 title: Bouw een slimme ventilator-besturing
 date: 2024-08-03
-tags:
-  - "smart home"
 categories:
-  - software
+  - how-to
   - hardware
+tags:
+  - smart home
+  - esphome
 ---
 
 Voor frisse lucht in onze slaapkamer hadden we een decentrale WTW-unit, maar die maakt te veel lawaai om bij in slaap te vallen...<br>

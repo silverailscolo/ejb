@@ -2,14 +2,15 @@
 layout: post
 lang: en-us
 page-id: rlw-k27
-title: "RLW Nn3 K-27"
-description: "Assembling the RLW Nn3 K-27 kit"
+title: Build the RLW Nn3 K-27
+description: Assembling the Nn3 K-27 kit from Republic Locomotive Works
 date: "2017-11-07"
 categories:
-  - "trains"
-  - "how-to"
+  - trains
+  - how-to
 tags:
-  - "kit"
+  - kit
+  - Nn3
 ---
 
 I had this RLW kit waiting for a couple of years. Finally, the time came to build it.
@@ -91,7 +92,7 @@ truck clear the firebox.
 Add two 1 mm thick styrene shims between the tender trucks and the sub frame to clear the wheels
 and get the rear coupler at the correct height. Drill a hole to attach a
 connection bar between the tender and the engine. Also attach a small pin below
-the bottom of the firebox/engine cabin (eg. a thin tube pointing down, affixed
+the bottom of the firebox/engine cabin (e.g. a thin tube pointing down, affixed
 with a small bolt from above).
 
 <figure><img src='{{ "/assets/img/blog/K27_image2.jpg" | relative_url }}' alt="Connecting the tender" class='img-fluid'><figcaption class="kleiner">Connecting the tender</figcaption></figure>

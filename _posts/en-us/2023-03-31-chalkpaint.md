@@ -5,7 +5,9 @@ page-id: chalkpaint
 title: "Chalk Paint"
 date: "2023-03-31"
 categories:
-  - "diy"
+  - how-to
+tags:
+  - house
 ---
 
 Today I covered the walls of our main hall in [NF21 Uniwall Primer](https://serefni.is/vara/primer-nf21-kalkgrunnur/), as a base for

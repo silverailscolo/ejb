@@ -4,11 +4,13 @@ lang: en-us
 page-id: ramses
 title: Cleanup duplicate media files in multi-language Jekyll _site
 date: "2026-03-20"
-tags:
-  - web
 categories:
   - computers
+  - how-to
+tags:
   - bash
+  - jekyll
+  - web
 ---
 
 When I generate this bilingual Jekyll website [www.ebroerse.nl](/), which is based on the al-folio theme, _all_ the images get copied into folders for every language.

@@ -2,14 +2,14 @@
 layout: post
 lang: en-us
 page-id: newport
-title: "Transfer dock in Newport"
+title: Transfer dock in Newport
 date: "2014-05-10"
 categories:
-  - "trains"
+  - trains
 tags:
-  - "boat"
-  - "freight"
-  - "kit"
+  - boat
+  - freight
+  - kit
 ---
 
 A birthday gift: the Micro Trains N civil era transfer dock and barge. Assembled the kit

@@ -2,13 +2,13 @@
 layout: post
 lang: en-us
 page-id: shareware
-title: Open Source
+title: Open Source projects
 date: 2024-04-11
-tags:
-  - macos
-  - open-source
 categories:
   - software
+  - list
+tags:
+  - open-source
 ---
 
 A couple of projects that I support and contribute to:

@@ -4,10 +4,11 @@ lang: nl
 page-id: bookfavorites
 title: Favoriete boeken
 date: 2024-04-11
-tags:
-  - dawkins
 categories:
   - books
+  - lijst
+tags:
+  - dawkins
 ---
 
 <!--

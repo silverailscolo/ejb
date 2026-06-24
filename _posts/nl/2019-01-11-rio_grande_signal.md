@@ -8,7 +8,7 @@ categories:
   - "treinen"
   - "how-to"
 tags:
-  - "DCC"
+  - dcc
 ---
 
 <h2>Hoe maak je een Digitrax dwergsein</h2>
@@ -24,7 +24,7 @@ tags:
 </div>
 </div>
 
-De Base Mast Kit ([Digitrax artikel SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N-schaal) vormt - i.d.d. - de basis. We voegen er de typische D&amp;RGW &quot;Darth Vader&quot; kap van styreen aan toe.
+De Base Mast Kit ([Digitrax artikel SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), schaal N) vormt - i.d.d. - de basis. We voegen er de typische D&amp;RGW &quot;Darth Vader&quot; kap van styreen aan toe.
 
 Als je geen distant signal nodig hebt, zaag dan het bovenste seinhoofd af net boven de onderste (geheime tip: je kunt van deze stronk een dwergsein maken door het stukje aan een koperen buis voor aarde te solderen + een draad voor elke LED).
 

@@ -5,11 +5,13 @@ page-id: ramses
 # title: Cleanup duplicate media files in multi-language Jekyll _site
 title: Script om dubbele media in polyglot Jekyll _site op te ruimen
 date: "2026-03-20"
-tags:
-  - web
 categories:
   - computers
+  - how-to
+tags:
   - bash
+  - jekyll
+  - web
 ---
 
 Als ik deze tweetalige website [www.ebroerse.nl](/), die is gebaseerd op het Jekyll al-folio thema met `polylot`, dan worden alle afbeeldingen _voor elke taal_ gekopieerd naar een extra map:

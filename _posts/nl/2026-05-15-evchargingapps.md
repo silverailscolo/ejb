@@ -4,11 +4,12 @@ lang: nl
 page-id: evchargingapps
 title: EV Laadpas-apps ervaring
 date: 2026-05-15
+categories:
+  - review
 tags:
   - EV
-categories:
   - apps
-  - review
+  - verduurzamen
 ---
 
 Mijn ervaringen met vier populaire laadpassen voor de EV/PHEV auto.

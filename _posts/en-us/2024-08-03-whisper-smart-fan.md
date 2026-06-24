@@ -4,11 +4,12 @@ lang: en-us
 page-id: whisper-fan
 title: Build a smart-fan
 date: 2024-08-03
-tags:
-  - "smart-home"
 categories:
-  - software
+  - how-to
   - hardware
+tags:
+  - smart home
+  - esphome
 ---
 
 To bring fresh air into our bedroom we had a decentral HRU installed, but it was too noisy to catch much sleep...<br>
@@ -18,13 +19,13 @@ Because we prefer a temperature of 18˚C, heat recovery in ouw climate zone isn'
 
 ### Hardware used
 
-- Axial fan Ø125mm with variable speed EC motor, eg. the [Whisper Gold Line EC](https://www.ventilatieshop.com/buisventilatoren/whisper-buisventilator/whisper-gold-line-buisventilator-diameter-100mm-125mm-ec-motor-wgle/). You don't need the 10V controller, but order some spiral tubes, a muffler and connection pieces.
+- Axial fan Ø125mm with variable speed EC motor, e.g. the [Whisper Gold Line EC](https://www.ventilatieshop.com/buisventilatoren/whisper-buisventilator/whisper-gold-line-buisventilator-diameter-100mm-125mm-ec-motor-wgle/). You don't need the 10V controller, but order some spiral tubes, a muffler and connection pieces.
 - [M5 Stack Atom Lite](https://shop.m5stack.com/products/atom-lite-esp32-development-kit). A compact 25x25mm SOC with built-in RGB-led and button. I ordered my Atom [here](https://www.tinytronics.nl/nl/development-boards/microcontroller-boards/met-wi-fi/m5stack-atom-lite-esp32-development-board)
 - USB-A to USB-C cable
 - A [IRF520 MOSFET breakout](https://www.tinytronics.nl/nl/schakelaars/mosfet's/irf520-breakout-module) to boost the PWM-signaal from the Atom pin for the 10V= fan control
 - [HomeAssistant](https://www.home-assistant.io) with [ESPHome Add-on](https://esphome.io/guides/getting_started_hassio) IDE to write and install code on the Atom and interact with the unit
 - Automatations on the Atom Lite (ESP32), written with ESPHome, to make it respond to
-- CO<sub>2</sub>-sensor integrated in HomeAssistant, eg. [Netatmo Healthy Home Coach](https://shop.netatmo.com/nl-nl/aircare/home-coach/homecoach) (this info can appear in HomeKit too, using the HomeAssistant [HomeKit Bridge](https://www.home-assistant.io/integrations/homekit), but it doesn't work directly from HomeKit.
+- CO<sub>2</sub>-sensor integrated in HomeAssistant, e.g. [Netatmo Healthy Home Coach](https://shop.netatmo.com/nl-nl/aircare/home-coach/homecoach) (this info can appear in HomeKit too, using the HomeAssistant [HomeKit Bridge](https://www.home-assistant.io/integrations/homekit), but it doesn't work directly from HomeKit.
 
 ### CO<sub>2</sub> meten
 
@@ -76,7 +77,7 @@ The Whisper Gold shipment included a spline box for both 230V power and the 4 co
 
 From the fan I ran 2x2 wires in a piece of UTP-cable to power the Atom with 5V= and connect two pins to control the fan. You need just a single line of four 2.54 mm female sockets at the back of the Atom, see picture. GPIO25 (orange) is our PWM-output. GPIO21 (orange/white) is used as input for the tacho pulse from the fan.
 
-After booting, the color of the Lite indicates the CO<sub>2</sub>-level (Green < 500, Red > 800). The brightness of the led shows the fan speed: brighter = faster. A click on the button will set fan operation to manual and increase the speed by 10%. When at 80% the next click sets operation to Automatic, The next click turns the fan off eg. for when you are away for a couple of days.
+After booting, the color of the Lite indicates the CO<sub>2</sub>-level (Green < 500, Red > 800). The brightness of the led shows the fan speed: brighter = faster. A click on the button will set fan operation to manual and increase the speed by 10%. When at 80% the next click sets operation to Automatic, The next click turns the fan off e.g. for when you are away for a couple of days.
 
 ### Atom Lite code
 
@@ -298,7 +299,7 @@ sensor:
 
 Back in HomeAssistant open the YAML-editor mode of a new Dashboard and paste in this [yaml code](assets/yaml/whisper/homeassistant_whisper_dashboard.yaml) to create the fan control UI.
 
-Adapt the entity names to your setup, eg.
+Adapt the entity names to your setup, e.g.
 
 - The name of your CO<sub>2</sub> sensor
 - The numbers for your speed_fan, fan sensors and -switches

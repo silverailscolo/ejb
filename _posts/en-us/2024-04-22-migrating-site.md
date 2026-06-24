@@ -7,9 +7,11 @@ inline: false
 related_posts: false
 categories:
   - computers
+tags:
+  - web
 ---
 
-I rounded up migrating my website, blog and photo library as an integrated experience served from Jekyll. Goodbye Wordpress and Piwigo updates and security side jobs.
+I rounded up migrating my website, blog and photo library as one integrated experience served from Jekyll. Goodbye Wordpress and Piwigo updates and security side jobs.
 
 I serve two languages: NL and EN-US, originally for my US model railroad stuff. And you can choose from Light and Dark theme.
 

@@ -4,11 +4,11 @@ lang: en-us
 page-id: dcc-decoder
 title: Add a DCC decoder to an Arnold Calf
 date: 2013-01-03
-tags:
-  - dcc
 categories:
   - trains
   - how-to
+tags:
+  - dcc
 ---
 
 Converting N-scale DC engines to DCC allows you to run them on your DCC layout.

@@ -5,7 +5,9 @@ page-id: jmri
 title: "JMRI is more fluid"
 date: "2016-01-31"
 categories:
-  - "trains"
+  - trains
+tags:
+  - jmri
 ---
 
 As a Christmas holiday project, I contributed to the JMRI manual and translations.

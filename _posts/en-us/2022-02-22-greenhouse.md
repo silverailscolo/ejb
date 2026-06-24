@@ -2,13 +2,13 @@
 layout: post
 lang: en-us
 page-id: greenhouse
-title: Circular greenhouse from reused profiles and glass
+title: Circular greenhouse from refurbished profiles and glass
 date: 2022-02-22
-tags:
-  - garden
 categories:
   - circular
   - how-to
+tags:
+  - garden
 support: [gallery]
 ---
 

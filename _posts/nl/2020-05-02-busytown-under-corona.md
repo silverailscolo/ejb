@@ -5,7 +5,8 @@ page-id: busytown
 title: "Busytown under Corona"
 date: "2020-05-02"
 categories:
-  - "wetenschap"
+  - wetenschap
+  - literatuur
 ---
 
 Je zou het haast weer vergeten hoe speciaal 2020-2022 was: lees **[Busytown](https://issues.org/a-world-made-by-belief-scarry-pandemic/#.Xq2mSeQgdB8.link)**,

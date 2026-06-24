@@ -2,10 +2,12 @@
 layout: post
 lang: nl
 page-id: durangodetails
-title: "Details in Durango"
+title: Details in Durango
 date: "2015-07-13"
 categories:
-  - "treinen"
+  - treinen
+tags:
+  - layout
 ---
 
 In de zomervakantie mag ik op zolder toch graag even ontspannen modelbouwen.

@@ -4,9 +4,13 @@ lang: nl
 page-id: drawing
 title: Betekenis van tekenen
 date: 2013-07-23 20:38:32
-description: Tekenen is essentieel
-tags: nobel kunst
-categories: wetenschap
+description: "Nobelprijswinnares: Tekenen is essentieel"
+categories:
+  - wetenschap
+tags:
+  - nobel
+  - kunst
+  - beeldend
 featured: false
 ---
 

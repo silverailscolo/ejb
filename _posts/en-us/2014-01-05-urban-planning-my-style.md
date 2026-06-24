@@ -5,9 +5,11 @@ page-id: planning
 title: "Urban planning theory, my style"
 date: "2014-01-05"
 categories:
-  - "science"
+  - science
+  - architectuur
 tags:
-  - "urban-design"
+  - urban design
+featured: false
 ---
 
 Tom Turner wrote a clear [essay](https://www.gardenvisit.com/history_theory/library_online_ebooks/architecture_city_as_landscape) on the history of urban planning and design.

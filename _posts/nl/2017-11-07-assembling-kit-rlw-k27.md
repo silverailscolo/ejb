@@ -2,14 +2,15 @@
 layout: post
 lang: nl
 page-id: rlw-k27
-title: "RLW Nn3 K-27"
-description: "Bouw van de RLW Nn3 K-27 kit"
+title: Bouw de RLW Nn3 K-27
+description: Bouw de Republic Locomotive Works Nn3 K-27 kit
 date: "2017-11-07"
 categories:
-  - "treinen"
-  - "how-to"
+  - treinen
+  - how-to
 tags:
-  - "kit"
+  - kit
+  - Nn3
 ---
 
 Ik had deze RLW-kit al een paar jaar klaarstaan. Eindelijk was het tijd om het te bouwen.

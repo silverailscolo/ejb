@@ -5,10 +5,11 @@ page-id: rio_grande_signal
 title: "Kitbash a Rio Grande signal mast"
 date: "2019-01-11"
 categories:
-  - "trains"
+  - trains
   - "how-to"
 tags:
-  - "DCC"
+  - dcc
+  - colorado
 ---
 
 <h2>How to make a Digitrax dwarf signal</h2>

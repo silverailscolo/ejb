@@ -5,9 +5,9 @@ page-id: windowdrama
 title: Puimis&egrave;re
 date: 2002-05-25
 tags:
-  - house
+  - lijst
 categories:
-  - house
+  - huis
 ---
 
 Korte geschiedenis van het werk

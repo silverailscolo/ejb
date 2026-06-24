@@ -4,11 +4,11 @@ lang: en-us
 page-id: hypersite
 title: "Goodbye Hypersite"
 date: "2024-03-22"
+categories:
+  - software
 tags:
   - macintosh
   - hypercard
-categories:
-  - "software"
 ---
 
 To archive an application that I created and ported over the years, here is the final readme of Hypersite.

@@ -2,13 +2,14 @@
 layout: post
 lang: nl
 page-id: locoio_inverter
-title: "Bouw een LocoIO Inverter"
+title: Bouw een LocoIO Inverter
 date: "2015-01-07"
 categories:
-  - "trains"
-  - "how-to"
+  - treinen
+  - how-to
 tags:
-  - "electronica"
+  - electronica
+  - dcc
 ---
 
 # Bouw een logic inverter printje voor de HDL LocoIO

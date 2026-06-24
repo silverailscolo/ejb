@@ -2,15 +2,15 @@
 layout: post
 lang: en-us
 page-id: wymans
-title: "Wyman's sawmill"
+title: Wyman's sawmill
 date: "2014-08-17"
 categories:
-  - "trains"
+  - trains
 tags:
-  - "industry"
-  - "model"
-  - "scratchbuilt"
-  - "usa"
+  - industry
+  - structure
+  - scratch built
+  - usa
 ---
 
 During 2 rainy days in my summer vacation I finally built the mill using plans from the

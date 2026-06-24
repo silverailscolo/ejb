@@ -5,7 +5,10 @@ page-id: locoio
 title: "LocoIO update"
 date: "2018-04-04"
 categories:
-  - "treinen"
+  - treinen
+tags:
+  - electronica
+  - jmri
 ---
 
 Ik heb weer een nieuw HDL LocoIO gebouwd en hoop dat ik hem kan gaan instellen met JMRI 4.12.

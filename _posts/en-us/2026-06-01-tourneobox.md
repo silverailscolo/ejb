@@ -4,11 +4,13 @@ lang: en-us
 page-id: tourneobox
 title: TourneoBox, for sale now
 date: 2026-06-01
+categories:
+  - shop
 tags:
   - camper
-  - caddy
-  - connect
-  - shop
+  - vw caddy
+  - tourneo connect
+  - kit
 support: [gallery]
 ---
 
@@ -43,6 +45,7 @@ Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
 
 ## Details
 
+- Price for standard kit: €1.200 excluding VAt and postage
 - Fits: 2024-current Ford Grand Tourneo Connect/Volkswagen Caddy Maxi (long wheelbase, 7 seater)
 - Material: birch plywood, spruce, MDF, steel
 - Weight: 6 kg
@@ -52,6 +55,7 @@ Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
   - Tools: Allen key 5 mm, small Phillips screwdriver
   - Mattress 2x60 cm wide
   - Toilet Box
+  - Jerrycan
   - Window blinds
   - Vents
 - The TourneoBox is anchored to the floor using the existing points under the third row seats.
@@ -61,11 +65,11 @@ Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
 
 <p>We had to discover this for ourselves. The campsite neighbors must have noticed...</p>
 
+<p>With SAFE LOCK (a single press), the interior door handles are inactive and the alarm will sound as soon as you move!
+
 <p>To lock your van when you sleep inside, you have to press <i class="fa-solid fa-lock"></i> on the VW/Ford key fob <b>twice</b> (within 2 seconds).
 This turns off the interior sensors, and - whenever required - you can use any door handle to exit.</p>
-
-<p>With SAFE LOCK (a single press), the interior door handles are inactive and the alarm will sound as soon as you move!
-But still, the alarm will go off when you open a door anyway, so a single press on <i class="fa-solid fa-unlock"></i> on the key fob before touching a latch is a more elegant way to get out at night.</p>
+The alarm will still go off when you open a door anyway, so a single press on <i class="fa-solid fa-unlock"></i> on the key fob before touching a latch is a more elegant way to get out at night.</p>
 
 <p>Good night!</p>
 </div>

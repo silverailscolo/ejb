@@ -4,11 +4,11 @@ lang: nl
 page-id: exiftools
 title: Importeer EXIF tags in Jekyll met exiftools
 date: 2024-04-19
-tags:
-  - computers
-  - web
 categories:
   - software
+  - how-to
+tags:
+  - web
 ---
 
 Terwijl ik deze site migreerde naar Jekyll / GitHub-pagina's, wilde ik informatie die tot nu toe apart (en verborgen) was meeverhuizen. Dat vereist wat scripting, met minimale herinvoering van spullen.

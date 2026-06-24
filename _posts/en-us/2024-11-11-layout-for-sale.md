@@ -4,11 +4,11 @@ lang: en-us
 page-id: layout-for-sale
 title: Layout modules for sale
 date: "2024-11-11"
-tags:
-  - n-schaal
-  - colorado
 categories:
   - trains
+tags:
+  - n-scale
+  - colorado
 ---
 
 After taking down my N scale model railroad in the summer of 2021, I kept a few pieces as modules in storage.

@@ -5,12 +5,12 @@ page-id: todo2013
 title: "Action on the railroad"
 date: "2014-02-23"
 description: Snowshed near Silverton
-tags:
-  - n-scale
-  - todo
 categories:
   - trains
-  - treinen
+  - list
+tags:
+  - n-scale
+  - to-do
 featured: false
 ---
 

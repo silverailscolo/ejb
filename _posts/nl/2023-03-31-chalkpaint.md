@@ -2,10 +2,12 @@
 layout: post
 lang: nl
 page-id: chalkpaint
-title: "Kalkverf"
+title: Kalkverf
 date: "2023-03-31"
 categories:
-  - "klus"
+  - how-to
+tags:
+  - huis
 ---
 
 Vandaag de wanden in de hal in de [NF21 Uniwall Primer](https://serefni.is/vara/primer-nf21-kalkgrunnur/) gezet, als voorbereiding

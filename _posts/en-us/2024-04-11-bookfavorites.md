@@ -4,10 +4,11 @@ lang: en-us
 page-id: bookfavorites
 title: Favorite titles
 date: 2024-04-11
-tags:
-  - dawkins
 categories:
   - books
+  - list
+tags:
+  - dawkins
 ---
 
 <!--

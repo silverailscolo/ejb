@@ -4,11 +4,11 @@ lang: nl
 page-id: greenhouse
 title: Circulaire tuinkas van hergebruikt materiaal
 date: 2022-02-22
-tags:
-  - tuin
 categories:
   - circulair
   - how-to
+tags:
+  - tuin
 support: [gallery]
 ---
 

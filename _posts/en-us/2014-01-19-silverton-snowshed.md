@@ -5,12 +5,13 @@ page-id: snowshed
 title: Protection from the elements
 date: 2014-01-19 20:39:59
 description: Snowshed near Silverton
+categories:
+  - trains
 tags:
   - n-scale
   - colorado
   - silverton
-categories:
-  - trains
+  - scratch built
 featured: false
 ---
 

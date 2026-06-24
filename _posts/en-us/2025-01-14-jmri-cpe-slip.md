@@ -4,11 +4,12 @@ lang: en-us
 page-id: jmri-cpe-slip
 title: Display a slip on a CPE panel
 date: 2025-01-14
-tags:
-  - jmri
 categories:
   - trains
   - how-to
+tags:
+  - jmri
+  - xml
 ---
 
 ## How to put a double slip on a JMRI Control Panel

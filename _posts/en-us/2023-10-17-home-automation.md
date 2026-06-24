@@ -2,14 +2,15 @@
 layout: post
 lang: en-us
 page-id: homeautomation
-title: "Home Automation"
+title: "Home Automation resources"
 date: "2023-10-17"
+categories:
+  - list
+  - smart home
 tags:
   - myenergi
   - zappi
-  - NIBE
-categories:
-  - "smart home"
+  - nibe
 featured: true
 ---
 

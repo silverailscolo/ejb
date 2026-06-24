@@ -4,11 +4,11 @@ lang: nl
 page-id: dcc-decoder
 title: Bouw een DCC decoder in een Arnold N-loc
 date: 2013-01-03
-tags:
-  - dcc
 categories:
   - treinen
   - how-to
+tags:
+  - dcc
 ---
 
 Door N-schaal DC-locs om te bouwen naar DCC, kun je ze op je DCC-layout laten rijden. In deze post laat ik zien hoe ik een TCS Z2 DCC-decoder ingebouwd heb in mijn [N-schaal Arnold SW-1500 Calf](/rollingstock/UP_SW1500_1870/). Deze methode kun je ook op andere modellen toepassen, diesel en stoom.

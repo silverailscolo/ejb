@@ -2,14 +2,14 @@
 layout: post
 lang: nl
 page-id: newport
-title: "Vrachtpont in Newport"
+title: Vrachtpont meert aan in Newport
 date: "2014-05-10"
 categories:
-  - "treinen"
+  - treinen
 tags:
-  - "boat"
-  - "freight"
-  - "kit"
+  - boot
+  - vracht
+  - kit
 ---
 
 Een verjaardagscadeau: de Micro Trains N civil era transferdok en ponton. Het bouwpakket heb ik met twee poortjes in plaats van drie gebouwd, om het speciaal te maken (en in de beschikbare ruimte te passen). Een perfecte match voor mijn waterpeil en de breedte van de module. Zoek nog naar een paar korte platte wagons (27'). Zelfs de kolenwagon kan niet door het poortje.

@@ -2,11 +2,14 @@
 layout: post
 lang: nl
 page-id: locobooster
-title: "HDL LocoBooster installation issue fixed"
+title: "Opgelost: HDL LocoBooster kortsluiting"
 date: "2018-05-23"
 categories:
-  - "treinen"
-  - "how-to"
+  - treinen
+  - how-to
+tags:
+  - electronica
+  - dcc
 ---
 
 # Ervaring & Oplossing

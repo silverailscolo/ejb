@@ -2,15 +2,16 @@
 layout: post
 lang: nl
 page-id: wymans
-title: "Wyman's houtzagerij"
+title: Wyman's houtzagerij
 date: "2014-08-17"
 categories:
-  - "treinen"
+  - treinen
 tags:
-  - "industry"
-  - "model"
-  - "scratchbuilt"
-  - "usa"
+  - industrie
+  - gebouw
+  - bedrijf
+  - zelfbouw
+  - usa
 ---
 
 Tijdens twee regenachtige dagen in mijn zomervakantie heb ik eindelijk de houtzagerij gebouwd van tekeningen uit de _Model Railroader_ magazine van September 1976. De locatie in Rockport was al meer dan vijf jaar deel van mijn layoutontwerp, maar de gedetailleerde tekeningen had ik de afgelopen 40 jaar alleen maar bekeken en apart gelegd, want zoveel details maken dit geen beginnersmodel.

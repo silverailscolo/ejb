@@ -4,11 +4,13 @@ lang: nl
 page-id: smartovendisplay
 title: Bouw zelf een AGA Display
 date: 2024-04-25
-tags:
-  - "smart home"
 categories:
   - software
-  - hardware
+  - how-to
+tags:
+  - smart home
+  - micropython
+  - huis
 ---
 
 Zoals je [hier]({{"/house/smart.html#oven" | relative_url}}) misschien hebt gelezen, wilde ik een herinnering/aanduiding maken voor ons AGA-keukenfornuis. Dit is mijn oplossing:

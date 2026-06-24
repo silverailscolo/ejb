@@ -2,13 +2,14 @@
 layout: post
 lang: en-us
 page-id: locoio_inverter
-title: "Build a LocoIO Inverter"
+title: Build a LocoIO Inverter
 date: "2015-01-07"
 categories:
-  - "trains"
-  - "how-to"
+  - trains
+  - how-to
 tags:
-  - "electronics"
+  - electronics
+  - dcc
 ---
 
 # Build an add-on logic inverter daughterboard for an HDL LocoIO

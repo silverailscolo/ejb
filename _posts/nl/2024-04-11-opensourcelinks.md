@@ -2,13 +2,13 @@
 layout: post
 lang: nl
 page-id: shareware
-title: Open Source
+title: Open Source projecten
 date: 2024-04-11
-tags:
-  - macos
-  - open-source
 categories:
   - software
+  - lijst
+tags:
+  - open-source
 ---
 
 Ik draag bij en gebruik deze open source projecten:

@@ -4,11 +4,13 @@ lang: en-us
 page-id: smartovendisplay
 title: Build an AGA Cooker Display
 date: 2024-04-25
-tags:
-  - "smart-home"
 categories:
   - software
-  - hardware
+  - how-to
+tags:
+  - smart home
+  - micropython
+  - house
 ---
 
 As you may have read [here]({{ "/house/smart.html#oven" | relative_url }}), I wanted to build a reminder/indication for our AGA kitchen stove.
@@ -24,7 +26,7 @@ This was my solution.
 - [Thonny IDE](https://thonny.org) for [MicroPython](https://micropython.org) to program the picoW
 - [HomeAssistant](https://www.home-assistant.io) providing energy use via [MQTT](https://mqtt.org) messages
 - Automations set up in HomeAssistant responding to
-- Current sensing input for your stove to HomeAssistant, eg. [myenergi harvi](https://www.myenergi.com/product/harvi/) (2 CT clamps minimum on 3 Phase install)
+- Current sensing input for your stove to HomeAssistant, e.g. [myenergi harvi](https://www.myenergi.com/product/harvi/) (2 CT clamps minimum on 3 Phase install)
 
 ### Current Sensing
 
@@ -138,7 +140,7 @@ state_topic: "picow/timerB/running"
 
 More on MQTT for sensors from PicoW micropython [here](https://github.com/agners/micropython-ha-mqtt-device)
 
-Adapt for your use case, eg.
+Adapt for your use case, e.g.
 
 - MQTT messages format
 - Connection names and trigger currents of your stove elements (look at sensor.ct2\_ above)

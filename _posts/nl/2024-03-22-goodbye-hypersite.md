@@ -4,11 +4,11 @@ lang: nl
 page-id: hypersite
 title: "Vaarwel Hypersite"
 date: "2024-03-22"
+categories:
+  - software
 tags:
   - macintosh
   - hypercard
-categories:
-  - "software"
 ---
 
 Ter herinnering aan het eerste serieuze stukje sopftware dat ik over een periode van vele jaren schreef en ontwikkelde, hierbij de handleiding van Hypersite.

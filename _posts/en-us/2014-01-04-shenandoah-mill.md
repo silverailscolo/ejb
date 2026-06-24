@@ -2,13 +2,16 @@
 layout: post
 lang: en-us
 page-id: lodoremine
-title: "Lodore Mill and tram"
+title: Lodore Mill and tram
 date: "2014-01-04"
 categories:
   - trains
 tags:
+  - n-scale
   - colorado
+  - industry
   - mining
+  - scratch built
 ---
 
 Completed a weekend project: the mill is ready, spur and trees added.

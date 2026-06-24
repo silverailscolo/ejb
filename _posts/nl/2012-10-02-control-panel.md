@@ -2,13 +2,14 @@
 layout: post
 lang: nl
 page-id: control_panel
-title: "Bouw een Bedieningspaneel"
+title: Bouw een Bedieningspaneel
 date: "2012-10-02"
 categories:
-  - "trains"
-  - "how-to"
+  - treinen
+  - how-to
 tags:
-  - "electronica"
+  - electronica
+  - jmri
 ---
 
 ### JMRI Panel

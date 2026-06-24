@@ -2,15 +2,14 @@
 layout: post
 lang: en-us
 page-id: rockwood
-title: "Rockwood without wood"
-date: "2014-03-04"
+title: Rockwood without wood
 description: Rockwood w/o wood
+date: "2014-03-04"
+categories:
+  - trains
 tags:
   - n-scale
   - colorado
-  - silverton
-categories:
-  - trains
 featured: false
 ---
 

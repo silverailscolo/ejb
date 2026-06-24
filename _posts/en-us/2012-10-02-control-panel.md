@@ -2,13 +2,14 @@
 layout: post
 lang: en-us
 page-id: control_panel
-title: "Build a Control Panel"
+title: Build a Control Panel
 date: "2012-10-02"
 categories:
-  - "trains"
-  - "how-to"
+  - trains
+  - how-to
 tags:
-  - "electronics"
+  - electronics
+  - jmri
 ---
 
 ### JMRI Panel

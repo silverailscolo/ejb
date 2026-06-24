@@ -2,14 +2,15 @@
 layout: post
 lang: nl
 page-id: homeautomation
-title: "Home Automation"
+title: "Home Automation overzicht"
 date: "2023-10-17"
+categories:
+  - lijst
+  - smart home
 tags:
   - myenergi
   - zappi
-  - NIBE
-categories:
-  - "smart home"
+  - nibe
 featured: true
 ---
 

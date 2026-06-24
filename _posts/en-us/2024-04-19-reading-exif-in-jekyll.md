@@ -4,11 +4,11 @@ lang: en-us
 page-id: exiftools
 title: Reading EXIF tags in Jekyll with exiftools
 date: 2024-04-19
-tags:
-  - computers
-  - web
 categories:
   - software
+  - how-to
+tags:
+  - web
 ---
 
 As I was migrating this site to Jekyll / GitHub pages, I am integrating data that was separate (and under the hood) up to now.

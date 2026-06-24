@@ -4,16 +4,16 @@ lang: nl
 page-id: layout-for-sale
 title: Modelbaan te koop
 date: "2024-11-11"
+categories:
+  - treinen
 tags:
   - n-schaal
   - colorado
-categories:
-  - treinen
 ---
 
-Nadat ik in de zomer van 2021 mijn N-schaal modelspoorbaan had afgebroken, heb ik een paar stukken als modules in opslag gehouden. Nu het huis klaar is en we alle overtollige bouwmaterialen en andere spullen weggooien, voelde ik een hernieuwde interesse om ze af te stoffen.
+Nadat ik in de zomer van 2021 mijn schaal N modelspoorbaan had afgebroken, heb ik een paar stukken als modules in opslag gehouden. Nu het huis klaar is en we alle overtollige bouwmaterialen en andere spullen weggooien, voelde ik een hernieuwde interesse om ze af te stoffen.
 
-Hoewel het leuk is om de mooiste locs in mijn kantoor in een vitrine te zien, betekent spoorwegmodelbouw voor mij het bewegende dingen op rails, dus heb ik de Silverton- en de Durenver-modules afgestofd en gaat de rest naar een liefhebber.
+Hoewel het leuk is om de mooiste locs in mijn kantoor in een vitrine te zien, betekent spoorwegmodelbouw voor mij het bewegende dingen op rails, dus heb ik de Silverton- en de Durenver-modules afgestoft en gaat de rest naar een liefhebber.
 Twee modules, _Durango Yard_ and _Rockwood_, stonden te koop op Marktplaats, waar ze heel veel bekeken worden en een paar keer is er op geboden.
 
 <div class="row">
