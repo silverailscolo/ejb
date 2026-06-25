@@ -31,4 +31,4 @@ Een ruime voorraad hout in de lumber shed.
 Alle ramen zijn Grandt Line castings, soms aangepast door ze te splitsen en te combineren.
 Alle deuren zijn zelfgemaakt van styrene of stripwood. Mijn zoon denk dat ik mee ga doen aan een modelbouwwedstrijd. Wie weet...
 
-More pics on the [Layout page]({{ "/trains/layout.html" | relative_url }}).
+More pics on the [Layout page]({{ "/trains/layout/" | relative_url }}).

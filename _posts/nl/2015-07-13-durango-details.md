@@ -17,4 +17,4 @@ Als het tenminste regent zoals vandaag. Een overzicht van Durango zoals het er n
 
 Ik heb vooraan weer eens rails geballast en gereinigd.
 
-Meer plaatjes op mijn [Layout pagina]({{ "/trains/layout.html" | relative_url }}).
+Meer plaatjes op mijn [Layout pagina]({{ "/trains/layout/" | relative_url }}).

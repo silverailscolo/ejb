@@ -4,10 +4,10 @@ lang: nl
 page-id: windowdrama
 title: Puimis&egrave;re
 date: 2002-05-25
-tags:
-  - lijst
 categories:
   - huis
+tags:
+  - lijst
 ---
 
 Korte geschiedenis van het werk
@@ -113,4 +113,4 @@ Gedaan, en - dus? - de eerste maanden niets meer van ze gehoord...</td></tr>
 <tr><td>25 mei 2002</td><td>We zetten er eindelijk een punt achter; de nieuwe 'trekker' komt nog langs voor controle. </td></tr>
 </table>
 
-To the <a href="/house/ms15.html">MS15 Renovation</a> page.
+Naar de <a href="/house/ms15/">MS15 Renovatie</a> pagina.

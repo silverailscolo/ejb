@@ -17,4 +17,4 @@ it was today. Here's a bird's eye view of Durango as of today:
 
 I did some ballasting in the front area and track cleaning.
 
-More pics on the [Layout page]({{ "/trains/layout.html" | relative_url }}).
+More pics on the [Layout page]({{ "/trains/layout/" | relative_url }}).

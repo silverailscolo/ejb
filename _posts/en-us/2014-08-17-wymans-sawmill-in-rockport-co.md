@@ -35,4 +35,4 @@ Windows are Grandt Line castings, some adapted by splitting and joining.
 All doors were hand made from styrene or stripwood. My son suspects me to enter the
 sawmill in some kind of modeller's competition and perhaps I will some day.
 
-More pics on the [Layout page]({{ "/trains/layout.html" | relative_url }}).
+More pics on the [Layout page]({{ "/trains/layout/" | relative_url }}).
