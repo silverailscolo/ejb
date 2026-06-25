@@ -1,8 +1,7 @@
 ---
 layout: post
 lang: nl
-page-id: ramses
-# title: Cleanup duplicate media files in multi-language Jekyll _site
+page-id: polyglot-cleanup
 title: Script om dubbele media in polyglot Jekyll _site op te ruimen
 date: "2026-03-20"
 categories:
