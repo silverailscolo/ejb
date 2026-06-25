@@ -35,12 +35,12 @@ At the front right, the base contains a recess for the [Boxio Toilet](https://bo
 Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
 
 {% gallery %}
-{{ '/assets/img/blog/tourneobox/IMG_6525.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6531.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6548.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_7277.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6562.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6588.jpeg' | relative_url }}
+{{ '/assets/img/blog/tourneobox/IMG_6525.jpeg' | relative_url }}:Comes as a flat kit
+{{ '/assets/img/blog/tourneobox/IMG_6531.jpeg' | relative_url }}:Cutout fits Boxio&copy; Toilet
+{{ '/assets/img/blog/tourneobox/IMG_6548.jpeg' | relative_url }}:Assembly slides in/out of rear
+{{ '/assets/img/blog/tourneobox/IMG_7277.jpeg' | relative_url }}:2 lockable drawers
+{{ '/assets/img/blog/tourneobox/IMG_6562.jpeg' | relative_url }}:Spruce supports (included)
+{{ '/assets/img/blog/tourneobox/IMG_6588.jpeg' | relative_url }}:Fixer hooks onto floor
 {% endgallery %}
 
 ## Details

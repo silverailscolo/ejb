@@ -20,7 +20,7 @@ archive_category: Archief met berichten op categorie
 archive_tag: Archief met berichten op trefwoord
 archive_year: Archief met berichten per jaar
 related_posts:
-  description: "Deze stukjes zijn misschien ook interessant:"
+  description: "Misschien vind je deze stukjes ook leuk:"
   title: Verder lezen?
 references: Referenties
 months: # used in liquid include date_format filter

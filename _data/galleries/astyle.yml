@@ -1,6 +1,6 @@
 picture_path: astyle
 pictures:
-  - caption: " <br>CC BY-NC-SA 4.0"
+  - caption: "VW Golf Plus<br>CC BY-NC-SA 4.0"
     filename: 20140831202837-bd2786fa
     original: 20140831202837-bd2786fa-792x594.jpg
     sizes:
@@ -11,7 +11,7 @@ pictures:
       - 20140831202837-bd2786fa-576x432.jpg
     thumbnail: 20140831202837-bd2786fa-120x120.jpg
     title: ""
-  - caption: " <br>CC BY-NC-SA 4.0"
+  - caption: "Peugeot Coupé 406 (1996)<br>CC BY-NC-SA 4.0"
     filename: 20140831202839-1387031f
     original: 20140831202839-1387031f-792x594.jpg
     sizes:
@@ -21,7 +21,7 @@ pictures:
       - 20140831202839-1387031f-576x432.jpg
     thumbnail: 20140831202839-1387031f-120x120.jpg
     title: ""
-  - caption: " Citroen-XM-1990<br>CC BY-NC-SA 4.0"
+  - caption: "Citroen XM (1990)<br>CC BY-NC-SA 4.0"
     filename: 20150507213241-8a450c3e
     original: 20150507213241-8a450c3e-1224x918.jpg
     sizes:
@@ -33,7 +33,7 @@ pictures:
       - 20150507213241-8a450c3e-792x594.jpg
     thumbnail: 20150507213241-8a450c3e-120x120.jpg
     title: ""
-  - caption: " Chrysler-400 -2003<br>CC BY-NC-SA 4.0"
+  - caption: "Chrysler 400 (2003)<br>CC BY-NC-SA 4.0"
     filename: 20150507213243-8a8f3200
     original: 20150507213243-8a8f3200-1008x756.jpg
     sizes:
@@ -44,7 +44,7 @@ pictures:
       - 20150507213243-8a8f3200-792x594.jpg
     thumbnail: 20150507213243-8a8f3200-120x120.jpg
     title: ""
-  - caption: " Pontiac-TransSport-1993<br>CC BY-NC-SA 4.0"
+  - caption: "Pontiac TransSport (1993)<br>CC BY-NC-SA 4.0"
     filename: 20150507213245-0a1bfffe
     original: 20150507213245-0a1bfffe-1008x756.jpg
     sizes:
@@ -55,7 +55,7 @@ pictures:
       - 20150507213245-0a1bfffe-792x594.jpg
     thumbnail: 20150507213245-0a1bfffe-120x120.jpg
     title: ""
-  - caption: " Nissan-Sunny -1993<br>CC BY-NC-SA 4.0"
+  - caption: "Nissan Sunny (1993)<br>CC BY-NC-SA 4.0"
     filename: 20150507213246-f23b3981
     original: 20150507213246-f23b3981-1008x756.jpg
     sizes:
@@ -77,7 +77,7 @@ pictures:
       - 20161211164423-908b6a5b-792x591.jpg
     thumbnail: 20161211164423-908b6a5b-144x107.jpg
     title: ""
-  - caption: " <br>CC BY-NC-SA 4.0"
+  - caption: "Pontiac TransSport (1998)<br>CC BY-NC-SA 4.0"
     filename: 20161211234018-45332ad7
     original: 20161211234018-45332ad7-1200x896.jpg
     sizes:
@@ -203,12 +203,6 @@ pictures:
       - 20200313150217-b2e00b69-576x432.jpg
       - 20200313150217-b2e00b69-792x594.jpg
     thumbnail: 20200313150217-b2e00b69-120x120.jpg
-    title: ""
-  - caption: " <br>CC BY-NC-SA 4.0"
-    filename: 20200323124342-5bccc92
-    original: 20200323124342-5bccc92-1200x900.jpg
-    sizes: []
-    thumbnail: 20200323124342-5bccc92-1200x900.jpg
     title: ""
   - caption: Clio (2019) Renault<br>CC BY-NC-SA 4.0
     filename: 20200323124342-5bccc924

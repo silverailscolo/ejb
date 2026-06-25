@@ -33,12 +33,12 @@ Het middenvak biedt ruimte voor lange voorwerpen en een compacte jerrycan.
 Rechtsvoor bevat de bodemplaat een uitsparing voor de [Boxio Toilet](https://boxio.nl/products/urinedivergerend-toilet-starterset) (niet inbegrepen). Door de rechter stoel voorover te klappen en het luikje opzij te leggen, kun je altijd naar de WC.
 
 {% gallery %}
-{{ '/assets/img/blog/tourneobox/IMG_6525.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6531.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6548.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_7277.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6562.jpeg' | relative_url }}
-{{ '/assets/img/blog/tourneobox/IMG_6588.jpeg' | relative_url }}
+{{ '/assets/img/blog/tourneobox/IMG_6525.jpeg' | relative_url }}:Geleverd als bouwpakket
+{{ '/assets/img/blog/tourneobox/IMG_6531.jpeg' | relative_url }}:Uitsparing voor Boxio&copy; Toilet
+{{ '/assets/img/blog/tourneobox/IMG_6548.jpeg' | relative_url }}:Box schuift zo achterin
+{{ '/assets/img/blog/tourneobox/IMG_7277.jpeg' | relative_url }}:2 afsluitbare lades
+{{ '/assets/img/blog/tourneobox/IMG_6562.jpeg' | relative_url }}:Vuren draaglatten (meegeleverd)
+{{ '/assets/img/blog/tourneobox/IMG_6588.jpeg' | relative_url }}:Fixer haakt in bodem
 {% endgallery %}
 
 ## Details
