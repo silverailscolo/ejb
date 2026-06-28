@@ -25,9 +25,12 @@ Een (automatische) <a href="{{ site.baseurl }}/assets/art_gallery/index.html">Ar
 Inline met de lightgallery_tag.rb plugin
 
 {% gallery %}
-{{ '/assets/img/banners/stripes-global.png' | relative_url }}
-{{ '/assets/img/banners/rizzyhouse-braunschweig.jpg' | relative_url }}
-{{ '/assets/img/banners/peak-age.jpg' | relative_url }}
+{{ '/assets/img/banners/stripes-global.png' | relative_url }}:Historische Hittestrepen
+{{ '/assets/img/banners/rizzyhouse-braunschweig.jpg' | relative_url }}:Rizzy House - Happy
+{{ '/assets/img/banners/peak-age.jpg' | relative_url }}:Juow Peak Age
+{{ '/assets/img/banners/nieuwjaar2025.jpg' | relative_url }}:2025
+{{ '/assets/img/banners/Flax-Vlas-BR11.jpg' | relative_url }}:Flax Promotie
+{{ '/assets/img/banners/extreme_heat_cancellation.jpg' | relative_url }}:Consequenties
 {% endgallery %}
 
 ## Embedded afbeelding
