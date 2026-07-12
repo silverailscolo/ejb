@@ -29,7 +29,7 @@ Inline met de lightgallery_tag.rb plugin
 {{ '/assets/img/banners/rizzyhouse-braunschweig.jpg' | relative_url }}:Rizzy House - Happy
 {{ '/assets/img/banners/peak-age.jpg' | relative_url }}:Juow Peak Age
 {{ '/assets/img/banners/nieuwjaar2025.jpg' | relative_url }}:2025
-{{ '/assets/img/banners/Flax-Vlas-BR11.jpg' | relative_url }}:Flax Promotie
+{{ '/assets/img/banners/Flax-Vlas-BR11.jpg' | relative_url }}:Vlas-promotie
 {{ '/assets/img/banners/extreme_heat_cancellation.jpg' | relative_url }}:Consequenties
 {% endgallery %}
 
