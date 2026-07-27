@@ -26,7 +26,8 @@ In juli 2026 heeft Stedin de aansluiting verzwaard naar 3x25A.
 - [Handleiding qvantum QE4 warmtepomp](https://www.qvantum.com/wp-content/uploads/2026/01/1011527-A-1.pdf)
 - Onderhoudscontract bij [Neeleman](https://neeleman.com), Waddinxveen, tel. 088 - 500 6000
 - Storingen: eerst zelf [deze stappen zetten](https://neeleman.com/installatieservice/storing), dan 088 - 500 6000 bellen
-- Werkschakelaar: rechts van de warmtepomp bovenste vakje onder aanrecht: acterin plankje naar je toe trekken. Grijze rechthoek, aan rechterkant handle OMLAAG = UIT. 5 Minuten wachte, dan omhoog = reset.
+- Staat Router aan? (met de 3 antennes bovenop de warmtepomp) Anders kan de thermostaat geen contact maken.
+- Werkschakelaar: rechts van de warmtepomp bovenste vakje onder aanrecht: achterin plankje naar je toe trekken. Grijze rechthoek, aan rechterkant handle OMLAAG = UIT. 5 Minuten wachten, dan omhoog = Reset.
 - Garantie tot: 24 juli 2028
 
 ## Handleidingen
