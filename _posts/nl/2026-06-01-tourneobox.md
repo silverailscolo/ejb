@@ -43,11 +43,11 @@ Rechtsvoor bevat de bodemplaat een uitsparing voor de [Boxio Toilet](https://box
 
 ## Instructies
 
-1. Verwijder de achterste stoelen uit de auto
+1. Verwijder de achterste stoelen uit de auto.
 2. Plaats de Onderplaat Achter op de grond, en monteer de vier schotten A t/m D met boutjes + moeren in de T-gaten.
 3. Plaats de driehoeken L en R aan de buitenzijde van schotten B en C. Bevestig met een bout + moer.
 4. Zet het geheel rechtop en klik de Onderplaat Voor (met de Boxio-uitsparing rechtsvoor) aan de Onderplaat Achter.
-5. Bevestig met 4 bouten + moeren de Onderplaat Voor aan de tussenschotten A-D
+5. Bevestig met 4 bouten + moeren de Onderplaat Voor aan de tussenschotten A-D.
 6. Open de achterklep en plaats het geheel op de vloer, net voor de gordelpunten.
 7. Geleidt de achterste rolgordels langs de bodemplaat (til de gespen op). Schuif het geheel nu naar voren de auto in totdat de Onderplaat Achter net voorbij de dorpel komt.
 8. Maak de Fixer klaar door de J-bouten maximaal uit te draaien. Haak de bouten vie de openingen in het midden van de Onderplaat Voor over de stangetjes in de voorste stoelpunten er onder.
