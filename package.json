@@ -23,7 +23,6 @@
   },
   "homepage": "https://www.ebroerse.nl",
   "devDependencies": {
-    "@prettier/plugin-ruby": "^4.0.4",
     "@shopify/prettier-plugin-liquid": "1.11.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.2.0",
