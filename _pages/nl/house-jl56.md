@@ -27,7 +27,7 @@ In juli 2026 heeft Stedin de aansluiting verzwaard naar 3x25A.
 - Onderhoudscontract bij [Neeleman](https://neeleman.com), Waddinxveen, tel. 088 - 500 6000
 - Storingen: eerst zelf [deze stappen zetten](https://neeleman.com/installatieservice/storing), dan 088 - 500 6000 bellen
 - Staat Router aan? (met de 3 antennes bovenop de warmtepomp) Anders kan de thermostaat geen contact maken.
-- Werkschakelaar: rechts van de warmtepomp bovenste vakje onder aanrecht: achterin plankje naar je toe trekken. Grijze rechthoek, aan rechterkant handle OMLAAG = UIT. 5 Minuten wachten, dan omhoog = Reset.
+- Werkschakelaar: rechts van de warmtepomp in het bovenste vakje onder het aanrecht: het plankje achterin naar je toe trekken. Grijze blok, aan rechterkant handle OMLAAG = UIT. 5 Minuten wachten, dan omhoog = Reset.
 - Garantie tot: 24 juli 2028
 
 ## Handleidingen
