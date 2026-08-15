@@ -22,7 +22,7 @@ Door N-schaal DC-locs om te bouwen naar DCC, kun je ze op je DCC-layout laten ri
 - Een [TCS Z2 2-functie DCC decoder](https://www.tcsdcc.com/product-page/z2) in compact formaat
 - Kapton insuleertape
 - Dunne, flexibele draadjes, rood en zwart, elk 50mm/2" lang
-- Klein 10W soldererbout en harskernsoldeer
+- Kleine 10W soldeerbout en harskernsoldeer
 
 ## De loc openen
 
@@ -77,7 +77,7 @@ Door N-schaal DC-locs om te bouwen naar DCC, kun je ze op je DCC-layout laten ri
 </div>
 </div>
 
-## More
+## Meer
 
 - De complete TCS Z2-handleiding staat [hier](https://www.tcsdcc.com/product-page/z2)
 - TCS biedt een “GOOF-PROOF” Garantie, dus ga aan de slag en bouw ook jouw locs om naar DCC.
