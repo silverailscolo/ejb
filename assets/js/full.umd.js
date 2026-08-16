@@ -65,7 +65,7 @@
   function S(e) {
     return "" ===
       (e = (function (e) {
-        for (; e.endsWith("\0"); ) e = e.slice(0, -1);
+        for (; e.endsWith("\0");) e = e.slice(0, -1);
         return e;
       })(e).trim())
       ? void 0
@@ -766,7 +766,7 @@
         !this.options.onlyTiff && i.chunked)
       ) {
         let t = !1;
-        for (; r.size > 0 && !t && (i.canReadNextChunk || this.unfinishedMultiSegment); ) {
+        for (; r.size > 0 && !t && (i.canReadNextChunk || this.unfinishedMultiSegment);) {
           let { nextChunkOffset: n } = i,
             s = this.appSegments.some((e) => !this.file.available(e.offset || e.start, e.length || e.size));
           if (
@@ -1361,7 +1361,7 @@
   class Ve extends pe {
     parseBoxes(e = 0) {
       let t = [];
-      for (; e < this.file.byteLength - 4; ) {
+      for (; e < this.file.byteLength - 4;) {
         let i = this.parseBoxHead(e);
         if ((t.push(i), 0 === i.length)) break;
         e += i.length;
@@ -1393,13 +1393,13 @@
       if (i > 50) return !1;
       let n = 16,
         s = [];
-      for (; n < i; ) (s.push(e.getString(n, 4)), (n += 4));
+      for (; n < i;) (s.push(e.getString(n, 4)), (n += 4));
       return s.includes(this.type);
     }
     async parse() {
       let e = this.file.getUint32(0),
         t = this.parseBoxHead(e);
-      for (; "meta" !== t.kind; ) ((e += t.length), await this.file.ensureChunk(e, 16), (t = this.parseBoxHead(e)));
+      for (; "meta" !== t.kind;) ((e += t.length), await this.file.ensureChunk(e, 16), (t = this.parseBoxHead(e)));
       (await this.file.ensureChunk(t.offset, t.length),
         this.parseBoxFullHead(t),
         this.parseSubBoxes(t),
@@ -1440,7 +1440,7 @@
         s,
         r = e.start,
         a = this.file.getUint16(r);
-      for (r += 2; a--; ) {
+      for (r += 2; a--;) {
         if (
           ((t = this.parseBoxHead(r)),
           this.parseBoxFullHead(t),
@@ -1465,7 +1465,7 @@
         h = a + n + s,
         u = 2 === e.version ? 4 : 2,
         c = this.file.getUintBytes(i, u);
-      for (i += u; c--; ) {
+      for (i += u; c--;) {
         let e = this.file.getUintBytes(i, o);
         i += o + l + 2 + r;
         let u = this.file.getUint16(i);
@@ -2005,7 +2005,7 @@
     let i,
       n = [];
     if (!e) return n;
-    for (; null !== (i = t.exec(e)); ) n.push(i);
+    for (; null !== (i = t.exec(e));) n.push(i);
     return n;
   }
   function ht(e) {
@@ -2183,7 +2183,7 @@
     }
     async findPngChunksInRange(e, t) {
       let { file: i } = this;
-      for (; e < t; ) {
+      for (; e < t;) {
         let t = i.getUint32(e),
           n = i.getUint32(e + 4),
           s = i.getString(e + 4, 4).toLowerCase(),
@@ -2223,7 +2223,7 @@
       let { chunk: t } = e,
         i = t.getUint8Array(0, 81),
         n = 0;
-      for (; n < 80 && 0 !== i[n]; ) n++;
+      for (; n < 80 && 0 !== i[n];) n++;
       let r = n + 2,
         a = t.getString(0, n);
       if ((this.injectKeyValToIhdr("ProfileName", a), s)) {
@@ -2692,7 +2692,7 @@
         a = this.chunk.getUint32(128),
         o = 132,
         l = this.chunk.byteLength;
-      for (; a--; ) {
+      for (; a--;) {
         if (
           ((e = this.chunk.getString(o, 4)),
           (t = this.chunk.getUint32(o + 4)),

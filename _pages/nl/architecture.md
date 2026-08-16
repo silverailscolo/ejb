@@ -93,7 +93,7 @@ Op zoek naar ecologische bouwmaterialen?
 : Circulaire Marktplaats [Bork](https://www.borkgroep.nl/circulair-bouwmateriaal/)
 
 Energiezuinige gebouwen
-: [Passivhaus](https://phi.org)
+: [Passivhaus](https://passivehouse.com)
 : [Warmtepomp-Weetjes.nl](https://www.warmtepomp-weetjes.nl) de praktijk van een warmtepomp
 : [NIBE warmtepompen](https://voorschrijvers.nibe.eu/kennis-en-inspiratie)
 : [MyEnergi.com Zappi v2](https://www.myenergi.com/nl/zappi-ev-lader/) EV laadpaal ([update firmware](https://support.myenergi.com/hc/en-gb/articles/360020109017-Current-firmware-versions-updating-your-firmware))

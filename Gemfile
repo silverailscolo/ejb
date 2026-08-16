@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'classifier-reborn'
+    gem 'classifier-reborn', '>= 2.3.0'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
@@ -27,7 +27,7 @@ group :jekyll_plugins do
     gem 'html-proofer'
 end
 group :other_plugins do
-    gem 'css_parser', '~> 1.7'
+    gem 'css_parser', '>= 3.0.0'
     gem 'feedjira'
     gem 'httparty'
     gem 'mini_magick'

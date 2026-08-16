@@ -43,6 +43,29 @@ Interested in this kit? [Mail me to get a quote](mailto:link.egbert@mac.com)
 {{ '/assets/img/blog/tourneobox/IMG_6588.jpeg' | relative_url }}:Fixer hooks onto floor
 {% endgallery %}
 
+## Mounting Instructions
+
+1. Remove the rear seats from the car.
+2. Place the Bottom Plate at the back on the ground, and mount the four bulkheads A to D with bolts + nuts in the T-holes. 3. Place the triangles L and R on the outside of baffles B and C. Attach with a bolt + nut.
+3. Place the whole thing upright and click the Front Bottom Plate (with the Boxio recess on the front right) to the Back Bottom Plate.
+4. Attach the Front Base Plate to the dividers A-D with 4 bolts + nuts.
+5. Open the tailgate and place the assembly on the floor, just in front of the belt points.
+6. Guide the rear roller belts along the base plate (lift the buckles). Now slide the whole thing forward into the car until the Rear Bottom Plate comes just past the sill.
+7. Prepare the Fixer by turning the J-bolts out to the maximum. Hook the bolts through the openings in the middle of the Front Base Plate over the bars in the front seat points underneath.
+8. Place the long spruce slats in the recesses in the partitions A-C. Place the short spruce slats in the bulkheads C-D.
+9. Place the Front Top Plate (2 parts) on the baffles A-D and install the bolts.
+10. Screw the short spruce slats to the front right lid (check that the slats connect; on the long spruce slats).
+11. Place the Top Plate Rear on the bulkheads A-D and install the bolts.
+12. Glue the drawers together.
+13. Attach the latches on the back of the drawers with 4 small parkers. Behind the "Tourneo" cover plate, mount a latch + guide to the left, on the drawer "Box" to the right.
+14. Slide the drawers into the back of the Box, "Tourneo" on the left, "Box" on the right. The bolts slide to the outside and then fall into a recess in the baffles A or D.
+
+Pack up.
+A folded Caddy Flap Tent fits between the Box and the 2nd row of seats on the left.
+To use the dry toilet, fold the right seat in the 2nd row forward and lift the small lid to access the toilet box.
+
+Have a nice trip.
+
 ## Details
 
 - Price for standard kit: €1.200 excluding VAt and postage

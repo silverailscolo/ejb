@@ -4,7 +4,7 @@ layout: page
 permalink: /house/mk56/
 title: Appartement
 lang: nl
-date: 2026-06-14
+date: 2026-07-27
 nav: false
 support: [gallery]
 toc:
@@ -17,15 +17,18 @@ toc:
 <figcaption class="kleiner">groepenkast 2026 (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
 </figure>
 
-In juni 2026 is de [groepenkast](/assets/pdf/Groepenkast_JL56.pdf) van 3 naar 8 groepen uitgebreid door Reno Installatiebedrijf.
+In juni 2026 is de groepenkast uitgebreid van 3 naar 8 groepen door Reno Installatiebedrijf.
+In juli 2026 heeft Stedin de aansluiting verzwaard naar 3x25A.
 
 ## Verwarming/warmwater
 
-- Onderhoud door Dennis en Lars van Meurs
-- [Handleiding CV-ketel](/assets/pdf/Remeha_Avanta_24C_2021.pdf)
-<figure><img src='{{ "/assets/img/house/jl56/Remeha_CVketel_foutcodes.png" | relative_url }}' alt='Foutcodes CV-ketel' class='img-fluid'>
-<figcaption class="kleiner">Foutcodes CV-ketel (<a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption>
-</figure>
+- Ventilatiewarmtepomp model: QE4 + QT draadloze thermostaat (USB voeding).
+- [Handleiding qvantum QE4 warmtepomp](https://www.qvantum.com/wp-content/uploads/2026/01/1011527-A-1.pdf)
+- Onderhoudscontract bij [Neeleman](https://neeleman.com), Waddinxveen, tel. 088 - 500 6000
+- Storingen: eerst zelf [deze stappen zetten](https://neeleman.com/installatieservice/storing), dan 088 - 500 6000 bellen
+- Staat Router aan? (met de 3 antennes bovenop de warmtepomp) Anders kan de thermostaat geen contact maken.
+- Werkschakelaar: rechts van de warmtepomp in het bovenste vakje onder het aanrecht: het plankje achterin naar je toe trekken. Grijze blok, aan rechterkant handle OMLAAG = UIT. 5 Minuten wachten, dan omhoog = Reset.
+- Garantie tot: 24 juli 2028
 
 ## Handleidingen
 
@@ -41,5 +44,6 @@ In juni 2026 is de [groepenkast](/assets/pdf/Groepenkast_JL56.pdf) van 3 naar 8 
 
 ## Klussen
 
-- Extra leidingen in vloer trekken voor warmtepomp
+- [x] Extra leidingen in vloer getrokken voor warmtepomp en inductiekookplaat (7/2026)
+- [ ] Luchtkanaal doortrekken naar badkamer
 - Buitenschilderwerk (daar blijf je mee bezig)

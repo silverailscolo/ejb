@@ -109,7 +109,7 @@ module Jekyll
           end
 
           if exif != nil
-            puts exif.to_hash
+            # puts exif.to_hash
             capt = exif[:"description"] || "" # XMP Caption field
             # fall thru to: headline (IPTC), image_description (EXIF)
             # Valid exiftag.exiftool tags: EXIF: image_description; IPTC: headline; XMP: Description, Comment;

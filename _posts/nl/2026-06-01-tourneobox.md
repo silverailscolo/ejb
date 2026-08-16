@@ -28,7 +28,7 @@ Door het bed zo laag mogelijk te houden, kun je overal rechtop in het bed zitten
 Achterin bevat de TourneoBox onder het bed twee afsluitbare laatjes van 40 x 60 cm, in te delen naar keuze.
 Daaronder passen links en rechts twee compacte reiskoffers voor een opgeruimde reis.
 
-Het middenvak biedt ruimte voor lange voorwerpen en een compacte jerrycan.
+Het middenvak biedt ruimte voor een compacte jerrycan en lange voorwerpen.
 
 Rechtsvoor bevat de bodemplaat een uitsparing voor de [Boxio Toilet](https://boxio.nl/products/urinedivergerend-toilet-starterset) (niet inbegrepen). Door de rechter stoel voorover te klappen en het luikje opzij te leggen, kun je altijd naar de WC.
 
@@ -41,14 +41,37 @@ Rechtsvoor bevat de bodemplaat een uitsparing voor de [Boxio Toilet](https://box
 {{ '/assets/img/blog/tourneobox/IMG_6588.jpeg' | relative_url }}:Fixer haakt in bodem
 {% endgallery %}
 
+## Instructies
+
+1. Verwijder de achterste stoelen uit de auto.
+2. Plaats de Onderplaat Achter op de grond, en monteer de vier schotten A t/m D met boutjes + moeren in de T-gaten.
+3. Plaats de driehoeken L en R aan de buitenzijde van schotten B en C. Bevestig met een bout + moer.
+4. Zet het geheel rechtop en klik de Onderplaat Voor (met de Boxio-uitsparing rechtsvoor) aan de Onderplaat Achter.
+5. Bevestig met 4 bouten + moeren de Onderplaat Voor aan de tussenschotten A-D.
+6. Open de achterklep en plaats het geheel op de vloer, net voor de gordelpunten.
+7. Geleidt de achterste rolgordels langs de bodemplaat (til de gespen op). Schuif het geheel nu naar voren de auto in totdat de Onderplaat Achter net voorbij de dorpel komt.
+8. Maak de Fixer klaar door de J-bouten maximaal uit te draaien. Haak de bouten vie de openingen in het midden van de Onderplaat Voor over de stangetjes in de voorste stoelpunten er onder.
+9. Leg de lange vuren latten in de uitsparingen in de schotten A-C. Leg de korte vuren latten in de schotten C-D.
+10. Plaats de Bovenplaat Voor (2 delen) op de schotten A-D en monteer de bouten.
+11. Schroef de korte vuren latten aan de deksel rechtsvoor (controleer dat de latten aansl;uiten op de lange vuren latten).
+12. Plaats de Bovenplaat Achter op de schotten A-D en monteer de bouten.
+13. Lijm de lades in elkaar.
+14. Monter de grendels op de achterzijde van de lades met 4 kleine parkers. Monteer achter de dekplaat "Tourneo" een grendel + geleider naar links, op de lade "Box" naar rechts.
+15. Schuif de lades achterin de Box, "Tourneo" links, "Box" rechts. De grendels schuiven naar de buitenkant en vallen dan in een uitsparing in de schotten A resp. D.
+
+Spullen inpakken. Het pakketje met de Caddy Kleptent past links tussen de Box en de 2e zitrij.
+Om het droogtoilet te gebruiken, klap je de rechter stoel op de 2e rij naar voren en til je de kleine deksel op.
+
+Fijne reis.
+
 ## Details
 
 - Prijs voor standaard bouwpakket: € 1.200 excl. BTW en verzendkosten
 - Geschikt voor: 2024-heden Ford Grand Tourneo Connect/Volkswagen Caddy Maxi (lange versie, 7 zitplaatsen)
 - Materiaal: berken multiplex, vuren, MDF
-- Gewicht: 6 kg
-- Afmeting pakket als losse delen: 60 x 120 x 12 cm
-- Montagemateriaal: 20x RVS M5 boutjes met moer, 8x M5 inbusboutjes
+- Gewicht: 15 kg (max. 1 kg per onderdeel)
+- Afmeting pakket als losse onderdelen: 60 x 120 x 12 cm
+- Montagemateriaal meegeleverd: 20x RVS M5 boutjes 35 mm met moer, 8x M5 inbusboutjes 10 mm, 2x M5 J-bout met vleugelmoer.
 - Niet inbegrepen:
   - Gereedschap: inbussleutel 5 mm, kleine kruiskopschroevendraaier
   - Matras 2x60 cm
@@ -56,6 +79,7 @@ Rechtsvoor bevat de bodemplaat een uitsparing voor de [Boxio Toilet](https://box
   - Jerrycan
   - Raamverduistering
   - Ventilatieroosters/hor
+  - Caddy Kleptent
 - De TourneoBox wordt aan de vloer verankerd in de bestaande punten van de achterste stoelen.
 
 Interesse in deze kit? [Mail voor een offerte](mailto:link.egbert@mac.com)
@@ -76,5 +100,5 @@ Dan staat de interieurbewaking uit en kun je - als het nodig is - elk van de deu
 </div>
 
 {% comment %}
-Not working: <span class="fa-regular fa-unlock"></span> because `fa-regular` is not installed
+Not working: <span class="fa-regular fa-unlock"></span> because paid font `fa-regular` is not installed
 {% endcomment %}

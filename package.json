@@ -23,11 +23,11 @@
   },
   "homepage": "https://www.ebroerse.nl",
   "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "1.10.0",
+    "@shopify/prettier-plugin-liquid": "1.11.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.7",
-    "pre-commit": "^1.2.2",
-    "prettier": "^3.8.1"
+    "lint-staged": "^17.2.0",
+    "pre-commit": "^2.0.0",
+    "prettier": "^3.9.6"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
@@ -35,7 +35,10 @@
   "dependencies": {
     "http-server": "^14.1.1",
     "isotope-layout": "^3.0.6",
-    "jquery": "^3.7.1",
-    "lightgallery": "^2.7.2"
+    "jquery": "^4.0.0",
+    "lightgallery": "^2.9.0"
+  },
+  "allowScripts": {
+    "pre-commit@2.0.0": true
   }
 }

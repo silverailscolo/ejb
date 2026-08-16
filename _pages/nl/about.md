@@ -8,7 +8,7 @@ subtitle: ontwerper, programmeur, verzamelaar
 
 profile:
   align: right
-  image: banners/Flax-Vlas-BR11.jpg
+  image: banners/extreme_heat_cancellation.jpg
   image_circular: false # crops the image to make it circular shaped
   more_info: >
     <p>Bouw jij al biobased? WP? PV? EV?</p>
