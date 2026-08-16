@@ -27,7 +27,7 @@ tags:
 
 Using the Base Mast Kit ([Digitrax article SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), N scale) as - well - the base - we add the typical &quot;Darth Vader&quot; Denver &amp; Rio Grande Western signal hood from styrene.
 
-If desired, cut off the upper head just above the lower head (Secret tip: you can make a dwarf from this stump by soldering it to a copper tube for ground + a wire to each LED).
+If desired, cut off the upper head just above the lower head (Secret tip: you can make a [dwarf signal](../dcc-dwarf/) from this stub).
 
 Start by cutting a strip of 0.5 mm styrene the width of the target. Mark the shape, the centerline and the 3 holes on the strip.
 Drill the 1 mm holes before separating the individual items. Cut roughly to shape with an X-Acto knife and sand to an oval.
@@ -61,3 +61,7 @@ Finish your mast by adding a platform and styrene stock ladder, and paint the co
 <figure><img src='{{ "/assets/img/trains2/DSCF2960_signal.jpg" | relative_url }}' alt='Customized Digitrax Base Mast' class='img-fluid'>
 <figcaption class="kleiner">Customized Digitrax Base Mast (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
+## More
+
+- How to [create a dwarf signal](../dcc-dwarf/) from an SMBK

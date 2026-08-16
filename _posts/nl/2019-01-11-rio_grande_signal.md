@@ -26,7 +26,7 @@ tags:
 
 De Base Mast Kit ([Digitrax artikel SMBK](https://www.digitrax.com/tsd/KB619/digitrax-signal-mast-base-kit/), schaal N) vormt - i.d.d. - de basis. We voegen er de typische D&amp;RGW &quot;Darth Vader&quot; kap van styreen aan toe.
 
-Als je geen distant signal nodig hebt, zaag dan het bovenste seinhoofd af net boven de onderste (geheime tip: je kunt van deze stronk een dwergsein maken door het stukje aan een koperen buis voor aarde te solderen + een draad voor elke LED).
+Als je geen distant signal nodig hebt, zaag dan het bovenste seinhoofd af net boven de onderste (geheime tip: je kunt van deze stronk een [dwergsein](../dcc-dwarf/) maken).
 
 Begin met het knippen van een strook ter breedte van het dvhild. Markeer de vorm, de middellijn en de 3 gaten op de strip. Boor de gaten van 1 mm voordat u de afzonderlijke items lossnijdt.
 
@@ -59,3 +59,7 @@ Maak je mast af door een platform en een styreen ladder toe te voegen en spuit h
 <figure><img src='{{ "/assets/img/trains2/DSCF2960_signal.jpg" | relative_url }}' alt='Op maat gemaakte Digitrax Base Mast' class='img-fluid'>
 <figcaption class="kleiner">Op maat gemaakte Digitrax Base Mast (
 <a prefix="dct: https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/Image" property="dct:title" rel="dct:type">Image</a> &copy;<a prefix="cc: https://creativecommons.org/ns#" href="https://www.ebroerse.nl" property="cc:attributionName" rel="cc:attributionURL">EJB</a> as <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a>)</figcaption></figure>
+
+## Meer
+
+- Maak een [dwergsein](../dcc-dwarf/) van een SMBK
