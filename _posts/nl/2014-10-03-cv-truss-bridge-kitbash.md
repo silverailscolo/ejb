@@ -9,8 +9,10 @@ categories:
   - how-to
 tags:
   - brug
+  - kit
   - zelfbouw
   - usa
+  - silverton
 ---
 
 Op de High Line rijdt de trein vlak voor Silverton over een Pratt Truss stalen vakwerkbrug. Met enkele aanpassingen heb ik die gebouwd op basis van een [Central Valley #1810 150' Truss Bridge](https://cvmw.com/1800/1810.htm) injection-molded styreen bouwpakket.

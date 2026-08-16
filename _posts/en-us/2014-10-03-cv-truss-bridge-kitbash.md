@@ -9,8 +9,10 @@ categories:
   - how-to
 tags:
   - bridge
+  - kit
   - custom
   - usa
+  - silverton
 ---
 
 On the High Line, the train runs just before Silverton over a Pratt Truss steel truss bridge.
