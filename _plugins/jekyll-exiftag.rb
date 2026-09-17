@@ -105,10 +105,13 @@ module Jekyll
               dateOffset = true
             end
           end
+          if (dt == nil)
+            return ""
+          end
           # !dateOffset: 2024:03:28 19:53:26 (string from exiftools)
-          #  dateOffset: 2024-09-20 21:14:43 +0000 (DateTime object from Ruby file or special?)
-          if (dateOffset or dt.is_a?(Time))
-            dt_parts = %w| dt.strftime("%Y-%m-%d") dt.strftime("%k:%M") |
+          # dateOffset: 2024-09-20 21:14:43 +0000 (DateTime object from Ruby file)
+          if (dateOffset)
+            dt_parts = %W| #{dt.strftime("%Y-%m-%d")} #{dt.strftime("%k:%M")} |  # array
           else
             dt_parts = dt.split(" ")
             dt_parts[0].tr(":", "-") # replace colon by dash in date
